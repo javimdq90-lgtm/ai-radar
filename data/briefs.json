@@ -1,22 +1,4 @@
 {
- "021013f45386": {
-  "storyId": "021013f45386",
-  "itemIds": [
-   "021013f45386"
-  ],
-  "writtenAt": "2026-10-15T15:08:06.220Z",
-  "headline": "40 state AGs move to protect user data in Character.AI bankruptcy sale to Disney",
-  "dek": "Led by New York's Letitia James, 40 bipartisan attorneys general filed a notice of interest in Character.AI's Chapter 11 case, seeking child-safety and data protections for any buyer of its assets, including Disney.",
-  "keyPoints": [
-   "Character.AI announced Tuesday it was filing for Chapter 11 and selling some assets to Disney; Disney did not immediately respond to a request for comment.",
-   "The 40 AGs filed a notice of interest to put parties on notice of regulatory issues in any sale or transfer of the business or assets.",
-   "The states opened a probe in 2024 into consumer protection and privacy concerns and say they found chatbots posing as licensed professionals, weak age checks, and misleading safety claims.",
-   "They want the buyer to adopt age-assurance systems, limits on minors' use, crisis safeguards, and user data deletion.",
-   "CEO Colin Adams says the filing is not an accurate portrayal of the platform's safety and that the company monitors and removes violating content."
-  ],
-  "context": "The states' investigation followed a 2024 lawsuit by the mother of a 14-year-old who died by suicide allegedly seconds after talking with a Character.AI chatbot. The states say they were working with the company on these issues but reached no agreement before the bankruptcy filing. The case raises the question of what happens to sensitive chat data, including that of many minors, when an AI company is sold.",
-  "whatsNext": "Watch whether the bankruptcy judge imposes the states' requested conditions on the purchaser of Character.AI's assets."
- },
  "66cb1e68848f": {
   "storyId": "66cb1e68848f",
   "itemIds": [
@@ -29,52 +11,34 @@
    "25432b6b093a",
    "2c1c2c493e6e"
   ],
-  "writtenAt": "2026-10-15T15:07:52.536Z",
-  "headline": "Google releases Gemini 4 Argon to paying users and API developers worldwide",
-  "dek": "Google's Gemini 4 Argon is available via API at $2/$10 per million tokens through November 30, and in the Gemini app for Pro and Ultra subscribers; Antigravity access is Ultra-only.",
+  "writtenAt": "2026-10-15T15:13:51.344Z",
+  "headline": "Google releases Gemini 4 Argon globally, limited to paid Gemini plans and API",
+  "dek": "Gemini 4 Argon is available via API at $2/$10 per million tokens through November 30, and to AI Pro and Ultra subscribers; Antigravity and AI Studio access is Ultra-only, per Ars Technica.",
   "keyPoints": [
-   "Argon is available globally via the API in AI Studio, to Ultra subscribers in Antigravity, and to Pro and Ultra subscribers in the Gemini app and AI Mode in Search, Google says.",
-   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off. Ars Technica reports it rises to $4/$20 after November 30.",
-   "Google says Argon ranks #1 on the Vals Index. Artificial Analysis, cited by Latent Space, puts it level with GPT-6 Astra on its Intelligence Index at about 60% of the cost per task.",
-   "Google says Argon raised agentic code submissions by over 35% and cut rollbacks by nearly a third. Latent Space notes these are internal claims, not controlled measurements.",
-   "Google is offering 10,000 scientists the top Antigravity usage tier free for six months, and is expanding access for cyber defenders through its Fairwind Program."
+   "Google says Argon is available via the API and to AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search. Antigravity access is Ultra-only, and Ars Technica reports AI Studio is too.",
+   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off. Ars Technica reports rates double to $4/$20 after November 30.",
+   "Google says Argon ranks #1 on the Vals Index. Artificial Analysis puts it level with GPT-6 Astra on its Intelligence Index at about 60% of Astra's cost per task.",
+   "Google reports 35%+ more agentic code submissions and nearly one-third fewer rollbacks in Antigravity. Latent Space notes these are internal claims, not controlled productivity measurements.",
+   "Google is offering 10,000 scientists a free six-month top Antigravity tier and expanding to hundreds more Fairwind partners for cyber defense. Google DeepMind reports an 87% ERQA score for robotics."
   ],
-  "context": "Ars Technica reports Google revealed Argon a few weeks ago and held back a full release over concerns about misuse. Google has also recently limited free users to Flash-Lite, and says Gemini 3.1 Pro stays available for now. The launch puts Google's newest model against rivals such as GPT-6 Astra and Opus 5.5 on both benchmarks and price.",
-  "whatsNext": "Watch for the November 30 price increase to $4/$20, and whether Google extends Argon in Antigravity beyond Ultra; Google has declined to say when or if it will."
- },
- "7908d899cb3e": {
-  "storyId": "7908d899cb3e",
-  "itemIds": [
-   "7908d899cb3e"
-  ],
-  "writtenAt": "2026-10-15T15:07:56.784Z",
-  "headline": "Modal raises $750M at $15.75B valuation after passing $1B in annualized revenue",
-  "dek": "Accel led the Series D for the AI infrastructure startup, which says usage has tripled since its Series C and revenue has grown more than 15x year over year.",
-  "keyPoints": [
-   "Modal says it crossed $1B in annualized run rate and raised a $750M Series D at a $15.75B valuation, led by Accel.",
-   "The company says usage has tripled since its Series C and it has grown more than 15x year over year.",
-   "Sandboxes, launched in 2023, is now a $300M run rate product on its own, according to the founder's fundraise post.",
-   "Modal says it has spun up close to 3 billion sandboxes, which scale to a million concurrent.",
-   "Use cases for Sandboxes include background agents, reinforcement learning and vibecoding platforms."
-  ],
-  "context": "Modal sells serverless compute for AI workloads, competing in a field of GPU cloud and inference infrastructure providers. Latent Space notes that it moves from its infra unicorn category to decacorn, with valuation up 3x in five months. The growth reflects rising demand for infrastructure to run code generated by AI agents."
+  "context": "Ars Technica says Google revealed Argon a few weeks earlier and held back full release over misuse concerns. The launch follows a pattern of Google reserving compute-heavy models for higher-priced tiers; Ars notes free users were recently limited to Flash-Lite. Independent results are mixed: Arena ranks Argon High fifth on its agent leaderboard, behind Opus 5.5, GPT-6.1 Sol, Fable 5.1 and GPT-6 Astra.",
+  "whatsNext": "Watch November 30, when API pricing rises to $4 and $20 per million input and output tokens, and whether Google extends Antigravity access beyond Ultra, which it has declined to clarify."
  },
  "e422d5ed3681": {
   "storyId": "e422d5ed3681",
   "itemIds": [
    "e422d5ed3681"
   ],
-  "writtenAt": "2026-10-15T15:08:01.512Z",
-  "headline": "Eight states sue OpenAI, alleging ChatGPT is unsafe for children",
-  "dek": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed separate suits under consumer protection laws, accusing OpenAI of putting profit over safety and failing to warn of ChatGPT's risks.",
+  "writtenAt": "2026-10-15T15:13:55.828Z",
+  "headline": "Eight states sue OpenAI, alleging ChatGPT is unsafe for kids and misrepresented",
+  "dek": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed separate suits under consumer protection laws, seeking civil penalties and an end to what they call misleading safety claims.",
   "keyPoints": [
-   "The eight states filed separate lawsuits alleging OpenAI violated local consumer protection laws by failing to warn customers about ChatGPT's dangers and putting profits over safety.",
-   "The complaints say OpenAI presented ChatGPT as a safe, youth-appropriate tool when it was dangerous to vulnerable users, including by encouraging delusions and offering dangerous medical advice.",
-   "The states also accuse OpenAI of collecting data from minors and not doing enough to keep underage users off the chatbot.",
-   "Arizona's suit says OpenAI has become a cautionary tale of a profit-at-all-costs mindset. The suits cite wrongful-death cases and recent rogue AI hacking incidents as evidence of recklessness.",
-   "OpenAI says it has built industry-leading age-specific protections, including parental controls and break reminders, and wants pragmatic AI policy that applies to the whole industry."
+   "The eight states filed separate lawsuits alleging OpenAI put profits over safety and failed to warn customers about ChatGPT's dangers, violating state consumer protection laws.",
+   "The states say OpenAI presented ChatGPT as a safe, youth-appropriate tool while it was dangerous to vulnerable users, including by encouraging delusions and offering dangerous medical advice.",
+   "They also accuse OpenAI of collecting data from minors and not doing enough to keep underage users off the chatbot.",
+   "OpenAI spokesperson Drew Pusateri says the company has built industry-leading age-specific protections, including parental controls and break reminders, and wants to work with states on AI policy for the whole industry.",
+   "The states want civil penalties and an order to stop misleading the public; some also seek deletion of unlawfully collected personal data."
   ],
-  "context": "The suits follow earlier lawsuits from families of teens and adults who allege ChatGPT played a role in their loved ones' deaths, which the states cite. They add state-level enforcement to growing scrutiny of how AI chatbots treat minors and vulnerable users.",
-  "whatsNext": "The states are asking courts to impose civil penalties, order OpenAI to stop misleading the public about ChatGPT's safety, and in some cases require deletion of unlawfully collected personal data."
+  "context": "The suits cite earlier lawsuits from families of teens and adults who allege ChatGPT played a role in their loved ones' deaths. Arizona's complaint argues OpenAI has moved away from its original nonprofit, safety-first mission. The filings add state-level enforcement to growing legal pressure on chatbot makers over child safety."
  }
 }
