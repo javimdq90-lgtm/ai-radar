@@ -3,10 +3,11 @@
  *
  *   npm run ingest              fetch + enrich
  *   npm run ingest -- --no-ai   fetch only (items are enriched on the next normal run)
+ *   npm run ingest -- --redo    also re-enrich the last few days, after changing a prompt
  */
 import { appendFile } from "node:fs/promises";
 import { enrichBatch } from "@/lib/claude";
-import { fetchSource } from "@/lib/fetchers";
+import { clean, fetchSource } from "@/lib/fetchers";
 import { SOURCES } from "@/lib/sources";
 import { canonicalUrl, itemId, loadItems, saveItems } from "@/lib/store";
 import { CATEGORIES, type Category, type Item } from "@/lib/types";
@@ -19,11 +20,28 @@ const BATCH_SIZE = 25;
 /** Cap per run so a backlog (e.g. after a long outage) can't blow up one run's cost. */
 const MAX_ENRICH_PER_RUN = 200;
 
+const ENRICHMENT_FIELDS = [
+  "enrichedAt", "irrelevant", "summary", "whyItMatters", "category", "importance", "entities", "storyId",
+] as const satisfies readonly (keyof Item)[];
+
 const noAi = process.argv.includes("--no-ai");
+const redo = process.argv.includes("--redo");
 const hoursAgo = (h: number) => new Date(Date.now() - h * 3_600_000);
 
 async function main() {
   const items = await loadItems();
+  if (redo) {
+    const cutoff = hoursAgo(DEDUPE_WINDOW_HOURS).toISOString();
+    let reset = 0;
+    for (const item of items) {
+      if (item.publishedAt < cutoff) continue;
+      item.title = clean(item.title, 300) ?? item.title;
+      item.snippet = clean(item.snippet);
+      for (const key of ENRICHMENT_FIELDS) delete item[key];
+      reset++;
+    }
+    console.log(`Redo: cleared enrichment on ${reset} items from the last ${DEDUPE_WINDOW_HOURS}h`);
+  }
   const byId = new Map(items.map((i) => [i.id, i]));
   const seenUrls = new Set(items.map((i) => canonicalUrl(i.url)));
   const since = hoursAgo(LOOKBACK_HOURS);

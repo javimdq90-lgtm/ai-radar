@@ -33,7 +33,8 @@ export const SOURCES: Source[] = [
 
   // Writers
   { id: "simonw", name: "Simon Willison", kind: "rss", url: "https://simonwillison.net/atom/entries/" },
-  { id: "import-ai", name: "Import AI", kind: "rss", url: "https://importai.substack.com/feed" },
+  // importai.substack.com returns 403 to GitHub's runners; Jack Clark mirrors every issue here.
+  { id: "import-ai", name: "Import AI", kind: "rss", url: "https://jack-clark.net/feed/" },
   { id: "interconnects", name: "Interconnects", kind: "rss", url: "https://www.interconnects.ai/feed" },
   { id: "latent-space", name: "Latent Space", kind: "rss", url: "https://www.latent.space/feed" },
 ];

@@ -6,7 +6,7 @@ const esc = (s: string) =>
 const fmtDate = (iso: string) =>
   new Date(iso).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
 
-const C = { ink: "#111111", muted: "#6b6b6b", rule: "#e6e6e6", accent: "#2f5bff", bg: "#f6f6f4" };
+const C = { ink: "#161616", muted: "#5d5c58", rule: "#dedad1", accent: "#b5121b", bg: "#f3f1ec" };
 
 function links(issue: Issue, storyId: string) {
   return (issue.links[storyId] ?? [])

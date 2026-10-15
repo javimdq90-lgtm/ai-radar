@@ -72,8 +72,8 @@ export type Enrichment = z.infer<typeof EnrichmentSchema>["items"][number];
 const ENRICH_SYSTEM = `You triage AI news for one reader: someone who follows AI closely (builder, not a researcher) and wants signal, not hype.
 
 For every new item, return:
-- relevant: false if it is not about AI/ML (common on Hacker News and general research feeds) or is a sales pitch, webinar or job post. If false, the other fields can be empty/1.
-- summary: 1-2 plain sentences saying what actually happened, with the specifics (names, numbers, what's new). No hype, no "This article discusses". Work only from the title and snippet; don't invent details.
+- relevant: false only if it is clearly not about AI/ML (general science, politics or hardware with no AI angle), or is an event ticket offer, sales pitch, webinar or job post. AI culture, commentary, criticism and quirky experiments ARE relevant; when unsure, keep it and give it a low importance.
+- summary: 1-2 plain sentences stating the news itself: who did what, with the specifics (names, numbers, what's new). Write it as a news brief, never about the source or the coverage: no "Hacker News is discussing", "X has posted its announcement", "this article", "the same event as". If you only have a title, restate the news plainly in one sentence. Don't invent details.
 - whyItMatters: one sentence on the consequence for people building with or following AI. Empty string if it would just repeat the summary.
 - category: models (new/updated models, benchmarks), research (papers, findings), products (apps and features for end users), open-source (open weights, repos, libraries), policy (regulation, safety, legal, labour), business (funding, deals, hiring, earnings), tools (developer tools, APIs, infra).
 - importance:

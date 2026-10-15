@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { StoryCard } from "@/components/story-card";
+import { CompactStory } from "@/components/story";
 import { getTopic } from "@/lib/site-data";
 import { CATEGORIES, CATEGORY_LABELS, type Category } from "@/lib/types";
 
@@ -18,20 +18,23 @@ export async function generateMetadata({ params }: PageProps<"/topic/[category]"
 export default async function TopicPage({ params }: PageProps<"/topic/[category]">) {
   const { category } = await params;
   if (!isCategory(category)) notFound();
-  const stories = await getTopic(category);
+  const { stories, generatedAt: now } = await getTopic(category);
 
   return (
-    <>
-      <h1 className="pt-6 font-serif text-3xl font-bold">{CATEGORY_LABELS[category]}</h1>
+    <div className="mx-auto max-w-3xl pt-8">
+      <h1 className="font-serif text-4xl font-bold tracking-tight sm:text-5xl">{CATEGORY_LABELS[category]}</h1>
+      <p className="meta mt-2">Newest first</p>
       {stories.length ? (
-        <div className="divide-y divide-rule">
+        <div className="mt-4 divide-y divide-rule border-t-[3px] border-ink">
           {stories.map((s) => (
-            <StoryCard key={s.id} story={s} compact />
+            <div key={s.id} className="py-5">
+              <CompactStory story={s} now={now} withSummary />
+            </div>
           ))}
         </div>
       ) : (
         <p className="py-10 text-muted">Nothing here yet.</p>
       )}
-    </>
+    </div>
   );
 }

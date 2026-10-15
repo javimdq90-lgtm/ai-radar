@@ -2,12 +2,13 @@ import type { Item, Story } from "./types";
 
 const HOUR = 3_600_000;
 
-/** Score halves every this many hours, so a big story stays up for about a day. */
-const HALF_LIFE_HOURS = 18;
+/** Score halves every this many hours, so a major story leads for a day or two. */
+const HALF_LIFE_HOURS = 30;
 
 /**
- * Groups enriched items into stories and ranks them. Ranking: Claude's importance,
- * plus a bump when several sources covered it, decayed by age.
+ * Groups enriched items into stories and ranks them. Each importance point doubles the
+ * weight, so a 5 outranks a fresh 3 for about two days; each extra source adds 30%
+ * (capped at 2.5x); the total halves every HALF_LIFE_HOURS.
  */
 export function buildStories(items: Item[], now = new Date()): Story[] {
   const groups = new Map<string, Item[]>();
@@ -20,13 +21,13 @@ export function buildStories(items: Item[], now = new Date()): Story[] {
   const stories: Story[] = [];
   for (const [id, group] of groups) {
     group.sort((a, b) => a.publishedAt.localeCompare(b.publishedAt));
-    // The item that opened the story leads it; later coverage is listed under it.
-    const lead = group.find((i) => i.id === id) ?? group[0];
+    // Lead with the item Claude rated highest (usually the main announcement), earliest on ties.
+    const lead = group.reduce((best, i) => ((i.importance ?? 1) > (best.importance ?? 1) ? i : best));
     const sourceCount = new Set(group.map((i) => i.sourceId)).size;
     const importance = Math.max(...group.map((i) => i.importance ?? 1));
     const firstSeen = group[0].publishedAt;
     const ageHours = Math.max(0, (now.getTime() - new Date(firstSeen).getTime()) / HOUR);
-    const coverage = Math.min(1.5, Math.log2(sourceCount) * 0.75);
+    const coverage = Math.min(2.5, 1 + 0.3 * (sourceCount - 1));
     stories.push({
       id,
       lead,
@@ -35,7 +36,7 @@ export function buildStories(items: Item[], now = new Date()): Story[] {
       category: lead.category ?? "products",
       importance,
       firstSeen,
-      score: (importance + coverage) * Math.pow(0.5, ageHours / HALF_LIFE_HOURS),
+      score: 2 ** importance * coverage * 0.5 ** (ageHours / HALF_LIFE_HOURS),
     });
   }
   return stories.sort((a, b) => b.score - a.score);

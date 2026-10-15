@@ -33,9 +33,22 @@ function toIso(value: string | number | undefined | null): string | null {
   return Number.isNaN(d.getTime()) ? null : d.toISOString();
 }
 
-function clean(text: string | undefined, max = 600): string | undefined {
+const NAMED_ENTITIES: Record<string, string> = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+
+/** Some feeds double-encode titles, so "isn&#8217;t" reaches us as literal text. */
+export function decodeEntities(text: string): string {
+  return text.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (match, code: string) => {
+    if (code[0] === "#") {
+      const n = code[1].toLowerCase() === "x" ? parseInt(code.slice(2), 16) : parseInt(code.slice(1), 10);
+      return Number.isFinite(n) && n > 0 && n < 0x110000 ? String.fromCodePoint(n) : match;
+    }
+    return NAMED_ENTITIES[code.toLowerCase()] ?? match;
+  });
+}
+
+export function clean(text: string | undefined, max = 600): string | undefined {
   if (!text) return undefined;
-  const t = text
+  const t = decodeEntities(text)
     .replace(/\s+/g, " ")
     .replace(/The post .{1,300} appeared first on .{1,100}$/, "") // WordPress feed footer
     .trim();
@@ -109,8 +122,7 @@ async function fetchDailyPapers(source: Source): Promise<RawItem[]> {
     }));
 }
 
-const stripTags = (html: string) =>
-  html.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"');
+const stripTags = (html: string) => html.replace(/<[^>]+>/g, " ");
 
 /** anthropic.com has no feed; read the cards on the news index instead. */
 export function parseAnthropicNews(html: string, baseUrl: string): Omit<RawItem, "sourceId">[] {

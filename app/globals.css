@@ -1,34 +1,87 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #fbfbf9;
-  --fg: #141414;
-  --muted: #6a6a66;
-  --rule: #e4e3de;
-  --accent: #2f5bff;
+  --paper: #fbfaf7;
+  --ink: #161616;
+  --ink-soft: #2e2e2c;
+  --muted: #5d5c58;
+  --rule: #dedad1;
+  --accent: #b5121b;
+  --accent-soft: #f6e4e2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #121212;
-    --fg: #ececea;
-    --muted: #9a9a95;
-    --rule: #2c2c2a;
-    --accent: #7d9bff;
+    --paper: #141413;
+    --ink: #efeee9;
+    --ink-soft: #d9d8d2;
+    --muted: #a5a39c;
+    --rule: #34332f;
+    --accent: #ff6b5e;
+    --accent-soft: #3a1d1a;
   }
 }
 
 @theme inline {
-  --color-bg: var(--bg);
-  --color-fg: var(--fg);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
   --color-muted: var(--muted);
   --color-rule: var(--rule);
   --color-accent: var(--accent);
-  --font-sans: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  --font-serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-inter), ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-serif: var(--font-newsreader), Charter, Georgia, serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--bg);
-  color: var(--fg);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+}
+
+@layer components {
+  .kicker {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .headline {
+    font-family: var(--font-serif);
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    text-wrap: pretty;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+  }
+  .headline:hover {
+    text-decoration-line: underline;
+  }
+  .dek {
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+  .meta {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .link {
+    text-decoration-line: underline;
+    text-decoration-color: var(--rule);
+    text-underline-offset: 0.2em;
+  }
+  .link:hover {
+    color: var(--accent);
+    text-decoration-color: currentColor;
+  }
 }

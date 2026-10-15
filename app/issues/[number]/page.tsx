@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { fmtDate } from "@/lib/format";
+import { fmtLongDate } from "@/lib/format";
 import { getIssue, getIssues } from "@/lib/site-data";
 import type { Issue } from "@/lib/types";
 
@@ -16,14 +16,19 @@ export async function generateMetadata({ params }: PageProps<"/issues/[number]">
   return { title: issue ? `#${issue.number}: ${issue.subject}` : "Not found" };
 }
 
-function Links({ issue, storyId }: { issue: Issue; storyId: string }) {
+function Sources({ issue, storyId }: { issue: Issue; storyId: string }) {
   const links = issue.links[storyId] ?? [];
+  if (!links.length) return null;
   return (
-    <p className="mt-2 flex flex-wrap gap-x-3 text-sm">
-      {links.slice(0, 4).map((l) => (
-        <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="text-accent hover:underline">
-          {l.source}
-        </a>
+    <p className="meta mt-3 flex flex-wrap gap-x-1.5">
+      <span>Sources:</span>
+      {links.slice(0, 4).map((l, n) => (
+        <span key={l.url}>
+          <a href={l.url} target="_blank" rel="noreferrer" className="link font-semibold text-ink">
+            {l.source}
+          </a>
+          {n < Math.min(links.length, 4) - 1 && ","}
+        </span>
       ))}
     </p>
   );
@@ -34,42 +39,46 @@ export default async function IssuePage({ params }: PageProps<"/issues/[number]"
   if (!issue) notFound();
 
   return (
-    <article className="pt-6">
-      <Link href="/issues" className="text-xs text-muted hover:text-fg">
+    <article className="mx-auto max-w-2xl pt-8">
+      <Link href="/issues" className="meta link">
         ← All issues
       </Link>
-      <p className="mt-4 text-xs text-muted">
-        #{issue.number} · {fmtDate(issue.date)}
+      <p className="kicker mt-6 text-accent">
+        Issue #{issue.number} · {fmtLongDate(issue.date)}
       </p>
-      <h1 className="mt-1 font-serif text-3xl font-bold leading-tight">{issue.subject}</h1>
-      <p className="mt-4 font-serif text-lg leading-relaxed">{issue.intro}</p>
+      <h1 className="mt-2 font-serif text-4xl font-bold leading-[1.1] tracking-tight text-balance sm:text-5xl">
+        {issue.subject}
+      </h1>
+      <p className="dek mt-5 text-xl leading-relaxed">{issue.intro}</p>
 
       {issue.sections.map((section) => (
-        <section key={section.heading} className="mt-8">
-          <h2 className="border-b border-rule pb-2 text-xs font-semibold uppercase tracking-wider text-muted">
+        <section key={section.heading} className="mt-12">
+          <h2 className="border-t-[3px] border-ink pt-2 font-sans text-[0.8rem] font-bold uppercase tracking-[0.14em]">
             {section.heading}
           </h2>
           {section.stories.map((s) => (
-            <div key={s.storyId} className="py-4">
-              <h3 className="font-serif text-xl font-bold leading-snug">{s.headline}</h3>
-              <p className="mt-2 font-serif text-[1.05rem] leading-relaxed">{s.body}</p>
-              <Links issue={issue} storyId={s.storyId} />
+            <div key={s.storyId} className="border-b border-rule py-6 last:border-b-0">
+              <h3 className="headline text-[1.6rem] leading-tight">{s.headline}</h3>
+              <p className="mt-3 text-[1.12rem] leading-[1.7]">{s.body}</p>
+              <Sources issue={issue} storyId={s.storyId} />
             </div>
           ))}
         </section>
       ))}
 
       {issue.quickHits.length > 0 && (
-        <section className="mt-8">
-          <h2 className="border-b border-rule pb-2 text-xs font-semibold uppercase tracking-wider text-muted">Quick hits</h2>
-          <ul className="mt-3 list-disc space-y-2 pl-5 font-serif">
+        <section className="mt-12">
+          <h2 className="border-t-[3px] border-ink pt-2 font-sans text-[0.8rem] font-bold uppercase tracking-[0.14em]">
+            Quick hits
+          </h2>
+          <ul className="mt-2 divide-y divide-rule">
             {issue.quickHits.map((q) => {
               const href = issue.links[q.storyId]?.[0]?.url;
               return (
-                <li key={q.storyId}>
+                <li key={q.storyId} className="py-3 text-[1.08rem] leading-relaxed">
                   {href ? (
-                    <a href={href} target="_blank" rel="noreferrer" className="hover:text-accent">
-                      {q.text}
+                    <a href={href} target="_blank" rel="noreferrer" className="hover:underline">
+                      {q.text} <span className="text-accent">→</span>
                     </a>
                   ) : (
                     q.text

@@ -19,7 +19,7 @@ npm run ingest                         npm run newsletter
   commit + push ───────────────► Vercel redeploys the site on every push
 ```
 
-- **Ranking:** Claude's importance (1–5), plus a bump when several sources cover the same story, decaying with a half-life of about 18 hours.
+- **Ranking:** each importance point (1–5, from Claude) doubles a story's weight, each extra source adds 30% (up to 2.5x), and the total halves every 30 hours. A major launch leads for a day or two.
 - **Grouping:** Claude sees the last four days of stories and links new coverage of the same event to the first item that reported it.
 - **Safety nets:** links in the newsletter come from the stored data, never from the model. Items that couldn't be enriched are retried on the next run. A failed send doesn't archive the issue, so the next run retries it.
 
@@ -45,6 +45,8 @@ npm run dev
 ```
 
 `npm run ingest -- --no-ai` fetches without calling Claude. The items are enriched on the next normal run.
+
+**After changing a prompt** in `lib/claude.ts`, re-run the last four days through it: Actions → *Ingest* → *Run workflow*, tick **redo**. Locally: `npm run ingest -- --redo`.
 
 ## Where things live
 
