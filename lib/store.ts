@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import type { Issue, Item } from "./types";
+import type { Brief, Issue, Item } from "./types";
 
 /**
  * The repo is the database: items live in one JSON file per month (by fetch date),
@@ -10,6 +10,7 @@ import type { Issue, Item } from "./types";
 const DATA_DIR = path.join(process.cwd(), "data");
 const ITEMS_DIR = path.join(DATA_DIR, "items");
 const ISSUES_DIR = path.join(DATA_DIR, "issues");
+const BRIEFS_FILE = path.join(DATA_DIR, "briefs.json");
 
 const TRACKING_PARAMS = /^(utm_\w+|ref|ref_src|fbclid|gclid|mc_cid|mc_eid|source|via)$/i;
 
@@ -84,4 +85,14 @@ export async function loadIssues(): Promise<Issue[]> {
 
 export async function saveIssue(issue: Issue) {
   await writeJson(path.join(ISSUES_DIR, `${String(issue.number).padStart(3, "0")}.json`), issue);
+}
+
+/** Briefings by story id. */
+export async function loadBriefs(): Promise<Record<string, Brief>> {
+  return readJson<Record<string, Brief>>(BRIEFS_FILE, {});
+}
+
+export async function saveBriefs(briefs: Record<string, Brief>) {
+  const sorted = Object.fromEntries(Object.entries(briefs).sort(([a], [b]) => a.localeCompare(b)));
+  await writeJson(BRIEFS_FILE, sorted);
 }

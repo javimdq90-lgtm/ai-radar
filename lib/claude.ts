@@ -5,10 +5,11 @@ import { SOURCE_NAMES } from "./sources";
 import { CATEGORIES, type Item, type Story } from "./types";
 
 /**
- * Haiku keeps the bill to a few dollars a month. For richer summaries and a better-written
- * newsletter, switch either one to "claude-opus-5-5" (about 40x the price per token).
+ * Sonnet for everything: triage runs on every item (most of the bill), grouping and
+ * briefings once per run, the newsletter three times a week. "claude-haiku-5-5" is about
+ * 20x cheaper per token but groups stories noticeably worse.
  */
-const MODELS = { triage: "claude-haiku-5-5", writing: "claude-haiku-5-5" };
+const MODELS = { triage: "claude-sonnet-5-5", desk: "claude-sonnet-5-5", writing: "claude-sonnet-5-5" };
 
 /**
  * Server-side fallback: if a safety classifier declines a request (rare for news, but
@@ -47,8 +48,16 @@ async function structured<T>(params: {
   return message.parsed_output as T;
 }
 
+/** What we tell Claude a link's source is. */
+function sourceLabel(i: Item) {
+  // For Hacker News links, name the site the link points to: told "Hacker News", the
+  // model summarises the thread ("A Hacker News discussion argues…") instead of the news.
+  if (i.sourceId !== "hn") return SOURCE_NAMES[i.sourceId] ?? i.sourceId;
+  return i.url === i.discussionUrl ? "a forum post" : new URL(i.url).hostname.replace(/^www\./, "");
+}
+
 // ---------------------------------------------------------------------------
-// Ingest: summarise, categorise, score and group new items
+// Triage: summarise, categorise and score each new item
 
 const EnrichmentSchema = z.object({
   items: z.array(
@@ -62,7 +71,6 @@ const EnrichmentSchema = z.object({
       category: z.string().describe(`One of: ${CATEGORIES.join(", ")}`),
       importance: z.number().describe("1 to 5, see rubric"),
       entities: z.array(z.string()),
-      sameStoryAs: z.string().nullable(),
     }),
   ),
 });
@@ -73,7 +81,7 @@ const ENRICH_SYSTEM = `You triage AI news for one reader: someone who follows AI
 
 For every new item, return:
 - relevant: false only if it is clearly not about AI/ML (general science, politics or hardware with no AI angle), or is an event ticket offer, sales pitch, webinar or job post. AI culture, commentary, criticism and quirky experiments ARE relevant; when unsure, keep it and give it a low importance.
-- summary: 1-2 plain sentences stating the news itself: who did what, with the specifics (names, numbers, what's new). Write it as a news brief, never about where it was posted or discussed: no "a Hacker News discussion", "is drawing attention on", "X has posted its announcement", "this article", "the same event as". For an essay or opinion piece, state its argument ("Developers are wrong to …, argues X"). If you only have a title, restate the news plainly in one sentence. Don't invent details.
+- summary: 1-2 plain sentences stating the news itself: who did what, with the specifics (names, numbers, what's new). Write it as a news brief, never about where it was posted or discussed: no "a Hacker News discussion", "is drawing attention on", "X has posted its announcement", "this article". For an essay or opinion piece, state its argument ("Developers are wrong to …, argues X"). If you only have a title, restate the news plainly in one sentence. Don't invent details.
 - whyItMatters: one sentence on the consequence for people building with or following AI. Empty string if it would just repeat the summary.
 - category: models (new/updated models, benchmarks), research (papers, findings), products (apps and features for end users), open-source (open weights, repos, libraries), policy (regulation, safety, legal, labour), business (funding, deals, hiring, earnings), tools (developer tools, APIs, infra).
 - importance:
@@ -84,28 +92,84 @@ For every new item, return:
   1 = opinion, listicle, recap, tutorial, promo
   Opinion and analysis pieces from respected writers can still be 3 if they add real insight.
 - entities: the companies, models and people at the centre of it (max 5), as commonly written ("OpenAI", "Gemini 3").
-- sameStoryAs: if the item reports the same event as one of the RECENT STORIES or an EARLIER item in NEW ITEMS (same launch, paper, deal or ruling, not merely the same topic), that item's id. Otherwise null.
 
-Return exactly one entry per new item, using its id.`;
+Return exactly one entry per item, using its id.`;
 
-const siteOf = (i: Item) =>
-  i.url === i.discussionUrl ? "a forum post" : new URL(i.url).hostname.replace(/^www\./, "");
-
-type RecentStory = { id: string; title: string; source: string };
-
-export async function enrichBatch(items: Item[], recent: RecentStory[]): Promise<Enrichment[]> {
-  const newItems = items.map((i) => ({
+export async function enrichBatch(items: Item[]): Promise<Enrichment[]> {
+  const input = items.map((i) => ({
     id: i.id,
-    // For Hacker News links, name the site the link points to: told "Hacker News", the
-    // model summarises the thread ("A Hacker News discussion argues…") instead of the news.
-    source: i.sourceId === "hn" ? siteOf(i) : (SOURCE_NAMES[i.sourceId] ?? i.sourceId),
+    source: sourceLabel(i),
     title: i.title,
     snippet: i.snippet ?? "",
     ...(i.score ? { popularity: i.score } : {}),
   }));
-  const prompt = `<recent_stories>\n${JSON.stringify(recent)}\n</recent_stories>\n\n<new_items>\n${JSON.stringify(newItems)}\n</new_items>`;
+  const prompt = `<items>\n${JSON.stringify(input)}\n</items>`;
   const result = await structured({ model: MODELS.triage, effort: "low", system: ENRICH_SYSTEM, prompt, schema: EnrichmentSchema });
   return result.items;
+}
+
+// ---------------------------------------------------------------------------
+// Desk: group every recent item into stories, in one pass so nothing is split across batches
+
+const GroupsSchema = z.object({
+  groups: z.array(z.object({ itemIds: z.array(z.string()) })),
+});
+
+const GROUP_SYSTEM = `You are the news desk of an AI news site. You get every item from the last few days. Group the items that are about the same story, so the site shows each story once with all its coverage.
+
+Same story:
+- the same launch, announcement, paper, deal, ruling or incident, reported by different outlets;
+- follow-ups within days: hands-on reviews, reactions, analysis and discussion of that same event;
+- companion announcements made alongside a launch by the same company (a variant of the launched model, its safety report, its API pricing).
+
+Not the same story: different events that merely share a company, product or topic (two separate OpenAI lawsuits; a model launch and an unrelated outage).
+
+Return only groups of two or more items. Every item id may appear in at most one group. Leave items that stand alone out.`;
+
+export async function groupStories(items: Item[]): Promise<string[][]> {
+  const input = items.map((i) => ({
+    id: i.id,
+    date: i.publishedAt.slice(0, 10),
+    source: sourceLabel(i),
+    title: i.title,
+    summary: (i.summary ?? "").slice(0, 220),
+  }));
+  const prompt = `<items>\n${JSON.stringify(input)}\n</items>`;
+  const result = await structured({ model: MODELS.desk, effort: "medium", system: GROUP_SYSTEM, prompt, schema: GroupsSchema });
+  return result.groups.map((g) => g.itemIds);
+}
+
+// ---------------------------------------------------------------------------
+// Briefings: a short explainer for the biggest stories, from the articles themselves
+
+const BriefSchema = z.object({
+  headline: z.string(),
+  dek: z.string(),
+  keyPoints: z.array(z.string()),
+  context: z.string(),
+  whatsNext: z.string(),
+});
+
+export type BriefDraft = z.infer<typeof BriefSchema>;
+
+const BRIEF_SYSTEM = `You write the briefing for one of the day's biggest AI stories on AI Radar, a news site for people who follow AI closely. You get every piece of coverage, with article text where it could be fetched.
+
+Write:
+- headline: a news headline in sentence case, under 90 characters, that states what happened concretely ("Google launches Gemini 4 Argon, its most capable model yet"). Not the company's marketing title.
+- dek: one sentence, under 35 words, with the key specifics a reader needs first.
+- keyPoints: 3 to 5 bullet points, each a concrete fact from the coverage (numbers, availability, prices, names, claims and who makes them). Under 30 words each. Most important first.
+- context: 2-3 sentences of background: how this fits what came before (earlier versions, competitors, the dispute so far) and why it matters. You may use well-established background knowledge; don't speculate.
+- whatsNext: one sentence on what to watch for next, only if the coverage points to something concrete (a rollout date, a ruling, a vote). Otherwise an empty string.
+
+Rules: use only facts in the material, apart from well-established background in context. Attribute claims ("Google says…"). No hype words, no exclamation marks, no "In a move that…". Plain, specific, a little dry.`;
+
+export type BriefMaterial = { source: string; title: string; summary?: string; text?: string };
+
+export async function writeBrief(material: BriefMaterial[]): Promise<BriefDraft> {
+  const prompt = material
+    .map((m, n) => `<coverage index="${n + 1}" source="${m.source}">\n<title>${m.title}</title>\n${m.summary ? `<summary>${m.summary}</summary>\n` : ""}${m.text ? `<text>${m.text}</text>\n` : ""}</coverage>`)
+    .join("\n\n");
+  return structured({ model: MODELS.desk, effort: "medium", system: BRIEF_SYSTEM, prompt, schema: BriefSchema });
 }
 
 // ---------------------------------------------------------------------------
@@ -145,12 +209,12 @@ Rules:
 export async function writeIssue(number: number, since: Date, stories: Story[]): Promise<IssueDraft> {
   const material = stories.map((s) => ({
     storyId: s.id,
-    title: s.lead.title,
+    title: s.brief?.headline ?? s.lead.title,
     category: s.category,
     importance: s.importance,
-    coveredBy: [...new Set(s.items.map((i) => SOURCE_NAMES[i.sourceId] ?? i.sourceId))],
-    summary: s.lead.summary,
-    whyItMatters: s.lead.whyItMatters,
+    coveredBy: [...new Set(s.items.map(sourceLabel))],
+    summary: s.brief?.dek ?? s.lead.summary,
+    ...(s.brief ? { keyPoints: s.brief.keyPoints, context: s.brief.context } : { whyItMatters: s.lead.whyItMatters }),
     otherAngles: s.items
       .filter((i) => i !== s.lead && i.summary)
       .slice(0, 3)

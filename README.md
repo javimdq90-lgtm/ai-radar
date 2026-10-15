@@ -12,15 +12,21 @@ GitHub Actions, every 3h               GitHub Actions, Mon/Wed/Fri 06:07 UTC
 npm run ingest                         npm run newsletter
   fetch 16 sources                       top stories since the last issue
   drop links already seen                Claude writes the issue
-  Claude: summary, why it matters,       email via Resend
-    category, importance 1-5,            save data/issues/NNN.json
-    "same story as …"                    commit + push
-  save data/items/YYYY-MM.json
+  Claude triage: summary, why it         email via Resend
+    matters, category, importance 1-5    save data/issues/NNN.json
+  find images (feed or og:image)         commit + push
+  Claude desk: group coverage of the
+    same story (last 72h, one pass)
+  Claude briefings for big stories,
+    from the articles' own text
+  save data/items/YYYY-MM.json,
+    data/briefs.json
   commit + push ───────────────► Vercel redeploys the site on every push
 ```
 
 - **Ranking:** each importance point (1–5, from Claude) doubles a story's weight, each extra source adds 30% (up to 2.5x), and the total halves every 30 hours. A major launch leads for a day or two.
-- **Grouping:** Claude sees the last four days of stories and links new coverage of the same event to the first item that reported it.
+- **Grouping:** after triage, Claude sees every story from the last 72 hours at once and merges coverage of the same event, including follow-ups and companion announcements. Items with identical titles are merged in code as well.
+- **Briefings:** stories rated 4–5, or covered by 3+ sources in the last 48 hours, get their own page: a headline, standfirst, key points, background and what to watch, written from up to five of the actual articles. They're rewritten when new coverage arrives (at most every 3 hours).
 - **Safety nets:** links in the newsletter come from the stored data, never from the model. Items that couldn't be enriched are retried on the next run. A failed send doesn't archive the issue, so the next run retries it.
 
 ## Setup
@@ -32,7 +38,7 @@ npm run ingest                         npm run newsletter
 
 ## Costs
 
-Everything runs on free tiers except Claude. Both jobs use `claude-haiku-5-5`: low effort for the per-item pass, high effort for writing the issue. At roughly 150 new items a day, that comes to around $1 a month. For richer summaries or a better-written newsletter, set `MODELS.triage` or `MODELS.writing` in `lib/claude.ts` to `claude-opus-5-5`. Opus costs about 40x more per token, so roughly $1–2 a day for triage.
+Everything runs on free tiers except Claude. Every step uses `claude-sonnet-5-5` (set in `MODELS` in `lib/claude.ts`): triage at low effort, grouping and briefings at medium, the newsletter at high. At roughly 150 new items a day, expect about $15–25 a month, most of it triage and grouping. `claude-haiku-5-5` is about 20x cheaper per token but groups stories noticeably worse.
 
 ## Local development
 

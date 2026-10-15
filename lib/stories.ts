@@ -1,4 +1,4 @@
-import type { Item, Story } from "./types";
+import type { Brief, Item, Story } from "./types";
 
 const HOUR = 3_600_000;
 
@@ -10,7 +10,7 @@ const HALF_LIFE_HOURS = 30;
  * weight, so a 5 outranks a fresh 3 for about two days; each extra source adds 30%
  * (capped at 2.5x); the total halves every HALF_LIFE_HOURS.
  */
-export function buildStories(items: Item[], now = new Date()): Story[] {
+export function buildStories(items: Item[], briefs: Record<string, Brief> = {}, now = new Date()): Story[] {
   const groups = new Map<string, Item[]>();
   for (const item of items) {
     if (item.irrelevant || !item.enrichedAt) continue;
@@ -37,6 +37,8 @@ export function buildStories(items: Item[], now = new Date()): Story[] {
       importance,
       firstSeen,
       score: 2 ** importance * coverage * 0.5 ** (ageHours / HALF_LIFE_HOURS),
+      image: lead.image ?? group.find((i) => i.image)?.image,
+      brief: briefs[id],
     });
   }
   return stories.sort((a, b) => b.score - a.score);

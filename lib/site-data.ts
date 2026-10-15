@@ -1,5 +1,5 @@
 import { cacheLife } from "next/cache";
-import { loadIssues, loadItems } from "./store";
+import { loadBriefs, loadIssues, loadItems } from "./store";
 import { buildStories, byRecency } from "./stories";
 import { CATEGORIES, type Category } from "./types";
 
@@ -10,7 +10,8 @@ import { CATEGORIES, type Category } from "./types";
 export async function getStories() {
   "use cache";
   cacheLife("hours");
-  return buildStories(await loadItems());
+  const [items, briefs] = await Promise.all([loadItems(), loadBriefs()]);
+  return buildStories(items, briefs);
 }
 
 const HOUR = 3_600_000;

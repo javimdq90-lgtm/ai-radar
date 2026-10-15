@@ -14,7 +14,7 @@ const PAPERS_ALWAYS_TOP = 5;
 const AI_TERMS =
   /\b(ai|a\.i\.|agi|llms?|gpt[-\w.]*|chatgpt|openai|anthropic|claude|gemini|deepmind|mistral|llama|qwen|deepseek|grok|xai|copilot|transformers?|diffusion|neural|machine learning|ml|deep learning|reinforcement learning|rlhf|inference|fine-?tun\w*|embeddings?|agents?|agentic|reasoning model|language models?|hugging ?face|nvidia|gpus?|tpus?|cuda|vllm|ollama|rag|mcp|prompt\w*|chatbots?|sora|midjourney|stable diffusion|perplexity|cursor)\b/i;
 
-async function get(url: string, accept: string): Promise<string> {
+export async function get(url: string, accept: string): Promise<string> {
   const res = await fetch(url, {
     headers: { "user-agent": UA, accept },
     signal: AbortSignal.timeout(TIMEOUT_MS),
@@ -56,7 +56,37 @@ export function clean(text: string | undefined, max = 600): string | undefined {
   return t.length > max ? `${t.slice(0, max - 1)}…` : t;
 }
 
-const rss = new Parser();
+type FeedExtras = {
+  mediaContent?: { $?: { url?: string; medium?: string; type?: string } }[];
+  mediaThumbnail?: { $?: { url?: string } };
+  contentEncoded?: string;
+};
+
+const rss = new Parser<object, FeedExtras>({
+  customFields: {
+    item: [
+      ["media:content", "mediaContent", { keepArray: true }],
+      ["media:thumbnail", "mediaThumbnail"],
+      ["content:encoded", "contentEncoded"],
+    ],
+  },
+});
+
+const IMAGE_EXT = /\.(jpe?g|png|webp|avif)(\?|$)/i;
+
+/** The feed's own picture for an entry: enclosure, media:content/thumbnail, or the first <img>. */
+function feedImage(entry: Parser.Item & FeedExtras): string | undefined {
+  const candidates = [
+    entry.enclosure?.type?.startsWith("image/") || IMAGE_EXT.test(entry.enclosure?.url ?? "") ? entry.enclosure?.url : undefined,
+    ...(entry.mediaContent ?? [])
+      .filter((m) => m.$?.medium === "image" || m.$?.type?.startsWith("image/") || IMAGE_EXT.test(m.$?.url ?? ""))
+      .map((m) => m.$?.url),
+    entry.mediaThumbnail?.$?.url,
+    (entry.contentEncoded ?? entry.content)?.match(/<img[^>]+src="([^"]+)"/i)?.[1],
+  ];
+  const url = candidates.find((u) => u && /^https?:\/\//.test(u));
+  return url ? decodeEntities(url) : undefined;
+}
 
 async function fetchRss(source: Source): Promise<RawItem[]> {
   const xml = await get(source.url, "application/rss+xml, application/atom+xml, application/xml, text/xml");
@@ -71,6 +101,7 @@ async function fetchRss(source: Source): Promise<RawItem[]> {
       sourceId: source.id,
       publishedAt,
       snippet: clean(entry.contentSnippet ?? entry.summary),
+      image: feedImage(entry),
     });
   }
   return out;
@@ -103,6 +134,7 @@ async function fetchHackerNews(source: Source, since: Date): Promise<RawItem[]> 
 type DailyPaper = {
   publishedAt?: string;
   title?: string;
+  thumbnail?: string;
   paper?: { id?: string; title?: string; summary?: string; upvotes?: number; publishedAt?: string };
 };
 
@@ -119,6 +151,7 @@ async function fetchDailyPapers(source: Source): Promise<RawItem[]> {
       publishedAt: toIso(p.publishedAt ?? p.paper!.publishedAt) ?? new Date().toISOString(),
       snippet: clean(p.paper!.summary),
       score: p.paper!.upvotes,
+      image: p.thumbnail,
     }));
 }
 

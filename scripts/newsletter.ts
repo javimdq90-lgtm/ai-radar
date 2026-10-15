@@ -9,7 +9,7 @@ import { Resend } from "resend";
 import { writeIssue } from "@/lib/claude";
 import { renderIssueHtml, renderIssueText } from "@/lib/email";
 import { SOURCE_NAMES } from "@/lib/sources";
-import { loadIssues, loadItems, saveIssue } from "@/lib/store";
+import { loadBriefs, loadIssues, loadItems, saveIssue } from "@/lib/store";
 import { buildStories } from "@/lib/stories";
 import type { Issue, Item } from "@/lib/types";
 
@@ -41,12 +41,12 @@ function linksFor(items: Item[]) {
 }
 
 async function main() {
-  const [items, issues] = await Promise.all([loadItems(), loadIssues()]);
+  const [items, issues, briefs] = await Promise.all([loadItems(), loadIssues(), loadBriefs()]);
   const last = issues[0];
   const since = new Date(Math.max(last ? new Date(last.date).getTime() : 0, Date.now() - MAX_LOOKBACK_DAYS * DAY));
   const covered = new Set(issues.flatMap((i) => Object.keys(i.links)));
 
-  const candidates = buildStories(items)
+  const candidates = buildStories(items, briefs)
     .filter((s) => s.firstSeen >= since.toISOString() && !covered.has(s.id) && s.importance >= 2)
     .sort((a, b) => b.importance - a.importance || b.sourceCount - a.sourceCount || b.firstSeen.localeCompare(a.firstSeen))
     .slice(0, MAX_STORIES_TO_CLAUDE);
