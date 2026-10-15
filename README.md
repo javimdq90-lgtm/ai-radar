@@ -1,13 +1,13 @@
 # AI Radar
 
-A personal AI news aggregator. Every 3 hours it collects the latest AI news from labs, papers, Hacker News, the press and a few good writers. Claude summarises, scores and groups it, and a small site shows what matters. On Monday, Wednesday and Friday mornings Claude writes a short newsletter from the top stories and emails it to you.
+A personal AI news aggregator. Twice a day it collects the latest AI news from labs, papers, Hacker News, the press and a few good writers. Claude summarises, scores and groups it, and a small site shows what matters. On Monday, Wednesday and Friday mornings Claude writes a short newsletter from the top stories and emails it to you.
 
 Next.js 16 · React 19 · Tailwind v4 · Claude API · Resend · GitHub Actions. No database: the repo is the database.
 
 ## How it works
 
 ```
-GitHub Actions, every 3h               GitHub Actions, Mon/Wed/Fri 06:07 UTC
+GitHub Actions, 05:17 + 17:17 UTC      GitHub Actions, Mon/Wed/Fri 06:07 UTC
 ────────────────────────               ─────────────────────────────────────
 npm run ingest                         npm run newsletter
   fetch 16 sources                       top stories since the last issue
@@ -26,7 +26,7 @@ npm run ingest                         npm run newsletter
 
 - **Ranking:** each importance point (1–5, from Claude) doubles a story's weight, each extra source adds 30% (up to 2.5x), and the total halves every 30 hours. A major launch leads for a day or two.
 - **Grouping:** after triage, Claude sees every story from the last 72 hours at once and merges coverage of the same event, including follow-ups and companion announcements. Items with identical titles are merged in code as well.
-- **Briefings:** stories rated 4–5, or covered by 3+ sources in the last 48 hours, get their own page: a headline, standfirst, key points, background and what to watch, written from up to five of the actual articles. They're rewritten when new coverage arrives (at most every 3 hours).
+- **Briefings:** stories rated 4–5, or covered by 3+ sources in the last 48 hours, get their own page: a headline, standfirst, key points, background and what to watch, written from up to five of the actual articles. They're rewritten on the next run when new coverage arrives.
 - **Safety nets:** links in the newsletter come from the stored data, never from the model. Items that couldn't be enriched are retried on the next run. A failed send doesn't archive the issue, so the next run retries it.
 
 ## Setup
@@ -34,11 +34,11 @@ npm run ingest                         npm run newsletter
 1. **Claude API key.** Create one at [console.anthropic.com](https://console.anthropic.com). In this repo, add it as a secret named `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions).
 2. **Email (optional).** Create a [Resend](https://resend.com) account and API key, then add the secrets `RESEND_API_KEY` and `NEWSLETTER_TO` (your email). The default sender `onboarding@resend.dev` only delivers to the email on your Resend account, which is fine for "just me". To send from your own domain, verify it in Resend and add a repository *variable* `NEWSLETTER_FROM`, e.g. `AI Radar <radar@yourdomain.com>`.
 3. **Site.** Import the repo in [Vercel](https://vercel.com/new). No settings or env vars needed. Optionally add the site URL as a repository variable `SITE_URL` for the "Read on the web" link in emails.
-4. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 3 hours. Run *Newsletter* by hand once to see an issue.
+4. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
 
 ## Costs
 
-Everything runs on free tiers except Claude. Every step uses `claude-sonnet-5-5` (set in `MODELS` in `lib/claude.ts`): triage at low effort, grouping and briefings at medium, the newsletter at high. At roughly 150 new items a day, expect about $15–25 a month, most of it triage and grouping. `claude-haiku-5-5` is about 20x cheaper per token but groups stories noticeably worse.
+Everything runs on free tiers except Claude. Every step uses `claude-sonnet-5-5` (set in `MODELS` in `lib/claude.ts`): triage at low effort, grouping and briefings at medium, the newsletter at high. At roughly 150 new items a day, expect about $10–15 a month, most of it triage. Running twice a day instead of more often barely changes triage (it is per item) but cuts grouping runs. `claude-haiku-5-5` is about 20x cheaper per token but groups stories noticeably worse.
 
 ## Local development
 

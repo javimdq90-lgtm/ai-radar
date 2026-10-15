@@ -42,7 +42,7 @@ async function Masthead() {
     <header className="pt-5 sm:pt-7">
       <div className="meta flex items-center justify-between gap-4">
         <span>{fmtLongDate(now)}</span>
-        <span className="hidden sm:inline">Updated {fmtTime(now)} · every 3 hours</span>
+        <span className="hidden sm:inline">Updated {fmtTime(now)} · twice a day</span>
         <Link href="/issues" className="font-semibold text-accent hover:underline sm:hidden">
           Newsletter
         </Link>
@@ -94,7 +94,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <div className="mx-auto max-w-[76rem] px-4 sm:px-6 lg:px-8">
           <main className="pb-20">{children}</main>
           <footer className="meta border-t border-rule py-8 text-center">
-            AI Radar collects AI news every 3 hours. Summaries and briefings are written by Claude from the
+            AI Radar collects AI news twice a day. Summaries and briefings are written by Claude from the
             original reporting, which every story links to.
           </footer>
         </div>

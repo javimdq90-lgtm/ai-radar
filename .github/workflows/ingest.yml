@@ -2,7 +2,7 @@ name: Ingest
 
 on:
   schedule:
-    - cron: "17 */3 * * *" # every 3 hours
+    - cron: "17 5,17 * * *" # every 12 hours, 05:17 and 17:17 UTC (just before the 06:07 newsletter)
   workflow_dispatch:
     inputs:
       redo:
