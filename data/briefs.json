@@ -1,24 +1,4 @@
 {
- "1f63379af540": {
-  "storyId": "1f63379af540",
-  "itemIds": [
-   "1f63379af540",
-   "877cbcbdbb3b",
-   "6388b3d480b1"
-  ],
-  "writtenAt": "2026-10-15T15:15:34.169Z",
-  "headline": "YouTube Music starts labeling AI-generated and AI-altered songs",
-  "dek": "YouTube Music is rolling out a \"Made with AI\" label on player pages for tracks fully or significantly generated with AI, with the main YouTube app to follow; partners disclose AI use, and YouTube adds its own detection.",
-  "keyPoints": [
-   "The label appears on the player page, and tapping it opens a menu with more detail. It covers tracks \"altered or fully generated\" with AI, such as generative composition and vocals, per YouTube.",
-   "Partners can disclose via three tiers: Fully Gen AI, Partly Gen AI or No Gen AI. Ars Technica says disclosure is optional; Auto-Tune-style pitch correction counts as No Gen AI, per TechCrunch.",
-   "Without disclosure, YouTube may use \"other signals.\" Ars Technica says these could include Google's SynthID watermarks and C2PA metadata, and notes a missing label does not prove a track is human-made.",
-   "The rollout starts in the YouTube Music app, with the main YouTube app to follow. Ars Technica reports no option to block labeled tracks from playlists.",
-   "AI use alone does not make a track ineligible for monetization, TechCrunch reports, so YouTube is disclosing rather than restricting AI music."
-  ],
-  "context": "Other platforms have taken varied approaches. Spotify launched a voluntary AI label this year, Apple Music is reportedly adding one, Deezer labels AI tracks and is building a filter (it reported nearly 90,000 fully AI tracks a day in July), and Bandcamp banned AI music. YouTube's approach extends the AI labels it already applies to videos.",
-  "whatsNext": "Watch for the label's expansion to the main YouTube app, which YouTube says will come later, and for Apple Music's planned AI tags."
- },
  "421acab06078": {
   "storyId": "421acab06078",
   "itemIds": [
@@ -81,6 +61,26 @@
   ],
   "context": "Anthropic notes earlier work showed AI agents can scan networks, exploit machines and copy model weights across GPU clusters, while IoT worms like Mirai have long targeted poorly defended devices. The report adds that weights could become part of a worm's payload, with no central point to shut down. It lands amid a broader debate over open-weight models, which MIT Technology Review says Anthropic has also cited in warning about GLM-5.3 as a cyberattack risk."
  },
+ "9d251ac6836a": {
+  "storyId": "9d251ac6836a",
+  "itemIds": [
+   "9d251ac6836a",
+   "6d26dc845c51",
+   "a4975bebfd36",
+   "d5bac5a69bce"
+  ],
+  "writtenAt": "2026-10-15T20:23:52.620Z",
+  "headline": "Meta releases Muse Spark Open, an 816B-parameter open-weight model built with Apple",
+  "dek": "Meta says Muse Spark Open is the most capable US open-weight model, with 816 billion parameters and a 1 million token context, and runs locally on two Apple M5 Ultra Mac Studios.",
+  "keyPoints": [
+   "Meta calls Muse Spark Open the \"most capable US open-weight model to date\"; weights are on Hugging Face and the model is available through several API platforms.",
+   "The natively multimodal mixture-of-experts model has 816 billion total parameters and a 1 million token context window, and Meta says it excels at long-horizon tasks, software engineering and multi-step reasoning.",
+   "Meta says it is the first model in its class to run on a desktop, using two M5 Ultra Mac Studios with Apple's MLX framework. Engadget, per TechCrunch, reports it needs at least 1TB of RAM.",
+   "Meta and Apple developed the MLX support jointly over several months, per Axios. Zuckerberg and Apple CEO John Ternus praised the work publicly on X, and Apple published a technical post on MLX.",
+   "Meta says it paired the model with its Muse Code terminal for tasks such as fixes to a Mastodon client and reviewing and cropping footage in DaVinci Resolve."
+  ],
+  "context": "Muse Spark Open follows Meta's Muse family, which also includes the separate Muse consumer agent app that launched last month and has drawn privacy criticism. Meta and Apple are usually rivals, so the joint launch is unusual. Open-weight releases at this scale let developers run and modify frontier-class models without relying on a hosted API."
+ },
  "a2c304623a61": {
   "storyId": "a2c304623a61",
   "itemIds": [
@@ -124,5 +124,26 @@
    "The states want civil penalties and an order to stop misleading the public; some also seek deletion of unlawfully collected personal data."
   ],
   "context": "The suits cite earlier lawsuits from families of teens and adults who allege ChatGPT played a role in their loved ones' deaths. Arizona's complaint argues OpenAI has moved away from its original nonprofit, safety-first mission. The filings add state-level enforcement to growing legal pressure on chatbot makers over child safety."
+ },
+ "f1c8e20f7598": {
+  "storyId": "f1c8e20f7598",
+  "itemIds": [
+   "f1c8e20f7598",
+   "1f63379af540",
+   "877cbcbdbb3b",
+   "6388b3d480b1"
+  ],
+  "writtenAt": "2026-10-15T20:23:57.952Z",
+  "headline": "YouTube Music begins labeling AI-generated songs as Deezer readies AI filter",
+  "dek": "YouTube Music is rolling out \"Made with AI\" labels on tracks that are fully or significantly AI-generated, while Deezer says a toggle to hide AI music will arrive before year-end.",
+  "keyPoints": [
+   "YouTube is adding a \"Made with AI\" label to tracks \"altered or fully generated\" with AI, shown on the player page in YouTube Music starting now, with the main YouTube app later.",
+   "Partners can disclose AI use as Fully Gen AI, Partly Gen AI or No Gen AI. Without disclosure, YouTube says it may use other signals, including its own detection tools.",
+   "Ars Technica notes detection may draw on SynthID watermarks and C2PA metadata, and that there is no option to block labeled tracks. AI involvement alone doesn't make a track ineligible for monetization.",
+   "Deezer says its toggle will hide AI-generated tracks, albums and related artists from search results. It cites a survey in which about 45% of customers wanted a way to remove AI music.",
+   "Deezer reported in July that over 50% of daily uploads were AI-generated, averaging about 90,000 tracks a day, up from 10% when it added detection tooling last year."
+  ],
+  "context": "Streaming services are splitting on how to handle the flood of AI music. Bandcamp has banned it, Tidal labels it and cuts monetization, Spotify uses voluntary labels, and Apple Music is reportedly planning its own tags. YouTube is choosing disclosure over restriction, while Deezer is moving toward user-controlled exclusion.",
+  "whatsNext": "Watch for the labels reaching the main YouTube app, Deezer's AI filter launching before the end of the year, and Apple Music's expected AI tags later this year."
  }
 }

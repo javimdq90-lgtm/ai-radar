@@ -332,7 +332,7 @@
   "entities": [
    "YouTube"
   ],
-  "storyId": "1f63379af540"
+  "storyId": "f1c8e20f7598"
  },
  {
   "url": "https://arxiv.org/abs/2610.13928",
@@ -391,7 +391,7 @@
    "OpenAI",
    "Daybreak"
   ],
-  "storyId": "24cc989c02db"
+  "storyId": "7d10f0ddfecf"
  },
  {
   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
@@ -1087,7 +1087,7 @@
   "entities": [
    "YouTube Music"
   ],
-  "storyId": "1f63379af540"
+  "storyId": "f1c8e20f7598"
  },
  {
   "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
@@ -1945,7 +1945,7 @@
    "GPT-6.1 Sol",
    "Codex"
   ],
-  "storyId": "e181547094b0"
+  "storyId": "7d10f0ddfecf"
  },
  {
   "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
@@ -2605,6 +2605,335 @@
    "YouTube",
    "Google"
   ],
-  "storyId": "1f63379af540"
+  "storyId": "f1c8e20f7598"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+  "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-15T15:43:24.000Z",
+  "snippet": "FTC may fine AI firms on par with companies that delay data breach reports.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-1024x648.jpg",
+  "id": "12f70f9144a8",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "The FTC is reportedly probing Anthropic and OpenAI after Trump dismissed AI fears as a \"hoax\"; the agency may fine AI firms comparably to companies that delay data breach reports.",
+  "whyItMatters": "Regulatory scrutiny of incident reporting could create new compliance obligations for frontier labs.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "FTC",
+   "Anthropic",
+   "OpenAI",
+   "Trump"
+  ],
+  "storyId": "12f70f9144a8"
+ },
+ {
+  "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+  "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T14:58:48.000Z",
+  "score": 193,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50104654",
+  "id": "1345f06390cb",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "The Simons Foundation launched a $15M effort to help mathematicians adapt to the AI era.",
+  "whyItMatters": "It signals growing institutional investment in how AI reshapes mathematical research.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Simons Foundation"
+  ],
+  "storyId": "1345f06390cb"
+ },
+ {
+  "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+  "title": "Why We're Banning AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T18:32:29.000Z",
+  "score": 180,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50108131",
+  "id": "15e0a448fcac",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Current Affairs explains in an essay why it is banning AI from its publication.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "Current Affairs"
+  ],
+  "storyId": "15e0a448fcac"
+ },
+ {
+  "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+  "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+  "sourceId": "deepmind",
+  "publishedAt": "2026-10-15T16:08:03.000Z",
+  "snippet": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+  "image": "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo",
+  "id": "1d4cff712a9a",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Google DeepMind describes using Google Antigravity for Science to speed up the search for novel antimicrobial peptides.",
+  "whyItMatters": "It shows agentic tooling being applied to drug discovery.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Google DeepMind",
+   "Google Antigravity"
+  ],
+  "storyId": "1d4cff712a9a"
+ },
+ {
+  "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+  "title": "An update on independent evaluators",
+  "publishedAt": "2026-10-15T00:00:00.000Z",
+  "sourceId": "anthropic",
+  "id": "227d02ee5d04",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Anthropic published an update on its use of independent evaluators for its models. No further details were provided in the title.",
+  "whyItMatters": "Third-party evaluation access shapes how credible frontier lab safety claims are.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
+  "imageCheckedAt": "2026-10-15T20:23:45.572Z",
+  "storyId": "227d02ee5d04"
+ },
+ {
+  "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+  "title": "More on Anthropic's Scion ripping off Mononoke",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T17:05:19.000Z",
+  "score": 189,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50106738",
+  "id": "2af824110177",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "A blog post follows up on claims that Anthropic's Scion copies elements of Mononoke; only the title is available.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Anthropic",
+   "Scion"
+  ],
+  "storyId": "d91ead6950e7"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+  "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T18:56:46.000Z",
+  "snippet": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
+  "id": "35f04bc99ba5",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Bluesky expanded its experimental AI-powered Attie app with \"social vibe coding\", letting users build interactive websites, games and quizzes that can tap into the social network's audience.",
+  "whyItMatters": "It's an early example of vibe coding integrated directly into a social platform.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Bluesky",
+   "Attie"
+  ],
+  "storyId": "35f04bc99ba5"
+ },
+ {
+  "url": "https://huggingface.co/blog/flux-3",
+  "title": "Welcome FLUX.3 Image Klein in Diffusers",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-15T00:00:00.000Z",
+  "id": "3733c75a28bf",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Hugging Face added support for the FLUX.3 Image Klein model in its Diffusers library.",
+  "whyItMatters": "Builders can run the new image model with standard Diffusers pipelines.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "FLUX.3 Image Klein",
+   "Hugging Face",
+   "Diffusers"
+  ],
+  "storyId": "3733c75a28bf"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+  "title": "Proof-based general-purpose computing with Magnetar",
+  "sourceId": "msr",
+  "publishedAt": "2026-10-15T16:00:00.000Z",
+  "snippet": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security.",
+  "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar-BlogHeroFeature-1400x788-1-1024x576.jpg",
+  "id": "4046eeecbe56",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Microsoft Research unveiled Magnetar, a system for zero-knowledge proof-based computing that supports standard programming languages, claims major speed gains, and offers quantum-resistant security.",
+  "whyItMatters": "It could make verifiable computation practical, including for verifying AI workloads without exposing data.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Microsoft Research",
+   "Magnetar"
+  ],
+  "storyId": "4046eeecbe56"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+  "title": "Friends don’t let friends feed their data to AI agents",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T16:21:45.000Z",
+  "snippet": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also the information of your friends, family, the person you went on a Hinge date with five years ago - and virtually anyone else you've ever come in contact with. Since Muse was released last month, the agent has already been downloaded millions of times and hit No. 1 on Apple's …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268808_None_of_Your_Friends_Consented_To_an_AI_Agent_CVirginia2.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "6d26dc845c51",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "The Verge argues users shouldn't hand data to AI agents like Meta's Muse, which asks for personal data including that of friends and family. Muse has reportedly been downloaded millions of times and hit No. 1 on Apple's App Store since last month's release.",
+  "whyItMatters": "Highlights the privacy consequences of third-party data in agent assistants.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Meta",
+   "Muse",
+   "The Verge"
+  ],
+  "storyId": "9d251ac6836a"
+ },
+ {
+  "url": "https://huggingface.co/blog/meta-muse-spark-open",
+  "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-15T00:00:00.000Z",
+  "image": "https://huggingface.co/blog/assets/meta-muse-spark-open/thumbnail.png",
+  "id": "9d251ac6836a",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Meta released Muse Spark Open, an open-weight multimodal mixture-of-experts model, available on Hugging Face.",
+  "whyItMatters": "A frontier-class open-weight model from Meta gives builders a new option for self-hosting and fine-tuning.",
+  "category": "open-source",
+  "importance": 4,
+  "entities": [
+   "Meta",
+   "Muse Spark Open",
+   "Hugging Face"
+  ],
+  "imageCheckedAt": "2026-10-15T20:23:45.496Z",
+  "storyId": "9d251ac6836a"
+ },
+ {
+  "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+  "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T18:15:36.000Z",
+  "snippet": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, typically rivals, worked together on the launch and are publicly supporting each other. \"Muse Spark Open - weights releasing today - runs great on new Mac Studios thanks to work with …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268742_Mac_Studio_AKrales_0025.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "a4975bebfd36",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Meta announced Muse Spark Open, calling it the most capable US open-weight model, and said it can run on two Apple M5 Ultra Mac Studios with MLX, developed jointly with Apple.",
+  "whyItMatters": "A frontier-class open model running on desktop hardware makes local deployment feasible for more builders.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Meta",
+   "Apple",
+   "Muse Spark Open",
+   "MLX"
+  ],
+  "storyId": "9d251ac6836a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+  "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T19:55:25.000Z",
+  "snippet": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+  "id": "a983409c8d0b",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Amazon devices chief Panos Panay said at TechCrunch Disrupt that ambient AI devices working in the background and anticipating needs could replace the need to use apps.",
+  "whyItMatters": "It hints at Amazon's strategic direction for AI hardware and assistants.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Amazon",
+   "Panos Panay"
+  ],
+  "storyId": "a983409c8d0b"
+ },
+ {
+  "url": "https://already-clean.goodfire.com/",
+  "title": "Neural networks are clean",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T16:04:01.000Z",
+  "score": 320,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50105647",
+  "id": "bc34be66cc81",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Goodfire argues in a post titled \"Neural networks are clean\" about the interpretability of neural networks; only the title is available.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Goodfire"
+  ],
+  "storyId": "bc34be66cc81"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+  "title": "Meta launches an open-weight AI model that runs on Macs",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T20:04:53.000Z",
+  "snippet": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2296215726.jpg?resize=1200,799",
+  "id": "d5bac5a69bce",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Meta launched Muse Spark Open, an open-weight model built with Apple that runs locally on Apple silicon.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Meta",
+   "Apple",
+   "Muse Spark Open"
+  ],
+  "imageCheckedAt": "2026-10-15T20:23:45.450Z",
+  "storyId": "9d251ac6836a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+  "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T18:00:00.000Z",
+  "snippet": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
+  "id": "d9d8114df721",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+  "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T19:14:26.000Z",
+  "snippet": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+  "id": "e925c3137a8a",
+  "fetchedAt": "2026-10-15T20:23:28.329Z",
+  "enrichedAt": "2026-10-15T20:23:45.399Z",
+  "summary": "Anthropic is giving METR researchers employee-level access and has given up the right to block METR from publishing its own assessments of Anthropic's risks, incidents and practices.",
+  "whyItMatters": "It sets a precedent for independent oversight of a frontier lab without veto power.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "METR"
+  ],
+  "imageCheckedAt": "2026-10-15T20:23:45.441Z",
+  "storyId": "227d02ee5d04"
  }
 ]
