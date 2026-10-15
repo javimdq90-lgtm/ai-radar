@@ -73,7 +73,7 @@ const ENRICH_SYSTEM = `You triage AI news for one reader: someone who follows AI
 
 For every new item, return:
 - relevant: false only if it is clearly not about AI/ML (general science, politics or hardware with no AI angle), or is an event ticket offer, sales pitch, webinar or job post. AI culture, commentary, criticism and quirky experiments ARE relevant; when unsure, keep it and give it a low importance.
-- summary: 1-2 plain sentences stating the news itself: who did what, with the specifics (names, numbers, what's new). Write it as a news brief, never about the source or the coverage: no "Hacker News is discussing", "X has posted its announcement", "this article", "the same event as". If you only have a title, restate the news plainly in one sentence. Don't invent details.
+- summary: 1-2 plain sentences stating the news itself: who did what, with the specifics (names, numbers, what's new). Write it as a news brief, never about where it was posted or discussed: no "a Hacker News discussion", "is drawing attention on", "X has posted its announcement", "this article", "the same event as". For an essay or opinion piece, state its argument ("Developers are wrong to …, argues X"). If you only have a title, restate the news plainly in one sentence. Don't invent details.
 - whyItMatters: one sentence on the consequence for people building with or following AI. Empty string if it would just repeat the summary.
 - category: models (new/updated models, benchmarks), research (papers, findings), products (apps and features for end users), open-source (open weights, repos, libraries), policy (regulation, safety, legal, labour), business (funding, deals, hiring, earnings), tools (developer tools, APIs, infra).
 - importance:
@@ -88,12 +88,17 @@ For every new item, return:
 
 Return exactly one entry per new item, using its id.`;
 
+const siteOf = (i: Item) =>
+  i.url === i.discussionUrl ? "a forum post" : new URL(i.url).hostname.replace(/^www\./, "");
+
 type RecentStory = { id: string; title: string; source: string };
 
 export async function enrichBatch(items: Item[], recent: RecentStory[]): Promise<Enrichment[]> {
   const newItems = items.map((i) => ({
     id: i.id,
-    source: SOURCE_NAMES[i.sourceId] ?? i.sourceId,
+    // For Hacker News links, name the site the link points to: told "Hacker News", the
+    // model summarises the thread ("A Hacker News discussion argues…") instead of the news.
+    source: i.sourceId === "hn" ? siteOf(i) : (SOURCE_NAMES[i.sourceId] ?? i.sourceId),
     title: i.title,
     snippet: i.snippet ?? "",
     ...(i.score ? { popularity: i.score } : {}),
