@@ -20,7 +20,7 @@ import { CATEGORIES, type Category, type Item } from "@/lib/types";
 const LOOKBACK_HOURS = 72;
 /** Stories this recent are regrouped on every run (and redone with --redo). */
 const GROUP_WINDOW_HOURS = 72;
-/** Big stories this recent get a briefing. */
+/** Big stories with coverage this recent get a briefing. */
 const BRIEF_WINDOW_HOURS = 48;
 const BATCH_SIZE = 25;
 /** Caps per run so a backlog (e.g. after a long outage) can't blow up one run's cost or time. */
@@ -174,7 +174,8 @@ async function main() {
   let briefed = 0;
   if (!noAi && grouped) {
     const stories = buildStories(all, briefs)
-      .filter((s) => s.firstSeen >= hoursAgo(BRIEF_WINDOW_HOURS) && (s.importance >= 4 || s.sourceCount >= 3))
+      // Judged by the newest coverage, so a story that's still developing qualifies.
+      .filter((s) => s.items.at(-1)!.publishedAt >= hoursAgo(BRIEF_WINDOW_HOURS) && (s.importance >= 4 || s.sourceCount >= 3))
       .filter((s) => {
         if (!s.brief) return true;
         const hasNew = s.items.some((i) => !s.brief!.itemIds.includes(i.id));
