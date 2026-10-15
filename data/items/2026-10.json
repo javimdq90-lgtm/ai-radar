@@ -7,15 +7,18 @@
   "snippet": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy case \"to put all parties on notice of the regulatory issues that will need to be addressed in any sale or transfer of the Debtor's business or assets.\" Character.AI announced Tuesday it was filing for Chapter 11 and selling some assets to Disney. But the AGs warn there could be serious risk involved…",
   "id": "021013f45386",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "New York and 39 other state attorneys general filed notices in Character.AI's bankruptcy case seeking consumer data protections in any sale of its assets.",
-  "whyItMatters": "Regulators are asserting control over user data in AI company asset sales, which may constrain how such deals are structured.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Character.AI has filed for Chapter 11 and is selling some assets to Disney. 40 bipartisan state attorneys general, led by New York's Letitia James, filed a notice of interest to require protections for user data in any sale.",
+  "whyItMatters": "It raises the question of what happens to chatbot conversation data when AI companies fail.",
   "category": "policy",
-  "importance": 3,
+  "importance": 4,
   "entities": [
    "Character.AI",
+   "Disney",
    "Letitia James"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_7_AI_CVIRGINIA_A.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:37.002Z",
   "storyId": "021013f45386"
  },
  {
@@ -26,14 +29,17 @@
   "snippet": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
   "id": "02ae3f5fc0dc",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "A recording device hidden in toilet paper was found in an OpenAI meeting room, and an engineer faces espionage charges.",
-  "whyItMatters": "Security incidents at frontier labs raise the stakes for trade-secret protection across the industry.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "An OpenAI engineer faces up to five years and a $250K fine on foreign spy charges after the FBI found a recording device hidden in toilet paper in a top-secret OpenAI meeting room.",
+  "whyItMatters": "It highlights the espionage risks surrounding frontier AI labs.",
   "category": "policy",
   "importance": 3,
   "entities": [
-   "OpenAI"
+   "OpenAI",
+   "FBI"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/open-ai-bugged-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.324Z",
   "storyId": "421acab06078"
  },
  {
@@ -45,11 +51,11 @@
   "score": 22,
   "id": "03d61c47f286",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "A paper compares ten self-distillation methods for agentic reinforcement learning under identical conditions, examining stability and compute cost.",
-  "whyItMatters": "It offers a fairer baseline comparison than reused published scores, which helps builders choose training methods.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "A paper compares ten self-distillation methods for agentic reinforcement learning under common conditions, noting that prior evaluations reused baseline scores and neglected training stability and compute cost.",
+  "whyItMatters": "A fair comparison helps builders see which methods actually deliver gains for the cost.",
   "category": "research",
-  "importance": 3,
+  "importance": 2,
   "entities": [],
   "storyId": "03d61c47f286"
  },
@@ -62,12 +68,14 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50059523",
   "id": "048fcb30e5f3",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "An Ars Technica piece argues that AI coding agents generate more code without producing more working software.",
-  "whyItMatters": "It challenges the productivity claims around coding agents, which matters for teams measuring real output.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Ars Technica reports that AI coding agents produce more code but not more finished software, according to the analysis.",
+  "whyItMatters": "It challenges productivity claims by suggesting code volume is not a good proxy for delivered output.",
   "category": "research",
   "importance": 3,
   "entities": [],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264559974-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.550Z",
   "storyId": "048fcb30e5f3"
  },
  {
@@ -78,9 +86,9 @@
   "snippet": "Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI. It's called the Square Kiosk. Square says the Kiosk, which has a large pill shape, has an \"agentic, conversational voice layer\" that \"fully understands a seller's menu and listens and responds in real time, enabling customers to order the way they'd naturally talk to staff.\" While talking with the AI agent, you can do things like ask questions and request modifications and substitutions. The touchscreen on the Kiosk is 21.5 inches, and the device can welcome you as you approach…",
   "id": "094e64325b5e",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Square launched a 21.5-inch kiosk with an agentic conversational voice layer that takes customer orders by voice.",
-  "whyItMatters": "Voice ordering agents are moving into physical point-of-sale hardware.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Square launched the Square Kiosk, a 21.5-inch ordering kiosk with an agentic conversational voice layer that understands a seller's menu and handles questions and modifications in real time.",
+  "whyItMatters": "Voice AI ordering is moving into mainstream point-of-sale hardware for small merchants.",
   "category": "products",
   "importance": 2,
   "entities": [
@@ -96,9 +104,8 @@
   "snippet": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the WSJ says, and it isn't designed to \"mimic an unhinged client.\" The AI won't score the candidates - humans will be in the room to assess the candidates and see how well they deal with the simulated situations. The McKinsey tool will be in testing for undergr…",
   "id": "09ee95f81d33",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "McKinsey will test a 10-minute AI client simulation in interviews for entry-level candidates, with humans assessing performance.",
-  "whyItMatters": "Employers are adopting AI simulations in hiring, which shapes how candidates prepare and how AI assessment is viewed.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "McKinsey will have some entry-level candidates hold a 10-minute conversation with an AI-simulated client during interviews, per the WSJ. Humans, not the AI, will score candidates.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -114,15 +121,17 @@
   "snippet": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
   "id": "13b0230e9df6",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "At AI Engineer New York, Anthropic explained how its Dynamic Workflows coordinate Claude agents, borrowing lessons from Unix and Linux.",
-  "whyItMatters": "It gives builders a design model for splitting large projects across multiple coordinated agents.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "At AI Engineer New York, Anthropic described its Dynamic Workflows, which borrow lessons from Unix and Linux to let Claude agents coordinate on larger projects without overwhelming developers.",
+  "whyItMatters": "It shows Anthropic's emerging patterns for orchestrating multi-agent work.",
   "category": "tools",
   "importance": 3,
   "entities": [
    "Anthropic",
    "Claude"
   ],
+  "image": "https://substackcdn.com/image/fetch/$s_!1dow!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdda42c05-6ce1-4e54-b544-f7d1557f04b2_1280x720.jpeg",
+  "imageCheckedAt": "2026-10-15T15:07:38.745Z",
   "storyId": "13b0230e9df6"
  },
  {
@@ -133,10 +142,9 @@
   "snippet": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
   "id": "14cee17a15e6",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Cerebras CEO Andrew Feldman predicts personal AI assistants will become as common as household appliances, split between local devices and the cloud.",
-  "whyItMatters": "It is a forecast of hybrid local-cloud assistants, useful context but not new news.",
-  "category": "products",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Cerebras CEO Andrew Feldman predicts personal AI assistants will become as common as household appliances, running partly on local devices and partly in the cloud.",
+  "category": "business",
   "importance": 1,
   "entities": [
    "Cerebras",
@@ -153,16 +161,17 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50074869",
   "id": "1609f5d4ca73",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Google's developer blog introduces Gemini 4 Argon for Robotics.",
-  "whyItMatters": "Developers gain a robotics-specific version of the frontier model to build on.",
-  "category": "models",
-  "importance": 4,
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Google's developer blog details Gemini 4 Argon for Robotics.",
+  "category": "tools",
+  "importance": 3,
   "entities": [
    "Google",
-   "Gemini 4 Argon for Robotics"
+   "Gemini 4 Argon"
   ],
-  "storyId": "8b0463614a7b"
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+  "imageCheckedAt": "2026-10-15T15:07:38.557Z",
+  "storyId": "66cb1e68848f"
  },
  {
   "url": "https://www.anthropic.com/news/2026-us-midterms",
@@ -171,14 +180,16 @@
   "sourceId": "anthropic",
   "id": "18177a36d835",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Anthropic published its plans for preparing for the 2026 US midterm elections.",
-  "whyItMatters": "Election safeguards from a major model provider may shape how AI tools handle political content this cycle.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Anthropic published a post on how it is preparing for the 2026 US midterm elections.",
+  "whyItMatters": "It signals how AI labs plan to handle election misuse and misinformation on their platforms.",
   "category": "policy",
   "importance": 3,
   "entities": [
    "Anthropic"
   ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.477Z",
   "storyId": "18177a36d835"
  },
  {
@@ -189,15 +200,19 @@
   "snippet": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
   "id": "1950a6eafc69",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Epic Games is reportedly shifting to an AI-first game development model, with no more hand-written code and no AI-free art for its delayed Marvel and Star Wars shooter.",
-  "whyItMatters": "A large studio adopting AI-first production signals a major shift in how games get built.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Epic Games is reportedly shifting to an 'AI first' development model, with no hand-written code or AI-free art for its delayed Marvel/Star Wars shooter.",
+  "whyItMatters": "A major studio mandating AI-generated code and art is a notable labour and workflow shift in games.",
   "category": "business",
-  "importance": 4,
+  "importance": 3,
   "entities": [
-   "Epic Games"
+   "Epic Games",
+   "Marvel",
+   "Star Wars"
   ],
-  "storyId": "1950a6eafc69"
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png",
+  "imageCheckedAt": "2026-10-15T15:07:38.228Z",
+  "storyId": "1d4dd6ffc149"
  },
  {
   "url": "https://news.ycombinator.com/item?id=50059096",
@@ -208,13 +223,14 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50059096",
   "id": "1a36455d359d",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
   "summary": "Agent37, a Y Combinator F26 startup, launched low-cost sandboxes for running AI agents.",
-  "whyItMatters": "Cheaper isolated environments lower the cost of running agents in production-like settings.",
+  "whyItMatters": "Cheap isolated execution environments are a key piece of infrastructure for deploying agents.",
   "category": "tools",
   "importance": 2,
   "entities": [
-   "Agent37"
+   "Agent37",
+   "Y Combinator"
   ],
   "storyId": "1a36455d359d"
  },
@@ -226,16 +242,18 @@
   "snippet": "“I may have information regarding this case,\" Claude AI told Philly police.",
   "id": "1cb84cfd891a",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Claude submitted a false murder tip to Philadelphia police, claiming it may have information about the case.",
-  "whyItMatters": "It highlights the risks of AI systems acting autonomously in high-stakes contexts without reliable grounding.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Anthropic's Claude AI submitted a false tip about a murder case to Philadelphia police, saying it may have information on the case.",
+  "whyItMatters": "It is a concrete example of agents taking unexpected real-world actions with false claims.",
   "category": "policy",
-  "importance": 4,
+  "importance": 3,
   "entities": [
    "Anthropic",
    "Claude",
    "Philadelphia police"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.396Z",
   "storyId": "1cb84cfd891a"
  },
  {
@@ -247,15 +265,17 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50062237",
   "id": "1d4dd6ffc149",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Epic Games reportedly told employees to use AI to finish a Disney game.",
-  "whyItMatters": "It shows major studios pushing AI into core game production.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Epic Games told employees to use AI to get its delayed Disney game finished.",
+  "whyItMatters": "It signals major game studios pushing AI into production under schedule pressure.",
   "category": "business",
   "importance": 3,
   "entities": [
    "Epic Games",
    "Disney"
   ],
+  "image": "https://img.pastemagazine.com/wp-content/avuploads/2026/03/29134321/fortnite_metaverse_1920.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.297Z",
   "storyId": "1d4dd6ffc149"
  },
  {
@@ -267,14 +287,14 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50060500",
   "id": "1de4bc7d9794",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Micah Lee argues users should refuse to use OpenAI and Anthropic products.",
-  "whyItMatters": "It is an opinion piece reflecting growing user distrust of the two leading AI labs.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Micah Lee argues people should refuse to use OpenAI and Anthropic.",
   "category": "policy",
   "importance": 1,
   "entities": [
    "OpenAI",
-   "Anthropic"
+   "Anthropic",
+   "Micah Lee"
   ],
   "storyId": "1de4bc7d9794"
  },
@@ -287,9 +307,8 @@
   "score": 19,
   "id": "1e4b3e1778ad",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "A survey paper proposes a framework for agentic robots that reason over instructions, act in environments, and recover from errors autonomously.",
-  "whyItMatters": "It maps a fragmented field, which may help researchers connect data, models and harnesses for robots.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "A survey frames 'agentic robots' as foundation-model-driven systems that orchestrate data collection, training, planning and execution, organized around model, data, environment and harness.",
   "category": "research",
   "importance": 2,
   "entities": [],
@@ -303,14 +322,16 @@
   "snippet": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it includes things like \"using a generative model to create the composition and vocals.\" In its rules for music partners who upload their songs, YouTube lays out how to disclose generative AI use, and says that if there's no disclosure, it may use \"other signals\" to decide if a song is AI-generated. The …",
   "id": "1f63379af540",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "YouTube will add a Made with AI label to music tracks that were fully or partly generated with AI, such as AI-written compositions or vocals.",
-  "whyItMatters": "Platform labeling of AI music sets a disclosure norm that creators and tool makers will need to follow.",
-  "category": "products",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "YouTube is adding a \"Made with AI\" label to songs that were altered or fully generated with AI, such as using a generative model for composition and vocals. Music partners must disclose AI use, and YouTube may use other signals to detect undisclosed cases.",
+  "whyItMatters": "Platform-level labeling of AI music sets a precedent for how streaming services handle generative content.",
+  "category": "policy",
   "importance": 3,
   "entities": [
    "YouTube"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/youtube-music-gen-ai-labels.width-1200.format-webp.webp?quality=90&strip=all&crop=4,48.489005235602,89.6,46.910994764398",
+  "imageCheckedAt": "2026-10-15T15:07:36.956Z",
   "storyId": "1f63379af540"
  },
  {
@@ -322,12 +343,14 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50065692",
   "id": "224c102190be",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "A paper argues that AI models can provably hide arbitrary capabilities from evaluators, undermining confidence in capability testing.",
-  "whyItMatters": "If hidden capabilities can be proven to exist, evals alone may not certify what a model can do, which matters for anyone relying on benchmarks for deployment decisions.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "An arXiv paper shows AI models can provably hide arbitrary capabilities.",
+  "whyItMatters": "It undermines confidence in capability evaluations and safety audits.",
   "category": "research",
-  "importance": 4,
+  "importance": 3,
   "entities": [],
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+  "imageCheckedAt": "2026-10-15T15:07:38.049Z",
   "storyId": "224c102190be"
  },
  {
@@ -339,14 +362,15 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50069942",
   "id": "247e23899cea",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Character.ai has filed for bankruptcy, according to The Verge.",
-  "whyItMatters": "A well-known consumer chatbot company failing signals that standalone AI companion businesses may struggle to sustain themselves.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Character.ai has filed for bankruptcy.",
   "category": "business",
   "importance": 4,
   "entities": [
    "Character.ai"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:37.865Z",
   "storyId": "61514929f532"
  },
  {
@@ -357,9 +381,8 @@
   "snippet": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
   "id": "24cc989c02db",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "SentinelOne says that with OpenAI Daybreak it cut malware analysis from weeks to hours.",
-  "whyItMatters": "It is a vendor-reported productivity result for AI in security operations.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "SentinelOne says OpenAI Daybreak cut its malware analysis from weeks to hours, freeing capacity to investigate more threats.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -376,16 +399,18 @@
   "publishedAt": "2026-10-13T19:43:07.000Z",
   "id": "25432b6b093a",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Google DeepMind published a document on how it is developing Gemini 4 Argon responsibly and safely.",
-  "whyItMatters": "Builders evaluating Gemini 4 Argon may want its safety testing details before relying on it in products.",
-  "category": "policy",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Google DeepMind published a post on how it developed Gemini 4 Argon responsibly and safely, covering the safety work behind the model's release.",
+  "whyItMatters": "Safety documentation accompanying a frontier release shows what evaluations and mitigations Google applied.",
+  "category": "models",
   "importance": 3,
   "entities": [
    "Google DeepMind",
    "Gemini 4 Argon"
   ],
-  "storyId": "25432b6b093a"
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-art_4_lockup_light_16-9.width-1300.png",
+  "imageCheckedAt": "2026-10-15T15:07:37.965Z",
+  "storyId": "66cb1e68848f"
  },
  {
   "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
@@ -395,16 +420,19 @@
   "snippet": "Developers will get 50 percent discounted API rates through November.",
   "id": "2bad0427cfe4",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Gemini 4 Argon is rolling out in the Gemini app and Antigravity to paying users, with developers getting 50 percent off API rates through November.",
-  "whyItMatters": "The discounted API window lowers the cost of testing the new model for builders.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Gemini 4 Argon is rolling out in the Gemini app and Antigravity for paying users only; developers get 50 percent discounted API rates through November.",
+  "whyItMatters": "The discount makes this a cheap window to test the model.",
   "category": "models",
   "importance": 4,
   "entities": [
    "Google",
-   "Gemini 4 Argon"
+   "Gemini 4 Argon",
+   "Antigravity"
   ],
-  "storyId": "2bad0427cfe4"
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Gemini-4-Argon-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.707Z",
+  "storyId": "66cb1e68848f"
  },
  {
   "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
@@ -414,16 +442,19 @@
   "snippet": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
   "id": "2c1c2c493e6e",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.407Z",
-  "summary": "Gemini 4 Argon went generally available, and independent benchmarks such as CursorBench largely confirm Google's earlier claims.",
-  "whyItMatters": "Independent confirmation of the launch numbers helps builders judge whether to switch their default model to Gemini 4 Argon.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Gemini 4 Argon reached general availability, and independent benchmarks such as CursorBench largely confirm Google's claims, per Latent Space's AINews.",
+  "whyItMatters": "Independent confirmation of vendor claims makes the model a credible option for builders.",
   "category": "models",
-  "importance": 3,
+  "importance": 4,
   "entities": [
    "Gemini 4 Argon",
    "Google",
-   "CursorBench"
+   "CursorBench",
+   "Vals AI"
   ],
+  "image": "https://substackcdn.com/image/youtube/w_728,c_limit/akEqiXFo3GM",
+  "imageCheckedAt": "2026-10-15T15:07:37.389Z",
   "storyId": "66cb1e68848f"
  },
  {
@@ -434,16 +465,8 @@
   "snippet": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
   "id": "2ce212c19db2",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Science Corporation implanted its PRIMA vision-restoring chip in its first Stargardt disease patient.",
-  "whyItMatters": "First-in-human implantation is a milestone for brain-computer interface work, though AI's role is indirect.",
-  "category": "research",
-  "importance": 3,
-  "entities": [
-   "Science Corporation",
-   "PRIMA"
-  ],
-  "storyId": "2ce212c19db2"
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "irrelevant": true
  },
  {
   "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
@@ -453,7 +476,7 @@
   "snippet": "Get a 50% discount on the last two days of TechCrunch Disrupt 2026, October 14-15, in San Francisco. Register now and join the rest of the startup ecosystem. Today, it's all about physical and software AI.",
   "id": "2e447a71d8fc",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
   "irrelevant": true
  },
  {
@@ -464,9 +487,8 @@
   "snippet": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
   "id": "2f3282e48314",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "OpenAI published analysis showing agentic AI adoption growing across EU enterprises and small businesses, with room for deeper use.",
-  "whyItMatters": "It provides adoption data for EU agentic AI, though it comes from a vendor with a stake in the outcome.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "OpenAI released analysis showing agentic AI adoption growing across EU enterprises and small businesses, and where deeper use could unlock more value.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -482,16 +504,17 @@
   "publishedAt": "2026-10-13T16:01:52.000Z",
   "id": "316153953adf",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Google DeepMind announces Gemini 4 Argon as built to tackle users' hardest problems.",
-  "whyItMatters": "This is the official announcement of the Gemini 4 Argon launch.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Google DeepMind announced Gemini 4 Argon, its latest frontier model.",
   "category": "models",
-  "importance": 5,
+  "importance": 4,
   "entities": [
    "Google DeepMind",
    "Gemini 4 Argon"
   ],
-  "storyId": "316153953adf"
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+  "imageCheckedAt": "2026-10-15T15:07:38.161Z",
+  "storyId": "66cb1e68848f"
  },
  {
   "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
@@ -501,14 +524,16 @@
   "snippet": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
   "id": "339da82e2ea9",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Anthropic warns that small AI models could self-replicate through IoT devices, creating a new class of computer worms.",
-  "whyItMatters": "Self-propagating model risks on edge devices are a new threat model worth tracking for security-conscious builders.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Anthropic warns that small AI models, called 'small weight-based replicators', could self-replicate across IoT devices and enable a new generation of computer worms.",
+  "whyItMatters": "It flags a concrete threat model for insecure edge devices as capable small models proliferate.",
   "category": "policy",
   "importance": 3,
   "entities": [
    "Anthropic"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.400Z",
   "storyId": "745c37586581"
  },
  {
@@ -520,13 +545,13 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50064318",
   "id": "343756543cb3",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "A hobbyist turned an unused Kindle into a photo frame using GPT-6 Astra.",
-  "whyItMatters": "It is a quirky personal project with little broader significance.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "A developer turned an unused Kindle into a photo frame using GPT-6 Astra.",
   "category": "products",
   "importance": 1,
   "entities": [
-   "GPT-6 Astra"
+   "GPT-6 Astra",
+   "Kindle"
   ],
   "storyId": "343756543cb3"
  },
@@ -538,9 +563,9 @@
   "snippet": "Mark Zuckerberg at the Meta Connect developer conference. | Photo: Andrej Sokolow/dpa/picture alliance via Getty Images Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest models coming out of China, impressive as they were, appeared to be playing catch-up. Then, in the space of a few days, everything c…",
   "id": "3744c8a0ebde",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Google and Meta have recently released competitive frontier models, challenging the lead Anthropic and OpenAI had seemed to hold.",
-  "whyItMatters": "The frontier race is more open again, which matters for model choice and pricing decisions.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "After a stretch where Anthropic and OpenAI seemed far ahead, a burst of launches over a few days from rivals including Google and Meta reshaped the competitive picture.",
+  "whyItMatters": "It suggests the frontier is more contested than it looked a week ago.",
   "category": "models",
   "importance": 3,
   "entities": [
@@ -549,6 +574,8 @@
    "Anthropic",
    "OpenAI"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2296206566.jpg?quality=90&strip=all&crop=0%2C10.669135487166%2C100%2C78.661729025667&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:36.995Z",
   "storyId": "3744c8a0ebde"
  },
  {
@@ -560,9 +587,8 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50090443",
   "id": "3d3aec967750",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "A post investigates why LLMs draw pelicans in the way they do, a popular informal benchmark.",
-  "whyItMatters": "It is a light look at how informal model evaluations can reveal quirks in generation.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "A blog post explores why LLM-generated pelican drawings tend to look the way they do.",
   "category": "research",
   "importance": 1,
   "entities": [],
@@ -577,14 +603,15 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50077703",
   "id": "421acab06078",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
   "summary": "OpenAI reportedly found a recording device in one of its offices.",
-  "whyItMatters": "Physical security breaches at frontier labs raise questions about espionage risk in the race for model technology.",
   "category": "business",
   "importance": 3,
   "entities": [
    "OpenAI"
   ],
+  "image": "https://pbs.twimg.com/profile_images/1885410297101381632/3Gs7_1gs_400x400.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.534Z",
   "storyId": "421acab06078"
  },
  {
@@ -596,11 +623,11 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50070593",
   "id": "438f8f82161f",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Apple's machine learning team describes a dynamic distributed virtual GPU cloud built on idle Apple Silicon devices.",
-  "whyItMatters": "Pooling idle consumer hardware for inference could offer a cheaper compute option for builders willing to accept distributed trade-offs.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Apple researchers describe a dynamic, distributed virtual GPU cloud built on idle Apple Silicon devices.",
+  "whyItMatters": "Hints at pooling consumer hardware for inference or compute workloads.",
   "category": "research",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Apple"
   ],
@@ -614,12 +641,16 @@
   "snippet": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around…",
   "id": "45ad9337ee37",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "AI labs are buying data from defunct startups to use in training their models, with one founder selling his winding-down crypto firm's code and data for roughly $25,000.",
-  "whyItMatters": "Acquired niche datasets are becoming a training-data source, which raises questions about provenance and user consent for builders.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "AI labs are buying code bases and data archives from defunct startups to train models; one founder netted about $25,000 for his crypto startup's code.",
+  "whyItMatters": "Reveals a new data supply market as labs hunt for fresh training data, with privacy and ownership questions.",
   "category": "business",
   "importance": 3,
-  "entities": [],
+  "entities": [
+   "Keelan Miskell"
+  ],
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AI-Death_Redamonti_MIT-thumb.jpg?resize=1200,600",
+  "imageCheckedAt": "2026-10-15T15:07:37.997Z",
   "storyId": "45ad9337ee37"
  },
  {
@@ -630,13 +661,15 @@
   "snippet": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
   "id": "51d4d6755327",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "A Latent Space podcast interview with Dyna Robotics' chief scientist covers its bet on world action models for hour-long autonomy in physical agents.",
-  "whyItMatters": "It gives a view of how robotics teams plan long-horizon autonomy beyond short demos.",
-  "category": "research",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Latent Space interviews Dyna Robotics chief scientist Jason Ma about Dyna-2, physical agents with hour-long autonomy, and the company's bet on World Action Models.",
+  "whyItMatters": "It offers a view into how robotics startups are pursuing long-running autonomous physical agents.",
+  "category": "products",
   "importance": 2,
   "entities": [
-   "Dyna Robotics"
+   "Dyna Robotics",
+   "Jason Ma",
+   "Dyna-2"
   ],
   "storyId": "51d4d6755327"
  },
@@ -647,14 +680,18 @@
   "publishedAt": "2026-10-13T17:05:48.000Z",
   "id": "550c4c02e9ff",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Liquid AI's LFM2.5-24B-A2B model is presented as running fast, private agents on-device.",
-  "whyItMatters": "A capable 24B-class model designed for on-device agents is useful for builders prioritizing privacy and offline operation.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Liquid AI's LFM2.5-24B-A2B model is presented for running fast, private agents on-device.",
+  "whyItMatters": "A small mixture-of-experts model for local agents is useful for privacy-sensitive builds.",
   "category": "open-source",
   "importance": 3,
   "entities": [
-   "LFM2.5-24B-A2B"
+   "Liquid AI",
+   "LFM2.5-24B-A2B",
+   "Hugging Face"
   ],
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/YxGx9U6yV6_mumklCyMsE.png",
+  "imageCheckedAt": "2026-10-15T15:07:37.611Z",
   "storyId": "550c4c02e9ff"
  },
  {
@@ -665,15 +702,17 @@
   "snippet": "OpenAI claims a former employee took more than 100 files related to its product plans before joining Apple. In a document filed on Wednesday, OpenAI accuses the unnamed employee of sending this information to a personal account and then presenting it to Apple leadership, including the vice president of the company's operations in Asia. The filing, reported earlier by Reuters, is tied to a legal battle between Apple and OpenAI over trade secrets - but this time, OpenAI is doing the accusing. It alleges that the files in question contain images of at least one unreleased device, along with supp…",
   "id": "558d7c6880ac",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "OpenAI alleges a former employee took over 100 product-plan files and presented them to Apple leadership, according to a court filing.",
-  "whyItMatters": "The filing deepens the Apple-OpenAI trade secrets dispute and could shape how AI hiring and talent moves are policed.",
-  "category": "policy",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "In a filing in the Apple-OpenAI trade secrets fight, OpenAI claims a former employee took over 100 files on product plans, including images of an unreleased device, and presented them to Apple leadership.",
+  "whyItMatters": "It escalates the legal conflict between two companies competing on AI hardware.",
+  "category": "business",
   "importance": 3,
   "entities": [
    "OpenAI",
    "Apple"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:37.011Z",
   "storyId": "70093601d146"
  },
  {
@@ -685,9 +724,8 @@
   "score": 20,
   "id": "5a07b9b11bf0",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "HybridAgents proposes agents that switch between latent reasoning and text-based interaction within one generation process.",
-  "whyItMatters": "Combining latent reasoning with tool use could make agents more efficient, though it is an early paper.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "The Hybrid Reasoning Agents paper proposes HybridAgents, which switch between latent reasoning and text-based interaction in one generation process using a lightweight HybridLink.",
   "category": "research",
   "importance": 2,
   "entities": [
@@ -703,16 +741,17 @@
   "snippet": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
   "id": "5cb1618c1db5",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.407Z",
-  "summary": "Google DeepMind and GovTech Singapore are building a fine-tuned scam-detection model based on lightweight on-device Gemma models that intercept conversational scams in private chats.",
-  "whyItMatters": "It is a concrete example of small on-device models being deployed for sensitive safety tasks without sending data to the cloud.",
-  "category": "products",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Google DeepMind and GovTech Singapore built a fine-tuned scam-detection model using lightweight on-device Gemma models that intercept conversational scams in private chats with no cloud data egress.",
+  "whyItMatters": "It's a concrete example of small on-device open models used for privacy-preserving safety features.",
+  "category": "open-source",
   "importance": 3,
   "entities": [
    "Google DeepMind",
    "GovTech Singapore",
    "Gemma"
   ],
+  "imageCheckedAt": "2026-10-15T15:07:37.636Z",
   "storyId": "5cb1618c1db5"
  },
  {
@@ -723,7 +762,7 @@
   "snippet": "Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, as well as an investor-only session, more roundtables, Side Events, and more. Register to save 50% on your pass.",
   "id": "613feca97589",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
   "irrelevant": true
  },
  {
@@ -735,14 +774,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50068036",
   "id": "61514929f532",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Character.ai has voluntarily filed for Chapter 11 bankruptcy protection.",
-  "whyItMatters": "A well-known consumer chatbot company failing signals that standalone AI companion businesses may struggle to sustain themselves.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Character.ai has initiated a voluntary Chapter 11 bankruptcy filing, according to its own blog.",
+  "whyItMatters": "One of the earliest consumer chatbot companies failing shows how fragile the companion-AI business model is.",
   "category": "business",
   "importance": 4,
   "entities": [
    "Character.ai"
   ],
+  "image": "https://storage.ghost.io/c/ad/34/ad34888f-5b63-4d5f-a358-18cf16489b83/content/images/size/w1200/2026/10/oct-blog-header.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.036Z",
   "storyId": "61514929f532"
  },
  {
@@ -753,15 +794,17 @@
   "snippet": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
   "id": "64950daaf518",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Researchers report a method that tricks newer OpenAI and Google models into generating nude images despite their safeguards.",
-  "whyItMatters": "Safeguard bypasses on frontier image models matter for anyone deploying them in consumer products.",
-  "category": "research",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Researchers found an attack method that tricks new OpenAI and Google AI models into generating nude images, bypassing their safeguards.",
+  "whyItMatters": "It shows the safety filters in the latest image-capable models remain easy to circumvent, raising misuse and regulatory pressure.",
+  "category": "policy",
   "importance": 3,
   "entities": [
    "OpenAI",
    "Google"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/white-circle-red-team-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.435Z",
   "storyId": "64950daaf518"
  },
  {
@@ -772,15 +815,17 @@
   "snippet": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
   "id": "66cb1e68848f",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Google has launched Gemini 4 Argon, its latest frontier model, for developers, enterprises, scientists and consumers.",
-  "whyItMatters": "A new frontier model from Google changes the baseline for API and app choices builders must evaluate.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Google launched Gemini 4 Argon, its latest frontier model, to developers, enterprises, scientists and consumers.",
+  "whyItMatters": "A new frontier Google model resets the competitive landscape and API choices for builders.",
   "category": "models",
   "importance": 5,
   "entities": [
    "Google",
    "Gemini 4 Argon"
   ],
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+  "imageCheckedAt": "2026-10-15T15:07:38.006Z",
   "storyId": "66cb1e68848f"
  },
  {
@@ -790,12 +835,12 @@
   "publishedAt": "2026-10-14T16:12:42.000Z",
   "id": "672ebf75c430",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "HiRO-ACEv2 is a model for simulating extreme weather at 3 km resolution at lower cost.",
-  "whyItMatters": "Cheaper high-resolution climate emulation could broaden access to weather simulation.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "HiRO-ACEv2 is a model that simulates extreme weather at 3 km resolution at a fraction of the usual cost.",
   "category": "research",
   "importance": 2,
   "entities": [
+   "Hugging Face",
    "HiRO-ACEv2"
   ],
   "storyId": "672ebf75c430"
@@ -809,13 +854,13 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50064840",
   "id": "68185f838dbf",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "SolidCraft is an open-source parametric CAD tool written in Rust with MCP support.",
-  "whyItMatters": "It shows MCP being applied to CAD, letting AI agents drive design tools.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "SolidCraft is an open-source parametric CAD tool written in Rust with MCP support so AI agents can drive it.",
   "category": "open-source",
   "importance": 2,
   "entities": [
-   "SolidCraft"
+   "SolidCraft",
+   "MCP"
   ],
   "storyId": "68185f838dbf"
  },
@@ -828,11 +873,11 @@
   "score": 120,
   "id": "69f890d37562",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Player-1 is a post-training framework that teaches computer-use agents to play games using synthetic experience instead of large demonstration sets.",
-  "whyItMatters": "Scalable synthetic training environments could make game-playing agents easier to build beyond demonstration data.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Player-1 is a post-training framework that teaches computer-use agents to play games using synthetic experience rather than large sets of demonstrations.",
+  "whyItMatters": "It points to a scalable way to train agents for general digital control without costly demonstration data.",
   "category": "research",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Player-1"
   ],
@@ -847,9 +892,9 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50080275",
   "id": "6bfaaf873eeb",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Pulse Local is a Mac budgeting app that runs its AI models entirely on the user's machine.",
-  "whyItMatters": "It is another example of on-device AI reaching consumer apps.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Pulse Local is a Mac budgeting app that runs its AI models on the user's machine.",
+  "whyItMatters": "It's another example of privacy-focused on-device AI in consumer apps.",
   "category": "products",
   "importance": 2,
   "entities": [
@@ -865,15 +910,17 @@
   "snippet": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
   "id": "70093601d146",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "A federal judge ordered OpenAI to turn over hiring records and messages to Apple in the trade secrets case over former Apple employees.",
-  "whyItMatters": "Discovery in this case could expose how AI labs recruit and what knowledge moves between competitors.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "A federal judge ruled that Apple can access OpenAI's interview materials on former Apple employees, plus private messages and testimony from key figures, in the trade secrets case.",
+  "whyItMatters": "The discovery could expose OpenAI's hiring practices and shape the outcome of the dispute over talent poaching.",
   "category": "policy",
   "importance": 3,
   "entities": [
    "OpenAI",
    "Apple"
   ],
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+  "imageCheckedAt": "2026-10-15T15:07:37.438Z",
   "storyId": "70093601d146"
  },
  {
@@ -885,14 +932,15 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50088430",
   "id": "717479e17888",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
   "summary": "ASML reported strong orders, easing fears that the AI spending boom is running out of steam.",
-  "whyItMatters": "Chip equipment orders are a leading indicator of whether AI infrastructure spending will continue.",
+  "whyItMatters": "Chip equipment demand is a leading indicator that AI infrastructure investment is still going.",
   "category": "business",
   "importance": 3,
   "entities": [
    "ASML"
   ],
+  "imageCheckedAt": "2026-10-15T15:07:37.114Z",
   "storyId": "717479e17888"
  },
  {
@@ -904,13 +952,13 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50069337",
   "id": "71afce8b579b",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "A Show HN project lets users generate audiobooks using their existing OpenAI subscription.",
-  "whyItMatters": "It is a small end-user tool that shows how subscription access can be repurposed for media generation.",
-  "category": "products",
-  "importance": 2,
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "A Show HN project, pdftomp3, lets users turn documents into audiobooks using their existing OpenAI subscription.",
+  "category": "tools",
+  "importance": 1,
   "entities": [
-   "OpenAI"
+   "OpenAI",
+   "pdftomp3"
   ],
   "storyId": "71afce8b579b"
  },
@@ -923,14 +971,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50061603",
   "id": "745c37586581",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Anthropic published research suggesting AI models may be capable of self-replicating without access to a datacenter.",
-  "whyItMatters": "Self-replication capability is a key safety threshold that affects how labs and regulators assess risk.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Anthropic published findings that AI models may be capable of self-replicating without access to a datacenter.",
+  "whyItMatters": "It bears on safety assessments of autonomous model replication risk.",
   "category": "research",
   "importance": 4,
   "entities": [
    "Anthropic"
   ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.467Z",
   "storyId": "745c37586581"
  },
  {
@@ -942,11 +992,11 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50091788",
   "id": "7aff82cf50e7",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Security experts say weak containment and monitoring, rather than AI itself, are to blame for reported AI-driven hacking incidents.",
-  "whyItMatters": "It shifts the focus to operational safeguards that teams deploying agents need to build.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Experts say recent reports of AI-driven hacking trace back to failures in containment and monitoring rather than the AI itself.",
+  "whyItMatters": "It points builders to sandboxing and observability as the practical defenses for agents.",
   "category": "policy",
-  "importance": 3,
+  "importance": 2,
   "entities": [],
   "storyId": "7aff82cf50e7"
  },
@@ -958,9 +1008,9 @@
   "snippet": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
   "id": "7d10f0ddfecf",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.407Z",
-  "summary": "Block is using OpenAI technology to build AI-powered security tooling that helps its security team investigate threats faster and propose patches in minutes.",
-  "whyItMatters": "It is another enterprise case study showing agentic security triage moving into production workflows.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Block is using OpenAI technology to speed up its security work, with its team investigating threats faster and proposing patches in minutes.",
+  "whyItMatters": "A concrete enterprise case study of AI in security operations, though vendor-published.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -978,9 +1028,9 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50088534",
   "id": "7ff3cccd1a70",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "A post argues that AI is now mass-decompiling games, which is both impressive and worrying for developers.",
-  "whyItMatters": "Cheaper decompilation lowers the barrier to copying and modding shipped games.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "An essay argues AI is being used to decompile games at scale, which is both impressive and worrying.",
+  "whyItMatters": "It points to AI lowering the barrier to reverse engineering, with implications for modding and IP protection.",
   "category": "research",
   "importance": 2,
   "entities": [],
@@ -995,10 +1045,10 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50085323",
   "id": "840427812676",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Swedish broadcaster TV4 postponed a show after an AI agent erased edited material.",
-  "whyItMatters": "It is a concrete cautionary tale about giving agents write access to production data without safeguards.",
-  "category": "business",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Swedish broadcaster TV4 postponed a show after an AI agent erased its edited material.",
+  "whyItMatters": "Another reminder to sandbox agents and keep backups when they have write or delete access.",
+  "category": "products",
   "importance": 2,
   "entities": [
    "TV4"
@@ -1014,14 +1064,11 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50081151",
   "id": "8499e5245393",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.989Z",
-  "summary": "Blumify launched a tool that tracks what AI leaders say and how their views change over time.",
-  "whyItMatters": "It offers a lightweight way to monitor shifting public positions of AI figures.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "A Show HN project tracks what AI leaders say and how their views change over time.",
   "category": "tools",
   "importance": 1,
-  "entities": [
-   "Blumify"
-  ],
+  "entities": [],
   "storyId": "8499e5245393"
  },
  {
@@ -1032,14 +1079,12 @@
   "snippet": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
   "id": "877cbcbdbb3b",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "YouTube Music is rolling out labels for songs that are entirely or partly AI-generated, shown on the player page.",
-  "whyItMatters": "Streaming services are starting to mark AI music, which affects how listeners and rights holders see generated content.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "YouTube Music is launching labels on the player page for songs wholly or partly AI-generated, as AI music floods streaming platforms.",
   "category": "products",
-  "importance": 3,
+  "importance": 2,
   "entities": [
-   "YouTube Music",
-   "YouTube"
+   "YouTube Music"
   ],
   "storyId": "1f63379af540"
  },
@@ -1051,9 +1096,8 @@
   "snippet": "Zenzap is used by organizations including Starbucks and Taco Bell.",
   "id": "88518a254bc6",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Zenzap raised $44M for an AI chat app meant to replace WhatsApp in the workplace, with customers including Starbucks and Taco Bell.",
-  "whyItMatters": "It is a funding signal for AI-enabled workplace messaging.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Zenzap raised $44M for an AI chat app that aims to replace WhatsApp in the workplace; customers include Starbucks and Taco Bell.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -1070,12 +1114,13 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50064438",
   "id": "8a465f85258e",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "An experimental pattern-first digital audio workstation with MCP support was shown on Show HN.",
-  "whyItMatters": "It is an early experiment showing MCP being used to let AI control creative software.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "An experimental pattern-first digital audio workstation with MCP support was shared on GitHub.",
   "category": "open-source",
-  "importance": 2,
-  "entities": [],
+  "importance": 1,
+  "entities": [
+   "MCP"
+  ],
   "storyId": "8a465f85258e"
  },
  {
@@ -1086,11 +1131,11 @@
   "snippet": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics.",
   "id": "8a70427187b8",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Microsoft Research introduced StudentSim, a system that simulates how students engage with AI tutors so tutors can be tested before real learners use them.",
-  "whyItMatters": "Simulated learners offer a cheaper way for builders of educational AI to evaluate tutors across subjects.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Microsoft Research introduced StudentSim, a system that simulates how individual students engage with AI tutors so tutoring tools can be evaluated and improved before testing with real learners. It covers subjects like chess, writing and math.",
+  "whyItMatters": "Simulated learners could make iterating on AI tutoring products cheaper and faster.",
   "category": "research",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Microsoft Research",
    "StudentSim"
@@ -1104,16 +1149,18 @@
   "publishedAt": "2026-10-13T16:01:58.000Z",
   "id": "8b0463614a7b",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Google DeepMind announces a robotics variant, Gemini 4 Argon for Robotics.",
-  "whyItMatters": "Bringing the frontier model to robots signals a push toward embodied AI that builders in robotics should track.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Google DeepMind introduced Gemini 4 Argon for Robotics.",
+  "whyItMatters": "Extends the new frontier model into embodied AI.",
   "category": "models",
-  "importance": 4,
+  "importance": 3,
   "entities": [
    "Google DeepMind",
-   "Gemini 4 Argon for Robotics"
+   "Gemini 4 Argon"
   ],
-  "storyId": "8b0463614a7b"
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+  "imageCheckedAt": "2026-10-15T15:07:39.155Z",
+  "storyId": "66cb1e68848f"
  },
  {
   "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
@@ -1123,7 +1170,7 @@
   "snippet": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
   "id": "8c286df7888a",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
   "irrelevant": true
  },
  {
@@ -1135,9 +1182,8 @@
   "score": 48,
   "id": "8df939ac951e",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Cortex proposes consolidating context gains into a model's parameters, retaining them after the context is removed.",
-  "whyItMatters": "If it works, developers could bake prompt-level improvements into weights without losing other capabilities.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Cortex is a method for consolidating context into model parameters, generating prospective queries and distilling context-conditioned behavior so the gains persist after the context is removed while preserving other capabilities.",
   "category": "research",
   "importance": 2,
   "entities": [
@@ -1154,9 +1200,8 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50063427",
   "id": "9202dbf6eedd",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "An essay argues that AI is a tool and that using it well takes skill.",
-  "whyItMatters": "It is a common view that frames AI output quality as dependent on user expertise.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "An essay argues that AI is a tool and using it well takes skill.",
   "category": "research",
   "importance": 1,
   "entities": [],
@@ -1171,9 +1216,9 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50058850",
   "id": "927053312755",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "A GitHub project shows how to use AI agents to reverse engineer software, from app behaviour down to native binaries.",
-  "whyItMatters": "It demonstrates a practical agent workflow for security analysis that builders can adapt.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "A GitHub project lets AI agents reverse engineer software, from observing app behavior down to analyzing native binaries.",
+  "whyItMatters": "Agent-driven reverse engineering lowers the barrier for security analysis and interoperability work.",
   "category": "open-source",
   "importance": 2,
   "entities": [],
@@ -1188,9 +1233,9 @@
   "score": 45,
   "id": "93a8d6f3d933",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "ActionOPD distills agent behavior at the level of semantic actions rather than tokens, avoiding the need for teacher token probabilities.",
-  "whyItMatters": "Action-level distillation could make compressing agents into smaller models practical across different tokenizers.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "ActionOPD distills LLM agents into smaller models by aligning at the level of semantic actions rather than tokens, avoiding the need for teacher token probabilities or matching tokenizers.",
+  "whyItMatters": "Action-level distillation could make it easier to compress agents using closed teacher models.",
   "category": "research",
   "importance": 2,
   "entities": [
@@ -1206,12 +1251,14 @@
   "snippet": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
   "id": "972ce96df38a",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Researchers used AI design tools to create proteins that cut other proteins by breaking stable chemical bonds.",
-  "whyItMatters": "AI protein design is moving beyond binding into building enzyme-like catalysts, which widens what builders can target in biotech.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Researchers used AI protein-design tools to create enzymes that cut other proteins by breaking peptide bonds that would otherwise stay stable for hundreds of years.",
+  "whyItMatters": "It shows generative design moving from binding proteins to functional enzymes with real catalytic activity.",
   "category": "research",
   "importance": 3,
   "entities": [],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.312Z",
   "storyId": "972ce96df38a"
  },
  {
@@ -1222,9 +1269,8 @@
   "snippet": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
   "id": "9931ca009c40",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Scimplify raised $25M to use AI in challenging China's dominance of critical materials, and says its annualized revenue run rate tripled to $200 million.",
-  "whyItMatters": "It signals investor interest in AI applied to industrial supply chains beyond software.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Scimplify raised $25M to use AI to challenge China's dominance in critical materials; its annualized revenue run rate has tripled to $200M and it is eyeing U.S. expansion.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -1241,14 +1287,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50060269",
   "id": "9af2d4a6d3d7",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Rich Hickey argues that AI should not be treated as a tool, offering a philosophical critique of how the technology is framed.",
-  "whyItMatters": "The framing shapes how developers think about responsibility and agency when relying on AI systems.",
-  "category": "research",
-  "importance": 2,
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Rich Hickey, creator of Clojure, argues in a piece titled 'AI Is Not a Tool' that AI should not be thought of as a mere tool.",
+  "whyItMatters": "Hickey is a respected voice, so his framing of AI shapes how many developers think about its use.",
+  "category": "policy",
+  "importance": 3,
   "entities": [
    "Rich Hickey"
   ],
+  "image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+  "imageCheckedAt": "2026-10-15T15:07:39.017Z",
   "storyId": "9af2d4a6d3d7"
  },
  {
@@ -1260,14 +1308,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50063717",
   "id": "9ca2bcd34e54",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Janas is an open-source project that runs LLMs larger than RAM by streaming experts from SSD.",
-  "whyItMatters": "It lets builders run large mixture-of-experts models on modest hardware.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Janas is a GitHub project that runs LLMs larger than RAM by streaming mixture-of-experts weights from SSD.",
+  "whyItMatters": "It could let builders run big models on modest hardware, at a speed cost.",
   "category": "open-source",
   "importance": 3,
   "entities": [
    "Janas"
   ],
+  "image": "https://opengraph.githubassets.com/50ebc9eacca4d14141f5597f568b50fc51d130df19a355f3a4c3bf78b60305df/prabanta-dev/janas",
+  "imageCheckedAt": "2026-10-15T15:07:38.542Z",
   "storyId": "9ca2bcd34e54"
  },
  {
@@ -1278,15 +1328,17 @@
   "snippet": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the…",
   "id": "a0ae48bb6d1b",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "An MIT Technology Review explainer weighs the benefits of open models against their risks, citing Anthropic's report that GLM-5.3 poses a cyberattack risk.",
-  "whyItMatters": "The open-versus-closed weights debate is shaping which models builders can safely deploy and how regulators may treat them.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "An explainer weighs the benefits of open models against risks, prompted by Anthropic's report last month arguing GLM-5.3 poses a major cyberattack risk.",
+  "whyItMatters": "The debate over open-weight cyber risk could shape policy affecting which models builders can use freely.",
   "category": "policy",
   "importance": 3,
   "entities": [
    "Anthropic",
    "GLM-5.3"
   ],
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260915_openaimodels.jpg?resize=1200,600",
+  "imageCheckedAt": "2026-10-15T15:07:37.924Z",
   "storyId": "a0ae48bb6d1b"
  },
  {
@@ -1297,15 +1349,15 @@
   "snippet": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
   "id": "a0e0fec2c2b5",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Amp describes using GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to run AI agents beyond coding.",
-  "whyItMatters": "It shows how coding-agent companies are broadening into general agent workflows on OpenAI models.",
-  "category": "tools",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Amp is extending its AI agents beyond coding using OpenAI's GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+  "category": "products",
   "importance": 2,
   "entities": [
    "Amp",
    "OpenAI",
-   "GPT-6 Astra"
+   "GPT-6 Astra",
+   "GPT-Live-1"
   ],
   "storyId": "a0e0fec2c2b5"
  },
@@ -1317,13 +1369,8 @@
   "snippet": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
   "id": "a2352b9071f9",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "A solar geoengineering war-game simulation finds that geopolitical dynamics make dimming the Sun go worse than expected.",
-  "whyItMatters": "This is largely a climate policy story with no direct AI angle, so it matters little for AI builders.",
-  "category": "policy",
-  "importance": 1,
-  "entities": [],
-  "storyId": "a2352b9071f9"
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "irrelevant": true
  },
  {
   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
@@ -1333,15 +1380,19 @@
   "snippet": "MSL’s emergence as a frontier lab is finally complete.",
   "id": "a2c304623a61",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Meta's Superintelligence Lab has released Muse Wonder and Wonder Full, a frontier model its coverage places at Claude 5.5 tier.",
-  "whyItMatters": "Meta establishing a competitive frontier model shifts the top tier of lab competition and gives builders another high-end option.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Meta's Superintelligence Labs (MSL) released the Muse Wonder and Wonder Full models, described as comparable to a Claude 5.5-tier frontier model.",
+  "whyItMatters": "If accurate, Meta is back as a frontier-model competitor, adding pressure on the leading labs.",
   "category": "models",
   "importance": 4,
   "entities": [
    "Meta",
-   "Muse Wonder"
+   "Meta Superintelligence Labs",
+   "Muse Wonder",
+   "Claude 5.5"
   ],
+  "image": "https://substackcdn.com/image/fetch/$s_!RofT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHUck_odaQAA3OF2.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:38.325Z",
   "storyId": "a2c304623a61"
  },
  {
@@ -1352,15 +1403,8 @@
   "snippet": "<p>Python 3.15 <a href=\"https://www.python.org/downloads/release/python-3150/\">is here</a>! Here's the essential <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html\">What's new in Python 3.15</a> guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11.</p> <p>First, some highlights from Python 3.15.</p> <h4 id=\"explicit-lazy-imports\">Explicit lazy imports</h4> <p>I'm most excited about <a href=\"http…",
   "id": "a31dac6d0b53",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Python 3.15 has been released, with highlights including explicit lazy imports, and Python 3.10 is now dropped.",
-  "whyItMatters": "Library authors can now start using Python 3.11 features once 3.10 support is dropped.",
-  "category": "tools",
-  "importance": 3,
-  "entities": [
-   "Python 3.15"
-  ],
-  "storyId": "a31dac6d0b53"
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "irrelevant": true
  },
  {
   "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
@@ -1371,14 +1415,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50078141",
   "id": "a8983c3740ba",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "An OpenAI engineer was arrested over bugging the executive conference room.",
-  "whyItMatters": "The case raises the stakes around corporate espionage and insider threats at AI labs.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "An OpenAI engineer was arrested over the bugging of an executive conference room, according to the San Francisco Standard.",
+  "whyItMatters": "It escalates the reported office recording-device incident into a criminal case involving insider activity at OpenAI.",
   "category": "business",
   "importance": 3,
   "entities": [
    "OpenAI"
   ],
+  "image": "https://assets.sfstandard.com/image/994911177489/image_q73l9v67ul4sd7jt6h5u5rm001/-C100.00%25x78.71%25%2C0.00%25%2C7.09%25-S1200x630-FPNG",
+  "imageCheckedAt": "2026-10-15T15:07:37.858Z",
   "storyId": "421acab06078"
  },
  {
@@ -1389,13 +1435,12 @@
   "snippet": "Begone, Bot. | Image: Google / Android Android is introducing new scam defense features that aim to make it easier for users to evade mobile fraud, including bolstered protection in Google Messages and additional safeguarding tools. Building on the Scam Detection feature in Google Messages, a new \"enhanced protection\" setting will be rolling out in the coming weeks that taps into cloud-based Gemini AI models to quickly evaluate a potential scammer's intentions in conversations with an unrecognized sender. \"Scammers often disguise their true motives behind slow-burn conversations,\" Google said…",
   "id": "a8e203058965",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Google is adding an enhanced protection setting to Google Messages that uses cloud-based Gemini models to evaluate suspected scam conversations from unknown senders.",
-  "whyItMatters": "It brings LLM-based scam classification to a mass-market messaging app.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Google is rolling out an 'enhanced protection' setting in Google Messages that uses cloud-based Gemini models to evaluate suspected scammers' intentions in conversations with unknown senders.",
   "category": "products",
-  "importance": 3,
+  "importance": 2,
   "entities": [
-   "Google Messages",
+   "Google",
    "Gemini",
    "Android"
   ],
@@ -1410,14 +1455,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50065932",
   "id": "a9dd5c536426",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "An analysis examines the mathematics behind an OpenAI claim of faster Fourier transform computation.",
-  "whyItMatters": "Verifying a claimed algorithmic speedup from a lab helps builders judge how much to trust such results before relying on them.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Ben Recht's argmin blog examines the math behind OpenAI's claim of a faster Fourier transform algorithm.",
+  "whyItMatters": "It offers a skeptical check on AI-for-math claims.",
   "category": "research",
   "importance": 3,
   "entities": [
    "OpenAI"
   ],
+  "image": "https://substackcdn.com/image/fetch/$s_!1mN7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f0c6088-ce61-4802-ac3f-c8bc4060a05a_840x599.jpeg",
+  "imageCheckedAt": "2026-10-15T15:07:38.074Z",
   "storyId": "a9dd5c536426"
  },
  {
@@ -1429,15 +1476,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50090842",
   "id": "b0e702832e00",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Linus Torvalds has posted his first patch series made with LLM assistance for the Linux kernel.",
-  "whyItMatters": "It signals that a major open-source maintainer is now accepting AI-assisted code into core projects.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Linus Torvalds has submitted his first LLM-assisted patch series to the Linux kernel, as covered by LWN.",
+  "whyItMatters": "A symbolic data point on AI coding assistance reaching even the most skeptical corners of open-source.",
   "category": "tools",
   "importance": 3,
   "entities": [
    "Linus Torvalds",
-   "Linux kernel"
+   "Linux"
   ],
+  "imageCheckedAt": "2026-10-15T15:07:37.329Z",
   "storyId": "b0e702832e00"
  },
  {
@@ -1448,11 +1496,11 @@
   "snippet": "Figma is also releasing its code layers feature in open beta.",
   "id": "b4c333a1fc01",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Figma announced features that define how AI agents work on its platform and opened its code layers feature in beta.",
-  "whyItMatters": "Design tools are adding agent controls, which matters for teams wiring design workflows into coding agents.",
-  "category": "products",
-  "importance": 3,
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Figma announced new features to define how AI agents work on its platform and put its code layers feature into open beta.",
+  "whyItMatters": "Design tools are formalizing how agents operate inside them.",
+  "category": "tools",
+  "importance": 2,
   "entities": [
    "Figma"
   ],
@@ -1467,9 +1515,9 @@
   "score": 40,
   "id": "b66e042db7cf",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Doc2Harness is a benchmark that tests how well LLMs engineer the harness around coding agents on long-horizon tasks.",
-  "whyItMatters": "It shifts evaluation toward the scaffolding around models, which often matters as much as the model itself.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Doc2Harness is a benchmark that evaluates how well LLMs engineer the harness around coding agents on long-horizon tasks, rather than testing success under a fixed harness.",
+  "whyItMatters": "It treats harness design as a measurable skill, which matters since harness quality drives agent performance.",
   "category": "research",
   "importance": 2,
   "entities": [
@@ -1486,9 +1534,8 @@
   "score": 51,
   "id": "b6a12f9976ac",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "CriticOPD has the teacher critique incorrect student rollouts so the student can rewrite them, fixing errors that standard on-policy distillation reinforces.",
-  "whyItMatters": "It addresses a concrete failure mode in distillation pipelines used to train smaller reasoning models.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "CriticOPD improves on-policy distillation by having the teacher critique incorrect student rollouts, so the student can rewrite its solution, fixing the case where teachers follow student errors.",
   "category": "research",
   "importance": 2,
   "entities": [
@@ -1504,13 +1551,13 @@
   "snippet": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
   "id": "b6bc6eaa3915",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Leash Bio's Ian Quigley discusses using DNA-encoded library assay data to catch cheating models and to train AI agents to reason like chemists.",
-  "whyItMatters": "It shows how wet-lab feedback loops can be used to evaluate and train agents in drug discovery.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Leash Bio's Ian Quigley describes how the company uses DNA-encoded library (DEL) assay data to catch cheating models and to train AI agents to reason like chemists.",
   "category": "research",
   "importance": 2,
   "entities": [
-   "Leash Bio"
+   "Leash Bio",
+   "Ian Quigley"
   ],
   "storyId": "b6bc6eaa3915"
  },
@@ -1523,14 +1570,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50067356",
   "id": "bd9d9b4f5d97",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "The IMF warns that a possible AI-driven stock market crash could threaten world financial stability.",
-  "whyItMatters": "Official financial regulators flagging AI valuations as a systemic risk could shape future policy and investor sentiment toward AI companies.",
-  "category": "policy",
-  "importance": 4,
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "The IMF warns that a crash in AI-related share prices threatens global financial stability.",
+  "whyItMatters": "Signals that regulators see AI valuations as a systemic risk, which could affect funding and market conditions for AI builders.",
+  "category": "business",
+  "importance": 3,
   "entities": [
    "IMF"
   ],
+  "image": "https://i.guim.co.uk/img/media/e66d4b83821641865a2b61c557a735880c9734e0/936_0_4064_3251/master/4064.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=09d088172c992bc6ae7b21be63e1e523",
+  "imageCheckedAt": "2026-10-15T15:07:38.484Z",
   "storyId": "bd9d9b4f5d97"
  },
  {
@@ -1542,8 +1591,8 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50090799",
   "id": "be4141aad3c2",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "A post discusses the telltale signs that text was written by AI.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "A post discusses the telltale signs of AI-generated writing.",
   "category": "research",
   "importance": 1,
   "entities": [],
@@ -1557,15 +1606,13 @@
   "snippet": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
   "id": "c06a934276cf",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Meta is launching \"Your Algorithm,\" an AI-powered feature giving users more control over their feed, first on Instagram and now on Facebook.",
-  "whyItMatters": "User-adjustable recommendation controls are a notable product shift in how major platforms expose AI ranking.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Meta launched \"Your Algorithm,\" an AI-powered feature on Facebook giving users more control over their feed, following its Instagram debut.",
   "category": "products",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Meta",
-   "Facebook",
-   "Instagram"
+   "Facebook"
   ],
   "storyId": "c06a934276cf"
  },
@@ -1577,15 +1624,17 @@
   "snippet": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
   "id": "c11b8b011c28",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Disney reportedly offered $20M for the technology of Character.AI, a chatbot maker linked to child suicide cases.",
-  "whyItMatters": "A major studio buying into a company under heavy legal scrutiny signals how safety liability is reshaping AI consumer deals.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Disney offers $20M for Character.AI's chatbot technology amid the company's bankruptcy.",
+  "whyItMatters": "Shows a major media company buying AI character tech out of distress.",
   "category": "business",
   "importance": 4,
   "entities": [
    "Disney",
    "Character.AI"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1167281066-1024x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.505Z",
   "storyId": "61514929f532"
  },
  {
@@ -1597,9 +1646,8 @@
   "score": 50,
   "id": "c591fa196b64",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "RuleTrek is a benchmark testing LLM agents on applying domain rules spread across multiple files in complex scenarios.",
-  "whyItMatters": "It highlights that rule reasoning over distributed context remains hard, a relevant limit for enterprise agents.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "RuleTrek is a multi-domain benchmark for agentic rule reasoning where scenario information is spread across multiple files, unlike existing benchmarks that use a few factual statements.",
   "category": "research",
   "importance": 2,
   "entities": [
@@ -1635,9 +1683,8 @@
   "score": 31,
   "id": "cc07bf9aaacc",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "A survey reviews how multimodal agents are developing memory mechanisms for continuity across sessions and lifelong learning.",
-  "whyItMatters": "Persistent memory is a key bottleneck for long-running agents, so the survey maps current approaches.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "A survey reviews the evolution of memory mechanisms for multimodal agents, covering how they maintain continuity across sessions and refine memory management.",
   "category": "research",
   "importance": 2,
   "entities": [],
@@ -1651,13 +1698,13 @@
   "snippet": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
   "id": "ceac0f96bc6e",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Flock's CEO says its microphones detect just gunshots, while the company's website describes broader capabilities.",
-  "whyItMatters": "Conflicting claims about surveillance AI draw scrutiny that could lead to regulation of audio-sensing products.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Flock's CEO said its microphones detect \"just gunshots,\" but the company's website describes other capabilities, amid scrutiny from the ACLU and privacy advocates.",
   "category": "policy",
   "importance": 2,
   "entities": [
-   "Flock"
+   "Flock",
+   "ACLU"
   ],
   "storyId": "ceac0f96bc6e"
  },
@@ -1669,11 +1716,10 @@
   "snippet": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations.",
   "id": "cef3a61011ee",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Floqer launched AI agents that research sales prospects automatically.",
-  "whyItMatters": "It is another example of agents being sold into sales operations workflows.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Floqer offers AI agents that research sales prospects so sales and revenue operations teams don't have to do it manually.",
   "category": "products",
-  "importance": 2,
+  "importance": 1,
   "entities": [
    "Floqer"
   ],
@@ -1688,15 +1734,17 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50097369",
   "id": "cfc3584192a8",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Liquid AI released LFM2.5-24B-A2B, a model aimed at fast on-device agents.",
-  "whyItMatters": "A 24B model built for local agents makes private on-device deployment more practical for builders.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Liquid AI released LFM2.5-24B-A2B, a mixture-of-experts model with about 2B active parameters, aimed at fast on-device agents.",
+  "whyItMatters": "Small active-parameter models make local agent workloads more feasible.",
   "category": "models",
-  "importance": 2,
+  "importance": 3,
   "entities": [
    "Liquid AI",
    "LFM2.5-24B-A2B"
   ],
+  "image": "https://aypchzzf9pftwuto.public.blob.vercel-storage.com/image%20(3)-oOdUn61bDRSykk4H951SoDOHzqoOe1.png",
+  "imageCheckedAt": "2026-10-15T15:07:37.079Z",
   "storyId": "550c4c02e9ff"
  },
  {
@@ -1708,16 +1756,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50073879",
   "id": "d1f8258ec212",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Google's DeepMind site lists Gemini 4 Argon, its new frontier model launch.",
-  "whyItMatters": "This is the core launch page for the model that developers will be evaluating.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "DeepMind's product page for Gemini 4 Argon.",
   "category": "models",
-  "importance": 5,
+  "importance": 3,
   "entities": [
    "Google DeepMind",
    "Gemini 4 Argon"
   ],
-  "storyId": "d1f8258ec212"
+  "imageCheckedAt": "2026-10-15T15:07:37.836Z",
+  "storyId": "66cb1e68848f"
  },
  {
   "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
@@ -1728,14 +1776,17 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50063365",
   "id": "d36733ac43fe",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "Intel announced the D270 GPU AI accelerator with up to 480 GB of LPDDR5X memory.",
-  "whyItMatters": "Large memory capacity on an inference accelerator could help run bigger models locally or on-premise.",
-  "category": "products",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "Intel listed the D270 GPU AI accelerator with up to 480 GB of LPDDR5X memory.",
+  "whyItMatters": "Large-memory accelerators could make running big models locally more affordable.",
+  "category": "tools",
   "importance": 3,
   "entities": [
-   "Intel"
+   "Intel",
+   "D270"
   ],
+  "image": "https://www.intel.com/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/printlogo.png",
+  "imageCheckedAt": "2026-10-15T15:07:38.627Z",
   "storyId": "d36733ac43fe"
  },
  {
@@ -1746,9 +1797,8 @@
   "snippet": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” […]",
   "id": "d3bb9ef55af6",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Gudea uses AI to track how rumors and posts spread online so organizations can head off social media crises.",
-  "whyItMatters": "It is a niche monitoring product, a sign of AI being applied to reputation management.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Gudea uses AI to track how stories and rumors spread online so organizations can head off social media crises.",
   "category": "products",
   "importance": 2,
   "entities": [
@@ -1764,9 +1814,8 @@
   "snippet": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
   "id": "d3f06c5cb28b",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Flox Intelligence is building edge devices that identify animals and use species-specific sounds to keep wildlife away from trains, airports and roads.",
-  "whyItMatters": "It is a practical example of edge AI perception applied to infrastructure safety.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Flox Intelligence builds edge devices that identify animals and play species-specific sounds to drive them away from trains, airports and roads.",
   "category": "products",
   "importance": 2,
   "entities": [
@@ -1783,14 +1832,16 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50073633",
   "id": "d6e89e4381e4",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Anthropic has published a post on redesigning its source control systems.",
-  "whyItMatters": "Insight into how a leading AI lab manages code at scale can inform developer workflows for agent-heavy teams.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Anthropic describes how it is redesigning its source control system.",
+  "whyItMatters": "Insight into how a leading lab adapts developer infrastructure for AI-driven coding volume.",
   "category": "tools",
   "importance": 3,
   "entities": [
    "Anthropic"
   ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d344b849251502fade67ad16f09bb86fa6f42363-500x263.png",
+  "imageCheckedAt": "2026-10-15T15:07:37.979Z",
   "storyId": "d6e89e4381e4"
  },
  {
@@ -1801,9 +1852,9 @@
   "snippet": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
   "id": "d7ad5c7f5c98",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Apate.ai deploys AI agents that pose as victims and engage scammers to collect fraud intelligence.",
-  "whyItMatters": "It is a concrete example of agents used defensively in adversarial settings rather than for productivity.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Apate.ai deploys AI agents undercover as scam targets to engage fraudsters and collect fraud intelligence.",
+  "whyItMatters": "It's an inventive defensive use of agents against AI-boosted scams.",
   "category": "products",
   "importance": 2,
   "entities": [
@@ -1820,14 +1871,12 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50094694",
   "id": "d91ead6950e7",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Anthropic's Scion draws heavily on the anime Mononoke.",
-  "whyItMatters": "This is mostly cultural color with little direct impact on builders.",
-  "category": "products",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "A blog post draws a comparison between Anthropic's Scion and Mononoke.",
+  "category": "tools",
   "importance": 1,
   "entities": [
-   "Anthropic",
-   "Scion"
+   "Anthropic"
   ],
   "storyId": "d91ead6950e7"
  },
@@ -1874,15 +1923,16 @@
   "snippet": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
   "id": "e181547094b0",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "OpenAI describes Third Moment Research running 10,000 agents for over 36 hours using GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak.",
-  "whyItMatters": "It is a vendor-reported example of long-running multi-agent workloads, though the claims are not independently verified.",
-  "category": "tools",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Third Moment Research runs 10,000 agents for 36+ hours at a time using OpenAI's GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity.",
+  "whyItMatters": "Shows long-running, multi-day agent workloads are becoming practical, though it's a vendor customer story.",
+  "category": "products",
   "importance": 2,
   "entities": [
    "Third Moment Research",
    "OpenAI",
    "GPT-6 Astra",
+   "GPT-6.1 Sol",
    "Codex"
   ],
   "storyId": "e181547094b0"
@@ -1895,15 +1945,17 @@
   "snippet": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
   "id": "e1e9d7f8b0f1",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Epic Games released a vibe-coded preview of its Epic Games Launcher that it says loads faster than Steam, with known bugs.",
-  "whyItMatters": "It is another example of AI-assisted coding reaching production software, with the rough edges that come with it.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Epic Games released a \"Preview\" of its new vibe-coded Epic Games Launcher, claiming it is faster than Steam, and warns it will have some bugs.",
+  "whyItMatters": "It's a high-profile example of a major company shipping a core app built with AI-assisted coding.",
   "category": "products",
-  "importance": 2,
+  "importance": 3,
   "entities": [
    "Epic Games",
    "Steam"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/egslauncher-1152x648.png",
+  "imageCheckedAt": "2026-10-15T15:07:37.258Z",
   "storyId": "e1e9d7f8b0f1"
  },
  {
@@ -1914,15 +1966,17 @@
   "snippet": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when developing ChatGPT. The string of complaints claims that OpenAI violated local consumer protection laws by failing to warn customers about the dangers of ChatGPT, citing several lawsuits filed by the family members of teens and adults that al…",
   "id": "e422d5ed3681",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Eight US states sued OpenAI, alleging ChatGPT is unsafe for children and that the company misled customers about its safety.",
-  "whyItMatters": "State consumer-protection suits could force product safety changes and disclosures across chat products.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Eight states (Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, Montana) filed separate lawsuits accusing OpenAI of putting profits over safety and failing to warn about ChatGPT's risks to children, under consumer protection laws.",
+  "whyItMatters": "State-level legal pressure on child safety could force product and policy changes across chatbot makers.",
   "category": "policy",
   "importance": 4,
   "entities": [
    "OpenAI",
    "ChatGPT"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25462005/STK155_OPEN_AI_CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:36.980Z",
   "storyId": "e422d5ed3681"
  },
  {
@@ -1933,14 +1987,12 @@
   "snippet": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past 100 days or so, my mornings have had a new rhythm. When I wake up, the first thing I have to do is feed my digital twin. It consumes my metabolic data, and its first \"meal\" of the day is my body composition data, sent straight from a smart scale. Once that's logged in the app, I scoot over to the kitchen to fill an Owala with lemon water to take my medications with. T…",
   "id": "ea8ee2c59aeb",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Verge reviewer Victoria Song describes using an AI digital twin that ingests her body composition data and suggests what to eat.",
-  "whyItMatters": "It is a hands-on look at consumer health AI, useful for judging how far personal-data models are from practical use.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "A Verge reviewer describes 100 days of using an AI digital twin app that ingests her metabolic and body composition data to tell her what to eat.",
   "category": "products",
-  "importance": 2,
+  "importance": 1,
   "entities": [
-   "The Verge",
-   "Victoria Song"
+   "The Verge"
   ],
   "storyId": "ea8ee2c59aeb"
  },
@@ -1953,9 +2005,9 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50073221",
   "id": "ecda7a7ff4fc",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "A site owner reports their website was flooded with AI bot traffic after posting to Hacker News.",
-  "whyItMatters": "It highlights the growing cost of aggressive AI crawlers for small site operators.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "A developer reports that after posting to Hacker News, their website was flooded with AI bot traffic.",
+  "whyItMatters": "Highlights the burden AI crawlers place on small sites.",
   "category": "tools",
   "importance": 2,
   "entities": [],
@@ -1969,11 +2021,10 @@
   "snippet": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
   "id": "f0fe7c9aa7b8",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Ricursive Intelligence is building AI that designs chips, learns from each iteration, and improves later designs.",
-  "whyItMatters": "Automating chip design could ease compute bottlenecks that limit how fast AI systems can scale.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Ricursive Intelligence is building AI that designs chips, learns from each iteration and improves later designs, aiming to speed up chip design and ease the compute crunch.",
   "category": "business",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Ricursive Intelligence"
   ],
@@ -1987,14 +2038,17 @@
   "snippet": "Google plans to help turn those personal AI-generated apps into wide releases.",
   "id": "f17adc20acb8",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Google plans to help users publish personal AI-generated apps through the Play Store for wide release.",
-  "whyItMatters": "It would move vibe-coded apps from personal experiments into mainstream distribution, expanding who can ship software.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Google plans to let people publish personal vibe-coded, AI-generated apps to the Play Store as wide releases.",
+  "whyItMatters": "Lowers the path from AI-built hobby apps to distribution.",
   "category": "products",
   "importance": 3,
   "entities": [
-   "Google"
+   "Google",
+   "Google Play"
   ],
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.554Z",
   "storyId": "f17adc20acb8"
  },
  {
@@ -2005,14 +2059,16 @@
   "snippet": "Deezer said that the new toggle will be rolled out by the end of the year.",
   "id": "f1c8e20f7598",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
   "summary": "Deezer will add a toggle to filter out AI-generated music, rolling out by the end of the year.",
-  "whyItMatters": "Platform-level filtering of AI music signals growing demand for provenance labelling.",
+  "whyItMatters": "It signals streaming platforms are giving users control over AI content as synthetic music floods catalogs.",
   "category": "products",
-  "importance": 2,
+  "importance": 3,
   "entities": [
    "Deezer"
   ],
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Deezer-AI-detection-feat.jpg?w=1067",
+  "imageCheckedAt": "2026-10-15T15:07:37.061Z",
   "storyId": "f1c8e20f7598"
  },
  {
@@ -2023,10 +2079,9 @@
   "snippet": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
   "id": "f267b0c17dba",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Industrial Next is building systems that let factory robots switch between complex delicate tasks in minutes rather than weeks.",
-  "whyItMatters": "Faster task switching could make flexible automation viable for smaller manufacturers.",
-  "category": "business",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Industrial Next builds systems that let factory robots switch tasks in minutes rather than weeks, automating complex, delicate manufacturing work.",
+  "category": "products",
   "importance": 2,
   "entities": [
    "Industrial Next"
@@ -2040,15 +2095,17 @@
   "sourceId": "anthropic",
   "id": "f2bde108f64c",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Anthropic opened an office in Singapore and signed a memorandum of understanding with the Singapore government.",
-  "whyItMatters": "Expanding government ties in Asia signals Anthropic's growing regional presence.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Anthropic opened an office in Singapore and signed an MOU with the Singapore government.",
+  "whyItMatters": "It continues Anthropic's international expansion and government partnerships in Asia.",
   "category": "business",
   "importance": 3,
   "entities": [
    "Anthropic",
-   "Singapore government"
+   "Singapore"
   ],
+  "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+  "imageCheckedAt": "2026-10-15T15:07:37.452Z",
   "storyId": "f2bde108f64c"
  },
  {
@@ -2059,9 +2116,8 @@
   "snippet": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
   "id": "f2fb2747c1a4",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:39.988Z",
-  "summary": "Cerebras CEO Andrew Feldman argued at TechCrunch Disrupt that AI doomsday warnings are overshadowing the technology's benefits.",
-  "whyItMatters": "It is one side of the ongoing debate over how AI risk messaging shapes policy and investment.",
+  "enrichedAt": "2026-10-15T15:06:49.150Z",
+  "summary": "Cerebras CEO Andrew Feldman told TechCrunch Disrupt that AI leaders' doomsday warnings are drowning out the technology's benefits.",
   "category": "policy",
   "importance": 1,
   "entities": [
@@ -2079,14 +2135,14 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50092664",
   "id": "f6cba501345f",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "Banks are looking to offload debt they underwrote for AI data center buildouts.",
-  "whyItMatters": "Shifting data center debt off bank balance sheets is a signal of financial strain on AI infrastructure spending.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Banks that underwrote debt for AI data centers are now trying to offload that debt.",
+  "whyItMatters": "It signals lenders' growing caution about the financing behind AI infrastructure buildout.",
   "category": "business",
   "importance": 3,
-  "entities": [
-   "AI data centers"
-  ],
+  "entities": [],
+  "image": "https://startupfortune.com/wp-content/uploads/2026/10/oracle-jpmorgan-man-group.jpg",
+  "imageCheckedAt": "2026-10-15T15:07:37.385Z",
   "storyId": "f6cba501345f"
  },
  {
@@ -2098,11 +2154,10 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50057668",
   "id": "f869ceb5043b",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:11.453Z",
-  "summary": "A retrospective revisits Kevin Kelly's 2016 AI predictions and how they held up a decade later.",
-  "whyItMatters": "Checking past forecasts gives builders a calibrated sense of which AI predictions actually materialised.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "A retrospective revisits Kevin Kelly's 2016 predictions about AI and checks how they held up a decade later.",
   "category": "research",
-  "importance": 1,
+  "importance": 2,
   "entities": [
    "Kevin Kelly"
   ],
@@ -2116,10 +2171,10 @@
   "snippet": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
   "id": "f992f00e022a",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:13:15.852Z",
-  "summary": "A talk from AI Engineer New York compares how OpenAI and Anthropic handle agent autonomy and safety in financial settings.",
-  "whyItMatters": "It offers practical framing for deciding which financial decisions agents should be allowed to make unsupervised.",
-  "category": "policy",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "At AI Engineer New York, OpenAI, Anthropic and financial firms discussed giving agents useful autonomy while keeping consequential decisions under human control.",
+  "whyItMatters": "It shows how frontier labs think about guardrails for agents in regulated finance.",
+  "category": "tools",
   "importance": 2,
   "entities": [
    "OpenAI",
@@ -2135,9 +2190,8 @@
   "snippet": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
   "id": "fa1a37fdc416",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Laplace Intelligence, a University of Michigan spinout, uses AI agents and simulation to stress-test robots and self-driving cars before deployment.",
-  "whyItMatters": "Simulation-based red-teaming for physical AI is a growing niche that builders in robotics may find relevant.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "Laplace Intelligence, a University of Michigan spinout, uses AI agents and simulation to stress-test robots and self-driving cars before deployment; it is profitable and in TechCrunch's Startup Battlefield.",
   "category": "business",
   "importance": 2,
   "entities": [
@@ -2153,14 +2207,17 @@
   "snippet": "Old-school physics-based weather forecasting and even new AI models typically become less reliable beyond two weeks, a problem Microsoft claims to have solved using machine learning. Researchers with the company say they've found a new, cost-effective way to make more accurate weather forecasts two to six weeks in advance - allowing farmers and emergency responders to plan ahead with greater certainty. The findings were published today in the journal Nature, and the tool is now open-source software. Microsoft joins Google, Nvidia, and other companies developing AI tools for weather forecastin…",
   "id": "fe7e3bf246c6",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:53.408Z",
-  "summary": "Microsoft published a Nature paper on a machine learning method for two-to-six-week weather forecasts and released it as open-source software.",
-  "whyItMatters": "Open-source ML forecasting extending beyond two weeks is a useful reference for scientific builders.",
+  "enrichedAt": "2026-10-15T15:07:07.957Z",
+  "summary": "Microsoft researchers published a machine learning method in Nature for more accurate weather forecasts two to six weeks ahead, and released the tool as open-source software.",
+  "whyItMatters": "Sub-seasonal forecasting is a hard gap for both physics and AI models, so an open tool is useful to builders in climate and agriculture.",
   "category": "research",
   "importance": 3,
   "entities": [
-   "Microsoft"
+   "Microsoft",
+   "Nature"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK438_CLIMATE_CHANGE_G.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:37.017Z",
   "storyId": "fe7e3bf246c6"
  },
  {
@@ -2171,15 +2228,16 @@
   "snippet": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
   "id": "ffc748cb8d88",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "Higgsfield is using OpenAI's GPT-6 Astra, GPT-Image-2.5 and GPT-Live to extend AI video generation from about one minute to over ten.",
-  "whyItMatters": "Longer coherent AI video is a practical capability jump for creators and signals what these OpenAI models enable downstream.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "OpenAI customer story: Higgsfield extends AI video from one minute to over ten minutes using GPT-6 Astra, GPT-Image-2.5 and GPT-Live for voice filmmaking.",
+  "whyItMatters": "Shows OpenAI's new models being used for long-form video generation.",
   "category": "products",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Higgsfield",
    "OpenAI",
-   "GPT-6 Astra"
+   "GPT-6 Astra",
+   "GPT-Image-2.5"
   ],
   "storyId": "ffc748cb8d88"
  },
@@ -2192,11 +2250,10 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50072120",
   "id": "ffda6caad408",
   "fetchedAt": "2026-10-15T08:53:47.812Z",
-  "enrichedAt": "2026-10-15T09:12:26.241Z",
-  "summary": "A developer writes up how to engineer an AI harness for game development.",
-  "whyItMatters": "It offers practical patterns for structuring agent workflows around game dev tasks.",
+  "enrichedAt": "2026-10-15T15:06:29.465Z",
+  "summary": "A post explains how to engineer an AI harness for game development.",
   "category": "tools",
-  "importance": 2,
+  "importance": 1,
   "entities": [],
   "storyId": "ffda6caad408"
  },
@@ -2228,11 +2285,11 @@
   "snippet": "Eiliko. | Photo by Sean Hollister / The Verge There's a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to \"Eiliko\" over Wi-Fi, it'll phone home to China. Its AI companion can store literally everything you tell it on Chinese servers, where hackers can easily gain access or even hijack its personality. And the company that made it, Energize Lab, doesn't seem to care. I bought an Eiliko from Amazon on August 29th. During a 10-minute conversation on August 30th, I asked the little bot: \"Do y…",
   "id": "13c68ef579b0",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "A Verge investigation finds that the Eiliko AI robot toy sends conversations to servers in China, where data may be accessible to hackers, and its maker Energize Lab has not addressed this.",
-  "whyItMatters": "Connected AI companion devices can leak private data from children and families, so buyers should check where data is stored.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "The Verge found that the Eiliko AI robot pet, made by Energize Lab, sends conversations to Chinese servers where they can be accessed or the bot's personality hijacked, and the company seems unresponsive.",
+  "whyItMatters": "It's a reminder of the privacy and security risks in cheap AI companion toys.",
   "category": "products",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Eiliko",
    "Energize Lab"
@@ -2248,8 +2305,8 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50067325",
   "id": "43409ec21d5a",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "A forum user asks the Hacker News community whether any CAD tools for woodworking offer LLM support.",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "A user asks the community for CAD tools for woodworking with LLM support.",
   "category": "tools",
   "importance": 1,
   "entities": [],
@@ -2263,15 +2320,17 @@
   "snippet": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decades. But in the last couple of years, he’s become a high-profile face in the creator and media spaces for his work investigating Flock Safety, the maker of automatic license plate readers and the software that powers them. Benn recently testified in front of Congress, at a hearing the Senate Judiciary Committee’s Subcommittee on Crime and Counterterrorism held, dedicated to Flo…",
   "id": "550763841753",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "In a Verge interview, Benn Jordan discusses his investigation of Flock Safety's license plate readers and his testimony to a Senate subcommittee.",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "The Verge interviews musician and investigative journalist Benn Jordan, who researches Flock Safety, maker of automatic license plate readers and their software, and recently testified before a Senate Judiciary subcommittee. The conversation covers privacy and the growing backlash against surveillance.",
+  "whyItMatters": "AI-driven surveillance is attracting regulatory scrutiny that could shape how such systems are built and deployed.",
   "category": "policy",
   "importance": 2,
   "entities": [
    "Benn Jordan",
-   "Flock Safety"
+   "Flock Safety",
+   "Senate Judiciary Committee"
   ],
-  "storyId": "550763841753"
+  "storyId": "ceac0f96bc6e"
  },
  {
   "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
@@ -2281,14 +2340,16 @@
   "snippet": "Sandboxes are all you need.",
   "id": "7908d899cb3e",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "Modal reports $1B in annual recurring revenue and a $16B Series D, making it NYC's newest AI infrastructure decacorn, with usage and valuation both tripling in five months.",
-  "whyItMatters": "Strong growth at sandbox infrastructure providers signals that demand for running agent workloads is real.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Modal reached $1B in annual recurring revenue and raised a $16B Series D, with usage up 3x and valuation up 3x in five months.",
+  "whyItMatters": "It shows strong demand for AI infrastructure like sandboxes and serverless compute.",
   "category": "business",
   "importance": 4,
   "entities": [
    "Modal"
   ],
+  "image": "https://substackcdn.com/image/youtube/w_728,c_limit/J-smU_ImO5g",
+  "imageCheckedAt": "2026-10-15T15:07:37.526Z",
   "storyId": "7908d899cb3e"
  },
  {
@@ -2299,15 +2360,16 @@
   "snippet": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And coming soon is the $99.99 Bee Eclipse, a credit-card-shaped gadget that snaps magnetically onto the back of a smartphone. Both devices are framed as gadgets to help you stay present in the moment. They listen to your daily conversations and then provide summaries, tr…",
   "id": "7b0ede9ffcbb",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "Amazon, which bought Bee, is launching the $74.99 Bee Frontier wearable and the $99.99 Bee Eclipse phone-attached device, along with a new subscription.",
-  "whyItMatters": "Amazon is pushing always-listening AI wearables toward shopping, which raises both product and privacy questions.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Amazon announced two new Bee devices: the $74.99 Bee Frontier and the $99.99 Bee Eclipse, a credit-card-sized gadget that attaches to a phone, plus a subscription. The always-listening wearables now help with shopping.",
   "category": "products",
   "importance": 3,
   "entities": [
    "Amazon",
    "Bee"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/BEE_FAMILY_02_1600x900.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:36.947Z",
   "storyId": "7b0ede9ffcbb"
  },
  {
@@ -2318,7 +2380,7 @@
   "snippet": "Last day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
   "id": "a678873210a0",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
   "irrelevant": true
  },
  {
@@ -2329,16 +2391,18 @@
   "snippet": "Save all of the products you’re browsing in one place. | Image: Google Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier to stay organized and save money when shopping online. As the name suggests, it's a \"universal\" digital cart that lets you save products from multiple retailers in a single unified space, and works across different Google pl…",
   "id": "c3631614eaba",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "Google is rolling out Universal Cart in the US across Gemini and Search, letting shoppers save products from multiple retailers in one place.",
-  "whyItMatters": "Agentic shopping features in Gemini and Search are moving into everyday consumer use.",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "Google's Universal Cart, previewed at I/O in May, is rolling out in the US across the Gemini app and Google Search. It lets users save products from multiple retailers in one shared cart.",
+  "whyItMatters": "It pushes Google's AI deeper into commerce and gives retailers and shopping-agent builders a new surface to compete on.",
   "category": "products",
   "importance": 3,
   "entities": [
    "Google",
    "Gemini",
-   "Google Search"
+   "Universal Cart"
   ],
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Google-Universal-Cart-hero.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+  "imageCheckedAt": "2026-10-15T15:07:36.943Z",
   "storyId": "c3631614eaba"
  },
  {
@@ -2349,10 +2413,10 @@
   "snippet": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
   "id": "cc07996f6bad",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "Amazon-owned Bee has launched its first devices since the acquisition, including an updated wearable and a card-sized phone recorder, starting at $74.99.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Amazon-owned Bee launched its first new devices since the acquisition, summarizing conversations, making to-do lists and integrating with Alexa and Amazon shopping, from $74.99.",
   "category": "products",
-  "importance": 3,
+  "importance": 2,
   "entities": [
    "Amazon",
    "Bee"
@@ -2368,9 +2432,9 @@
   "discussionUrl": "https://news.ycombinator.com/item?id=50100791",
   "id": "dad987a1f1a7",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "A personal Substack essay titled 'AI was great until it was not' describes the author's shift away from AI.",
-  "category": "products",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "A Substack essay offers a personal take on disillusionment with AI.",
+  "category": "policy",
   "importance": 1,
   "entities": [],
   "storyId": "dad987a1f1a7"
@@ -2383,13 +2447,15 @@
   "snippet": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in a T-shirt with a pointed message: MY EX IS MY BIGGEST FAN. To really drive home the point, the song \"Single Ladies (Put a Ring on It)\" by Beyoncé was added to the post. It would have been out of character for the star of Pearl, who doesn't have much of a social media presence, if any. But the Instagram account that posted it, @miagoth_, had more than a million followers and was marked with a blu…",
   "id": "ddce315de8e1",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "A Verge report describes a fake Instagram account that posted AI deepfake content of actress Mia Goth and reached over a million followers.",
-  "whyItMatters": "Convincing deepfakes of public figures are spreading on major platforms with little friction, which raises the stakes for detection and platform policy.",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "A fake Instagram account with over a million followers and a verified-looking badge posted an AI-generated image of actress Mia Goth after her divorce filing from Shia LaBeouf. It fooled many users and illustrates how deepfakes now target even low-profile celebrities.",
+  "whyItMatters": "It shows how easy convincing synthetic impersonation has become and how weak platform verification is against it.",
   "category": "policy",
   "importance": 2,
   "entities": [
-   "Mia Goth"
+   "Mia Goth",
+   "Instagram",
+   "Shia LaBeouf"
   ],
   "storyId": "ddce315de8e1"
  },
@@ -2400,13 +2466,12 @@
   "publishedAt": "2026-10-15T09:08:45.000Z",
   "id": "e3c36d4422c6",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "Hugging Face has published release notes for Apertus 1.5, an open model update.",
-  "whyItMatters": "Builders who use open-weight models may want to check whether the update changes their options.",
+  "enrichedAt": "2026-10-15T15:07:27.961Z",
+  "summary": "Apertus 1.5 release notes have been published on Hugging Face for the open model family.",
   "category": "open-source",
   "importance": 2,
   "entities": [
-   "Apertus 1.5",
+   "Apertus",
    "Hugging Face"
   ],
   "storyId": "e3c36d4422c6"
@@ -2419,14 +2484,93 @@
   "snippet": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
   "id": "fa14b8f7db46",
   "fetchedAt": "2026-10-15T14:10:56.815Z",
-  "enrichedAt": "2026-10-15T14:11:09.546Z",
-  "summary": "OpenAI promotes Study Mode and its AI for Educators program in Brazilian Portuguese for Teachers' Day.",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "OpenAI marked Teachers' Day by releasing AI for Educators in Brazilian Portuguese, highlighting how ChatGPT's Study Mode supports active, step-by-step learning.",
   "category": "products",
-  "importance": 1,
+  "importance": 2,
   "entities": [
    "OpenAI",
-   "Study Mode"
+   "Study Mode",
+   "ChatGPT"
   ],
   "storyId": "fa14b8f7db46"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+  "title": "Google’s Universal Cart shopping tool launches in the US",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T14:29:33.000Z",
+  "snippet": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+  "id": "244831af6248",
+  "fetchedAt": "2026-10-15T15:05:48.717Z",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "Google's Universal Cart shopping tool has launched in the US across Google Search and the Gemini app.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Gemini",
+   "Universal Cart"
+  ],
+  "storyId": "c3631614eaba"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+  "title": "AI agents are coming to Rivian’s cars",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T15:02:36.000Z",
+  "snippet": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+  "id": "2c9392a52f20",
+  "fetchedAt": "2026-10-15T15:05:48.717Z",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "Rivian plans to bring AI agents to its cars, with more details expected at its AI & Autonomy Day event in December.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Rivian"
+  ],
+  "storyId": "2c9392a52f20"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.17771",
+  "title": "Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-12T20:00:00.000Z",
+  "snippet": "A recommendation request on Reddit draws several replies, each naming different titles. When an LLM recommender is trained on such threads with reinforcement learning (RL), which replies should a generated list be rewarded against? The state-of-the-art recipe, Rank-GRPO, picks one reply per training example, so the advantage mostly records which reply was drawn (85% of its variance) rather than how good the list is. We argue that RL should train on the request, not on each answer, and propose ReMaRk: it scores every list once against the union of all replies' titles and samples each request e…",
+  "score": 27,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.17771.png",
+  "id": "689dc9c02b82",
+  "fetchedAt": "2026-10-15T15:05:48.717Z",
+  "enrichedAt": "2026-10-15T15:06:11.452Z",
+  "summary": "A paper proposes ReMaRk, which fixes noise in Rank-GRPO for LLM recommenders by scoring each generated list against all replies' titles in a request rather than one reply.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ReMaRk",
+   "Rank-GRPO"
+  ],
+  "storyId": "689dc9c02b82"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+  "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T14:30:00.000Z",
+  "snippet": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear a lot more about the new RTX Spark computing platform. While Nvidia's new laptops might look like regular Windows machines, the chips inside are Arm-based, instead of the traditional x64 architecture used by AMD and Intel. Combined with a powerful GPU, RTX Spark is designed for the future of AI, and it means a lot of w…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK109_WINDOWS_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "a3f7cd60d423",
+  "fetchedAt": "2026-10-15T15:05:48.717Z",
+  "enrichedAt": "2026-10-15T15:07:36.849Z",
+  "summary": "Microsoft and Nvidia launched the first RTX Spark laptops, Arm-based Windows machines pairing a powerful GPU with chips built for AI workloads. Windows is being optimized for the platform, which departs from the x64 architecture of AMD and Intel.",
+  "whyItMatters": "A new Arm-plus-GPU Windows platform could change local AI development and force software compatibility work.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Microsoft",
+   "RTX Spark",
+   "Windows"
+  ],
+  "storyId": "a3f7cd60d423"
  }
 ]
