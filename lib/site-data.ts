@@ -41,7 +41,8 @@ export async function getFrontPage() {
     lead: top[0] ?? null,
     secondary: top.slice(1, 5),
     more: top.slice(5),
-    wire: [...recent].sort(byRecency).slice(0, 18),
+    // Everything newest-first, minus what the main column already shows.
+    wire: recent.filter((s) => !shown.has(s.id)).sort(byRecency).slice(0, 16),
     sections,
     latestIssue: issues[0] ?? null,
     generatedAt: new Date(now).toISOString(),
@@ -55,6 +56,23 @@ export async function getTopic(category: Category) {
     stories: (await getStories()).filter((s) => s.category === category).sort(byRecency).slice(0, 60),
     generatedAt: new Date().toISOString(),
   };
+}
+
+/** A briefed story and a few others from the same section. */
+export async function getStory(id: string) {
+  "use cache";
+  cacheLife("hours");
+  const stories = await getStories();
+  const story = stories.find((s) => s.id === id);
+  if (!story) return null;
+  const related = stories.filter((s) => s.id !== id && s.category === story.category).slice(0, 4);
+  return { story, related, generatedAt: new Date().toISOString() };
+}
+
+export async function getBriefedStoryIds() {
+  "use cache";
+  cacheLife("hours");
+  return (await getStories()).filter((s) => s.brief).map((s) => s.id);
 }
 
 export async function getIssues() {

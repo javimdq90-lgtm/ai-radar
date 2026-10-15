@@ -55,9 +55,17 @@ async function Masthead() {
           What happened in AI, and why it matters
         </p>
       </div>
+    </header>
+  );
+}
+
+/** Sits outside the header so it stays pinned while the page scrolls. */
+function SectionNav() {
+  return (
+    <div className="sticky top-0 z-20 border-b border-rule bg-paper/95 backdrop-blur">
       <nav
         aria-label="Sections"
-        className="-mx-4 flex gap-5 overflow-x-auto border-b border-rule px-4 py-2.5 font-sans text-[0.8rem] font-semibold uppercase tracking-[0.08em] sm:mx-0 sm:justify-center sm:px-0"
+        className="mx-auto flex max-w-[76rem] gap-5 overflow-x-auto px-4 py-2.5 font-sans sm:px-6 lg:px-8 text-[0.8rem] font-semibold uppercase tracking-[0.08em] [scrollbar-width:none] sm:justify-center"
       >
         <Link href="/" className="shrink-0 hover:text-accent">
           Front page
@@ -71,7 +79,7 @@ async function Masthead() {
           Newsletter
         </Link>
       </nav>
-    </header>
+    </div>
   );
 }
 
@@ -81,10 +89,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-screen antialiased">
         <div className="mx-auto max-w-[76rem] px-4 sm:px-6 lg:px-8">
           <Masthead />
+        </div>
+        <SectionNav />
+        <div className="mx-auto max-w-[76rem] px-4 sm:px-6 lg:px-8">
           <main className="pb-20">{children}</main>
           <footer className="meta border-t border-rule py-8 text-center">
-            AI Radar collects AI news every 3 hours. Summaries are written by Claude; headlines link to the
-            original sources.
+            AI Radar collects AI news every 3 hours. Summaries and briefings are written by Claude from the
+            original reporting, which every story links to.
           </footer>
         </div>
       </body>

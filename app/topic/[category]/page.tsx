@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CompactStory } from "@/components/story";
+import { RowStory } from "@/components/story";
 import { getTopic } from "@/lib/site-data";
 import { CATEGORIES, CATEGORY_LABELS, type Category } from "@/lib/types";
 
@@ -28,7 +28,7 @@ export default async function TopicPage({ params }: PageProps<"/topic/[category]
         <div className="mt-4 divide-y divide-rule border-t-[3px] border-ink">
           {stories.map((s) => (
             <div key={s.id} className="py-5">
-              <CompactStory story={s} now={now} withSummary />
+              <RowStory story={s} now={now} />
             </div>
           ))}
         </div>

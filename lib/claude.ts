@@ -120,9 +120,10 @@ const GROUP_SYSTEM = `You are the news desk of an AI news site. You get every it
 Same story:
 - the same launch, announcement, paper, deal, ruling or incident, reported by different outlets;
 - follow-ups within days: hands-on reviews, reactions, analysis and discussion of that same event;
+- later developments in the same situation within days: a company's bankruptcy filing, the bid for its assets and regulators' response to the sale are one story; so are an incident, the arrest it leads to and the company's statement;
 - companion announcements made alongside a launch by the same company (a variant of the launched model, its safety report, its API pricing).
 
-Not the same story: different events that merely share a company, product or topic (two separate OpenAI lawsuits; a model launch and an unrelated outage).
+Not the same story: different events that merely share a company, product or topic (two separate lawsuits against OpenAI by different plaintiffs; a model launch and an unrelated outage). A reader should never see the same situation twice on the front page, but should never find two unrelated events merged either.
 
 Return only groups of two or more items. Every item id may appear in at most one group. Leave items that stand alone out.`;
 
