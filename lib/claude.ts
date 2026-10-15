@@ -5,17 +5,18 @@ import { SOURCE_NAMES } from "./sources";
 import { CATEGORIES, type Item, type Story } from "./types";
 
 /**
- * Triage runs on every item, so it is where the cost is. Switching it to "claude-haiku-5-5"
- * cuts the bill by more than 90%, with somewhat flatter summaries.
+ * Haiku keeps the bill to a few dollars a month. For richer summaries and a better-written
+ * newsletter, switch either one to "claude-opus-5-5" (about 40x the price per token).
  */
-const MODELS = { triage: "claude-opus-5-5", writing: "claude-opus-5-5" };
+const MODELS = { triage: "claude-haiku-5-5", writing: "claude-haiku-5-5" };
 
 /**
  * Server-side fallback: if a safety classifier declines a request (rare for news, but
  * possible on security or bio stories), the API retries on a fallback model instead of
- * returning a refusal.
+ * returning a refusal. Haiku has no fallback model, so it is only sent for Opus/Sonnet.
  */
-const FALLBACK = { betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" as const };
+const fallbackFor = (model: string) =>
+  model.startsWith("claude-haiku") ? {} : { betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" as const };
 
 let client: Anthropic | undefined;
 const claude = () => (client ??= new Anthropic());
@@ -30,7 +31,7 @@ async function structured<T>(params: {
   const stream = claude().beta.messages.stream({
     model: params.model,
     max_tokens: 64000,
-    ...FALLBACK,
+    ...fallbackFor(params.model),
     output_config: { effort: params.effort, format: betaZodOutputFormat(params.schema) },
     system: params.system,
     messages: [{ role: "user", content: params.prompt }],

@@ -32,7 +32,7 @@ npm run ingest                         npm run newsletter
 
 ## Costs
 
-Everything runs on free tiers except Claude. Both jobs use `claude-opus-5-5`: low effort for the per-item pass, high effort for writing the issue. At roughly 150 new items a day, expect about $1–2 a day. Each newsletter costs a few cents. To cut the bill by more than 90%, set `MODELS.triage` in `lib/claude.ts` to `claude-haiku-5-5`. Summaries get a bit flatter.
+Everything runs on free tiers except Claude. Both jobs use `claude-haiku-5-5`: low effort for the per-item pass, high effort for writing the issue. At roughly 150 new items a day, that comes to around $1 a month. For richer summaries or a better-written newsletter, set `MODELS.triage` or `MODELS.writing` in `lib/claude.ts` to `claude-opus-5-5`. Opus costs about 40x more per token, so roughly $1–2 a day for triage.
 
 ## Local development
 
