@@ -2219,5 +2219,214 @@
    "Scale AI"
   ],
   "storyId": "8635d0995c1d"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+  "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T11:00:00.000Z",
+  "snippet": "Eiliko. | Photo by Sean Hollister / The Verge There's a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to \"Eiliko\" over Wi-Fi, it'll phone home to China. Its AI companion can store literally everything you tell it on Chinese servers, where hackers can easily gain access or even hijack its personality. And the company that made it, Energize Lab, doesn't seem to care. I bought an Eiliko from Amazon on August 29th. During a 10-minute conversation on August 30th, I asked the little bot: \"Do y…",
+  "id": "13c68ef579b0",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "A Verge investigation finds that the Eiliko AI robot toy sends conversations to servers in China, where data may be accessible to hackers, and its maker Energize Lab has not addressed this.",
+  "whyItMatters": "Connected AI companion devices can leak private data from children and families, so buyers should check where data is stored.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Eiliko",
+   "Energize Lab"
+  ],
+  "storyId": "13c68ef579b0"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50067325",
+  "title": "Ask HN: CAD for wood working with LLM support?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-13T05:54:01.000Z",
+  "score": 103,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50067325",
+  "id": "43409ec21d5a",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "A forum user asks the Hacker News community whether any CAD tools for woodworking offer LLM support.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "43409ec21d5a"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
+  "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T14:00:00.000Z",
+  "snippet": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decades. But in the last couple of years, he’s become a high-profile face in the creator and media spaces for his work investigating Flock Safety, the maker of automatic license plate readers and the software that powers them. Benn recently testified in front of Congress, at a hearing the Senate Judiciary Committee’s Subcommittee on Crime and Counterterrorism held, dedicated to Flo…",
+  "id": "550763841753",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "In a Verge interview, Benn Jordan discusses his investigation of Flock Safety's license plate readers and his testimony to a Senate subcommittee.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Benn Jordan",
+   "Flock Safety"
+  ],
+  "storyId": "550763841753"
+ },
+ {
+  "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+  "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-15T10:08:08.000Z",
+  "snippet": "Sandboxes are all you need.",
+  "id": "7908d899cb3e",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "Modal reports $1B in annual recurring revenue and a $16B Series D, making it NYC's newest AI infrastructure decacorn, with usage and valuation both tripling in five months.",
+  "whyItMatters": "Strong growth at sandbox infrastructure providers signals that demand for running agent workloads is real.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Modal"
+  ],
+  "storyId": "7908d899cb3e"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
+  "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T12:00:00.000Z",
+  "snippet": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And coming soon is the $99.99 Bee Eclipse, a credit-card-shaped gadget that snaps magnetically onto the back of a smartphone. Both devices are framed as gadgets to help you stay present in the moment. They listen to your daily conversations and then provide summaries, tr…",
+  "id": "7b0ede9ffcbb",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "Amazon, which bought Bee, is launching the $74.99 Bee Frontier wearable and the $99.99 Bee Eclipse phone-attached device, along with a new subscription.",
+  "whyItMatters": "Amazon is pushing always-listening AI wearables toward shopping, which raises both product and privacy questions.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "Bee"
+  ],
+  "storyId": "7b0ede9ffcbb"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+  "title": "TechCrunch Disrupt 2026: Last day",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T14:00:00.000Z",
+  "snippet": "Last day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+  "id": "a678873210a0",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+  "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T13:00:00.000Z",
+  "snippet": "Save all of the products you’re browsing in one place. | Image: Google Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier to stay organized and save money when shopping online. As the name suggests, it's a \"universal\" digital cart that lets you save products from multiple retailers in a single unified space, and works across different Google pl…",
+  "id": "c3631614eaba",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "Google is rolling out Universal Cart in the US across Gemini and Search, letting shoppers save products from multiple retailers in one place.",
+  "whyItMatters": "Agentic shopping features in Gemini and Search are moving into everyday consumer use.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini",
+   "Google Search"
+  ],
+  "storyId": "c3631614eaba"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+  "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T12:00:00.000Z",
+  "snippet": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+  "id": "cc07996f6bad",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "Amazon-owned Bee has launched its first devices since the acquisition, including an updated wearable and a card-sized phone recorder, starting at $74.99.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "Bee"
+  ],
+  "storyId": "7b0ede9ffcbb"
+ },
+ {
+  "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+  "title": "AI was great until it was not",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T08:18:38.000Z",
+  "score": 101,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50100791",
+  "id": "dad987a1f1a7",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "A personal Substack essay titled 'AI was great until it was not' describes the author's shift away from AI.",
+  "category": "products",
+  "importance": 1,
+  "entities": [],
+  "storyId": "dad987a1f1a7"
+ },
+ {
+  "url": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+  "title": "Nobody is safe from celebrity AI deepfakes",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T14:03:42.000Z",
+  "snippet": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in a T-shirt with a pointed message: MY EX IS MY BIGGEST FAN. To really drive home the point, the song \"Single Ladies (Put a Ring on It)\" by Beyoncé was added to the post. It would have been out of character for the star of Pearl, who doesn't have much of a social media presence, if any. But the Instagram account that posted it, @miagoth_, had more than a million followers and was marked with a blu…",
+  "id": "ddce315de8e1",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "A Verge report describes a fake Instagram account that posted AI deepfake content of actress Mia Goth and reached over a million followers.",
+  "whyItMatters": "Convincing deepfakes of public figures are spreading on major platforms with little friction, which raises the stakes for detection and platform policy.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Mia Goth"
+  ],
+  "storyId": "ddce315de8e1"
+ },
+ {
+  "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+  "title": "Apertus 1.5 Release Notes",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-15T09:08:45.000Z",
+  "id": "e3c36d4422c6",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "Hugging Face has published release notes for Apertus 1.5, an open model update.",
+  "whyItMatters": "Builders who use open-weight models may want to check whether the update changes their options.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Apertus 1.5",
+   "Hugging Face"
+  ],
+  "storyId": "e3c36d4422c6"
+ },
+ {
+  "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+  "title": "Teaching students to think and learn through questions",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-15T13:00:00.000Z",
+  "snippet": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+  "id": "fa14b8f7db46",
+  "fetchedAt": "2026-10-15T14:10:56.815Z",
+  "enrichedAt": "2026-10-15T14:11:09.546Z",
+  "summary": "OpenAI promotes Study Mode and its AI for Educators program in Brazilian Portuguese for Teachers' Day.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "Study Mode"
+  ],
+  "storyId": "fa14b8f7db46"
  }
 ]
