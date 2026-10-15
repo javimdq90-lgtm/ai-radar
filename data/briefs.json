@@ -1,7 +1,90 @@
 {
- "66cb1e68848f": {
-  "storyId": "66cb1e68848f",
+ "1f63379af540": {
+  "storyId": "1f63379af540",
   "itemIds": [
+   "1f63379af540",
+   "877cbcbdbb3b",
+   "6388b3d480b1"
+  ],
+  "writtenAt": "2026-10-15T15:15:34.169Z",
+  "headline": "YouTube Music starts labeling AI-generated and AI-altered songs",
+  "dek": "YouTube Music is rolling out a \"Made with AI\" label on player pages for tracks fully or significantly generated with AI, with the main YouTube app to follow; partners disclose AI use, and YouTube adds its own detection.",
+  "keyPoints": [
+   "The label appears on the player page, and tapping it opens a menu with more detail. It covers tracks \"altered or fully generated\" with AI, such as generative composition and vocals, per YouTube.",
+   "Partners can disclose via three tiers: Fully Gen AI, Partly Gen AI or No Gen AI. Ars Technica says disclosure is optional; Auto-Tune-style pitch correction counts as No Gen AI, per TechCrunch.",
+   "Without disclosure, YouTube may use \"other signals.\" Ars Technica says these could include Google's SynthID watermarks and C2PA metadata, and notes a missing label does not prove a track is human-made.",
+   "The rollout starts in the YouTube Music app, with the main YouTube app to follow. Ars Technica reports no option to block labeled tracks from playlists.",
+   "AI use alone does not make a track ineligible for monetization, TechCrunch reports, so YouTube is disclosing rather than restricting AI music."
+  ],
+  "context": "Other platforms have taken varied approaches. Spotify launched a voluntary AI label this year, Apple Music is reportedly adding one, Deezer labels AI tracks and is building a filter (it reported nearly 90,000 fully AI tracks a day in July), and Bandcamp banned AI music. YouTube's approach extends the AI labels it already applies to videos.",
+  "whatsNext": "Watch for the label's expansion to the main YouTube app, which YouTube says will come later, and for Apple Music's planned AI tags."
+ },
+ "421acab06078": {
+  "storyId": "421acab06078",
+  "itemIds": [
+   "421acab06078",
+   "a8983c3740ba",
+   "70093601d146",
+   "02ae3f5fc0dc",
+   "558d7c6880ac"
+  ],
+  "writtenAt": "2026-10-15T15:15:50.258Z",
+  "headline": "OpenAI engineer arrested over recording device hidden in executive conference room",
+  "dek": "Federal prosecutors charged Abdulrahman Alfozan, 35, with illegally intercepting oral communications after OpenAI found an encrypted recorder at its San Francisco headquarters on Sept. 30; he faces up to five years in prison.",
+  "keyPoints": [
+   "Prosecutors say Alfozan, a Saudi national and OpenAI engineer since July 2025, was arrested Friday and charged with using or attempting to use a device to intercept oral communications. He remains in custody.",
+   "OpenAI found the device Sept. 30, plugged into a conference room TV's USB port and wrapped in toilet paper. It was installed around Sept. 28, and its contents were encrypted.",
+   "A second, similar recorder was found in an unattended bag on Oct. 5. The complaint says it was gone when Alfozan retrieved the bag, and he did not mention it when reporting items missing.",
+   "Prosecutors say chatbot prompts from an account tied to Alfozan's spouse asked how to build a continuous audio recorder, encrypt the SD card, and referenced the device's MAC address.",
+   "OpenAI says it coordinated his firing with the FBI and used its own models to analyze the device. It is unclear who the recordings were meant for. Maximum penalty is five years and a $250,000 fine."
+  ],
+  "context": "The arrest comes as the US government treats protecting frontier AI labs from foreign espionage as a counterintelligence priority; FBI Director Kash Patel and US Attorney Craig Missakian both described the case in national security terms. Separately, OpenAI is in a trade secrets fight with Apple, where a judge this week ordered OpenAI to turn over some hiring records and OpenAI alleged a former employee took over 100 files to Apple. Coverage does not link the two matters.",
+  "whatsNext": "Alfozan's case moves forward in federal court in the Northern District of California, where details about who the recordings were intended for may emerge."
+ },
+ "61514929f532": {
+  "storyId": "61514929f532",
+  "itemIds": [
+   "61514929f532",
+   "247e23899cea",
+   "c11b8b011c28",
+   "021013f45386"
+  ],
+  "writtenAt": "2026-10-15T15:15:40.552Z",
+  "headline": "Character.ai files for Chapter 11, with Disney as lead bidder for some assets",
+  "dek": "The chatbot startup says it is seeking a court-supervised sale, with Disney offering $20 million for a license to certain IP, while 40 state attorneys general press for user data and child safety protections.",
+  "keyPoints": [
+   "Character.ai filed voluntary Chapter 11 to pursue a court-supervised sale of all or substantially all assets; it says the platform will be wound down if no workable bid emerges.",
+   "Disney is lead bidder, offering $20 million for a nonexclusive perpetual license to unspecified IP, plus transition support using former Character.ai employees it has hired. Higher offers could displace it.",
+   "The filing lists estimated assets and liabilities of $50 million to $100 million. Character.ai expects the sale to close by late November or early December 2026.",
+   "Forty bipartisan state AGs, including New York's Letitia James, filed a notice of interest asking the judge to require buyers to adopt age assurance, minor restrictions, crisis safeguards and data deletion.",
+   "CEO Colin Adams says the AGs' filing is not an accurate portrayal of platform safety. The service and paid subscriptions remain active for now."
+  ],
+  "context": "Character.ai has faced lawsuits and regulatory scrutiny over child safety, including a settled case over the suicide of 14-year-old Sewell Setzer III, and suits from Kentucky and Pennsylvania. Google paid over $2 billion in 2024 to hire away much of its talent, including co-founders Noam Shazeer and Daniel De Freitas. Disney sent the company a cease-and-desist letter in September 2025 and has since hired former Character.ai CEO Karandeep Anand as its chief technology officer.",
+  "whatsNext": "Watch for competing bids and the bankruptcy court's handling of the state AGs' requested data and safety conditions ahead of the expected late November or early December sale completion."
+ },
+ "745c37586581": {
+  "storyId": "745c37586581",
+  "itemIds": [
+   "745c37586581",
+   "a0ae48bb6d1b",
+   "339da82e2ea9"
+  ],
+  "writtenAt": "2026-10-15T15:15:56.885Z",
+  "headline": "Anthropic warns small AI models may soon self-replicate across IoT devices",
+  "dek": "Anthropic says models of 30B parameters or fewer could replicate on devices like cheap Android TV boxes by year's end, though current tests relied on larger orchestrating models and an exposed debug interface.",
+  "keyPoints": [
+   "Anthropic says small models may be months from self-replicating on commercial IoT devices; a 9B model got inference running on 8 of 9 hardware types tested.",
+   "Gemma4-26B-A4B ran across 15 Android TV boxes (about $55 each, 4GB memory each) at 0.39 tokens per second.",
+   "Anthropic estimates full inference setup takes 71 to 150 hours for Gemma4-26B-A4B and 29 to 51 hours for Qwen3.5-9B, per Ars Technica.",
+   "GLM-5.2 and stronger models can do end-to-end replication in simplified tests; Anthropic expects small models to match that if they keep improving at their historical rate.",
+   "Caveats per Ars Technica: targets had an unauthenticated Android Debug Bridge exposed, and GLM-5.2 orchestrated the process while targets ran a smaller Llama model."
+  ],
+  "context": "Anthropic notes earlier work showed AI agents can scan networks, exploit machines and copy model weights across GPU clusters, while IoT worms like Mirai have long targeted poorly defended devices. The report adds that weights could become part of a worm's payload, with no central point to shut down. It lands amid a broader debate over open-weight models, which MIT Technology Review says Anthropic has also cited in warning about GLM-5.3 as a cyberattack risk."
+ },
+ "a2c304623a61": {
+  "storyId": "a2c304623a61",
+  "itemIds": [
+   "a2c304623a61",
    "66cb1e68848f",
    "2bad0427cfe4",
    "316153953adf",
@@ -9,20 +92,21 @@
    "d1f8258ec212",
    "1609f5d4ca73",
    "25432b6b093a",
-   "2c1c2c493e6e"
+   "2c1c2c493e6e",
+   "3744c8a0ebde"
   ],
-  "writtenAt": "2026-10-15T15:13:51.344Z",
-  "headline": "Google releases Gemini 4 Argon globally, limited to paid Gemini plans and API",
-  "dek": "Gemini 4 Argon is available via API at $2/$10 per million tokens through November 30, and to AI Pro and Ultra subscribers; Antigravity and AI Studio access is Ultra-only, per Ars Technica.",
+  "writtenAt": "2026-10-15T15:15:28.642Z",
+  "headline": "Google releases Gemini 4 Argon to paying users and API developers worldwide",
+  "dek": "Gemini 4 Argon is available via API at an introductory $2/$10 per million tokens, and to Pro and Ultra subscribers in the Gemini app. Antigravity access is limited to Ultra, and Google says it ranks first on the Vals Index.",
   "keyPoints": [
-   "Google says Argon is available via the API and to AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search. Antigravity access is Ultra-only, and Ars Technica reports AI Studio is too.",
-   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off. Ars Technica reports rates double to $4/$20 after November 30.",
-   "Google says Argon ranks #1 on the Vals Index. Artificial Analysis puts it level with GPT-6 Astra on its Intelligence Index at about 60% of Astra's cost per task.",
-   "Google reports 35%+ more agentic code submissions and nearly one-third fewer rollbacks in Antigravity. Latent Space notes these are internal claims, not controlled productivity measurements.",
-   "Google is offering 10,000 scientists a free six-month top Antigravity tier and expanding to hundreds more Fairwind partners for cyber defense. Google DeepMind reports an 87% ERQA score for robotics."
+   "Argon is available via API in AI Studio, to Ultra subscribers in Antigravity, and to AI Pro ($20/month) and Ultra (from $99/month) subscribers in the Gemini app and AI Mode in Search. Free users are excluded.",
+   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% cheaper. Ars Technica and Artificial Analysis report rates double to $4/$20 after November 30.",
+   "Google says Argon ranks first on the Vals Index and cut code rollbacks by nearly a third while raising agentic code submissions 35% internally. Latent Space notes these are internal claims, not controlled measurements.",
+   "Artificial Analysis places Argon level with GPT-6 Astra on its Intelligence Index at $1.99 per task, with a 15% hallucination rate. Cursor reports 52.8% on CursorBench, on par with Opus 5.5.",
+   "Google is offering 10,000 scientists free top-tier Antigravity access for six months, and is expanding the Fairwind cyber-defense program to hundreds more partners."
   ],
-  "context": "Ars Technica says Google revealed Argon a few weeks earlier and held back full release over misuse concerns. The launch follows a pattern of Google reserving compute-heavy models for higher-priced tiers; Ars notes free users were recently limited to Flash-Lite. Independent results are mixed: Arena ranks Argon High fifth on its agent leaderboard, behind Opus 5.5, GPT-6.1 Sol, Fable 5.1 and GPT-6 Astra.",
-  "whatsNext": "Watch November 30, when API pricing rises to $4 and $20 per million input and output tokens, and whether Google extends Antigravity access beyond Ultra, which it has declined to clarify."
+  "context": "Google revealed Argon a few weeks ago and held back a wider release, citing the potential for misuse. The launch lands as rivals push their own frontier models: Meta's Muse Wonder arrived the same week, and Artificial Analysis lists Opus 5.5 ahead on its Intelligence Index. Restricting the strongest coding access to Ultra subscribers reflects the compute cost of agentic workflows, according to Ars Technica.",
+  "whatsNext": "Watch November 30, when Argon's API price doubles to $4/$20 per million tokens, and whether Google extends Antigravity access beyond Ultra, which it has declined to clarify."
  },
  "e422d5ed3681": {
   "storyId": "e422d5ed3681",
