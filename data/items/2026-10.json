@@ -3053,7 +3053,7 @@
    "Nick Cammarata",
    "Latent Space"
   ],
-  "storyId": "483d6307e687"
+  "storyId": "bc34be66cc81"
  },
  {
   "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
@@ -3482,5 +3482,127 @@
    "MLExpert"
   ],
   "storyId": "fd947e1be9ac"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+  "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T14:00:00.000Z",
+  "snippet": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+  "id": "311fa86942b3",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22350",
+  "title": "FDE-Gym: The Last Mile of AI Delivery",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated customer environments with scripted stakeholders and modifiable customer systems, agents interact wit…",
+  "score": 154,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22350.png",
+  "id": "3adc556ab3f7",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "summary": "FDE-Gym is a new benchmark of 95 end-to-end delivery tasks drawn from 20 customer scenarios across 18 sectors, adapted by industry experts from real projects. Agents must clarify ambiguous requirements and work in simulated live customer systems with scripted stakeholders.",
+  "whyItMatters": "It tests agents on messy real-world delivery work rather than well-specified tickets, which is closer to what deployed agents actually face.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "FDE-Gym"
+  ],
+  "storyId": "3adc556ab3f7"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+  "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-16T14:00:59.000Z",
+  "snippet": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/SuperScamMe_UHD_42-1152x597.jpg",
+  "id": "82d931a544c9",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22311",
+  "title": "Velox: Spatial Memory Makes World Models Efficient",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked video diffusion models usually keep this context in growing KV caches, so later chunks become progressively slower. To address this bottleneck, we introduce Velox, a training-free attention router for region-level context selection using frustum slab correspondences from streaming geometry. Velox represents historical …",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22311.png",
+  "id": "84003c48a4be",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "summary": "Velox is a training-free attention router that selects region-level context for video world models using frustum slab correspondences from streaming geometry. It aims to avoid the growing KV caches that slow later chunks in chunked video diffusion rollouts.",
+  "whyItMatters": "Keeping long interactive video generation fast without retraining could make world-model simulation more practical.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Velox"
+  ],
+  "storyId": "84003c48a4be"
+ },
+ {
+  "url": "https://huggingface.co/blog/reflection-beam",
+  "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-16T00:00:00.000Z",
+  "image": "https://huggingface.co/blog/assets/reflection-beam/thumbnail.jpg",
+  "id": "849b423196d1",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "summary": "Hugging Face introduces Beam, a 501B-parameter open model positioned as something users can own, customize and scale. No further details are provided in the item.",
+  "whyItMatters": "A 501B open model would be one of the largest openly available, giving builders a self-hostable option at frontier scale, though specifics are still unclear.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Hugging Face",
+   "Beam"
+  ],
+  "imageCheckedAt": "2026-10-16T14:25:07.435Z",
+  "storyId": "849b423196d1"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+  "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T12:55:09.000Z",
+  "snippet": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+  "id": "e6b0c9baa366",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "summary": "Replit CEO Amjad Masad predicts 'self-driving companies' in which AI agents handle day-to-day tasks while people focus on higher-level decisions.",
+  "whyItMatters": "It signals where agent-focused startups like Replit are steering their product strategy.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Replit",
+   "Amjad Masad"
+  ],
+  "storyId": "e6b0c9baa366"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+  "title": "Meta’s new terms may allow it to train AI on news sites for free",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-16T14:02:40.000Z",
+  "snippet": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" its AI products. The new policy applies to business accounts that promote their content across Facebook, Instagram, WhatsApp, and Messenger. As pointed out by Nieman Lab, these terms seem to allow Meta to bypass a licensing agreement and train its AI models on c…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "e874f1181e68",
+  "fetchedAt": "2026-10-16T14:24:58.628Z",
+  "enrichedAt": "2026-10-16T14:25:07.369Z",
+  "summary": "Meta's new terms, effective October 30, appear to let it crawl and scrape websites associated with businesses using its platforms, including publishers, to develop and train its AI products. Nieman Lab reports this could bypass licensing agreements and applies to business accounts on Facebook, Instagram, WhatsApp and Messenger.",
+  "whyItMatters": "It could let Meta train on news content without paying, adding to the fight over AI training data rights and publisher compensation.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Nieman Lab"
+  ],
+  "storyId": "e874f1181e68"
  }
 ]
