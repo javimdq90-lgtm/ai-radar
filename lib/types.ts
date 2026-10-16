@@ -16,7 +16,7 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   products: "Products",
   "open-source": "Open source",
   policy: "Policy & safety",
-  business: "Business & funding",
+  business: "Business",
   tools: "Dev tools",
 };
 

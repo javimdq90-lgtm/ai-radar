@@ -1,5 +1,6 @@
 /**
  * Write the next issue from the top stories since the last one, email it, and archive it.
+ * It goes to the site's sign-ups (RESEND_SEGMENT_ID) or, without a segment, to NEWSLETTER_TO.
  *
  *   npm run newsletter               write, send, save
  *   npm run newsletter -- --dry-run  write and save a preview to preview/, send nothing
@@ -7,7 +8,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { Resend } from "resend";
 import { writeIssue } from "@/lib/claude";
-import { renderIssueHtml, renderIssueText } from "@/lib/email";
+import { type EmailOptions, RESEND_UNSUBSCRIBE_URL, renderIssueHtml, renderIssueText } from "@/lib/email";
 import { SOURCE_NAMES } from "@/lib/sources";
 import { loadBriefs, loadIssues, loadItems, saveIssue } from "@/lib/store";
 import { buildStories } from "@/lib/stories";
@@ -40,7 +41,41 @@ function linksFor(items: Item[]) {
   return out;
 }
 
+type Delivery =
+  | { mode: "subscribers"; apiKey: string; segmentId: string; from: string; postalAddress: string }
+  | { mode: "direct"; apiKey: string; from: string; to: string[] }
+  | { mode: "none" };
+
+/**
+ * Who gets the issue. With RESEND_SEGMENT_ID it goes to everyone who signed up on the site, as a
+ * Resend broadcast; otherwise to NEWSLETTER_TO. Checked before Claude writes anything, so a
+ * misconfigured send fails without spending a call.
+ */
+function resolveDelivery(): Delivery {
+  const { RESEND_API_KEY, RESEND_SEGMENT_ID, NEWSLETTER_TO, NEWSLETTER_FROM, NEWSLETTER_ADDRESS } = process.env;
+  const from = NEWSLETTER_FROM || "Context Window <onboarding@resend.dev>";
+
+  if (RESEND_SEGMENT_ID) {
+    // A dry run only renders, so show the subscriber footer without requiring the real settings.
+    if (dryRun) {
+      return { mode: "subscribers", apiKey: "", segmentId: RESEND_SEGMENT_ID, from, postalAddress: NEWSLETTER_ADDRESS || "[Postal address]" };
+    }
+    if (!RESEND_API_KEY) throw new Error("RESEND_SEGMENT_ID is set but RESEND_API_KEY is not.");
+    // Bulk email has to say where it comes from (CAN-SPAM and similar laws).
+    if (!NEWSLETTER_ADDRESS) throw new Error("Set NEWSLETTER_ADDRESS (a postal address for the footer) to send to subscribers.");
+    if (from.includes("@resend.dev")) {
+      throw new Error("Broadcasts need a sender on your own verified domain: set NEWSLETTER_FROM.");
+    }
+    return { mode: "subscribers", apiKey: RESEND_API_KEY, segmentId: RESEND_SEGMENT_ID, from, postalAddress: NEWSLETTER_ADDRESS };
+  }
+  if (RESEND_API_KEY && NEWSLETTER_TO) {
+    return { mode: "direct", apiKey: RESEND_API_KEY, from, to: NEWSLETTER_TO.split(",").map((s) => s.trim()) };
+  }
+  return { mode: "none" };
+}
+
 async function main() {
+  const delivery = resolveDelivery();
   const [items, issues, briefs] = await Promise.all([loadItems(), loadIssues(), loadBriefs()]);
   const last = issues[0];
   const since = new Date(Math.max(last ? new Date(last.date).getTime() : 0, Date.now() - MAX_LOOKBACK_DAYS * DAY));
@@ -84,7 +119,15 @@ async function main() {
     links: Object.fromEntries([...used].map((id) => [id, linksFor(byId.get(id)!.items)])),
   };
 
-  const html = renderIssueHtml(issue, process.env.SITE_URL);
+  const emailOptions: EmailOptions = {
+    siteUrl: process.env.SITE_URL,
+    stories: Object.fromEntries([...used].map((id) => [id, { category: byId.get(id)!.category, briefed: Boolean(byId.get(id)!.brief) }])),
+    subscribers: delivery.mode === "subscribers"
+      ? { unsubscribeUrl: RESEND_UNSUBSCRIBE_URL, postalAddress: delivery.postalAddress }
+      : undefined,
+  };
+  const html = renderIssueHtml(issue, emailOptions);
+  const text = renderIssueText(issue, emailOptions);
   if (dryRun) {
     await mkdir("preview", { recursive: true });
     await writeFile("preview/issue.html", html);
@@ -93,20 +136,32 @@ async function main() {
     return;
   }
 
-  const { RESEND_API_KEY, NEWSLETTER_TO } = process.env;
-  if (RESEND_API_KEY && NEWSLETTER_TO) {
-    const { data, error } = await new Resend(RESEND_API_KEY).emails.send({
-      from: process.env.NEWSLETTER_FROM || "AI Radar <onboarding@resend.dev>",
-      to: NEWSLETTER_TO.split(",").map((s) => s.trim()),
+  // Don't archive an issue that wasn't sent, so the next run retries with the same stories.
+  if (delivery.mode === "subscribers") {
+    const { data, error } = await new Resend(delivery.apiKey).broadcasts.create({
+      name: `Issue #${number}`,
+      segmentId: delivery.segmentId,
+      from: delivery.from,
+      subject: issue.subject,
+      previewText: issue.preview,
+      html,
+      text,
+      send: true,
+    });
+    if (error) throw new Error(`Resend broadcast: ${error.message}`);
+    console.log(`Sent issue #${number} to segment ${delivery.segmentId} (broadcast ${data?.id})`);
+  } else if (delivery.mode === "direct") {
+    const { data, error } = await new Resend(delivery.apiKey).emails.send({
+      from: delivery.from,
+      to: delivery.to,
       subject: issue.subject,
       html,
-      text: renderIssueText(issue),
+      text,
     });
-    // Don't archive an issue that wasn't sent, so the next run retries with the same stories.
     if (error) throw new Error(`Resend: ${error.message}`);
-    console.log(`Sent issue #${number} to ${NEWSLETTER_TO} (${data?.id})`);
+    console.log(`Sent issue #${number} to ${delivery.to.join(", ")} (${data?.id})`);
   } else {
-    console.warn("RESEND_API_KEY or NEWSLETTER_TO not set: archiving on the site without emailing.");
+    console.warn("RESEND_API_KEY or a recipient (RESEND_SEGMENT_ID / NEWSLETTER_TO) not set: archiving on the site without emailing.");
   }
 
   await saveIssue(issue);

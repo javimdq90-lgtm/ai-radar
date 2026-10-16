@@ -1,16 +1,29 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { Thumb } from "@/components/thumb";
-import { fmtWhen, hostname } from "@/lib/format";
-import { SOURCE_NAMES } from "@/lib/sources";
-import { CATEGORY_LABELS, type Item, type Story } from "@/lib/types";
+import { StoryArt } from "@/components/story-art";
+import { StoryImage } from "@/components/story-image";
+import { TimeAgo } from "@/components/time-ago";
+import { catStyle } from "@/lib/category";
+import { fmtShort, fmtWhen } from "@/lib/format";
+import { sourceName } from "@/lib/sources";
+import { type Brief, CATEGORY_LABELS, type Story } from "@/lib/types";
 
-export const sourceName = (i: Item) =>
-  i.sourceId === "hn" ? hostname(i.url) : (SOURCE_NAMES[i.sourceId] ?? i.sourceId);
+export { sourceName };
 
 /** Briefed stories have their own page; the rest link straight to the original article. */
 export const storyTitle = (s: Story) => s.brief?.headline ?? s.lead.title;
 export const storySummary = (s: Story) => s.brief?.dek ?? s.lead.summary;
+
+/** One entry per outlet, lead first: a lab that posted three times is still one source. */
+export const outlets = (s: Story) => {
+  const seen = new Set<string>();
+  return [s.lead, ...s.items].filter((i) => {
+    const name = sourceName(i);
+    if (seen.has(name)) return false;
+    seen.add(name);
+    return true;
+  });
+};
 
 export function StoryLink({ story, className, children }: { story: Story; className?: string; children: ReactNode }) {
   if (story.brief) {
@@ -27,61 +40,131 @@ export function StoryLink({ story, className, children }: { story: Story; classN
   );
 }
 
-function Kicker({ story, showCategory = true }: { story: Story; showCategory?: boolean }) {
-  const badges = [story.brief && "Briefing", story.sourceCount >= 3 && `${story.sourceCount} sources`].filter(Boolean);
-  if (!showCategory && !badges.length) return null;
+/** The story's own image when it has one, the generated art when it doesn't or the image fails. */
+export function StoryVisual({
+  story,
+  ratio = "16/9",
+  fill = false,
+  label = true,
+  cols,
+  priority = false,
+}: {
+  story: Story;
+  ratio?: string;
+  fill?: boolean;
+  label?: boolean;
+  cols?: number;
+  priority?: boolean;
+}) {
+  const art = <StoryArt story={story} ratio={ratio} fill={fill} label={label} cols={cols} />;
+  return <StoryImage src={story.image} fallback={art} ratio={ratio} fill={fill} priority={priority} />;
+}
+
+const HOUR = 3_600_000;
+const WORDS_PER_MINUTE = 230;
+
+export const readMinutes = (brief: Brief) => {
+  const text = [brief.dek, ...brief.keyPoints, brief.context, brief.whatsNext ?? ""].join(" ");
+  return Math.max(1, Math.round(text.split(/\s+/).length / WORDS_PER_MINUTE));
+};
+
+/** Still growing: three or more sources, the newest from the last 12 hours (one ingest cycle). */
+export const isDeveloping = (story: Story, now: string) => {
+  const newest = Math.max(...story.items.map((i) => new Date(i.publishedAt).getTime()));
+  return story.sourceCount >= 3 && new Date(now).getTime() - newest < 12 * HOUR;
+};
+
+/**
+ * "MODELS / Briefing [6 sources] • Developing". Briefings get the label and the chip; link-outs
+ * get the category only. Sits above stretched links (the hero), so it stays clickable.
+ */
+export function Kicker({
+  story,
+  now,
+  dot = false,
+  chip = true,
+}: {
+  story: Story;
+  now?: string;
+  dot?: boolean;
+  chip?: boolean;
+}) {
   return (
-    <p className="kicker flex flex-wrap items-center gap-2">
-      {showCategory && (
-        <Link href={`/topic/${story.category}`} className="text-accent hover:underline">
-          {CATEGORY_LABELS[story.category]}
-        </Link>
+    <p style={catStyle(story.category)} className="label relative z-10 m-0 flex flex-wrap items-center gap-2.5">
+      <Link href={`/topic/${story.category}`} className="flex items-center gap-[7px] text-cat hover:text-cat hover:underline">
+        {dot && <span className="dot" aria-hidden />}
+        {CATEGORY_LABELS[story.category]}
+      </Link>
+      {story.brief && (
+        <>
+          <span className="text-sep" aria-hidden>
+            /
+          </span>
+          <span>Briefing</span>
+          {chip && story.sourceCount > 1 && (
+            <span className="rounded-[4px] border border-line-strong px-2 py-[3px] text-muted">
+              {story.sourceCount} sources
+            </span>
+          )}
+        </>
       )}
-      {badges.map((b) => (
-        <span key={String(b)} className="rounded-sm bg-accent-soft px-1.5 py-0.5 text-[0.66rem] text-accent">
-          {b}
+      {now && isDeveloping(story, now) && (
+        <span className="flex items-center gap-1.5 rounded-full bg-accent px-2 py-[3px] text-on-accent">
+          <span className="h-1.5 w-1.5 rounded-full bg-on-accent motion-safe:animate-pulse" aria-hidden />
+          Developing
         </span>
-      ))}
+      )}
     </p>
   );
 }
 
-function Headline({ story, className }: { story: Story; className: string }) {
-  return (
-    <StoryLink story={story} className={`headline block ${className}`}>
-      {storyTitle(story)}
-    </StoryLink>
-  );
-}
+/**
+ * Briefings: "The Verge, TechCrunch +4 · 2 hours ago · 3 min read" (the sources are on the briefing page).
+ * Link-outs: "The Verge ↗ · 2 hours ago · also TechCrunch", each outlet linking to its article.
+ */
+export function StoryMeta({ story, now, className = "text-[13px]" }: { story: Story; now: string; className?: string }) {
+  const all = outlets(story);
+  const time = <TimeAgo iso={story.firstSeen} fallback={fmtWhen(story.firstSeen, now)} />;
+  const sep = <span aria-hidden>·</span>;
 
-/** "OpenAI · 14:05 · also The Verge, TechCrunch" */
-function Meta({ story, now, others = 3 }: { story: Story; now: string; others?: number }) {
-  // One link per outlet: a lab that posted three times is still one source.
-  const leadName = sourceName(story.lead);
-  const rest = story.items.filter(
-    (i, n, all) => sourceName(i) !== leadName && all.findIndex((o) => sourceName(o) === sourceName(i)) === n,
-  );
+  if (story.brief) {
+    const names = all.slice(0, 2).map(sourceName).join(", ");
+    return (
+      <p className={`relative z-10 m-0 flex flex-wrap gap-x-2 gap-y-1 text-muted ${className}`}>
+        <span>
+          {names}
+          {all.length > 2 && ` +${all.length - 2}`}
+        </span>
+        {sep}
+        {time}
+        {sep}
+        <span>{readMinutes(story.brief)} min read</span>
+      </p>
+    );
+  }
+
+  const [lead, ...rest] = all;
   return (
-    <p className="meta mt-2.5 flex flex-wrap items-baseline gap-x-1.5 gap-y-1">
-      <a href={story.lead.url} target="_blank" rel="noreferrer" className="font-semibold text-ink hover:text-accent">
-        {SOURCE_NAMES[story.lead.sourceId] ?? story.lead.sourceId}
+    <p className={`relative z-10 m-0 flex flex-wrap gap-x-2 gap-y-1 text-muted ${className}`}>
+      <a href={lead.url} target="_blank" rel="noreferrer" className="text-text hover:underline">
+        {sourceName(lead)} <span aria-label="(opens the original article)">↗</span>
       </a>
-      <span aria-hidden>·</span>
-      <time dateTime={story.firstSeen}>{fmtWhen(story.firstSeen, now)}</time>
+      {sep}
+      {time}
       {story.lead.discussionUrl && story.lead.discussionUrl !== story.lead.url && (
         <>
-          <span aria-hidden>·</span>
+          {sep}
           <a href={story.lead.discussionUrl} target="_blank" rel="noreferrer" className="link">
             {story.lead.score ? `${story.lead.score} points on HN` : "HN discussion"}
           </a>
         </>
       )}
-      {others > 0 && rest.length > 0 && (
+      {rest.length > 0 && (
         <>
-          <span aria-hidden>·</span>
+          {sep}
           <span>
             also{" "}
-            {rest.slice(0, others).map((i, n) => (
+            {rest.slice(0, 2).map((i, n) => (
               <span key={i.id}>
                 {n > 0 && ", "}
                 <a href={i.url} target="_blank" rel="noreferrer" className="link" title={i.title}>
@@ -89,7 +172,7 @@ function Meta({ story, now, others = 3 }: { story: Story; now: string; others?: 
                 </a>
               </span>
             ))}
-            {rest.length > others && ` +${rest.length - others}`}
+            {rest.length > 2 && ` +${rest.length - 2}`}
           </span>
         </>
       )}
@@ -97,159 +180,133 @@ function Meta({ story, now, others = 3 }: { story: Story; now: string; others?: 
   );
 }
 
+/** The top story: headline and dek over full-bleed art; the whole block is one link. */
 export function LeadStory({ story, now }: { story: Story; now: string }) {
-  const { brief } = story;
-  const coverage = story.items.filter((i) => i !== story.lead);
+  const summary = storySummary(story);
   return (
-    <article>
-      {story.image && (
-        <StoryLink story={story} className="mb-5 block">
-          <Thumb src={story.image} ratio="2/1" />
-        </StoryLink>
-      )}
-      <Kicker story={story} />
-      <h2 className="mt-2">
-        <Headline story={story} className="text-[2.1rem] leading-[1.08] text-balance sm:text-[3.1rem] sm:leading-[1.04]" />
-      </h2>
-      {storySummary(story) && <p className="dek mt-4 text-xl leading-relaxed sm:text-[1.35rem]">{storySummary(story)}</p>}
-      <Meta story={story} now={now} others={brief ? 3 : 0} />
-
-      {brief ? (
-        <>
-          <ul className="mt-6 space-y-3 border-t border-rule pt-5">
-            {brief.keyPoints.slice(0, 4).map((point) => (
-              <li key={point} className="relative pl-5 text-[1.06rem] leading-relaxed">
-                <span aria-hidden className="absolute left-0 top-[0.62em] h-2 w-2 bg-accent" />
-                {point}
-              </li>
-            ))}
-          </ul>
-          <Link
-            href={`/story/${story.id}`}
-            className="mt-6 inline-flex items-center gap-2 bg-ink px-4 py-2.5 font-sans text-sm font-semibold text-paper hover:bg-accent"
-          >
-            Read the full briefing <span aria-hidden>→</span>
-          </Link>
-        </>
-      ) : (
-        <>
-          {story.lead.whyItMatters && (
-            <div className="mt-5 border-l-4 border-accent bg-accent-soft/60 px-4 py-3">
-              <p className="kicker text-accent">Why it matters</p>
-              <p className="mt-1 text-[1.05rem] leading-relaxed">{story.lead.whyItMatters}</p>
-            </div>
-          )}
-          {coverage.length > 0 && (
-            <ul className="mt-5 divide-y divide-rule border-t border-rule">
-              {coverage.slice(0, 4).map((i) => (
-                <li key={i.id} className="py-2 text-[0.95rem] leading-snug">
-                  <a href={i.url} target="_blank" rel="noreferrer" className="group">
-                    <span className="font-sans text-[0.8rem] font-semibold">{sourceName(i)}</span>
-                    <span className="text-muted"> — </span>
-                    <span className="group-hover:underline">{i.title}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          )}
-        </>
-      )}
+    <article
+      style={catStyle(story.category)}
+      className="group relative isolate overflow-hidden rounded-cw-lg border border-tint-line"
+    >
+      <StoryVisual story={story} fill label={false} cols={24} priority />
+      {/* Scrim: solid behind the text, fading out over the top of the image so bright photos stay readable. */}
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-[linear-gradient(to_top,var(--cw-bg)_0%,var(--cw-bg)_35%,color-mix(in_oklab,var(--cw-bg)_80%,transparent)_62%,color-mix(in_oklab,var(--cw-bg)_15%,transparent)_100%)]"
+      />
+      <div className="relative flex min-h-[clamp(460px,52vw,620px)] flex-col justify-end gap-4 p-[clamp(20px,4vw,40px)] pt-[clamp(150px,30vw,220px)]">
+        <Kicker story={story} now={now} />
+        <h2 className="m-0 max-w-[20ch] text-[clamp(36px,5.5vw,60px)] leading-[1.02] tracking-[-0.5px]">
+          {/* Stretched link: the pseudo-element covers the whole hero. */}
+          <StoryLink story={story} className="headline after:absolute after:inset-0">
+            {storyTitle(story)}
+          </StoryLink>
+        </h2>
+        {summary && <p className="m-0 max-w-[62ch] text-[clamp(17px,1.6vw,19px)] leading-[1.6] text-dek">{summary}</p>}
+        <StoryMeta story={story} now={now} className="text-sm" />
+      </div>
     </article>
   );
 }
 
-/** Card with the image on top: the 2×2 grid under the lead. */
-export function CardStory({ story, now }: { story: Story; now: string }) {
+const CARD = {
+  large: { headline: "text-[clamp(30px,3.4vw,40px)] leading-[1.05]", summary: "text-[17px]" },
+  medium: { headline: "text-[clamp(24px,2.4vw,28px)] leading-[1.1]", summary: "text-[15px]" },
+  small: { headline: "text-[21px] leading-[1.15]", summary: null },
+} as const;
+
+/** Image-on-top card in three sizes: the feature slot, the row of three, and the stacked pair. */
+export function StoryCard({ story, now, size = "medium" }: { story: Story; now: string; size?: keyof typeof CARD }) {
+  const summary = storySummary(story);
+  const style = CARD[size];
   return (
-    <article>
-      {story.image && (
-        <StoryLink story={story} className="mb-3.5 block">
-          <Thumb src={story.image} ratio="3/2" />
+    <article className="flex min-w-0 flex-col gap-3">
+      <StoryLink story={story} className="group block">
+        <StoryVisual story={story} label={size !== "small"} />
+      </StoryLink>
+      <Kicker story={story} now={now} chip={size !== "small"} />
+      <h3 className={`m-0 ${style.headline}`}>
+        <StoryLink story={story} className="headline">
+          {storyTitle(story)}
         </StoryLink>
-      )}
-      <Kicker story={story} />
-      <h3 className="mt-1.5">
-        <Headline story={story} className="text-[1.4rem] leading-[1.17]" />
       </h3>
-      {storySummary(story) && <p className="mt-2 text-[1.02rem] leading-relaxed text-ink-soft">{storySummary(story)}</p>}
-      <Meta story={story} now={now} others={2} />
+      {summary && style.summary && <p className={`m-0 text-dek ${style.summary}`}>{summary}</p>}
+      <StoryMeta story={story} now={now} />
     </article>
   );
 }
 
-/** Text left, small picture right: the "More top stories" list. */
-export function RowStory({ story, now }: { story: Story; now: string }) {
+/** Compact row with a square thumbnail, for the bottom of the top-stories block. */
+export function ThumbRow({ story, now }: { story: Story; now: string }) {
   return (
-    <article className="flex gap-4 sm:gap-6">
-      <div className="min-w-0 flex-1">
-        <Kicker story={story} />
-        <h3 className="mt-1">
-          <Headline story={story} className="text-[1.22rem] leading-snug" />
+    <article className="grid grid-cols-[clamp(72px,18%,104px)_1fr] gap-4 border-b border-line py-5">
+      <StoryLink story={story} className="group block self-start">
+        <StoryVisual story={story} ratio="1/1" label={false} cols={8} />
+      </StoryLink>
+      <div className="flex min-w-0 flex-col gap-1.5">
+        <Kicker story={story} now={now} chip={false} />
+        <h3 className="m-0 text-[20px] leading-[1.15]">
+          <StoryLink story={story} className="headline">
+            {storyTitle(story)}
+          </StoryLink>
         </h3>
-        {storySummary(story) && (
-          <p className="mt-1.5 text-[1rem] leading-relaxed text-ink-soft">{storySummary(story)}</p>
-        )}
-        <Meta story={story} now={now} others={2} />
+        <StoryMeta story={story} now={now} />
       </div>
-      {story.image && (
-        <StoryLink story={story} className="block w-24 shrink-0 pt-1 sm:w-44">
-          <Thumb src={story.image} ratio="4/3" />
-        </StoryLink>
-      )}
     </article>
   );
 }
 
-export function CompactStory({
-  story,
-  now,
-  showCategory = true,
-  withImage = false,
-}: {
-  story: Story;
-  now: string;
-  showCategory?: boolean;
-  withImage?: boolean;
-}) {
+/** Text-only row for section blocks and topic pages. */
+export function StoryRow({ story, now, kicker = true }: { story: Story; now: string; kicker?: boolean }) {
+  const summary = storySummary(story);
   return (
-    <article>
-      {withImage && story.image && (
-        <StoryLink story={story} className="mb-3 block">
-          <Thumb src={story.image} ratio="16/9" />
+    <article className="flex flex-col gap-2 border-b border-line py-5">
+      {kicker && <Kicker story={story} now={now} dot />}
+      <h3 className="m-0 text-[24px] leading-[1.15]">
+        <StoryLink story={story} className="headline">
+          {storyTitle(story)}
         </StoryLink>
-      )}
-      <Kicker story={story} showCategory={showCategory} />
-      <h3 className="mt-1">
-        <Headline story={story} className="text-[1.15rem] leading-snug" />
       </h3>
-      <Meta story={story} now={now} others={1} />
+      {summary && <p className="m-0 max-w-[70ch] text-[15px] text-dek">{summary}</p>}
+      <StoryMeta story={story} now={now} />
     </article>
   );
 }
 
-export function WireItem({ story, now }: { story: Story; now: string }) {
+/** "LATEST" rail row: time | serif title, category dot and source. */
+export function LatestItem({ story, now }: { story: Story; now: string }) {
   return (
-    <li className="grid grid-cols-[4.6rem_1fr] gap-x-2 py-3">
-      <time dateTime={story.firstSeen} className="meta whitespace-nowrap pt-0.5 tabular-nums">
-        {fmtWhen(story.firstSeen, now)}
-      </time>
-      <div>
-        <Headline story={story} className="text-[1.02rem] leading-snug" />
-        <p className="meta mt-0.5">{SOURCE_NAMES[story.lead.sourceId] ?? story.lead.sourceId}</p>
-      </div>
+    <li>
+      <StoryLink
+        story={story}
+        className="group grid grid-cols-[52px_1fr] gap-3 border-b border-line py-3.5"
+      >
+        <time dateTime={story.firstSeen} className="pt-[3px] text-[13px] tabular-nums text-faint">
+          {fmtShort(story.firstSeen, now)}
+        </time>
+        <span className="flex flex-col gap-1">
+          <span className="font-display text-[21px] leading-[1.15] group-hover:underline">{storyTitle(story)}</span>
+          <span style={catStyle(story.category)} className="flex items-center gap-[7px] text-[13px] text-muted">
+            <span className="dot !h-1.5 !w-1.5" aria-hidden />
+            {sourceName(story.lead)}
+            {story.brief && <span className="text-faint">· Briefing</span>}
+          </span>
+        </span>
+      </StoryLink>
     </li>
   );
 }
 
-export function SectionHeading({ title, href }: { title: string; href?: string }) {
+/** Related rail row on briefing pages: title, then source and time. */
+export function RelatedItem({ story, now }: { story: Story; now: string }) {
   return (
-    <div className="flex items-baseline justify-between border-t-[3px] border-ink pt-2">
-      <h2 className="font-sans text-[0.8rem] font-bold uppercase tracking-[0.14em]">{title}</h2>
-      {href && (
-        <Link href={href} className="meta link">
-          See all →
-        </Link>
-      )}
-    </div>
+    <li>
+      <StoryLink story={story} className="group flex flex-col gap-1 border-b border-line py-3.5">
+        <span className="font-display text-[21px] leading-[1.15] group-hover:underline">{storyTitle(story)}</span>
+        <span className="text-[13px] text-muted">
+          {sourceName(story.lead)} · {fmtWhen(story.firstSeen, now)}
+        </span>
+      </StoryLink>
+    </li>
   );
 }

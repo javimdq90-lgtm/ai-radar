@@ -1,3 +1,6 @@
+import { hostname } from "./format";
+import type { Item } from "./types";
+
 export type SourceKind = "rss" | "hn" | "hf-papers" | "anthropic";
 
 export type Source = {
@@ -42,3 +45,7 @@ export const SOURCES: Source[] = [
 export const SOURCE_NAMES: Record<string, string> = Object.fromEntries(
   SOURCES.map((s) => [s.id, s.name]),
 );
+
+/** Display name for an item's outlet: the source's name, or the linked site for Hacker News. */
+export const sourceName = (i: Item) =>
+  i.sourceId === "hn" ? hostname(i.url) : (SOURCE_NAMES[i.sourceId] ?? i.sourceId);

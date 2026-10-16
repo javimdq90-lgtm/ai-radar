@@ -18,6 +18,21 @@ export function fmtWhen(iso: string, ref: string) {
   return d.toLocaleDateString("en-GB", { timeZone: TIME_ZONE, day: "numeric", month: "short" });
 }
 
+/** Narrow version for a time column: "14:05" today, "Wed" this week, "8 Oct" before that. */
+export function fmtShort(iso: string, ref: string) {
+  const d = new Date(iso);
+  const r = new Date(ref);
+  if (dayKey(d) === dayKey(r)) return fmtTime(iso);
+  if (r.getTime() - d.getTime() < 6 * 86_400_000) {
+    return d.toLocaleDateString("en-GB", { timeZone: TIME_ZONE, weekday: "short" });
+  }
+  return d.toLocaleDateString("en-GB", { timeZone: TIME_ZONE, day: "numeric", month: "short" });
+}
+
+/** "Wed 15 Oct, 23:11" */
+export const fmtDateTime = (iso: string) =>
+  `${new Date(iso).toLocaleDateString("en-GB", { timeZone: TIME_ZONE, weekday: "short", day: "numeric", month: "short" }).replace(",", "")}, ${fmtTime(iso)}`;
+
 export const fmtDate = (iso: string) =>
   new Date(iso).toLocaleDateString("en-GB", { timeZone: TIME_ZONE, day: "numeric", month: "long", year: "numeric" });
 

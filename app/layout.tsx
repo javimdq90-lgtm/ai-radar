@@ -1,102 +1,41 @@
 import type { Metadata, Viewport } from "next";
-import localFont from "next/font/local";
-import Link from "next/link";
-import { fmtLongDate, fmtTime } from "@/lib/format";
-import { getGeneratedAt } from "@/lib/site-data";
-import { CATEGORIES, CATEGORY_LABELS } from "@/lib/types";
+import { DM_Serif_Display, Geist, Geist_Mono } from "next/font/google";
+import { Footer, SITE_NAME, TAGLINE } from "@/components/brand";
 import "./globals.css";
 
-const newsreader = localFont({
-  src: [
-    { path: "./fonts/newsreader-latin-standard-normal.woff2", style: "normal" },
-    { path: "./fonts/newsreader-latin-standard-italic.woff2", style: "italic" },
-  ],
-  weight: "200 800",
-  variable: "--font-newsreader",
+const serif = DM_Serif_Display({
+  weight: "400",
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-dm-serif",
   display: "swap",
 });
 
-const inter = localFont({
-  src: "./fonts/inter-latin-standard-normal.woff2",
-  weight: "100 900",
-  variable: "--font-inter",
-  display: "swap",
-});
+const sans = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" });
+const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "AI Radar", template: "%s · AI Radar" },
-  description: "The latest in AI, collected and summarised every few hours.",
+  title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
+  description: TAGLINE,
   robots: { index: false, follow: false },
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fbfaf7" },
-    { media: "(prefers-color-scheme: dark)", color: "#141413" },
-  ],
+  themeColor: "#0F1012",
+  colorScheme: "dark",
 };
 
-async function Masthead() {
-  const now = await getGeneratedAt();
-  return (
-    <header className="pt-5 sm:pt-7">
-      <div className="meta flex items-center justify-between gap-4">
-        <span>{fmtLongDate(now)}</span>
-        <span className="hidden sm:inline">Updated {fmtTime(now)} · twice a day</span>
-        <Link href="/issues" className="font-semibold text-accent hover:underline sm:hidden">
-          Newsletter
-        </Link>
-      </div>
-      <div className="mt-3 border-y-[3px] border-double border-ink py-3 text-center sm:py-4">
-        <Link href="/" className="font-serif text-[2.6rem] font-extrabold leading-none tracking-[-0.03em] sm:text-7xl">
-          AI Radar
-        </Link>
-        <p className="mt-1.5 font-serif text-[0.95rem] italic text-muted sm:text-lg">
-          What happened in AI, and why it matters
-        </p>
-      </div>
-    </header>
-  );
-}
-
-/** Sits outside the header so it stays pinned while the page scrolls. */
-function SectionNav() {
-  return (
-    <div className="sticky top-0 z-20 border-b border-rule bg-paper/95 backdrop-blur">
-      <nav
-        aria-label="Sections"
-        className="mx-auto flex max-w-[76rem] gap-5 overflow-x-auto px-4 py-2.5 font-sans sm:px-6 lg:px-8 text-[0.8rem] font-semibold uppercase tracking-[0.08em] [scrollbar-width:none] sm:justify-center"
-      >
-        <Link href="/" className="shrink-0 hover:text-accent">
-          Front page
-        </Link>
-        {CATEGORIES.map((c) => (
-          <Link key={c} href={`/topic/${c}`} className="shrink-0 text-ink-soft hover:text-accent">
-            {CATEGORY_LABELS[c]}
-          </Link>
-        ))}
-        <Link href="/issues" className="shrink-0 text-accent hover:underline">
-          Newsletter
-        </Link>
-      </nav>
-    </div>
-  );
-}
-
+/** Each page renders its own header: the full masthead on the front page, the compact one elsewhere. */
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${newsreader.variable} ${inter.variable}`}>
+    <html lang="en" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
       <body className="min-h-screen antialiased">
-        <div className="mx-auto max-w-[76rem] px-4 sm:px-6 lg:px-8">
-          <Masthead />
-        </div>
-        <SectionNav />
-        <div className="mx-auto max-w-[76rem] px-4 sm:px-6 lg:px-8">
-          <main className="pb-20">{children}</main>
-          <footer className="meta border-t border-rule py-8 text-center">
-            AI Radar collects AI news twice a day. Summaries and briefings are written by Claude from the
-            original reporting, which every story links to.
-          </footer>
+        {/* The sticky nav's background bleeds to the window edges; clip (unlike hidden) keeps sticky working. */}
+        <div className="overflow-x-clip">
+          <div className="container-cw">
+            {children}
+            <Footer />
+          </div>
         </div>
       </body>
     </html>

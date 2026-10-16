@@ -2,12 +2,12 @@ import type { Brief, Item, Story } from "./types";
 
 const HOUR = 3_600_000;
 
-/** Score halves every this many hours, so a major story leads for a day or two. */
-const HALF_LIFE_HOURS = 30;
+/** Score halves every this many hours, so a major story leads for about a day, not three. */
+const HALF_LIFE_HOURS = 12;
 
 /**
  * Groups enriched items into stories and ranks them. Each importance point doubles the
- * weight, so a 5 outranks a fresh 3 for about two days; each extra source adds 30%
+ * weight, so a 5 outranks a fresh 3 for about a day; each extra source adds 30%
  * (capped at 2.5x); the total halves every HALF_LIFE_HOURS.
  */
 export function buildStories(items: Item[], briefs: Record<string, Brief> = {}, now = new Date()): Story[] {

@@ -1,5 +1,6 @@
 import { cacheLife } from "next/cache";
 import { loadBriefs, loadIssues, loadItems } from "./store";
+import { sourceName } from "./sources";
 import { buildStories, byRecency } from "./stories";
 import { CATEGORIES, type Category } from "./types";
 
@@ -19,8 +20,8 @@ const FRONT_PAGE_HOURS = 72;
 const SECTION_DAYS = 7;
 
 /**
- * The front page: a lead story, four secondary ones and a list of more, a chronological
- * wire, and one block per section with what didn't make the top.
+ * The front page: a lead story, a grid of ten more, a chronological wire, and one block
+ * per section with what didn't make the top.
  */
 export async function getFrontPage() {
   "use cache";
@@ -39,8 +40,9 @@ export async function getFrontPage() {
 
   return {
     lead: top[0] ?? null,
-    secondary: top.slice(1, 5),
-    more: top.slice(5),
+    top: top.slice(1),
+    // The "Latest" tab: everything recent, newest first.
+    latest: [...recent].sort(byRecency).slice(0, 30),
     // Everything newest-first, minus what the main column already shows.
     wire: recent.filter((s) => !shown.has(s.id)).sort(byRecency).slice(0, 16),
     sections,
@@ -65,8 +67,11 @@ export async function getStory(id: string) {
   const stories = await getStories();
   const story = stories.find((s) => s.id === id);
   if (!story) return null;
-  const related = stories.filter((s) => s.id !== id && s.category === story.category).slice(0, 4);
-  return { story, related, generatedAt: new Date().toISOString() };
+  const others = stories.filter((s) => s.id !== id);
+  const sameSection = others.filter((s) => s.category === story.category).slice(0, 4);
+  // A section can be a single big story (every Models item grouped into one); show the latest instead.
+  const related = sameSection.length ? sameSection : [...others].sort(byRecency).slice(0, 4);
+  return { story, related, relatedIsSection: sameSection.length > 0, generatedAt: new Date().toISOString() };
 }
 
 export async function getBriefedStoryIds() {
@@ -92,4 +97,40 @@ export async function getGeneratedAt() {
   "use cache";
   cacheLife("hours");
   return new Date().toISOString();
+}
+
+export type SearchEntry = {
+  id: string;
+  title: string;
+  summary: string;
+  category: Category;
+  source: string;
+  /** The briefing page for briefed stories, the original article otherwise. */
+  href: string;
+  external: boolean;
+  firstSeen: string;
+  /** Lower-case text the search box matches against: title, summary, outlets, names. */
+  text: string;
+};
+
+/** Every story, newest first, for the search box. Served as static JSON by app/search-index. */
+export async function getSearchIndex(): Promise<SearchEntry[]> {
+  "use cache";
+  cacheLife("hours");
+  return [...(await getStories())].sort(byRecency).map((s) => {
+    const title = s.brief?.headline ?? s.lead.title;
+    const summary = s.brief?.dek ?? s.lead.summary ?? "";
+    const outlets = [...new Set(s.items.map(sourceName))];
+    return {
+      id: s.id,
+      title,
+      summary: summary.length > 180 ? `${summary.slice(0, 177)}…` : summary,
+      category: s.category,
+      source: sourceName(s.lead),
+      href: s.brief ? `/story/${s.id}` : s.lead.url,
+      external: !s.brief,
+      firstSeen: s.firstSeen,
+      text: [title, summary, ...outlets, ...s.items.flatMap((i) => [i.title, ...(i.entities ?? [])])].join(" ").toLowerCase(),
+    };
+  });
 }

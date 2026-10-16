@@ -153,7 +153,7 @@ const BriefSchema = z.object({
 
 export type BriefDraft = z.infer<typeof BriefSchema>;
 
-const BRIEF_SYSTEM = `You write the briefing for one of the day's biggest AI stories on AI Radar, a news site for people who follow AI closely. You get every piece of coverage, with article text where it could be fetched.
+const BRIEF_SYSTEM = `You write the briefing for one of the day's biggest AI stories on Context Window, a news site for people who follow AI closely. You get every piece of coverage, with article text where it could be fetched.
 
 Write:
 - headline: a news headline in sentence case, under 90 characters, that states what happened concretely ("Google launches Gemini 4 Argon, its most capable model yet"). Not the company's marketing title.
@@ -191,7 +191,7 @@ const IssueDraftSchema = z.object({
 
 export type IssueDraft = z.infer<typeof IssueDraftSchema>;
 
-const ISSUE_SYSTEM = `You write AI Radar, a short newsletter about the latest in AI, sent every two or three days to one reader who follows the field closely and has five minutes.
+const ISSUE_SYSTEM = `You write Context Window, a short newsletter about the latest in AI, sent every two or three days to one reader who follows the field closely and has five minutes.
 
 Voice: a well-informed friend. Plain, specific and a little dry. No hype words (revolutionary, game-changer, unleash, delve), no exclamation marks, no "In this issue".
 

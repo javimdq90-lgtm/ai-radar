@@ -1,37 +1,89 @@
 @import "tailwindcss";
 
+/*
+ * Context Window design tokens (dark editorial "Signal" direction), from the design handoff's tokens.css.
+ * Fonts come from next/font in app/layout.tsx, which sets --font-dm-serif, --font-geist and --font-geist-mono.
+ */
 :root {
-  --paper: #fbfaf7;
-  --ink: #161616;
-  --ink-soft: #2e2e2c;
-  --muted: #5d5c58;
-  --rule: #dedad1;
-  --accent: #b5121b;
-  --accent-soft: #f6e4e2;
-}
+  color-scheme: dark;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #141413;
-    --ink: #efeee9;
-    --ink-soft: #d9d8d2;
-    --muted: #a5a39c;
-    --rule: #34332f;
-    --accent: #ff6b5e;
-    --accent-soft: #3a1d1a;
-  }
+  /* Surfaces */
+  --cw-bg: #0f1012; /* page */
+  --cw-bg-deep: #08090a; /* email outer */
+  --cw-surface: #17191c; /* cards, callouts, signup box */
+  --cw-border: #26282c; /* hairlines */
+  --cw-border-strong: #3a3d42; /* inputs, chips, inactive logo tokens */
+
+  /* Text */
+  --cw-text: #ece9e2;
+  --cw-text-body: #dad7cf; /* long-form body */
+  --cw-text-dek: #c9c7c0; /* standfirst */
+  --cw-text-muted: #a3a39c; /* meta, labels */
+  --cw-text-faint: #8e8e87; /* timestamps */
+  --cw-text-sep: #5e6067; /* decorative separators only, never text that must be read */
+
+  /* Brand accent (buttons, logo tokens, kicker labels) */
+  --cw-accent: #f2c14e;
+  --cw-on-accent: #121212;
+
+  /* Category colours: dots, kickers, image tints */
+  --cw-cat-models: #7aa7ff;
+  --cw-cat-research: #b49cff;
+  --cw-cat-products: #5fd3b5;
+  --cw-cat-open-source: #9bd86a;
+  --cw-cat-policy: #ff8a6b;
+  --cw-cat-business: #f2c14e;
+  --cw-cat-dev-tools: #6fd0e8;
+
+  /* Category image tints (bg / border). The handoff defines models, policy and products;
+     the other four follow the same recipe. */
+  --cw-tint-models: #16213a;
+  --cw-tint-models-border: #22304d;
+  --cw-tint-research: #211b38;
+  --cw-tint-research-border: #30284f;
+  --cw-tint-products: #12261f;
+  --cw-tint-products-border: #1d3a30;
+  --cw-tint-open-source: #182514;
+  --cw-tint-open-source-border: #26391e;
+  --cw-tint-policy: #2a1a16;
+  --cw-tint-policy-border: #3d2620;
+  --cw-tint-business: #29220f;
+  --cw-tint-business-border: #3d3219;
+  --cw-tint-dev-tools: #11242a;
+  --cw-tint-dev-tools-border: #1b363e;
+
+  /* Layout */
+  --cw-max: 1280px;
+  --cw-gutter: 24px;
+  --cw-radius: 6px;
+  --cw-radius-lg: 8px;
+  --cw-tap: 44px; /* min touch target */
 }
 
 @theme inline {
-  --color-paper: var(--paper);
-  --color-ink: var(--ink);
-  --color-ink-soft: var(--ink-soft);
-  --color-muted: var(--muted);
-  --color-rule: var(--rule);
-  --color-accent: var(--accent);
-  --color-accent-soft: var(--accent-soft);
-  --font-sans: var(--font-inter), ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  --font-serif: var(--font-newsreader), Charter, Georgia, serif;
+  --color-bg: var(--cw-bg);
+  --color-surface: var(--cw-surface);
+  --color-line: var(--cw-border);
+  --color-line-strong: var(--cw-border-strong);
+  --color-text: var(--cw-text);
+  --color-body: var(--cw-text-body);
+  --color-dek: var(--cw-text-dek);
+  --color-muted: var(--cw-text-muted);
+  --color-faint: var(--cw-text-faint);
+  --color-sep: var(--cw-text-sep);
+  --color-accent: var(--cw-accent);
+  --color-on-accent: var(--cw-on-accent);
+  /* The current story's category, set per element by catStyle() in lib/category.ts */
+  --color-cat: var(--cat);
+  --color-tint: var(--tint);
+  --color-tint-line: var(--tint-border);
+
+  --font-display: var(--font-dm-serif), Georgia, serif;
+  --font-sans: var(--font-geist), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --radius-cw: var(--cw-radius);
+  --radius-cw-lg: var(--cw-radius-lg);
 }
 
 html {
@@ -39,49 +91,90 @@ html {
 }
 
 body {
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--font-serif);
-  font-size: 1.0625rem;
-  font-optical-sizing: auto;
-  text-rendering: optimizeLegibility;
+  background: var(--cw-bg);
+  color: var(--cw-text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* In the base layer so colour utilities (text-cat, the accent button) still win on hover. */
+@layer base {
+  a:hover {
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--cw-accent);
+    outline-offset: 2px;
+  }
 }
 
 @layer components {
-  .kicker {
-    font-family: var(--font-sans);
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  .container-cw {
+    max-width: var(--cw-max);
+    margin-inline: auto;
+    padding-inline: var(--cw-gutter);
   }
+
+  /* Serif headline that underlines on hover, like the reference links. */
   .headline {
-    font-family: var(--font-serif);
-    font-weight: 650;
-    letter-spacing: -0.01em;
+    font-family: var(--font-display);
+    font-weight: 400;
     text-wrap: pretty;
+    text-underline-offset: 0.12em;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.15em;
   }
   .headline:hover {
     text-decoration-line: underline;
   }
-  .dek {
-    color: var(--ink-soft);
-    text-wrap: pretty;
+
+  /* Uppercase label: kickers, rail headings. */
+  .label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
-  .meta {
-    font-family: var(--font-sans);
-    font-size: 0.8rem;
-    color: var(--muted);
+
+  /* "LATEST", "SOURCES": muted label over a 2px rule. */
+  .rail-heading {
+    margin: 0 0 8px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cw-text);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--cw-text-muted);
   }
+
   .link {
     text-decoration-line: underline;
-    text-decoration-color: var(--rule);
-    text-underline-offset: 0.2em;
+    text-underline-offset: 3px;
   }
-  .link:hover {
-    color: var(--accent);
-    text-decoration-color: currentColor;
+
+  .dot {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--cat, var(--cw-text-muted));
+  }
+
+  .btn-accent {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--cw-tap);
+    padding: 10px 16px;
+    background: var(--cw-accent);
+    color: var(--cw-on-accent);
+    font-weight: 600;
+  }
+  .btn-accent:hover {
+    color: var(--cw-on-accent);
+    filter: brightness(1.08);
   }
 }

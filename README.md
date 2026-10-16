@@ -1,6 +1,6 @@
-# AI Radar
+# Context Window
 
-A personal AI news aggregator. Twice a day it collects the latest AI news from labs, papers, Hacker News, the press and a few good writers. Claude summarises, scores and groups it, and a small site shows what matters. On Monday, Wednesday and Friday mornings Claude writes a short newsletter from the top stories and emails it to you.
+*Everything in AI worth keeping in context.* A personal AI news aggregator (the repo is still called ai-radar). Twice a day it collects the latest AI news from labs, papers, Hacker News, the press and a few good writers. Claude summarises, scores and groups it, and a small site shows what matters. On Monday, Wednesday and Friday mornings Claude writes a short newsletter from the top stories and emails it to you.
 
 Next.js 16 · React 19 · Tailwind v4 · Claude API · Resend · GitHub Actions. No database: the repo is the database.
 
@@ -24,7 +24,7 @@ npm run ingest                         npm run newsletter
   commit + push ───────────────► Vercel redeploys the site on every push
 ```
 
-- **Ranking:** each importance point (1–5, from Claude) doubles a story's weight, each extra source adds 30% (up to 2.5x), and the total halves every 30 hours. A major launch leads for a day or two.
+- **Ranking:** each importance point (1–5, from Claude) doubles a story's weight, each extra source adds 30% (up to 2.5x), and the total halves every 12 hours. A major launch leads for about a day.
 - **Grouping:** after triage, Claude sees every story from the last 72 hours at once and merges coverage of the same event, including follow-ups and companion announcements. Items with identical titles are merged in code as well.
 - **Briefings:** stories rated 4–5, or covered by 3+ sources in the last 48 hours, get their own page: a headline, standfirst, key points, background and what to watch, written from up to five of the actual articles. They're rewritten on the next run when new coverage arrives.
 - **Safety nets:** links in the newsletter come from the stored data, never from the model. Items that couldn't be enriched are retried on the next run. A failed send doesn't archive the issue, so the next run retries it.
@@ -32,9 +32,14 @@ npm run ingest                         npm run newsletter
 ## Setup
 
 1. **Claude API key.** Create one at [console.anthropic.com](https://console.anthropic.com). In this repo, add it as a secret named `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions).
-2. **Email (optional).** Create a [Resend](https://resend.com) account and API key, then add the secrets `RESEND_API_KEY` and `NEWSLETTER_TO` (your email). The default sender `onboarding@resend.dev` only delivers to the email on your Resend account, which is fine for "just me". To send from your own domain, verify it in Resend and add a repository *variable* `NEWSLETTER_FROM`, e.g. `AI Radar <radar@yourdomain.com>`.
+2. **Email (optional).** Create a [Resend](https://resend.com) account and API key, then add the secrets `RESEND_API_KEY` and `NEWSLETTER_TO` (your email). The default sender `onboarding@resend.dev` only delivers to the email on your Resend account, which is fine for "just me". To send from your own domain, verify it in Resend and add a repository *variable* `NEWSLETTER_FROM`, e.g. `Context Window <radar@yourdomain.com>`.
 3. **Site.** Import the repo in [Vercel](https://vercel.com/new). No settings or env vars needed. Optionally add the site URL as a repository variable `SITE_URL` for the "Read on the web" link in emails.
-4. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
+4. **Subscribers (optional).** To let readers sign up and email each issue to all of them:
+   - In Resend, verify your domain and create a segment. Set the repository variable `NEWSLETTER_FROM` to a sender on that domain (broadcasts can't use `onboarding@resend.dev`).
+   - On the Vercel project, add the env vars `RESEND_API_KEY` and `RESEND_SEGMENT_ID`. Until then the site's form says sign-ups aren't open; after that it adds each address to the segment.
+   - In this repo, add the variables `RESEND_SEGMENT_ID` and `NEWSLETTER_ADDRESS` (a postal address for the footer, which bulk-email law requires). The newsletter job then sends each issue to the segment as a Resend broadcast, with a per-reader unsubscribe link, instead of to `NEWSLETTER_TO`. Subscribe your own address on the site to keep getting it.
+   - Check it first with `npm run newsletter -- --dry-run` and `RESEND_SEGMENT_ID` set locally: `preview/issue.html` shows the subscriber footer.
+5. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
 
 ## Costs
 
@@ -63,7 +68,8 @@ npm run dev
 | [`lib/claude.ts`](lib/claude.ts) | Both Claude prompts and schemas: triage and newsletter writing. Tune the voice and the importance rubric here. |
 | [`scripts/ingest.ts`](scripts/ingest.ts), [`scripts/newsletter.ts`](scripts/newsletter.ts) | The two jobs. |
 | [`lib/stories.ts`](lib/stories.ts) | Grouping and ranking. |
-| [`lib/email.ts`](lib/email.ts) | Newsletter HTML and plain-text email. |
+| [`lib/email.ts`](lib/email.ts) | Newsletter HTML (table-based, in the site's dark design) and plain-text email. |
+| [`app/globals.css`](app/globals.css), [`lib/category.ts`](lib/category.ts) | Design tokens: colours, category colours and tints. Fonts are set in `app/layout.tsx`. |
 | [`app/`](app) | The site: `/` today, `/topic/[category]`, `/issues`, `/issues/[n]`. |
 | `data/` | Written by the jobs. Items per month, one file per issue. |
 | [`.github/workflows/`](.github/workflows) | The schedules. |
@@ -72,4 +78,5 @@ npm run dev
 
 - Mistral and Meta AI have no feeds. They'd need page readers like Anthropic's.
 - Reddit blocks unauthenticated requests from GitHub's runners, so r/LocalLLaMA would need API credentials.
-- Batch API (half price) for the ingest pass, a public signup form, and an RSS feed of the site itself.
+- Batch API (half price) for the ingest pass, a preferences page for subscribers, and an RSS feed of the site itself.
+- Real images for every story. Stories show the publisher's image, hotlinked from the feed or `og:image`; about half have none and get generated art instead (category tint and a token pattern).
