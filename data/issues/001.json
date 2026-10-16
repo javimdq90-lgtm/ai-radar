@@ -1,0 +1,406 @@
+{
+ "number": 1,
+ "date": "2026-10-16T08:42:43.064Z",
+ "subject": "Google ships Gemini 4 Argon to paying users and API developers",
+ "preview": "Meta's open-weight Muse Spark Open runs on two Mac Studios, and Character.ai files for Chapter 11 with Disney circling.",
+ "intro": "The model releases were the loud part of the week, but the stories likely to run longest are in courtrooms and attorney general offices, where chatbot makers keep landing. Anthropic also published a warning on small models that reads more cautiously once you get to the caveats.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "a2c304623a61",
+     "headline": "Google releases Gemini 4 Argon to paying users and API developers",
+     "body": "Argon is in AI Studio via API and in the Gemini app and AI Mode in Search for AI Pro ($20/month) and Ultra (from $99/month) subscribers. Antigravity access is Ultra-only, and free users are excluded. Introductory API pricing is $2 input and $10 output per million tokens, and Ars Technica and Artificial Analysis report it doubles after November 30. Google says Argon ranks first on the Vals Index, though Latent Space notes its internal gains are claims, not controlled measurements. Artificial Analysis has it level with GPT-6 Astra; Cursor reports 52.8% on CursorBench, on par with Opus 5.5."
+    }
+   ]
+  },
+  {
+   "heading": "Open weights",
+   "stories": [
+    {
+     "storyId": "9d251ac6836a",
+     "headline": "Meta releases Muse Spark Open, an 816B-parameter open-weight model built with Apple",
+     "body": "Meta calls it the most capable US open-weight model to date. It is a natively multimodal mixture-of-experts model with 816 billion total parameters and a 1 million token context window, and the weights are on Hugging Face. Meta says it runs on two Apple M5 Ultra Mac Studios using MLX, which it and Apple built together over several months. Engadget, via TechCrunch, reports it needs at least 1TB of RAM, so this is a desktop in the loosest sense. Still, it is a frontier-class model you can run and modify without a hosted API."
+    }
+   ]
+  },
+  {
+   "heading": "Safety, law and kids",
+   "stories": [
+    {
+     "storyId": "745c37586581",
+     "headline": "Anthropic warns small AI models may soon self-replicate across IoT devices",
+     "body": "Anthropic says models of 30B parameters or fewer could replicate on cheap commercial devices within months. In its tests, a 9B model got inference running on 8 of 9 hardware types, and Gemma4-26B-A4B ran across 15 Android TV boxes at 0.39 tokens per second. The caveats matter. Per Ars Technica, the targets had an unauthenticated Android Debug Bridge exposed, and GLM-5.2 orchestrated the process while the targets ran a smaller Llama model. The worry is a worm carrying its own weights, with no central point to shut down."
+    },
+    {
+     "storyId": "e422d5ed3681",
+     "headline": "Eight states sue OpenAI, alleging ChatGPT is unsafe for kids and misrepresented",
+     "body": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed separate suits under state consumer protection laws. They allege OpenAI put profits over safety and presented ChatGPT as youth-appropriate while it was dangerous to vulnerable users, including by encouraging delusions and giving dangerous medical advice. They also accuse it of collecting data from minors and failing to keep underage users off. They want civil penalties and an end to the misleading claims. OpenAI points to parental controls and break reminders and says it wants to work with states on policy."
+    },
+    {
+     "storyId": "61514929f532",
+     "headline": "Character.ai files for Chapter 11, with Disney as lead bidder for some assets",
+     "body": "Character.ai is seeking a court-supervised sale of all or substantially all assets and says it will wind down the platform if no workable bid appears. Disney is lead bidder, offering $20 million for a nonexclusive perpetual license to unspecified IP, though a higher offer could displace it. The filing lists assets and liabilities of $50 million to $100 million, and the company expects a close by late November or early December. Forty bipartisan state AGs want buyers required to adopt age assurance, crisis safeguards and data deletion. CEO Colin Adams disputes their portrayal of the platform's safety."
+    }
+   ]
+  },
+  {
+   "heading": "Odds and ends",
+   "stories": [
+    {
+     "storyId": "421acab06078",
+     "headline": "OpenAI engineer arrested over recording device hidden in executive conference room",
+     "body": "Federal prosecutors charged Abdulrahman Alfozan, 35, an OpenAI engineer since July 2025, with illegally intercepting oral communications. OpenAI found an encrypted recorder on Sept. 30, plugged into a conference room TV's USB port and wrapped in toilet paper. A second was found in an unattended bag on Oct. 5, and the complaint says it was gone when Alfozan retrieved the bag. Prosecutors cite chatbot prompts from his spouse's account about building an audio recorder. It is unclear who the recordings were for. He faces up to five years and a $250,000 fine."
+    },
+    {
+     "storyId": "f1c8e20f7598",
+     "headline": "YouTube Music begins labeling AI-generated songs as Deezer readies AI filter",
+     "body": "YouTube Music is rolling out a \"Made with AI\" label on the player page for tracks altered or fully generated with AI, with the main YouTube app to follow. Partners disclose as Fully, Partly or No Gen AI, and YouTube may use its own detection if they don't. There is no option to block labeled tracks. Deezer says a toggle to hide AI music from search will arrive before year-end. It reported in July that over 50% of daily uploads, about 90,000 tracks a day, were AI-generated."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "227d02ee5d04",
+   "text": "Anthropic is giving METR employee-level access and has given up the right to block METR from publishing its own assessments."
+  },
+  {
+   "storyId": "c3631614eaba",
+   "text": "Google's Universal Cart, which saves products from multiple retailers in one cart, is now live in the US across Gemini and Search."
+  },
+  {
+   "storyId": "b0e702832e00",
+   "text": "Linus Torvalds submitted his first LLM-assisted patch series for the Linux kernel, according to LWN."
+  },
+  {
+   "storyId": "fe7e3bf246c6",
+   "text": "Microsoft researchers published a Nature paper on a machine learning method for weather forecasts 2 to 6 weeks out, and open-sourced the tool."
+  },
+  {
+   "storyId": "64950daaf518",
+   "text": "Researchers found an attack that tricks new OpenAI and Google image models into producing nude images, bypassing their safeguards."
+  },
+  {
+   "storyId": "7908d899cb3e",
+   "text": "Modal raised a Series D at a $16B valuation with $1B in annual recurring revenue."
+  },
+  {
+   "storyId": "bd9d9b4f5d97",
+   "text": "The IMF warns that a crash in AI-related share prices could threaten global financial stability."
+  },
+  {
+   "storyId": "717479e17888",
+   "text": "ASML's strong orders eased fears that the AI spending boom is running out of steam, per Reuters."
+  },
+  {
+   "storyId": "224c102190be",
+   "text": "An arXiv paper shows AI models can provably hide arbitrary capabilities, which complicates the case for capability audits."
+  }
+ ],
+ "links": {
+  "a2c304623a61": [
+   {
+    "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+    "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+    "source": "Latent Space"
+   },
+   {
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "source": "Google AI"
+   },
+   {
+    "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+    "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "Gemini 4 Argon for Robotics",
+    "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "Gemini 4 Argon",
+    "url": "https://deepmind.google/models/gemini/",
+    "source": "deepmind.google"
+   },
+   {
+    "title": "Gemini 4 Argon",
+    "url": "https://news.ycombinator.com/item?id=50073879",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Gemini 4 Argon for Robotics",
+    "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "source": "developers.googleblog.com"
+   },
+   {
+    "title": "Gemini 4 Argon for Robotics",
+    "url": "https://news.ycombinator.com/item?id=50074869",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+    "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+    "source": "Latent Space"
+   },
+   {
+    "title": "The AI race is back on",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+    "source": "The Verge"
+   }
+  ],
+  "9d251ac6836a": [
+   {
+    "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+    "url": "https://huggingface.co/blog/meta-muse-spark-open",
+    "source": "Hugging Face"
+   },
+   {
+    "title": "Friends don’t let friends feed their data to AI agents",
+    "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+    "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta launches an open-weight AI model that runs on Macs",
+    "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+    "source": "TechCrunch"
+   }
+  ],
+  "745c37586581": [
+   {
+    "title": "AI models may be capable of self-replicating without access to a datacenter",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "source": "anthropic.com"
+   },
+   {
+    "title": "AI models may be capable of self-replicating without access to a datacenter",
+    "url": "https://news.ycombinator.com/item?id=50061603",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Open models have real benefits. Do they outweigh the risks?",
+    "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+    "source": "MIT Technology Review"
+   },
+   {
+    "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+    "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+    "source": "Ars Technica"
+   }
+  ],
+  "e422d5ed3681": [
+   {
+    "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+    "source": "The Verge"
+   }
+  ],
+  "61514929f532": [
+   {
+    "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+    "url": "https://blog.character.ai/an-update-on-character-ai/",
+    "source": "blog.character.ai"
+   },
+   {
+    "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+    "url": "https://news.ycombinator.com/item?id=50068036",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Character.ai Files for Bankruptcy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+    "source": "theverge.com"
+   },
+   {
+    "title": "Character.ai Files for Bankruptcy",
+    "url": "https://news.ycombinator.com/item?id=50069942",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+    "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
+    "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+    "source": "The Verge"
+   }
+  ],
+  "421acab06078": [
+   {
+    "title": "OpenAI finds recording device in one of their offices",
+    "url": "https://twitter.com/OpenAINewsroom/status/2110095403198849132",
+    "source": "twitter.com"
+   },
+   {
+    "title": "OpenAI finds recording device in one of their offices",
+    "url": "https://news.ycombinator.com/item?id=50077703",
+    "source": "HN discussion"
+   },
+   {
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "source": "sfstandard.com"
+   },
+   {
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "url": "https://news.ycombinator.com/item?id=50078141",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+    "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+    "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+    "source": "The Verge"
+   }
+  ],
+  "f1c8e20f7598": [
+   {
+    "title": "Deezer will soon let you filter out AI-generated music",
+    "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "YouTube sticks new labels on AI-generated songs",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+    "source": "The Verge"
+   },
+   {
+    "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+    "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "YouTube Music begins labeling AI songs",
+    "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+    "source": "Ars Technica"
+   }
+  ],
+  "227d02ee5d04": [
+   {
+    "title": "An update on independent evaluators",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "source": "Anthropic"
+   },
+   {
+    "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+    "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+    "source": "TechCrunch"
+   }
+  ],
+  "c3631614eaba": [
+   {
+    "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+    "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+    "source": "The Verge"
+   },
+   {
+    "title": "Google’s Universal Cart shopping tool launches in the US",
+    "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+    "source": "TechCrunch"
+   }
+  ],
+  "b0e702832e00": [
+   {
+    "title": "Linus Torvalds's first LLM-assisted patch series",
+    "url": "https://lwn.net/Articles/1100449/",
+    "source": "lwn.net"
+   },
+   {
+    "title": "Linus Torvalds's first LLM-assisted patch series",
+    "url": "https://news.ycombinator.com/item?id=50090842",
+    "source": "HN discussion"
+   }
+  ],
+  "fe7e3bf246c6": [
+   {
+    "title": "Microsoft has a new machine learning tool to improve weather forecasts",
+    "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+    "source": "The Verge"
+   },
+   {
+    "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+    "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+    "source": "Hugging Face"
+   }
+  ],
+  "64950daaf518": [
+   {
+    "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+    "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+    "source": "Ars Technica"
+   }
+  ],
+  "7908d899cb3e": [
+   {
+    "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+    "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+    "source": "Latent Space"
+   }
+  ],
+  "bd9d9b4f5d97": [
+   {
+    "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+    "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+    "source": "theguardian.com"
+   },
+   {
+    "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+    "url": "https://news.ycombinator.com/item?id=50067356",
+    "source": "HN discussion"
+   }
+  ],
+  "717479e17888": [
+   {
+    "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+    "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+    "source": "reuters.com"
+   },
+   {
+    "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+    "url": "https://news.ycombinator.com/item?id=50088430",
+    "source": "HN discussion"
+   }
+  ],
+  "224c102190be": [
+   {
+    "title": "AI models can provably hide arbitrary capabilities",
+    "url": "https://arxiv.org/abs/2610.13928",
+    "source": "arxiv.org"
+   },
+   {
+    "title": "AI models can provably hide arbitrary capabilities",
+    "url": "https://news.ycombinator.com/item?id=50065692",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
