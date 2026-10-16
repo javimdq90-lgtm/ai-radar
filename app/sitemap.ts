@@ -9,6 +9,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const newest = stories.reduce((max, s) => (s.firstSeen > max ? s.firstSeen : max), "");
   return [
     { url: SITE_URL, lastModified: newest || undefined, changeFrequency: "hourly", priority: 1 },
+    { url: `${SITE_URL}/briefings`, lastModified: newest || undefined, changeFrequency: "hourly", priority: 0.8 },
     ...CATEGORIES.map((c) => ({ url: `${SITE_URL}/topic/${c}`, changeFrequency: "hourly" as const, priority: 0.6 })),
     ...stories
       .filter((s) => s.brief)

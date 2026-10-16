@@ -20,8 +20,8 @@ const FRONT_PAGE_HOURS = 72;
 const SECTION_DAYS = 7;
 
 /**
- * The front page: a lead story, a grid of ten more, a chronological wire, and one block
- * per section with what didn't make the top.
+ * The front page: the twelve top-ranked recent stories (the page picks its top story, hero
+ * cards and grid from them), a chronological wire of the rest, and one block per section.
  */
 export async function getFrontPage() {
   "use cache";
@@ -30,7 +30,8 @@ export async function getFrontPage() {
   const now = Date.now();
   const recent = stories.filter((s) => s.firstSeen >= new Date(now - FRONT_PAGE_HOURS * HOUR).toISOString());
 
-  const top = recent.slice(0, 11);
+  // 12: the top story, three hero cards and a grid of eight (two full rows of four).
+  const top = recent.slice(0, 12);
   const shown = new Set(top.map((s) => s.id));
   const weekCutoff = new Date(now - SECTION_DAYS * 24 * HOUR).toISOString();
   const sections = CATEGORIES.map((category) => ({
@@ -41,13 +42,21 @@ export async function getFrontPage() {
   return {
     lead: top[0] ?? null,
     top: top.slice(1),
-    // The "Latest" tab: everything recent, newest first.
-    latest: [...recent].sort(byRecency).slice(0, 30),
     // Everything newest-first, minus what the main column already shows.
     wire: recent.filter((s) => !shown.has(s.id)).sort(byRecency).slice(0, 16),
     sections,
     latestIssue: issues[0] ?? null,
     generatedAt: new Date(now).toISOString(),
+  };
+}
+
+/** Our own multi-source briefings, newest first. */
+export async function getBriefings() {
+  "use cache";
+  cacheLife("hours");
+  return {
+    stories: (await getStories()).filter((s) => s.brief).sort(byRecency).slice(0, 60),
+    generatedAt: new Date().toISOString(),
   };
 }
 

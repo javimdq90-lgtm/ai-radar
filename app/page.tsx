@@ -1,123 +1,149 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Masthead, SectionNav, TopBar } from "@/components/brand";
-import { FrontTabs } from "@/components/front-tabs";
+import { Footer, SectionTitle, SiteHeader, SUBLINE } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
-import { LatestItem, LeadStory, StoryCard, StoryRow, ThumbRow } from "@/components/story";
-import { catStyle } from "@/lib/category";
+import { Scene } from "@/components/scene";
+import { HeroCard, LatestRow, StoryCard, TopStory } from "@/components/story";
 import { OG_BASE } from "@/lib/site";
+import { BRAND } from "@/lib/brand-images";
 import { getFrontPage } from "@/lib/site-data";
-import { CATEGORY_LABELS, type Story } from "@/lib/types";
+import type { Story } from "@/lib/types";
 
 export const metadata: Metadata = { alternates: { canonical: "/" }, openGraph: { ...OG_BASE, type: "website", url: "/" } };
 
-/** Ten stories in falling sizes: a feature beside a stacked pair, a row of three, then thumbnail rows. */
-function TopStories({ stories, now }: { stories: Story[]; now: string }) {
-  const [feature, ...rest] = stories;
-  const pair = rest.slice(0, 2);
-  const row = rest.slice(2, 5);
-  const thumbs = rest.slice(5);
-  if (!feature) return null;
+function Arrow({ width = 36 }: { width?: number }) {
   return (
-    <section aria-label="Top stories" className="flex flex-col gap-10">
-      <div className="grid gap-8 md:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
-        <StoryCard story={feature} now={now} size="large" />
-        {pair.length > 0 && (
-          <div className="flex flex-col gap-8 md:border-l md:border-line md:pl-8">
-            {pair.map((s) => (
-              <StoryCard key={s.id} story={s} now={now} size="small" />
+    <svg width={width} height={14} viewBox="0 0 36 14" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+      <path d="M0 7 H34 M28 1 L34 7 L28 13" />
+    </svg>
+  );
+}
+
+/**
+ * One full-bleed visual with the header on top, the statement over its dark left side, and the
+ * three leading stories as glass cards along the bottom edge.
+ */
+function Hero({ stories, now }: { stories: Story[]; now: string }) {
+  return (
+    <section aria-label="Intro" className="relative isolate overflow-hidden border-b border-rule">
+      <div className="absolute inset-0 -z-10 bg-black">
+        {/* public/brand/hero.* (and hero-mobile.* for phones) when present, else the closest scene. */}
+        {BRAND.hero ? (
+          // The photo fills the right two-thirds and fades into black on its left edge, under the statement.
+          <div className="absolute inset-y-0 right-0 w-full md:w-[70%]">
+            <picture>
+              {BRAND.heroMobile && <source media="(max-width: 767px)" srcSet={BRAND.heroMobile} />}
+              <img
+                src={BRAND.hero}
+                alt=""
+                fetchPriority="high"
+                className="h-full w-full object-cover object-[62%_center] md:object-[left_center]"
+              />
+            </picture>
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(10_10_10/0)_38%)] max-md:bg-[rgb(10_10_10/0.55)]" />
+          </div>
+        ) : (
+          <Scene name="curve" />
+        )}
+        {/* Darken the text side and the card strip so both read over any image. */}
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(10_10_10/0.7)_30%,rgb(10_10_10/0)_55%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(0deg,var(--cw-black)_0%,rgb(10_10_10/0)_40%)]" />
+        {/* A soft band along the top so the header reads over bright sky and concrete. */}
+        <div className="absolute inset-x-0 top-0 h-40 bg-[linear-gradient(180deg,rgb(10_10_10/0.75)_0%,rgb(10_10_10/0)_100%)]" />
+      </div>
+
+      <SiteHeader overlay />
+
+      <div className="container-cw flex min-h-[clamp(560px,82vh,860px)] flex-col justify-between gap-12 pb-6">
+        <div className="flex max-w-[640px] flex-col gap-7 pt-[clamp(40px,9vh,110px)]">
+          <h1 className="m-0 text-[clamp(44px,7vw,92px)] font-medium leading-[0.98] tracking-[-0.04em] text-bone">
+            AI news.
+            <br />A wider
+            <br />
+            context.
+          </h1>
+          <p className="m-0 max-w-[30ch] text-[clamp(16px,1.6vw,21px)] leading-[1.5] text-bone">{SUBLINE}</p>
+          <Link href="#top-story" aria-label="Today's top story" className="inline-flex min-h-11 items-center self-start text-orange">
+            <Arrow width={44} />
+          </Link>
+        </div>
+
+        {stories.length > 0 && (
+          <div className="grid gap-px md:grid-cols-3">
+            {stories.map((s) => (
+              <HeroCard key={s.id} story={s} now={now} />
             ))}
           </div>
         )}
       </div>
-      {row.length > 0 && (
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(min(230px,100%),1fr))] gap-8 border-t border-line pt-8">
-          {row.map((s) => (
-            <StoryCard key={s.id} story={s} now={now} />
-          ))}
-        </div>
-      )}
-      {thumbs.length > 0 && (
-        <div className="grid gap-x-8 border-t border-line md:grid-cols-2">
-          {thumbs.map((s) => (
-            <ThumbRow key={s.id} story={s} now={now} />
-          ))}
-        </div>
-      )}
     </section>
   );
 }
 
 export default async function Home() {
-  const { lead, top, latest, wire, sections, latestIssue, generatedAt: now } = await getFrontPage();
+  const { lead, top, wire, latestIssue, generatedAt: now } = await getFrontPage();
+  // The top story is the highest-ranked briefing (our own summary); the next three go in the
+  // hero cards and the rest in the grid.
+  const ranked = lead ? [lead, ...top] : [];
+  const topStory = ranked.find((s) => s.brief) ?? ranked[0];
+  const others = ranked.filter((s) => s !== topStory);
+  const heroStories = others.slice(0, 3);
+  // Whole rows only: the grid is four columns wide on desktop and two on tablets.
+  const rest = others.slice(3, 11);
+  const gridStories = rest.length >= 4 ? rest.slice(0, rest.length - (rest.length % 4)) : rest;
 
   return (
-    <>
-      <TopBar />
-      <Masthead />
-      <SectionNav />
+    <div className="max-md:pb-24">
+      <Hero stories={heroStories} now={now} />
 
       {!lead ? (
-        <p className="py-24 text-center text-muted">
+        <p className="container-cw py-24 text-center text-muted">
           No stories yet. They appear after the first ingest run (<code>npm run ingest</code>).
         </p>
       ) : (
-        <>
-          {/* Main + rail: the rail drops below the main column on narrow screens. */}
-          <div className="flex flex-wrap gap-12 pb-14 pt-8">
-            <main className="min-w-0 flex-[999_1_560px]">
-              <FrontTabs
-                top={
-                  <div className="flex flex-col gap-12">
-                    <LeadStory story={lead} now={now} />
-                    <TopStories stories={top} now={now} />
-                  </div>
-                }
-                latest={
-                  <div className="border-t-2 border-text">
-                    {latest.map((s) => (
-                      <StoryRow key={s.id} story={s} now={now} />
-                    ))}
-                  </div>
-                }
-              />
-            </main>
+        <main className="container-cw">
+          <section id="top-story" aria-labelledby="top-story-h" className="flex scroll-mt-6 flex-col gap-8 border-b border-rule py-16">
+            <SectionTitle id="top-story-h">Top story</SectionTitle>
+            <TopStory story={topStory} now={now} />
+          </section>
 
-            <aside aria-label="Latest" className="min-w-0 flex-[1_1_300px]">
-              <h2 className="rail-heading">Latest</h2>
-              <ol className="m-0 list-none p-0">
+          {gridStories.length > 0 && (
+            <section id="top-stories" aria-labelledby="top-h" className="flex scroll-mt-6 flex-col gap-7 border-b border-rule py-14">
+              <SectionTitle id="top-h">More stories</SectionTitle>
+              {/* Hairline grid: each card draws a 1px ring that meets its neighbour's in the 1px gap. */}
+              <div className="grid gap-px p-px sm:grid-cols-2 lg:grid-cols-4">
+                {gridStories.map((s) => (
+                  <StoryCard key={s.id} story={s} now={now} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          <div className="flex flex-wrap gap-12 pb-18 pt-14">
+            <section id="latest" aria-labelledby="latest-h" className="flex min-w-0 flex-[999_1_560px] flex-col gap-5">
+              <SectionTitle id="latest-h">Latest</SectionTitle>
+              <ol className="m-0 list-none border-t-2 border-fg p-0">
                 {wire.map((s) => (
-                  <LatestItem key={s.id} story={s} now={now} />
+                  <LatestRow key={s.id} story={s} now={now} />
                 ))}
               </ol>
+            </section>
+            <aside aria-label="Newsletter" className="min-w-0 flex-[1_1_340px] self-start lg:sticky lg:top-6">
+              <NewsletterBox latestIssue={latestIssue} />
             </aside>
           </div>
-
-          <NewsletterBox variant="band" latestIssue={latestIssue} />
-
-          {/* What didn't make the top, by section */}
-          {sections.length > 0 && (
-            <div className="grid grid-cols-[repeat(auto-fill,minmax(min(340px,100%),1fr))] gap-x-10 gap-y-12 pb-16 pt-14">
-              {sections.map(({ category, stories }) => (
-                <section key={category} aria-labelledby={`section-${category}`} style={catStyle(category)} className="min-w-0">
-                  <div className="flex items-baseline justify-between border-b-2 border-cat pb-2.5">
-                    <h2 id={`section-${category}`} className="label m-0 flex items-center gap-2 text-cat">
-                      <span className="dot" aria-hidden />
-                      {CATEGORY_LABELS[category]}
-                    </h2>
-                    <Link href={`/topic/${category}`} className="text-[13px] text-muted">
-                      See all →
-                    </Link>
-                  </div>
-                  {stories.map((s) => (
-                    <StoryRow key={s.id} story={s} now={now} kicker={Boolean(s.brief)} />
-                  ))}
-                </section>
-              ))}
-            </div>
-          )}
-        </>
+        </main>
       )}
-    </>
+
+      <Footer newsletterHref="#newsletter" />
+
+      {/* Phones: the sign-up stays one tap away. */}
+      <Link
+        href="#newsletter"
+        className="btn-cta fixed inset-x-4 bottom-4 z-40 min-h-[52px] justify-between px-5 [clip-path:var(--cw-chamfer-md)] md:hidden"
+      >
+        Get the briefing <Arrow width={28} />
+      </Link>
+    </div>
   );
 }

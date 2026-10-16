@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { CompactHeader } from "@/components/brand";
+import { Footer, SiteHeader } from "@/components/brand";
 import { ConfirmSubscription } from "@/components/confirm-subscription";
 
 export const metadata: Metadata = { title: "Confirm your subscription", robots: { index: false } };
@@ -9,12 +9,13 @@ export const metadata: Metadata = { title: "Confirm your subscription", robots: 
 export default function ConfirmPage() {
   return (
     <>
-      <CompactHeader />
-      <main className="flex max-w-[640px] flex-col gap-6 pb-24 pt-16">
+      <SiteHeader />
+      <main className="container-cw flex flex-col gap-6 pb-24 pt-16 [&>*]:max-w-[640px]">
         <Suspense fallback={<p className="m-0 text-muted">Loading…</p>}>
           <ConfirmSubscription />
         </Suspense>
       </main>
+      <Footer />
     </>
   );
 }

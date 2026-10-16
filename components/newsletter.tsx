@@ -8,15 +8,20 @@ const initial: SubscribeState = { message: "" };
 
 type LatestIssue = { number: number; subject: string } | null | undefined;
 
+/** The dark palette, for the band when it sits on a bone page. */
+const DARK =
+  "[--dek:#c8cace] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#3a3d42] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]";
+
 /**
- * "Load today's context" sign-up. `box` is the sidebar card on inner pages; `band` is the
- * full-width yellow block on the front page. Either one is the #newsletter target of "Get the email".
+ * "THE CONTEXT BRIEFING." sign-up, the #newsletter target of every SUBSCRIBE button.
+ * `card`: a bone card with the large chamfer (front page, section pages).
+ * `band`: a full-width black band (briefing pages, which are bone).
  */
-export function NewsletterBox({ latestIssue, variant = "box" }: { latestIssue?: LatestIssue; variant?: "box" | "band" }) {
+export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?: LatestIssue; variant?: "card" | "band" }) {
   const [state, action, pending] = useActionState(subscribe, initial);
   const band = variant === "band";
-  // When the form became usable; the server treats near-instant submissions as bots.
-  // React clears form fields after each submission, so this is written back every time `state` changes.
+
+  // React clears form fields after each submission, so the load time is written back every time `state` changes.
   const startedAt = useRef<HTMLInputElement>(null);
   const loadedAt = useRef(0);
   useEffect(() => {
@@ -25,52 +30,50 @@ export function NewsletterBox({ latestIssue, variant = "box" }: { latestIssue?: 
   }, [state]);
 
   const form = state.ok ? (
-    <p className="m-0 text-[15px]" role="status">
+    <p className="m-0 text-[16px] font-medium" role="status">
       {state.message}
     </p>
   ) : (
-    <form action={action} className={`relative flex flex-col gap-3.5 ${band ? "sm:flex-row sm:flex-wrap sm:items-end" : ""}`}>
-      <label htmlFor={`newsletter-email-${variant}`} className={band ? "sr-only" : "text-[13px] text-muted"}>
+    <form action={action} className="relative flex flex-col gap-2">
+      <label htmlFor={`newsletter-email-${variant}`} className="text-[13px] font-medium text-dek">
         Email address
       </label>
-      <input
-        id={`newsletter-email-${variant}`}
-        name="email"
-        type="email"
-        required
-        autoComplete="email"
-        placeholder="you@company.com"
-        className={
-          band
-            ? "min-h-12 flex-1 rounded-cw border-0 bg-[#fff8e6] px-4 text-[16px] text-on-accent placeholder:text-[#6b5a2a] sm:min-w-[240px]"
-            : "min-h-11 rounded-cw border border-line-strong bg-bg px-3.5 text-text placeholder:text-faint"
-        }
-      />
-      {/* Spam traps: a field people never see, and the time the form loaded. */}
-      <input ref={startedAt} type="hidden" name="t" defaultValue="" />
-      <div aria-hidden className="absolute -left-[9999px] h-px w-px overflow-hidden">
-        <label htmlFor={`newsletter-website-${variant}`}>Leave this empty</label>
-        <input id={`newsletter-website-${variant}`} name="website" type="text" tabIndex={-1} autoComplete="off" />
+      <div className={`flex gap-2 ${band ? "flex-wrap" : "flex-col"}`}>
+        <input
+          id={`newsletter-email-${variant}`}
+          name="email"
+          type="email"
+          required
+          autoComplete="email"
+          placeholder="you@company.com"
+          className={`min-h-12 px-3.5 text-fg placeholder:text-muted ${
+            band ? "flex-[1_1_220px] border border-rule-strong bg-raised" : "border border-black bg-white"
+          }`}
+        />
+        {/* Spam traps: a field people never see, and the time the form loaded. */}
+        <input ref={startedAt} type="hidden" name="t" defaultValue="" />
+        <div aria-hidden className="absolute -left-[9999px] h-px w-px overflow-hidden">
+          <label htmlFor={`newsletter-website-${variant}`}>Leave this empty</label>
+          <input id={`newsletter-website-${variant}`} name="website" type="text" tabIndex={-1} autoComplete="off" />
+        </div>
+        <button
+          type="submit"
+          disabled={pending}
+          className={`caps min-h-12 cursor-pointer border-0 px-6 disabled:opacity-70 ${
+            band ? "bg-orange text-black" : "bg-black text-bone"
+          }`}
+        >
+          {pending ? "Subscribing…" : "Subscribe →"}
+        </button>
       </div>
-      <button
-        type="submit"
-        disabled={pending}
-        className={
-          band
-            ? "inline-flex min-h-12 cursor-pointer items-center justify-center rounded-cw border-0 bg-on-accent px-6 font-semibold text-accent disabled:opacity-70"
-            : "btn-accent cursor-pointer rounded-cw border-0 disabled:opacity-70"
-        }
-      >
-        {pending ? "Subscribing…" : "Subscribe"}
-      </button>
       {state.message && (
-        <p className={`m-0 text-[13px] ${band ? "basis-full" : "text-muted"}`} role="status">
+        <p className="m-0 text-[13px] text-muted" role="status">
           {state.message}
         </p>
       )}
-      <p className={`m-0 text-[12px] ${band ? "basis-full" : "text-muted"}`}>
+      <p className="m-0 text-[12px] text-muted">
         We&rsquo;ll email you once to confirm. Unsubscribe anytime.{" "}
-        <Link href="/privacy" className={`link ${band ? "hover:text-on-accent" : ""}`}>
+        <Link href="/privacy" className="link">
           Privacy
         </Link>
       </p>
@@ -78,43 +81,38 @@ export function NewsletterBox({ latestIssue, variant = "box" }: { latestIssue?: 
   );
 
   const issueLink = latestIssue && (
-    <Link href={`/issues/${latestIssue.number}`} className={`text-[13px] ${band ? "hover:text-on-accent" : "text-muted"}`}>
+    <Link href={`/issues/${latestIssue.number}`} className="text-[13px] text-muted">
       Latest issue, #{latestIssue.number}: <span className="link">{latestIssue.subject}</span>
     </Link>
   );
 
   if (band) {
     return (
-      <section
-        id="newsletter"
-        aria-labelledby="newsletter-title"
-        className="grid scroll-mt-24 items-center gap-x-12 gap-y-6 rounded-cw-lg bg-accent p-[clamp(24px,5vw,56px)] text-on-accent md:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] [&_:focus-visible]:outline-on-accent"
-      >
-        <div className="flex flex-col gap-3">
-          <p className="m-0 font-mono text-[12px] font-medium uppercase tracking-[0.1em]">The newsletter</p>
-          <h2 id="newsletter-title" className="m-0 font-display text-[clamp(36px,5vw,60px)] font-normal leading-[1]">
-            Load today&rsquo;s context
-          </h2>
-          <p className="m-0 text-[17px]">AI news, briefed and sourced. Three emails a week.</p>
-        </div>
-        <div className="flex flex-col gap-3">
-          {form}
-          {issueLink}
+      <section id="newsletter" aria-labelledby="newsletter-title" className={`scroll-mt-6 bg-surface text-fg ${DARK}`}>
+        <div className="container-cw flex flex-wrap items-center gap-8 py-14">
+          <div className="flex flex-[1_1_420px] flex-col gap-2.5">
+            <p className="kicker m-0 text-signal">Three times a week</p>
+            <h2 id="newsletter-title" className="display m-0 text-[clamp(26px,3.4vw,34px)] leading-[1.12]">
+              The Context Briefing.
+            </h2>
+            <p className="m-0 text-dek">The most important AI news, analysis and ideas, briefed and sourced.</p>
+          </div>
+          <div className="flex flex-[1_1_420px] flex-col gap-3">
+            {form}
+            {issueLink}
+          </div>
         </div>
       </section>
     );
   }
 
   return (
-    <section
-      id="newsletter"
-      aria-labelledby="newsletter-title"
-      className="flex scroll-mt-24 flex-col gap-3.5 rounded-cw-lg border border-line bg-surface p-6"
-    >
-      <h2 id="newsletter-title" className="m-0 font-display text-[30px] font-normal leading-[1.05]">
-        Load today&rsquo;s context
+    <section id="newsletter" aria-labelledby="newsletter-title" className="bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8">
+      <p className="kicker m-0 text-signal">Three times a week</p>
+      <h2 id="newsletter-title" className="display m-0 text-[28px] leading-[1.12]">
+        The Context Briefing.
       </h2>
-      <p className="m-0 text-[15px] text-dek">AI news, briefed and sourced. Three emails a week.</p>
+      <p className="m-0 text-[16px] text-dek">The most important AI news, analysis and ideas. A wider context.</p>
       {form}
       {issueLink}
     </section>

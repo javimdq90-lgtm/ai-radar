@@ -1,7 +1,5 @@
-import type { CSSProperties } from "react";
 import type { Category } from "./types";
 
-/** Category key -> token suffix in globals.css (the tokens say "dev-tools" where the data says "tools"). */
 const TOKEN: Record<Category, string> = {
   models: "models",
   research: "research",
@@ -12,18 +10,10 @@ const TOKEN: Record<Category, string> = {
   tools: "dev-tools",
 };
 
-/**
- * Sets --cat, --tint and --tint-border on an element, so it and its children can use
- * text-cat, bg-tint, border-tint-line and the .dot class in that category's colour.
- */
-export const catStyle = (category: Category) =>
-  ({
-    "--cat": `var(--cw-cat-${TOKEN[category]})`,
-    "--tint": `var(--cw-tint-${TOKEN[category]})`,
-    "--tint-border": `var(--cw-tint-${TOKEN[category]}-border)`,
-  }) as CSSProperties;
+/** A topic's colour for the current surface (bright on black, darker on bone; see globals.css). */
+export const catColor = (category: Category) => `var(--cat-${TOKEN[category]})`;
 
-/** The same colours as literal hex, for email HTML where CSS variables don't work. */
+/** Category colours as literal hex, for email HTML and share images, where CSS variables don't work. */
 export const CATEGORY_HEX: Record<Category, string> = {
   models: "#7AA7FF",
   research: "#B49CFF",

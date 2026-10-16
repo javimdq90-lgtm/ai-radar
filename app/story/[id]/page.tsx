@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CompactHeader } from "@/components/brand";
+import { Footer, SiteHeader } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
-import { Kicker, RelatedItem, readMinutes, sourceName, StoryVisual, storySummary, storyTitle } from "@/components/story";
-import { fmtDateTime, fmtWhen } from "@/lib/format";
+import { ShareButton } from "@/components/share-button";
+import { Byline, Kicker, RelatedItem, sourceName, StoryVisual, storySummary, storyTitle } from "@/components/story";
+import { fmtWhen } from "@/lib/format";
 import { OG_BASE } from "@/lib/site";
 import { getBriefedStoryIds, getIssues, getStory } from "@/lib/site-data";
-import { CATEGORY_LABELS } from "@/lib/types";
 
 export async function generateStaticParams() {
   const ids = await getBriefedStoryIds();
@@ -30,11 +30,30 @@ export async function generateMetadata({ params }: PageProps<"/story/[id]">): Pr
   };
 }
 
-function Section({ title, children }: { title: string; children: string }) {
+/** The display face is caps only and short-headline only; it also lacks curly quotes. */
+const DISPLAY_MAX_CHARS = 60;
+const forDisplay = (s: string) => s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+
+type ArticleSection = { title: string; paragraphs: string[]; quote?: { text: string; by: string } };
+
+/** "WHY IT MATTERS": section title in the display face, the paragraphs, and a pull quote after the first. */
+function Section({ title, paragraphs, quote }: ArticleSection) {
   return (
-    <section className="flex flex-col gap-[18px] text-[18px] leading-[1.7] text-body">
-      <h2 className="m-0 mt-3 font-display text-[34px] font-normal leading-[1.1] text-text">{title}</h2>
-      <p className="m-0">{children}</p>
+    <section className="flex flex-col gap-5 text-[18px] leading-[1.75] text-body">
+      <h2 className="display m-0 mt-4 text-[18px] tracking-[0.08em] text-fg">{title}</h2>
+      {paragraphs.map((p, i) => (
+        <div key={p} className="contents">
+          <p className="m-0">{p}</p>
+          {quote && i === 0 && (
+            <figure className="m-0 my-3 border-l-4 border-orange py-1 pl-7">
+              <blockquote className="m-0 text-[clamp(22px,2.4vw,30px)] font-semibold leading-[1.3] tracking-[-0.01em] text-fg">
+                &ldquo;{quote.text.replace(/^["“'‘]|["”'’]$/g, "")}&rdquo;
+              </blockquote>
+              <figcaption className="mt-3 text-[14px] text-muted">{quote.by}</figcaption>
+            </figure>
+          )}
+        </div>
+      ))}
     </section>
   );
 }
@@ -44,116 +63,134 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
   if (!data) notFound();
   const { story, related, relatedIsSection, generatedAt: now } = data;
   const { brief } = story;
+  const title = storyTitle(story);
   const summary = storySummary(story);
   const coverage = [...story.items].sort((a, b) => a.publishedAt.localeCompare(b.publishedAt));
+  // The full article when the briefing has one; older briefings fall back to their short context.
+  const article = brief?.article;
+  const sections: ArticleSection[] = article
+    ? [
+        { title: "What happened", paragraphs: article.whatHappened },
+        { title: "Why it matters", paragraphs: article.whyItMatters, quote: article.pullQuote },
+        { title: "What to watch", paragraphs: article.whatToWatch },
+      ].filter((s) => s.paragraphs.length)
+    : brief
+      ? [
+          { title: "Why it matters", paragraphs: [brief.context] },
+          ...(brief.whatsNext ? [{ title: "What to watch", paragraphs: [brief.whatsNext] }] : []),
+        ]
+      : story.lead.whyItMatters
+        ? [{ title: "Why it matters", paragraphs: [story.lead.whyItMatters] }]
+        : [];
 
   return (
     <>
-      <CompactHeader active={story.category} />
+      <div className="bone">
+        <SiteHeader active={story.category} />
 
-      <div className="flex flex-wrap gap-14 pb-16 pt-12">
-        <article className="flex min-w-0 max-w-[760px] flex-[999_1_560px] flex-col gap-7">
-          <Kicker story={story} now={now} dot chip={false} />
-          <h1 className="m-0 font-display text-[clamp(38px,6vw,64px)] font-normal leading-[1.02] tracking-[-0.5px] text-balance">
-            {storyTitle(story)}
-          </h1>
-          {summary && <p className="m-0 text-[21px] leading-[1.55] text-dek">{summary}</p>}
-
-          <p className="m-0 flex flex-wrap gap-x-5 gap-y-2 border-y border-line py-3.5 text-sm text-muted">
-            <span>
-              {brief ? "Briefed from " : "Covered by "}
-              <a href="#sources" className="link text-text">
-                {coverage.length} {coverage.length === 1 ? "source" : "sources"}
-              </a>
-            </span>
-            <time dateTime={story.firstSeen}>{fmtDateTime(story.firstSeen)}</time>
-            {brief && <span>{readMinutes(brief)} min read</span>}
-            {brief && <span>Updated {fmtWhen(brief.writtenAt, now)}</span>}
-          </p>
-
-          {brief && (
-            <section
-              aria-labelledby="in-context"
-              className="flex flex-col gap-3.5 rounded-cw-lg border border-line bg-surface p-6"
-            >
-              <h2
-                id="in-context"
-                className="m-0 font-mono text-[12px] font-medium uppercase tracking-[0.1em] text-accent"
-              >
-                In context
-              </h2>
-              <ul className="m-0 flex list-disc flex-col gap-2.5 pl-5 text-[17px] leading-[1.5]">
-                {brief.keyPoints.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
-            </section>
-          )}
-
-          <figure className="m-0 flex flex-col gap-2">
-            <StoryVisual story={story} priority />
-            {story.image && (
-              <figcaption className="text-[13px] text-muted">
-                Image: {sourceName(story.items.find((i) => i.image === story.image) ?? story.lead)}
-              </figcaption>
+        <div className="container-cw flex flex-wrap gap-16 pb-18 pt-16">
+          <article className="flex min-w-0 max-w-[820px] flex-[999_1_560px] flex-col gap-7">
+            <Kicker story={story} now={now} chip={false} />
+            {title.length <= DISPLAY_MAX_CHARS ? (
+              <h1 className="display m-0 text-[clamp(32px,5vw,60px)] leading-[1.06] tracking-[0.005em]">{forDisplay(title)}</h1>
+            ) : (
+              <h1 className="m-0 text-[clamp(30px,4vw,48px)] font-semibold leading-[1.08] tracking-[-0.02em] text-balance">
+                {title}
+              </h1>
             )}
-          </figure>
+            {summary && <p className="m-0 max-w-[62ch] text-[clamp(18px,1.8vw,21px)] leading-[1.5] text-dek">{summary}</p>}
 
-          {brief ? (
-            <>
-              <Section title="Why it matters">{brief.context}</Section>
-              {brief.whatsNext && <Section title="What to watch">{brief.whatsNext}</Section>}
-            </>
-          ) : (
-            story.lead.whyItMatters && <Section title="Why it matters">{story.lead.whyItMatters}</Section>
-          )}
+            <figure className="m-0 mt-2 flex flex-col gap-2">
+              <StoryVisual story={story} ratio="auto" priority />
+              {story.image && (
+                <figcaption className="text-[13px] text-muted">
+                  Image: {sourceName(story.items.find((i) => i.image === story.image) ?? story.lead)}
+                </figcaption>
+              )}
+            </figure>
 
-          <section id="sources" aria-labelledby="sources-title" className="flex scroll-mt-24 flex-col border-t-2 border-text pt-4">
-            <h2 id="sources-title" className="label m-0 mb-2 tracking-[0.12em] text-muted">
-              Sources
-            </h2>
-            <ol className="m-0 list-none p-0">
-              {coverage.map((item, n) => (
-                <li key={item.id}>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="grid grid-cols-[32px_1fr] gap-x-3 gap-y-1 border-b border-line py-3 sm:grid-cols-[32px_1fr_auto]"
-                  >
-                    <span className="font-mono text-accent">{String(n + 1).padStart(2, "0")}</span>
-                    <span>{item.title}</span>
-                    <span className="col-start-2 text-sm text-muted sm:col-start-auto">
-                      {sourceName(item)} · {fmtWhen(item.publishedAt, now)}
-                    </span>
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </section>
-
-          <p className="m-0 text-[13px] italic text-muted">
-            {brief ? "This briefing was" : "These summaries were"} written by Claude from the sources above. Check the
-            original reporting before relying on it.
-          </p>
-        </article>
-
-        <aside aria-label="More" className="flex min-w-0 flex-[1_1_300px] flex-col gap-8">
-          {related.length > 0 && (
-            <div>
-              <h2 className="rail-heading">
-                {relatedIsSection ? `More in ${CATEGORY_LABELS[story.category]}` : "Latest"}
-              </h2>
-              <ul className="m-0 list-none p-0">
-                {related.map((s) => (
-                  <RelatedItem key={s.id} story={s} now={now} />
-                ))}
-              </ul>
+            <div className="flex flex-wrap items-center gap-4">
+              <Byline story={story}>
+                {" · "}
+                {brief ? "briefed from " : "covered by "}
+                <a href="#sources" className="link text-fg">
+                  {coverage.length} {coverage.length === 1 ? "source" : "sources"}
+                </a>
+              </Byline>
+              <div className="ml-auto">
+                <ShareButton title={title} />
+              </div>
             </div>
-          )}
-          <NewsletterBox latestIssue={issues[0] ?? null} />
-        </aside>
+
+            {brief && (
+              <section aria-labelledby="in-context" className="chamfer-md flex flex-col gap-4 bg-black px-8 py-7 text-bone">
+                <h2 id="in-context" className="display m-0 text-[14px] tracking-[0.1em] text-orange">
+                  In context
+                </h2>
+                <ol className="m-0 flex list-none flex-col gap-3 p-0 text-[17px] leading-[1.5]">
+                  {brief.keyPoints.map((point, n) => (
+                    <li key={point} className="grid grid-cols-[32px_1fr] gap-2">
+                      <span className="display pt-1 text-[12px] text-concrete">{String(n + 1).padStart(2, "0")}</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
+            {sections.map((s) => (
+              <Section key={s.title} {...s} />
+            ))}
+
+            <section id="sources" aria-labelledby="sources-title" className="scroll-mt-6 border-t border-fg pt-5">
+              <h2 id="sources-title" className="display m-0 mb-2 text-[14px] tracking-[0.1em]">
+                Sources
+              </h2>
+              <ol className="m-0 list-none p-0">
+                {coverage.map((item, n) => (
+                  <li key={item.id}>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="grid grid-cols-[40px_1fr] items-baseline gap-x-3 gap-y-1 border-b border-rule py-3.5 sm:grid-cols-[40px_1fr_auto]"
+                    >
+                      <span className="display text-[12px] text-signal">{String(n + 1).padStart(2, "0")}</span>
+                      <span className="font-medium">{item.title}</span>
+                      <span className="col-start-2 text-[13px] text-muted sm:col-start-auto">
+                        {sourceName(item)} · {fmtWhen(item.publishedAt, now)}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </section>
+
+            <p className="m-0 text-[13px] text-muted">
+              {brief ? "This briefing was" : "These summaries were"} written by Claude from the sources above. Check the
+              original reporting before relying on it.
+            </p>
+          </article>
+
+          <aside aria-label="More stories" className="min-w-0 flex-[1_1_300px]">
+            {related.length > 0 && (
+              <>
+                <h2 className="display m-0 mb-1 border-b border-fg pb-3 text-[14px] tracking-[0.1em]">
+                  {relatedIsSection ? "More context" : "Latest"}
+                </h2>
+                <ul className="m-0 list-none p-0">
+                  {related.map((s) => (
+                    <RelatedItem key={s.id} story={s} now={now} />
+                  ))}
+                </ul>
+              </>
+            )}
+          </aside>
+        </div>
+
+        <NewsletterBox variant="band" latestIssue={issues[0] ?? null} />
       </div>
+      <Footer newsletterHref="#newsletter" />
     </>
   );
 }

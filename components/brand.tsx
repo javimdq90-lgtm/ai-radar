@@ -1,140 +1,184 @@
 import Link from "next/link";
-import { SearchBox } from "@/components/search-box";
-import { catStyle } from "@/lib/category";
-import { fmtLongDate, fmtTime } from "@/lib/format";
-import { getGeneratedAt } from "@/lib/site-data";
+import type { ReactNode } from "react";
+import { SearchButton } from "@/components/search-box";
 import { CATEGORIES, CATEGORY_LABELS, type Category } from "@/lib/types";
 
 export const SITE_NAME = "Context Window";
-export const TAGLINE = "Everything in AI worth keeping in context.";
+export const TAGLINE = "AI news. A wider context.";
+export const SUBLINE = "Essential stories, deeper analysis and fresh perspectives on an AI-shaped world.";
 
-/**
- * Five tokens in a row with a window around the third and fourth. `fill` colours the two
- * tokens in the window: the accent for the logo, a category colour in story art.
- */
-export function Mark({ width = 64, fill = "var(--cw-accent)", className }: { width?: number; fill?: string; className?: string }) {
+/** The window: open chamfer top-left, chamfered bottom-right. */
+export function Symbol({ size = 40, className = "" }: { size?: number; className?: string }) {
   return (
-    <svg width={width} height={(width * 52) / 64} viewBox="0 0 64 52" fill="none" aria-hidden className={className}>
-      <rect x="2" y="21" width="8" height="10" rx="2" fill="var(--cw-border-strong)" />
-      <rect x="14" y="21" width="8" height="10" rx="2" fill="var(--cw-border-strong)" />
-      <rect x="28" y="21" width="8" height="10" rx="2" fill={fill} />
-      <rect x="40" y="21" width="8" height="10" rx="2" fill={fill} />
-      <rect x="54" y="21" width="8" height="10" rx="2" fill="var(--cw-border-strong)" />
-      <rect x="25" y="12" width="26" height="28" rx="4" stroke="var(--cw-text)" strokeWidth="2" />
+    <svg width={size} height={size} viewBox="0 0 100 100" fill="none" aria-hidden className={`shrink-0 ${className}`}>
+      <path d="M32 12 H88 V68 L68 88 H12 V36" stroke="var(--cw-orange)" strokeWidth="13" />
+      <path d="M26 12 L12 26" stroke="var(--cw-orange)" strokeWidth="5" />
     </svg>
   );
 }
 
-export async function TopBar() {
-  const now = await getGeneratedAt();
+/** Stacked CONTEXT / WINDOW in the display face. */
+export function Wordmark({ className = "" }: { className?: string }) {
   return (
-    <div className="flex flex-wrap justify-between gap-2 border-b border-line py-3.5 text-[13px] text-muted">
-      <span>{fmtLongDate(now)}</span>
-      <span className="flex items-center gap-2">
-        <span className="dot !h-2 !w-2" style={catStyle("products")} aria-hidden />
-        Updated {fmtTime(now)} · refreshed twice a day
-      </span>
-    </div>
+    <span className={`display leading-[1.05] tracking-[0.05em] ${className}`}>
+      Context
+      <br />
+      Window
+    </span>
   );
 }
 
-/** Front-page masthead: the 76px wordmark with the tagline under it, and the email button. */
-export function Masthead() {
+export type NavKey = Category | "briefings";
+
+const NAV: { key: NavKey; label: string; href: string }[] = [
+  { key: "briefings", label: "Briefings", href: "/briefings" },
+  ...CATEGORIES.map((c) => ({ key: c, label: CATEGORY_LABELS[c], href: `/topic/${c}` })),
+];
+
+/** The header shows five sections so it stays uncluttered; the footer lists them all. */
+const HEADER_NAV: NavKey[] = ["briefings", "models", "research", "products", "policy"];
+
+/**
+ * Logo left, five caps sections (active in orange) and a bare search icon. From lg the sections
+ * sit centred on one row; below that they wrap onto their own row under the logo. `overlay`
+ * makes the header transparent so it can sit on the front-page hero image. Inside a `.bone`
+ * page the same markup turns light.
+ */
+export function SiteHeader({ active, overlay = false }: { active?: NavKey; overlay?: boolean }) {
   return (
-    <header className="flex flex-wrap items-end justify-between gap-x-6 gap-y-5 pb-7 pt-10">
-      <div className="flex flex-col gap-3">
-        <h1 className="m-0 font-display text-[clamp(34px,9vw,76px)] font-normal leading-[0.9] tracking-[-1px]">
-          <Link href="/" className="flex items-center gap-3 hover:text-text sm:gap-4">
-            <Mark className="h-auto w-10 shrink-0 sm:w-16" />
-            {SITE_NAME}
-          </Link>
-        </h1>
-        <p className="m-0 font-display text-[clamp(18px,2.5vw,22px)] italic text-muted">{TAGLINE}</p>
+    <header className={overlay ? "relative z-20" : "border-b border-rule"}>
+      <div className="container-cw flex min-h-[72px] flex-wrap items-center gap-x-6 py-2 lg:flex-nowrap">
+        <Link href="/" aria-label={`${SITE_NAME}, front page`} className="flex items-center gap-3 hover:text-fg">
+          <Symbol size={36} className="max-sm:h-[30px] max-sm:w-[30px]" />
+          <Wordmark className="text-[13px]" />
+        </Link>
+        <nav
+          aria-label="Main sections"
+          className="order-last flex w-full flex-wrap gap-x-5 lg:order-none lg:w-auto lg:flex-1 lg:justify-center lg:gap-x-7"
+        >
+          {NAV.filter((item) => HEADER_NAV.includes(item.key)).map((item) => (
+            <Link
+              key={item.key}
+              href={item.href}
+              aria-current={active === item.key ? "page" : undefined}
+              className={`caps inline-flex min-h-11 items-center text-[11px] font-semibold ${active === item.key ? "text-signal" : ""}`}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+        <div className="ml-auto lg:ml-0">
+          <SearchButton bare onImage={overlay} />
+        </div>
       </div>
-      <div className="mb-1">{CTA}</div>
     </header>
   );
 }
 
-const CTA = (
-  <Link href="#newsletter" className="btn-accent rounded-full text-sm">
-    Get the email
-  </Link>
-);
-
-/**
- * The section bar on every page: one chip per category and the search box.
- * Every chip always shows: they wrap rather than scroll. Between md and xl the search box is an
- * icon, so the chips keep the room. Sticky from md up; on phones the wrapped chips would take
- * too much of the screen, so it scrolls away.
- */
-export function SectionNav({ active }: { active?: Category }) {
+/** Section title in the display face. */
+export function SectionTitle({ id, children }: { id?: string; children: ReactNode }) {
   return (
-    <div className="relative z-30 border-y border-line before:absolute before:inset-y-0 before:left-1/2 before:-z-10 before:w-screen before:-translate-x-1/2 before:bg-bg/90 before:backdrop-blur-md md:sticky md:top-0">
-      <nav aria-label="Sections" className="relative flex flex-wrap items-center gap-x-3 gap-y-3 py-3 md:flex-nowrap xl:gap-x-4">
-        <ul className="m-0 flex min-w-0 flex-1 list-none flex-wrap gap-1.5 p-0">
-          {CATEGORIES.map((c) => {
-            const current = active === c;
-            return (
-              <li key={c} className="shrink-0">
-                <Link
-                  href={`/topic/${c}`}
-                  style={catStyle(c)}
-                  aria-current={current ? "page" : undefined}
-                  className={`flex min-h-10 items-center gap-2 whitespace-nowrap rounded-full border px-2.5 text-[13px] font-medium lg:px-3 xl:px-3.5 hover:border-tint-line hover:bg-tint hover:text-cat ${
-                    current ? "border-tint-line bg-tint text-cat" : "border-line text-body"
-                  }`}
-                >
-                  <span className="dot" aria-hidden />
-                  {CATEGORY_LABELS[c]}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-        <div className="w-full md:w-auto md:shrink-0">
-          <SearchBox />
-        </div>
-      </nav>
+    <h2 id={id} className="display m-0 text-[18px] tracking-[0.08em]">
+      {children}
+    </h2>
+  );
+}
+
+function FooterColumn({ title, children }: { title: string; children: ReactNode }) {
+  return (
+    <div className="flex flex-col gap-4">
+      <h2 className="display m-0 text-[12px] tracking-[0.12em] text-orange">{title}</h2>
+      <ul className="m-0 flex list-none flex-col gap-2.5 p-0 text-[15px]">{children}</ul>
     </div>
   );
 }
 
-/** Article and archive pages: 34px wordmark linking home and the email button, then the section bar. */
-export function CompactHeader({ active }: { active?: Category }) {
-  return (
-    <>
-      <header className="flex flex-wrap items-center justify-between gap-4 py-[18px]">
-        <Link href="/" className="flex items-center gap-3">
-          <Mark width={40} />
-          <span className="font-display text-[clamp(26px,7vw,34px)] leading-none">{SITE_NAME}</span>
-        </Link>
-        {/* Phones skip it here: these pages have the sign-up box further down. */}
-        <span className="hidden sm:block">{CTA}</span>
-      </header>
-      <SectionNav active={active} />
-    </>
-  );
-}
+const footerLink = "text-dek hover:text-orange";
 
-export function Footer() {
+/**
+ * Orange sign-up band; the brand and three columns of links on a hairline grid; an oversized
+ * one-line wordmark; a small bottom bar. Always dark, even under bone pages. `newsletterHref`
+ * points at the page's own sign-up box where it has one.
+ */
+export function Footer({ newsletterHref = "/#newsletter" }: { newsletterHref?: string }) {
+  const sections = NAV.slice(0, 4);
+  const topics = NAV.slice(4);
   return (
-    <footer className="flex flex-wrap items-center justify-between gap-4 border-t border-line py-8 text-[13px] text-muted">
-      <span className="flex items-center gap-2.5">
-        <Mark width={28} />
-        <span className="max-w-[60ch]">
-          {SITE_NAME} collects AI news twice a day. Summaries and briefings are written by Claude from the original
-          reporting, which every story links to.
-        </span>
-      </span>
-      <span className="flex gap-4">
-        <Link href="/issues" className="link">
-          Newsletter archive
-        </Link>
-        <Link href="/privacy" className="link">
-          Privacy
-        </Link>
-      </span>
+    <footer className="bg-black text-bone [--dek:#c8cace] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--rule-strong:#2a2d33] [--rule:#1e2026] [--signal:var(--cw-orange)]">
+      <div className="bg-orange text-black">
+        <div className="container-cw flex flex-wrap items-center justify-between gap-x-8 gap-y-4 py-7">
+          <p className="display m-0 text-[clamp(18px,2.2vw,26px)] leading-[1.15]">
+            The Context Briefing. <span className="text-black/60">Three times a week.</span>
+          </p>
+          <Link
+            href={newsletterHref}
+            className="caps inline-flex min-h-12 items-center gap-3 bg-black px-6 text-bone [clip-path:var(--cw-chamfer-sm)] hover:text-orange"
+          >
+            Get the briefing →
+          </Link>
+        </div>
+      </div>
+
+      <div className="container-cw grid gap-x-10 gap-y-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr]">
+        <div className="flex max-w-[34ch] flex-col gap-5">
+          <Link href="/" aria-label={`${SITE_NAME}, front page`} className="flex items-center gap-3 hover:text-bone">
+            <Symbol size={44} />
+            <Wordmark className="text-[15px]" />
+          </Link>
+          <p className="m-0 text-[22px] font-medium leading-[1.2] tracking-[-0.01em]">{TAGLINE}</p>
+          <p className="m-0 text-[14px] leading-[1.6] text-muted">{SUBLINE}</p>
+        </div>
+        <FooterColumn title="Sections">
+          {sections.map((item) => (
+            <li key={item.key}>
+              <Link href={item.href} className={footerLink}>
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </FooterColumn>
+        <FooterColumn title="More topics">
+          {topics.map((item) => (
+            <li key={item.key}>
+              <Link href={item.href} className={footerLink}>
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </FooterColumn>
+        <FooterColumn title="Context Window">
+          <li>
+            <Link href="/issues" className={footerLink}>
+              Newsletter archive
+            </Link>
+          </li>
+          <li>
+            <Link href={newsletterHref} className={footerLink}>
+              Subscribe
+            </Link>
+          </li>
+          <li>
+            <Link href="/privacy" className={footerLink}>
+              Privacy
+            </Link>
+          </li>
+        </FooterColumn>
+      </div>
+
+      {/* Oversized wordmark spanning the content width: the display face sets this line at about
+          11.2× its font size, so the font is the container's width (cqw) divided by a bit more. */}
+      <div className="container-cw overflow-hidden [container-type:inline-size]" aria-hidden>
+        <p className="display m-0 whitespace-nowrap text-[calc(100cqw/11.35)] leading-[0.9] tracking-[0.02em] text-[#24272d]">
+          Context <span className="text-orange/80">Window</span>
+        </p>
+      </div>
+
+      <div className="container-cw mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-rule py-6 text-[12px] text-muted">
+        <span>© Context Window · contextwindow.me</span>
+        <a href="#" className="caps text-[11px] hover:text-orange">
+          Back to top ↑
+        </a>
+      </div>
     </footer>
   );
 }

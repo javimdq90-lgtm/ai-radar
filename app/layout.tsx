@@ -1,19 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Serif_Display, Geist, Geist_Mono } from "next/font/google";
-import { Footer, SITE_NAME, TAGLINE } from "@/components/brand";
+import { Inter, Michroma } from "next/font/google";
+import { SITE_NAME, TAGLINE } from "@/components/brand";
 import { OG_BASE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const serif = DM_Serif_Display({
-  weight: "400",
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  variable: "--font-dm-serif",
-  display: "swap",
-});
-
-const sans = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" });
-const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "swap" });
+/**
+ * Display face: Michroma (OFL). The design's Nebula needs a commercial licence before it can
+ * ship; once bought, add it back with next/font/local as --font-nebula ahead of Michroma in
+ * --font-display (app/globals.css).
+ */
+const michroma = Michroma({ weight: "400", subsets: ["latin"], variable: "--font-michroma", display: "swap" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -24,23 +21,15 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0F1012",
+  themeColor: "#0A0A0A",
   colorScheme: "dark",
 };
 
-/** Each page renders its own header: the full masthead on the front page, the compact one elsewhere. */
+/** Pages compose their own full-width bands (utility bar, header, sections, footer); see components/brand. */
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
-      <body className="min-h-screen antialiased">
-        {/* The sticky nav's background bleeds to the window edges; clip (unlike hidden) keeps sticky working. */}
-        <div className="overflow-x-clip">
-          <div className="container-cw">
-            {children}
-            <Footer />
-          </div>
-        </div>
-      </body>
+    <html lang="en" className={`${michroma.variable} ${inter.variable}`}>
+      <body className="min-h-screen antialiased">{children}</body>
     </html>
   );
 }

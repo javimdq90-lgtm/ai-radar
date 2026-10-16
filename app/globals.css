@@ -1,89 +1,98 @@
 @import "tailwindcss";
 
 /*
- * Context Window design tokens (dark editorial "Signal" direction), from the design handoff's tokens.css.
- * Fonts come from next/font in app/layout.tsx, which sets --font-dm-serif, --font-geist and --font-geist-mono.
+ * Context Window: Neo-Futurist Editorial (design handoff "neo", tokens.css).
+ * Mostly black and bone; orange is a signal (CTAs, kickers, numbers, logo), never a surface
+ * except buttons. Corners are sharp; the 45° chamfer is the only shape accent.
+ * Fonts come from next/font in app/layout.tsx: --font-michroma (display, CAPS ONLY; the design's
+ * Nebula replaces it once licensed) and --font-inter (everything people read).
  */
 :root {
-  color-scheme: dark;
+  --cw-orange: #ff4d00;
+  --cw-orange-deep: #c23a00; /* small orange text on bone */
+  --cw-black: #0a0a0a;
+  --cw-slate: #14161b;
+  --cw-concrete: #a3a6ab;
+  --cw-bone: #f5f5f3;
 
-  /* Surfaces */
-  --cw-bg: #0f1012; /* page */
-  --cw-bg-deep: #08090a; /* email outer */
-  --cw-surface: #17191c; /* cards, callouts, signup box */
-  --cw-border: #26282c; /* hairlines */
-  --cw-border-strong: #3a3d42; /* inputs, chips, inactive logo tokens */
-
-  /* Text */
-  --cw-text: #ece9e2;
-  --cw-text-body: #dad7cf; /* long-form body */
-  --cw-text-dek: #c9c7c0; /* standfirst */
-  --cw-text-muted: #a3a39c; /* meta, labels */
-  --cw-text-faint: #8e8e87; /* timestamps */
-  --cw-text-sep: #5e6067; /* decorative separators only, never text that must be read */
-
-  /* Brand accent (buttons, logo tokens, kicker labels) */
-  --cw-accent: #f2c14e;
-  --cw-on-accent: #121212;
-
-  /* Category colours: dots, kickers, image tints */
-  --cw-cat-models: #7aa7ff;
-  --cw-cat-research: #b49cff;
-  --cw-cat-products: #5fd3b5;
-  --cw-cat-open-source: #9bd86a;
-  --cw-cat-policy: #ff8a6b;
-  --cw-cat-business: #f2c14e;
-  --cw-cat-dev-tools: #6fd0e8;
-
-  /* Category image tints (bg / border). The handoff defines models, policy and products;
-     the other four follow the same recipe. */
-  --cw-tint-models: #16213a;
-  --cw-tint-models-border: #22304d;
-  --cw-tint-research: #211b38;
-  --cw-tint-research-border: #30284f;
-  --cw-tint-products: #12261f;
-  --cw-tint-products-border: #1d3a30;
-  --cw-tint-open-source: #182514;
-  --cw-tint-open-source-border: #26391e;
-  --cw-tint-policy: #2a1a16;
-  --cw-tint-policy-border: #3d2620;
-  --cw-tint-business: #29220f;
-  --cw-tint-business-border: #3d3219;
-  --cw-tint-dev-tools: #11242a;
-  --cw-tint-dev-tools-border: #1b363e;
-
-  /* Layout */
-  --cw-max: 1280px;
+  --cw-max: 1320px;
   --cw-gutter: 24px;
-  --cw-radius: 6px;
-  --cw-radius-lg: 8px;
-  --cw-tap: 44px; /* min touch target */
+  --cw-tap: 44px;
+
+  --cw-chamfer-sm: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  --cw-chamfer-md: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px);
+  --cw-chamfer-lg: polygon(24px 0, 100% 0, 100% calc(100% - 24px), calc(100% - 24px) 100%, 0 100%, 0 24px);
+
+  /* Semantic colours for the dark (default) surface; .bone below swaps them for the light one. */
+  color-scheme: dark;
+  --surface: var(--cw-black);
+  --raised: var(--cw-slate);
+  --fg: var(--cw-bone);
+  --dek: #c8cace;
+  --body: #c8cace;
+  --muted: var(--cw-concrete);
+  --rule: #1e2026;
+  --rule-strong: #2a2d33;
+  --signal: var(--cw-orange); /* orange text: full orange on black */
+  --cta-bg: var(--cw-orange);
+  --cta-fg: var(--cw-black);
+
+  /* Topic colours (the label after BRIEFING / NEWS). Bright on black; darker on bone, below. */
+  --cat-models: #7aa7ff;
+  --cat-research: #b49cff;
+  --cat-products: #5fd3b5;
+  --cat-open-source: #9bd86a;
+  --cat-policy: #ff8a6b;
+  --cat-business: #f2c14e;
+  --cat-dev-tools: #6fd0e8;
+}
+
+/* Bone surface: article pages and the newsletter card. */
+.bone {
+  color-scheme: light;
+  --surface: var(--cw-bone);
+  --raised: #ffffff;
+  --fg: var(--cw-black);
+  --dek: #2c2f34;
+  --body: #1e2026;
+  --muted: #5c5f64;
+  --rule: #d9dadc;
+  --rule-strong: #c9cbce;
+  --signal: var(--cw-orange-deep); /* 4.9:1 on bone; plain orange is only 3:1 */
+  --cta-bg: var(--cw-black);
+  --cta-fg: var(--cw-bone);
+  /* All at least 4.8:1 on bone. */
+  --cat-models: #2f5fcc;
+  --cat-research: #6a4bd1;
+  --cat-products: #127a61;
+  --cat-open-source: #3e7a1f;
+  --cat-policy: #b13f22;
+  --cat-business: #855d00;
+  --cat-dev-tools: #0b6e86;
+  background: var(--surface);
+  color: var(--fg);
 }
 
 @theme inline {
-  --color-bg: var(--cw-bg);
-  --color-surface: var(--cw-surface);
-  --color-line: var(--cw-border);
-  --color-line-strong: var(--cw-border-strong);
-  --color-text: var(--cw-text);
-  --color-body: var(--cw-text-body);
-  --color-dek: var(--cw-text-dek);
-  --color-muted: var(--cw-text-muted);
-  --color-faint: var(--cw-text-faint);
-  --color-sep: var(--cw-text-sep);
-  --color-accent: var(--cw-accent);
-  --color-on-accent: var(--cw-on-accent);
-  /* The current story's category, set per element by catStyle() in lib/category.ts */
-  --color-cat: var(--cat);
-  --color-tint: var(--tint);
-  --color-tint-line: var(--tint-border);
+  --color-orange: var(--cw-orange);
+  --color-orange-deep: var(--cw-orange-deep);
+  --color-black: var(--cw-black);
+  --color-bone: var(--cw-bone);
+  --color-concrete: var(--cw-concrete);
+  --color-surface: var(--surface);
+  --color-raised: var(--raised);
+  --color-fg: var(--fg);
+  --color-dek: var(--dek);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-signal: var(--signal);
+  --color-cta: var(--cta-bg);
+  --color-on-cta: var(--cta-fg);
 
-  --font-display: var(--font-dm-serif), Georgia, serif;
-  --font-sans: var(--font-geist), system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-
-  --radius-cw: var(--cw-radius);
-  --radius-cw-lg: var(--cw-radius-lg);
+  --font-display: var(--font-michroma), sans-serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
 }
 
 html {
@@ -91,21 +100,20 @@ html {
 }
 
 body {
-  background: var(--cw-bg);
-  color: var(--cw-text);
+  background: var(--surface);
+  color: var(--fg);
   font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* In the base layer so colour utilities (text-cat, the accent button) still win on hover. */
 @layer base {
   a:hover {
-    color: #fff;
+    color: var(--signal);
   }
 
   :focus-visible {
-    outline: 2px solid var(--cw-accent);
+    outline: 2px solid var(--cw-orange);
     outline-offset: 2px;
   }
 }
@@ -117,36 +125,37 @@ body {
     padding-inline: var(--cw-gutter);
   }
 
-  /* Serif headline that underlines on hover, like the reference links. */
-  .headline {
+  /* Display face: caps only, as the handoff requires. */
+  .display {
     font-family: var(--font-display);
     font-weight: 400;
-    text-wrap: pretty;
-    text-underline-offset: 0.12em;
-    text-decoration-thickness: 1px;
-  }
-  .headline:hover {
-    text-decoration-line: underline;
-  }
-
-  /* Uppercase label: kickers, rail headings. */
-  .label {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
-  /* "LATEST", "SOURCES": muted label over a 2px rule. */
-  .rail-heading {
-    margin: 0 0 8px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid var(--cw-text);
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.12em;
+  /* Format kicker: BRIEFING, NEWS. */
+  .kicker {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--cw-text-muted);
+  }
+
+  /* Caps UI label: nav, buttons. */
+  .caps {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .chamfer-sm {
+    clip-path: var(--cw-chamfer-sm);
+  }
+  .chamfer-md {
+    clip-path: var(--cw-chamfer-md);
+  }
+  .chamfer-lg {
+    clip-path: var(--cw-chamfer-lg);
   }
 
   .link {
@@ -154,27 +163,40 @@ body {
     text-underline-offset: 3px;
   }
 
-  .dot {
-    display: inline-block;
-    flex-shrink: 0;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--cat, var(--cw-text-muted));
-  }
-
-  .btn-accent {
+  /* Primary button: chamfered orange on black, black on bone. */
+  .btn-cta {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     min-height: var(--cw-tap);
-    padding: 10px 16px;
-    background: var(--cw-accent);
-    color: var(--cw-on-accent);
-    font-weight: 600;
+    padding: 0 20px;
+    background: var(--cta-bg);
+    color: var(--cta-fg);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    clip-path: var(--cw-chamfer-sm);
   }
-  .btn-accent:hover {
-    color: var(--cw-on-accent);
-    filter: brightness(1.08);
+  .btn-cta:hover {
+    color: var(--cta-fg);
+    filter: brightness(1.1);
+  }
+
+  /* Square outlined icon button. */
+  .btn-icon {
+    display: grid;
+    place-items: center;
+    width: var(--cw-tap);
+    height: var(--cw-tap);
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--fg);
+    cursor: pointer;
+  }
+  .btn-icon:hover {
+    border-color: var(--signal);
+    color: var(--signal);
   }
 }

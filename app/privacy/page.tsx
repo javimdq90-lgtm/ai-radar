@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { CompactHeader } from "@/components/brand";
+import { Footer, SiteHeader } from "@/components/brand";
 
 export const metadata: Metadata = { title: "Privacy", alternates: { canonical: "/privacy" } };
 
@@ -26,12 +26,12 @@ const SECTIONS: { heading: string; body: string[] }[] = [
 export default function PrivacyPage() {
   return (
     <>
-      <CompactHeader />
-      <main className="flex max-w-[720px] flex-col gap-10 pb-24 pt-12">
-        <h1 className="m-0 font-display text-[clamp(38px,6vw,64px)] font-normal leading-[1.02]">Privacy</h1>
+      <SiteHeader />
+      <main className="container-cw flex flex-col gap-10 pb-24 pt-14">
+        <h1 className="display m-0 text-[clamp(28px,4vw,42px)] leading-[1.16]">Privacy</h1>
         {SECTIONS.map((section) => (
-          <section key={section.heading} className="flex flex-col gap-4">
-            <h2 className="m-0 font-display text-[30px] font-normal leading-[1.1]">{section.heading}</h2>
+          <section key={section.heading} className="flex max-w-[720px] flex-col gap-4">
+            <h2 className="display m-0 text-[18px] tracking-[0.08em]">{section.heading}</h2>
             {section.body.map((p) => (
               <p key={p} className="m-0 text-[18px] leading-[1.7] text-body">
                 {p}
@@ -40,6 +40,7 @@ export default function PrivacyPage() {
           </section>
         ))}
       </main>
+      <Footer />
     </>
   );
 }

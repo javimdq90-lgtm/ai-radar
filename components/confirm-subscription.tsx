@@ -18,12 +18,12 @@ export function ConfirmSubscription() {
   if (state.status === "done") {
     return (
       <>
-        <h1 className="m-0 font-display text-[clamp(38px,6vw,56px)] font-normal leading-[1.05]">You&rsquo;re in.</h1>
+        <h1 className="m-0 text-[clamp(30px,4vw,46px)] font-semibold leading-[1.1] tracking-[-0.02em]">You&rsquo;re in.</h1>
         <p className="m-0 text-[19px] leading-[1.6] text-dek">
           {state.email} will get the next issue of Context Window: three emails a week, every one with an unsubscribe
           link.
         </p>
-        <Link href="/" className="btn-accent w-fit rounded-full">
+        <Link href="/" className="btn-cta w-fit">
           Back to the front page
         </Link>
       </>
@@ -33,14 +33,14 @@ export function ConfirmSubscription() {
   if (!token || state.status === "invalid") {
     return (
       <>
-        <h1 className="m-0 font-display text-[clamp(38px,6vw,56px)] font-normal leading-[1.05]">
+        <h1 className="m-0 text-[clamp(30px,4vw,46px)] font-semibold leading-[1.1] tracking-[-0.02em]">
           This link doesn&rsquo;t work
         </h1>
         <p className="m-0 text-[19px] leading-[1.6] text-dek">
           It may have expired (links last a week) or been cut short by your email app. Sign up again and we&rsquo;ll
           send a fresh one.
         </p>
-        <Link href="/#newsletter" className="btn-accent w-fit rounded-full">
+        <Link href="/#newsletter" className="btn-cta w-fit">
           Sign up again
         </Link>
       </>
@@ -49,7 +49,7 @@ export function ConfirmSubscription() {
 
   return (
     <>
-      <h1 className="m-0 font-display text-[clamp(38px,6vw,56px)] font-normal leading-[1.05]">
+      <h1 className="m-0 text-[clamp(30px,4vw,46px)] font-semibold leading-[1.1] tracking-[-0.02em]">
         Confirm your subscription
       </h1>
       <p className="m-0 text-[19px] leading-[1.6] text-dek">
@@ -57,7 +57,7 @@ export function ConfirmSubscription() {
       </p>
       <form action={action}>
         <input type="hidden" name="token" value={token} />
-        <button type="submit" disabled={pending} className="btn-accent cursor-pointer rounded-full border-0 disabled:opacity-70">
+        <button type="submit" disabled={pending} className="btn-cta cursor-pointer border-0 disabled:opacity-70">
           {pending ? "Confirming…" : "Yes, subscribe me"}
         </button>
       </form>
