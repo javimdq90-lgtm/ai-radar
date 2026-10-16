@@ -5,6 +5,7 @@
  *   npm run ingest              fetch + enrich
  *   npm run ingest -- --no-ai   fetch only (items are enriched on the next normal run)
  *   npm run ingest -- --redo    also redo the last few days, after changing a prompt
+ *   npm run ingest -- --rebrief rewrite the current briefings, after changing the briefing prompt
  */
 import { appendFile } from "node:fs/promises";
 import { fetchArticle, mapLimit } from "@/lib/article";
@@ -36,7 +37,26 @@ const ENRICHMENT_FIELDS = [
 
 const noAi = process.argv.includes("--no-ai");
 const redo = process.argv.includes("--redo");
+const rebrief = process.argv.includes("--rebrief");
 const hoursAgo = (h: number) => new Date(Date.now() - h * 3_600_000).toISOString();
+
+/** Quotes are compared ignoring case, spacing and the style of quote marks and dashes. */
+const normalise = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/[‘’`´]/g, "'")
+    .replace(/[“”«»]/g, '"')
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim();
+
+/** A pull quote is kept only if it appears word for word in the material it was written from. */
+function verifiedQuote(quote: { text: string; by: string }, material: BriefMaterial[]) {
+  const text = normalise(quote.text.replace(/^["“'‘]|["”'’]$/g, ""));
+  if (!text || !quote.by.trim()) return undefined;
+  const found = material.some((m) => normalise(`${m.text ?? ""} ${m.summary ?? ""}`).includes(text));
+  return found ? quote : undefined;
+}
 
 async function main() {
   const [items, briefs] = await Promise.all([loadItems(), loadBriefs()]);
@@ -177,7 +197,7 @@ async function main() {
       // Judged by the newest coverage, so a story that's still developing qualifies.
       .filter((s) => s.items.at(-1)!.publishedAt >= hoursAgo(BRIEF_WINDOW_HOURS) && (s.importance >= 4 || s.sourceCount >= 3))
       .filter((s) => {
-        if (!s.brief) return true;
+        if (!s.brief || rebrief) return true;
         const hasNew = s.items.some((i) => !s.brief!.itemIds.includes(i.id));
         return hasNew && s.brief.writtenAt < hoursAgo(BRIEF_REFRESH_HOURS);
       })
@@ -203,6 +223,12 @@ async function main() {
           keyPoints: draft.keyPoints.slice(0, 5),
           context: draft.context,
           whatsNext: draft.whatsNext || undefined,
+          article: {
+            whatHappened: draft.article.whatHappened.filter(Boolean),
+            whyItMatters: draft.article.whyItMatters.filter(Boolean),
+            whatToWatch: draft.article.whatToWatch.filter(Boolean),
+            pullQuote: verifiedQuote(draft.article.pullQuote, material),
+          },
         };
         briefed++;
       } catch (err) {

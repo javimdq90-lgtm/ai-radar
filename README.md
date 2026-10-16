@@ -60,6 +60,8 @@ npm run dev
 
 **After changing a prompt** in `lib/claude.ts`, re-run the last four days through it: Actions → *Ingest* → *Run workflow*, tick **redo**. Locally: `npm run ingest -- --redo`.
 
+**After changing only the briefing prompt** (briefings now include a full article: what happened, why it matters, what to watch and a pull quote that is checked to appear word for word in the coverage), rewrite the current briefings without re-triaging: Actions → *Ingest* → *Run workflow*, tick **rebrief**. Locally: `npm run ingest -- --rebrief`.
+
 ## Where things live
 
 | Path | What it is |

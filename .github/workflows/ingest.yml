@@ -9,6 +9,10 @@ on:
         description: Re-enrich the last few days (after changing a prompt)
         type: boolean
         default: false
+      rebrief:
+        description: Rewrite the current briefings (after changing the briefing prompt)
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,7 +33,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run ingest -- ${{ inputs.redo && '--redo' || '' }}
+      - run: npm run ingest -- ${{ inputs.redo && '--redo' || '' }} ${{ inputs.rebrief && '--rebrief' || '' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       # Commit even when enrichment failed, so fetched links aren't lost; they're enriched next run.

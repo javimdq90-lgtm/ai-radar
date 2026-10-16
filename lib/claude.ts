@@ -149,6 +149,12 @@ const BriefSchema = z.object({
   keyPoints: z.array(z.string()),
   context: z.string(),
   whatsNext: z.string(),
+  article: z.object({
+    whatHappened: z.array(z.string()),
+    whyItMatters: z.array(z.string()),
+    whatToWatch: z.array(z.string()),
+    pullQuote: z.object({ text: z.string(), by: z.string() }),
+  }),
 });
 
 export type BriefDraft = z.infer<typeof BriefSchema>;
@@ -161,6 +167,11 @@ Write:
 - keyPoints: 3 to 5 bullet points, each a concrete fact from the coverage (numbers, availability, prices, names, claims and who makes them). Under 30 words each. Most important first.
 - context: 2-3 sentences of background: how this fits what came before (earlier versions, competitors, the dispute so far) and why it matters. You may use well-established background knowledge; don't speculate.
 - whatsNext: one sentence on what to watch for next, only if the coverage points to something concrete (a rollout date, a ruling, a vote). Otherwise an empty string.
+- article: the full piece readers get when they open the briefing, 350-650 words in total, in plain paragraphs (no bullets, no subheadings, no markdown). Write it as a news article in the third person, for a reader who hasn't seen the coverage:
+  - whatHappened: 2-4 paragraphs of 50-110 words. The news first, then the details that matter: who, what, numbers, availability, how it works, and who claims what.
+  - whyItMatters: 1-3 paragraphs. The background and the stakes: how it compares with what came before or with competitors, who it affects and how. Analysis is welcome when it follows from the material; label anything uncertain as such.
+  - whatToWatch: 0-2 paragraphs on concrete next steps the coverage points to (dates, decisions, open questions). An empty array if there are none.
+  - pullQuote: a sentence or phrase under 30 words copied exactly, character for character, from the coverage text, said or written by a named person or organisation; "by" names them ("Sundar Pichai, Google CEO"). Only use quotes that appear inside the <text> or <summary> you were given. If there is none, use empty strings. Never invent, merge or paraphrase a quote.
 
 Rules: use only facts in the material, apart from well-established background in context. Attribute claims ("Google says…"). No hype words, no exclamation marks, no "In a move that…". Plain, specific, a little dry.`;
 

@@ -64,6 +64,16 @@ export type Brief = {
   keyPoints: string[];
   context: string;
   whatsNext?: string;
+  /** The full article shown on the briefing page. Briefings written before it existed lack it. */
+  article?: BriefArticle;
+};
+
+export type BriefArticle = {
+  whatHappened: string[];
+  whyItMatters: string[];
+  whatToWatch: string[];
+  /** Verbatim from the coverage, never paraphrased; absent when the material has no good quote. */
+  pullQuote?: { text: string; by: string };
 };
 
 /** One or more items about the same news, ranked as a unit. */
