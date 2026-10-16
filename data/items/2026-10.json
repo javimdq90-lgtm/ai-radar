@@ -2935,5 +2935,552 @@
   ],
   "imageCheckedAt": "2026-10-15T20:23:45.441Z",
   "storyId": "227d02ee5d04"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+  "title": "ChatGPT can peek at your Chrome tabs now",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T22:43:23.000Z",
+  "snippet": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make ans…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "090e3a2ea566",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "ChatGPT's Chrome extension can now use your open tabs when you tag Chrome in the web or desktop app, bringing computer use to Chrome users; the Atlas browser is gone.",
+  "whyItMatters": "OpenAI is shifting from its own browser to extending the browser people already use.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT",
+   "Chrome",
+   "ChatGPT Atlas"
+  ],
+  "storyId": "090e3a2ea566"
+ },
+ {
+  "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+  "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T22:35:55.000Z",
+  "snippet": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 2011 strategy game, launched on Tuesday, and it bundled the main game and all of its DLC with promised upgrades including \"improved visuals,\" \"1440p and 4K UI scaling,\" and modernized controls. It has an \"Overwhelmingly Negative\" rating on Steam, where it has already been pulled, and posts on Reddit showcase artwork that users believe AI messed up. \"We're awar…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/ca.com_news_thumbnailshogun2complete.png.webp?quality=90&strip=all&crop=0,0,100,100",
+  "id": "12fa98d37cbb",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Sega pulled Total War: Shogun 2 - Complete Edition from sale after a launch rated Overwhelmingly Negative on Steam, with players blaming bugs and apparently AI-botched upscaled artwork.",
+  "whyItMatters": "A visible example of backlash against AI upscaling in shipped products.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Sega",
+   "Total War: Shogun 2"
+  ],
+  "storyId": "12fa98d37cbb"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21656",
+  "title": "Data World: Scaling Data Environments from Scratch",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Data agents use code to process heterogeneous files and derive analytical insights. Scaling their training faces costly environment curation, privacy and intellectual-property restrictions, and difficulty verifying open-ended findings without known generative truth. Our core insight is to specify the world behind the files before generating the files themselves. We introduce Data World, a multi-agent engine that synthesizes environments, tasks, and rubrics from explicit mechanisms. Independent audits check target recoverability from observed files; rubrics support evaluation and RL rewards. H…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21656.png",
+  "id": "16bedc6c582e",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Data World is a multi-agent engine that synthesizes environments, tasks and rubrics for training data agents by specifying the underlying world before generating files, with audits and rubrics usable as RL rewards.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Data World"
+  ],
+  "storyId": "16bedc6c582e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.17665",
+  "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-13T20:00:00.000Z",
+  "snippet": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses successive rotations to recover the target projection within a limited action budget. Our automated pipeline constructs silhouette-preserving 3D objects from 2D icons and uses reversible initializat…",
+  "score": 80,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.17665.png",
+  "id": "1e47cd19a8db",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "RoTA-Bench tests whether vision-language models can recover a target silhouette by choosing successive 3D rotations of an object within a limited action budget, probing 3D spatial reasoning.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "RoTA-Bench"
+  ],
+  "storyId": "1e47cd19a8db"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22282",
+  "title": "Routing Policy Optimization for Online Diffusion Reinforcement Learning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Reinforcement learning can align visual generators with reward signals beyond their pretraining objectives, but existing score-function methods typically introduce stochasticity by perturbing the reverse denoising trajectory, leading to costly rollout-based optimization. We instead ask whether stochastic exploration can be introduced inside the generator while preserving its original sampler. Routing Policy Optimization (RPO) answers this question by turning attention routing into a stochastic exploration action. At a few selected denoising levels, each query block keeps its own block and sam…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22282.png",
+  "id": "20a71e33e1a0",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Routing Policy Optimization introduces exploration for diffusion RL by randomizing attention routing at selected denoising levels, preserving the original sampler instead of perturbing the reverse trajectory.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Routing Policy Optimization"
+  ],
+  "storyId": "20a71e33e1a0"
+ },
+ {
+  "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+  "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-16T04:16:45.000Z",
+  "snippet": "Nick Cammarata out of nowhere with some major claims!",
+  "image": "https://substackcdn.com/image/fetch/$s_!riZI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50483d29-b6d4-485b-b93a-5b6a14e29ce6_2028x1228.png",
+  "id": "483d6307e687",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:49.265Z",
+  "summary": "Nick Cammarata claims that AI agents disprove polysemanticity and substantially improve interpretability and alignment, according to Latent Space's AINews roundup. Details of the evidence are not given in the snippet.",
+  "whyItMatters": "If the claim holds up, it would challenge a core assumption in interpretability research, but it needs independent scrutiny.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Nick Cammarata",
+   "Latent Space"
+  ],
+  "storyId": "483d6307e687"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+  "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T19:57:16.000Z",
+  "snippet": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni Schneider said to think of Attie as \"social vibe coding or vibe coding for your community.\" You can make your own Attie app by typing in a prompt. A simple poll I made about Pokémon Red and Pokémon Blue took a few minutes to generate. If you want to check out something more full-featured, the Attie …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-12.53.19-PM.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "661320cc40ff",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Bluesky's Attie AI tool, launched earlier this year for building custom feeds, now lets users prompt-build small social apps like games, polls and dashboards that can be shared as websites.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Bluesky",
+   "Attie",
+   "Toni Schneider"
+  ],
+  "storyId": "35f04bc99ba5"
+ },
+ {
+  "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+  "title": "Prompt injection in HTTP headers: what 217M web responses show",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T14:36:22.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50104310",
+  "id": "6e2e05e1f4c7",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Signalscorps analyzed 217 million web responses to measure prompt injection attempts placed in HTTP headers.",
+  "whyItMatters": "Gives rare large-scale data on how prevalent header-based prompt injection is for agents that browse the web.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Signalscorps"
+  ],
+  "image": "https://www.signalscorps.com/assets/social/blog-prompt-injection-in-http-headers.png",
+  "imageCheckedAt": "2026-10-16T09:55:49.474Z",
+  "storyId": "6e2e05e1f4c7"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22200",
+  "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. We introduce Open Generalist CUA (OpenGCUA), an ongoing project to develop and open the full stack f…",
+  "score": 44,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22200.png",
+  "id": "7c3a547ab422",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "OpenGCUA is an ongoing project to build a fully open stack for generalist computer-use agents spanning visual and programmatic interfaces, noting that frontier systems like GPT-6 Astra's remain closed.",
+  "whyItMatters": "An open reference stack would let builders study and replicate computer-use agent design.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "OpenGCUA",
+   "GPT-6 Astra"
+  ],
+  "storyId": "7c3a547ab422"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22355",
+  "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-grained components and assigns pointwise scores to provide a continuous and more informative critique signal. Our experiments further demonstrate that these structured and interpretable outputs improv…",
+  "score": 24,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22355.png",
+  "id": "80fbc956943a",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "OmniVerifier-C1 is a generative visual verifier that decomposes complex prompts or rules into components and gives graded pointwise scores instead of binary True/False judgments.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "OmniVerifier-C1"
+  ],
+  "storyId": "80fbc956943a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.20731",
+  "title": "WorldCast: Exploring Intelligent Visual Generation in World State Prediction",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-13T20:00:00.000Z",
+  "snippet": "Humans interpret multimodal observations of the world and forecast how it will evolve. Recent multimodal generative systems have demonstrated similar capabilities: they can integrate multimodal context and synthesize visual outputs that depict changes in the world. To characterize this emerging trajectory, we organize model capabilities into a four-level hierarchy and discover that higher-level tasks remain relatively underexplored despite model progress. To bridge this gap, we explore model performance on multi-step world state prediction, a high-level task that requires models to forecast s…",
+  "score": 28,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20731.png",
+  "id": "901863d4ad00",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "WorldCast proposes a four-level hierarchy of multimodal generative model capabilities and evaluates multi-step world state prediction, a higher-level task it finds underexplored.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "WorldCast"
+  ],
+  "storyId": "901863d4ad00"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.20341",
+  "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-13T20:00:00.000Z",
+  "snippet": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training changes. Our method decouples geometry and attribute prediction with a frozen geometry branch, aligns predicted Gaussians using ground-truth camera poses during training, and adopts large-angle target view…",
+  "score": 88,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20341.png",
+  "id": "9aa0f13df80f",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "InfiniSplat v2 improves feed-forward 3D Gaussian splatting by decoupling geometry and attribute prediction with a frozen geometry branch, aligning Gaussians using ground-truth camera poses in training, and using large-angle target views.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "InfiniSplat v2"
+  ],
+  "storyId": "9aa0f13df80f"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.20939",
+  "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-13T20:00:00.000Z",
+  "snippet": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL training across mobile, computer, and web environments. Through a shared rollout pipeline, MAI-Gym ensures consistent agent behavior across evaluation and training, supports ten established benchmarks, and …",
+  "score": 30,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20939.png",
+  "id": "9ada2e54ecc0",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "MAI-Gym is an open platform unifying GUI agent evaluation, data collection and online RL training across mobile, computer and web environments, supporting ten benchmarks.",
+  "whyItMatters": "An open environment lowers the cost of training and comparing computer-use agents.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "MAI-Gym"
+  ],
+  "storyId": "9ada2e54ecc0"
+ },
+ {
+  "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+  "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-15T20:34:01.000Z",
+  "id": "a01e02239da0",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Granite Switch 4.1 is a release that serves chat, decisions and speech from a single endpoint.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Granite Switch 4.1",
+   "IBM"
+  ],
+  "storyId": "a01e02239da0"
+ },
+ {
+  "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+  "title": "Using AI to reverse engineer hardware",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-15T14:35:15.000Z",
+  "score": 190,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50104299",
+  "id": "a14596d80f77",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "A GNOME blog post describes using AI to reverse engineer hardware.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "GNOME"
+  ],
+  "storyId": "a14596d80f77"
+ },
+ {
+  "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-15T19:00:00.000Z",
+  "snippet": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+  "id": "a72d1e4da6b0",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "OpenAI launched the Rosalind Academic Plan, giving eligible academic labs sponsored access to GPT-Rosalind and tools for life sciences research.",
+  "whyItMatters": "Extends OpenAI's life-sciences model to academic researchers.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "GPT-Rosalind"
+  ],
+  "imageCheckedAt": "2026-10-16T09:55:49.296Z",
+  "storyId": "a72d1e4da6b0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+  "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-15T23:44:56.000Z",
+  "snippet": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_4996.jpeg?resize=1200,900",
+  "id": "aae90d6b2dab",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:49.265Z",
+  "summary": "Calorie-tracking app Cal AI generated over $30 million in revenue in two years, largely through a large network of paid influencers, before MyFitnessPal acquired it in March for an undisclosed sum.",
+  "whyItMatters": "It shows influencer-driven distribution can turn a thin AI app into a fast exit, a playbook for consumer AI builders.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Cal AI",
+   "MyFitnessPal"
+  ],
+  "imageCheckedAt": "2026-10-16T09:55:49.324Z",
+  "storyId": "aae90d6b2dab"
+ },
+ {
+  "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+  "title": "Trump posts AI-edited photo to brag about White House restoration work",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T21:09:33.000Z",
+  "snippet": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has several discrepancies and was flagged by Google's AI detector as \"made or edited with OpenAI.\" As pointed out by users on Reddit, the picture of the \"restored\" column has an uneven number of steps on both sides of the structure. The number of steps also doesn't match up with the ones in the \"before\" photo. Additionally, the before and after photos appear nearl…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/27a4ed6e86bbf2cf-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ac13ec21a7ae",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Trump posted White House renovation photos on Truth Social, one of which Google's AI detector flagged as made or edited with OpenAI, with inconsistent step counts between before and after images.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Donald Trump",
+   "OpenAI",
+   "Google"
+  ],
+  "storyId": "ac13ec21a7ae"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22276",
+  "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar, or a 2D point. In light of this, we introduce MJev-Spatial, a System 1 multimodal decision model that tackles all three types of spatial understanding tasks within a unified classi…",
+  "score": 45,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22276.png",
+  "id": "ad0b6a5550eb",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "MJev-Spatial is a System 1 multimodal model that handles spatial relations, distance and 2D point placement through classification rather than free-form text generation, avoiding autoregressive decoding costs.",
+  "whyItMatters": "Faster spatial answers could suit real-time robotics and agent use.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "MJev-Spatial"
+  ],
+  "storyId": "ad0b6a5550eb"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+  "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-16T01:44:47.000Z",
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/x0aObe_0mduBjWFuKBGoV.png",
+  "id": "ba4e7337aba2",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:49.265Z",
+  "summary": "Hugging Face published a write-up on scaling pretraining for Indic languages to 2.8 trillion tokens, along with an open data generation pipeline. Few further details are available beyond the title.",
+  "whyItMatters": "An open pipeline and large corpus could help builders train or fine-tune models for under-served Indic languages.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "Hugging Face"
+  ],
+  "imageCheckedAt": "2026-10-16T09:55:49.375Z",
+  "storyId": "ba4e7337aba2"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.19849",
+  "title": "DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-13T20:00:00.000Z",
+  "snippet": "We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe, remember, and investigate. Streaming video understanding requires a system to retain evidence before knowing which details future queries will need. Existing approaches often obscure event transitions and omit relevant details when compressing video history, and cannot recover missing visual evidence. DeltaStreamer addresses these limitations by combining change-aware memory with query-driven planning and targeted evidence gathering with replay. Before a query arrives, it cont…",
+  "score": 34,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.19849.png",
+  "id": "be92a268dde4",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "DeltaStreamer is an agentic framework for streaming video understanding that combines change-aware memory with query-driven planning and replay to gather missing visual evidence.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "DeltaStreamer"
+  ],
+  "storyId": "be92a268dde4"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21306",
+  "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce intermediate reasoning or future-state prediction in language, visual, or latent spaces to guide action generation, but do not explicitly supervise the physical state transition itself. …",
+  "score": 27,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21306.png",
+  "id": "c5e7c5125f23",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "VLA-Δ adds explicit supervision of physical state transitions to vision-language-action robot models, aiming to reduce overfitting to observation-action pairs.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "VLA-Δ"
+  ],
+  "storyId": "c5e7c5125f23"
+ },
+ {
+  "url": "https://openai.com/index/sullivan-cromwell",
+  "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-15T00:00:00.000Z",
+  "snippet": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+  "id": "dd00c04c9b95",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Law firm Sullivan & Cromwell worked with OpenAI to build Agreement Analyzer, an AI tool that identifies issues in draft agreements.",
+  "whyItMatters": "Shows large law firms embedding custom OpenAI-based tools into contract review.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Sullivan & Cromwell"
+  ],
+  "storyId": "dd00c04c9b95"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21601",
+  "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can guide selective transfer. We introduce Waypoint-guided On-Policy Distillation (Waypoint-OPD), whic…",
+  "score": 181,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21601.png",
+  "id": "dd5f2cb6ec69",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Waypoint-OPD is a distillation method that transfers RL-induced policy shifts from teacher to student, gating transfer on agreement between early and late teacher policy shifts.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Waypoint-OPD"
+  ],
+  "storyId": "dd5f2cb6ec69"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.20603",
+  "title": "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-13T20:00:00.000Z",
+  "snippet": "We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop Agent (PERL-Agent) distills heterogeneous SKU metadata into concise selling-point text lists through an iterative closed loop of VLM and LLM roles scored by a reference-free rubric. Layout Thinker Optimization (LTO) aligns the rewriter with both caption and rendered-image quality via alternating d…",
+  "score": 20,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.20603.png",
+  "id": "e7bfd9ea3181",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "CommerceGen-Studio is an end-to-end pipeline for generating e-commerce main product images, using VLM/LLM agent loops to extract selling points, rewrite prompts and generate under multiple conditions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CommerceGen-Studio"
+  ],
+  "storyId": "e7bfd9ea3181"
+ },
+ {
+  "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+  "title": "The tech backlash is now in theaters",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-15T21:39:52.000Z",
+  "snippet": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can See Everything paints a damning picture of Theranos founder Elizabeth Holmes as she prepares for her ongoing stint in prison. After years of being widely celebrated as a visionary, you can see how the larger narrative around Elon Musk has …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-5.28.21-PM.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "efa164a3921b",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "2026 films such as Aaron Sorkin's The Social Reckoning and You Can See Everything take a critical view of Silicon Valley figures, reflecting a broader tech backlash.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Mark Zuckerberg",
+   "Elon Musk",
+   "Aaron Sorkin"
+  ],
+  "storyId": "efa164a3921b"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22174",
+  "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we introduce Multi-Session Agentic Reinforcement Learning, a more general setting that supports an arbitrary number of sessions within a trajectory. Under this setting, a widely adopted method is to br…",
+  "score": 44,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22174.png",
+  "id": "f09ee7ca5e3b",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "Mosaic introduces multi-session agentic RL, training on trajectories spanning multiple sessions as produced by context compaction and subagent forking, rather than assuming a single continuous context.",
+  "whyItMatters": "It aligns agent training with how long-running coding agents actually run.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Mosaic"
+  ],
+  "storyId": "f09ee7ca5e3b"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.22344",
+  "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously organize experiments and adapt optimization strategies based on execution feedback. However, feedback …",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22344.png",
+  "id": "fd947e1be9ac",
+  "fetchedAt": "2026-10-16T09:55:18.165Z",
+  "enrichedAt": "2026-10-16T09:55:45.433Z",
+  "summary": "MLExpert is a generalist agentic model for autonomous machine learning engineering, aimed at AI systems that run and adapt their own experiments as a step toward recursive self-improvement.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "MLExpert"
+  ],
+  "storyId": "fd947e1be9ac"
  }
 ]
