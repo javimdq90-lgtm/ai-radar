@@ -104,35 +104,35 @@
    "9d251ac6836a",
    "6d26dc845c51",
    "a4975bebfd36",
-   "d5bac5a69bce"
+   "d5bac5a69bce",
+   "98e6a11f87f3"
   ],
-  "writtenAt": "2026-10-16T14:25:23.103Z",
-  "headline": "Meta releases Muse Spark Open, 816B-parameter open-weight model built to run on Macs",
-  "dek": "Meta says Muse Spark Open is the most capable US open-weight model, with 816 billion parameters and a 1 million token context window, and that it runs on two Apple M5 Ultra Mac Studios.",
+  "writtenAt": "2026-10-16T19:59:40.669Z",
+  "headline": "Meta releases Muse Spark Open, an 816B-parameter open-weight model tuned for Macs",
+  "dek": "Meta calls Muse Spark Open the most capable US open-weight model; it has 816 billion parameters and a 1 million token context window, and Apple says it runs on Mac Studio clusters via MLX.",
   "keyPoints": [
-   "Meta calls Muse Spark Open the \"most capable US open-weight model to date\"; weights are on Hugging Face and available through several API platforms.",
-   "The natively multimodal mixture-of-experts model has 816 billion total parameters and a 1 million token context window, per Meta and TechCrunch.",
-   "Meta says it is the first model in its class to run on a desktop, using two Apple M5 Ultra Mac Studios with the MLX framework.",
-   "Engadget, cited by TechCrunch, reports local use needs at least 1 terabyte of RAM; Meta and Apple developed the MLX support together.",
-   "Meta tested it with Muse Code on coding tasks and with DaVinci Resolve for reviewing and cropping footage."
+   "Meta says Muse Spark Open is the \"most capable US open-weight model to date\"; it is natively multimodal, with 816 billion total parameters and a 1 million token context window.",
+   "Meta says it is the first model in its class to run on a desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.",
+   "Apple says a four-Mac Studio cluster generates over 36 tokens per second; the 4-bit NVFP4 version needs about 493GB of memory, and TechCrunch, citing Engadget, reports at least 1TB of RAM.",
+   "Weights are on Hugging Face and the model is available through several API platforms; Meta paired it with its Muse Code terminal for coding and DaVinci Resolve demos.",
+   "Zuckerberg and Apple CEO John Ternus publicly praised the collaboration, which Axios reports ran for several months."
   ],
-  "context": "Meta has moved between open and closed releases in recent years, and its earlier Llama models were the main US open-weight option. Meta and Apple are usually rivals, so a joint launch is unusual. Meta's separate Muse consumer assistant has drawn privacy criticism since last month's release, which frames how the company's AI products are being received.",
-  "whatsNext": "Watch for independent benchmarks that test Meta's claim of leading US open-weight performance, and for reports of real-world local performance on Mac Studio hardware.",
+  "context": "Meta and Apple are usually rivals, and Meta's most visible AI product is the Muse assistant, which has drawn privacy criticism. Open-weight releases let developers run and modify models themselves, and a high-end desktop route is a pitch for local, private inference against cloud-only frontier models.",
+  "whatsNext": "Watch for independent benchmarks of Meta's performance claims and for how many developers can afford the memory the model needs to run locally.",
   "article": {
    "whatHappened": [
-    "Meta on Thursday released Muse Spark Open, an open-weight multimodal model, with weights published on Hugging Face and access through a number of API platforms. The company describes it as the \"most capable US open-weight model to date\" and says evaluation results it published show it beating other popular open-weight models. Those results come from Meta and have not been independently verified in the coverage.",
-    "The model is a natively multimodal mixture-of-experts system with 816 billion total parameters and a 1 million token context window. Meta says it is built for long-horizon tasks, complex software engineering and multi-step reasoning, and for agentic work.",
-    "Meta also says it is the first model in its class that can run on a desktop, using two Apple M5 Ultra Mac Studios with the latest MLX framework. Apple published a technical post about MLX, Muse Spark Open and two other open models. TechCrunch, citing Engadget, reports that local use requires at least 1 terabyte of RAM.",
-    "Meta says it paired the model with Muse Code, its AI coding terminal, and used it on a Mastodon client for bug fixes, new features and a full build. It also says the model ran DaVinci Resolve, reviewing and cropping video footage."
+    "Meta released Muse Spark Open on Thursday, an open-weight multimodal mixture-of-experts model that it calls the \"most capable US open-weight model to date.\" The weights are on Hugging Face, and Meta says the model is available through a number of API platforms. According to TechCrunch, Meta's evaluation results claim superior performance to other popular open-weight models.",
+    "The model has 816 billion total parameters and a 1 million token context window, and Meta describes it as natively multimodal and suited to long-horizon tasks, software engineering and multi-step reasoning. Meta says it paired the model with Muse Code, its AI coding terminal, and used it on fixes for a Mastodon client and to review and crop footage in DaVinci Resolve.",
+    "Apple worked with Meta on the launch. Meta says Muse Spark Open is the first model in its class that can run on a desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework. Apple published a technical post saying a four-machine cluster generates more than 36 tokens per second, which it notes is faster than average human reading speed."
    ],
    "whyItMatters": [
-    "The launch is notable partly for who is involved. Meta and Apple are typically rivals, but Meta CEO Mark Zuckerberg and new Apple CEO John Ternus publicly backed each other's work on X. Meta chief AI officer Alexandr Wang told Axios the companies had collaborated for several months.",
-    "For developers, open weights allow local deployment, which TechCrunch notes can be more cost-efficient and more transparent and flexible than closed models. The hardware demands temper that: two top-end Mac Studios and a terabyte or more of memory put local use out of reach for most individuals, though it is within range of small teams and well-funded hobbyists.",
-    "The release also lands while Meta's consumer Muse assistant faces criticism from privacy advocates over how much personal data it collects. That concerns the app, not the open-weight model, but it shapes how the Muse brand is received."
+    "The hardware requirements are large. Apple says the model would need more than 1.6TB of RAM in its native BF16 precision, and about 493GB in 4-bit NVFP4 format, which cannot fit on a single 512GB Mac Studio once working memory is added. Apple splits the model across machines using pipeline parallelism over Thunderbolt 5 with an RDMA driver. TechCrunch, citing Engadget, reports a minimum of 1TB of RAM.",
+    "The partnership is unusual. Meta and Apple are typically rivals, but Mark Zuckerberg thanked Apple on X and new Apple CEO John Ternus replied that running a model of this scale \"efficiently, right from your desk\" pushes the boundaries of on-device AI. Apple's post also benchmarks Mistral Medium 3.5 and Qwen 3.8, placing Meta's model among open competitors rather than closed ones.",
+    "The release lands as Meta's Muse assistant faces scrutiny over data collection. That product is separate from this open-weight model, but it shapes how Meta's local-AI and privacy messaging may be received."
    ],
    "whatToWatch": [
-    "Independent evaluations will test whether Muse Spark Open holds up against other open-weight models on coding and agentic tasks, and whether the two-Mac-Studio setup performs as Meta describes outside demos.",
-    "It is also unclear what licence terms govern the weights and how quickly third-party tools and API providers add support. The coverage does not detail either."
+    "Independent testing will show whether Muse Spark Open matches Meta's benchmark claims, and how it performs on the clustered Mac setups Apple describes. Meta's evaluation results have so far been reported only as released by the company.",
+    "Another open question is practical uptake: a setup needing multiple high-memory Mac Studios is within reach of few developers, so API availability may matter more than local use."
    ],
    "pullQuote": {
     "text": "Amazing to run a model of Muse Spark Open’s caliber and scale this efficiently, right from your desk.",
@@ -152,38 +152,39 @@
    "1609f5d4ca73",
    "25432b6b093a",
    "2c1c2c493e6e",
-   "3744c8a0ebde"
+   "3744c8a0ebde",
+   "3d3011b3b2f6"
   ],
-  "writtenAt": "2026-10-16T14:25:51.862Z",
+  "writtenAt": "2026-10-16T19:59:53.609Z",
   "headline": "Google makes Gemini 4 Argon generally available, with paid-tier limits and $2/$10 API pricing",
-  "dek": "Gemini 4 Argon is now available worldwide via API at an introductory $2/$10 per million tokens through November 30, but Gemini app and Antigravity access is limited to paid Pro and Ultra subscribers.",
+  "dek": "Gemini 4 Argon is live in the API, the Gemini app and Antigravity, but mainly for paying users; introductory $2/$10 per million-token pricing doubles after November 30.",
   "keyPoints": [
-   "Argon is available via the API in AI Studio, in Antigravity for AI Ultra only, and in the Gemini app and AI Mode in Search for AI Pro and Ultra subscribers.",
-   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% cheaper. Ars Technica and Latent Space say rates double after November 30.",
-   "Google says Argon ranks #1 on the Vals Index and cut code rollbacks by nearly a third while raising agentic code submissions by more than 35%.",
-   "Artificial Analysis puts Argon level with GPT-6 Astra on its Intelligence Index at $1.99 per task, with a 15% hallucination rate on AA-Omniscience.",
-   "Google is offering 10,000 scientists the top Antigravity usage tier free for six months and is expanding the Fairwind program to hundreds more cyber-defense partners."
+   "Argon is available via API in AI Studio and the Gemini platform, to AI Ultra and Pro subscribers in the Gemini app and AI Mode, and to Ultra subscribers only in Antigravity.",
+   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off; Ars Technica and Latent Space report it doubles after November 30.",
+   "Google says Argon ranks #1 on the Vals Index; Artificial Analysis puts it level with GPT-6 Astra at $1.99 per task, versus $3.26 for Astra.",
+   "Google says Argon raised agentic code submissions by more than 35% and cut rollbacks by nearly a third; Latent Space notes these are internal claims, not controlled measurements.",
+   "Google is offering 10,000 scientists the top Antigravity usage tier free for six months and is expanding the Fairwind cyber-defense program to hundreds more partners."
   ],
-  "context": "Google previewed Argon a few weeks ago and held back wide release, citing the potential for misuse, according to Ars Technica. The general release lands as rivals ship frontier models of their own; Meta's Muse Wonder arrived days earlier and scores 52 to 56 on the Artificial Analysis index, against 58 for Anthropic's Opus 5.5. Pricing and access tiers now matter as much as benchmark rank for developers choosing a model.",
-  "whatsNext": "Developers should watch the November 30 price change, when API rates double to $4 and $20 per million tokens, and whether Google extends Argon to Antigravity users below the Ultra tier.",
+  "context": "Google previewed Argon a few weeks ago and said it needed to move cautiously because of potential misuse. Its general release comes as Meta, with Muse Wonder, joins the frontier-model race with its own coding and agent claims. Price and access tiers now matter as much as benchmark rank, since agentic coding consumes a lot of compute.",
+  "whatsNext": "Watch what happens to Argon's API price after November 30, and whether Google extends Antigravity access beyond Ultra subscribers, which it has declined to clarify.",
   "article": {
    "whatHappened": [
-    "Google has made Gemini 4 Argon generally available, describing it as its latest frontier model for coding, finance, legal, cybersecurity and science work. Developers and enterprises can reach it through the API in AI Studio and the Gemini platform. In the Gemini app and AI Mode in Search, it is limited to Google AI Pro and Ultra subscribers, and in Antigravity to Ultra subscribers only.",
-    "Google lists the API price as $2 per million input tokens and $10 per million output tokens, with cached input tokens 95% cheaper. Ars Technica reports that the price is temporary: after November 30 it rises to $4 and $20. Free Gemini users do not get Argon, and Google has not said when or whether lower-tier subscribers will get it in Antigravity.",
-    "Google says Argon ranks first on the Vals Index, which covers finance, coding, legal and tax work. Internally, it says Argon in Antigravity raised agentic code submissions by more than 35% and cut code rollbacks by nearly a third. Latent Space notes these are deployment claims rather than controlled productivity measurements. Google also says Argon helped Isomorphic Labs shorten document and patent review from weeks to hours.",
-    "Google is offering 10,000 scientists the highest Antigravity usage tier free for six months, onboarded on a rolling basis. It is also expanding the Fairwind Program, aimed at cyber defenders, to hundreds of additional partners. Wiz is using early access for its Scan for Good initiative."
+    "Google made Gemini 4 Argon generally available, releasing it to developers, enterprises, scientists and consumers. It is offered through the API in AI Studio and the Gemini platform, to AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search, and to AI Ultra subscribers only in Google Antigravity.",
+    "Ars Technica reports that free users do not get the model, and that Pro subscribers ($20 a month) cannot use it in Antigravity or AI Studio. Google has declined to say when or whether those tiers will get access, and says it is keeping Gemini 3.1 Pro available for now.",
+    "API pricing is $2 per million input tokens and $10 per million output tokens, with cached input tokens discounted 95%. Ars Technica and Latent Space, citing Artificial Analysis, say this is introductory and rises to $4 and $20 after November 30.",
+    "Google says Argon is strongest at multi-step work in coding, finance, legal, cybersecurity and science, and that it ranks first on the Vals Index. It says teams using Argon in Antigravity increased agentic code submissions by more than 35% and cut code rollbacks by nearly a third."
    ],
    "whyItMatters": [
-    "Independent testing so far largely supports Google's claims. Latent Space reports that Artificial Analysis rates Argon level with GPT-6 Astra on its Intelligence Index at roughly 60% of Astra's cost per task, $1.99, and with the lowest AA-Omniscience hallucination rate, 15%, among models scoring at least 45. Cursor reports 52.8% on CursorBench, on par with Opus 5.5. Arena ranks it fifth on its agent leaderboard, behind Opus 5.5, GPT-6.1 Sol, Fable 5.1 and Astra.",
-    "Those cost figures reflect introductory pricing. Artificial Analysis, as cited by Latent Space, calls the November 30 doubling an important qualification for cost comparisons, and Ars Technica notes developers will need to factor it in before building workflows on the model. At the higher rate, Argon's cost advantage over rivals would narrow, though the coverage does not quantify by how much.",
-    "The access restrictions also show how compute-heavy agentic coding has become. Ars Technica argues that multi-threaded Antigravity workflows are probably too expensive to offer below the Ultra tier, and Google has kept Gemini 3.1 Pro available for the time being."
+    "Independent results broadly support Google's positioning. Latent Space says benchmarks such as CursorBench largely confirm the company's claims, with Cursor reporting 52.8%, on par with Opus 5.5. Artificial Analysis places Argon level with GPT-6 Astra on its Intelligence Index at $1.99 per task, about 60% of Astra's cost, and reports a 15% hallucination rate on AA-Omniscience, the lowest among models scoring at least 45. Latent Space cautions that this metric is not an overall error rate.",
+    "The picture is not uniformly first place. Arena ranks Argon fifth on its agent leaderboard, behind Opus 5.5, GPT-6.1 Sol, Fable 5.1 and GPT-6 Astra. Meta's Muse Wonder Full, released the same week, scores 56 on Artificial Analysis's index against Opus 5.5's 58, but costs more per task, so Google's pitch rests heavily on price.",
+    "The tiering suggests Google is rationing compute for agentic coding. The doubled price after November 30 also means developers face a cost increase if they build workflows now."
    ],
    "whatToWatch": [
-    "The first checkpoint is November 30, when the introductory API rates end. Cognition's 75% Devin discount for Argon runs through October 27, another date developers may use to compare it with alternatives.",
-    "Open questions remain on tier access in Antigravity and on how Argon holds up outside vendor and early-partner evaluations, as Arena and other third-party leaderboards add more results."
+    "The November 30 price change is the clearest date. Developers comparing cost per task against Astra or Muse should use the post-introductory rates, since the current $1.99 figure reflects the discount.",
+    "Google has also not said when lower subscription tiers will reach Argon in Antigravity. Its cyber-defense access through Fairwind and the free scientist program, both application-based, will show how widely the model's most sensitive capabilities spread."
    ],
    "pullQuote": {
-    "text": "Argon excels at deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science.",
+    "text": "Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
     "by": "Google"
    }
   }

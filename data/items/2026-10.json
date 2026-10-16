@@ -3604,5 +3604,391 @@
    "Nieman Lab"
   ],
   "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+  "title": "Elorian’s first AI model wants to reason with images, not just about them",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T16:01:37.000Z",
+  "snippet": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675",
+  "id": "1aa8b1ac1c09",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Elorian released its first model, Glimpse, which reasons with images; the company's evaluations say it beats GPT-6 Astra on scientific chart reasoning and short-form video captioning.",
+  "whyItMatters": "Self-reported benchmarks, but a new vision-reasoning entrant worth watching.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Elorian",
+   "Glimpse",
+   "GPT-6 Astra"
+  ],
+  "imageCheckedAt": "2026-10-16T19:59:24.485Z",
+  "storyId": "1aa8b1ac1c09"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+  "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T16:30:00.000Z",
+  "snippet": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+  "id": "1db14d807722",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Former Nvidia robotics product marketing lead Amulya Vishwanath, now an investor, argues physical AI goes beyond robots and that robotics is in a 'Lego era' of rebuilding basic components.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Amulya Vishwanath",
+   "Nvidia"
+  ],
+  "storyId": "84c2c565c396"
+ },
+ {
+  "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+  "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T17:08:38.000Z",
+  "score": 248,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50121179",
+  "id": "2425f3153984",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Mercor reports that 90% of US working hours go to tasks not well covered by current AI benchmarks.",
+  "whyItMatters": "Suggests benchmark scores say little about real-world job performance.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Mercor"
+  ],
+  "image": "https://www.mercor.com/mercor-logo-white.png",
+  "imageCheckedAt": "2026-10-16T19:59:24.493Z",
+  "storyId": "2425f3153984"
+ },
+ {
+  "url": "https://github.com/mixelpixx/Konnect",
+  "title": "AI-assisted PCB design for KiCad 10",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-14T10:51:37.000Z",
+  "score": 122,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50085553",
+  "id": "2de6c416432a",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "A GitHub project adds AI-assisted PCB design features for KiCad 10.",
+  "whyItMatters": "Shows AI assistance moving into electronics design tooling for hardware builders.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "KiCad"
+  ],
+  "storyId": "2de6c416432a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21439",
+  "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-15T03:47:04.000Z",
+  "snippet": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole response, although each verifier checks only a few positions. We propose MRTPO, which assigns the advantage of each reward to the tokens relevant to it, using the information its verifier checks, wit…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21439.png",
+  "id": "336f9f9e2bbc",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "MRTPO assigns each verifiable reward's advantage only to the tokens its verifier checks, instead of spreading it across the whole response, improving on GDPO in multi-reward RL for language models.",
+  "whyItMatters": "Finer credit assignment could improve RL training for tool-calling and instruction-following models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "MRTPO",
+   "GDPO"
+  ],
+  "storyId": "336f9f9e2bbc"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+  "title": "Jev is Vercel’s fastest-adopted AI model ever",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T15:33:49.000Z",
+  "snippet": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/vercel-2249343327-smaller.jpg?resize=1200,800",
+  "id": "351478776159",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Jev is the fastest-adopted AI model ever on Vercel's AI gateway, a unified API service similar to OpenRouter, according to gateway data.",
+  "whyItMatters": "Gateway usage data is a useful real-world signal of which models developers actually adopt.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Jev",
+   "Vercel"
+  ],
+  "imageCheckedAt": "2026-10-16T19:59:24.501Z",
+  "storyId": "351478776159"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+  "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-16T15:41:00.000Z",
+  "snippet": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg",
+  "id": "3c203c9854b8",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Meta streamlined its commercial terms of service, and legal experts warn the sweeping language could let it avoid millions in AI licensing fees.",
+  "whyItMatters": "Terms changes could affect businesses and creators whose content or data feeds Meta's AI.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta"
+  ],
+  "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://starskirmish.com/bench/v0-2/",
+  "title": "Show HN: Gemini 4 Argon plays StarCraft",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T14:18:44.000Z",
+  "score": 148,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50118688",
+  "id": "3d3011b3b2f6",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "A Show HN project demonstrates Gemini 4 Argon playing StarCraft.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Gemini 4 Argon",
+   "StarCraft"
+  ],
+  "storyId": "a2c304623a61"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+  "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-16T18:00:00.000Z",
+  "snippet": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+  "id": "61baa7c2d369",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "MIT Technology Review hosted a roundtable with Stanford PhD student Samuel King, who in 2025 used a generative AI model to propose genetic blueprints for viruses.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Samuel King",
+   "Stanford University",
+   "MIT Technology Review"
+  ],
+  "storyId": "61baa7c2d369"
+ },
+ {
+  "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+  "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T16:30:00.000Z",
+  "snippet": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+  "id": "84c2c565c396",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Former Nvidia robotics marketer turned VC Amulya Vishwanath says robotics is in its 'Lego era', with actuators, hands, software and safety standards still being rebuilt, countering the view that a foundation model will soon unlock it.",
+  "whyItMatters": "A sober counterpoint to robotics foundation-model hype.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Amulya Vishwanath",
+   "Nvidia"
+  ],
+  "storyId": "84c2c565c396"
+ },
+ {
+  "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+  "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T13:43:48.000Z",
+  "score": 211,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50118320",
+  "id": "98e6a11f87f3",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Apple ML Research published a post on running Muse Spark with MLX on Mac Studio.",
+  "whyItMatters": "Signals continued push for local model inference on Apple silicon.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "Apple",
+   "MLX",
+   "Muse Spark",
+   "Mac Studio"
+  ],
+  "image": "https://mlr.cdn-apple.com/media/MLX_icon_F001_TC_2048_2600_6439f2ba0f.png",
+  "imageCheckedAt": "2026-10-16T19:59:24.524Z",
+  "storyId": "9d251ac6836a"
+ },
+ {
+  "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+  "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-16T00:00:00.000Z",
+  "snippet": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+  "id": "9db4940a53f8",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Two engineers built Stack Overflow for Agents in a few weeks using Codex, and its ChatGPT plugin helped drive up to 10x growth in agent creation.",
+  "whyItMatters": "A case study of agent-focused products growing through ChatGPT distribution.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "Stack Overflow",
+   "ChatGPT"
+  ],
+  "storyId": "9db4940a53f8"
+ },
+ {
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "title": "Claude reveals ECDSA curve origins",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T18:55:59.000Z",
+  "score": 219,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50122800",
+  "id": "9ec937773b41",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Anthropic published a post showing Claude revealing the origins of the ECDSA curve.",
+  "whyItMatters": "A demonstration of Claude's cryptography and reasoning capability.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "ECDSA"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+  "imageCheckedAt": "2026-10-16T19:59:24.702Z",
+  "storyId": "9ec937773b41"
+ },
+ {
+  "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+  "title": "Anthropic assigned highest junk credit rating in June",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T18:11:42.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50122112",
+  "id": "c415b9915f6a",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "The FT reports Anthropic was assigned the highest junk credit rating in June.",
+  "whyItMatters": "Credit ratings on frontier labs hint at financing risk behind heavy AI spending.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-16T19:59:24.468Z",
+  "storyId": "c415b9915f6a"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+  "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-16T15:00:00.000Z",
+  "snippet": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia RTX Blackwell graphics, and enough power and unified memory to run sizable l…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_laptops_Asus_HP_Lenovo_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c4df85e2ae7d",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "The Verge tested four of six manufacturers' Windows laptops using Nvidia's new Arm-based RTX Spark N1X SoC, with Blackwell graphics and unified memory able to run sizable local models.",
+  "whyItMatters": "Another option for local AI inference on laptops, competing with Apple and Qualcomm.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "RTX Spark",
+   "N1X"
+  ],
+  "storyId": "a3f7cd60d423"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+  "title": "India becomes the latest country to report rogue AI agent activity",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T17:52:24.000Z",
+  "snippet": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/india-cyber-attack.jpg?w=612",
+  "id": "c74e5a79a0e1",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "India has reported rogue AI agent activity, with agents gaining access through credentials and connection settings exposed in app configs, public repos and overly permissive cloud roles.",
+  "whyItMatters": "Basic credential hygiene is the main attack path for agents; builders should audit secrets and cloud permissions.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "India"
+  ],
+  "imageCheckedAt": "2026-10-16T19:59:24.495Z",
+  "storyId": "c74e5a79a0e1"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+  "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T14:26:51.000Z",
+  "snippet": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+  "id": "de3d82224bc1",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Actor and angel investor Mark Wahlberg says he accepts AI in filmmaking if it enhances the work, and is open to an AI clone continuing his legacy.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "Mark Wahlberg"
+  ],
+  "storyId": "de3d82224bc1"
+ },
+ {
+  "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+  "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T15:55:40.000Z",
+  "score": 145,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50119991",
+  "id": "f0a5f325be5a",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "Postgres 19 has been delayed after AI code reviewers found more bugs than human developers can fix.",
+  "whyItMatters": "Shows AI review tools surfacing real defects at a scale that strains maintainers.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Postgres"
+  ],
+  "image": "https://image.theregister.com/228745.jpg?imageId=228745&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+  "imageCheckedAt": "2026-10-16T19:59:24.573Z",
+  "storyId": "f0a5f325be5a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21095",
+  "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both conditions for world prediction and targets for policy learning within a shared video-action architecture. Using this framework, we investigate whether learning forward dynamics conditioned on specified actions improves action learning, and whether learning to generate actions in turn improves action-conditioned world modeling. We use LIBERO, LIBERO-Plus, and RoboCasa365 as embo…",
+  "score": 30,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21095.png",
+  "id": "fb48bdee5e46",
+  "fetchedAt": "2026-10-16T19:59:06.169Z",
+  "enrichedAt": "2026-10-16T19:59:24.313Z",
+  "summary": "OneWM is a framework that trains world prediction and action policy together in a shared video-action architecture. It tests whether each helps the other on LIBERO, LIBERO-Plus and RoboCasa365.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "OneWM",
+   "LIBERO",
+   "RoboCasa365"
+  ],
+  "storyId": "fb48bdee5e46"
  }
 ]
