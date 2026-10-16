@@ -1,6 +1,6 @@
 # Context Window
 
-*Everything in AI worth keeping in context.* A personal AI news aggregator (the repo is still called ai-radar). Twice a day it collects the latest AI news from labs, papers, Hacker News, the press and a few good writers. Claude summarises, scores and groups it, and a small site shows what matters. On Monday, Wednesday and Friday mornings Claude writes a short newsletter from the top stories and emails it to you.
+*Everything in AI worth keeping in context.* An AI news site and newsletter at [contextwindow.me](https://contextwindow.me) (the repo is still called ai-radar). Twice a day it collects the latest AI news from labs, papers, Hacker News, the press and a few good writers. Claude summarises, scores and groups it, and a small site shows what matters. On Monday, Wednesday and Friday mornings Claude writes a short newsletter from the top stories and emails it to you.
 
 Next.js 16 · React 19 · Tailwind v4 · Claude API · Resend · GitHub Actions. No database: the repo is the database.
 

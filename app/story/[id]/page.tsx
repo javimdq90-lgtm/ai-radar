@@ -4,6 +4,7 @@ import { CompactHeader } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
 import { Kicker, RelatedItem, readMinutes, sourceName, StoryVisual, storySummary, storyTitle } from "@/components/story";
 import { fmtDateTime, fmtWhen } from "@/lib/format";
+import { OG_BASE } from "@/lib/site";
 import { getBriefedStoryIds, getIssues, getStory } from "@/lib/site-data";
 import { CATEGORY_LABELS } from "@/lib/types";
 
@@ -16,7 +17,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps<"/story/[id]">): Promise<Metadata> {
   const data = await getStory((await params).id);
   if (!data) return { title: "Not found" };
-  return { title: storyTitle(data.story), description: storySummary(data.story) };
+  const { story } = data;
+  const title = storyTitle(story);
+  const description = storySummary(story);
+  const path = `/story/${story.id}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    // The share image is the briefing card in ./opengraph-image.
+    openGraph: { ...OG_BASE, type: "article", url: path, title, description, publishedTime: story.firstSeen },
+  };
 }
 
 function Section({ title, children }: { title: string; children: string }) {

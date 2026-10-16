@@ -1,11 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Masthead, SectionNav, TopBar } from "@/components/brand";
 import { FrontTabs } from "@/components/front-tabs";
 import { NewsletterBox } from "@/components/newsletter";
 import { LatestItem, LeadStory, StoryCard, StoryRow, ThumbRow } from "@/components/story";
 import { catStyle } from "@/lib/category";
+import { OG_BASE } from "@/lib/site";
 import { getFrontPage } from "@/lib/site-data";
 import { CATEGORY_LABELS, type Story } from "@/lib/types";
+
+export const metadata: Metadata = { alternates: { canonical: "/" }, openGraph: { ...OG_BASE, type: "website", url: "/" } };
 
 /** Ten stories in falling sizes: a feature beside a stacked pair, a row of three, then thumbnail rows. */
 function TopStories({ stories, now }: { stories: Story[]; now: string }) {

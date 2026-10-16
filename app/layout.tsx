@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Serif_Display, Geist, Geist_Mono } from "next/font/google";
 import { Footer, SITE_NAME, TAGLINE } from "@/components/brand";
+import { OG_BASE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const serif = DM_Serif_Display({
@@ -15,9 +16,11 @@ const sans = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swa
 const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "swap" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
   description: TAGLINE,
-  robots: { index: false, follow: false },
+  openGraph: { ...OG_BASE, type: "website" },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {
