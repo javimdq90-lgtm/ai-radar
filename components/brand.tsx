@@ -127,9 +127,14 @@ export function Footer() {
           reporting, which every story links to.
         </span>
       </span>
-      <Link href="/issues" className="link">
-        Newsletter archive
-      </Link>
+      <span className="flex gap-4">
+        <Link href="/issues" className="link">
+          Newsletter archive
+        </Link>
+        <Link href="/privacy" className="link">
+          Privacy
+        </Link>
+      </span>
     </footer>
   );
 }

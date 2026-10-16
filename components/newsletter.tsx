@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useActionState } from "react";
+import { useActionState, useEffect, useRef } from "react";
 import { subscribe, type SubscribeState } from "@/app/actions";
 
 const initial: SubscribeState = { message: "" };
@@ -15,13 +15,21 @@ type LatestIssue = { number: number; subject: string } | null | undefined;
 export function NewsletterBox({ latestIssue, variant = "box" }: { latestIssue?: LatestIssue; variant?: "box" | "band" }) {
   const [state, action, pending] = useActionState(subscribe, initial);
   const band = variant === "band";
+  // When the form became usable; the server treats near-instant submissions as bots.
+  // React clears form fields after each submission, so this is written back every time `state` changes.
+  const startedAt = useRef<HTMLInputElement>(null);
+  const loadedAt = useRef(0);
+  useEffect(() => {
+    if (!loadedAt.current) loadedAt.current = Date.now();
+    if (startedAt.current) startedAt.current.value = String(loadedAt.current);
+  }, [state]);
 
   const form = state.ok ? (
     <p className="m-0 text-[15px]" role="status">
       {state.message}
     </p>
   ) : (
-    <form action={action} className={`flex flex-col gap-3.5 ${band ? "sm:flex-row sm:flex-wrap sm:items-end" : ""}`}>
+    <form action={action} className={`relative flex flex-col gap-3.5 ${band ? "sm:flex-row sm:flex-wrap sm:items-end" : ""}`}>
       <label htmlFor={`newsletter-email-${variant}`} className={band ? "sr-only" : "text-[13px] text-muted"}>
         Email address
       </label>
@@ -38,6 +46,12 @@ export function NewsletterBox({ latestIssue, variant = "box" }: { latestIssue?: 
             : "min-h-11 rounded-cw border border-line-strong bg-bg px-3.5 text-text placeholder:text-faint"
         }
       />
+      {/* Spam traps: a field people never see, and the time the form loaded. */}
+      <input ref={startedAt} type="hidden" name="t" defaultValue="" />
+      <div aria-hidden className="absolute -left-[9999px] h-px w-px overflow-hidden">
+        <label htmlFor={`newsletter-website-${variant}`}>Leave this empty</label>
+        <input id={`newsletter-website-${variant}`} name="website" type="text" tabIndex={-1} autoComplete="off" />
+      </div>
       <button
         type="submit"
         disabled={pending}
@@ -54,6 +68,12 @@ export function NewsletterBox({ latestIssue, variant = "box" }: { latestIssue?: 
           {state.message}
         </p>
       )}
+      <p className={`m-0 text-[12px] ${band ? "basis-full" : "text-muted"}`}>
+        We&rsquo;ll email you once to confirm. Unsubscribe anytime.{" "}
+        <Link href="/privacy" className={`link ${band ? "hover:text-on-accent" : ""}`}>
+          Privacy
+        </Link>
+      </p>
     </form>
   );
 
