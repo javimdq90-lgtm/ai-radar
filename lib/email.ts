@@ -1,4 +1,4 @@
-import { CATEGORY_HEX } from "./category";
+import { CATEGORY_HEX_ON_BONE } from "./category";
 import { CATEGORY_LABELS, type Category, type Issue, type IssueStory } from "./types";
 
 const esc = (s: string) =>
@@ -14,25 +14,22 @@ const fmtDateline = (iso: string) =>
     .replace(",", "")
     .toUpperCase();
 
-/** Context Window tokens as literal values: mail clients don't support CSS variables. */
+/** Context Window tokens (app/globals.css, bone surface) as literal values: mail clients don't support CSS variables. */
 const C = {
-  deep: "#08090A",
-  bg: "#0F1012",
-  surface: "#17191C",
-  border: "#26282C",
-  borderStrong: "#3A3D42",
-  rowRule: "#1E2023",
-  text: "#ECE9E2",
-  body: "#DAD7CF",
-  dek: "#C9C7C0",
-  muted: "#A3A39C",
-  faint: "#8E8E87",
-  accent: "#F2C14E",
-  onAccent: "#121212",
+  orange: "#FF4D00",
+  orangeDeep: "#C23A00", // small orange text on bone and white; plain orange is only 3:1
+  black: "#0A0A0A",
+  bone: "#F5F5F3",
+  card: "#FFFFFF",
+  rule: "#D9DADC",
+  text: "#0A0A0A",
+  dek: "#2C2F34",
+  muted: "#5C5F64",
+  concrete: "#A3A6AB",
 };
-const SERIF = "'DM Serif Display',Georgia,'Times New Roman',serif";
-const SANS = "Geist,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
-const MONO = "'Geist Mono',Menlo,Consolas,monospace";
+/** Michroma is the display face, caps only; wide sans fallbacks where web fonts don't load. */
+const DISPLAY = "Michroma,'Arial Black','Helvetica Neue',Arial,sans-serif";
+const SANS = "Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
 
 export type EmailStoryInfo = { category: Category; briefed: boolean };
 export type EmailOptions = {
@@ -54,27 +51,23 @@ const siteHost = (siteUrl?: string) => {
   }
 };
 
-const row = (content: string, style = "") => `<tr><td style="padding:28px 32px;border-bottom:1px solid ${C.border};${style}">${content}</td></tr>`;
+const row = (content: string, style = "") =>
+  `<tr><td style="padding:32px 36px;border-bottom:1px solid ${C.rule};${style}">${content}</td></tr>`;
 
-/** "01 · TOP STORY" */
+/** Caps section kicker in the display face under a short orange rule: "01 / TOP STORY". */
 const label = (n: number, text: string) =>
-  `<div style="font:500 12px/1.4 ${MONO};letter-spacing:.1em;text-transform:uppercase;color:${C.accent};margin:0 0 14px">${String(n).padStart(2, "0")} · ${esc(text)}</div>`;
+  `<table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 22px"><tr><td style="border-top:3px solid ${C.orange};padding:12px 0 0;font:400 12px/1.4 ${DISPLAY};letter-spacing:.14em;text-transform:uppercase;color:${C.text}"><span style="color:${C.orangeDeep}">${String(n).padStart(2, "0")}</span>&nbsp;&nbsp;/&nbsp;&nbsp;${esc(text)}</td></tr></table>`;
 
-const dot = (color: string) => `<span style="color:${color};font-size:10px;line-height:1">&#9679;</span>`;
+/** A small square in the topic colour, as on the site's kickers. */
+const square = (color: string) => `<span style="color:${color};font-size:9px;line-height:1">&#9632;</span>`;
 
+/** "BRIEFING  ■ MODELS", or just the topic for plain news, as on the site. */
 function kicker(info?: EmailStoryInfo) {
   if (!info) return "";
-  const color = CATEGORY_HEX[info.category];
-  return `<div style="font:600 12px/1.4 ${SANS};letter-spacing:.08em;text-transform:uppercase;color:${color};margin:0 0 10px">${dot(color)}&nbsp;&nbsp;${esc(CATEGORY_LABELS[info.category])}</div>`;
+  const color = CATEGORY_HEX_ON_BONE[info.category];
+  const briefing = info.briefed ? `<span style="color:${C.orangeDeep}">Briefing</span>&nbsp;&nbsp;&nbsp;` : "";
+  return `<div style="font:700 11px/1.4 ${SANS};letter-spacing:.16em;text-transform:uppercase;color:${color};margin:0 0 12px">${briefing}${square(color)}&nbsp;${esc(CATEGORY_LABELS[info.category])}</div>`;
 }
-
-/** The logo mark as nested tables, since SVG doesn't render in Gmail or Outlook. */
-const MARK = (() => {
-  const token = (fill: string) =>
-    `<td style="padding:0 2px"><div style="width:8px;height:10px;border-radius:2px;background:${fill};font-size:0;line-height:0">&nbsp;</div></td>`;
-  const windowed = `<td style="padding:0 2px"><table role="presentation" cellpadding="0" cellspacing="0" style="border:2px solid ${C.text};border-radius:4px"><tr><td style="padding:7px 1px"><table role="presentation" cellpadding="0" cellspacing="0"><tr>${token(C.accent)}${token(C.accent)}</tr></table></td></tr></table></td>`;
-  return `<table role="presentation" cellpadding="0" cellspacing="0"><tr>${token(C.borderStrong)}${token(C.borderStrong)}${windowed}${token(C.borderStrong)}</tr></table>`;
-})();
 
 function sources(issue: Issue, storyId: string) {
   const links = (issue.links[storyId] ?? []).slice(0, 3);
@@ -84,31 +77,32 @@ function sources(issue: Issue, storyId: string) {
     .join(" · ")}</div>`;
 }
 
+/** Sharp-cornered black caps button: the site's primary button on bone. */
+const button = (href: string, text: string) =>
+  `<table role="presentation" cellpadding="0" cellspacing="0" style="margin:20px 0 0"><tr><td style="background:${C.black}"><a href="${esc(href)}" style="display:inline-block;padding:15px 22px;font:700 12px/1 ${SANS};letter-spacing:.12em;text-transform:uppercase;color:${C.bone};text-decoration:none">${text}</a></td></tr></table>`;
+
 function story(issue: Issue, s: IssueStory, opts: EmailOptions, top: boolean) {
   const info = opts.stories?.[s.storyId];
   const site = opts.siteUrl?.replace(/\/$/, "");
-  const button =
-    top && info?.briefed && site
-      ? `<table role="presentation" cellpadding="0" cellspacing="0" style="margin:18px 0 0"><tr><td style="border-radius:999px;background:${C.accent}"><a href="${esc(`${site}/story/${s.storyId}`)}" style="display:inline-block;padding:12px 18px;font:600 15px/1 ${SANS};color:${C.onAccent};text-decoration:none">Read the briefing &rarr;</a></td></tr></table>`
-      : "";
-  return `<div style="margin:0 0 22px">
+  const cta = top && info?.briefed && site ? button(`${site}/story/${s.storyId}`, "Read the briefing &rarr;") : "";
+  return `<div style="margin:0 0 26px">
     ${kicker(info)}
-    <div style="font:400 ${top ? 36 : 28}px/1.1 ${SERIF};color:${C.text};margin:0 0 10px">${esc(s.headline)}</div>
-    <div style="font:${top ? 16 : 15}px/1.6 ${SANS};color:${C.dek}">${esc(s.body)}</div>
+    <div style="font:600 ${top ? 32 : 24}px/1.12 ${SANS};letter-spacing:-.02em;color:${C.text};margin:0 0 10px">${esc(s.headline)}</div>
+    <div style="font:${top ? 17 : 16}px/1.6 ${SANS};color:${C.dek}">${esc(s.body)}</div>
     ${sources(issue, s.storyId)}
-    ${button}
+    ${cta}
   </div>`;
 }
 
 function footer(opts: EmailOptions, webUrl: string) {
-  const link = (href: string, text: string) => `<a href="${esc(href)}" style="color:${C.faint}">${text}</a>`;
+  const link = (href: string, text: string) => `<a href="${esc(href)}" style="color:${C.muted};text-decoration:underline">${text}</a>`;
   const lines = ["Written by Claude from the stories Context Window collected."];
   const sub = opts.subscribers;
   if (sub) {
     const host = siteHost(opts.siteUrl);
     lines.push(`You’re getting this because you subscribed${host ? ` at ${esc(host)}` : ""}.`);
     // The unsubscribe placeholder must stay unescaped so Resend can replace it.
-    const unsubscribe = `<a href="${sub.unsubscribeUrl}" style="color:${C.faint}">Unsubscribe</a>`;
+    const unsubscribe = `<a href="${sub.unsubscribeUrl}" style="color:${C.muted};text-decoration:underline">Unsubscribe</a>`;
     lines.push([unsubscribe, webUrl && link(webUrl, "Read on the web")].filter(Boolean).join(" · "));
     lines.push(esc(sub.postalAddress));
   } else if (webUrl) {
@@ -118,8 +112,9 @@ function footer(opts: EmailOptions, webUrl: string) {
 }
 
 /**
- * Table-based HTML with inline styles, the only thing every mail client renders the same.
- * Web fonts load where supported (Apple Mail); elsewhere the stacks fall back to Georgia and Helvetica.
+ * Table-based HTML with inline styles, the only thing every mail client renders the same: an
+ * orange masthead band, the issue on a white card over bone, a black sign-off bar. Web fonts
+ * load where supported (Apple Mail); elsewhere the stacks fall back to Arial and Helvetica.
  */
 export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
   const site = opts.siteUrl?.replace(/\/$/, "");
@@ -131,7 +126,7 @@ export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
       row(
         label(++n, section.heading) +
           section.stories.map((s, j) => story(issue, s, opts, i === 0 && j === 0)).join(""),
-        "padding-bottom:6px",
+        "padding-bottom:8px",
       ),
     )
     .join("");
@@ -143,10 +138,10 @@ export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
       const text = link
         ? `<a href="${esc(link.url)}" style="color:${C.text};text-decoration:none">${esc(q.text)}</a>`
         : esc(q.text);
-      const source = link ? `<div style="font:400 13px/1.5 ${SANS};color:${C.muted};margin-top:2px">${esc(link.source)}</div>` : "";
+      const source = link ? `<div style="font:400 13px/1.5 ${SANS};color:${C.muted};margin-top:3px">${esc(link.source)}</div>` : "";
       return `<tr>
-        <td width="14" valign="top" style="padding:12px 10px 12px 0;border-bottom:1px solid ${C.rowRule}">${dot(info ? CATEGORY_HEX[info.category] : C.muted)}</td>
-        <td style="padding:12px 0;border-bottom:1px solid ${C.rowRule};font:500 16px/1.35 ${SANS};color:${C.text}">${text}${source}</td>
+        <td width="16" valign="top" style="padding:15px 10px 14px 0;border-bottom:1px solid ${C.rule}">${square(info ? CATEGORY_HEX_ON_BONE[info.category] : C.muted)}</td>
+        <td style="padding:13px 0;border-bottom:1px solid ${C.rule};font:500 16px/1.4 ${SANS};color:${C.text}">${text}${source}</td>
       </tr>`;
     })
     .join("");
@@ -155,41 +150,43 @@ export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
     : "";
 
   const forward = webUrl
-    ? `<tr><td align="center" style="padding:28px 32px">
-        <div style="font:400 24px/1.3 ${SERIF};color:${C.text};margin:0 0 14px">Know someone who needs the context?</div>
-        <a href="mailto:?subject=${encodeURIComponent(issue.subject)}&amp;body=${encodeURIComponent(webUrl)}" style="display:inline-block;padding:12px 18px;border:1px solid ${C.borderStrong};border-radius:999px;font:500 15px/1 ${SANS};color:${C.text};text-decoration:none">Forward this issue</a>
+    ? `<tr><td style="padding:32px 36px">
+        <div style="font:600 22px/1.25 ${SANS};letter-spacing:-.01em;color:${C.text};margin:0 0 18px">Know someone who needs the context?</div>
+        <a href="mailto:?subject=${encodeURIComponent(issue.subject)}&amp;body=${encodeURIComponent(webUrl)}" style="display:inline-block;padding:14px 20px;border:1px solid ${C.black};font:700 12px/1 ${SANS};letter-spacing:.12em;text-transform:uppercase;color:${C.text};text-decoration:none">Forward this issue</a>
       </td></tr>`
     : "";
 
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="dark"><meta name="supported-color-schemes" content="dark">
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<meta name="color-scheme" content="light"><meta name="supported-color-schemes" content="light">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Michroma&amp;display=swap" rel="stylesheet">
 <title>${esc(issue.subject)}</title></head>
-<body style="margin:0;padding:0;background:${C.deep}">
+<body style="margin:0;padding:0;background:${C.bone}">
 <span style="display:none;max-height:0;overflow:hidden">${esc(issue.preview)}</span>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${C.deep}"><tr><td align="center" style="padding:20px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${C.bone}"><tr><td align="center" style="padding:20px 12px">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px">
-    <tr><td align="center" style="padding:0 0 12px;font:12px/1.5 ${SANS};color:${C.faint}">${esc(issue.preview)}${webUrl ? ` · <a href="${esc(webUrl)}" style="color:${C.faint}">View in browser</a>` : ""}</td></tr>
-    <tr><td style="background:${C.bg};border:1px solid ${C.border};border-radius:8px">
+    <tr><td align="center" style="padding:0 0 14px;font:12px/1.5 ${SANS};color:${C.muted}">${esc(issue.preview)}${webUrl ? ` · <a href="${esc(webUrl)}" style="color:${C.muted};text-decoration:underline">View in browser</a>` : ""}</td></tr>
+    <tr><td style="background:${C.orange};padding:26px 36px">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+        <td valign="middle" style="font:400 18px/1.15 ${DISPLAY};letter-spacing:.06em;text-transform:uppercase;color:${C.black}">Context<br>Window</td>
+        <td valign="middle" align="right" style="font:400 10px/1.8 ${DISPLAY};letter-spacing:.14em;text-transform:uppercase;color:${C.black}">Issue #${issue.number}<br>${fmtDateline(issue.date)}</td>
+      </tr></table>
+    </td></tr>
+    <tr><td style="background:${C.card};border:1px solid ${C.rule};border-top:0">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-        <tr><td style="padding:28px 32px 22px;border-bottom:1px solid ${C.border}">
-          <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-            <td valign="middle" style="padding-right:12px">${MARK}</td>
-            <td valign="middle" style="font:400 36px/1 ${SERIF};color:${C.text}">Context Window</td>
-          </tr></table>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:14px"><tr>
-            <td style="font:12px/1.4 ${MONO};letter-spacing:.04em;color:${C.muted}">${fmtDateline(issue.date)}</td>
-            <td align="right" style="font:12px/1.4 ${MONO};letter-spacing:.04em;color:${C.muted}">ISSUE #${issue.number}</td>
-          </tr></table>
-        </td></tr>
-        ${row(`<div style="font:400 22px/1.4 ${SERIF};color:${C.body}">${esc(issue.intro)}</div>`)}
+        ${row(`<div style="font:500 20px/1.45 ${SANS};letter-spacing:-.01em;color:${C.text}">${esc(issue.intro)}</div>`)}
         ${sections}
         ${inBrief}
         ${forward}
       </table>
     </td></tr>
-    <tr><td align="center" style="padding:20px 0 0;font:12px/1.7 ${SANS};color:${C.faint}">${footer(opts, webUrl)}</td></tr>
+    <tr><td style="background:${C.black};padding:22px 36px">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+        <td valign="middle" style="font:400 11px/1.2 ${DISPLAY};letter-spacing:.12em;text-transform:uppercase;color:${C.bone}">Context <span style="color:${C.orange}">Window</span></td>
+        <td valign="middle" align="right" style="font:400 10px/1.2 ${DISPLAY};letter-spacing:.12em;text-transform:uppercase;color:${C.concrete}">${esc(siteHost(opts.siteUrl) ?? "contextwindow.me")}</td>
+      </tr></table>
+    </td></tr>
+    <tr><td align="center" style="padding:20px 0 0;font:12px/1.7 ${SANS};color:${C.muted}">${footer(opts, webUrl)}</td></tr>
   </table>
 </td></tr></table>
 </body></html>`;
