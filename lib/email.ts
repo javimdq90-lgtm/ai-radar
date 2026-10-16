@@ -31,7 +31,12 @@ const C = {
 const DISPLAY = "Michroma,'Arial Black','Helvetica Neue',Arial,sans-serif";
 const SANS = "Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
 
-export type EmailStoryInfo = { category: Category; briefed: boolean };
+export type EmailStoryInfo = {
+  category: Category;
+  briefed: boolean;
+  /** Absolute URL of a JPEG, PNG or GIF to show above the story (see emailImageFor). */
+  image?: string;
+};
 export type EmailOptions = {
   siteUrl?: string;
   /** Category and briefing status per storyId, for kickers and "Read the briefing" links. */
@@ -81,11 +86,19 @@ function sources(issue: Issue, storyId: string) {
 const button = (href: string, text: string) =>
   `<table role="presentation" cellpadding="0" cellspacing="0" style="margin:20px 0 0"><tr><td style="background:${C.black}"><a href="${esc(href)}" style="display:inline-block;padding:15px 22px;font:700 12px/1 ${SANS};letter-spacing:.12em;text-transform:uppercase;color:${C.bone};text-decoration:none">${text}</a></td></tr></table>`;
 
+/** Full-width story image, linked to the briefing or the source. Height follows the image's own shape. */
+function picture(src: string, href?: string) {
+  const img = `<img src="${esc(src)}" width="528" alt="" style="display:block;width:100%;max-width:528px;height:auto;border:0;background:${C.bone}">`;
+  return `<div style="margin:0 0 18px">${href ? `<a href="${esc(href)}" style="display:block">${img}</a>` : img}</div>`;
+}
+
 function story(issue: Issue, s: IssueStory, opts: EmailOptions, top: boolean) {
   const info = opts.stories?.[s.storyId];
   const site = opts.siteUrl?.replace(/\/$/, "");
-  const cta = top && info?.briefed && site ? button(`${site}/story/${s.storyId}`, "Read the briefing &rarr;") : "";
-  return `<div style="margin:0 0 26px">
+  const briefing = info?.briefed && site ? `${site}/story/${s.storyId}` : undefined;
+  const cta = top && briefing ? button(briefing, "Read the briefing &rarr;") : "";
+  return `<div style="margin:0 0 30px">
+    ${info?.image ? picture(info.image, briefing ?? issue.links[s.storyId]?.[0]?.url) : ""}
     ${kicker(info)}
     <div style="font:600 ${top ? 32 : 24}px/1.12 ${SANS};letter-spacing:-.02em;color:${C.text};margin:0 0 10px">${esc(s.headline)}</div>
     <div style="font:${top ? 17 : 16}px/1.6 ${SANS};color:${C.dek}">${esc(s.body)}</div>

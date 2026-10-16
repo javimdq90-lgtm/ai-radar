@@ -1,6 +1,7 @@
 import "server-only";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
+import { stableIndex } from "./share-image";
 
 /**
  * Brand photography, picked up from public/brand by file name so adding or swapping an image
@@ -9,7 +10,8 @@ import { join } from "node:path";
  *   hero-mobile.(…)                       front-page hero on phones, portrait (optional)
  *   fallback-<anything>.(…)               visuals for stories without an image of their own
  *   author.(…)                            the byline photo, square
- * Anything missing falls back to the generated SVG scenes. Read once per build.
+ * Anything missing falls back to the generated SVG scenes. Read once per build. Link previews
+ * and the email use JPEG crops of these from public/brand/share (lib/share-image.ts).
  */
 const DIR = join(process.cwd(), "public", "brand");
 const IMAGE = /\.(jpe?g|png|webp|avif)$/i;
@@ -36,7 +38,5 @@ export const BRAND = {
 /** A stable brand image for a story id, or null when there are none. */
 export function fallbackImageFor(id: string): string | null {
   if (!BRAND.fallbacks.length) return null;
-  let h = 0;
-  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) >>> 0;
-  return BRAND.fallbacks[h % BRAND.fallbacks.length];
+  return BRAND.fallbacks[stableIndex(id, BRAND.fallbacks.length)];
 }

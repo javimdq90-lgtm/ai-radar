@@ -9,6 +9,8 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { Resend } from "resend";
 import { writeIssue } from "@/lib/claude";
 import { type EmailOptions, RESEND_UNSUBSCRIBE_URL, renderIssueHtml, renderIssueText } from "@/lib/email";
+import { emailImageFor } from "@/lib/share-image";
+import { SITE_URL } from "@/lib/site";
 import { SOURCE_NAMES } from "@/lib/sources";
 import { loadBriefs, loadIssues, loadItems, saveIssue } from "@/lib/store";
 import { buildStories } from "@/lib/stories";
@@ -119,9 +121,18 @@ async function main() {
     links: Object.fromEntries([...used].map((id) => [id, linksFor(byId.get(id)!.items)])),
   };
 
+  // Section stories get a picture; checked now, since a mail client can't fall back on its own.
+  const imageSite = process.env.SITE_URL || SITE_URL;
+  const images = new Map(
+    await Promise.all(
+      sections.flatMap((sec) => sec.stories).map(async (s) => [s.storyId, await emailImageFor(byId.get(s.storyId)!, imageSite)] as const),
+    ),
+  );
   const emailOptions: EmailOptions = {
     siteUrl: process.env.SITE_URL,
-    stories: Object.fromEntries([...used].map((id) => [id, { category: byId.get(id)!.category, briefed: Boolean(byId.get(id)!.brief) }])),
+    stories: Object.fromEntries(
+      [...used].map((id) => [id, { category: byId.get(id)!.category, briefed: Boolean(byId.get(id)!.brief), image: images.get(id) }]),
+    ),
     subscribers: delivery.mode === "subscribers"
       ? { unsubscribeUrl: RESEND_UNSUBSCRIBE_URL, postalAddress: delivery.postalAddress }
       : undefined,

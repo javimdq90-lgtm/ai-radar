@@ -4,8 +4,9 @@ import { ImageResponse } from "next/og";
 import type { ReactNode } from "react";
 
 /**
- * Link-preview cards (Open Graph and X), drawn with next/og in the neo look: black ground,
- * orange window logo, Michroma for the caps display lines and Inter for the headline.
+ * Link-preview cards (Open Graph and X), drawn with next/og in the neo look: black ground, a
+ * photo faded in from the right, the orange window logo, Michroma for the caps display lines and
+ * Inter for the headline.
  */
 export const SHARE_SIZE = { width: 1200, height: 630 };
 
@@ -98,14 +99,43 @@ const frame = {
   height: "100%",
   display: "flex",
   flexDirection: "column" as const,
+  position: "relative" as const,
   background: C.black,
   color: C.bone,
   fontFamily: SANS,
 };
 
 /**
+ * The photo full-bleed behind the card, faded to black on the left so the text sits on solid
+ * ground and the picture shows on the right, as on the site's hero.
+ */
+function Backdrop({ src }: { src: ArrayBuffer }) {
+  const cover = { position: "absolute" as const, top: 0, left: 0, width: 1200, height: 630 };
+  return (
+    <>
+      {/* eslint-disable-next-line @next/next/no-img-element -- next/og draws plain <img> */}
+      <img
+        // @ts-expect-error next/og takes image bytes for src at runtime; the DOM types only allow strings
+        src={src}
+        alt=""
+        width={1200}
+        height={630}
+        style={{ ...cover, objectFit: "cover" }}
+      />
+      <div
+        style={{
+          ...cover,
+          background: `linear-gradient(90deg, ${C.black} 0%, ${C.black} 46%, rgba(10,10,10,0.88) 58%, rgba(10,10,10,0.35) 80%, rgba(10,10,10,0.12) 100%)`,
+        }}
+      />
+    </>
+  );
+}
+
+/**
  * Without `headline`: the site card (logo, tagline, subline). With it: a story card, a caps
- * kicker (BRIEFING in orange, then the topic in its colour) over an Inter headline.
+ * kicker (BRIEFING in orange, then the topic in its colour) over an Inter headline. `image`
+ * (JPEG, PNG or GIF bytes, see lib/share-image.ts) goes behind either, faded in from the right.
  */
 export async function shareCard({
   headline,
@@ -114,6 +144,7 @@ export async function shareCard({
   color = C.orange,
   tagline,
   subline,
+  image,
 }: {
   headline?: string;
   topic?: string;
@@ -121,19 +152,24 @@ export async function shareCard({
   color?: string;
   tagline?: string;
   subline?: string;
+  image?: ArrayBuffer | null;
 }) {
   const options = { ...SHARE_SIZE, fonts: await fonts() };
+  const textWidth = image ? 640 : 1040;
 
   if (!headline) {
     return new ImageResponse(
       (
         <div style={frame}>
+          {image && <Backdrop src={image} />}
           <div style={{ display: "flex", flexDirection: "column", flex: 1, justifyContent: "center", gap: 40, padding: "0 72px" }}>
             <Logo size={120} />
             {tagline && (
-              <div style={{ fontSize: 64, fontWeight: 500, lineHeight: 1.05, letterSpacing: "-0.03em" }}>{tagline}</div>
+              <div style={{ fontSize: image ? 54 : 64, fontWeight: 500, lineHeight: 1.05, letterSpacing: "-0.03em", maxWidth: textWidth }}>{tagline}</div>
             )}
-            {subline && <div style={{ fontSize: 28, lineHeight: 1.4, color: C.concrete, maxWidth: 820 }}>{subline}</div>}
+            {subline && (
+              <div style={{ fontSize: 28, lineHeight: 1.4, color: C.concrete, maxWidth: image ? 600 : 820 }}>{subline}</div>
+            )}
           </div>
           <Band>
             <span>THE CONTEXT BRIEFING</span>
@@ -145,10 +181,13 @@ export async function shareCard({
     );
   }
 
-  const size = headline.length > 100 ? 56 : headline.length > 70 ? 64 : 74;
+  const size = image
+    ? headline.length > 90 ? 44 : headline.length > 60 ? 50 : 60
+    : headline.length > 100 ? 56 : headline.length > 70 ? 64 : 74;
   return new ImageResponse(
     (
       <div style={frame}>
+        {image && <Backdrop src={image} />}
         <div style={{ display: "flex", flexDirection: "column", flex: 1, justifyContent: "space-between", padding: "64px 72px 56px" }}>
           <Logo size={64} />
           <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
@@ -168,7 +207,7 @@ export async function shareCard({
                 fontWeight: 600,
                 lineHeight: 1.08,
                 letterSpacing: "-0.02em",
-                maxWidth: 1040,
+                maxWidth: textWidth,
               }}
             >
               {headline}
