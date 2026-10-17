@@ -219,18 +219,32 @@ body {
   mask-image: linear-gradient(to bottom, #000 10%, transparent 100%);
 }
 
-/* The membership prompt slides up from the bottom edge. */
-@keyframes cw-rise {
+/* The membership prompt: a centred modal over a dimmed, blurred page that can't scroll behind it. */
+.cw-pop {
+  animation: cw-pop 0.3s ease-out;
+}
+.cw-pop::backdrop {
+  background: rgb(10 10 10 / 0.82);
+  backdrop-filter: blur(4px);
+  animation: cw-fade 0.3s ease-out;
+}
+html:has(dialog.cw-pop[open]) {
+  overflow: hidden;
+}
+@keyframes cw-pop {
   from {
-    transform: translateY(24px);
+    transform: translateY(12px) scale(0.97);
     opacity: 0;
   }
 }
-.cw-rise {
-  animation: cw-rise 0.35s ease-out;
+@keyframes cw-fade {
+  from {
+    opacity: 0;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
-  .cw-rise {
+  .cw-pop,
+  .cw-pop::backdrop {
     animation: none;
   }
 }

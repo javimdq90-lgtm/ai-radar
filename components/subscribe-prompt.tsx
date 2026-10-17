@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SubscribeButton } from "@/components/membership";
 import { FREE_BRIEFINGS, METER_EVENT, PRICE_LABEL } from "@/lib/meter";
 
@@ -21,7 +21,7 @@ function dismissedRecently() {
 }
 
 /**
- * Slides up a membership offer once a reader has opened FREE_BRIEFINGS briefings this month, or
+ * Opens a membership offer in the middle of the screen once a reader has opened FREE_BRIEFINGS briefings this month, or
  * has read deep into a long page, whichever comes first. Never for members, never on a locked
  * briefing (its own card is showing) or the membership page, and at most once a day.
  */
@@ -79,36 +79,72 @@ export function SubscribePrompt() {
         ? `${shown.left} free ${shown.left === 1 ? "briefing" : "briefings"} left this month.`
         : "Read every briefing, in full.";
 
+  return <PromptDialog heading={heading} returnTo={pathname} onClose={dismiss} />;
+}
+
+const PERKS = ["Every briefing, in full", "The Context Briefing, three times a week", "No ads. Cancel anytime"];
+
+/**
+ * A modal <dialog>: centred, everything behind it dimmed (::backdrop), focus kept inside, and
+ * Escape or a click on the dimmed page closes it.
+ */
+function PromptDialog({ heading, returnTo, onClose }: { heading: string; returnTo: string; onClose: () => void }) {
+  const ref = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const dialog = ref.current;
+    if (dialog && !dialog.open) dialog.showModal();
+    return () => dialog?.close();
+  }, []);
+
   return (
-    <aside
+    <dialog
+      ref={ref}
       aria-labelledby="prompt-title"
-      className="cw-rise fixed inset-x-0 bottom-0 z-50 border-t-[3px] border-orange bg-black text-bone shadow-[0_-12px_40px_rgba(0,0,0,0.45)] sm:inset-x-auto sm:bottom-6 sm:right-6 sm:w-[440px] sm:border-t-0 sm:[clip-path:var(--cw-chamfer-md)]"
+      onCancel={(e) => {
+        e.preventDefault();
+        onClose();
+      }}
+      // A click on the dialog element itself, not its content, is a click on the dimmed backdrop.
+      onClick={(e) => e.target === e.currentTarget && onClose()}
+      className="cw-pop m-auto w-[min(560px,calc(100vw-32px))] max-w-none border-0 bg-transparent p-0 text-bone"
     >
-      <div className="relative flex flex-col gap-3 p-6 sm:border-l-[3px] sm:border-orange sm:p-7">
+      <div className="chamfer-lg relative flex flex-col gap-5 border-t-4 border-orange bg-[var(--cw-slate)] shadow-[inset_0_0_0_1px_#2c3038] px-7 pb-8 pt-9 sm:px-10 sm:pb-10">
         <button
           type="button"
-          onClick={dismiss}
+          onClick={onClose}
           aria-label="Close"
-          className="absolute right-3 top-3 flex h-10 w-10 cursor-pointer items-center justify-center border-0 bg-transparent text-concrete hover:text-bone"
+          className="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center border-0 bg-transparent text-concrete hover:text-bone"
         >
-          <svg width="14" height="14" viewBox="0 0 14 14" stroke="currentColor" strokeWidth="2" aria-hidden>
+          <svg width="16" height="16" viewBox="0 0 14 14" stroke="currentColor" strokeWidth="2" aria-hidden>
             <path d="M1 1 L13 13 M13 1 L1 13" />
           </svg>
         </button>
         <p className="kicker m-0 text-orange">Context Window Membership</p>
-        <h2 id="prompt-title" className="m-0 pr-8 text-[21px] font-semibold leading-[1.25]">
+        <h2 id="prompt-title" className="m-0 pr-8 text-[clamp(24px,3.2vw,30px)] font-semibold leading-[1.18] tracking-[-0.01em]">
           {heading}
         </h2>
-        <p className="m-0 text-[15px] leading-[1.55] text-[#c8cace]">
-          Unlimited briefings and the Context Briefing three times a week, for {PRICE_LABEL}. Cancel anytime.
+        <p className="m-0 text-[17px] leading-[1.55] text-[#c8cace]">
+          Members read the full analysis of every story, for <span className="font-semibold text-bone">{PRICE_LABEL}</span>.
         </p>
-        <div className="mt-1 flex flex-wrap items-center gap-x-5 gap-y-2">
-          <SubscribeButton returnTo={pathname} />
-          <Link href="/membership" onClick={dismiss} className="text-[14px] text-[#c8cace] underline underline-offset-4 hover:text-orange">
+        <ul className="m-0 flex list-none flex-col gap-2.5 p-0 text-[15px]">
+          {PERKS.map((perk) => (
+            <li key={perk} className="flex items-center gap-3">
+              <span className="h-2 w-2 shrink-0 bg-orange" aria-hidden />
+              {perk}
+            </li>
+          ))}
+        </ul>
+        <div className="mt-2 flex flex-col gap-4">
+          <SubscribeButton returnTo={returnTo} />
+          <Link
+            href="/membership"
+            onClick={onClose}
+            className="self-center text-[14px] text-[#c8cace] underline underline-offset-4 hover:text-orange"
+          >
             What&rsquo;s included
           </Link>
         </div>
       </div>
-    </aside>
+    </dialog>
   );
 }
