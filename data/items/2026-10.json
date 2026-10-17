@@ -2627,7 +2627,7 @@
    "OpenAI",
    "Trump"
   ],
-  "storyId": "12f70f9144a8"
+  "storyId": "e422d5ed3681"
  },
  {
   "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
@@ -3643,7 +3643,7 @@
    "Amulya Vishwanath",
    "Nvidia"
   ],
-  "storyId": "84c2c565c396"
+  "storyId": "1db14d807722"
  },
  {
   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
@@ -3801,7 +3801,7 @@
    "Amulya Vishwanath",
    "Nvidia"
   ],
-  "storyId": "84c2c565c396"
+  "storyId": "1db14d807722"
  },
  {
   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -3930,7 +3930,7 @@
    "India"
   ],
   "imageCheckedAt": "2026-10-16T19:59:24.495Z",
-  "storyId": "c74e5a79a0e1"
+  "storyId": "7aff82cf50e7"
  },
  {
   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
@@ -3990,5 +3990,286 @@
    "RoboCasa365"
   ],
   "storyId": "fb48bdee5e46"
+ },
+ {
+  "url": "https://github.com/cobanov/PS5LM",
+  "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T18:32:35.000Z",
+  "score": 288,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50122431",
+  "id": "0342f39befa1",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "A GitHub project runs llama.cpp natively on a jailbroken PS5, able to load any GGUF model on the console.",
+  "whyItMatters": "A quirky demo showing local LLM inference reaching unusual hardware.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "llama.cpp",
+   "PS5"
+  ],
+  "storyId": "0342f39befa1"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  "title": "Replit is no longer working with Anthropic, CEO says",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-16T21:22:28.000Z",
+  "snippet": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+  "id": "18f9fd010555",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "Replit CEO Amjad Masad says Replit has stopped working with Anthropic, citing several reasons including cost, after Replit announced an OpenAI partnership in August.",
+  "whyItMatters": "A major coding-platform customer leaving Anthropic signals shifting competition among model providers for developer tools.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Replit",
+   "Anthropic",
+   "OpenAI",
+   "Amjad Masad"
+  ],
+  "imageCheckedAt": "2026-10-17T09:28:40.486Z",
+  "storyId": "e6b0c9baa366"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+  "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-16T20:20:07.000Z",
+  "snippet": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg",
+  "id": "2727d1daacce",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "A New Jersey deputy attorney general was arrested after a Discord user flagged AI-generated child sexual abuse material attributed to him, police say.",
+  "whyItMatters": "It highlights ongoing enforcement and platform reporting around AI-generated CSAM.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Discord",
+   "New Jersey"
+  ],
+  "storyId": "2727d1daacce"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21261",
+  "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of interactions above that order and bounds coalition ordering error for the optimal low order approximation. To distinguish compositionality associated with the SAE representation from that induced by do…",
+  "score": 104,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21261.png",
+  "id": "38e464272c32",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.436Z",
+  "summary": "A paper introduces SAE Additivity Residuals (SAR), a metric for how much of a sparse autoencoder's feature effects on model behavior fail to combine additively beyond a chosen interaction order.",
+  "whyItMatters": "It gives interpretability work a way to test whether SAE features can be reasoned about independently when steering models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Sparse Autoencoders"
+  ],
+  "storyId": "38e464272c32"
+ },
+ {
+  "url": "https://openai.com/index/benefit-street-partners",
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-16T00:00:00.000Z",
+  "snippet": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+  "id": "4a2f3ca18eb9",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "OpenAI customer story: Benefit Street Partners uses Codex to build loan valuation comparison and credit agreement analysis tools, and for code review.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "Benefit Street Partners"
+  ],
+  "storyId": "4a2f3ca18eb9"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.21463",
+  "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-14T20:00:00.000Z",
+  "snippet": "Large language model agents solve tasks through long sequences of tool calls, and the prevailing design has a single strong model generate every step, although many steps are routine enough for a much smaller model. Existing ways of sharing this work keep the strong model as the generator: routers and collaborative agents decide which model handles each query or step, and speculative methods check a small model's drafts one step at a time, usually against the strong model's own action. We introduce SpecAgent, a collaboration protocol that turns the strong model from the author of each step in…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.21463.png",
+  "id": "5e2c1d488337",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "SpecAgent is a protocol where a small model drafts tool-call trajectories and the strong model verifies them semantically rather than authoring each step.",
+  "whyItMatters": "It could cut cost and latency for agent workloads by offloading routine steps to cheaper models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SpecAgent"
+  ],
+  "storyId": "5e2c1d488337"
+ },
+ {
+  "url": "https://openai.com/index/itau-generative-ai",
+  "title": "How Itaú is building generative AI for its entire customer base",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-16T19:00:00.000Z",
+  "snippet": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+  "id": "65442e708214",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "Brazilian bank Itaú is rolling out generative AI to its whole customer base via a conversational interface called ia.i and an AI governance platform called IARA.",
+  "whyItMatters": "It's a real-world example of large-scale genAI deployment in a heavily regulated industry.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Itaú",
+   "OpenAI"
+  ],
+  "storyId": "65442e708214"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50121562",
+  "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T17:31:42.000Z",
+  "score": 87,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50121562",
+  "id": "6a9dae8d13e9",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "A user reports that Anthropic Console charged their card 100x the intended amount because of an internationalization input bug.",
+  "whyItMatters": "Builders using API billing should double-check charges and input formats, especially with non-US locales.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "6a9dae8d13e9"
+ },
+ {
+  "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "title": "How the Claude Code team does code review",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T19:04:47.000Z",
+  "score": 345,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50122951",
+  "id": "7fd7e06ab2f4",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "The Claude Code team describes how it handles code review internally.",
+  "whyItMatters": "It offers a practical look at AI-assisted review workflows from the team building the tool.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "image": "https://claude.dev/blog/solving-code-review-at-anthropic/og.png",
+  "imageCheckedAt": "2026-10-17T09:28:40.565Z",
+  "storyId": "7fd7e06ab2f4"
+ },
+ {
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "title": "DeepSeek-v4.1-Flash-1017",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T08:21:25.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50129045",
+  "id": "9b13d6a721a0",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "A DeepSeek-v4.1-Flash-1017 model checkpoint appeared on Hugging Face.",
+  "whyItMatters": "A new DeepSeek Flash release may offer a cheap, fast option for builders, though details are unconfirmed.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "DeepSeek",
+   "Hugging Face"
+  ],
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png",
+  "imageCheckedAt": "2026-10-17T09:28:40.570Z",
+  "storyId": "9b13d6a721a0"
+ },
+ {
+  "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+  "title": "Designing more efficient quantum circuits with Claude",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T18:00:18.000Z",
+  "score": 140,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50121939",
+  "id": "9d010c1314ee",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "Anthropic published a write-up on using Claude to design more efficient quantum circuits.",
+  "whyItMatters": "It shows Claude being applied to scientific and technical optimization problems beyond coding.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/cc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg",
+  "imageCheckedAt": "2026-10-17T09:28:40.572Z",
+  "storyId": "9d010c1314ee"
+ },
+ {
+  "url": "https://alexwang.ai/posts/associative-memory/",
+  "title": "You could have invented transformers from memory",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-16T19:01:17.000Z",
+  "score": 298,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50122878",
+  "id": "c19e7ef010f7",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "An essay argues that the transformer architecture can be derived step by step from first principles, so you could have invented it yourself.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Transformers"
+  ],
+  "storyId": "c19e7ef010f7"
+ },
+ {
+  "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+  "title": "[AINews] High Taste Testers Ep. 1",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-17T07:47:38.000Z",
+  "snippet": "a quiet day lets us pilot a new show",
+  "image": "https://substackcdn.com/image/youtube/w_728,c_limit/ZOH8Q401vt0",
+  "id": "dc3d830e0a0d",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "Latent Space's AINews newsletter piloted a new show, 'High Taste Testers' Ep. 1, on a quiet news day.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Latent Space"
+  ],
+  "storyId": "dc3d830e0a0d"
+ },
+ {
+  "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+  "title": "OpenAI models hacked a crypto wallet and breached more websites",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-16T20:59:01.000Z",
+  "snippet": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
+  "id": "e86f92efb265",
+  "fetchedAt": "2026-10-17T09:28:27.913Z",
+  "enrichedAt": "2026-10-17T09:28:40.437Z",
+  "summary": "Ars Technica reports that OpenAI models hacked a crypto wallet and breached additional websites during testing, actions that could have meant criminal charges if done by humans.",
+  "whyItMatters": "It underscores real offensive-capability and safety risks of autonomous agents.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "7aff82cf50e7"
  }
 ]
