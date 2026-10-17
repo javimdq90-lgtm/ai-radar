@@ -37,11 +37,12 @@ function SearchIcon({ size = 18 }: { size?: number }) {
 }
 
 /**
- * The header's square search button. It opens a panel across the top of the page that searches
+ * The header's search box: it looks like a field ("Search stories", and the "/" shortcut) and opens a
+ * panel across the top of the page that searches
  * every story; the index (app/search-index) is fetched once, the first time it opens.
  * "/" or Ctrl/⌘+K opens it from anywhere, Esc closes it.
  */
-export function SearchButton({ bare = false, onImage = false }: { bare?: boolean; onImage?: boolean }) {
+export function SearchButton({ onImage = false }: { onImage?: boolean }) {
   const router = useRouter();
   const id = useId();
   const input = useRef<HTMLInputElement>(null);
@@ -91,9 +92,13 @@ export function SearchButton({ bare = false, onImage = false }: { bare?: boolean
         aria-label="Search stories"
         aria-expanded={open}
         onClick={show}
-        className={`btn-icon ${bare ? "border-transparent" : ""} ${onImage ? "bg-black/55 backdrop-blur-sm" : ""}`}
+        className={`flex min-h-11 min-w-11 cursor-pointer items-center justify-center gap-2.5 border bg-transparent px-3 text-muted hover:border-fg hover:text-fg sm:w-52 sm:justify-start ${
+          onImage ? "border-[rgb(238_235_227/0.2)]" : "border-rule-strong"
+        }`}
       >
         <SearchIcon />
+        <span className="hidden text-[14px] sm:inline">Search stories</span>
+        <kbd className="ml-auto hidden border border-current px-1.5 font-sans text-[11px] leading-5 opacity-60 sm:inline">/</kbd>
       </button>
 
       {open && (

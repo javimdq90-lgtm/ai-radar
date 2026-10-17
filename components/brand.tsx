@@ -90,7 +90,7 @@ export function SiteHeader({ active, overlay = false }: { active?: NavKey; overl
     <div
       className={`flex flex-wrap items-center gap-x-6 py-2 lg:flex-nowrap ${
         overlay
-          ? "min-h-16 border border-[rgb(238_235_227/0.08)] bg-[rgb(28_27_25/0.42)] px-4 backdrop-blur-md [clip-path:var(--cw-chamfer-sm)] sm:px-5"
+          ? "min-h-16 border border-[rgb(238_235_227/0.08)] bg-[rgb(28_27_25/0.42)] px-4 backdrop-blur-md sm:px-5"
           : "container-cw min-h-[72px]"
       }`}
     >
@@ -113,7 +113,7 @@ export function SiteHeader({ active, overlay = false }: { active?: NavKey; overl
         ))}
       </nav>
       <div className="ml-auto lg:ml-0">
-        <SearchButton bare onImage={overlay} />
+        <SearchButton onImage={overlay} />
       </div>
     </div>
   );
