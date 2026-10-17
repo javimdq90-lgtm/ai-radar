@@ -13,7 +13,7 @@ const DARK =
  * "THE CONTEXT BRIEFING." sign-up, the #newsletter target of every SUBSCRIBE button.
  * `card`: a bone card with the large chamfer (front page, section pages).
  * `band`: a full-width black band (briefing pages, which are bone).
- * `tile`: a compact card the size of a story card, for the front page's More stories grid.
+ * `tile`: two story cards wide, one tall, for the front page's More stories grid.
  */
 export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" | "tile" }) {
   const [state, action, pending] = useActionState(subscribe, initial);
@@ -37,7 +37,7 @@ export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" 
       <label htmlFor={`newsletter-email-${variant}`} className={tile ? "sr-only" : "text-[13px] font-medium text-dek"}>
         Email address
       </label>
-      <div className={`flex gap-2 ${band ? "flex-wrap" : "flex-col"}`}>
+      <div className={`flex gap-2 ${band || tile ? "flex-wrap" : "flex-col"}`}>
         <input
           id={`newsletter-email-${variant}`}
           name="email"
@@ -46,7 +46,9 @@ export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" 
           autoComplete="email"
           placeholder="you@company.com"
           className={`${tile ? "min-h-11" : "min-h-12"} px-3.5 text-fg placeholder:text-muted ${
-            band ? "flex-[1_1_220px] border border-rule-strong bg-raised" : "border border-black bg-white"
+            band
+              ? "flex-[1_1_220px] border border-rule-strong bg-raised"
+              : `border border-black bg-white ${tile ? "flex-[1_1_200px]" : ""}`
           }`}
         />
         {/* Spam traps: a field people never see, and the time the form loaded. */}
@@ -97,13 +99,15 @@ export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" 
       <section
         id="newsletter"
         aria-labelledby="newsletter-title"
-        className="bone chamfer-md flex h-full scroll-mt-6 flex-col justify-center gap-3 p-6"
+        className="bone chamfer-lg flex h-full scroll-mt-6 flex-col justify-center gap-4 p-7 sm:col-span-2 lg:p-9"
       >
         <p className="kicker m-0 text-signal">Three times a week</p>
-        <h2 id="newsletter-title" className="display m-0 text-[clamp(18px,1.6vw,22px)] leading-[1.15]">
+        <h2 id="newsletter-title" className="display m-0 text-[clamp(22px,2.4vw,30px)] leading-[1.12]">
           The Context Briefing.
         </h2>
-        <p className="m-0 text-[14px] leading-[1.5] text-dek">The most important AI news, analysis and ideas, by email.</p>
+        <p className="m-0 max-w-[44ch] text-[16px] leading-[1.5] text-dek">
+          The most important AI news, analysis and ideas. A wider context, in your inbox.
+        </p>
         {form}
       </section>
     );

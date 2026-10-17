@@ -86,9 +86,9 @@ export default async function Home() {
   const others = ranked.filter((s) => s !== topStory);
   const heroStories = others.slice(0, 3);
   // Whole rows only: the grid is four wide on desktop and two on tablets, and the sign-up tile
-  // fills one cell, so it shows seven stories (or three).
-  const rest = others.slice(3, 10);
-  const gridStories = rest.length >= 7 ? rest : rest.slice(0, 3);
+  // fills two cells, so it shows six stories (or two).
+  const rest = others.slice(3, 9);
+  const gridStories = rest.length >= 6 ? rest : rest.slice(0, 2);
 
   return (
     <div className="max-md:pb-24">
@@ -109,13 +109,13 @@ export default async function Home() {
             <section id="top-stories" aria-labelledby="top-h" className="flex scroll-mt-6 flex-col gap-7 border-b border-rule py-14">
               <SectionTitle id="top-h">More stories</SectionTitle>
               {/* Hairline grid: each card draws a 1px ring that meets its neighbour's in the 1px gap. The
-                  sign-up tile is the fourth cell: the end of the first row on desktop. */}
+                  two-wide sign-up tile ends the first row on desktop and has a row of its own on tablets. */}
               <div className="grid gap-px p-px sm:grid-cols-2 lg:grid-cols-4">
-                {gridStories.slice(0, 3).map((s) => (
+                {gridStories.slice(0, 2).map((s) => (
                   <StoryCard key={s.id} story={s} now={now} />
                 ))}
                 <NewsletterBox variant="tile" />
-                {gridStories.slice(3).map((s) => (
+                {gridStories.slice(2).map((s) => (
                   <StoryCard key={s.id} story={s} now={now} />
                 ))}
               </div>
