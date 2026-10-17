@@ -1,19 +1,21 @@
 @import "tailwindcss";
 
 /*
- * Context Window: Neo-Futurist Editorial (design handoff "neo", tokens.css).
- * Mostly black and bone; orange is a signal (CTAs, kickers, numbers, logo), never a surface
+ * Context Window: Neo-Futurist Editorial (design handoff "neo", tokens.css), softened: a warm
+ * near-black, warm ivory and a clay orange instead of pure black, white and #ff4d00, so long reads
+ * are easier on the eyes. Mostly near-black and ivory; orange is a signal (CTAs, kickers, numbers, logo), never a surface
  * except buttons. Corners are sharp; the 45° chamfer is the only shape accent.
  * Fonts come from next/font in app/layout.tsx: --font-michroma (display, CAPS ONLY; the design's
  * Nebula replaces it once licensed) and --font-inter (everything people read).
  */
 :root {
-  --cw-orange: #ff4d00;
-  --cw-orange-deep: #c23a00; /* small orange text on bone */
-  --cw-black: #0a0a0a;
-  --cw-slate: #14161b;
-  --cw-concrete: #a3a6ab;
-  --cw-bone: #f5f5f3;
+  --cw-orange: #d97757;
+  --cw-orange-deep: #a8522f; /* small orange text on bone */
+  --cw-black: #1c1b19;
+  --cw-slate: #262522;
+  --cw-concrete: #a8a398;
+  --cw-bone: #f4f1ea;
+  --cw-text: #eeebe3; /* text on the dark surface: off-white, not bone, to soften the contrast */
 
   --cw-max: 1320px;
   --cw-gutter: 24px;
@@ -27,13 +29,13 @@
   color-scheme: dark;
   --surface: var(--cw-black);
   --raised: var(--cw-slate);
-  --fg: var(--cw-bone);
-  --dek: #c8cace;
-  --body: #c8cace;
+  --fg: var(--cw-text);
+  --dek: #d6d2c8;
+  --body: #d6d2c8;
   --muted: var(--cw-concrete);
-  --rule: #1e2026;
-  --rule-strong: #2a2d33;
-  --signal: var(--cw-orange); /* orange text: full orange on black */
+  --rule: #2e2c29;
+  --rule-strong: #3a3835;
+  --signal: var(--cw-orange); /* orange text: 5.5:1 on the dark surface */
   --cta-bg: var(--cw-orange);
   --cta-fg: var(--cw-black);
 
@@ -51,14 +53,14 @@
 .bone {
   color-scheme: light;
   --surface: var(--cw-bone);
-  --raised: #ffffff;
+  --raised: #fffdf8;
   --fg: var(--cw-black);
-  --dek: #2c2f34;
-  --body: #1e2026;
-  --muted: #5c5f64;
-  --rule: #d9dadc;
-  --rule-strong: #c9cbce;
-  --signal: var(--cw-orange-deep); /* 4.9:1 on bone; plain orange is only 3:1 */
+  --dek: #3d3a35;
+  --body: #2e2c29;
+  --muted: #6b675f;
+  --rule: #e1dcd1;
+  --rule-strong: #d2ccbf;
+  --signal: var(--cw-orange-deep); /* 4.8:1 on bone; plain orange is only 3:1 */
   --cta-bg: var(--cw-black);
   --cta-fg: var(--cw-bone);
   /* All at least 4.8:1 on bone. */
@@ -224,7 +226,7 @@ body {
   animation: cw-pop 0.3s ease-out;
 }
 .cw-pop::backdrop {
-  background: rgb(10 10 10 / 0.82);
+  background: rgb(28 27 25 / 0.82);
   backdrop-filter: blur(4px);
   animation: cw-fade 0.3s ease-out;
 }

@@ -127,15 +127,15 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 function signInEmail(url: string) {
   const sans = "Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>Sign in to Context Window</title></head>
-<body style="margin:0;padding:0;background:#0A0A0A">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0A0A0A"><tr><td align="center" style="padding:32px 12px">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#16181C;border-top:4px solid #FF4D00">
+<body style="margin:0;padding:0;background:#1C1B19">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#1C1B19"><tr><td align="center" style="padding:32px 12px">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#262522;border-top:4px solid #D97757">
     <tr><td style="padding:32px">
-      <div style="font:700 12px/1 ${sans};letter-spacing:.14em;text-transform:uppercase;color:#FF4D00;margin:0 0 14px">Context Window</div>
-      <div style="font:600 26px/1.2 ${sans};color:#F2F2F0;margin:0 0 14px">Sign in to your membership</div>
-      <div style="font:16px/1.6 ${sans};color:#C8CACE;margin:0 0 24px">Use this button to read every briefing on this device.</div>
-      <table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#FF4D00"><a href="${esc(url)}" style="display:inline-block;padding:14px 24px;font:700 14px/1 ${sans};letter-spacing:.08em;text-transform:uppercase;color:#0A0A0A;text-decoration:none">Sign in</a></td></tr></table>
-      <div style="font:13px/1.6 ${sans};color:#8E9196;margin:24px 0 0">The link works for ${SIGN_IN_MINUTES} minutes. If you didn't ask for it, ignore this email.</div>
+      <div style="font:700 12px/1 ${sans};letter-spacing:.14em;text-transform:uppercase;color:#D97757;margin:0 0 14px">Context Window</div>
+      <div style="font:600 26px/1.2 ${sans};color:#EEEBE3;margin:0 0 14px">Sign in to your membership</div>
+      <div style="font:16px/1.6 ${sans};color:#D6D2C8;margin:0 0 24px">Use this button to read every briefing on this device.</div>
+      <table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#D97757"><a href="${esc(url)}" style="display:inline-block;padding:14px 24px;font:700 14px/1 ${sans};letter-spacing:.08em;text-transform:uppercase;color:#1C1B19;text-decoration:none">Sign in</a></td></tr></table>
+      <div style="font:13px/1.6 ${sans};color:#A8A398;margin:24px 0 0">The link works for ${SIGN_IN_MINUTES} minutes. If you didn't ask for it, ignore this email.</div>
     </td></tr>
   </table>
 </td></tr></table>

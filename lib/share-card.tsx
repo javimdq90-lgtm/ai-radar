@@ -13,12 +13,12 @@ export const SHARE_SIZE = { width: 1200, height: 630 };
 
 /** Tokens from app/globals.css as literal hex: next/og has no CSS variables. */
 const C = {
-  orange: "#ff4d00",
-  black: "#0a0a0a",
-  bone: "#f5f5f3",
-  concrete: "#a3a6ab",
-  rule: "#2a2d33",
-  ghost: "#24272d",
+  orange: "#d97757",
+  black: "#1c1b19",
+  bone: "#f4f1ea",
+  concrete: "#a8a398",
+  rule: "#3a3835",
+  ghost: "#2e2c29",
 };
 const DISPLAY = "Michroma";
 const SANS = "Inter";
@@ -111,7 +111,7 @@ function Backdrop({ src }: { src: ArrayBuffer }) {
       <div
         style={{
           ...cover,
-          background: `linear-gradient(90deg, ${C.black} 0%, ${C.black} 46%, rgba(10,10,10,0.88) 58%, rgba(10,10,10,0.35) 80%, rgba(10,10,10,0.12) 100%)`,
+          background: `linear-gradient(90deg, ${C.black} 0%, ${C.black} 46%, rgba(28,27,25,0.88) 58%, rgba(28,27,25,0.35) 80%, rgba(28,27,25,0.12) 100%)`,
         }}
       />
     </>

@@ -49,17 +49,17 @@ export async function sendConfirmation(email: string) {
   const config = subscribeConfig();
   if (!config) throw new Error("Sign-ups are not configured");
   const url = `${SITE_URL}/subscribe/confirm?token=${encodeURIComponent(makeToken(email, config.key))}`;
-  const sans = "Geist,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
-  const serif = "'DM Serif Display',Georgia,'Times New Roman',serif";
+  const sans = "Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>Confirm your subscription</title></head>
-<body style="margin:0;padding:0;background:#08090A">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#08090A"><tr><td align="center" style="padding:32px 12px">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#0F1012;border:1px solid #26282C;border-radius:8px">
+<body style="margin:0;padding:0;background:#1C1B19">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#1C1B19"><tr><td align="center" style="padding:32px 12px">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#262522;border-top:4px solid #D97757">
     <tr><td style="padding:32px">
-      <div style="font:400 30px/1.1 ${serif};color:#ECE9E2;margin:0 0 16px">Confirm your subscription</div>
-      <div style="font:16px/1.6 ${sans};color:#C9C7C0;margin:0 0 24px">Someone, hopefully you, asked to get Context Window at ${esc(email)}: the day's AI news, briefed and sourced, three emails a week.</div>
-      <table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="border-radius:999px;background:#F2C14E"><a href="${esc(url)}" style="display:inline-block;padding:13px 22px;font:600 15px/1 ${sans};color:#121212;text-decoration:none">Yes, subscribe me</a></td></tr></table>
-      <div style="font:13px/1.6 ${sans};color:#8E8E87;margin:24px 0 0">The link works for ${LINK_DAYS} days. If you didn't sign up, ignore this email and you won't hear from us again.</div>
+      <div style="font:700 12px/1 ${sans};letter-spacing:.14em;text-transform:uppercase;color:#D97757;margin:0 0 14px">Context Window</div>
+      <div style="font:600 26px/1.2 ${sans};color:#EEEBE3;margin:0 0 16px">Confirm your subscription</div>
+      <div style="font:16px/1.6 ${sans};color:#D6D2C8;margin:0 0 24px">Someone, hopefully you, asked to get Context Window at ${esc(email)}: the day's AI news, briefed and sourced, three emails a week.</div>
+      <table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#D97757"><a href="${esc(url)}" style="display:inline-block;padding:14px 24px;font:700 14px/1 ${sans};letter-spacing:.08em;text-transform:uppercase;color:#1C1B19;text-decoration:none">Yes, subscribe me</a></td></tr></table>
+      <div style="font:13px/1.6 ${sans};color:#A8A398;margin:24px 0 0">The link works for ${LINK_DAYS} days. If you didn't sign up, ignore this email and you won't hear from us again.</div>
     </td></tr>
   </table>
 </td></tr></table>

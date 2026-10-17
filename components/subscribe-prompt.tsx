@@ -127,7 +127,7 @@ function PromptDialog({ heading, returnTo, onClose }: { heading: string; returnT
       onClick={(e) => e.target === e.currentTarget && onClose()}
       className="cw-pop m-auto outline-none w-[min(560px,calc(100vw-32px))] max-w-none border-0 bg-transparent p-0 text-bone"
     >
-      <div className="chamfer-lg relative flex flex-col gap-5 border-t-4 border-orange bg-[var(--cw-slate)] shadow-[inset_0_0_0_1px_#2c3038] px-7 pb-8 pt-9 sm:px-10 sm:pb-10">
+      <div className="chamfer-lg relative flex flex-col gap-5 border-t-4 border-orange bg-[var(--cw-slate)] shadow-[inset_0_0_0_1px_#3a3835] px-7 pb-8 pt-9 sm:px-10 sm:pb-10">
         <button
           type="button"
           onClick={onClose}
@@ -142,7 +142,7 @@ function PromptDialog({ heading, returnTo, onClose }: { heading: string; returnT
         <h2 id="prompt-title" className="m-0 pr-8 text-[clamp(24px,3.2vw,30px)] font-semibold leading-[1.18] tracking-[-0.01em]">
           {heading}
         </h2>
-        <p className="m-0 text-[17px] leading-[1.55] text-[#c8cace]">
+        <p className="m-0 text-[17px] leading-[1.55] text-[#d6d2c8]">
           Members read the full analysis of every story, for <span className="font-semibold text-bone">{PRICE_LABEL}</span>.
         </p>
         <ul className="m-0 flex list-none flex-col gap-2.5 p-0 text-[15px]">
@@ -158,7 +158,7 @@ function PromptDialog({ heading, returnTo, onClose }: { heading: string; returnT
           <Link
             href="/membership"
             onClick={onClose}
-            className="self-center text-[14px] text-[#c8cace] underline underline-offset-4 hover:text-orange"
+            className="self-center text-[14px] text-[#d6d2c8] underline underline-offset-4 hover:text-orange"
           >
             What&rsquo;s included
           </Link>

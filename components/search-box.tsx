@@ -98,7 +98,7 @@ export function SearchButton({ bare = false, onImage = false }: { bare?: boolean
 
       {open && (
         // The panel always uses the dark palette, even when opened from a bone page.
-        <div className="fixed inset-0 z-50 flex flex-col [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#2a2d33] [--rule:#1e2026] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]">
+        <div className="fixed inset-0 z-50 flex flex-col [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#3a3835] [--rule:#2e2c29] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]">
           <div className="border-b border-rule bg-surface text-fg">
             <form
               role="search"

@@ -37,19 +37,19 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
                 src={BRAND.hero}
                 alt=""
                 fetchPriority="high"
-                className="h-full w-full object-cover object-[62%_center] md:object-[left_center]"
+                className="h-full w-full object-cover object-[62%_center] saturate-[0.7] md:object-[left_center]"
               />
             </picture>
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(10_10_10/0)_38%)] max-md:bg-[rgb(10_10_10/0.55)]" />
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(28_27_25/0)_38%)] max-md:bg-[rgb(28_27_25/0.55)]" />
           </div>
         ) : (
           <Scene name="curve" />
         )}
         {/* Darken the text side and the card strip so both read over any image. */}
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(10_10_10/0.7)_30%,rgb(10_10_10/0)_55%)]" />
-        <div className="absolute inset-0 bg-[linear-gradient(0deg,var(--cw-black)_0%,rgb(10_10_10/0)_40%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(28_27_25/0.7)_30%,rgb(28_27_25/0)_55%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(0deg,var(--cw-black)_0%,rgb(28_27_25/0)_40%)]" />
         {/* A soft band along the top so the header reads over bright sky and concrete. */}
-        <div className="absolute inset-x-0 top-0 h-40 bg-[linear-gradient(180deg,rgb(10_10_10/0.75)_0%,rgb(10_10_10/0)_100%)]" />
+        <div className="absolute inset-x-0 top-0 h-40 bg-[linear-gradient(180deg,rgb(28_27_25/0.75)_0%,rgb(28_27_25/0)_100%)]" />
       </div>
 
       <SiteHeader overlay />

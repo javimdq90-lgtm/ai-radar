@@ -42,9 +42,9 @@ export function Logo({ id = "cw", className = "" }: { id?: string; className?: s
   return (
     <svg viewBox="47 43 1278 284" fill="none" aria-hidden className={`w-auto shrink-0 ${className}`}>
       <defs>
-        <linearGradient id={`${id}-0`} x1="47" y1="43" x2="329.992" y2="350.904" gradientUnits="userSpaceOnUse"><stop stopColor="#FF3D00" /><stop offset="0.58" stopColor="#FF4A00" /><stop offset="1" stopColor="#DF2F00" /></linearGradient>
-        <linearGradient id={`${id}-1`} x1="307" y1="43" x2="356" y2="43" gradientUnits="userSpaceOnUse"><stop stopColor="#FF4B00" /><stop offset="1" stopColor="#EE3500" /></linearGradient>
-        <linearGradient id={`${id}-2`} x1="134" y1="239" x2="186.031" y2="378.933" gradientUnits="userSpaceOnUse"><stop stopColor="#FF4A00" /><stop offset="0.7" stopColor="#FF3B00" /><stop offset="1" stopColor="#E82F00" /></linearGradient>
+        <linearGradient id={`${id}-0`} x1="47" y1="43" x2="329.992" y2="350.904" gradientUnits="userSpaceOnUse"><stop stopColor="#DD7A58" /><stop offset="0.58" stopColor="#E0805E" /><stop offset="1" stopColor="#C4664A" /></linearGradient>
+        <linearGradient id={`${id}-1`} x1="307" y1="43" x2="356" y2="43" gradientUnits="userSpaceOnUse"><stop stopColor="#E0805E" /><stop offset="1" stopColor="#CC6C4D" /></linearGradient>
+        <linearGradient id={`${id}-2`} x1="134" y1="239" x2="186.031" y2="378.933" gradientUnits="userSpaceOnUse"><stop stopColor="#E0805E" /><stop offset="0.7" stopColor="#DB7856" /><stop offset="1" stopColor="#C86A4B" /></linearGradient>
         <linearGradient id={`${id}-t`} x1="0" y1="0" x2="0" y2="1">
           <stop stopColor="currentColor" />
           <stop offset="0.46" stopColor="currentColor" stopOpacity="0.95" />
@@ -55,12 +55,12 @@ export function Logo({ id = "cw", className = "" }: { id?: string; className?: s
       <path d="M47 130L133 43H356L307 93H135L95 132V327H47V130Z" fill={`url(#${id}-0)`} />
       <path d="M307 93L356 43V248L307 279V93Z" fill={`url(#${id}-1)`} />
       <path d="M134 278H268L307 239H356V248L287 327H134V278Z" fill={`url(#${id}-2)`} />
-      <path d="M47 132H95V327H47V132Z" fill="#F13A00" opacity="0.76" />
-      <path d="M307 93H356L328 110L307 123V93Z" fill="#911F00" opacity="0.58" />
-      <path d="M95 132H47L74.4286 145.6L95 156V132Z" fill="#BF2900" opacity="0.58" />
-      <path d="M133 43L135 93L147.5 66L157 43L133 43Z" fill="#BF2900" opacity="0.58" />
-      <path d="M134 278H245L191.5 301L134 327V278Z" fill="#BF2900" opacity="0.58" />
-      <path d="M307 93L356 43V93H307Z" fill="#D52D00" opacity="0.62" />
+      <path d="M47 132H95V327H47V132Z" fill="#CF7050" opacity="0.76" />
+      <path d="M307 93H356L328 110L307 123V93Z" fill="#87432D" opacity="0.58" />
+      <path d="M95 132H47L74.4286 145.6L95 156V132Z" fill="#A85A3D" opacity="0.58" />
+      <path d="M133 43L135 93L147.5 66L157 43L133 43Z" fill="#A85A3D" opacity="0.58" />
+      <path d="M134 278H245L191.5 301L134 327V278Z" fill="#A85A3D" opacity="0.58" />
+      <path d="M307 93L356 43V93H307Z" fill="#BE6446" opacity="0.62" />
       <g fill={`url(#${id}-t)`}>
         <Letters letters={CONTEXT} />
         <Letters letters={WINDOW} />
@@ -144,7 +144,7 @@ export function Footer({ newsletterHref = "/#newsletter" }: { newsletterHref?: s
   const sections = NAV.slice(0, 4);
   const topics = NAV.slice(4);
   return (
-    <footer className="bg-black text-bone [--dek:#c8cace] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--rule-strong:#2a2d33] [--rule:#1e2026] [--signal:var(--cw-orange)]">
+    <footer className="bg-black text-bone [--dek:#d6d2c8] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--rule-strong:#3a3835] [--rule:#2e2c29] [--signal:var(--cw-orange)]">
       <div className="bg-orange text-black">
         <div className="container-cw flex flex-wrap items-center justify-between gap-x-8 gap-y-4 py-7">
           <p className="display m-0 text-[clamp(18px,2.2vw,26px)] leading-[1.15]">
@@ -213,7 +213,7 @@ export function Footer({ newsletterHref = "/#newsletter" }: { newsletterHref?: s
           SVG scales to the content width, so it always fits. */}
       <div className="container-cw" aria-hidden>
         <svg viewBox="431 85 1832 84" className="block h-auto w-full">
-          <g fill="#24272d">
+          <g fill="#2e2c29">
             <Letters letters={CONTEXT} />
           </g>
           <g fill="var(--cw-orange)" fillOpacity="0.8" transform="translate(959 -118)">

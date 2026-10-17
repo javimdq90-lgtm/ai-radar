@@ -16,16 +16,16 @@ const fmtDateline = (iso: string) =>
 
 /** Context Window tokens (app/globals.css, bone surface) as literal values: mail clients don't support CSS variables. */
 const C = {
-  orange: "#FF4D00",
-  orangeDeep: "#C23A00", // small orange text on bone and white; plain orange is only 3:1
-  black: "#0A0A0A",
-  bone: "#F5F5F3",
-  card: "#FFFFFF",
-  rule: "#D9DADC",
-  text: "#0A0A0A",
-  dek: "#2C2F34",
-  muted: "#5C5F64",
-  concrete: "#A3A6AB",
+  orange: "#D97757",
+  orangeDeep: "#A8522F", // small orange text on bone and white; plain orange is only 3:1
+  black: "#1C1B19",
+  bone: "#F4F1EA",
+  card: "#FFFDF8",
+  rule: "#E1DCD1",
+  text: "#1C1B19",
+  dek: "#3D3A35",
+  muted: "#6B675F",
+  concrete: "#A8A398",
 };
 /** Michroma is the display face, caps only; wide sans fallbacks where web fonts don't load. */
 const DISPLAY = "Michroma,'Arial Black','Helvetica Neue',Arial,sans-serif";

@@ -7,7 +7,7 @@ const initial: SubscribeState = { message: "" };
 
 /** The dark palette, for the band when it sits on a bone page. */
 const DARK =
-  "[--dek:#c8cace] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#3a3d42] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]";
+  "[--dek:#d6d2c8] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#45423d] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]";
 
 /**
  * "THE CONTEXT BRIEFING." sign-up, the #newsletter target of every SUBSCRIBE button.

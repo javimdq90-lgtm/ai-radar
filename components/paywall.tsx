@@ -41,13 +41,13 @@ function PaywallCard({ storyId }: { storyId: string }) {
       <h2 id="paywall-title" className="m-0 text-[clamp(22px,2.6vw,28px)] font-semibold leading-[1.2]">
         You&rsquo;ve read your {FREE_BRIEFINGS} free briefings this month.
       </h2>
-      <p className="m-0 max-w-[56ch] text-[17px] leading-[1.6] text-[#c8cace]">
+      <p className="m-0 max-w-[56ch] text-[17px] leading-[1.6] text-[#d6d2c8]">
         Keep reading the full analysis of every story, with the Context Briefing in your inbox three times a week, for{" "}
         {PRICE_LABEL}. Cancel anytime.
       </p>
       <div className="mt-2 flex flex-wrap items-center gap-x-6 gap-y-3">
         <SubscribeButton returnTo={`/story/${storyId}`} />
-        <Link href="/membership#sign-in" className="text-[15px] text-[#c8cace] underline underline-offset-4 hover:text-orange">
+        <Link href="/membership#sign-in" className="text-[15px] text-[#d6d2c8] underline underline-offset-4 hover:text-orange">
           Already a member? Sign in
         </Link>
       </div>
