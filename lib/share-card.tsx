@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
@@ -5,7 +6,7 @@ import type { ReactNode } from "react";
 
 /**
  * Link-preview cards (Open Graph and X), drawn with next/og in the neo look: black ground, a
- * photo faded in from the right, the orange window logo, Michroma for the caps display lines and
+ * photo faded in from the right, the logo, Michroma for the caps display lines and
  * Inter for the headline.
  */
 export const SHARE_SIZE = { width: 1200, height: 630 };
@@ -40,36 +41,21 @@ async function fonts() {
   ];
 }
 
-/** The window from components/brand.tsx: open chamfer top-left, chamfered bottom-right. */
-function Symbol({ size }: { size: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 100 100" fill="none">
-      <path d="M32 12 H88 V68 L68 88 H12 V36" stroke={C.orange} strokeWidth="13" />
-      <path d="M26 12 L12 26" stroke={C.orange} strokeWidth="5" />
-    </svg>
-  );
-}
+/**
+ * The logo (public/brand/logo.svg: orange window, white CONTEXT / WINDOW lettering) cropped to its
+ * artwork, as a data URL next/og can draw. `size` is its height.
+ */
+const LOGO_SRC = `data:image/svg+xml;base64,${Buffer.from(
+  readFileSync(join(process.cwd(), "public", "brand", "logo.svg"), "utf8").replace(
+    'width="1400" height="360" viewBox="0 0 1400 360"',
+    'width="1278" height="284" viewBox="47 43 1278 284"',
+  ),
+).toString("base64")}`;
+const LOGO_RATIO = 1278 / 284;
 
-/** Stacked CONTEXT / WINDOW in the display face, beside the window. */
 function Logo({ size }: { size: number }) {
-  return (
-    <div style={{ display: "flex", alignItems: "center", gap: size * 0.32 }}>
-      <Symbol size={size} />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          fontFamily: DISPLAY,
-          fontSize: size * 0.36,
-          lineHeight: 1.05,
-          letterSpacing: "0.05em",
-        }}
-      >
-        <span>CONTEXT</span>
-        <span>WINDOW</span>
-      </div>
-    </div>
-  );
+  // eslint-disable-next-line @next/next/no-img-element -- next/og draws plain <img>
+  return <img src={LOGO_SRC} width={Math.round(size * LOGO_RATIO)} height={size} alt="" />;
 }
 
 /** The site footer's orange band, along the bottom. */

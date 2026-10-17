@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Footer, SiteHeader } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
+import { StoryVisual } from "@/components/story";
 import { fmtLongDate } from "@/lib/format";
-import { getIssue, getIssues } from "@/lib/site-data";
-import type { Issue } from "@/lib/types";
+import { getIssue, getIssues, getStories } from "@/lib/site-data";
+import type { Issue, Story } from "@/lib/types";
 
 export async function generateStaticParams() {
   const issues = await getIssues();
@@ -41,10 +42,16 @@ function SectionLabel({ children }: { children: string }) {
   return <h2 className="display m-0 text-[18px] tracking-[0.08em]">{children.replace(/[‘’]/g, "'")}</h2>;
 }
 
-/** A newsletter issue, read like an article: bone page, numbered sections, a dark sign-up band. */
+/**
+ * A newsletter issue, read like an article: bone page, sections of stories with their images, a
+ * dark sign-up band. Stories we briefed link to the briefing (which counts toward the meter);
+ * the rest link to their sources.
+ */
 export default async function IssuePage({ params }: PageProps<"/issues/[number]">) {
-  const issue = await getIssue(Number((await params).number));
+  const [issue, stories] = await Promise.all([getIssue(Number((await params).number)), getStories()]);
   if (!issue) notFound();
+  const byId = new Map<string, Story>(stories.map((s) => [s.id, s]));
+  const briefing = (id: string) => (byId.get(id)?.brief ? `/story/${id}` : undefined);
 
   return (
     <>
@@ -66,13 +73,39 @@ export default async function IssuePage({ params }: PageProps<"/issues/[number]"
             {issue.sections.map((section) => (
               <section key={section.heading} className="flex flex-col gap-2 pt-4">
                 <SectionLabel>{section.heading}</SectionLabel>
-                {section.stories.map((s) => (
-                  <div key={s.storyId} className="flex flex-col gap-3 border-b border-rule py-6 last:border-b-0">
-                    <h3 className="m-0 text-[24px] font-semibold leading-[1.25]">{s.headline}</h3>
-                    <p className="m-0 text-[18px] leading-[1.7] text-body">{s.body}</p>
-                    <Sources issue={issue} storyId={s.storyId} />
-                  </div>
-                ))}
+                {section.stories.map((s) => {
+                  const href = briefing(s.storyId);
+                  const visual = <StoryVisual story={byId.get(s.storyId) ?? { id: s.storyId }} ratio="16/9" />;
+                  return (
+                    <div key={s.storyId} className="flex flex-col gap-3 border-b border-rule py-6 last:border-b-0">
+                      <div className="mb-2">
+                        {href ? (
+                          <Link href={href} className="group block" tabIndex={-1} aria-hidden>
+                            {visual}
+                          </Link>
+                        ) : (
+                          visual
+                        )}
+                      </div>
+                      <h3 className="m-0 text-[24px] font-semibold leading-[1.25]">
+                        {href ? (
+                          <Link href={href} className="hover:text-signal">
+                            {s.headline}
+                          </Link>
+                        ) : (
+                          s.headline
+                        )}
+                      </h3>
+                      <p className="m-0 text-[18px] leading-[1.7] text-body">{s.body}</p>
+                      <Sources issue={issue} storyId={s.storyId} />
+                      {href && (
+                        <Link href={href} className="caps mt-1 self-start text-[12px] text-signal hover:text-fg">
+                          Read the briefing →
+                        </Link>
+                      )}
+                    </div>
+                  );
+                })}
               </section>
             ))}
 
@@ -81,10 +114,15 @@ export default async function IssuePage({ params }: PageProps<"/issues/[number]"
                 <SectionLabel>In brief</SectionLabel>
                 <ul className="m-0 list-none border-t border-fg p-0">
                   {issue.quickHits.map((q) => {
+                    const own = briefing(q.storyId);
                     const href = issue.links[q.storyId]?.[0]?.url;
                     return (
                       <li key={q.storyId} className="border-b border-rule py-3.5 text-[17px] leading-[1.5]">
-                        {href ? (
+                        {own ? (
+                          <Link href={own}>
+                            {q.text} <span className="text-signal">→</span>
+                          </Link>
+                        ) : href ? (
                           <a href={href} target="_blank" rel="noreferrer">
                             {q.text} <span className="text-signal">→</span>
                           </a>
