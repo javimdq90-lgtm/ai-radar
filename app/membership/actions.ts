@@ -40,6 +40,8 @@ export async function startCheckout(_prev: MembershipState, form: FormData): Pro
       success_url: `${origin}/membership/complete?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}${safePath(form.get("returnTo"))}`,
       allow_promotion_codes: true,
+      // Tags this flow's sessions in the Stripe Dashboard.
+      integration_identifier: "cw-membership-qkrvtmzd",
     });
     url = session.url;
   } catch (err) {

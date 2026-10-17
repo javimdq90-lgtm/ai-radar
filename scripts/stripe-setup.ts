@@ -13,14 +13,21 @@ if (!key) {
 }
 const stripe = new Stripe(key);
 
-const product = await stripe.products.create({
-  name: "Context Window Membership",
-  description: "Every briefing in full, and the Context Briefing three times a week.",
+async function main(stripe: Stripe, live: boolean) {
+  const product = await stripe.products.create({
+    name: "Context Window Membership",
+    description: "Every briefing in full, and the Context Briefing three times a week.",
+  });
+  const price = await stripe.prices.create({
+    product: product.id,
+    currency: "usd",
+    unit_amount: 200,
+    recurring: { interval: "month" },
+  });
+  console.log(`${live ? "Live" : "Test"} mode. Set STRIPE_PRICE_ID=${price.id}`);
+}
+
+main(stripe, key.startsWith("sk_live")).catch((err) => {
+  console.error(err);
+  process.exit(1);
 });
-const price = await stripe.prices.create({
-  product: product.id,
-  currency: "usd",
-  unit_amount: 200,
-  recurring: { interval: "month" },
-});
-console.log(`${key.startsWith("sk_live") ? "Live" : "Test"} mode. Set STRIPE_PRICE_ID=${price.id}`);
