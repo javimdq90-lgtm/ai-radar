@@ -21,9 +21,10 @@ function dismissedRecently() {
 }
 
 /**
- * Opens a membership offer in the middle of the screen once a reader has opened FREE_BRIEFINGS briefings this month, or
- * has read deep into a long page, whichever comes first. Never for members, never on a locked
- * briefing (its own card is showing) or the membership page, and at most once a day.
+ * Opens a membership offer in the middle of the screen once a reader has opened FREE_BRIEFINGS
+ * briefings this month, or has read deep into a page (on the front page: reached Latest),
+ * whichever comes first. Never for members, never on a locked briefing (its own card is showing)
+ * or the membership page, and at most once a day.
  */
 export function SubscribePrompt() {
   const pathname = usePathname();
@@ -46,7 +47,18 @@ export function SubscribePrompt() {
     const checkMeter = () => {
       if (!timer && (meter()?.read ?? 0) >= FREE_BRIEFINGS) timer = window.setTimeout(show, DELAY_MS);
     };
-    // Otherwise: once the reader is most of the way down a long page.
+    // Otherwise: when the reader reaches the page's marked spot (the front page's Latest), or, on
+    // pages without one, most of the way down a long page.
+    const marker = document.querySelector("[data-prompt-at]");
+    const observer = marker
+      ? new IntersectionObserver((entries) => {
+          if (entries.some((e) => e.isIntersecting || e.boundingClientRect.top < 0)) {
+            observer?.disconnect();
+            show();
+          }
+        })
+      : null;
+    if (marker) observer?.observe(marker);
     const onScroll = () => {
       const { scrollHeight } = document.documentElement;
       if (scrollHeight > 2 * window.innerHeight && window.scrollY + window.innerHeight >= DEPTH * scrollHeight) {
@@ -56,8 +68,9 @@ export function SubscribePrompt() {
     };
     checkMeter();
     window.addEventListener(METER_EVENT, checkMeter);
-    window.addEventListener("scroll", onScroll, { passive: true });
+    if (!marker) window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
+      observer?.disconnect();
       window.clearTimeout(timer);
       window.removeEventListener(METER_EVENT, checkMeter);
       window.removeEventListener("scroll", onScroll);
@@ -92,7 +105,11 @@ function PromptDialog({ heading, returnTo, onClose }: { heading: string; returnT
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = ref.current;
-    if (dialog && !dialog.open) dialog.showModal();
+    if (dialog && !dialog.open) {
+      dialog.showModal();
+      // Focus the dialog itself, so no button starts out looking selected; Tab reaches them.
+      dialog.focus();
+    }
     return () => dialog?.close();
   }, []);
 
@@ -100,13 +117,14 @@ function PromptDialog({ heading, returnTo, onClose }: { heading: string; returnT
     <dialog
       ref={ref}
       aria-labelledby="prompt-title"
+      tabIndex={-1}
       onCancel={(e) => {
         e.preventDefault();
         onClose();
       }}
       // A click on the dialog element itself, not its content, is a click on the dimmed backdrop.
       onClick={(e) => e.target === e.currentTarget && onClose()}
-      className="cw-pop m-auto w-[min(560px,calc(100vw-32px))] max-w-none border-0 bg-transparent p-0 text-bone"
+      className="cw-pop m-auto outline-none w-[min(560px,calc(100vw-32px))] max-w-none border-0 bg-transparent p-0 text-bone"
     >
       <div className="chamfer-lg relative flex flex-col gap-5 border-t-4 border-orange bg-[var(--cw-slate)] shadow-[inset_0_0_0_1px_#2c3038] px-7 pb-8 pt-9 sm:px-10 sm:pb-10">
         <button

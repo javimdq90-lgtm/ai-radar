@@ -14,7 +14,7 @@ const DARK =
  * `card`: a bone card with the large chamfer (front page, section pages).
  * `band`: a full-width black band (briefing pages, which are bone).
  */
-export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" }) {
+export function NewsletterBox({ variant = "card", className = "" }: { variant?: "card" | "band"; className?: string }) {
   const [state, action, pending] = useActionState(subscribe, initial);
   const band = variant === "band";
 
@@ -91,7 +91,7 @@ export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" 
   }
 
   return (
-    <section id="newsletter" aria-labelledby="newsletter-title" className="bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8">
+    <section id="newsletter" aria-labelledby="newsletter-title" className={`bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8 ${className}`}>
       <p className="kicker m-0 text-signal">Three times a week</p>
       <h2 id="newsletter-title" className="display m-0 text-[28px] leading-[1.12]">
         The Context Briefing.
