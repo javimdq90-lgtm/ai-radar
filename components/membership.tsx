@@ -111,12 +111,20 @@ const STATUS: Record<string, string> = {
 
 /** The message for ?status=… after checkout or a sign-in link. Needs a Suspense boundary. */
 export function MembershipNotice() {
-  const message = STATUS[useSearchParams().get("status") ?? ""];
+  const params = useSearchParams();
+  const message = STATUS[params.get("status") ?? ""];
+  // Where the reader subscribed from; only ever a briefing on this site.
+  const next = params.get("next");
   if (!message) return null;
   return (
-    <p className="m-0 border-l-4 border-orange bg-raised px-5 py-4 text-[16px]" role="status">
-      {message}
-    </p>
+    <div className="flex flex-col gap-3 border-l-4 border-orange bg-raised px-5 py-4" role="status">
+      <p className="m-0 text-[16px]">{message}</p>
+      {next && /^\/story\/[\w-]+$/.test(next) && (
+        <Link href={next} className="caps self-start text-[12px] text-orange hover:text-fg">
+          Continue reading →
+        </Link>
+      )}
+    </div>
   );
 }
 

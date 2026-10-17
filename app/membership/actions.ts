@@ -32,13 +32,14 @@ export async function startCheckout(_prev: MembershipState, form: FormData): Pro
   if (!config) return CLOSED;
   if (rateLimited(await clientIp())) return { message: "Too many attempts from here. Please try again in a few minutes." };
   const origin = await siteOrigin();
+  const returnTo = safePath(form.get("returnTo"));
   let url: string | null;
   try {
     const session = await config.stripe.checkout.sessions.create({
       mode: "subscription",
       line_items: [{ price: config.priceId, quantity: 1 }],
-      success_url: `${origin}/membership/complete?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${origin}${safePath(form.get("returnTo"))}`,
+      success_url: `${origin}/membership/complete?session_id={CHECKOUT_SESSION_ID}&next=${encodeURIComponent(returnTo)}`,
+      cancel_url: `${origin}${returnTo}`,
       allow_promotion_codes: true,
       // Tags this flow's sessions in the Stripe Dashboard.
       integration_identifier: "cw-membership-qkrvtmzd",
