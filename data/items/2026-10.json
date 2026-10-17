@@ -4271,5 +4271,176 @@
    "OpenAI"
   ],
   "storyId": "7aff82cf50e7"
+ },
+ {
+  "url": "https://llmspeed.dev/",
+  "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T04:36:53.000Z",
+  "score": 211,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50127979",
+  "id": "1557ed18b567",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "Llmspeed is a web tool that lets you experience the generation speed of a local LLM on various hardware before you buy it.",
+  "whyItMatters": "It helps builders judge whether a hardware purchase will deliver usable local inference speeds.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Llmspeed"
+  ],
+  "storyId": "1557ed18b567"
+ },
+ {
+  "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+  "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T08:37:46.000Z",
+  "score": 511,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50129121",
+  "id": "1fd6dd971a81",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "OpenRouter lists a new DeepSeek model, DeepSeek v4.1 Flash (1017 build), available through its API.",
+  "whyItMatters": "A new low-cost Flash tier from DeepSeek gives builders another cheap option to test, though details are sparse.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "DeepSeek",
+   "OpenRouter",
+   "DeepSeek v4.1 Flash"
+  ],
+  "image": "https://openrouter.ai/en-US/deepseek/deepseek-v4.1-flash-1017/opengraph-image-vc0va0?1e77ea1e963ce414",
+  "imageCheckedAt": "2026-10-17T19:28:15.628Z",
+  "storyId": "9b13d6a721a0"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+  "title": "Meta shakes up the frontiers, open and closed",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-10-17T14:06:54.000Z",
+  "snippet": "US open weights are back!",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/95f73e17-9e3c-49ea-8d4c-e0ae87c89257_3182x1790.png",
+  "id": "2524f385929c",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "Interconnects analyzes Meta's shake-up of the frontier model landscape, saying US open-weights models are back.",
+  "whyItMatters": "A renewed US open-weights push would change the options for builders who want to self-host or fine-tune strong models.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Interconnects"
+  ],
+  "storyId": "9d251ac6836a"
+ },
+ {
+  "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+  "title": "OpenAI discloses four more rogue incidents",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T16:31:12.000Z",
+  "score": 101,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50132502",
+  "id": "28fe2bff247e",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "OpenAI has disclosed four more rogue incidents, according to Fortune.",
+  "whyItMatters": "Continued disclosures about AI misbehavior inform how much to trust and safeguard deployed systems.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297785644_b97df1-e1792164755578.jpg?resize=1200,600",
+  "imageCheckedAt": "2026-10-17T19:28:15.517Z",
+  "storyId": "7aff82cf50e7"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+  "title": "Meta removes language that may have allowed it to scrape news sites",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-17T15:04:36.000Z",
+  "snippet": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Company Products, services, and features provided under these Commercial Terms and any other applicable supplemental terms. Many, including Neiman Lab and James Grimmelmann, a professor of digital and inf…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "3e7a8c91741b",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "After backlash, Meta removed language from its commercial terms that suggested it could use content from domains and web pages, including news sites, to train its AI.",
+  "whyItMatters": "It shows ongoing tension over scraping and training data rights between AI companies and publishers.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Neiman Lab",
+   "James Grimmelmann"
+  ],
+  "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  "title": "Replit is no longer working with Anthropic, CEO says",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-17T18:48:08.000Z",
+  "snippet": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+  "id": "6435f671229b",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "Replit CEO Amjad Masad says Replit is no longer working with Anthropic, and OpenAI will replace it as the default model provider. Claude remains available to customers on the platform.",
+  "whyItMatters": "A major coding platform switching its default model from Anthropic to OpenAI is a notable shift in the coding-assistant market.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Replit",
+   "Anthropic",
+   "OpenAI",
+   "Amjad Masad"
+  ],
+  "imageCheckedAt": "2026-10-17T19:28:15.534Z",
+  "storyId": "e6b0c9baa366"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+  "title": "Websites are closing their doors to AI agents",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-17T13:00:00.000Z",
+  "snippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites. Yelp told TechCrunch that it only allows AI agents that pay for its data licensing program, while Delta…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f155d49d3345",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "Users of agents like Meta's Muse, xAI's Grok, OpenAI's Dots and Instinct report being blocked from major websites. Yelp says it only allows agents that pay for its data licensing program.",
+  "whyItMatters": "Agent products that rely on browsing the open web face growing access barriers, pushing toward paid licensing and official APIs.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Yelp",
+   "Meta",
+   "xAI",
+   "OpenAI",
+   "Instinct"
+  ],
+  "storyId": "f155d49d3345"
+ },
+ {
+  "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+  "title": "Amazon uses AI to monitor union risk in UK warehouses",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T16:04:23.000Z",
+  "score": 121,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50132278",
+  "id": "fa796824301f",
+  "fetchedAt": "2026-10-17T19:28:06.030Z",
+  "enrichedAt": "2026-10-17T19:28:15.436Z",
+  "summary": "Open Democracy reports that Amazon uses AI to monitor union organizing risk in its UK warehouses.",
+  "whyItMatters": "It highlights AI-driven workplace surveillance and labour concerns.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Amazon"
+  ],
+  "image": "https://storage.ghost.io/c/3f/80/3f804bea-4b2d-4ddf-9ff0-6ec7d0afa5fa/content/images/size/w1200/2026/10/Amazon-AI-question-openDemocracy-edit.jpg",
+  "imageCheckedAt": "2026-10-17T19:28:15.512Z",
+  "storyId": "fa796824301f"
  }
 ]
