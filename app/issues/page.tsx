@@ -12,7 +12,6 @@ export default async function IssuesPage() {
     <PageShell
       title="The Context Briefing"
       intro="Every Monday, Wednesday and Friday morning: the stories that mattered since the last issue, in five minutes."
-      latestIssue={issues[0] ?? null}
     >
       {issues.length ? (
         <ul className="m-0 list-none border-t-2 border-fg p-0">

@@ -6,7 +6,7 @@ import { ShareButton } from "@/components/share-button";
 import { Byline, Kicker, RelatedItem, sourceName, StoryVisual, storySummary, storyTitle } from "@/components/story";
 import { fmtWhen } from "@/lib/format";
 import { OG_BASE } from "@/lib/site";
-import { getBriefedStoryIds, getIssues, getStory } from "@/lib/site-data";
+import { getBriefedStoryIds, getStory } from "@/lib/site-data";
 
 export async function generateStaticParams() {
   const ids = await getBriefedStoryIds();
@@ -59,7 +59,7 @@ function Section({ title, paragraphs, quote }: ArticleSection) {
 }
 
 export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
-  const [data, issues] = await Promise.all([getStory((await params).id), getIssues()]);
+  const data = await getStory((await params).id);
   if (!data) notFound();
   const { story, related, relatedIsSection, generatedAt: now } = data;
   const { brief } = story;
@@ -188,7 +188,7 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
           </aside>
         </div>
 
-        <NewsletterBox variant="band" latestIssue={issues[0] ?? null} />
+        <NewsletterBox variant="band" />
       </div>
       <Footer newsletterHref="#newsletter" />
     </>

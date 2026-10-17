@@ -26,7 +26,7 @@ const SECTION_DAYS = 7;
 export async function getFrontPage() {
   "use cache";
   cacheLife("hours");
-  const [stories, issues] = await Promise.all([getStories(), loadIssues()]);
+  const stories = await getStories();
   const now = Date.now();
   const recent = stories.filter((s) => s.firstSeen >= new Date(now - FRONT_PAGE_HOURS * HOUR).toISOString());
 
@@ -45,7 +45,6 @@ export async function getFrontPage() {
     // Everything newest-first, minus what the main column already shows.
     wire: recent.filter((s) => !shown.has(s.id)).sort(byRecency).slice(0, 16),
     sections,
-    latestIssue: issues[0] ?? null,
     generatedAt: new Date(now).toISOString(),
   };
 }

@@ -63,9 +63,6 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
             context.
           </h1>
           <p className="m-0 max-w-[30ch] text-[clamp(16px,1.6vw,21px)] leading-[1.5] text-bone">{SUBLINE}</p>
-          <Link href="#top-story" aria-label="Today's top story" className="inline-flex min-h-11 items-center self-start text-orange">
-            <Arrow width={44} />
-          </Link>
         </div>
 
         {stories.length > 0 && (
@@ -81,7 +78,7 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
 }
 
 export default async function Home() {
-  const { lead, top, wire, latestIssue, generatedAt: now } = await getFrontPage();
+  const { lead, top, wire, generatedAt: now } = await getFrontPage();
   // The top story is the highest-ranked briefing (our own summary); the next three go in the
   // hero cards and the rest in the grid.
   const ranked = lead ? [lead, ...top] : [];
@@ -129,7 +126,7 @@ export default async function Home() {
               </ol>
             </section>
             <aside aria-label="Newsletter" className="min-w-0 flex-[1_1_340px] self-start lg:sticky lg:top-6">
-              <NewsletterBox latestIssue={latestIssue} />
+              <NewsletterBox />
             </aside>
           </div>
         </main>

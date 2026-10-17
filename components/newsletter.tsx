@@ -1,12 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { useActionState, useEffect, useRef } from "react";
 import { subscribe, type SubscribeState } from "@/app/actions";
 
 const initial: SubscribeState = { message: "" };
-
-type LatestIssue = { number: number; subject: string } | null | undefined;
 
 /** The dark palette, for the band when it sits on a bone page. */
 const DARK =
@@ -17,7 +14,7 @@ const DARK =
  * `card`: a bone card with the large chamfer (front page, section pages).
  * `band`: a full-width black band (briefing pages, which are bone).
  */
-export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?: LatestIssue; variant?: "card" | "band" }) {
+export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" }) {
   const [state, action, pending] = useActionState(subscribe, initial);
   const band = variant === "band";
 
@@ -71,19 +68,7 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
           {state.message}
         </p>
       )}
-      <p className="m-0 text-[12px] text-muted">
-        We&rsquo;ll email you once to confirm. Unsubscribe anytime.{" "}
-        <Link href="/privacy" className="link">
-          Privacy
-        </Link>
-      </p>
     </form>
-  );
-
-  const issueLink = latestIssue && (
-    <Link href={`/issues/${latestIssue.number}`} className="text-[13px] text-muted">
-      Latest issue, #{latestIssue.number}: <span className="link">{latestIssue.subject}</span>
-    </Link>
   );
 
   if (band) {
@@ -99,7 +84,6 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
           </div>
           <div className="flex flex-[1_1_420px] flex-col gap-3">
             {form}
-            {issueLink}
           </div>
         </div>
       </section>
@@ -114,7 +98,6 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
       </h2>
       <p className="m-0 text-[16px] text-dek">The most important AI news, analysis and ideas. A wider context.</p>
       {form}
-      {issueLink}
     </section>
   );
 }
