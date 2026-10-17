@@ -40,7 +40,12 @@ npm run ingest                         npm run newsletter
    - Sign-ups are double opt-in: the form emails a signed link (valid 7 days, from `NEWSLETTER_FROM` if set on Vercel, else `hello@contextwindow.me`), and the address joins the segment only when the reader clicks *Yes, subscribe me* on `/subscribe/confirm`. The form has a honeypot field, a too-fast-to-be-human check and a per-IP limit. Links are signed with a key derived from the API key; set `SUBSCRIBE_SECRET` on Vercel to use your own (changing either invalidates unconfirmed links).
    - In this repo, add the variables `RESEND_SEGMENT_ID` and `NEWSLETTER_ADDRESS` (a postal address for the footer, which bulk-email law requires). The newsletter job then sends each issue to the segment as a Resend broadcast, with a per-reader unsubscribe link, instead of to `NEWSLETTER_TO`. Subscribe your own address on the site to keep getting it.
    - Check it first with `npm run newsletter -- --dry-run` and `RESEND_SEGMENT_ID` set locally: `preview/issue.html` shows the subscriber footer.
-5. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
+5. **Membership (optional).** Readers get 3 full briefings a month, then pay $2 a month through Stripe (`lib/meter.ts`, `lib/membership.ts`). Until both Stripe env vars are set, there's no meter, paywall or prompt, and the membership page says memberships open soon.
+   - Create a [Stripe](https://stripe.com) account. With its test secret key, run `STRIPE_SECRET_KEY=sk_test_... npx tsx scripts/stripe-setup.ts` to create the product and $2 monthly price, and note the price id it prints.
+   - On Vercel, add `STRIPE_SECRET_KEY` and `STRIPE_PRICE_ID` (plus `RESEND_API_KEY`, which sends sign-in links), then redeploy. Check a test checkout with card `4242 4242 4242 4242`, then repeat the setup script and the env vars with the live key.
+   - In Stripe, turn on the customer portal (Settings → Billing → Customer portal) so members can cancel and change cards.
+   - There's no database: Stripe is the record of who pays, and a signed cookie remembers the reader. Access is re-checked with Stripe every 3 days. The meter is a soft paywall: counted in the browser, with full text in the page for search engines. Cookies are signed with a key derived from the Stripe key; set `MEMBER_SECRET` to use your own (changing either signs everyone out).
+6. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
 
 ## Costs
 

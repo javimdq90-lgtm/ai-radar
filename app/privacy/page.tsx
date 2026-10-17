@@ -14,9 +14,18 @@ const SECTIONS: { heading: string; body: string[] }[] = [
     ],
   },
   {
+    heading: "Membership",
+    body: [
+      "Members pay through Stripe, which handles card details and keeps your email, payment method and subscription under its own privacy policy. Card details never reach us.",
+      "To keep you signed in, your browser stores two cookies: one naming your Stripe customer record, signed so it can't be forged, and one saying when to check your membership with Stripe again. Signing out removes both.",
+      "Sign-in links are emailed by Resend. Joining also adds your address to the newsletter, which you can unsubscribe from at any time without cancelling.",
+    ],
+  },
+  {
     heading: "The website",
     body: [
-      "The site has no accounts, no advertising and no analytics or tracking cookies. Search runs in your browser over a list of stories; what you type isn't sent to us.",
+      "The site has no advertising and no analytics or tracking cookies. Search runs in your browser over a list of stories; what you type isn't sent to us.",
+      "To count your free briefings, your browser keeps a list of the briefings you've opened this month in its own storage. It never leaves your device, and clearing your browser's site data resets it.",
       "The site is hosted on Vercel, which, like any web host, handles your IP address to serve pages and may keep it briefly in server logs for security and reliability.",
       "Story images are loaded from the publishers' own servers, which therefore see your IP address, as they would if you visited them. Headlines that aren't briefings link straight to the original article, on that publisher's site and under its own privacy policy.",
     ],

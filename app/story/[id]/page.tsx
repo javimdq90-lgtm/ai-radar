@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Footer, SiteHeader } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
+import { Paywall } from "@/components/paywall";
 import { ShareButton } from "@/components/share-button";
 import { Byline, Kicker, RelatedItem, sourceName, StoryVisual, storySummary, storyTitle } from "@/components/story";
 import { fmtWhen } from "@/lib/format";
-import { OG_BASE } from "@/lib/site";
+import { membershipOpen } from "@/lib/membership";
+import { AUTHOR, OG_BASE, SITE_URL } from "@/lib/site";
 import { getBriefedStoryIds, getStory } from "@/lib/site-data";
 
 export async function generateStaticParams() {
@@ -83,8 +85,25 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
         ? [{ title: "Why it matters", paragraphs: [story.lead.whyItMatters] }]
         : [];
 
+  // Briefings show their first section free; the rest counts against the monthly meter.
+  const metered = membershipOpen() && !!brief && sections.length > 1;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: title,
+    description: summary || undefined,
+    url: `${SITE_URL}/story/${story.id}`,
+    datePublished: brief?.writtenAt ?? story.firstSeen,
+    ...(brief ? { author: { "@type": "Person", name: AUTHOR.name } } : {}),
+    publisher: { "@type": "Organization", name: "Context Window", url: SITE_URL },
+    // Tells search engines the faded part is a paywall, not hidden text.
+    isAccessibleForFree: !metered,
+    ...(metered ? { hasPart: { "@type": "WebPageElement", isAccessibleForFree: false, cssSelector: ".paywalled" } } : {}),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <div className="bone">
         <SiteHeader active={story.category} />
 
@@ -138,9 +157,16 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
               </section>
             )}
 
-            {sections.map((s) => (
+            {(metered ? sections.slice(0, 1) : sections).map((s) => (
               <Section key={s.title} {...s} />
             ))}
+            {metered && (
+              <Paywall storyId={story.id}>
+                {sections.slice(1).map((s) => (
+                  <Section key={s.title} {...s} />
+                ))}
+              </Paywall>
+            )}
 
             <section id="sources" aria-labelledby="sources-title" className="scroll-mt-6 border-t border-fg pt-5">
               <h2 id="sources-title" className="display m-0 mb-2 text-[14px] tracking-[0.1em]">

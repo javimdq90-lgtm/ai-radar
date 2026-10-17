@@ -2,28 +2,14 @@
 
 import { headers } from "next/headers";
 import { z } from "zod";
+import { rateLimiter } from "@/lib/rate-limit";
 import { addSubscriber, readToken, sendConfirmation, subscribeConfig } from "@/lib/subscribe";
 
 export type SubscribeState = { ok?: boolean; message: string };
 
 /** Faster than this from page load to submit is a script, not a person. */
 const MIN_FILL_MS = 2_000;
-const LIMIT = 5;
-const WINDOW_MS = 10 * 60_000;
-/**
- * Sign-up attempts per IP. Best effort: it lives in one server instance's memory, so it slows
- * a burst from one address rather than guaranteeing a global limit.
- */
-const attempts = new Map<string, number[]>();
-
-function rateLimited(ip: string) {
-  const now = Date.now();
-  const recent = (attempts.get(ip) ?? []).filter((t) => now - t < WINDOW_MS);
-  recent.push(now);
-  attempts.set(ip, recent);
-  if (attempts.size > 10_000) attempts.clear();
-  return recent.length > LIMIT;
-}
+const rateLimited = rateLimiter(5, 10 * 60_000);
 
 const SENT = (email: string): SubscribeState => ({
   ok: true,

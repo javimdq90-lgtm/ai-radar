@@ -200,3 +200,37 @@ body {
     color: var(--signal);
   }
 }
+
+/*
+ * The briefing meter (lib/meter.ts, components/paywall.tsx). Without the attribute (no script,
+ * search engines) everything shows and the card stays hidden.
+ */
+.paywall-card {
+  display: none;
+}
+[data-paywall="locked"] .paywall-card {
+  display: flex;
+}
+[data-paywall="locked"] .paywalled {
+  max-height: 11rem;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  mask-image: linear-gradient(to bottom, #000 10%, transparent 100%);
+}
+
+/* The membership prompt slides up from the bottom edge. */
+@keyframes cw-rise {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+}
+.cw-rise {
+  animation: cw-rise 0.35s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cw-rise {
+    animation: none;
+  }
+}

@@ -197,6 +197,11 @@ export function Footer({ newsletterHref = "/#newsletter" }: { newsletterHref?: s
             </Link>
           </li>
           <li>
+            <Link href="/membership" className={footerLink}>
+              Membership
+            </Link>
+          </li>
+          <li>
             <Link href="/privacy" className={footerLink}>
               Privacy
             </Link>

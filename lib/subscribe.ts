@@ -27,8 +27,8 @@ export function subscribeConfig() {
 const b64 = (s: string | Buffer) => Buffer.from(s).toString("base64url");
 const sign = (payload: string, key: string) => createHmac("sha256", key).update(payload).digest("base64url");
 
-export function makeToken(email: string, key: string, now = Date.now()) {
-  const payload = b64(`${email}|${now + LINK_DAYS * 86_400_000}`);
+export function makeToken(email: string, key: string, now = Date.now(), ttlMs = LINK_DAYS * 86_400_000) {
+  const payload = b64(`${email}|${now + ttlMs}`);
   return `${payload}.${sign(payload, key)}`;
 }
 
