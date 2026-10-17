@@ -82,36 +82,48 @@ const HEADER_NAV: NavKey[] = ["briefings", "models", "research", "products", "po
 /**
  * Logo left, five caps sections (active in orange) and a bare search icon. From lg the sections
  * sit centred on one row; below that they wrap onto their own row under the logo. `overlay`
- * makes the header transparent so it can sit on the front-page hero image. Inside a `.bone`
+ * floats the header over the front-page hero image, in a faint frosted box. Inside a `.bone`
  * page the same markup turns light.
  */
 export function SiteHeader({ active, overlay = false }: { active?: NavKey; overlay?: boolean }) {
-  return (
-    <header className={overlay ? "relative z-20" : "border-b border-rule"}>
-      <div className="container-cw flex min-h-[72px] flex-wrap items-center gap-x-6 py-2 lg:flex-nowrap">
-        <Link href="/" aria-label={`${SITE_NAME}, front page`} className="flex items-center gap-3 hover:text-fg">
-          <Logo id="cw-header" className="h-9 max-sm:h-[30px]" />
-        </Link>
-        <nav
-          aria-label="Main sections"
-          className="order-last flex w-full flex-wrap gap-x-5 lg:order-none lg:w-auto lg:flex-1 lg:justify-center lg:gap-x-7"
-        >
-          {NAV.filter((item) => HEADER_NAV.includes(item.key)).map((item) => (
-            <Link
-              key={item.key}
-              href={item.href}
-              aria-current={active === item.key ? "page" : undefined}
-              className={`caps inline-flex min-h-11 items-center text-[11px] font-semibold ${active === item.key ? "text-signal" : ""}`}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-        <div className="ml-auto lg:ml-0">
-          <SearchButton bare onImage={overlay} />
-        </div>
+  const bar = (
+    <div
+      className={`flex flex-wrap items-center gap-x-6 py-2 lg:flex-nowrap ${
+        overlay
+          ? "min-h-16 border border-[rgb(238_235_227/0.08)] bg-[rgb(28_27_25/0.42)] px-4 backdrop-blur-md [clip-path:var(--cw-chamfer-sm)] sm:px-5"
+          : "container-cw min-h-[72px]"
+      }`}
+    >
+      <Link href="/" aria-label={`${SITE_NAME}, front page`} className="flex items-center gap-3 hover:text-fg">
+        <Logo id="cw-header" className="h-9 max-sm:h-[30px]" />
+      </Link>
+      <nav
+        aria-label="Main sections"
+        className="order-last flex w-full flex-wrap gap-x-5 lg:order-none lg:w-auto lg:flex-1 lg:justify-center lg:gap-x-7"
+      >
+        {NAV.filter((item) => HEADER_NAV.includes(item.key)).map((item) => (
+          <Link
+            key={item.key}
+            href={item.href}
+            aria-current={active === item.key ? "page" : undefined}
+            className={`caps inline-flex min-h-11 items-center text-[11px] font-semibold ${active === item.key ? "text-signal" : ""}`}
+          >
+            {item.label}
+          </Link>
+        ))}
+      </nav>
+      <div className="ml-auto lg:ml-0">
+        <SearchButton bare onImage={overlay} />
       </div>
+    </div>
+  );
+  // Over the hero photo the bar sits in a faint frosted box; elsewhere it is plain.
+  return overlay ? (
+    <header className="relative z-20 pt-4">
+      <div className="container-cw">{bar}</div>
     </header>
+  ) : (
+    <header className="border-b border-rule">{bar}</header>
   );
 }
 
