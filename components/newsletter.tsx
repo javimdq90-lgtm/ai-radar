@@ -13,10 +13,12 @@ const DARK =
  * "THE CONTEXT BRIEFING." sign-up, the #newsletter target of every SUBSCRIBE button.
  * `card`: a bone card with the large chamfer (front page, section pages).
  * `band`: a full-width black band (briefing pages, which are bone).
+ * `tile`: a compact card the size of a story card, for the front page's More stories grid.
  */
-export function NewsletterBox({ variant = "card", className = "" }: { variant?: "card" | "band"; className?: string }) {
+export function NewsletterBox({ variant = "card" }: { variant?: "card" | "band" | "tile" }) {
   const [state, action, pending] = useActionState(subscribe, initial);
   const band = variant === "band";
+  const tile = variant === "tile";
 
   // React clears form fields after each submission, so the load time is written back every time `state` changes.
   const startedAt = useRef<HTMLInputElement>(null);
@@ -32,7 +34,7 @@ export function NewsletterBox({ variant = "card", className = "" }: { variant?: 
     </p>
   ) : (
     <form action={action} className="relative flex flex-col gap-2">
-      <label htmlFor={`newsletter-email-${variant}`} className="text-[13px] font-medium text-dek">
+      <label htmlFor={`newsletter-email-${variant}`} className={tile ? "sr-only" : "text-[13px] font-medium text-dek"}>
         Email address
       </label>
       <div className={`flex gap-2 ${band ? "flex-wrap" : "flex-col"}`}>
@@ -43,7 +45,7 @@ export function NewsletterBox({ variant = "card", className = "" }: { variant?: 
           required
           autoComplete="email"
           placeholder="you@company.com"
-          className={`min-h-12 px-3.5 text-fg placeholder:text-muted ${
+          className={`${tile ? "min-h-11" : "min-h-12"} px-3.5 text-fg placeholder:text-muted ${
             band ? "flex-[1_1_220px] border border-rule-strong bg-raised" : "border border-black bg-white"
           }`}
         />
@@ -56,7 +58,7 @@ export function NewsletterBox({ variant = "card", className = "" }: { variant?: 
         <button
           type="submit"
           disabled={pending}
-          className={`caps min-h-12 cursor-pointer border-0 px-6 disabled:opacity-70 ${
+          className={`caps ${tile ? "min-h-11" : "min-h-12"} cursor-pointer border-0 px-6 disabled:opacity-70 ${
             band ? "bg-orange text-black" : "bg-black text-bone"
           }`}
         >
@@ -90,8 +92,25 @@ export function NewsletterBox({ variant = "card", className = "" }: { variant?: 
     );
   }
 
+  if (tile) {
+    return (
+      <section
+        id="newsletter"
+        aria-labelledby="newsletter-title"
+        className="bone chamfer-md flex h-full scroll-mt-6 flex-col justify-center gap-3 p-6"
+      >
+        <p className="kicker m-0 text-signal">Three times a week</p>
+        <h2 id="newsletter-title" className="display m-0 text-[clamp(18px,1.6vw,22px)] leading-[1.15]">
+          The Context Briefing.
+        </h2>
+        <p className="m-0 text-[14px] leading-[1.5] text-dek">The most important AI news, analysis and ideas, by email.</p>
+        {form}
+      </section>
+    );
+  }
+
   return (
-    <section id="newsletter" aria-labelledby="newsletter-title" className={`bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8 ${className}`}>
+    <section id="newsletter" aria-labelledby="newsletter-title" className="bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8">
       <p className="kicker m-0 text-signal">Three times a week</p>
       <h2 id="newsletter-title" className="display m-0 text-[28px] leading-[1.12]">
         The Context Briefing.

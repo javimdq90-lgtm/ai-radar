@@ -85,9 +85,10 @@ export default async function Home() {
   const topStory = ranked.find((s) => s.brief) ?? ranked[0];
   const others = ranked.filter((s) => s !== topStory);
   const heroStories = others.slice(0, 3);
-  // Whole rows only: on desktop, three columns of stories beside the sign-up card.
-  const rest = others.slice(3, 9);
-  const gridStories = rest.length >= 3 ? rest.slice(0, rest.length - (rest.length % 3)) : rest;
+  // Whole rows only: the grid is four wide on desktop and two on tablets, and the sign-up tile
+  // fills one cell, so it shows seven stories (or three).
+  const rest = others.slice(3, 10);
+  const gridStories = rest.length >= 7 ? rest : rest.slice(0, 3);
 
   return (
     <div className="max-md:pb-24">
@@ -108,20 +109,13 @@ export default async function Home() {
             <section id="top-stories" aria-labelledby="top-h" className="flex scroll-mt-6 flex-col gap-7 border-b border-rule py-14">
               <SectionTitle id="top-h">More stories</SectionTitle>
               {/* Hairline grid: each card draws a 1px ring that meets its neighbour's in the 1px gap. The
-                  sign-up card takes the fourth column on desktop; on smaller screens it sits after
-                  the fourth story, across the full width. */}
-              <div className="grid gap-px p-px sm:grid-cols-2 lg:grid-cols-[repeat(3,minmax(0,1fr))_minmax(300px,1.15fr)]">
-                {gridStories.slice(0, 4).map((s) => (
+                  sign-up tile is the fourth cell: the end of the first row on desktop. */}
+              <div className="grid gap-px p-px sm:grid-cols-2 lg:grid-cols-4">
+                {gridStories.slice(0, 3).map((s) => (
                   <StoryCard key={s.id} story={s} now={now} />
                 ))}
-                <div
-                  className={`min-w-0 py-6 sm:col-span-2 lg:col-span-1 lg:col-start-4 lg:row-start-1 lg:py-0 lg:pl-3 ${
-                    gridStories.length > 3 ? "lg:row-span-2" : ""
-                  }`}
-                >
-                  <NewsletterBox className="h-full justify-center" />
-                </div>
-                {gridStories.slice(4).map((s) => (
+                <NewsletterBox variant="tile" />
+                {gridStories.slice(3).map((s) => (
                   <StoryCard key={s.id} story={s} now={now} />
                 ))}
               </div>

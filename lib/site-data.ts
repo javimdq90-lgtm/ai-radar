@@ -30,8 +30,8 @@ export async function getFrontPage() {
   const now = Date.now();
   const recent = stories.filter((s) => s.firstSeen >= new Date(now - FRONT_PAGE_HOURS * HOUR).toISOString());
 
-  // 10: the top story, three hero cards and a grid of six (two rows of three beside the sign-up card).
-  const top = recent.slice(0, 10);
+  // 11: the top story, three hero cards and a grid of seven (two rows of four with the sign-up tile).
+  const top = recent.slice(0, 11);
   const shown = new Set(top.map((s) => s.id));
   const weekCutoff = new Date(now - SECTION_DAYS * 24 * HOUR).toISOString();
   const sections = CATEGORIES.map((category) => ({
