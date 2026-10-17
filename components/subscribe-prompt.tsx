@@ -31,7 +31,7 @@ export function SubscribePrompt() {
   const [shown, setShown] = useState<{ read: number; left: number } | null>(null);
 
   useEffect(() => {
-    if (pathname.startsWith("/membership") || dismissedRecently()) return;
+    if (pathname.startsWith("/membership")) return;
     const meter = () => {
       const m = window.cwMeter?.(null, false);
       return m && !m.member && !m.recheck ? m : null;
@@ -39,7 +39,8 @@ export function SubscribePrompt() {
     const locked = () => document.documentElement.dataset.paywall === "locked" && !!document.querySelector(".paywalled");
     const show = () => {
       const m = meter();
-      if (m && !locked()) setShown({ read: m.read, left: m.left });
+      // Checked now rather than on load, so it follows whatever was dismissed in the meantime.
+      if (m && !locked() && !dismissedRecently()) setShown({ read: m.read, left: m.left });
     };
 
     let timer = 0;
