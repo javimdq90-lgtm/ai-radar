@@ -78,7 +78,7 @@ const NAV: { key: NavKey; label: string; href: string }[] = [
 ];
 
 /** The header shows five sections so it stays uncluttered; the footer lists them all. */
-const HEADER_NAV: NavKey[] = ["briefings", "models", "research", "products", "policy"];
+const HEADER_NAV: NavKey[] = ["briefings", "guides", "models", "research", "policy"];
 
 /**
  * Logo left, five caps sections (active in orange) and a bare search icon. From lg the sections
