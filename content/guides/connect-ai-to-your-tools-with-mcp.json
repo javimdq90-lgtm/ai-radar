@@ -1,0 +1,143 @@
+{
+  "slug": "connect-ai-to-your-tools-with-mcp",
+  "title": "Connect Claude to your work tools with MCP, safely",
+  "dek": "What the Model Context Protocol is, how to add an MCP server to Claude as a connector or a local server, and what to check before you let it act on your behalf.",
+  "vendor": "Several",
+  "product": "Model Context Protocol",
+  "level": "Intermediate",
+  "minutes": 25,
+  "updated": "2026-10-18",
+  "intro": [
+    "The Model Context Protocol (MCP) is an open standard that lets an AI app talk to outside tools and data in a common way. A service publishes an MCP server once, and any app that speaks MCP can use it, so you are not waiting for each vendor to build its own integration. Anthropic created MCP and in December 2025 donated it to the Agentic AI Foundation, a fund run under the Linux Foundation. The project is now set up as an LF Projects entity and is run by its own group of individual maintainers.",
+    "This guide is for professionals who already use Claude and want it to read from, or act in, the tools they work with every day: a project tracker, a document store, a code host, a folder on their laptop. You will connect one server, test it on a harmless task and learn which permissions to keep tight.",
+    "Use MCP when you keep copying information between Claude and another app, or when you want Claude to look something up for itself rather than rely on what you paste in. If a ready-made connector already exists in Claude's directory, start there. The custom route is for services that publish their own MCP server."
+  ],
+  "youNeed": [
+    "A Claude account. Custom connectors work on Free, Pro, Max, Team and Enterprise plans; Free accounts are limited to one",
+    "The URL of a remote MCP server you trust, or a desktop extension for a local one",
+    "On Team or Enterprise, an Owner who can add the connector for your organisation",
+    "Claude Desktop, only if you want to run a server on your own computer",
+    "Node.js, only if you configure a local server by hand"
+  ],
+  "steps": [
+    {
+      "title": "Learn the three roles: host, client and server",
+      "body": "MCP describes a conversation between three parties. It helps to know which is which before you start changing settings.\n\n- **Host**: the AI app you actually use, such as Claude Desktop, Claude on the web or VS Code. It decides what the model is allowed to do.\n- **Client**: a small connection the host opens for each server. You rarely see it; it's plumbing.\n- **Server**: the program that offers capabilities. It can run on your machine (a *local* server, which talks to the host over standard input and output) or on the internet (a *remote* server, reached over HTTP).\n\nServers offer three kinds of thing: **tools** the model can call to do something, **resources** that supply data to read, and **prompts**, which are ready-made templates. Most of what you will notice day to day is tools."
+    },
+    {
+      "title": "Pick one server for one job",
+      "body": "Start with a single, specific need, for example \"find the open tickets assigned to me\" or \"summarise the documents in this folder\". Then look for a server that does that job.\n\n- Check Claude's Connectors Directory first (claude.ai/connectors). Each listing says what the connector does, whether it reads or writes, and where it works.\n- If your service isn't listed, see whether the vendor publishes its own remote MCP server and gives you its URL.\n- Prefer servers built and hosted by the company that owns the data. A third-party wrapper around someone else's API adds a party you have to trust.\n\nResist connecting five servers at once. Each one adds tools the model can call, and problems are much easier to trace when there is only one."
+    },
+    {
+      "title": "Check the server before you connect it",
+      "body": "Anthropic says plainly that it does not vet custom connectors, so this step is yours. Before you add anything, answer these questions:\n\n- **Who runs it?** A named company with a security page is a better bet than an anonymous repository.\n- **What can it do?** Read the tool list. Can it only read data, or can it also create, change or delete things and send messages as you?\n- **What will it ask for?** When you sign in, the service will show the scopes it wants. Grant the narrowest set that does the job and decline the rest.\n- **Does it use OAuth?** That means Claude never sees your password and you can revoke access later. A shared API key is cruder: on Team and Enterprise everyone using the connector gets that key's full access.\n- **Can it reach Claude?** Remote connectors are called from Anthropic's cloud, not your device, so a server that only lives on your company VPN will not connect unless your network team allowlists Anthropic's IP ranges.\n\nFor local servers the stakes are higher: they run on your computer with your user account's permissions."
+    },
+    {
+      "title": "Add a remote server as a custom connector",
+      "body": "On Pro or Max, you add the connector yourself:\n\n1. In Claude, open **Customize**, then **Connectors**.\n2. Choose to add a custom connector and give it a name you will recognise.\n3. Paste the server's URL (it should start with `https://`) and continue.\n4. Claude detects how the server expects you to sign in. Accept the defaults unless the server's documentation tells you otherwise. If it uses fixed credentials such as an API key, there is a place to add request headers.\n5. Finish, then sign in to the service when prompted and review the permissions it requests.\n\nOn Team and Enterprise the work is split. An Owner adds the connector in **Organization settings** under **Connectors**, and then each member finds it in their own Connectors list, usually marked Custom, and signs in individually. Claude then sees only what that person could already see in the service.\n\nIf you just want to try the mechanics first, the MCP documentation offers a public demo server at `https://example-server.modelcontextprotocol.io/mcp`. It holds no data of yours."
+    },
+    {
+      "title": "Switch it on per chat and decide what it may do unasked",
+      "body": "Adding a connector does not mean every conversation uses it. In a chat, open the **+** menu at the bottom left, go to **Connectors** and toggle on only the ones that conversation needs.\n\nWhen Claude wants to call a tool it asks for approval, and you can choose to always allow it. Be choosy:\n\n- Allow read-only tools freely once you're happy with what they return.\n- Keep approval on for anything that writes, deletes, sends or pays.\n- Turn off tools that are irrelevant to the task, so the model is not tempted to use them.\n\nTeam and Enterprise Owners can go further and set each connector's tools to always allowed, needs approval or blocked for the whole organisation."
+    },
+    {
+      "title": "Optional: run a local server in Claude Desktop",
+      "body": "Local servers suit things that live on your computer, such as a folder of files. They work only in Claude Desktop, not in Claude on the web or Cowork.\n\nThe simple route is a **desktop extension**: a packaged local server you install from **Settings > Extensions** in Claude Desktop, entering any required keys in a form. Claude Desktop ships with its own Node.js for these.\n\nThe manual route is a JSON file. In Claude Desktop's own Settings window, open the **Developer** tab and choose **Edit Config**. This opens `claude_desktop_config.json`. A minimal entry that gives a file server access to a single sandbox folder looks like this:\n\n```json\n{\n  \"mcpServers\": {\n    \"sandbox-files\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/Users/you/Documents/claude-sandbox\"]\n    }\n  }\n}\n```\n\nUse an absolute path, and on Windows write backslashes doubled (`C:\\\\Users\\\\you\\\\...`). Quit Claude Desktop fully and reopen it; the server should then appear under Connectors. Point it at a folder made for the purpose, never your whole home directory: the server can do anything to those files that you can."
+    },
+    {
+      "title": "Try a first task that only reads",
+      "body": "Your first real task should be useful but impossible to regret. Good choices:\n\n- \"List the five most recently updated items in [project] and tell me which look blocked.\"\n- \"Read the files in my sandbox folder and give me a one-paragraph summary of each.\"\n- \"Find the last three documents that mention [client name] and list the decisions recorded in them.\"\n\nWatch the approval prompts as they appear. They show which tool Claude picked and what it sent, which is the quickest way to learn how the server behaves. Check the answer against the source app once. When you trust the reads, try a small write you can undo easily, such as adding a comment or creating a draft."
+    },
+    {
+      "title": "Review and prune your connectors",
+      "body": "Treat connectors like any other app you've given account access to.\n\n- Remove connectors you no longer use. In Claude this is done from the Connectors page; to change a connector's URL or credentials you remove it and add it again.\n- Revoke Claude's access from the third-party service's own security settings as well, if you're leaving it for good.\n- Pay attention when a server updates. If its tools start behaving differently, or ask for new scopes, stop and check before carrying on.\n- If you come across a server that looks malicious, Anthropic's help centre explains how to report it."
+    }
+  ],
+  "tips": [
+    "Watch for prompt injection: text inside a document, ticket or web page that a tool fetches can contain instructions aimed at the model. Read the tool inputs and outputs, especially before approving a write.",
+    "Claude's Research mode can call connector tools on its own without asking each time, so turn off write-capable tools before you start a research run.",
+    "If a connector uses a shared API key on a Team or Enterprise plan, create a key limited to exactly what your colleagues should reach, since everyone inherits it.",
+    "With many connectors switched on, the help centre suggests changing the tool access setting to load tools on demand rather than all at once.",
+    "When a local server will not appear, check the JSON syntax and paths first, then read the MCP logs in Claude Desktop's log folder, which usually name the problem."
+  ],
+  "faq": [
+    {
+      "q": "Does MCP only work with Claude?",
+      "a": "No. It is an open protocol and other vendors document their own support. OpenAI's developer docs describe adding a custom remote MCP server in ChatGPT and passing remote MCP servers to models as a tool in its API. Visual Studio Code lets you add MCP servers for use in Copilot chat. The same remote server can often serve all of them, though each app has its own settings and approval rules."
+    },
+    {
+      "q": "What is the difference between a connector and an MCP server?",
+      "a": "In Claude, a *connector* is the entry in your settings that links Claude to a service. A custom connector is simply a connector pointed at a remote MCP server's URL. Directory connectors are mostly MCP servers too; Anthropic has just done the setup for you."
+    },
+    {
+      "q": "Can Claude see everything in the connected service?",
+      "a": "It sees what the account you signed in with can see, limited further by the scopes you granted. It cannot get round the service's own permissions. The exception is a connector that uses a shared credential such as an API key, which gives every user that key's access."
+    },
+    {
+      "q": "Why won't my company's internal MCP server connect?",
+      "a": "Remote connectors are called from Anthropic's infrastructure, so the server must be reachable from the public internet or have Anthropic's published IP ranges allowlisted. A server that lives only on a private network or behind a VPN won't connect as a custom connector. A local server in Claude Desktop uses your own network instead."
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is the Model Context Protocol (MCP)?",
+      "publisher": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+    },
+    {
+      "title": "Architecture overview",
+      "publisher": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture"
+    },
+    {
+      "title": "Governance and Stewardship",
+      "publisher": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/community/governance"
+    },
+    {
+      "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+    },
+    {
+      "title": "Get started with custom connectors using remote MCP",
+      "publisher": "Claude Help Center",
+      "url": "https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp"
+    },
+    {
+      "title": "Use connectors to extend Claude's capabilities",
+      "publisher": "Claude Help Center",
+      "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities"
+    },
+    {
+      "title": "Getting started with local MCP servers on Claude Desktop",
+      "publisher": "Claude Help Center",
+      "url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop"
+    },
+    {
+      "title": "Connect to local MCP servers",
+      "publisher": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-local-servers"
+    },
+    {
+      "title": "Connect to remote MCP servers",
+      "publisher": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-remote-servers"
+    },
+    {
+      "title": "Security Best Practices",
+      "publisher": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices"
+    },
+    {
+      "title": "Building MCP servers for plugins and API integrations",
+      "publisher": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/mcp/"
+    },
+    {
+      "title": "Add and manage MCP servers in VS Code",
+      "publisher": "Visual Studio Code",
+      "url": "https://code.visualstudio.com/docs/copilot/chat/mcp-servers"
+    }
+  ]
+}

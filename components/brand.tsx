@@ -69,10 +69,11 @@ export function Logo({ id = "cw", className = "" }: { id?: string; className?: s
   );
 }
 
-export type NavKey = Category | "briefings";
+export type NavKey = Category | "briefings" | "guides";
 
 const NAV: { key: NavKey; label: string; href: string }[] = [
   { key: "briefings", label: "Briefings", href: "/briefings" },
+  { key: "guides", label: "Guides", href: "/guides" },
   ...CATEGORIES.map((c) => ({ key: c, label: CATEGORY_LABELS[c], href: `/topic/${c}` })),
 ];
 

@@ -1,0 +1,93 @@
+{
+  "slug": "run-a-model-locally-with-ollama",
+  "title": "Run an open model on your own laptop with Ollama",
+  "dek": "Install Ollama, pick a model your machine can cope with, chat with it in the terminal or the app, call it from code, and tidy up afterwards.",
+  "vendor": "Ollama",
+  "product": "Ollama",
+  "level": "Intermediate",
+  "minutes": 25,
+  "updated": "2026-10-18",
+  "intro": [
+    "Ollama is a small program that downloads open-weight language models and runs them on your own computer. It gives you a command-line tool, a desktop app on macOS and Windows, and a local web API on port 11434 that your own scripts can talk to.",
+    "The case for running a model locally is mostly about control. Your prompts are processed on your machine rather than sent to a hosted service, the model keeps working once it is downloaded, and you are not paying per request. The trade-off is that local models are smaller than the big hosted ones, and speed depends on your hardware.",
+    "This guide is for developers and technically curious professionals who want to try a local model for drafting, summarising private notes or prototyping an app. Allow about 25 minutes, most of it waiting for a download."
+  ],
+  "youNeed": [
+    "A Mac on macOS Sonoma (14) or later, a PC on Windows 10 22H2 or later, or a Linux machine",
+    "Several gigabytes of free disk space per model, more if you plan to try larger ones",
+    "Ideally a supported GPU: Apple M-series, or a recent NVIDIA or AMD card with current drivers",
+    "A terminal (Terminal on macOS, PowerShell on Windows, any shell on Linux)",
+    "An internet connection for the install and the first model download"
+  ],
+  "steps": [
+    {
+      "title": "Install Ollama for your operating system",
+      "body": "Ollama's download page offers a one-line install for each platform, plus a normal installer if you prefer.\n\n**macOS or Linux** (in a terminal):\n\n```bash\ncurl -fsSL https://ollama.com/install.sh | sh\n```\n\nOn a Mac you can instead download `Ollama.dmg` from ollama.com/download and drag the app into Applications. The first time it opens, it offers to link the `ollama` command into `/usr/local/bin` so your terminal can find it; accept that.\n\n**Windows** (in PowerShell):\n\n```powershell\nirm https://ollama.com/install.ps1 | iex\n```\n\nOr run `OllamaSetup.exe` from the same page. It installs into your home folder, so you do not need administrator rights.\n\nOn Linux, if you have an NVIDIA card, install NVIDIA's CUDA drivers first and confirm `nvidia-smi` lists your GPU; AMD cards need ROCm v7. Without them, Ollama still works, but on the CPU."
+    },
+    {
+      "title": "Check that the server is running",
+      "body": "Ollama runs a background server that the app, the CLI and the API all talk to. On macOS and Windows, opening the app starts it. Open a new terminal and run:\n\n```bash\nollama ls\n```\n\nIf it prints a (probably empty) list rather than a connection error, the CLI can reach the server; you simply have no models yet. Running plain `ollama` opens an interactive menu if you would rather be guided.\n\nOn Linux, if you get a connection error instead, start the server yourself in a separate terminal window and leave it running:\n\n```bash\nollama serve\n```"
+    },
+    {
+      "title": "Choose a model size your machine can handle",
+      "body": "Browse ollama.com/library to see what is available. Most models come in several sizes, each with its own tag. This guide uses the Gemma 4 family, which currently includes tags such as:\n\n- `gemma4:e2b` and `gemma4:e4b`: the small variants, a download of several gigabytes each\n- `gemma4:12b`, `gemma4:26b` and `gemma4:31b`: progressively larger and more capable, with the 26b and 31b downloads running from about 16 to 20 GB\n\nOllama does not publish a simple RAM-per-model table, so treat the download size on the library page as a rough guide to how much memory the model will need, and start small. `gemma4:e2b` is the example Ollama's own quickstart uses and a sensible first choice on a laptop. Once it is running, the next step shows how to check whether it fits on your GPU. If it does and replies come quickly, try a bigger tag.\n\nIgnore tags ending in `cloud` for now. Those run on Ollama's servers, not on your machine."
+    },
+    {
+      "title": "Pull and run your first model",
+      "body": "Download the model first so you can watch the progress:\n\n```bash\nollama pull gemma4:e2b\n```\n\nThen start a conversation with it:\n\n```bash\nollama run gemma4:e2b\n```\n\n`ollama run` also downloads the model if it is missing, so the pull step is optional. To get a single answer without entering a chat, put the prompt in quotes after the model name:\n\n```bash\nollama run gemma4:e2b \"Suggest a subject line for an email postponing Thursday's review\"\n```\n\nWhile it is answering, open a second terminal and run `ollama ps`. The `PROCESSOR` column shows `100% GPU`, `100% CPU` or a split between the two. A split or pure CPU means the model is larger than your graphics memory comfortably holds; a smaller tag will usually be much quicker."
+    },
+    {
+      "title": "Chat in the terminal or the desktop app",
+      "body": "Inside `ollama run` you type at the `>>>` prompt and press Enter. A few things are worth knowing:\n\n- For a prompt that spans several lines, start and end it with three double quotes (`\"\"\"`).\n- Gemma 4 accepts images: include a file path in your prompt, such as `Describe this chart /Users/you/Desktop/sales.png`.\n- `/set parameter num_ctx 8192` raises the context window for the current session, at the cost of more memory.\n- `/bye` leaves the chat.\n\nIf you prefer a window to a terminal, the Ollama app on macOS and Windows has its own chat view. Choose a model from the list, type as you would in any chat app, and drag text, PDF or code files into the conversation to have the model work with them. Its settings include a context length slider for longer documents."
+    },
+    {
+      "title": "Send one request to the local API",
+      "body": "The server listens on `http://localhost:11434` and needs no API key for local requests. On macOS or Linux, this asks for a complete reply rather than a token-by-token stream:\n\n```bash\ncurl http://localhost:11434/api/generate -d '{\n  \"model\": \"gemma4:e2b\",\n  \"prompt\": \"List three checks to run before merging a pull request.\",\n  \"stream\": false\n}'\n```\n\nThe answer comes back as JSON, with the text in the `response` field. Leave out `\"stream\": false` and you get a series of partial JSON objects instead, which is what you want for a live typing effect in an app.\n\nIn Windows PowerShell, the same request looks like this:\n\n```powershell\n$body = @{ model = \"gemma4:e2b\"; prompt = \"List three checks to run before merging a pull request.\"; stream = $false } | ConvertTo-Json\n(Invoke-RestMethod -Method Post -Uri http://localhost:11434/api/generate -Body $body).response\n```\n\nFor multi-turn conversations, use `/api/chat`, which takes a list of messages. Ollama also offers an OpenAI-compatible endpoint at `http://localhost:11434/v1`, so many existing tools and SDKs can point at it with only a change of base URL."
+    },
+    {
+      "title": "Stop models and remove the ones you no longer need",
+      "body": "A model stays in memory for five minutes after its last use, then unloads itself. To free the memory straight away:\n\n```bash\nollama ps\nollama stop gemma4:e2b\n```\n\nFrom the API, sending `\"keep_alive\": 0` with a request unloads the model as soon as it has answered.\n\nDownloaded models take up real disk space. List them, then delete the ones you have finished with:\n\n```bash\nollama ls\nollama rm gemma4:e2b\n```\n\nModels live in `~/.ollama/models` on macOS, in `.ollama\\models` inside your user folder on Windows, and in `/usr/share/ollama/.ollama/models` for a standard Linux install. If your main drive is short of space, set the `OLLAMA_MODELS` environment variable to another folder and restart Ollama."
+    }
+  ],
+  "tips": [
+    "If replies are painfully slow, check `ollama ps` before blaming the model. A model that has spilled from the GPU onto the CPU is usually the cause, and a smaller tag fixes it.",
+    "On a GPU with less than 24 GiB of memory, Ollama defaults to a 4k-token context window, which fills up quickly with long documents. Raise it in the app's settings or by starting the server with OLLAMA_CONTEXT_LENGTH set, and expect memory use to rise.",
+    "The server only accepts connections from your own machine by default. Changing OLLAMA_HOST to expose it on your network lets anyone who can reach that port use your models, so do it deliberately.",
+    "Model names that end in cloud are processed on Ollama's servers. If you want to be sure nothing leaves your machine, set OLLAMA_NO_CLOUD=1 and restart Ollama to switch the cloud features off.",
+    "To update Ollama on Linux, run the same install script again. It is the update method the Linux documentation gives."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a dedicated graphics card?",
+      "a": "No, but it makes a large difference. Apple M-series Macs use their built-in GPU through Metal; Intel Macs run on the CPU only. On Windows and Linux, Ollama supports NVIDIA cards with compute capability 5.0 or newer and a range of AMD Radeon cards, given current drivers. Without a capable GPU, stick to the smallest models and expect slower replies."
+    },
+    {
+      "q": "Does Ollama see what I type into a local model?",
+      "a": "According to Ollama's FAQ, it does not see your prompts or data when you run models locally. Cloud models are different: those requests are processed on Ollama's servers to produce a reply. If that distinction matters to you, avoid `cloud` tags or disable cloud features with `OLLAMA_NO_CLOUD=1`."
+    },
+    {
+      "q": "How do I know which size of model my laptop can run?",
+      "a": "Ollama's documentation does not give a fixed memory figure per model, so the practical method is to try. Start with the smallest tag, run a prompt, and check the `PROCESSOR` column in `ollama ps`. If it shows `100% GPU` and replies are quick, move up a size. If it shows CPU, or a CPU/GPU split, step back down."
+    },
+    {
+      "q": "Can I use Ollama with code written for the OpenAI API?",
+      "a": "Often, yes. Point the client's base URL at `http://localhost:11434/v1` and use an Ollama model name such as `gemma4:e2b`. Not every OpenAI feature is supported, so check Ollama's OpenAI compatibility page for the details before relying on something specific."
+    }
+  ],
+  "sources": [
+    { "title": "Ollama README", "publisher": "Ollama (GitHub)", "url": "https://github.com/ollama/ollama" },
+    { "title": "Download Ollama", "publisher": "Ollama", "url": "https://ollama.com/download" },
+    { "title": "Quickstart", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/quickstart" },
+    { "title": "CLI reference", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/cli" },
+    { "title": "macOS", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/macos" },
+    { "title": "Windows", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/windows" },
+    { "title": "Linux", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/linux" },
+    { "title": "Hardware support (GPU)", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/gpu" },
+    { "title": "Context length", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/context-length" },
+    { "title": "FAQ", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/faq" },
+    { "title": "API introduction", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/api/introduction" },
+    { "title": "Generate a response", "publisher": "Ollama Docs", "url": "https://docs.ollama.com/api/generate" },
+    { "title": "gemma4", "publisher": "Ollama Library", "url": "https://ollama.com/library/gemma4" },
+    { "title": "Ollama's new app", "publisher": "Ollama Blog", "url": "https://ollama.com/blog/new-app" }
+  ]
+}

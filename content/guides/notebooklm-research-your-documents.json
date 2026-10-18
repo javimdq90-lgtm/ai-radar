@@ -1,0 +1,157 @@
+{
+  "slug": "notebooklm-research-your-documents",
+  "title": "Research your own documents with Gemini Notebook (formerly NotebookLM)",
+  "dek": "Load your reports, papers, web pages and recordings into a notebook, ask questions with answers traced back to the source, then turn the lot into briefings, slides or audio.",
+  "vendor": "Google",
+  "product": "Gemini Notebook",
+  "level": "Beginner",
+  "minutes": 20,
+  "updated": "2026-10-18",
+  "intro": [
+    "NotebookLM is Google's research assistant for material you supply yourself. In July 2026 Google renamed it Gemini Notebook; it is the same standalone product, and notebooks can now also be opened from the Gemini app. You give it a set of sources, and its answers are built from those sources rather than from the open web, with citations that take you to the passage each claim came from.",
+    "It suits anyone who has to get on top of a pile of reading quickly: an analyst preparing a briefing, a consultant reviewing a client's documents, a policy officer comparing consultation responses. Rather than skimming twenty PDFs, you question them, check the cited passages and pull the useful parts into notes.",
+    "Once the reading is under control, the Studio panel can produce something to hand on: a briefing document, a study guide, a mind map, a slide deck, or a podcast-style Audio Overview to listen to on the way to a meeting."
+  ],
+  "youNeed": [
+    "A Google Account: a personal one, or a work or school account where your admin has switched the service on",
+    "A web browser on a computer (the mobile app lacks some features, including mind maps and reports)",
+    "The documents, links or recordings you want to research",
+    "Optionally, a paid Google AI plan if you need more notebooks or more sources per notebook"
+  ],
+  "steps": [
+    {
+      "title": "Create a notebook for one project",
+      "body": "Go to `notebook.google.com` and sign in with your Google Account. Choose **Create new notebook**; a window opens asking for your first source, where you can pick **Upload a source**.\n\nKeep one notebook per piece of work, such as a single report or a single client. Answers draw on every source you have ticked, so mixing unrelated projects in one notebook muddies the results.\n\nIf you are on a work or school account and the service does not load, your Workspace administrator has probably not enabled it. Some features are also restricted until you have verified that you are over 18 in your Google Account settings."
+    },
+    {
+      "title": "Add your sources",
+      "body": "Use **Add sources** in the Sources panel on the left. The types currently accepted include:\n\n- Files: PDF, Word (`.docx`), PowerPoint (`.pptx`), plain text, Markdown, CSV and ePub\n- Google Docs, Slides and Sheets from your Drive (you need at least view access)\n- Web page URLs, several at once if you separate them with spaces or new lines\n- Public YouTube videos that have captions\n- Audio files such as MP3 or WAV, which are transcribed on import\n- Images in common formats, pasted text, and eligible Google Play Books purchases\n\nA few behaviours are worth knowing before you rely on a source. For web pages, only the text is imported, and paywalled pages do not work. For YouTube, only the transcript comes in, not the pictures. Copy-protected PDFs are refused. Drive files resync every few minutes, so edits to a Google Doc reach the notebook without re-uploading, but if the original is deleted or your access is removed the source goes inactive and still counts towards your limit."
+    },
+    {
+      "title": "Find extra material with Fast or Deep Research",
+      "body": "If your own documents leave gaps, type a research question into the search box in the Sources panel and choose whether to search the **Web** or your **Drive**. The quick search returns a list you can tick through before importing.\n\nFor a more thorough sweep, switch on **Deep Research** alongside Web. It takes a few minutes and returns a larger set of results, which you can import in full or selectively. It is only available to users over 18, and anything you import still counts towards your source limit.\n\nTreat the results as suggestions. Open a few before importing them, and leave out anything you would not be happy to cite in your own report."
+    },
+    {
+      "title": "Ask questions and check the citations",
+      "body": "Type your question into the Chat panel. Answers come with numbered citations; hover over one to see the quoted text, or select it to open the source at that point. If a source is very short, the citation may point to the whole document rather than a specific passage.\n\nTo focus on part of the material, untick the sources you want left out. Some questions that work well on a stack of reports:\n\n- Which of these documents disagree about the projected cost, and by how much?\n- List every deadline mentioned, with the document each one comes from.\n- What evidence is given for the claim that demand fell in 2025? Is any of it independent?\n- Summarise the risks section of the audit in five bullet points for a non-specialist.\n\nIf the answer is not in your sources, the tool will usually say so rather than guess. That is useful in its own right: it tells you where your evidence runs out."
+    },
+    {
+      "title": "Set how the chat responds",
+      "body": "Select the **Configure Chat** icon in the Chat panel to change its behaviour for this notebook. There are three styles:\n\n- **Default**, for general research and brainstorming\n- **Learning Guide**, which takes a more teaching-oriented approach when you are new to a subject\n- **Custom**, where you describe a role or tone yourself, for example a sceptical reviewer looking for weak arguments\n\nYou can also choose a response length, then select **Save**. A custom role is a cheap way to stress-test your own draft: add it as a source and ask the chat to find the gaps."
+    },
+    {
+      "title": "Keep the useful answers as notes",
+      "body": "When an answer is worth keeping, select **Save to note**. The note keeps its tables and clickable citations. You can also write your own with **Create note** in the Sources panel.\n\nNotes sit alongside your sources and, when ticked, are used in chat and in generated outputs, so a set of well-chosen notes becomes the backbone of whatever you produce next. To move a note into a document, open its **More** menu and choose **Export to Docs**. The export opens as a new Google Doc; later edits there do not flow back into the notebook, and the notebook's sharing settings do not carry over."
+    },
+    {
+      "title": "Generate reports, mind maps and slides from Studio",
+      "body": "The Studio panel on the right turns your sources into finished formats. The main ones for report work:\n\n- **Reports**: choose **Document** for a text-only report from a template such as a briefing document, study guide or FAQ, or a format the tool suggests. Choose **Interactive** for a report that embeds other Studio outputs.\n- **Mind Map**: started from the chip in the chat rather than from Studio. It lays out the main themes as branches you can expand, and selecting a node asks the chat about that topic. It can be downloaded.\n- **Slide Deck**: set the format, language, length and which sources to use, describe the deck you want, then generate. It downloads as PDF or PowerPoint. This one is limited to users over 18.\n- Data tables, infographics, flashcards and quizzes are also available.\n\nMost outputs let you add a prompt before generating, for instance naming the audience or the question the report must answer. A one-line brief usually produces something far closer to what you need."
+    },
+    {
+      "title": "Turn your sources into an Audio or Video Overview",
+      "body": "Select **Audio Overview** in Studio to get a spoken summary. Formats include **Deep Dive** (two hosts in conversation, the default), **The Brief** (one speaker, under two minutes), **The Critique** and **The Debate**. You can choose the language, a shorter or longer length, and add a prompt to set the focus. It generates in the background in a few minutes.\n\nIn English, a newly generated Audio Overview can be played in interactive mode, where you join in and put a question to the hosts.\n\n**Video Overview** works in a similar way, with an **Explainer** format, a **Short** one of about a minute, and a **Cinematic** one that is English only and limited to users over 18. Videos can take more than half an hour to render.\n\nBoth are generated by AI and can get things wrong. Listen or watch before you send one to a colleague, and check any figure against the source."
+    }
+  ],
+  "tips": [
+    "Untick sources before asking a question when you want an answer from one document only; it is quicker than opening a new notebook.",
+    "Open the cited passage before you repeat any figure in your own report. Citations make checking easy, but the summary around them can still be wrong.",
+    "If a PDF will not import, check whether it is copy-protected or over the size limit; a clean export of the same document often works.",
+    "Inactive Drive sources still count towards your limit, so remove them when a file has been deleted or moved out of your reach.",
+    "Give every Studio output a short brief naming the reader and the question it must answer, rather than accepting the default."
+  ],
+  "faq": [
+    {
+      "q": "Is Gemini Notebook the same thing as NotebookLM?",
+      "a": "Yes. Google renamed NotebookLM to Gemini Notebook in July 2026 and describes it as the same standalone product. The help centre and the app now use the new name, and notebooks can also be created and opened from inside the Gemini app."
+    },
+    {
+      "q": "How much can I put in one notebook?",
+      "a": "Each source can be up to 500,000 words, or 200MB for an uploaded file. Google Slides files are capped at 100 slides and Google Sheets at 100,000 tokens. On the free plan you get up to 100 notebooks with up to 50 sources each; paid Google AI plans raise this, to as many as 600 sources per notebook on the top tier. Google marks these limits as subject to change, so check the plans page if you are near the ceiling."
+    },
+    {
+      "q": "Will Google train its models on my documents?",
+      "a": "Google says personal account data is not used to train the product unless you submit feedback, in which case the full interaction may be reviewed. For Workspace and Workspace for Education accounts, Google says uploads, questions and responses are neither reviewed by people nor used for training. For confidential material, check your organisation's policy first."
+    },
+    {
+      "q": "Can I share a notebook with colleagues?",
+      "a": "Yes. Select **Share**, add their email address and give them **Viewer** or **Editor** access. Viewers can read the sources and notes; editors can also add or remove material. Sharing a notebook does not change anyone's source limit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NotebookLM is now Gemini Notebook",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/"
+    },
+    {
+      "title": "Sharpen your study routine with new Gemini Notebook tools",
+      "publisher": "Google (The Keyword blog)",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/"
+    },
+    {
+      "title": "Learn about Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16164461?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+      "title": "Create a notebook in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16206563?hl=en"
+    },
+    {
+      "title": "Add or discover new sources for your notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/notebooklm/answer/16215270?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+      "title": "Use chat in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en"
+    },
+    {
+      "title": "Create & add notes in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16262519?hl=en"
+    },
+    {
+      "title": "Generate reports in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/18323649?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+      "title": "Use Mind Maps in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16212283?hl=en"
+    },
+    {
+      "title": "Generate Slide Decks in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16757456?hl=en"
+    },
+    {
+      "title": "Generate Flashcards or Quizzes in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16958963?hl=en"
+    },
+    {
+      "title": "Generate Audio Overview in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16212820?hl=en"
+    },
+    {
+      "title": "Generate Video Overviews in Gemini Notebook",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/gemininotebook/answer/16454555?hl=en"
+    },
+    {
+      "title": "Learn about Gemini Notebook's plans",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/notebooklm/answer/16213268?hl=en"
+    },
+    {
+      "title": "Frequently asked questions",
+      "publisher": "Gemini Notebook Help (Google)",
+      "url": "https://support.google.com/notebooklm/answer/16269187?hl=en"
+    }
+  ]
+}

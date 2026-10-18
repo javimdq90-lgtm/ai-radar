@@ -1,0 +1,98 @@
+{
+  "slug": "chatgpt-projects",
+  "title": "Use ChatGPT Projects to keep context across chats",
+  "dek": "Set up a project in ChatGPT with its own files, instructions and memory setting, so each new chat about a client, topic or report starts with the background already in place.",
+  "vendor": "OpenAI",
+  "product": "ChatGPT Projects",
+  "level": "Beginner",
+  "minutes": 15,
+  "updated": "2026-10-18",
+  "intro": [
+    "A project in ChatGPT is a named workspace that holds a set of chats together with the files and instructions that apply to them. Any chat you start inside the project can draw on that material, so you stop pasting the same brief, style notes and reference documents into every new conversation.",
+    "It suits work that runs for weeks rather than minutes: a client account, a research question you keep coming back to, or a report you produce every week or month. For a one-off question, an ordinary chat is still the quicker option.",
+    "This guide walks through creating a project, giving it files and instructions, moving existing chats in, choosing how its memory behaves and, if you need it, sharing it with colleagues. Projects work in the web, desktop and mobile apps, though exact menu labels can differ slightly between them."
+  ],
+  "youNeed": [
+    "A signed-in ChatGPT account (projects are available on Free and paid plans, subject to workspace settings)",
+    "The ChatGPT web, desktop or mobile app",
+    "A few reference files for the work you want to organise, such as briefs, notes or past reports",
+    "On a Business, Enterprise or Edu workspace: permission from your admin to create or share projects"
+  ],
+  "steps": [
+    {
+      "title": "Create the project",
+      "body": "In the sidebar, select **New project**. Give it a name you will recognise at a glance, then pick an icon and colour.\n\nOne project per strand of work is a good rule. Name it after the thing, not the task:\n\n- `Harlow & Co – retainer`\n- `EU AI rules research`\n- `Monthly board pack`\n\nThere is no cap on the number of projects you can create, so it is better to split unrelated work than to pile it into one."
+    },
+    {
+      "title": "Add the files ChatGPT should work from",
+      "body": "Open the project and add reference material to its sources. You can upload PDFs, spreadsheets, documents and images, or paste text directly. ChatGPT uses these when answering in any chat inside the project.\n\nThe number of files a project can hold depends on your plan, and you can upload at most 10 at once. At the time of writing the help centre lists:\n\n- Free: 5 files per project\n- Go and Plus: 25\n- Pro, Business, Enterprise and Edu: 40\n\nIf you hit the limit, merge related documents into one file or move part of the work into a second project. You can open any file from the sources list later to preview, download or remove it.\n\nIf you use Google Drive or Slack, you can also paste a link to a Drive file or folder, or a Slack channel, as a source. ChatGPT may ask you to connect the app and approve access first."
+    },
+    {
+      "title": "Write project instructions",
+      "body": "Open the project's more options menu (the three dots) and choose **Project settings**. The instructions you enter here apply to every chat in the project and take priority over your general custom instructions.\n\nKeep them short and specific to the work. An example for a client project:\n\n```\nYou are helping me manage the Harlow & Co account.\nThey are a mid-sized logistics firm; my contact is the head of operations.\nWrite in British English, plain and direct, no marketing language.\nWhen drafting emails, keep them under 150 words and end with a clear next step.\nIf a request depends on figures, use the latest file in sources and say which one.\nAsk before assuming anything about pricing or contract terms.\n```\n\nAnd one for a recurring report:\n\n```\nThis project produces the monthly board pack.\nStructure: summary (5 bullets), revenue, costs, hiring, risks.\nCompare each figure with the previous month's pack in sources.\nFlag any change over 10% and suggest a one-line explanation for me to check.\n```\n\nRevisit the instructions whenever you notice yourself correcting the same thing twice."
+    },
+    {
+      "title": "Move your existing chats into the project",
+      "body": "If you have already been working on this in ordinary chats, bring them in. Either drag a chat from the sidebar onto the project, or open the chat's menu and choose **Move to project**.\n\nOnce moved, the chat picks up the project's instructions and files. To take it out again, use **Remove from project** in the chat's menu.\n\nA few limits to be aware of:\n\n- Chats started with a custom GPT cannot be moved in.\n- A temporary chat cannot be added while it is still temporary.\n- If **Move to project** does not appear, the chat is not eligible; start a fresh chat in the project instead."
+    },
+    {
+      "title": "Choose how the project's memory works",
+      "body": "Each project has one of two memory settings. You can pick it when you create the project and change it later under **Project settings** > **Memory**, then **Save**. A change can take a few hours to apply.\n\n- **Project-only memory**: chats can refer to other chats in the same project, but not to your saved memories or to conversations elsewhere. Nothing from the project leaks into chats outside it either. Use this for client work or anything confidential.\n- **Default memory**: your saved memories are available, and chats draw on other conversations in the project. Whether they can also reach conversations outside the project depends on your plan: on Enterprise and Edu they stay contained, while on other plans, Business included, they can reference outside chats and be referenced by them.\n\nFor project memory to work, check your personal settings: **Reference saved memories** and **Reference chat history** should be on (on Enterprise, **Reference saved memories** plus memory enabled for the workspace).\n\nThere is no list of what a project has remembered. If you want ChatGPT to stop drawing on a particular conversation, delete that chat or, where the setting allows, move it to another project."
+    },
+    {
+      "title": "Work in the project day to day",
+      "body": "Start new chats from inside the project rather than from the main chat box, so they inherit the context. On Plus and Pro, ChatGPT also gives priority to the project's own chats and files when it answers.\n\nThe usual tools work in project chats, including web search, canvas, image generation and voice; paid plans may add others such as deep research. You can also bring in connected apps from the **+** menu.\n\nWhen ChatGPT produces something worth keeping, such as a decision log, a summary of a long thread or an agreed outline, use the response's message menu to save it to the project's sources (the exact label varies). It then becomes reference material for later chats, which keeps the project's knowledge current without re-uploading files."
+    },
+    {
+      "title": "Share the project with colleagues, if you need to",
+      "body": "Select **Share** in the project to invite people. Sharing is available on Free, Go, Plus, Pro, Business, Enterprise and Edu, though workspace admins can restrict it. Each person gets one of two access levels:\n\n- **Edit**: can change instructions, add or remove files and invite others, but cannot remove members.\n- **Chat**: can read and use the project's chats, files and instructions, but cannot invite anyone.\n\nYou can keep it to **Only those invited** or allow **Anyone with a link** (any signed-in ChatGPT user with the link can join). The number of collaborators depends on the owner's plan; on personal plans it ranges from 5 on Free to 100 on Pro.\n\nBefore you share, note that:\n\n- A shared project always uses project-only memory and cannot be switched back.\n- Every member can see the project's chats, files and member list, and can download the files.\n- Members cannot edit the same chat at once; they branch a chat to take it in a new direction.\n\nTo show someone a single conversation without giving access to the whole project, share just that chat instead."
+    }
+  ],
+  "tips": [
+    "Put a short dated status note in the project sources (where things stand, open questions, next deadline) and ask ChatGPT to update it at the end of each working session.",
+    "For a recurring report, upload last period's finished version alongside the new data so ChatGPT has a model for structure and tone.",
+    "Keep sensitive client work in projects set to project-only memory so details cannot surface in unrelated chats.",
+    "Deleting a project is permanent and removes its chats, instructions and any files stored only in that project, so download anything you need first.",
+    "Sidebar search covers projects as well as chats and files, which helps once you have more than a handful."
+  ],
+  "faq": [
+    {
+      "q": "Do projects cost extra?",
+      "a": "No. Projects are included with every plan that offers them. Usage limits and any credits for models or tools apply to project chats in the same way as to ordinary chats."
+    },
+    {
+      "q": "How is a project different from a custom GPT?",
+      "a": "A custom GPT is a fixed, reusable assistant built around a set of knowledge and tools, suited to a task many people repeat. A project is a working folder that grows as you add chats, files and notes. You can switch to a custom GPT for messages in an existing project chat, but a chat that starts with a GPT sits outside the project."
+    },
+    {
+      "q": "Will my project files be used to train OpenAI's models?",
+      "a": "On personal plans (Free, Plus, Pro), content from projects may be used for training if your **Improve the model for everyone** setting is on; you can turn it off in data controls. By default, OpenAI does not train on content from Business, Enterprise or Edu workspaces."
+    },
+    {
+      "q": "Can I use projects in the desktop and mobile apps?",
+      "a": "Yes. Projects appear in the web, desktop (macOS and Windows) and mobile apps, and you can continue the same project on another device. Some options, such as app links or sharing controls, may depend on your plan and workspace settings."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Projects in ChatGPT",
+      "publisher": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt"
+    },
+    {
+      "title": "Using projects in ChatGPT",
+      "publisher": "OpenAI Academy",
+      "url": "https://openai.com/academy/projects/"
+    },
+    {
+      "title": "ChatGPT release notes",
+      "publisher": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "title": "Finding your chats, projects, and files in ChatGPT",
+      "publisher": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/10056348-finding-your-chats-projects-and-files-in-chatgpt"
+    }
+  ]
+}

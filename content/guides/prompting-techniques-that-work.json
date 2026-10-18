@@ -1,0 +1,122 @@
+{
+  "slug": "prompting-techniques-that-work",
+  "title": "Write prompts that get better answers from Claude and ChatGPT",
+  "dek": "Eight habits that Anthropic and OpenAI both recommend in their own prompting guidance, with before-and-after prompts you can adapt for everyday work.",
+  "vendor": "Several",
+  "product": "Claude and ChatGPT",
+  "level": "Beginner",
+  "minutes": 15,
+  "updated": "2026-10-18",
+  "intro": [
+    "Anthropic and OpenAI both publish advice on how to prompt their models. Read side by side, the two sets of guidance agree far more than they differ: say exactly what you want, explain why, keep your instructions apart from your material, show an example, ask for a specific format, and refine as you go.",
+    "This guide gathers those shared techniques for people who use Claude or ChatGPT in the chat app for ordinary work: drafting, summarising, reviewing documents, planning. Much of the official material is written for developers using the API, but the ideas carry straight over to a chat box. Where the two companies' advice differs, the guide says so.",
+    "You don't need every technique for every request. A quick question deserves a quick prompt. Reach for these when an answer comes back generic, in the wrong shape or off target, or when the task matters enough that you would brief a colleague properly."
+  ],
+  "youNeed": [
+    "A Claude or ChatGPT account (the techniques work on any plan)",
+    "A real task from your week to practise on",
+    "Ten to fifteen minutes to try a few prompts side by side"
+  ],
+  "steps": [
+    {
+      "title": "Say exactly what you want, as you would to a new colleague",
+      "body": "Both companies open with the same point: a clear, specific request beats a vague one. Anthropic suggests picturing a capable new starter who knows nothing about how your team works. OpenAI suggests writing as though you were asking another person, who would also struggle with a one-line brief.\n\nA good check before you send: would a colleague with no background on the task understand what you want? If not, the model won't either. Name the task, the audience, the length and what counts as finished. Swap loose words for measurable ones: \"short\" becomes \"under 150 words\", \"a few ideas\" becomes \"five ideas\".\n\nBefore:\n\n```text\nWrite something about our new expenses policy.\n```\n\nAfter:\n\n```text\nWrite a 200-word item for the staff newsletter about the new expenses policy, which starts on 1 November. Most readers skim, so lead with the one change that affects everyone: receipts must be uploaded within 14 days. Close by saying that exceptions go to the finance team.\n```"
+    },
+    {
+      "title": "Explain the context and the reason behind the request",
+      "body": "Anthropic's guide notes that explaining why an instruction matters helps Claude aim its answer, and lets it apply the rule sensibly to cases you didn't spell out. OpenAI's ChatGPT guidance likewise asks you to give enough context for the model to understand what you are after.\n\nUseful context is usually short: who the output is for, what it will be used for, what you have already tried, and any constraints you are working within.\n\nBefore:\n\n```text\nMake this slide text shorter.\n```\n\nAfter:\n\n```text\nMake this slide text shorter. I have a ten-minute slot at the board meeting and they will read the slide while I talk, so each bullet must make sense at a glance. Keep every figure; cut the explanations, because I will say those out loud.\n```"
+    },
+    {
+      "title": "Keep your instructions separate from your material",
+      "body": "When you paste in an email, a report or a page of notes, mark clearly where it starts and ends. OpenAI's help centre suggests simple delimiters such as `###` or triple quotes. Both companies' developer guides recommend XML-style tags, which Anthropic says help Claude read prompts that mix instructions, background and examples without confusing one for another. The tag names aren't special; make them descriptive and use them consistently.\n\n```text\nBelow are a customer's complaint and our refund policy. Draft a reply that applies the policy fairly and offers the customer a clear next step.\n\n<complaint>\n[paste the email here]\n</complaint>\n\n<policy>\n[paste the policy here]\n</policy>\n```\n\nThe two companies differ slightly on order. For long documents, Anthropic recommends putting the material first and your question at the end, and reports better answers that way in its tests. OpenAI's help centre suggests putting the instruction at the start. With a short paste, either works. With a long one, a sensible compromise is a one-line instruction at the top and the full question again at the bottom."
+    },
+    {
+      "title": "Show an example of what good looks like",
+      "body": "Anthropic describes examples as one of the most reliable ways to steer format, tone and structure, and OpenAI's help centre makes the same point: models do better when you show the format rather than only describe it. Anthropic suggests three to five examples, varied enough that the model doesn't copy incidental details, and wrapped in tags so they aren't mistaken for instructions.\n\n```text\nSort each piece of customer feedback into one of: Billing, Bug, Feature request, Praise. Reply with the label only.\n\n<examples>\n<example>\nFeedback: I was charged twice in September.\nLabel: Billing\n</example>\n<example>\nFeedback: The export button does nothing in Firefox.\nLabel: Bug\n</example>\n<example>\nFeedback: A dark mode for the dashboard would be lovely.\nLabel: Feature request\n</example>\n</examples>\n\nFeedback: The new sign-up screens are much clearer, thank you.\n```\n\nOne caution from OpenAI's guidance on reasoning models: try without examples first, because those models often don't need them, and if you do add examples, make sure they agree with your written instructions. An example that contradicts the brief can pull the answer the wrong way."
+    },
+    {
+      "title": "Ask for the format, length and tone you want",
+      "body": "If the shape of the answer matters, say so. Both companies advise stating length and format explicitly, and both recommend saying what to do rather than only what to avoid: \"write in short paragraphs\" works better than \"don't use bullet points\". For tone, OpenAI's ChatGPT guidance suggests plain descriptive words such as formal, friendly or serious. Anthropic adds that the style of your prompt can rub off on the reply, so a prompt full of headings and bullets tends to get the same back.\n\nBefore:\n\n```text\nReply to this client. Don't make it too long or too stiff.\n```\n\nAfter:\n\n```text\nReply to this client in three short paragraphs, friendly but professional, with no headings or bullet points. End with one clear question asking them to confirm the delivery date.\n```\n\nFor comparisons, name the structure outright, for example: \"Give me a table with the columns Option, Cost, Main risk and Your recommendation.\""
+    },
+    {
+      "title": "Give the model a role when expertise or perspective matters",
+      "body": "Anthropic says that even one sentence setting a role focuses Claude's tone and behaviour. OpenAI's prompt guide suggests that a set of instructions begins with the model's identity: who it is meant to be and what it is for. Developers put this in a system or developer message; in the chat app, you can open your message with it.\n\n```text\nYou are an experienced editor of business reports. I'm a project manager, not a writer. Read the executive summary below and tell me the three changes that would most improve it for a busy director, with a rewritten example of each.\n\n<summary>\n[paste the summary here]\n</summary>\n```\n\nIf you find yourself giving the same role or background in every chat, both apps let you save it once. In Claude, it goes in the Instructions for Claude section of Settings. In ChatGPT, use custom instructions, found under Personalization in Settings on the web. A role adds a perspective; it doesn't replace the task and context from the earlier steps, so use it alongside them."
+    },
+    {
+      "title": "On hard problems, set the goal and ask it to check its work",
+      "body": "Current models from both companies can reason before they answer, and the guidance on prompting them has changed. OpenAI's reasoning guide says telling those models to think step by step is unnecessary and can even make results worse. Anthropic's guide says a general request to think carefully often does better than a step-by-step plan you write yourself, and notes that some of its newest models keep their reasoning internal and may decline a request to write it all out.\n\nWhat helps instead is a clear end goal and firm constraints, which OpenAI recommends, plus a request to check the answer against them, which Anthropic recommends.\n\n```text\nWe need to cut £40,000 from next year's marketing budget (pasted below). Propose two options. Each must keep the spring trade show and must not cut any single channel by more than half. Before you answer, check both options against those two rules and the £40,000 target, and show the totals.\n```\n\nFor a big job with several distinct parts, both companies suggest breaking it into smaller requests in sequence: for example, outline first, then draft, then review the draft against your criteria, then revise."
+    },
+    {
+      "title": "Treat the first answer as a draft and refine it",
+      "body": "Both companies describe prompting as iterative. OpenAI's ChatGPT guidance suggests starting with a first attempt, reading the result, then adjusting the wording, adding context or simplifying the request. Treat it as a conversation rather than a single shot.\n\nSpecific feedback works best. Point to what is wrong and say what you want instead:\n\n```text\nCloser. Keep the structure, but the second paragraph assumes the reader knows what our CRM is. Add one sentence explaining it, and drop the final paragraph.\n```\n\nIf a chat has drifted a long way from what you need, it can be quicker to open a new one with an improved first prompt that includes everything you learned. When a prompt works well, keep a copy so you can reuse it next time."
+    }
+  ],
+  "tips": [
+    "Run the colleague test before you send: if a capable person new to the project would need to ask you questions, put the answers in the prompt.",
+    "Replace loose limits with numbers. \"Three to five sentences\" gives a more predictable result than \"fairly short\".",
+    "When you aren't sure what you want, ask for three options. Choosing between drafts is often quicker than describing the perfect one.",
+    "Ask the model to improve your examples. Anthropic suggests having Claude check a set of examples for variety, or write more in the same pattern.",
+    "Save background you repeat in every chat, such as your role, your organisation or British spelling, in Instructions for Claude or ChatGPT's custom instructions."
+  ],
+  "faq": [
+    {
+      "q": "Do XML tags work in ChatGPT, or only in Claude?",
+      "a": "Both. OpenAI's own prompt guide recommends XML tags, as well as Markdown headings, for marking out sections of a prompt. Any clear, consistent delimiter does the job; tags simply make it obvious where each piece starts and ends."
+    },
+    {
+      "q": "Should I still add \"think step by step\" to my prompts?",
+      "a": "Usually not for models that reason before answering. OpenAI says it is unnecessary for its reasoning models and can hurt, and Anthropic prefers a general request to think carefully over a scripted sequence. If you are using a faster mode that answers without reasoning first, asking it to work through the problem before giving its answer can still help; Anthropic lists this as a fallback when thinking is switched off."
+    },
+    {
+      "q": "Do I need separate prompts for Claude and ChatGPT?",
+      "a": "For everyday work, rarely. The core advice is the same. The differences are in emphasis: Anthropic puts long documents before the question, OpenAI's help centre puts the instruction first, and OpenAI suggests trying reasoning models without examples before adding any. If a prompt works in one app and not the other, adjust it there rather than maintaining two libraries."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Prompting best practices",
+      "publisher": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+    },
+    {
+      "title": "Prompt engineering overview",
+      "publisher": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
+    },
+    {
+      "title": "Understanding Claude's personalization features",
+      "publisher": "Anthropic",
+      "url": "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features"
+    },
+    {
+      "title": "Prompt engineering",
+      "publisher": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-engineering"
+    },
+    {
+      "title": "Reasoning best practices",
+      "publisher": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/guides/reasoning-best-practices"
+    },
+    {
+      "title": "Prompt engineering best practices for ChatGPT",
+      "publisher": "OpenAI",
+      "url": "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt"
+    },
+    {
+      "title": "How do I create a good prompt for an AI model?",
+      "publisher": "OpenAI",
+      "url": "https://help.openai.com/en/articles/4936848-how-do-i-create-a-good-prompt-for-an-ai-model"
+    },
+    {
+      "title": "Best practices for prompt engineering with the OpenAI API",
+      "publisher": "OpenAI",
+      "url": "https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api"
+    },
+    {
+      "title": "ChatGPT Custom Instructions",
+      "publisher": "OpenAI",
+      "url": "https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt"
+    }
+  ]
+}
