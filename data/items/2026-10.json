@@ -4520,5 +4520,123 @@
   ],
   "imageCheckedAt": "2026-10-18T09:42:14.217Z",
   "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+  "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-18T16:30:00.000Z",
+  "snippet": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
+  "id": "218f77bb959f",
+  "fetchedAt": "2026-10-18T19:28:15.257Z",
+  "enrichedAt": "2026-10-18T19:28:23.280Z",
+  "summary": "Disney has agreed to hire the majority of Character.AI's workforce, and a filing says the \"vast majority\" of employees offered jobs accepted. The deal is a stalking horse bid, so another company could still come forward with a higher offer.",
+  "whyItMatters": "It signals the breakup of a prominent consumer AI chatbot startup and a major media company moving to absorb its talent.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Disney",
+   "Character.AI"
+  ],
+  "imageCheckedAt": "2026-10-18T19:28:23.348Z",
+  "storyId": "218f77bb959f"
+ },
+ {
+  "url": "https://www.anthropic.com/research/employment-at-anthropic",
+  "title": "How employment is changing at Anthropic",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T10:49:26.000Z",
+  "score": 99,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50139873",
+  "id": "248d3aa608b3",
+  "fetchedAt": "2026-10-18T19:28:15.257Z",
+  "enrichedAt": "2026-10-18T19:28:23.280Z",
+  "summary": "Anthropic published a post on how employment is changing at the company, but only the title is available, so the details are unknown.",
+  "whyItMatters": "It may offer a first-hand view of how a leading AI lab's own workforce is shifting as it uses AI internally.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "0dabc6c10b97"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+  "title": "Anthropic gives outside AI watchdog “employee-like” access",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-18T16:25:19.000Z",
+  "snippet": "The outside watchdog can publish its findings without Anthropic's approval.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg",
+  "id": "56b1c8aea759",
+  "fetchedAt": "2026-10-18T19:28:15.257Z",
+  "enrichedAt": "2026-10-18T19:28:23.280Z",
+  "summary": "Anthropic is giving an outside AI watchdog \"employee-like\" access to its systems, and the watchdog can publish its findings without Anthropic's approval.",
+  "whyItMatters": "Independent oversight with publication rights is a notable step in lab transparency and could set a precedent for other labs.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "56b1c8aea759"
+ },
+ {
+  "url": "https://www.anthropic.com/news/public-benefit-fund",
+  "title": "Investing in the public benefit",
+  "publishedAt": "2026-10-18T00:00:00.000Z",
+  "sourceId": "anthropic",
+  "id": "66d5720ec836",
+  "fetchedAt": "2026-10-18T19:28:15.257Z",
+  "enrichedAt": "2026-10-18T19:28:23.280Z",
+  "summary": "Anthropic published a post titled \"Investing in the public benefit\", but only the title is available, so the specifics of the commitment are unknown.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+  "imageCheckedAt": "2026-10-18T19:28:23.417Z",
+  "storyId": "66d5720ec836"
+ },
+ {
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+  "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T14:30:27.000Z",
+  "score": 138,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50141429",
+  "id": "b9a4c6eaaadf",
+  "fetchedAt": "2026-10-18T19:28:15.257Z",
+  "enrichedAt": "2026-10-18T19:28:23.280Z",
+  "summary": "Anthropic has proposed an AI safety bill whose requirements would only apply if an AI-related incident causes 50 deaths or $1B in damages.",
+  "whyItMatters": "The high threshold shows the kind of narrow, catastrophe-focused regulation a leading lab is willing to back, which could shape the wider policy debate.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://cdn.mos.cms.futurecdn.net/SVPa8KkaDwkeyAtLnMhyKW-1920-80.png",
+  "imageCheckedAt": "2026-10-18T19:28:23.437Z",
+  "storyId": "b9a4c6eaaadf"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+  "title": "A woman was arrested in Philly for blocking a delivery robot",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-18T18:28:10.000Z",
+  "snippet": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and asked Marvin to move out of the robot's way. When she refused, they placed her in cuffs and arrested her. The incident was captured on video and has now garnered considerable media attention. The de…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/avride-uber-delivery.webp?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f1180bde7a40",
+  "fetchedAt": "2026-10-18T19:28:15.257Z",
+  "enrichedAt": "2026-10-18T19:28:23.280Z",
+  "summary": "Carolyn Marvin was arrested in Philadelphia and charged with disorderly conduct after blocking an Uber delivery robot and refusing to move. She said she was protesting robots taking human delivery workers' jobs, and video of the incident drew wide media attention.",
+  "whyItMatters": "It is a small but telling example of public backlash against automation and labour displacement.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Uber",
+   "Carolyn Marvin"
+  ],
+  "storyId": "f1180bde7a40"
  }
 ]
