@@ -1,4 +1,5 @@
 import { CATEGORY_HEX_ON_BONE } from "./category";
+import { feedbackPath, nextIssueDay, RATINGS, SIGN_OFF } from "./issue-extras";
 import { CATEGORY_LABELS, type Category, type Issue, type IssueStory } from "./types";
 
 const esc = (s: string) =>
@@ -102,6 +103,7 @@ function story(issue: Issue, s: IssueStory, opts: EmailOptions, top: boolean) {
     ${kicker(info)}
     <div style="font:600 ${top ? 32 : 24}px/1.12 ${SANS};letter-spacing:-.02em;color:${C.text};margin:0 0 10px">${esc(s.headline)}</div>
     <div style="font:${top ? 17 : 16}px/1.6 ${SANS};color:${C.dek}">${esc(s.body)}</div>
+    ${s.why ? `<div style="font:${top ? 17 : 16}px/1.6 ${SANS};color:${C.text};margin:12px 0 0;padding:0 0 0 14px;border-left:3px solid ${C.orange}"><strong style="font-weight:700">Why it matters:</strong> ${esc(s.why)}</div>` : ""}
     ${sources(issue, s.storyId)}
     ${cta}
   </div>`;
@@ -134,15 +136,52 @@ export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
   const webUrl = site ? `${site}/issues/${issue.number}` : "";
   let n = 0;
 
+  const sponsor = issue.sponsor
+    ? row(
+        `<div style="font:700 11px/1.4 ${SANS};letter-spacing:.16em;text-transform:uppercase;color:${C.muted};margin:0 0 10px">Sponsored &middot; Together with ${esc(issue.sponsor.name)}</div>
+        <div style="font:600 22px/1.25 ${SANS};letter-spacing:-.01em;color:${C.text};margin:0 0 10px">${esc(issue.sponsor.headline)}</div>
+        <div style="font:16px/1.6 ${SANS};color:${C.dek}">${esc(issue.sponsor.body)}</div>
+        ${button(issue.sponsor.url, `${esc(issue.sponsor.cta ?? `Visit ${issue.sponsor.name}`)} &rarr;`)}`,
+        `background:${C.bone}`,
+      )
+    : "";
+
   const sections = issue.sections
-    .map((section, i) =>
-      row(
-        label(++n, section.heading) +
-          section.stories.map((s, j) => story(issue, s, opts, i === 0 && j === 0)).join(""),
-        "padding-bottom:8px",
-      ),
+    .map(
+      (section, i) =>
+        row(
+          label(++n, section.heading) +
+            section.stories.map((s, j) => story(issue, s, opts, i === 0 && j === 0)).join(""),
+          "padding-bottom:8px",
+        ) + (i === 0 ? sponsor : ""),
     )
     .join("");
+
+  // "In this issue": every section headline, so the reader knows what's coming.
+  const contents = issue.sections.flatMap((sec) => sec.stories.map((s) => s.headline));
+  const toc = contents.length
+    ? row(
+        `<div style="font:700 11px/1.4 ${SANS};letter-spacing:.16em;text-transform:uppercase;color:${C.orangeDeep};margin:0 0 10px">In this issue</div>
+        ${contents.map((h) => `<div style="font:500 15px/1.45 ${SANS};color:${C.text};padding:5px 0">&#9656;&nbsp; ${esc(h)}</div>`).join("")}${
+          issue.quickHits.length ? `<div style="font:500 15px/1.45 ${SANS};color:${C.muted};padding:5px 0">&#9656;&nbsp; Plus ${issue.quickHits.length} more in brief</div>` : ""
+        }`,
+      )
+    : "";
+
+  const rate = site
+    ? row(
+        `<div style="font:600 20px/1.3 ${SANS};color:${C.text};margin:0 0 14px">How was this issue?</div>
+        <table role="presentation" cellpadding="0" cellspacing="0"><tr>${RATINGS.map(
+          (r) =>
+            `<td style="padding:0 8px 8px 0"><a href="${esc(site + feedbackPath(issue.number, r.key))}" style="display:inline-block;padding:12px 18px;border:1px solid ${C.black};font:600 14px/1 ${SANS};color:${C.text};text-decoration:none">${r.label}</a></td>`,
+        ).join("")}</tr></table>`,
+      )
+    : "";
+
+  const signOff = row(
+    `<div style="font:16px/1.6 ${SANS};color:${C.dek}">That's it for #${issue.number}. The next issue lands ${nextIssueDay(issue.date)} morning.</div>
+    <div style="font:600 16px/1.6 ${SANS};color:${C.text};margin:6px 0 0">${esc(SIGN_OFF)}</div>`,
+  );
 
   const quickHits = issue.quickHits
     .map((q) => {
@@ -188,8 +227,11 @@ export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
     <tr><td style="background:${C.card};border:1px solid ${C.rule};border-top:0">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
         ${row(`<div style="font:500 20px/1.45 ${SANS};letter-spacing:-.01em;color:${C.text}">${esc(issue.intro)}</div>`)}
+        ${toc}
         ${sections}
         ${inBrief}
+        ${rate}
+        ${signOff}
         ${forward}
       </table>
     </td></tr>
@@ -207,16 +249,33 @@ export function renderIssueHtml(issue: Issue, opts: EmailOptions = {}): string {
 
 export function renderIssueText(issue: Issue, opts: EmailOptions = {}): string {
   const lines = [`CONTEXT WINDOW #${issue.number} · ${fmtDate(issue.date)}`, "", issue.intro, ""];
-  for (const section of issue.sections) {
+  const contents = issue.sections.flatMap((sec) => sec.stories.map((s) => s.headline));
+  if (contents.length) lines.push("IN THIS ISSUE", ...contents.map((h) => `- ${h}`), "");
+  issue.sections.forEach((section, i) => {
     lines.push(section.heading.toUpperCase(), "");
     for (const s of section.stories) {
-      lines.push(s.headline, s.body, ...(issue.links[s.storyId] ?? []).slice(0, 3).map((l) => `  ${l.source}: ${l.url}`), "");
+      lines.push(
+        s.headline,
+        s.body,
+        ...(s.why ? [`Why it matters: ${s.why}`] : []),
+        ...(issue.links[s.storyId] ?? []).slice(0, 3).map((l) => `  ${l.source}: ${l.url}`),
+        "",
+      );
     }
-  }
+    if (i === 0 && issue.sponsor) {
+      const sp = issue.sponsor;
+      lines.push(`SPONSORED · TOGETHER WITH ${sp.name.toUpperCase()}`, sp.headline, sp.body, sp.url, "");
+    }
+  });
   if (issue.quickHits.length) {
     lines.push("IN BRIEF", "");
     for (const q of issue.quickHits) lines.push(`- ${q.text} ${issue.links[q.storyId]?.[0]?.url ?? ""}`.trim());
   }
+  const site = opts.siteUrl?.replace(/\/$/, "");
+  if (site) {
+    lines.push("", "How was this issue?", ...RATINGS.map((r) => `  ${r.label}: ${site}${feedbackPath(issue.number, r.key)}`));
+  }
+  lines.push("", `That's it for #${issue.number}. The next issue lands ${nextIssueDay(issue.date)} morning.`, SIGN_OFF);
   if (opts.subscribers) {
     const host = siteHost(opts.siteUrl);
     lines.push(

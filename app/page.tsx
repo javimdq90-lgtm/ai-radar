@@ -63,6 +63,7 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
             context.
           </h1>
           <p className="m-0 max-w-[30ch] text-[clamp(16px,1.6vw,21px)] leading-[1.5] text-bone">{SUBLINE}</p>
+          <NewsletterBox variant="hero" />
         </div>
 
         {stories.length > 0 && (

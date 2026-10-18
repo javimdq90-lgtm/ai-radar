@@ -12,7 +12,7 @@ import { type EmailOptions, RESEND_UNSUBSCRIBE_URL, renderIssueHtml, renderIssue
 import { emailImageFor } from "@/lib/share-image";
 import { SITE_URL } from "@/lib/site";
 import { SOURCE_NAMES } from "@/lib/sources";
-import { loadBriefs, loadIssues, loadItems, saveIssue } from "@/lib/store";
+import { loadBriefs, loadIssues, loadItems, loadSponsor, saveIssue } from "@/lib/store";
 import { buildStories } from "@/lib/stories";
 import type { Issue, Item } from "@/lib/types";
 
@@ -120,6 +120,9 @@ async function main() {
     quickHits,
     links: Object.fromEntries([...used].map((id) => [id, linksFor(byId.get(id)!.items)])),
   };
+  // A paid placement, if one is booked for today (data/sponsor.json). Rendered with a "Sponsored" label.
+  const sponsor = await loadSponsor();
+  if (sponsor) issue.sponsor = sponsor;
 
   // Section stories get a picture; checked now, since a mail client can't fall back on its own.
   const imageSite = process.env.SITE_URL || SITE_URL;

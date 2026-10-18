@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Fragment } from "react";
 import { Footer, SiteHeader } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
 import { StoryVisual } from "@/components/story";
 import { fmtLongDate } from "@/lib/format";
+import { feedbackPath, nextIssueDay, RATINGS, SIGN_OFF } from "@/lib/issue-extras";
 import { getIssue, getIssues, getStories } from "@/lib/site-data";
-import type { Issue, Story } from "@/lib/types";
+import type { Issue, Sponsor, Story } from "@/lib/types";
 
 export async function generateStaticParams() {
   const issues = await getIssues();
@@ -34,6 +36,20 @@ function Sources({ issue, storyId }: { issue: Issue; storyId: string }) {
         </span>
       ))}
     </p>
+  );
+}
+
+/** A paid placement, always labelled "Sponsored". */
+function SponsorBlock({ sponsor }: { sponsor: Sponsor }) {
+  return (
+    <aside aria-label="Sponsored" className="flex flex-col gap-3 bg-raised p-7">
+      <p className="kicker m-0 text-muted">Sponsored · Together with {sponsor.name}</p>
+      <p className="m-0 text-[22px] font-semibold leading-[1.25]">{sponsor.headline}</p>
+      <p className="m-0 text-[17px] leading-[1.6] text-body">{sponsor.body}</p>
+      <a href={sponsor.url} target="_blank" rel="sponsored noopener" className="caps mt-1 self-start text-[12px] text-signal hover:text-fg">
+        {sponsor.cta ?? `Visit ${sponsor.name}`} →
+      </a>
+    </aside>
   );
 }
 
@@ -68,49 +84,81 @@ export default async function IssuePage({ params }: PageProps<"/issues/[number]"
             <h1 className="m-0 text-[clamp(30px,4vw,46px)] font-semibold leading-[1.1] tracking-[-0.02em] text-balance">
               {issue.subject}
             </h1>
-            <p className="m-0 border-b border-rule pb-7 text-[21px] leading-[1.55] text-dek">{issue.intro}</p>
+            <p className="m-0 text-[21px] leading-[1.55] text-dek">{issue.intro}</p>
 
-            {issue.sections.map((section) => (
-              <section key={section.heading} className="flex flex-col gap-2 pt-4">
-                <SectionLabel>{section.heading}</SectionLabel>
-                {section.stories.map((s) => {
-                  const href = briefing(s.storyId);
-                  const visual = <StoryVisual story={byId.get(s.storyId) ?? { id: s.storyId }} ratio="16/9" />;
-                  return (
-                    <div key={s.storyId} className="flex flex-col gap-3 border-b border-rule py-6 last:border-b-0">
-                      <div className="mb-2">
-                        {href ? (
-                          <Link href={href} className="group block" tabIndex={-1} aria-hidden>
-                            {visual}
+            <nav aria-labelledby="issue-contents" className="border-y border-rule py-5">
+              <h2 id="issue-contents" className="kicker m-0 mb-3 text-signal">
+                In this issue
+              </h2>
+              <ol className="m-0 flex list-none flex-col gap-1.5 p-0 text-[16px]">
+                {issue.sections.flatMap((sec) =>
+                  sec.stories.map((s) => (
+                    <li key={s.storyId}>
+                      <a href={`#s-${s.storyId}`} className="hover:text-signal">
+                        <span className="text-signal">▸</span> {s.headline}
+                      </a>
+                    </li>
+                  )),
+                )}
+                {issue.quickHits.length > 0 && (
+                  <li className="text-muted">
+                    <a href="#in-brief" className="hover:text-signal">
+                      <span className="text-signal">▸</span> Plus {issue.quickHits.length} more in brief
+                    </a>
+                  </li>
+                )}
+              </ol>
+            </nav>
+
+            {issue.sections.map((section, i) => (
+              <Fragment key={section.heading}>
+                <section className="flex flex-col gap-2 pt-4">
+                  <SectionLabel>{section.heading}</SectionLabel>
+                  {section.stories.map((s) => {
+                    const href = briefing(s.storyId);
+                    const visual = <StoryVisual story={byId.get(s.storyId) ?? { id: s.storyId }} ratio="16/9" />;
+                    return (
+                      <div key={s.storyId} id={`s-${s.storyId}`} className="flex scroll-mt-6 flex-col gap-3 border-b border-rule py-6 last:border-b-0">
+                        <div className="mb-2">
+                          {href ? (
+                            <Link href={href} className="group block" tabIndex={-1} aria-hidden>
+                              {visual}
+                            </Link>
+                          ) : (
+                            visual
+                          )}
+                        </div>
+                        <h3 className="m-0 text-[24px] font-semibold leading-[1.25]">
+                          {href ? (
+                            <Link href={href} className="hover:text-signal">
+                              {s.headline}
+                            </Link>
+                          ) : (
+                            s.headline
+                          )}
+                        </h3>
+                        <p className="m-0 text-[18px] leading-[1.7] text-body">{s.body}</p>
+                        {s.why && (
+                          <p className="m-0 border-l-[3px] border-orange pl-4 text-[18px] leading-[1.6]">
+                            <strong>Why it matters:</strong> {s.why}
+                          </p>
+                        )}
+                        <Sources issue={issue} storyId={s.storyId} />
+                        {href && (
+                          <Link href={href} className="caps mt-1 self-start text-[12px] text-signal hover:text-fg">
+                            Read the briefing →
                           </Link>
-                        ) : (
-                          visual
                         )}
                       </div>
-                      <h3 className="m-0 text-[24px] font-semibold leading-[1.25]">
-                        {href ? (
-                          <Link href={href} className="hover:text-signal">
-                            {s.headline}
-                          </Link>
-                        ) : (
-                          s.headline
-                        )}
-                      </h3>
-                      <p className="m-0 text-[18px] leading-[1.7] text-body">{s.body}</p>
-                      <Sources issue={issue} storyId={s.storyId} />
-                      {href && (
-                        <Link href={href} className="caps mt-1 self-start text-[12px] text-signal hover:text-fg">
-                          Read the briefing →
-                        </Link>
-                      )}
-                    </div>
-                  );
-                })}
-              </section>
+                    );
+                  })}
+                </section>
+                {i === 0 && issue.sponsor && <SponsorBlock sponsor={issue.sponsor} />}
+              </Fragment>
             ))}
 
             {issue.quickHits.length > 0 && (
-              <section className="flex flex-col gap-2 pt-4">
+              <section id="in-brief" className="flex scroll-mt-6 flex-col gap-2 pt-4">
                 <SectionLabel>In brief</SectionLabel>
                 <ul className="m-0 list-none border-t border-fg p-0">
                   {issue.quickHits.map((q) => {
@@ -135,6 +183,28 @@ export default async function IssuePage({ params }: PageProps<"/issues/[number]"
                 </ul>
               </section>
             )}
+
+            <section aria-labelledby="rate-title" className="flex flex-col gap-4 border-t border-fg pt-6">
+              <h2 id="rate-title" className="m-0 text-[22px] font-semibold">
+                How was this issue?
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {RATINGS.map((r) => (
+                  <Link
+                    key={r.key}
+                    href={feedbackPath(issue.number, r.key)}
+                    className="inline-flex min-h-11 items-center border border-fg px-5 text-[15px] font-semibold hover:border-signal hover:text-signal"
+                  >
+                    {r.label}
+                  </Link>
+                ))}
+              </div>
+              <p className="m-0 text-[16px] text-dek">
+                That&rsquo;s it for #{issue.number}. The next issue lands {nextIssueDay(issue.date)} morning.
+                <br />
+                <strong className="text-fg">{SIGN_OFF}</strong>
+              </p>
+            </section>
           </article>
         </div>
         <NewsletterBox variant="band" />

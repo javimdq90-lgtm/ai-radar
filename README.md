@@ -47,7 +47,10 @@ npm run ingest                         npm run newsletter
    - In Stripe, turn on the customer portal (Settings → Billing → Customer portal) so members can cancel and change cards, and the failed-payment emails (Settings → Billing → Subscriptions and emails) so members hear about a declined card.
    - Sales tax: the $2 is charged with no tax added. If you'll charge readers where you're registered for sales tax or VAT, set up Stripe Tax and its registrations before turning on `automatic_tax`.
    - There's no database: Stripe is the record of who pays, and a signed cookie remembers the reader. Access is re-checked with Stripe every 3 days. The meter is a soft paywall: counted in the browser, with full text in the page for search engines. Cookies are signed with a key derived from the Stripe key; set `MEMBER_SECRET` to use your own (changing either signs everyone out).
-6. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
+6. **Newsletter extras (optional).**
+   - Ratings: each issue ends with "How was this issue?". Readers confirm on `/feedback`, and the answer is emailed to `FEEDBACK_TO` (set it on Vercel, with `RESEND_API_KEY`); without it, answers only reach the server log.
+   - Sponsors: put a `data/sponsor.json` in the repo, `{ "name", "url", "headline", "body", "cta"?, "from"?, "until"? }` (dates as YYYY-MM-DD), and the next issue in that window carries it after its first section, labelled "Sponsored". It's frozen into that issue; delete the file when the booking ends.
+7. **First run.** Actions → *Ingest* → *Run workflow*. After that it runs on its own every 12 hours. Run *Newsletter* by hand once to see an issue.
 
 ## Costs
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Footer, SiteHeader } from "@/components/brand";
 import { NewsletterBox } from "@/components/newsletter";
@@ -7,7 +8,7 @@ import { ShareButton } from "@/components/share-button";
 import { Byline, Kicker, RelatedItem, sourceName, StoryVisual, storySummary, storyTitle } from "@/components/story";
 import { fmtWhen } from "@/lib/format";
 import { membershipOpen } from "@/lib/membership";
-import { AUTHOR, OG_BASE, SITE_URL } from "@/lib/site";
+import { OG_BASE, SITE_URL } from "@/lib/site";
 import { getBriefedStoryIds, getStory } from "@/lib/site-data";
 
 export async function generateStaticParams() {
@@ -38,10 +39,13 @@ const forDisplay = (s: string) => s.replace(/[‘’]/g, "'").replace(/[“”]/
 
 type ArticleSection = { title: string; paragraphs: string[]; quote?: { text: string; by: string } };
 
+/** "Why it matters" -> "why-it-matters", the section's anchor for the contents list. */
+const anchor = (title: string) => title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 /** "WHY IT MATTERS": section title in the display face, the paragraphs, and a pull quote after the first. */
 function Section({ title, paragraphs, quote }: ArticleSection) {
   return (
-    <section className="flex flex-col gap-5 text-[18px] leading-[1.75] text-body">
+    <section id={anchor(title)} className="flex scroll-mt-6 flex-col gap-5 text-[18px] leading-[1.75] text-body">
       <h2 className="display m-0 mt-4 text-[18px] tracking-[0.08em] text-fg">{title}</h2>
       {paragraphs.map((p, i) => (
         <div key={p} className="contents">
@@ -94,7 +98,7 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
     description: summary || undefined,
     url: `${SITE_URL}/story/${story.id}`,
     datePublished: brief?.writtenAt ?? story.firstSeen,
-    ...(brief ? { author: { "@type": "Person", name: AUTHOR.name } } : {}),
+    author: { "@type": "Organization", name: "Context Window", url: `${SITE_URL}/about` },
     publisher: { "@type": "Organization", name: "Context Window", url: SITE_URL },
     // Tells search engines the faded part is a paywall, not hidden text.
     isAccessibleForFree: !metered,
@@ -143,7 +147,7 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
 
             {brief && (
               <section aria-labelledby="in-context" className="chamfer-md flex flex-col gap-4 bg-black px-8 py-7 text-bone">
-                <h2 id="in-context" className="display m-0 text-[14px] tracking-[0.1em] text-orange">
+                <h2 id="in-context" className="display m-0 scroll-mt-10 text-[14px] tracking-[0.1em] text-orange">
                   In context
                 </h2>
                 <ol className="m-0 flex list-none flex-col gap-3 p-0 text-[17px] leading-[1.5]">
@@ -194,13 +198,37 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
 
             <p className="m-0 text-[13px] text-muted">
               {brief ? "This briefing was" : "These summaries were"} written by Claude from the sources above. Check the
-              original reporting before relying on it.
+              original reporting before relying on it.{" "}
+              <Link href="/about" className="link">
+                How we work
+              </Link>
             </p>
           </article>
 
-          <aside aria-label="More stories" className="min-w-0 flex-[1_1_300px]">
+          <aside aria-label="In this briefing and more stories" className="flex min-w-0 flex-[1_1_300px] flex-col gap-10">
+            {brief && (
+              <nav aria-labelledby="contents-h" className="flex flex-col gap-3">
+                <h2 id="contents-h" className="display m-0 border-b border-fg pb-3 text-[14px] tracking-[0.1em]">
+                  In this briefing
+                </h2>
+                <ol className="m-0 flex list-none flex-col gap-2 p-0 text-[15px]">
+                  {[
+                    { href: "#in-context", label: "In context" },
+                    ...sections.map((sec) => ({ href: `#${anchor(sec.title)}`, label: sec.title })),
+                    { href: "#sources", label: `Sources (${coverage.length})` },
+                  ].map((item) => (
+                    <li key={item.href}>
+                      <a href={item.href} className="hover:text-signal">
+                        <span className="text-signal">▸</span> {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </nav>
+            )}
+            <NewsletterBox variant="side" />
             {related.length > 0 && (
-              <>
+              <div>
                 <h2 className="display m-0 mb-1 border-b border-fg pb-3 text-[14px] tracking-[0.1em]">
                   {relatedIsSection ? "More context" : "Latest"}
                 </h2>
@@ -209,7 +237,7 @@ export default async function StoryPage({ params }: PageProps<"/story/[id]">) {
                     <RelatedItem key={s.id} story={s} now={now} />
                   ))}
                 </ul>
-              </>
+              </div>
             )}
           </aside>
         </div>

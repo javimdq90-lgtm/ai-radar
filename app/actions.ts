@@ -2,6 +2,8 @@
 
 import { headers } from "next/headers";
 import { z } from "zod";
+import { Resend } from "resend";
+import { isRating, RATINGS } from "@/lib/issue-extras";
 import { rateLimiter } from "@/lib/rate-limit";
 import { addSubscriber, readToken, sendConfirmation, subscribeConfig } from "@/lib/subscribe";
 
@@ -58,4 +60,38 @@ export async function confirmSubscription(_prev: ConfirmState, form: FormData): 
     return { status: "error" };
   }
   return { status: "done", email };
+}
+
+export type FeedbackState = { ok?: boolean; message: string };
+
+const feedbackLimited = rateLimiter(10, 10 * 60_000);
+
+/**
+ * A reader's rating of an issue, from the links at its end. It is sent to FEEDBACK_TO by email
+ * (there is no database); without that setting it only goes to the server log.
+ */
+export async function sendFeedback(_prev: FeedbackState, form: FormData): Promise<FeedbackState> {
+  const issue = Number(form.get("issue"));
+  const rating = String(form.get("rating") ?? "");
+  const note = String(form.get("note") ?? "").trim().slice(0, 2000);
+  if (!Number.isInteger(issue) || issue < 1 || !isRating(rating)) return { message: "Pick one of the three answers first." };
+  if (form.get("website")) return { ok: true, message: "Thanks, that helps." };
+
+  const ip = (await headers()).get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+  if (feedbackLimited(ip)) return { message: "Too many answers from here. Please try again in a few minutes." };
+
+  const label = RATINGS.find((r) => r.key === rating)!.label;
+  const { RESEND_API_KEY, FEEDBACK_TO, NEWSLETTER_FROM } = process.env;
+  if (RESEND_API_KEY && FEEDBACK_TO) {
+    const { error } = await new Resend(RESEND_API_KEY).emails.send({
+      from: NEWSLETTER_FROM || "Context Window <hello@contextwindow.me>",
+      to: FEEDBACK_TO,
+      subject: `Issue #${issue}: ${label}`,
+      text: `A reader rated issue #${issue}: ${label}.${note ? `\n\n${note}` : ""}`,
+    });
+    if (error) console.error("sendFeedback:", error.message);
+  } else {
+    console.log("feedback", { issue, rating, note });
+  }
+  return { ok: true, message: "Thanks, that helps." };
 }

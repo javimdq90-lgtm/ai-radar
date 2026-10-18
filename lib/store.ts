@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import type { Brief, Issue, Item } from "./types";
+import type { Brief, Issue, Item, Sponsor } from "./types";
 
 /**
  * The repo is the database: items live in one JSON file per month (by fetch date),
@@ -45,6 +45,18 @@ async function readJson<T>(file: string, fallback: T): Promise<T> {
 async function writeJson(file: string, value: unknown) {
   await mkdir(path.dirname(file), { recursive: true });
   await writeFile(file, `${JSON.stringify(value, null, 1)}\n`);
+}
+
+/**
+ * The sponsor for the next issue, if data/sponsor.json exists and today falls in its optional
+ * `from`/`until` dates (YYYY-MM-DD). The newsletter freezes it into the issue it runs in.
+ */
+export async function loadSponsor(now = new Date()): Promise<Sponsor | null> {
+  const s = await readJson<(Sponsor & { from?: string; until?: string }) | null>(path.join(DATA_DIR, "sponsor.json"), null);
+  if (!s?.name || !s.url || !s.headline || !s.body) return null;
+  const day = now.toISOString().slice(0, 10);
+  if ((s.from && day < s.from) || (s.until && day > s.until)) return null;
+  return { name: s.name, url: s.url, headline: s.headline, body: s.body, cta: s.cta };
 }
 
 /** Items fetched in the last `months` calendar months (current month included), newest first. */
