@@ -4442,5 +4442,83 @@
   "image": "https://storage.ghost.io/c/3f/80/3f804bea-4b2d-4ddf-9ff0-6ec7d0afa5fa/content/images/size/w1200/2026/10/Amazon-AI-question-openDemocracy-edit.jpg",
   "imageCheckedAt": "2026-10-17T19:28:15.512Z",
   "storyId": "fa796824301f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+  "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-17T20:21:19.000Z",
+  "snippet": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+  "id": "0dabc6c10b97",
+  "fetchedAt": "2026-10-18T09:42:08.105Z",
+  "enrichedAt": "2026-10-18T09:42:14.169Z",
+  "summary": "Anthropic says its workforce has become less junior over the past year, with employees spending more time in meetings as the type of work changes.",
+  "whyItMatters": "It offers a glimpse of how a leading AI lab's staffing and work mix are shifting as it scales.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "0dabc6c10b97"
+ },
+ {
+  "url": "https://sphinx-six-theta.vercel.app/",
+  "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T04:33:49.000Z",
+  "score": 125,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50137950",
+  "id": "40d691da45f3",
+  "fetchedAt": "2026-10-18T09:42:08.105Z",
+  "enrichedAt": "2026-10-18T09:42:14.169Z",
+  "summary": "Sphinx is a hook that quizzes developers on their AI-generated code before they ship it, aiming to ensure they understand what the AI wrote.",
+  "whyItMatters": "It addresses the risk of shipping AI-written code nobody has actually reviewed or understood.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Sphinx"
+  ],
+  "storyId": "40d691da45f3"
+ },
+ {
+  "url": "https://api-docs.deepseek.com/guides/search/",
+  "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T06:50:36.000Z",
+  "score": 178,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50138531",
+  "id": "48479cd7194a",
+  "fetchedAt": "2026-10-18T09:42:08.105Z",
+  "enrichedAt": "2026-10-18T09:42:14.169Z",
+  "summary": "DeepSeek's API docs list search and fetch capabilities priced at $0.75 per 1,000 successful requests.",
+  "whyItMatters": "Built-in web search and fetch at a set per-request price gives agent builders another option for grounding models in live web data.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "DeepSeek"
+  ],
+  "image": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
+  "imageCheckedAt": "2026-10-18T09:42:15.004Z",
+  "storyId": "48479cd7194a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+  "title": "Meta removes language that raised scraping and AI training concerns",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-17T21:31:32.000Z",
+  "snippet": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
+  "id": "d4d8a21bd997",
+  "fetchedAt": "2026-10-18T09:42:08.105Z",
+  "enrichedAt": "2026-10-18T09:42:14.169Z",
+  "summary": "Meta removed language from its terms that raised concerns about web scraping and AI training. A spokesperson insisted the updated terms do not reflect any change in how Meta crawls the web.",
+  "whyItMatters": "Publishers and developers remain wary of how large platforms collect web data for AI training.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta"
+  ],
+  "imageCheckedAt": "2026-10-18T09:42:14.217Z",
+  "storyId": "e874f1181e68"
  }
 ]

@@ -309,6 +309,48 @@
    }
   }
  },
+ "e874f1181e68": {
+  "storyId": "e874f1181e68",
+  "itemIds": [
+   "e874f1181e68",
+   "3c203c9854b8",
+   "3e7a8c91741b",
+   "d4d8a21bd997"
+  ],
+  "writtenAt": "2026-10-18T09:42:28.152Z",
+  "headline": "Meta removes terms language that could have allowed AI training on publishers' sites",
+  "dek": "After criticism from legal experts and publishers, Meta deleted a clause from its commercial terms, due October 30, that let it train AI on content from sites tied to business accounts.",
+  "keyPoints": [
+   "Meta's commercial terms, effective October 30, let it crawl domains tied to business accounts and use the content to 'train' its products, per Nieman Lab, The Verge and Ars Technica.",
+   "Cornell's James Grimmelmann told Nieman Lab the terms were 'permission to Meta to train AI on any content from their sites.'",
+   "Meta says the terms only consolidated existing language and that robots.txt preferences still apply. Andy Stone said the aim was product data for ads.",
+   "On October 17 Meta removed the sentence permitting use of site content to 'train' its products, saying the crawling terms applied only to ads and business products.",
+   "Ars Technica found the 'test credentials' wording was new to the commercial terms, which experts said could allow paywall bypass. Meta pointed to its Seller Agreement."
+  ],
+  "context": "Publishers are fighting AI companies over whether training on their work without a license is fair use. Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc. Meta also began charging businesses to post links last month, which sharpened the criticism.",
+  "whatsNext": "Watch whether publishers and legal experts find the revised terms on the commercial terms page, which take effect October 30, adequately limit Meta's crawling to ads and business products.",
+  "article": {
+   "whatHappened": [
+    "Meta has removed language from its commercial terms that experts said could let it scrape news sites and train AI on their content. The sentence said Meta 'may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of' its products. It no longer appears on the commercial terms page, The Verge reported on October 17.",
+    "The clause drew attention after Nieman Lab reported on the terms, which take effect October 30 and apply to business accounts on Facebook, Instagram, WhatsApp and Messenger. They authorize Meta to use scrapers, bots and crawlers, and to create test credentials, to access domains and pages associated with a business's products or services.",
+    "Meta first denied any change. Spokesperson Daniel Roberts said the company was consolidating its commercial and self-serve ad terms and that 'there is no change to how Meta uses web crawlers.' Communications chief Andy Stone said the aim was to pull accurate product information from third-party sites for ad and content recommendations, not to scrape news sites.",
+    "After the backlash, Meta said the crawling terms 'only applied to our ads and business products' and that it had clarified this in the terms. It said the updates do not give it new rights that supersede robots.txt preferences."
+   ],
+   "whyItMatters": [
+    "Legal experts told Nieman Lab that the original wording could have been used to argue that Meta's commercial terms override a site's robots.txt blocking. Cornell's James Grimmelmann said it could let Meta deploy publishers' content in competition with them. Attorney Matt Topic called it a remarkable provision to bury in terms of service, since the material would likely cost many millions of dollars in a licensing market.",
+    "Ars Technica reported that the wording was not simply streamlining. It found that 'test credentials' did not appear in Meta's earlier commercial terms, Product Catalog Terms or Ad Creative Generative AI Terms. Experts warned such credentials could help bypass paywalls. Meta pointed Ars to its Seller Agreement, which has similar wording limited to e-commerce listings.",
+    "Nieman Lab noted that virtually every news organization has a Meta business account. It also noted the timing: Meta recently began charging users to post links through its Meta One subscription, while the terms would have let it crawl the same content for free. Whether a court would have enforced the terms is unclear, according to the three legal experts."
+   ],
+   "whatToWatch": [
+    "The revised terms go into effect October 30. Publishers and lawyers will be checking whether the remaining language on crawling and test credentials is limited to ads and business products, as Meta says.",
+    "The wider legal fight continues. TechCrunch notes that Meta won a high-profile copyright case last year, but other cases against AI companies, including Meta, are still pending."
+   ],
+   "pullQuote": {
+    "text": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
+    "by": "Daniel Roberts, Meta spokesperson"
+   }
+  }
+ },
  "f1c8e20f7598": {
   "storyId": "f1c8e20f7598",
   "itemIds": [
