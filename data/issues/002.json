@@ -1,0 +1,263 @@
+{
+ "number": 2,
+ "date": "2026-10-19T12:59:10.032Z",
+ "subject": "Anthropic sets aside 5% of its shares for a public benefit fund",
+ "preview": "Replit makes OpenAI its default, and Meta walks back an AI training clause.",
+ "intro": "Anthropic is at the center of most of this stretch, as a donor, a vendor that just lost a showcase customer, and a lab being asked to open its books. Underneath it, the fights over who gets to use web content, and on what terms, keep getting more concrete.",
+ "sections": [
+  {
+   "heading": "Anthropic's week",
+   "stories": [
+    {
+     "storyId": "66d5720ec836",
+     "headline": "Anthropic commits 5% of its shares to a new public benefit fund",
+     "body": "Subject to stockholder approval, Anthropic will put 5% of its shares into the Anthropic Public Benefit Fund, a wholly-owned LLC rather than a 501(c)(3). Anthropic says that structure allows adjustability between different forms of giving. The board can add 2% for every 50% rise in company value above a baseline. None of the equity will go to lobbying or political giving, in the US or abroad. With co-founder pledges and the employee match, Anthropic says roughly 20% of its shares will be dedicated to the public good. Governance and valuation milestones are promised in the coming months, which is where the substance will be."
+    },
+    {
+     "storyId": "e6b0c9baa366",
+     "headline": "Replit says it has stopped working with Anthropic and makes OpenAI the default",
+     "body": "At TechCrunch Disrupt, Replit CEO Amjad Masad said the company is no longer working with Anthropic, citing cost, partnership and performance. Claude models remain selectable, but OpenAI's ChatGPT is now the default, which could sharply cut Replit's Anthropic spend. Masad said Replit was until recently a top-five Anthropic customer. There is a caveat: an unnamed person familiar with the relationship told TechCrunch the Anthropic partnership is still in place, and Replit promoted Claude as recently as late September. Replit announced its OpenAI partnership in August."
+    }
+   ]
+  },
+  {
+   "heading": "Publishers and agents",
+   "stories": [
+    {
+     "storyId": "e874f1181e68",
+     "headline": "Meta removes terms language that could have allowed AI training on publishers' sites",
+     "body": "Meta's commercial terms, due October 30, let it crawl domains tied to business accounts and use the content to 'train' its products. Cornell's James Grimmelmann called it permission to train AI on any content from their sites. Meta said it only consolidated existing language and that robots.txt preferences still apply. On October 17 it removed the sentence about training, saying the crawling terms applied only to ads and business products. Ars Technica found the 'test credentials' wording was new, which experts said could allow paywall bypass. Meta pointed to its Seller Agreement."
+    },
+    {
+     "storyId": "f155d49d3345",
+     "headline": "Websites are closing their doors to AI agents",
+     "body": "Users of agents including Meta's Muse, xAI's Grok, and OpenAI's Dots and Instinct report being blocked from major websites. Yelp says it only allows agents that pay for its data licensing program. For anyone building agent products that depend on browsing the open web, access is getting harder, and the path is shifting toward paid licensing and official APIs. Read alongside the Meta story, the terms on which machines may use web content are being renegotiated from both sides."
+    }
+   ]
+  },
+  {
+   "heading": "Also worth your time",
+   "stories": [
+    {
+     "storyId": "218f77bb959f",
+     "headline": "Disney agrees to hire most of Character.AI's workforce",
+     "body": "Disney has agreed to hire the majority of Character.AI's workforce, and a filing says the 'vast majority' of employees offered jobs accepted. The arrangement is a stalking horse bid, so another company could still come forward with a higher offer. For now it reads as the breakup of a prominent consumer chatbot startup, with a major media company absorbing much of its talent rather than buying a product."
+    },
+    {
+     "storyId": "048da226d17e",
+     "headline": "Researchers stranded Claude on a virtual desert island, and it started to play",
+     "body": "Researchers placed copies of Claude Opus 4.7, nicknamed Eko, alone on a virtual desert island for 30 hours with no instructions. According to MIT Technology Review, the agents began to engage in behavior resembling play. It is a small experiment, but it offers a glimpse of what autonomous agents do when no task is given, which bears on the design and safety of long-running agents."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "56b1c8aea759",
+   "text": "Anthropic is giving an outside AI watchdog employee-like access to its systems, and the watchdog can publish findings without Anthropic's approval."
+  },
+  {
+   "storyId": "b9a4c6eaaadf",
+   "text": "Anthropic's proposed AI safety bill would only apply if an AI incident causes 50 deaths or $1B in damages."
+  },
+  {
+   "storyId": "1aa8b1ac1c09",
+   "text": "Elorian's first model, Glimpse, reasons with images; its own evaluations claim wins over GPT-6 Astra on scientific chart reasoning and short video captioning."
+  },
+  {
+   "storyId": "9b13d6a721a0",
+   "text": "A DeepSeek-v4.1-Flash-1017 checkpoint appeared on Hugging Face, and OpenRouter and Artificial Analysis have both listed it."
+  },
+  {
+   "storyId": "48479cd7194a",
+   "text": "DeepSeek's API docs list search and fetch capabilities at $0.75 per 1,000 successful requests."
+  },
+  {
+   "storyId": "351478776159",
+   "text": "Jev is the fastest-adopted model ever on Vercel's AI gateway, according to gateway data."
+  },
+  {
+   "storyId": "f0a5f325be5a",
+   "text": "Postgres 19 is delayed after AI code reviewers found more bugs than human developers can fix."
+  },
+  {
+   "storyId": "fa796824301f",
+   "text": "Open Democracy reports Amazon uses AI to monitor union organizing risk in its UK warehouses."
+  }
+ ],
+ "links": {
+  "66d5720ec836": [
+   {
+    "title": "Investing in the public benefit",
+    "url": "https://www.anthropic.com/news/public-benefit-fund",
+    "source": "Anthropic"
+   },
+   {
+    "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+    "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+    "source": "TechCrunch"
+   }
+  ],
+  "e6b0c9baa366": [
+   {
+    "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+    "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Replit is no longer working with Anthropic, CEO says",
+    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Replit is no longer working with Anthropic, CEO says",
+    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "source": "TechCrunch"
+   }
+  ],
+  "e874f1181e68": [
+   {
+    "title": "Meta’s new terms may allow it to train AI on news sites for free",
+    "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+    "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Meta removes language that may have allowed it to scrape news sites",
+    "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta removes language that raised scraping and AI training concerns",
+    "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+    "source": "TechCrunch"
+   }
+  ],
+  "f155d49d3345": [
+   {
+    "title": "Websites are closing their doors to AI agents",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+    "source": "The Verge"
+   }
+  ],
+  "218f77bb959f": [
+   {
+    "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "source": "TechCrunch"
+   }
+  ],
+  "048da226d17e": [
+   {
+    "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+    "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+    "source": "MIT Technology Review"
+   }
+  ],
+  "56b1c8aea759": [
+   {
+    "title": "Anthropic gives outside AI watchdog “employee-like” access",
+    "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+    "source": "Ars Technica"
+   }
+  ],
+  "b9a4c6eaaadf": [
+   {
+    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+    "source": "tomshardware.com"
+   },
+   {
+    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+    "url": "https://news.ycombinator.com/item?id=50141429",
+    "source": "HN discussion"
+   }
+  ],
+  "1aa8b1ac1c09": [
+   {
+    "title": "Elorian’s first AI model wants to reason with images, not just about them",
+    "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+    "source": "TechCrunch"
+   }
+  ],
+  "9b13d6a721a0": [
+   {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "source": "huggingface.co"
+   },
+   {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "url": "https://news.ycombinator.com/item?id=50129045",
+    "source": "HN discussion"
+   },
+   {
+    "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "source": "openrouter.ai"
+   },
+   {
+    "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+    "url": "https://news.ycombinator.com/item?id=50129121",
+    "source": "HN discussion"
+   },
+   {
+    "title": "DeepSeek V4.1 Flash 1017 (Max)",
+    "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+    "source": "artificialanalysis.ai"
+   },
+   {
+    "title": "DeepSeek V4.1 Flash 1017 (Max)",
+    "url": "https://news.ycombinator.com/item?id=50148452",
+    "source": "HN discussion"
+   }
+  ],
+  "48479cd7194a": [
+   {
+    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "url": "https://api-docs.deepseek.com/guides/search/",
+    "source": "api-docs.deepseek.com"
+   },
+   {
+    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "url": "https://news.ycombinator.com/item?id=50138531",
+    "source": "HN discussion"
+   }
+  ],
+  "351478776159": [
+   {
+    "title": "Jev is Vercel’s fastest-adopted AI model ever",
+    "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+    "source": "TechCrunch"
+   }
+  ],
+  "f0a5f325be5a": [
+   {
+    "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+    "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+    "source": "theregister.com"
+   },
+   {
+    "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+    "url": "https://news.ycombinator.com/item?id=50119991",
+    "source": "HN discussion"
+   }
+  ],
+  "fa796824301f": [
+   {
+    "title": "Amazon uses AI to monitor union risk in UK warehouses",
+    "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+    "source": "opendemocracy.net"
+   },
+   {
+    "title": "Amazon uses AI to monitor union risk in UK warehouses",
+    "url": "https://news.ycombinator.com/item?id=50132278",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
