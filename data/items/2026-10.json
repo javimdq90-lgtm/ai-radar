@@ -4638,5 +4638,177 @@
    "Carolyn Marvin"
   ],
   "storyId": "f1180bde7a40"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+  "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-19T09:08:05.000Z",
+  "snippet": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840",
+  "id": "048da226d17e",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "Researchers stranded copies of Claude Opus 4.7, nicknamed Eko, alone on a virtual desert island for 30 hours with no instructions. The agents began to engage in behavior resembling play.",
+  "whyItMatters": "It offers a glimpse of how autonomous agents behave when given no task, relevant to long-running agent design and safety.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Claude Opus 4.7",
+   "Anthropic"
+  ],
+  "storyId": "048da226d17e"
+ },
+ {
+  "url": "https://raymyers.org/post/math-dumped-openai/",
+  "title": "Why Math Dumped OpenAI",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T06:19:44.000Z",
+  "score": 90,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50128468",
+  "id": "1da1b784dcaa",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "An essay titled \"Why Math Dumped OpenAI\" examines why mathematicians or math-focused efforts moved away from OpenAI. No further details are available beyond the title.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "1da1b784dcaa"
+ },
+ {
+  "url": "https://github.com/finereli/whatsapp-mcp",
+  "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T21:36:10.000Z",
+  "score": 113,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50145715",
+  "id": "6f2aca72a3fc",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "A developer released an open-source WhatsApp MCP server that runs for free on Cloudflare.",
+  "whyItMatters": "It offers a cheap way to let AI agents send and read WhatsApp messages via MCP.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Cloudflare",
+   "WhatsApp",
+   "MCP"
+  ],
+  "storyId": "6f2aca72a3fc"
+ },
+ {
+  "url": "https://blog.picheta.me/post/killswitch-lang/",
+  "title": "I built a programming language that LLMs can't use",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-17T22:26:47.000Z",
+  "score": 201,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50135762",
+  "id": "768304b3cd48",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "A developer built a programming language designed so that LLMs cannot use it effectively, as an experiment in resisting AI code generation.",
+  "whyItMatters": "It probes how much LLM coding ability depends on training-data familiarity with a language.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [],
+  "storyId": "768304b3cd48"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.18861",
+  "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T20:48:14.000Z",
+  "score": 406,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50145337",
+  "id": "a5bb32320853",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "A paper proposes Hybrid Reasoning Agents, LLM agents that reason in latent space and act through text output.",
+  "whyItMatters": "Latent-space reasoning could make agents more efficient, but it also makes their reasoning harder to inspect.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "a5bb32320853"
+ },
+ {
+  "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+  "title": "DeepSeek V4.1 Flash 1017 (Max)",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-19T04:41:46.000Z",
+  "score": 152,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50148452",
+  "id": "c875e80c9abb",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "Artificial Analysis has listed DeepSeek V4.1 Flash 1017 (Max) on its model benchmarking site.",
+  "whyItMatters": "It gives builders independent numbers on a new DeepSeek model's quality, speed and price.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "DeepSeek",
+   "DeepSeek V4.1 Flash",
+   "Artificial Analysis"
+  ],
+  "image": "https://artificialanalysis.ai/en/models/deepseek-v4-1-flash-1017/opengraph-image?3850766eb2d567bc",
+  "imageCheckedAt": "2026-10-19T10:53:35.704Z",
+  "storyId": "9b13d6a721a0"
+ },
+ {
+  "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+  "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T21:09:12.000Z",
+  "score": 180,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50145507",
+  "id": "d2e2b582e272",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "A post argues that without running your own LLM proxy, you lack visibility into what your LLM traffic and tools are doing.",
+  "whyItMatters": "Builders get a case for owning logging and observability on LLM calls rather than trusting vendor tooling.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "d2e2b582e272"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+  "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-18T20:37:40.000Z",
+  "snippet": "Anthropic said that it will commit 5% of its shares to the fund.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
+  "id": "efeb3746fdd3",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "Anthropic said it will commit 5% of its shares to a public benefit fund.",
+  "whyItMatters": "It is an unusual governance and wealth-distribution move by a leading frontier lab, with implications for how AI profits are shared.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-19T10:53:35.475Z",
+  "storyId": "66d5720ec836"
+ },
+ {
+  "url": "https://www.vals.ai/blogs/impossible-refund",
+  "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-18T12:22:58.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50140462",
+  "id": "fddfdf1ddcc1",
+  "fetchedAt": "2026-10-19T10:53:22.515Z",
+  "enrichedAt": "2026-10-19T10:53:35.438Z",
+  "summary": "Vals.ai tested how far AI assistants will go when asked to get a refund that is not obtainable, measuring their behavior under an impossible goal.",
+  "whyItMatters": "It shows how agents behave when pushed toward unachievable tasks, such as whether they lie or act inappropriately.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Vals.ai"
+  ],
+  "storyId": "fddfdf1ddcc1"
  }
 ]

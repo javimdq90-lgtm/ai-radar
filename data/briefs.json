@@ -79,6 +79,45 @@
    }
   }
  },
+ "66d5720ec836": {
+  "storyId": "66d5720ec836",
+  "itemIds": [
+   "66d5720ec836",
+   "efeb3746fdd3"
+  ],
+  "writtenAt": "2026-10-19T10:53:49.111Z",
+  "headline": "Anthropic commits 5% of its shares to a new public benefit fund",
+  "dek": "Subject to stockholder approval, Anthropic will put 5% of its shares into a wholly-owned LLC, with 2% more at the board's discretion for each 50% rise in company value above a baseline.",
+  "keyPoints": [
+   "Anthropic will commit 5% of its shares to the Anthropic Public Benefit Fund, subject to stockholder approval, and may add 2% for every 50% increase in company value above a set baseline.",
+   "The fund is a wholly-owned LLC rather than a 501(c)(3), which Anthropic says allows adjustability between different forms of giving.",
+   "None of the equity held by the LLC will be used for lobbying or political giving, in the US or abroad, Anthropic says.",
+   "With co-founder pledges and the employee match program, Anthropic says roughly 20% of its shares will be dedicated to the public good.",
+   "Anthropic says details on structure, governance and valuation milestones will come in the coming months."
+  ],
+  "context": "Anthropic is a public benefit corporation, and says most of its mission-related work, such as safety research and discounted Claude access for nonprofits, happens inside the company. The fund adds a vehicle for giving that does not need to double as for-profit work. It follows an earlier $200 million commitment to study labor market impacts, and comes as CEO Dario Amodei describes AI's public standing as a crisis of trust.",
+  "whatsNext": "Anthropic says it will share more on the fund's structure, governance and valuation milestones in the coming months, along with an upcoming public benefit report.",
+  "article": {
+   "whatHappened": [
+    "Anthropic has announced the Anthropic Public Benefit Fund, a new entity to which it will commit a portion of its shares. Subject to stockholder approval, 5% of the company's shares will be committed at the outset. The board may add a further 2% for every 50% increase in the company's value above a set baseline.",
+    "Anthropic is setting the fund up as a wholly-owned LLC, not a 501(c)(3) or other format. The company says this gives flexibility to move between different forms of giving. It says none of the Anthropic equity held by the LLC will be used for lobbying or political giving, in the US or abroad.",
+    "The company offered only broad ideas for how the money might be used, such as large donations to traditional nonprofits or direct distributions to specific populations. It cited labor market impacts as one example, noting it has already committed $200 million to studying and addressing the issue."
+   ],
+   "whyItMatters": [
+    "Anthropic says the structure means that as the company grows, a larger share of it can be dedicated to the public good. It also drew a comparison with executive pay: it is common for tech companies to offer escalating compensation awards to executives, and Anthropic says it is directing that equity to the public benefit instead.",
+    "The fund builds on earlier pledges. Anthropic says its co-founders pledged to donate 80% of their equity holdings, and that about half of employees take part in an equity donation match program. Combined with the new fund, Anthropic says roughly 20% of its shares will be dedicated to the public good, plus any additional percentage from valuation milestones.",
+    "TechCrunch notes the announcement arrives as the AI industry faces increasingly negative public sentiment, which Amodei has called a crisis of trust. Whether the fund shifts that perception will likely depend on who controls it and what it funds, neither of which has been specified."
+   ],
+   "whatToWatch": [
+    "The main open question is governance: who will decide which public benefits are worth funding. Anthropic says it will publish more on the fund's structure and governance in the coming months, including the valuation milestones that could increase its stake.",
+    "Stockholder approval is also required for the initial 5% commitment. Anthropic also plans an upcoming public benefit report on its progress against its mission."
+   ],
+   "pullQuote": {
+    "text": "Given the pace of AI progress, bolder approaches may be needed. The Fund will have the versatility to pursue them.",
+    "by": "Anthropic"
+   }
+  }
+ },
  "745c37586581": {
   "storyId": "745c37586581",
   "itemIds": [
