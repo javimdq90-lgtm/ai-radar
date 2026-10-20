@@ -385,6 +385,44 @@
    ]
   }
  },
+ "c86664b601af": {
+  "storyId": "c86664b601af",
+  "itemIds": [
+   "c86664b601af"
+  ],
+  "writtenAt": "2026-10-20T10:09:45.276Z",
+  "headline": "Anthropic and Nscale reportedly near second $45B compute deal in two months",
+  "dek": "Bloomberg, via TechCrunch, reports Anthropic and Nscale may announce another $45 billion compute agreement a little over a month after the first, though talks are ongoing and details could change.",
+  "keyPoints": [
+   "Bloomberg reports, citing people familiar, that Anthropic and Nscale are close to announcing a second $45 billion compute deal; sources say talks continue and details could change.",
+   "The two companies announced a $45 billion compute deal a little over a month ago.",
+   "Both companies are pursuing IPOs; Anthropic is still expected to go public this year.",
+   "Bloomberg reported Monday that Nscale faces investor pushback over its proposed $30 billion valuation.",
+   "TechCrunch has asked Nscale and Anthropic for comment and says it will update if they respond."
+  ],
+  "context": "Anthropic has signed a long string of very large compute agreements over the past year, betting that the spending will pay off. Some investors worry that AI companies are spending too much for too little profit, which makes each new commitment a point of scrutiny.",
+  "whatsNext": "Watch for an official announcement from Anthropic or Nscale confirming or changing the terms, and for how Nscale's IPO valuation talks develop.",
+  "article": {
+   "whatHappened": [
+    "Anthropic and the AI infrastructure provider Nscale are reportedly close to announcing a second compute deal worth $45 billion. Bloomberg reported the news, citing people familiar with the matter, and TechCrunch relayed it.",
+    "The sources cautioned that talks are still underway and that the details could change. Neither company had commented at the time of TechCrunch's report. TechCrunch said it had contacted both and would update its story if they responded.",
+    "The reported deal follows an announcement a little over a month earlier, when Anthropic and Nscale disclosed a $45 billion compute agreement. If the new one goes through, the two companies would have agreed to compute arrangements of the same size twice in quick succession."
+   ],
+   "whyItMatters": [
+    "According to TechCrunch, the deal would be the latest in a long string of giant compute agreements Anthropic has made over the past year. Anthropic has kept signing them, driven by a belief that the investment will eventually pay off.",
+    "That strategy sits uneasily with a segment of investors who, TechCrunch notes, worry that AI companies are spending too much money for too little profit. Repeated deals of this size keep that concern in view.",
+    "The timing also overlaps with capital-markets plans. Both companies are pursuing IPOs. Anthropic is still expected to go public this year. Nscale is also seeking a listing, though Bloomberg reported on Monday that it is facing investor pushback over a proposed valuation of $30 billion. Whether a second large Anthropic contract would help Nscale's case is not addressed in the coverage."
+   ],
+   "whatToWatch": [
+    "The first thing to watch is whether the companies confirm the deal, and whether the terms differ from the reported $45 billion figure. The sources said details could change.",
+    "Also watch Nscale's IPO process and whether its $30 billion valuation holds, along with the timing of Anthropic's expected public offering this year."
+   ],
+   "pullQuote": {
+    "text": "the two companies are said to be on the verge of announcing yet another $45 billion compute deal",
+    "by": "Bloomberg, as reported by TechCrunch"
+   }
+  }
+ },
  "e422d5ed3681": {
   "storyId": "e422d5ed3681",
   "itemIds": [

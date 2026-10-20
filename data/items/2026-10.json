@@ -4831,7 +4831,7 @@
   ],
   "image": "https://framerusercontent.com/images/Zgp1I1AaILVgkXF4Xlk7iImaE.png?width=1200&height=630",
   "imageCheckedAt": "2026-10-19T21:35:32.515Z",
-  "storyId": "0c63a7613017"
+  "storyId": "9b13d6a721a0"
  },
  {
   "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
@@ -5376,5 +5376,528 @@
    "Saudi Arabia"
   ],
   "storyId": "fef6e8089579"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.25736",
+  "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in which deployed robots share their execution experience to improve a common policy. We realize CEL through failure-guided experience retrieval fine-tuning (FERT), which uses failure contexts from robot…",
+  "score": 93,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25736.png",
+  "id": "0193eb7bc315",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "A paper proposes collective experience learning, where deployed robots share execution failures to improve a common policy, implemented via failure-guided experience retrieval fine-tuning (FERT).",
+  "whyItMatters": "It reduces reliance on human teleoperator corrections as robot fleets grow.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CEL",
+   "FERT"
+  ],
+  "storyId": "0193eb7bc315"
+ },
+ {
+  "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/",
+  "title": "Agentic Monitoring",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-19T14:52:04.000Z",
+  "score": 100,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50153225",
+  "id": "01db0834cbe3",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "A blog post titled 'Agentic Monitoring' discusses monitoring AI agents; no further details available.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "01db0834cbe3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+  "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-19T22:04:28.000Z",
+  "snippet": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+  "id": "0e19bec78e36",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "Microsoft says AI agents should be treated like insider threats and that 'frontier models can't be trusted', urging enterprises to monitor agents employees use outside AI-lab-controlled systems.",
+  "whyItMatters": "It signals how enterprise security vendors will frame agent governance and the market for monitoring tools.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Microsoft",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-20T10:09:33.597Z",
+  "storyId": "0e19bec78e36"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+  "title": "A visit to Samsung’s massive new semiconductor hub",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-20T09:00:00.000Z",
+  "snippet": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840",
+  "id": "0e27f9a18573",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:33.534Z",
+  "summary": "Samsung is building a massive semiconductor complex in Pyeongtek, South Korea, to meet demand for the memory chips stacked with GPUs for generative AI. Three fabs already run around the clock and a fourth is coming online.",
+  "whyItMatters": "High-bandwidth memory capacity is a key bottleneck for AI GPU supply, so Samsung's expansion affects chip availability and pricing.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Samsung"
+  ],
+  "storyId": "0e27f9a18573"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26848",
+  "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The analysis of experimental results motivates the Physical Barrel Hypothesis: different capabilities may constrain different parts of improvement. The five-axis metrics also distinguish systems with close pub…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26848.png",
+  "id": "225c94476d37",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "A paper introduces PhysRSI-eval, a five-axis metric for physical recursive self-improvement, evaluating VLMs as policies on 18 manipulation tasks and proposing a 'Physical Barrel Hypothesis'.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "PhysRSI-eval"
+  ],
+  "storyId": "225c94476d37"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+  "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-19T22:49:27.000Z",
+  "snippet": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+  "id": "2eba6fdc38ff",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "Hugging Face's policy chief says embedding neutral third-party evaluators inside AI labs won't be an easy fix for safety problems.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "56b1c8aea759"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26802",
+  "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it computationally practical, we exploit the backbone's causal structure to predict multiple timepoints…",
+  "score": 47,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26802.png",
+  "id": "3757b88936ab",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "Researchers show parameter-efficient fine-tuning can adapt very large pretrained backbones for brain encoding with few trainable parameters, using the backbone's causal structure to predict multiple timepoints at once.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "PEFT"
+  ],
+  "storyId": "3757b88936ab"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26216",
+  "title": "RoAR-VAE: Improving Latent Diffusability through Robust Prediction",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "An effective visual tokenizer must preserve image fidelity while producing latents that downstream diffusion models can learn efficiently. Prior work improves latent diffusability through semantic alignment or joint tokenizer--diffusion training. Revisiting REPA-E, a representative approach, we find that removing its diffusion objective and dedicated generative blocks while retaining semantic prediction from corrupted latents yields comparable downstream generation performance under a matched setting. This observation motivates a general principle of robust prediction: generation-relevant inf…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26216.png",
+  "id": "387f88e089a8",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "RoAR-VAE finds that retaining semantic prediction from corrupted latents, without REPA-E's diffusion objective, gives comparable generation performance, and proposes robust prediction as a principle for diffusable tokenizers.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "RoAR-VAE",
+   "REPA-E"
+  ],
+  "storyId": "387f88e089a8"
+ },
+ {
+  "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+  "title": "[AINews] not much happened today",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-20T05:21:52.000Z",
+  "snippet": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
+  "image": "https://substackcdn.com/image/fetch/$s_!otPo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHVBPHSjWcAAHoHt.jpg",
+  "id": "4d5d66fe73af",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:33.534Z",
+  "summary": "Latent Space's daily AINews recap says it was a quiet day, noting new releases of DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash and Mercury 3, none yet in wide use.",
+  "whyItMatters": "Signals a steady stream of cheap, fast 'Flash'-tier models to evaluate, though none are yet proven in production.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "DeepSeek V4.1 Flash",
+   "MiniMax M3.1 Flash",
+   "Mercury 3"
+  ],
+  "storyId": "9b13d6a721a0"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.25690",
+  "title": "ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "We study language-conditioned local navigation, where a robot must navigate to a text-specified target visible in its initial observation and stop at the described location. End-to-end navigation policies require diverse training data to generalize across scenes, yet real-robot data is costly to collect and simulated data leaves a sim-to-real gap. Internet egocentric videos offer a scalable source of real-world navigation experience. Our key insight is to learn goal-directed visual dynamics from Internet egocentric videos, and use these dynamics to support robot action generation. To this end…",
+  "score": 46,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25690.png",
+  "id": "53cb429bf0a3",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "ScaleNav pretrains on internet egocentric video to learn goal-directed visual dynamics, which then support action generation for language-conditioned robot local navigation.",
+  "whyItMatters": "It sidesteps costly real-robot data and the sim-to-real gap.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ScaleNav"
+  ],
+  "storyId": "53cb429bf0a3"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26663",
+  "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring. However, existing evaluations cover only selected aspects of execution understanding, leaving the reliability of value feedback insufficiently tested. We introduce RoboValue, a fine-grained sim-and-real benchmark for unified evaluation of robotic value models. Its framework evaluates four complementary capability dimensions through shared interfaces: task-state understanding, temporal progress monitoring, failure and recovery reasoning, and val…",
+  "score": 20,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26663.png",
+  "id": "7992bf817613",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "RoboValue is a sim-and-real benchmark evaluating robotic value models on task-state understanding, progress monitoring, failure and recovery reasoning, and value estimation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "RoboValue"
+  ],
+  "storyId": "7992bf817613"
+ },
+ {
+  "url": "https://openai.com/index/low-resource-programming-languages",
+  "title": "Advancing coding in low‑resource programming languages",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-19T12:00:00.000Z",
+  "snippet": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+  "id": "7a364f356aab",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "OpenAI is improving ChatGPT's performance on low-resource programming languages and released new evaluations for software engineering, SQLite, and COBOL migration.",
+  "whyItMatters": "Better legacy-language support like COBOL matters for enterprise migration work.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT",
+   "COBOL"
+  ],
+  "imageCheckedAt": "2026-10-20T10:09:33.556Z",
+  "storyId": "7a364f356aab"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26860",
+  "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retained across reasoning steps. We introduce OpenVLHarness, a multimodal reasoning harness organized ar…",
+  "score": 62,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26860.png",
+  "id": "83434cc1f160",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "OpenVLHarness is a multimodal reasoning harness giving MLLMs tools and memory for visual tasks; a study across 22 benchmarks found that extra inference budget alone gives only modest gains.",
+  "whyItMatters": "It suggests tool use and memory matter more than extra test-time compute for visual reasoning.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "OpenVLHarness"
+  ],
+  "storyId": "83434cc1f160"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26824",
+  "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a parameter-derived spectral basis organized with feature importance. SpecMRL otherwise follows standard MRL, with prefix readout performed in the learned spectral space. Experiments on MT…",
+  "score": 36,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26824.png",
+  "id": "89a3ab6342f1",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "SpecMRL reworks Matryoshka Representation Learning by adding a parameter-derived spectral basis ordered by feature importance, so leading prefixes give better compact embeddings.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SpecMRL",
+   "Matryoshka Representation Learning"
+  ],
+  "storyId": "89a3ab6342f1"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26625",
+  "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience, a full-stack paradigm that addresses these needs through data collection, automatic annotation, unified modeling, and benchmarking. Central to EgoXperience is an automatic annotation engine, EgoX-En…",
+  "score": 58,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26625.png",
+  "id": "93039c7ec696",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "EgoXperience offers a data collection, auto-annotation, modeling and benchmark stack for reconstructing human motion, geometry and hand-object interaction from egocentric video in a consistent world frame.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "EgoXperience"
+  ],
+  "storyId": "93039c7ec696"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26844",
+  "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this relationship through the lens of compositional generalization: can a world model recombine familiar s…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26844.png",
+  "id": "a51106aa7de5",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "AnyGoal studies how well world models generalize beyond expert rollouts, testing compositional generalization and its link to data coverage and planning performance.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "AnyGoal"
+  ],
+  "storyId": "a51106aa7de5"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+  "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-19T23:39:38.000Z",
+  "snippet": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2236544023.jpeg?resize=1200,800",
+  "id": "c86664b601af",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "Nscale and Anthropic are reportedly in talks on another compute deal worth $45B, adding to Anthropic's string of giant compute agreements.",
+  "whyItMatters": "It shows the scale of compute Anthropic is locking up.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic",
+   "Nscale"
+  ],
+  "imageCheckedAt": "2026-10-20T10:09:33.592Z",
+  "storyId": "c86664b601af"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26853",
+  "title": "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic procedural systems require extensive manual development. Existing VLM-guided procedural methods remain largely constrained by predefined factories and APIs, limiting their ability to create novel asset types. We introduce InfiniDream, a VLM-driven framework for open-ended procedural 3D world generatio…",
+  "score": 20,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26853.png",
+  "id": "cbdee8b20b18",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "InfiniDream is a VLM-driven framework that generates open-ended photorealistic 3D worlds via procedural code, going beyond predefined factories and APIs to create novel asset types.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "InfiniDream"
+  ],
+  "storyId": "cbdee8b20b18"
+ },
+ {
+  "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+  "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-19T16:16:46.000Z",
+  "score": 253,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50154244",
+  "id": "d2321eb5a0cf",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "A new DHS order bans DeepSeek from U.S. federal civilian agencies.",
+  "whyItMatters": "It adds to growing government restrictions on Chinese AI models and may affect vendors and contractors.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "DeepSeek",
+   "DHS"
+  ],
+  "imageCheckedAt": "2026-10-20T10:09:33.653Z",
+  "storyId": "d2321eb5a0cf"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26834",
+  "title": "Kronecker Delta Rule for Long Context Linear Attention",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for long-context language modeling. The resulting memory dynamics can be mathematically described as a Markov chain …",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26834.png",
+  "id": "db23866db953",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "KronLSTM is a linear attention architecture in the xLSTM family using a Kronecker Delta Rule, which revises memory along a single direction to reduce interference in long-context modeling.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "KronLSTM",
+   "xLSTM"
+  ],
+  "storyId": "db23866db953"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26825",
+  "title": "MemT-1.0: Towards Memory-Native Evolution",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued…",
+  "score": 123,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26825.png",
+  "id": "dd65d743e8de",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "MemT-1.0 is a memory-native foundation model architecture that uses Gated DeltaNet-2 for token-level memory updates and a Mixture-of-Storage design to scale memory capacity.",
+  "whyItMatters": "It's one more attempt to build persistent memory into the model itself rather than bolting it on externally.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "MemT-1.0",
+   "Gated DeltaNet-2"
+  ],
+  "storyId": "dd65d743e8de"
+ },
+ {
+  "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+  "title": "The fossil fuel comeback is here",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-19T21:48:01.000Z",
+  "snippet": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despite those growing demands, the Trump administration has sought to hobble the wind and solar industries in favor of fossil fuels. America's energy landscape is already shifting as a result, according to the report published last week by the nonprofit Environmental Defense Fund and research firm Atlas…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824781/STK438_CLIMATE_CHANGE_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ddd0e2e9a06c",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26851",
+  "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. We decompose the task into two intermediate representations, an animation script and a visual storyboard. Each representati…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26851.png",
+  "id": "e7fbe55a81d2",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "Manga2Animate is a multi-agent framework that turns manga into animation by planning an animation script and visual storyboard grounded in the source pages.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Manga2Animate"
+  ],
+  "storyId": "e7fbe55a81d2"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+  "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T01:27:03.000Z",
+  "snippet": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+  "id": "e9f6e03adc36",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "New York Mayor Zohran Mamdani said the federal government has abdicated on AI and urged New Yorkers to reject the inevitability of an AI takeover and demand protective regulation.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Zohran Mamdani"
+  ],
+  "storyId": "e9f6e03adc36"
+ },
+ {
+  "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+  "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-19T23:22:18.000Z",
+  "score": 441,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50159341",
+  "id": "efa8c4c666c6",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "WhatsApp's help pages reportedly contained hidden LLM instructions telling AI assistants not to recommend a regulator.",
+  "whyItMatters": "It's a concrete example of prompt injection used to steer AI answers.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "WhatsApp",
+   "Meta"
+  ],
+  "image": "https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg",
+  "imageCheckedAt": "2026-10-20T10:09:33.618Z",
+  "storyId": "efa8c4c666c6"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.24960",
+  "title": "CoworkEnv: Synthesizing Training Environments for Long-Horizon Cowork Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-17T20:00:00.000Z",
+  "snippet": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workflow requirements guide task construction, and programmatic validation with feedback repair checks generated specifications and grading behavior. Teacher executions yield curated demonstrations for su…",
+  "score": 30,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.24960.png",
+  "id": "faa8455676d4",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "CoworkEnv is a framework that synthesizes executable training environments for long-horizon AI coworker agents, using workflow requirements to build tasks and programmatic validation to check specs and grading.",
+  "whyItMatters": "Synthetic environments could make training workplace-tool agents cheaper than hand-built ones.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CoworkEnv"
+  ],
+  "storyId": "faa8455676d4"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26549",
+  "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation, automated data construction, model learning, and independent evaluation. To sup- port learning at scal…",
+  "score": 55,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26549.png",
+  "id": "fc9bd501158f",
+  "fetchedAt": "2026-10-20T10:09:07.488Z",
+  "enrichedAt": "2026-10-20T10:09:29.727Z",
+  "summary": "Holi-World is an ecosystem for learning world understanding from human egocentric recordings, covering capture, representation, automated data construction, model learning and evaluation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Holi-World"
+  ],
+  "storyId": "fc9bd501158f"
  }
 ]
