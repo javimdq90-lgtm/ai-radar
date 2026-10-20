@@ -5899,5 +5899,739 @@
    "Holi-World"
   ],
   "storyId": "fc9bd501158f"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+  "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-10-20T17:04:21.000Z",
+  "snippet": "Western open models strike back",
+  "image": "https://substackcdn.com/image/fetch/$s_!ptGw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd500e8ff-94e8-4cf5-b99d-5d9aac7f0a8a_1024x768.png",
+  "id": "064ad9927d51",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Interconnects' open-model roundup covers DeepSeek V4.1 Flash 1017, new American-made open models, and new regulatory controls in the US and China.",
+  "whyItMatters": "It tracks Western open models catching up and rules that may affect open-weight use.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "DeepSeek V4.1 Flash",
+   "Interconnects"
+  ],
+  "storyId": "064ad9927d51"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+  "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T13:00:00.000Z",
+  "snippet": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-1.21.23-PM.png?resize=1200,974",
+  "id": "15705003f60b",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Eka Robotics, valued at $1.45B, has a physical AI model for a robotic arm that picks a wide range of objects smoothly and is impressing industry experts.",
+  "whyItMatters": "General-purpose robotic grasping is a long-standing bottleneck, so progress here matters for robotics.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Eka Robotics"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.011Z",
+  "storyId": "15705003f60b"
+ },
+ {
+  "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+  "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-20T00:00:00.000Z",
+  "id": "2596ff929aee",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Hugging Face marks the 1.0 release of AnyLanguageModel, a library for running local models on Apple platforms, one year after launch.",
+  "whyItMatters": "It makes on-device LLM integration easier for Apple developers.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "AnyLanguageModel",
+   "Apple"
+  ],
+  "storyId": "2596ff929aee"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+  "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T18:38:24.000Z",
+  "snippet": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
+  "id": "2e553dc45565",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Google has released a developer tool that helps PyTorch users move apps off Nvidia GPUs, following a similar tool from Amazon.",
+  "whyItMatters": "Easier porting from CUDA hardware weakens Nvidia's software lock-in and gives builders cheaper accelerator options.",
+  "category": "tools",
+  "importance": 4,
+  "entities": [
+   "Google",
+   "Amazon",
+   "Nvidia",
+   "PyTorch"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.021Z",
+  "storyId": "9dbc0d55ff91"
+ },
+ {
+  "url": "https://github.com/google-pytorch/torch_tpu",
+  "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T16:40:24.000Z",
+  "score": 178,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50169053",
+  "id": "2f990e26e9ae",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Google open-sourced TorchTPU, a native PyTorch back end for TPUs.",
+  "whyItMatters": "Running PyTorch natively on TPUs lowers the barrier to Google's accelerators versus Nvidia GPUs.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "TorchTPU",
+   "PyTorch",
+   "TPU"
+  ],
+  "image": "https://opengraph.githubassets.com/57e9e872e397672c57dbfbc40ff6d6f9b2e03b78a612a3d45436f8805edbb48a/google-pytorch/torch_tpu",
+  "imageCheckedAt": "2026-10-20T20:40:58.369Z",
+  "storyId": "9dbc0d55ff91"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+  "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T17:12:48.000Z",
+  "snippet": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+  "id": "319f79c551ee",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Meta's AI companion app Muse passed 10 million U.S. downloads in its first 40 days, a mark only 11 other apps have hit, including Threads. Data also shows Muse retains users better than rival AI apps.",
+  "whyItMatters": "Strong adoption and retention show Meta is becoming a serious consumer AI assistant competitor.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Muse",
+   "Threads"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.017Z",
+  "storyId": "319f79c551ee"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+  "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T13:07:24.000Z",
+  "snippet": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2195703830.jpg?w=1024",
+  "id": "3309b6ce15f4",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "The US ordered federal civilian agencies to remove DeepSeek products and third-party services built on its technology, citing national security concerns.",
+  "whyItMatters": "It escalates restrictions on Chinese AI models and could affect vendors that build on DeepSeek.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "DeepSeek",
+   "US government"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.015Z",
+  "storyId": "d2321eb5a0cf"
+ },
+ {
+  "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+  "title": "MPS in PyTorch 2.15",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-20T00:00:00.000Z",
+  "id": "3eb18e5ff7f2",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "PyTorch 2.15 brings updates to the MPS backend for running models on Apple silicon GPUs.",
+  "whyItMatters": "Better MPS support improves local training and inference on Macs.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "PyTorch",
+   "Apple"
+  ],
+  "storyId": "3eb18e5ff7f2"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+  "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-20T18:07:34.000Z",
+  "snippet": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. \"People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link,\" Muse spokesperson Tracy Clayton says in an emailed statement to The Verge. \"However, we've paused this functionality while we review this report a…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_A.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "4168438b63a2",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Meta paused Muse's conversation-sharing feature after security firm Claroc found more than 6,800 shared Muse chat links discoverable via public DNS records.",
+  "whyItMatters": "It's another reminder that shareable AI chat links can leak private conversations if not designed carefully.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Muse",
+   "Claroc"
+  ],
+  "storyId": "add383da2fc0"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+  "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-20T13:06:44.000Z",
+  "snippet": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a new Open Eyes Quick Action that appears as an icon over the image providing easy access to the new feature. Being able to easily save an otherwise great photo by opening a subject's eyes has been a feature in Adobe's Photoshop Elements for nearly a decade, but as DPReview points out, E…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/lightroom1.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "4922bfa72a89",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Adobe Lightroom mobile on iOS, iPadOS, and Android now has an Open Eyes Quick Action that uses generative AI to open closed eyes in photos with one tap.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Adobe",
+   "Lightroom"
+  ],
+  "storyId": "4922bfa72a89"
+ },
+ {
+  "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+  "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+  "sourceId": "simonw",
+  "publishedAt": "2026-10-20T19:34:19.000Z",
+  "snippet": "<p>My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called <a href=\"https://github.com/simonw/battledrones#readme\">Battle Drones</a> (<a href=\"https://simonw.github.io/battledrones/\">play it here</a>). Unlike <a href=\"https://simonwillison.net/2026/Aug/5/raccoon-heist/\">my previous experiments</a>, this one is <em>actually fun to play</em>. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's what I've bui…",
+  "id": "4dc8a56e0373",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Simon Willison built Battle Drones, a Command & Conquer-style RTS vibe coded with Claude, which syncs multiplayer between nearby devices using audio. He got it fun by telling Claude to 'Make it a LOT more fun'.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Simon Willison",
+   "Claude"
+  ],
+  "storyId": "4dc8a56e0373"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+  "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-20T18:17:47.000Z",
+  "id": "4eb9f7080b11",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "NVIDIA introduced Cosmos3-H-Dreams, a generative simulation model aimed at clinical surgery scenarios.",
+  "whyItMatters": "It shows NVIDIA pushing its Cosmos world models into healthcare training and simulation.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "NVIDIA",
+   "Cosmos3-H-Dreams"
+  ],
+  "storyId": "4eb9f7080b11"
+ },
+ {
+  "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+  "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-20T14:18:37.000Z",
+  "snippet": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and don't program content identified as slop or spam,\" Spotify says. \"Since we made these changes, we've seen a marked decrease in listener concerns about this content showing up in recommendations.\" Though Spotify has stopped short of mandating labels on all AI…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951391/STK088_VRG_Illo_N_Barclay_4_spotify.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5b6885c6efbc",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Spotify says it removed more than 50 million AI-generated slop and spam tracks from recommendations over the past year and tuned its recommender to favor human artists, though it stops short of mandating AI labels.",
+  "whyItMatters": "It shows how big platforms are handling AI content floods.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Spotify"
+  ],
+  "storyId": "5b6885c6efbc"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+  "title": "Called to serve: Tech, research, and positive impact",
+  "sourceId": "msr",
+  "publishedAt": "2026-10-20T16:00:00.000Z",
+  "snippet": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more.",
+  "id": "5cfb05484559",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Microsoft Research lab director Chris White discusses his work, from wartime data analysis to tools against human trafficking, in an interview.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Microsoft Research",
+   "Chris White"
+  ],
+  "storyId": "5cfb05484559"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+  "title": "AI adoption by industry shows what other sectors can learn",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-20T12:00:00.000Z",
+  "snippet": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?w=840",
+  "id": "678424bafb05",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "An MIT Technology Review piece argues that tech is only the first industry to adopt AI, and other sectors can learn from its adoption patterns.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "MIT Technology Review"
+  ],
+  "storyId": "678424bafb05"
+ },
+ {
+  "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+  "title": "Publish fake stats, get cited in LLMs",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T13:06:22.000Z",
+  "score": 284,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50165801",
+  "id": "6a01ce2d8f26",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Peec.ai shows that publishing fabricated statistics can get content cited by LLMs.",
+  "whyItMatters": "It exposes how easily AI search citations can be manipulated and how unreliable they can be.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Peec.ai"
+  ],
+  "storyId": "6a01ce2d8f26"
+ },
+ {
+  "url": "https://github.com/deepseek-ai/DeepInfer",
+  "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T09:08:54.000Z",
+  "score": 1996,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50163277",
+  "id": "79e072c52849",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "DeepInfer is a new open-source high-performance inference framework aimed at DeepSeek models.",
+  "whyItMatters": "It could cut serving costs for those self-hosting DeepSeek models.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "DeepInfer",
+   "DeepSeek"
+  ],
+  "storyId": "79e072c52849"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+  "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T17:55:12.000Z",
+  "snippet": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+  "id": "7fe075e5e5f0",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Bloomberg reports Eric Schmidt owns about a 1% stake in Anthropic, roughly half of CEO Dario Amodei's holding.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Eric Schmidt",
+   "Anthropic",
+   "Dario Amodei",
+   "Bloomberg"
+  ],
+  "storyId": "7fe075e5e5f0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+  "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T11:00:00.000Z",
+  "snippet": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. […]",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/Otter-feat.jpg?resize=1200,675",
+  "id": "82497db5b87a",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Otter.ai raised $320 million from General Catalyst's Customer Value Fund, a non-dilutive vehicle tied to marketing spend results, for enterprise growth and international expansion.",
+  "whyItMatters": "It shows non-dilutive, performance-based financing becoming an option for AI app companies.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Otter.ai",
+   "General Catalyst"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.036Z",
+  "storyId": "82497db5b87a"
+ },
+ {
+  "url": "https://huggingface.co/blog/hf-torchtpu",
+  "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-20T00:00:00.000Z",
+  "image": "https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png",
+  "id": "84cd8d44e982",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Hugging Face announces native TPU support through TorchTPU, letting PyTorch code run on Google TPUs.",
+  "whyItMatters": "It widens hardware options for PyTorch users beyond Nvidia GPUs.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Hugging Face",
+   "TorchTPU",
+   "Google",
+   "PyTorch"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.013Z",
+  "storyId": "9dbc0d55ff91"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+  "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T16:00:00.000Z",
+  "snippet": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
+  "id": "87c5cb39af2e",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Startup Electric Plant built an AI model that interprets the faint electrical signals in plant stems as a kind of plant language.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Electric Plant"
+  ],
+  "storyId": "87c5cb39af2e"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+  "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-20T17:40:20.000Z",
+  "snippet": "Meta argues nobody “decided” to pirate books to train AI.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2273107915-1024x648.jpg",
+  "id": "90e877c10910",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "In the book-piracy AI training lawsuit, Meta argues no one 'decided' to pirate books and points at staff who downloaded torrents, shielding executives.",
+  "whyItMatters": "The defense shapes how liability for training-data sourcing may be assigned within AI companies.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta"
+  ],
+  "storyId": "90e877c10910"
+ },
+ {
+  "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+  "title": "Gemini's Personal Intelligence is coming to cars",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-20T20:00:33.000Z",
+  "snippet": "It's probably time to audit your Gemini settings.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/google-gemini-android-auto-1152x648.png",
+  "id": "938ea47a6b58",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Google's Gemini Personal Intelligence feature is coming to cars.",
+  "whyItMatters": "Personal data access in vehicles raises privacy settings users should review.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "storyId": "938ea47a6b58"
+ },
+ {
+  "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+  "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-20T15:19:48.000Z",
+  "id": "94e7f4f5c0e5",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "ALTK-Evolve uses learned memory to top the τ²-bench customer service leaderboard without a frontier model.",
+  "whyItMatters": "It suggests memory techniques can let smaller models compete on agent tasks.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ALTK-Evolve",
+   "τ²-bench"
+  ],
+  "storyId": "94e7f4f5c0e5"
+ },
+ {
+  "url": "https://www.latent.space/p/sfcompute2",
+  "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-20T19:31:57.000Z",
+  "snippet": "From GPU trading to physical settlement, independent markets, and programmable compute",
+  "id": "977d926a0cb6",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Latent Space interviews Evan Conrad of SF Compute on GPU trading, physical settlement, independent markets and programmable compute.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Evan Conrad",
+   "SF Compute",
+   "Latent Space"
+  ],
+  "storyId": "977d926a0cb6"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+  "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-20T20:07:58.000Z",
+  "snippet": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2299491134-1152x648.jpg",
+  "id": "a054bcdb2791",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "Meta removed the word 'train' from its commercial terms of service after backlash over AI scraping, but did not add language honoring robots.txt.",
+  "whyItMatters": "The change looks cosmetic, leaving publishers without clear opt-out guarantees.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta"
+  ],
+  "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+  "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T15:48:26.000Z",
+  "score": 150,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50168190",
+  "id": "a87757c6fb36",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Steam users are asking for a \"No AI\" filter as vibecoded games flood Steam Next Fest.",
+  "whyItMatters": "It shows growing consumer backlash against low-effort AI-made games.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Steam"
+  ],
+  "storyId": "1375bb961f6a"
+ },
+ {
+  "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+  "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-20T12:33:13.000Z",
+  "snippet": "Meta is suspending the sharing feature while it investigates its privacy.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
+  "id": "add383da2fc0",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Meta's Muse exposed users' personal and business secrets when they shared conversations, and Meta has suspended the sharing feature while it investigates.",
+  "whyItMatters": "It's another reminder that AI chat share links can leak sensitive data.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Muse"
+  ],
+  "storyId": "add383da2fc0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+  "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T20:35:10.000Z",
+  "snippet": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800",
+  "id": "aeaa448f66c5",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "OpenAI acquired Orchestra Bio, adding its team and technology to Rosalind, OpenAI's life-sciences model, and the Rosalind Workbench tool for planning experiments and analyzing results.",
+  "whyItMatters": "It signals OpenAI's deepening push into biotech and scientific research tooling.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Orchestra Bio",
+   "Rosalind"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.009Z",
+  "storyId": "dbaa90254253"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+  "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T11:00:00.000Z",
+  "snippet": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+  "id": "b0930e389e92",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Yelp is adding AI features to its app, including calling restaurants to check wait times and personalized recommendations that remember preferences.",
+  "whyItMatters": "It's a mainstream example of AI agents making phone calls on users' behalf.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Yelp"
+  ],
+  "storyId": "b0930e389e92"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+  "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T14:13:32.000Z",
+  "snippet": "Figma said it plans to support as many standards as possible without exposing all of its data.",
+  "id": "b3c5441d5c67",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "Figma co-founder Dylan Field says MCP is not a perfect protocol; Figma plans to support as many standards as possible without exposing all its data.",
+  "whyItMatters": "It reflects ongoing concerns about data exposure in MCP adoption.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Figma",
+   "Dylan Field",
+   "MCP"
+  ],
+  "storyId": "b3c5441d5c67"
+ },
+ {
+  "url": "https://openai.com/index/ted-taylor-restaurant",
+  "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-20T10:00:00.000Z",
+  "snippet": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+  "id": "b3fcb2e42d32",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "OpenAI published a customer story of a Schlotzsky's and Cinnabon franchisee using ChatGPT Work to cut cash reconciliation time by 94% and menu repricing time by 95%.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "ChatGPT Work"
+  ],
+  "storyId": "b3fcb2e42d32"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+  "title": "ChatGPT now lets you lock your chats",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T18:36:53.000Z",
+  "snippet": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
+  "id": "b799bf523cce",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "summary": "ChatGPT now lets users lock individual chats, keeping personal conversations private when handing their device to others.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "ChatGPT",
+   "OpenAI"
+  ],
+  "storyId": "b799bf523cce"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+  "title": "The new economics of enterprise AI",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-20T15:20:25.000Z",
+  "snippet": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?”…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/HPE-iStock-1168748420.jpg?w=840",
+  "id": "c6c2448352b8",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "An MIT Technology Review piece argues enterprise AI is shifting from \"can we use it?\" to \"how efficiently are we using it?\", comparing AI to electricity becoming infrastructure.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "MIT Technology Review"
+  ],
+  "storyId": "c6c2448352b8"
+ },
+ {
+  "url": "https://huggingface.co/blog/allenai/fairstress",
+  "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-20T16:09:19.000Z",
+  "id": "ca293d8533a3",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "FairStress is a new, deeper evaluation of fairness in LLM decision-making.",
+  "whyItMatters": "It helps teams test for bias when using LLMs in consequential decisions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "FairStress"
+  ],
+  "storyId": "ca293d8533a3"
+ },
+ {
+  "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+  "title": "OpenAI acquires Orchestra Bio",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-20T00:00:00.000Z",
+  "snippet": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+  "id": "dbaa90254253",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "OpenAI is acquiring Orchestra Bio, which builds AI-powered operations tools for life sciences R&D, to help biopharma teams speed up drug development.",
+  "whyItMatters": "It signals OpenAI pushing into vertical life-sciences products through acquisitions.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Orchestra Bio"
+  ],
+  "imageCheckedAt": "2026-10-20T20:40:58.001Z",
+  "storyId": "dbaa90254253"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+  "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-20T18:22:54.000Z",
+  "snippet": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-drone-evacuation-1152x648.jpg",
+  "id": "ecaaea07b740",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:57.960Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.25950",
+  "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and adapt as it evolves. To address this gap, we introduce AdaExploreBench, a benchmark for proactive exploration and test-time adaptation in evolving environments. By instantiating environmental dynamics as hidden rules, AdaExploreBench requires agents to actively acquire evidence and infer the rules. …",
+  "score": 27,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25950.png",
+  "id": "f2fd85ddc0e1",
+  "fetchedAt": "2026-10-20T20:40:25.573Z",
+  "enrichedAt": "2026-10-20T20:40:46.754Z",
+  "summary": "AdaExploreBench is a new benchmark that tests whether LLM agents can proactively explore an environment, infer hidden rules, and adapt as those rules change.",
+  "whyItMatters": "It targets a gap in agent evaluation: most benchmarks don't test adaptation in changing environments, which matters for real deployments.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "AdaExploreBench"
+  ],
+  "storyId": "f2fd85ddc0e1"
  }
 ]

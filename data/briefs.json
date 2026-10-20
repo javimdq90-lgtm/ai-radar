@@ -301,6 +301,49 @@
    }
   }
  },
+ "9dbc0d55ff91": {
+  "storyId": "9dbc0d55ff91",
+  "itemIds": [
+   "9dbc0d55ff91",
+   "8a1ba0c934b0",
+   "84cd8d44e982",
+   "2f990e26e9ae",
+   "2e553dc45565"
+  ],
+  "writtenAt": "2026-10-20T20:41:23.842Z",
+  "headline": "Google open-sources TorchTPU a day after Amazon releases TorchNeuron for PyTorch",
+  "dek": "Google released TorchTPU, a native PyTorch backend for its TPUs, a day after Amazon launched TorchNeuron for Trainium; both let PyTorch apps leave Nvidia GPUs with minimal code changes.",
+  "keyPoints": [
+   "Google open-sourced TorchTPU on Tuesday; developers can move PyTorch apps to TPUs and Google Cloud with a configuration change and no rewrite, TechCrunch reports.",
+   "Amazon released TorchNeuron on Monday for Trainium, and says it is contributing upstream PyTorch changes to remove code tied to specific chips.",
+   "Hugging Face says 89% of the top 100 text-generation architectures run on TorchNeuron out of the box, versus 46% with Optimum Neuron v0.4.5.",
+   "Hugging Face reports 96.5% of the Transformers tests that run on TPU pass under TorchTPU, with 34 issues reported so far.",
+   "Google says it worked with Meta, Hugging Face, Inferact and RadixArk, and launched a TPU agent suite to help developers migrate."
+  ],
+  "context": "PyTorch, created at Meta in 2016 and run by the Linux Foundation since 2022, was built largely around Nvidia GPUs and its CUDA software, which helped make Nvidia the default hardware for AI apps. Google and Amazon have long sold their own chips, TPUs and Trainium, but running PyTorch on them meant extra work such as PyTorch/XLA. Native backends aim to remove that software barrier.",
+  "whatsNext": "Watch whether developers actually move workloads off Nvidia, and whether Amazon's upstream changes to make PyTorch more hardware-agnostic are accepted into the main project.",
+  "article": {
+   "whatHappened": [
+    "Google announced on Tuesday that TorchTPU, a native PyTorch backend for its Tensor Processing Units, is available as an open-source project. According to TechCrunch, it lets existing PyTorch apps run on TPUs, and therefore on Google Cloud, with a simple configuration change and no rewriting. The GitHub project is licensed under Apache 2.0 and lists version 0.2.0 on PyPI.",
+    "The announcement followed Amazon's release on Monday of TorchNeuron, which does the same for its Trainium chip and AWS. Amazon says PyTorch apps can run on Trainium by changing one line of configuration. It also says it is contributing code upstream to PyTorch to remove ties to specific chips, so the framework is more hardware-agnostic by default.",
+    "Google says it worked with Meta, Hugging Face, Inferact (maker of vLLM), RadixArk (maker of SGLang) and others so TorchTPU works with popular AI tools. It also launched a TPU agent suite to help developers migrate and fix errors, and updated LiteRT, its tool for running AI on phones, laptops and embedded devices, to work better with PyTorch apps.",
+    "Hugging Face published posts on both backends. It says Transformers, Diffusers and Kernels run natively on TPU, with device_map set to tpu. For Trainium, it says 89% of the top 100 text-generation architectures are supported, against 46% with the older Optimum Neuron library. Its post lists TorchNeuron as a public beta from Oct. 20, 2026."
+   ],
+   "whyItMatters": [
+    "Nvidia's advantage has rested partly on software. TechCrunch notes that Nvidia spent years making CUDA work smoothly with PyTorch, which Amazon says underlies about 85% of AI apps, so most apps default to Nvidia GPUs. PyTorch users could already port to AMD GPUs and Apple chips with a configuration change; Google and Amazon now offer the same for their own silicon.",
+    "The pitch from both companies is also about cloud lock-in. AWS argues Trainium gives startups a full cloud and one chip for both training and inference, and says it is a better choice than neoclouds tied to Nvidia hardware. It cites Deepgram, which it says processes 70% more audio per dollar on Trainium. These are Amazon's claims and were not independently verified in the coverage.",
+    "TechCrunch cautions that developers will not necessarily abandon Nvidia en masse just because moving is easier. It also asks whether decoupling PyTorch from Nvidia will give developers more choice and lower costs, as Amazon promises, or simply more configuration headaches."
+   ],
+   "whatToWatch": [
+    "The main open question is adoption: whether startups move production workloads to TPUs or Trainium, and whether the economics hold up outside vendor examples.",
+    "Also worth following is Amazon's upstream work in PyTorch, and how quickly Google and Hugging Face close the remaining gaps. Hugging Face says TPU test failures are being tracked as issues on the TorchTPU repo, and it is working toward a nightly TPU CI."
+   ],
+   "pullQuote": {
+    "text": "The real story is removing the lock-in that kept developers from having a real choice at all.",
+    "by": "Colin Brace, VP of Technology Software at AWS Annapurna Labs"
+   }
+  }
+ },
  "a2c304623a61": {
   "storyId": "a2c304623a61",
   "itemIds": [
@@ -423,6 +466,46 @@
    }
   }
  },
+ "d2321eb5a0cf": {
+  "storyId": "d2321eb5a0cf",
+  "itemIds": [
+   "d2321eb5a0cf",
+   "3309b6ce15f4"
+  ],
+  "writtenAt": "2026-10-20T20:41:10.826Z",
+  "headline": "US orders federal civilian agencies to remove DeepSeek AI from their systems",
+  "dek": "A Department of Homeland Security order bars civilian agencies from buying DeepSeek products or third-party services built on its technology and requires removal from existing systems, citing data access risks under Chinese law.",
+  "keyPoints": [
+   "DHS ordered federal civilian agencies to stop buying DeepSeek products and remove them from government IT systems, citing national security concerns tied to the company's operations in China.",
+   "The order also covers third-party products and services built on DeepSeek technology, though agencies can request exceptions.",
+   "DHS warned that sensitive data from US government users could potentially be accessible to Chinese authorities under Chinese law.",
+   "China's Foreign Ministry spokesperson Mao Ning said Beijing opposes politicizing technology and trade issues and will safeguard Chinese firms' rights.",
+   "A law passed in December 2025 had already limited DeepSeek's use in intelligence national security systems; the new order extends limits to civilian agencies."
+  ],
+  "context": "DeepSeek drew global scrutiny after its R1 reasoning model shook the AI industry in January 2025 and triggered a sharp sell-off in Nvidia shares. OpenAI and Anthropic have separately accused it of attempting to distill their models, and a September US report accused DeepSeek and five other Chinese AI firms of large-scale distillation. The order reflects widening US-China competition over AI.",
+  "whatsNext": "Watch how agencies handle exception requests and how broadly the ban on third-party services built on DeepSeek technology is applied.",
+  "article": {
+   "whatHappened": [
+    "The US has ordered federal civilian agencies to stop purchasing services and products from Chinese AI startup DeepSeek and to remove them from government IT systems, according to the Department of Homeland Security. The department cited national security concerns tied to the company's operations in China.",
+    "The order is broader than a ban on DeepSeek's own product. It also covers third-party products and services built using DeepSeek technology, though agencies can request exceptions. It applies to both new purchases and systems already in use.",
+    "DHS raised concerns about DeepSeek's handling of user data, warning that sensitive information from US government users could potentially be accessible to Chinese authorities under Chinese law, the order said.",
+    "China pushed back. Foreign Ministry spokesperson Mao Ning said on Tuesday that Beijing opposes overstretching the concept of national security and politicizing technology and trade issues, according to an official briefing."
+   ],
+   "whyItMatters": [
+    "The order builds on earlier restrictions. A law passed in December 2025 targeted DeepSeek's use in intelligence national security systems. The new order extends the limits to the wider civilian government, and by reaching third-party services built on DeepSeek technology it may affect vendors that use its models without being obvious about it.",
+    "DeepSeek has challenged US rivals such as OpenAI and Meta with low-cost open-weight models. It has faced scrutiny from governments and regulators worldwide since its R1 model arrived in January 2025. A September US report accused DeepSeek and five other Chinese AI companies, including Alibaba and Moonshot AI, of using large-scale model distillation to extract information from American AI systems.",
+    "OpenAI and Anthropic have raised similar concerns. Earlier this year OpenAI told US lawmakers it had observed suspected distillation attempts by DeepSeek, and Anthropic said it had identified unauthorized attempts by DeepSeek and other Chinese labs to collect outputs from Claude."
+   ],
+   "whatToWatch": [
+    "The exception process is the main open question: the coverage does not say how many agencies use DeepSeek or its derivatives, or how exceptions will be judged.",
+    "The dispute may also widen on the Chinese side. Bloomberg reported last week that China is reportedly considering export restrictions on 23 AI-related technologies, including chip designs and certain advanced AI models."
+   ],
+   "pullQuote": {
+    "text": "We will resolutely safeguard the legitimate rights and interests of Chinese enterprises",
+    "by": "Mao Ning, Chinese Foreign Ministry spokesperson"
+   }
+  }
+ },
  "e422d5ed3681": {
   "storyId": "e422d5ed3681",
   "itemIds": [
@@ -509,39 +592,39 @@
    "e874f1181e68",
    "3c203c9854b8",
    "3e7a8c91741b",
-   "d4d8a21bd997"
+   "d4d8a21bd997",
+   "a054bcdb2791"
   ],
-  "writtenAt": "2026-10-18T09:42:28.152Z",
-  "headline": "Meta removes terms language that could have allowed AI training on publishers' sites",
-  "dek": "After criticism from legal experts and publishers, Meta deleted a clause from its commercial terms, due October 30, that let it train AI on content from sites tied to business accounts.",
+  "writtenAt": "2026-10-20T20:41:36.190Z",
+  "headline": "Meta strips 'train' from new commercial terms after publishers object to AI scraping language",
+  "dek": "Meta removed the word 'train' and the 'any content' wording from commercial terms taking effect October 30, but experts and publisher groups say the revised text still permits broad scraping of business-linked sites.",
   "keyPoints": [
-   "Meta's commercial terms, effective October 30, let it crawl domains tied to business accounts and use the content to 'train' its products, per Nieman Lab, The Verge and Ars Technica.",
-   "Cornell's James Grimmelmann told Nieman Lab the terms were 'permission to Meta to train AI on any content from their sites.'",
-   "Meta says the terms only consolidated existing language and that robots.txt preferences still apply. Andy Stone said the aim was product data for ads.",
-   "On October 17 Meta removed the sentence permitting use of site content to 'train' its products, saying the crawling terms applied only to ads and business products.",
-   "Ars Technica found the 'test credentials' wording was new to the commercial terms, which experts said could allow paywall bypass. Meta pointed to its Seller Agreement."
+   "Meta's commercial terms, effective October 30, let it crawl domains 'associated with' business accounts on Facebook, Instagram, WhatsApp and Messenger and use content to 'train' its products.",
+   "Meta says the change only consolidates existing language and does not alter how it uses web crawlers; it says robots.txt preferences still apply.",
+   "On October 17 Meta deleted 'train' and 'any content', now allowing use to 'develop, improve, research, and maintain advertising and business products.'",
+   "Cornell's James Grimmelmann says the revised wording is 'still broad enough to drive a truck through'; attorney Matt Topic says publishers should remain concerned.",
+   "The UK News Media Association, European Publishers Council and US News/Media Alliance have urged regulators to intervene before October 30."
   ],
-  "context": "Publishers are fighting AI companies over whether training on their work without a license is fair use. Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc. Meta also began charging businesses to post links last month, which sharpened the criticism.",
-  "whatsNext": "Watch whether publishers and legal experts find the revised terms on the commercial terms page, which take effect October 30, adequately limit Meta's crawling to ads and business products.",
+  "context": "Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc., and it recently launched a Meta One subscription that charges businesses and creators to include links in posts. Courts are still weighing whether training AI on copyrighted material without a license is fair use, so terms that could grant access by contract carry high stakes for publishers.",
+  "whatsNext": "The terms take effect October 30, and publisher groups are pressing US, UK and EU regulators to act before then.",
   "article": {
    "whatHappened": [
-    "Meta has removed language from its commercial terms that experts said could let it scrape news sites and train AI on their content. The sentence said Meta 'may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of' its products. It no longer appears on the commercial terms page, The Verge reported on October 17.",
-    "The clause drew attention after Nieman Lab reported on the terms, which take effect October 30 and apply to business accounts on Facebook, Instagram, WhatsApp and Messenger. They authorize Meta to use scrapers, bots and crawlers, and to create test credentials, to access domains and pages associated with a business's products or services.",
-    "Meta first denied any change. Spokesperson Daniel Roberts said the company was consolidating its commercial and self-serve ad terms and that 'there is no change to how Meta uses web crawlers.' Communications chief Andy Stone said the aim was to pull accurate product information from third-party sites for ad and content recommendations, not to scrape news sites.",
-    "After the backlash, Meta said the crawling terms 'only applied to our ads and business products' and that it had clarified this in the terms. It said the updates do not give it new rights that supersede robots.txt preferences."
+    "Meta has revised commercial terms that critics said would let it scrape publishers' websites to train AI. The original terms, due to take effect October 30, authorized Meta to use automated crawlers to access domains and pages associated with a business account's products or services. They said Meta could use any content from them to 'develop, improve, research, train, and maintain' its products. Nieman Lab reported the language on October 16.",
+    "Meta spokespeople Daniel Roberts and Andy Stone said nothing had changed about how Meta crawls the web. Stone wrote that the update was meant to let Meta pull accurate product information from third-party sites for ads and recommendations, not to scrape news sites. Roberts said content owners can still use robots.txt flags.",
+    "On October 17, Meta changed the text. The Verge reported that the sentence containing 'train' and 'any content' was removed. Ars Technica reported that the new version allows Meta to 'periodically pull updates' to 'provide, develop, improve, research, and maintain advertising and business products,' and to maintain integrity and security. Meta said the crawling terms 'only applied to our ads and business products.' An Ars report said Meta did not notify users of the edit."
    ],
    "whyItMatters": [
-    "Legal experts told Nieman Lab that the original wording could have been used to argue that Meta's commercial terms override a site's robots.txt blocking. Cornell's James Grimmelmann said it could let Meta deploy publishers' content in competition with them. Attorney Matt Topic called it a remarkable provision to bury in terms of service, since the material would likely cost many millions of dollars in a licensing market.",
-    "Ars Technica reported that the wording was not simply streamlining. It found that 'test credentials' did not appear in Meta's earlier commercial terms, Product Catalog Terms or Ad Creative Generative AI Terms. Experts warned such credentials could help bypass paywalls. Meta pointed Ars to its Seller Agreement, which has similar wording limited to e-commerce listings.",
-    "Nieman Lab noted that virtually every news organization has a Meta business account. It also noted the timing: Meta recently began charging users to post links through its Meta One subscription, while the terms would have let it crawl the same content for free. Whether a court would have enforced the terms is unclear, according to the three legal experts."
+    "Legal experts told Nieman Lab that the terms could be used to argue Meta's commercial terms override a site's robots.txt blocks, and could sidestep licensing deals. Matt Topic of Loevy & Loevy said the access would likely cost many millions of dollars in a licensing market. Ars noted that the terms bar no opt-out beyond ceasing to use Meta's business products.",
+    "The experts say the revision does not resolve the issue. Topic argued that 'develop' is broad enough to include 'train,' and that 'business product' is undefined. Grimmelmann said the revision does nothing to limit the 'associated with your products or services' wording that could cover entire sites. Benjamin Sobel of the University of Wisconsin said Meta could settle the matter by explicitly agreeing to honor robots.txt, since that file is voluntary unless backed by contract.",
+    "Timing adds pressure: Meta recently began charging for links in posts, which Nieman Lab characterized as charging users to post links to content Meta may crawl for free. Nieman Lab noted that virtually every news organization has at least one Meta business account."
    ],
    "whatToWatch": [
-    "The revised terms go into effect October 30. Publishers and lawyers will be checking whether the remaining language on crawling and test credentials is limited to ads and business products, as Meta says.",
-    "The wider legal fight continues. TechCrunch notes that Meta won a high-profile copyright case last year, but other cases against AI companies, including Meta, are still pending."
+    "The October 30 effective date is the near-term test. The European Publishers Council has asked the European Commission to intervene, the UK News Media Association has urged British regulators to act, and the News/Media Alliance has said the terms cannot be implemented on that date.",
+    "Watch whether Meta adds explicit language honoring robots.txt, and whether any regulator responds. Whether a court would enforce the terms as a basis for scraping remains unclear, according to the experts cited."
    ],
    "pullQuote": {
-    "text": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
-    "by": "Daniel Roberts, Meta spokesperson"
+    "text": "The revised version of the new terms still allows Meta to use that scraped content to develop any ‘business product,’",
+    "by": "Matt Topic, attorney at Loevy & Loevy"
    }
   }
  },
