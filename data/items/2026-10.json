@@ -6026,7 +6026,7 @@
    "Threads"
   ],
   "imageCheckedAt": "2026-10-20T20:40:58.017Z",
-  "storyId": "319f79c551ee"
+  "storyId": "add383da2fc0"
  },
  {
   "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
@@ -6334,7 +6334,7 @@
   "entities": [
    "Meta"
   ],
-  "storyId": "90e877c10910"
+  "storyId": "e874f1181e68"
  },
  {
   "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
@@ -6489,7 +6489,7 @@
   "entities": [
    "Yelp"
   ],
-  "storyId": "b0930e389e92"
+  "storyId": "a8d6030b440a"
  },
  {
   "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
@@ -6633,5 +6633,511 @@
    "AdaExploreBench"
   ],
   "storyId": "f2fd85ddc0e1"
+ },
+ {
+  "url": "https://www.bolkunov.com/p/on-ai-writing",
+  "title": "On AI writing",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T19:55:11.000Z",
+  "score": 87,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50171771",
+  "id": "01ef80d499c5",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "An essay titled 'On AI writing' reflects on AI-generated prose.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "01ef80d499c5"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.25844",
+  "title": "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inference overhead. For each noisy input, Swift extrapolates the clean regression target away from the weak denoiser's prediction, amplifying components that remain underfit. The weak guide can be an early training checkpoint, requires no backpropagation during main-model training, and is discarded afterwa…",
+  "score": 26,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25844.png",
+  "id": "1b9c4b3b79a8",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "SWIFT is a diffusion training method that extrapolates the regression target away from a frozen weak denoiser's prediction (e.g. an early checkpoint) to improve a stronger model without extra inference cost.",
+  "whyItMatters": "It offers guidance-like quality gains without slower sampling.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SWIFT"
+  ],
+  "storyId": "1b9c4b3b79a8"
+ },
+ {
+  "url": "https://www.latent.space/p/tenex",
+  "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-21T05:01:26.000Z",
+  "snippet": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+  "image": "https://substackcdn.com/image/fetch/$s_!aHGG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F576c0ba6-53e3-458f-bd88-6d524832b2ff_819x526.png",
+  "id": "27ced8676a26",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Latent Space interviews Tenex's Alex Lieberman and CJ Hess on building an AI-native software development lifecycle for Fortune 2000 clients, outcome-based pricing and enterprise adoption.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Tenex",
+   "Alex Lieberman",
+   "CJ Hess"
+  ],
+  "storyId": "27ced8676a26"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+  "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T16:20:06.000Z",
+  "snippet": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+  "id": "2d379e8ffc91",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Ex-Nvidia investor Amulya Vishwanath says physical AI is in its 'LEGO era', with the ChatGPT moment for robotics still awaited.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Amulya Vishwanath"
+  ],
+  "storyId": "2d379e8ffc91"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+  "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T22:24:02.000Z",
+  "snippet": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+  "id": "342f3b31d430",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Hugging Face co-founder Clem Delangue, featured in Netflix's documentary 'AI Gone Rogue', says it went 'full doomer mode' and is inaccurate.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Clem Delangue",
+   "Hugging Face",
+   "Netflix"
+  ],
+  "storyId": "342f3b31d430"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28578",
+  "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and open scientific discovery. First, agentic orchestration extends single-agent execution through task delegation and parallel collaboration among subagents with isolated contexts, enabling complex tasks…",
+  "score": 58,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28578.png",
+  "id": "3d0e5d00fc60",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Sage-A1.5 is a 35B Mixture-of-Experts agentic model that adds subagent orchestration, verification and scientific discovery abilities over A1 for long-horizon tasks.",
+  "whyItMatters": "Another mid-size MoE agent model targeting long-running multi-agent work.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Sage-A1.5"
+  ],
+  "storyId": "3d0e5d00fc60"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28594",
+  "title": "Learning the 4D World through Point Trajectory Forecasting",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras, and add a trajectory head that predicts how physical points move through time. Each trajectory tra…",
+  "score": 37,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28594.png",
+  "id": "4129faaab631",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Video-Point Model (VPM) is a world model that takes multi-view video and a language instruction to forecast future videos from arbitrary viewpoints plus 3D trajectories of scene points.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Video-Point Model"
+  ],
+  "storyId": "4129faaab631"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26067",
+  "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact deformation subspaces. Specifically, we propose a Neural Skinning Fields Autoencoder that predicts shape-dependent deformation subspaces without per-object network training. To learn these subspaces without simulation trajectories, we develop a Physics-Informed Self-Supervised Learning strategy that combines skinning-…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26067.png",
+  "id": "41f7a46aaf3c",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "PhysSkin++ learns neural skinning fields from static geometry with self-supervised physics-informed training, enabling real-time physics-based animation across diverse 3D shapes without per-object training.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "PhysSkin++"
+  ],
+  "storyId": "41f7a46aaf3c"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+  "title": "SpaceX’s AI business is beating expectations",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T20:40:41.000Z",
+  "snippet": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-at-2.40.46-PM.png?resize=1130,1200",
+  "id": "4e839948c5b0",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "SpaceX reached profitability in Q3 with $4.4 billion net income, and its AI business was the main driver, beating expectations.",
+  "whyItMatters": "AI is now a major profit engine inside a company not traditionally seen as an AI player.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "SpaceX"
+  ],
+  "imageCheckedAt": "2026-10-21T10:17:28.851Z",
+  "storyId": "4e839948c5b0"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28354",
+  "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled. We present S-Agent 2.0, a spatial reasoning agent that equips an off-the-shel…",
+  "score": 61,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28354.png",
+  "id": "521f0639d354",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "S-Agent 2.0 is a spatial reasoning agent that gives an off-the-shelf VLM a general coding agent to turn raw 3D perception tool outputs into correct conclusions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "S-Agent 2.0"
+  ],
+  "storyId": "521f0639d354"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.27999",
+  "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintains world state and executes interaction rules, a multimodal coding agent translates player ideas into game code and dynamic scene captions, and a renderer based on autoregressive video model transfor…",
+  "score": 108,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.27999.png",
+  "id": "5854192850a6",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Matrix-Game 4.0 separates game execution from rendering: a lightweight engine holds world state and rules, a multimodal coding agent turns player ideas into game code, and an autoregressive video model renders the output in real time.",
+  "whyItMatters": "It's a more controllable design for playable generated worlds than pure video generation.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Matrix-Game 4.0"
+  ],
+  "storyId": "5854192850a6"
+ },
+ {
+  "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+  "title": "Claude designed protein binders against scorpion neurotoxins",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T17:48:29.000Z",
+  "score": 106,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50170021",
+  "id": "5b545cfdb425",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Anthropic reports Claude designed protein binders against scorpion neurotoxins.",
+  "whyItMatters": "It's a concrete example of LLMs contributing to biological design, with both therapeutic and biosecurity implications.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg",
+  "imageCheckedAt": "2026-10-21T10:17:28.941Z",
+  "storyId": "5b545cfdb425"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+  "title": "Google’s more personalized Gemini AI is heading to your car",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-20T22:11:34.000Z",
+  "snippet": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving to the airport. The AI assistant can pull your flight details from a confirmation message in Gmail and then use that information to look up the status. You can also ask Gemini to \"take me to my doctor's appointment\" instead of pulling up directions manually, o…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5ed43860b2e6",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Google is bringing Personal Intelligence to Gemini in Android Auto and Google built-in cars, letting it use data from Gmail, Calendar, Maps, Photos, YouTube and Search, e.g. flight status or navigating to appointments.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "storyId": "938ea47a6b58"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26855",
+  "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. A unified kinematic representation encodes locomotion through c…",
+  "score": 71,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26855.png",
+  "id": "5f646ad387af",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Ropedia W0 is an egocentric loco-manipulation world foundation model spanning humans and robots, trained on Xp-Data with 10k hours of human and 3k hours of robot data.",
+  "whyItMatters": "Mixing human egocentric video with robot data is a scalable route to robotics world models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Ropedia W0"
+  ],
+  "storyId": "5f646ad387af"
+ },
+ {
+  "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+  "title": "Anthropic logged net loss of over $80B in first half of 2026",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-20T20:09:46.000Z",
+  "score": 150,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50171966",
+  "id": "60f7f9822d20",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Reuters reports Anthropic logged a net loss of over $80B in the first half of 2026.",
+  "whyItMatters": "The scale of losses shows the capital intensity of frontier AI ahead of its IPO.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-21T10:17:28.938Z",
+  "storyId": "c86664b601af"
+ },
+ {
+  "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+  "title": "Southeast Asia’s digital economy to hit $368 billion",
+  "sourceId": "google-ai",
+  "publishedAt": "2026-10-21T04:00:00.000Z",
+  "snippet": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
+  "id": "6bc0a4e087e6",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Google says widespread AI adoption is pushing Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Google"
+  ],
+  "storyId": "6bc0a4e087e6"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.26203",
+  "title": "Focused Omni-Modal GUI Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-18T20:00:00.000Z",
+  "snippet": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context, these errors compound into Sequential Distraction, driving the agent into irreversible trajectory drift. We formulate the underlying requirement as Focused Perception: a representation that is step-…",
+  "score": 113,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.26203.png",
+  "id": "87427b99a7fe",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "A paper proposes 'Focused Perception' for omni-modal GUI agents, selecting only the relevant parts of streaming screenshots, audio, video and history at each step to avoid compounding 'Sequential Distraction' and trajectory drift.",
+  "whyItMatters": "Context curation for computer-use agents is a practical lever for reliability on long tasks.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "87427b99a7fe"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28630",
+  "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are not aligned with their target videos. We present SolarRenderer, a structure-conditioned video renderer that adapts a frozen MiniMax-H3 33B backbone with two lightweight LoRAs. Structural videos ente…",
+  "score": 38,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28630.png",
+  "id": "8959d75a2316",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "SolarRenderer is a few-step, structure-conditioned video renderer that adapts a frozen MiniMax-H3 33B backbone with two LoRAs to render realistic video from engine or agent-specified scene structure.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SolarRenderer",
+   "MiniMax-H3"
+  ],
+  "storyId": "8959d75a2316"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.27628",
+  "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration norms. On swap-S_5, a Qwen2.5-0.5B model trained on at most 32 moves achieves 95.5\\% mean full-sta…",
+  "score": 108,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.27628.png",
+  "id": "8aa655ef69a9",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Progress-Aligned Recurrence (PAR) trains looped language models so each iteration matches the state after k operations and rescales recurrent state norms, improving length generalization on state tracking with a Qwen2.5-0.5B model.",
+  "whyItMatters": "It addresses why extra test-time loops often fail to help on longer problems.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Qwen2.5-0.5B",
+   "PAR"
+  ],
+  "storyId": "8aa655ef69a9"
+ },
+ {
+  "url": "https://openai.com/index/terminal-x",
+  "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-20T07:00:00.000Z",
+  "snippet": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+  "id": "a84b6a7bee5c",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Terminal X's Eval Agent, using GPT-6.1, grades outputs against a 54-criterion rubric, matching senior investor judgment 88.6% of the time and catching 25% more deviations from a fund's mandate.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Terminal X",
+   "OpenAI",
+   "GPT-6.1"
+  ],
+  "storyId": "a84b6a7bee5c"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+  "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T23:01:23.000Z",
+  "snippet": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+  "id": "b6629abae55b",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Anthropic is pitching an AI safety bill that could block a model if 50+ people could be killed, but would bar federal agencies from halting a release without a judge's permission.",
+  "whyItMatters": "It signals how a leading lab wants frontier model regulation structured and limited.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-21T10:17:28.850Z",
+  "storyId": "b9a4c6eaaadf"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.27911",
+  "title": "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versions of the same information accumulate in the workspace. Reliable question answering therefore requires agents to reason over sufficient evidence, resolve cross-source and temporal conflicts, and recognize when the available evidence is insufficient to establish an answer. To systematically evaluate these capabilities, we introduce MMEnterprise-Bench, a benchmark comprising 1,613 questions grounde…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.27911.png",
+  "id": "ba000a1ff14e",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "MMEnterprise-Bench is a benchmark of 1,613 questions testing enterprise agents on evolving multimodal workplace records, including resolving conflicting versions and recognizing insufficient evidence.",
+  "whyItMatters": "It targets realistic failure modes of enterprise agents that standard QA benchmarks miss.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "MMEnterprise-Bench"
+  ],
+  "storyId": "ba000a1ff14e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2511.14102",
+  "title": "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently on device while preserving high-fidelity expert activation patterns. This provides accurate multi-step lookahead over future expert usage, allowing the runtime to organize expert movement and executio…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2511.14102.png",
+  "id": "c8f1f4a8e610",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Specter speeds MoE inference with offloaded experts by using a quantized draft model for multi-step lookahead over expert usage, hiding PCIe transfer latency.",
+  "whyItMatters": "It could make running large MoE models on limited GPU memory more practical.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Specter"
+  ],
+  "storyId": "c8f1f4a8e610"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+  "title": "Anthropic’s cloud partnerships are getting messy",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-20T21:25:22.000Z",
+  "snippet": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+  "id": "dd8747983c69",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that see it as a competitor, while its infrastructure spending balloons ahead of a planned November IPO.",
+  "whyItMatters": "Compute access tensions could constrain Anthropic's capacity and shape cloud-lab alliances.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-21T10:17:28.837Z",
+  "storyId": "c86664b601af"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+  "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-20T23:04:19.000Z",
+  "snippet": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or meet other deadlines despite warnings that it would result in the case being dismissed. When the case was filed last year, a statement shared by Sam Altman, his mother, and his brothers said, \"Annie has made deeply hurtful and entirely untrue claims about o…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ec31e6fc5c0b",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:25.749Z",
+  "summary": "A US judge dismissed Ann Altman's lawsuit alleging childhood sexual abuse by her brother, OpenAI CEO Sam Altman, after she missed a medical examination and other deadlines.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Sam Altman",
+   "Ann Altman",
+   "OpenAI"
+  ],
+  "storyId": "ec31e6fc5c0b"
+ },
+ {
+  "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+  "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-21T06:54:09.000Z",
+  "snippet": "An open source “bomb” drops from China",
+  "image": "https://substackcdn.com/image/fetch/$s_!tu5N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.png",
+  "id": "f8078d89c26a",
+  "fetchedAt": "2026-10-21T10:16:56.564Z",
+  "enrichedAt": "2026-10-21T10:17:28.800Z",
+  "summary": "DeepSeek has open-sourced its inference stack, dubbed DeepInfer. Per the AINews write-up, a cluster serves about 155T tokens a day, earning roughly $22M/day at around 80% margin, for an 81-day payback.",
+  "whyItMatters": "If the figures hold, they show how profitable large-scale inference can be, and an open-source stack lets other builders adopt DeepSeek's serving efficiency and pressures API pricing.",
+  "category": "open-source",
+  "importance": 4,
+  "entities": [
+   "DeepSeek",
+   "DeepInfer"
+  ],
+  "storyId": "79e072c52849"
  }
 ]

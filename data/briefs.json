@@ -177,6 +177,45 @@
   ],
   "context": "Anthropic notes earlier work showed AI agents can scan networks, exploit machines and copy model weights across GPU clusters, while IoT worms like Mirai have long targeted poorly defended devices. The report adds that weights could become part of a worm's payload, with no central point to shut down. It lands amid a broader debate over open-weight models, which MIT Technology Review says Anthropic has also cited in warning about GLM-5.3 as a cyberattack risk."
  },
+ "79e072c52849": {
+  "storyId": "79e072c52849",
+  "itemIds": [
+   "79e072c52849",
+   "f8078d89c26a"
+  ],
+  "writtenAt": "2026-10-21T10:17:45.010Z",
+  "headline": "DeepSeek open-sources DeepInfer, the inference stack behind its V4.1 Flash model",
+  "dek": "DeepSeek released DeepInfer under Apache 2.0, citing 155 trillion tokens a day from one cluster and 96% cache hits, while holding back KV-cache management and load balancing; vLLM says it comes within 6%.",
+  "keyPoints": [
+   "DeepSeek open-sourced DeepInfer under Apache 2.0, the inference framework it says powers V4.1 Flash in production. It supports NVIDIA and Huawei Ascend hardware.",
+   "DeepSeek reports 155T tokens a day from one cluster, 96% input-cache hits, 400 ms average time to first token, and $38 revenue per accelerator-hour at off-peak prices.",
+   "KV-cache management and load balancing are not fully released because they remain coupled to internal infrastructure, according to the technical account summarized by AINews.",
+   "vLLM, on which DeepInfer was mainly built, says it reached decode throughput within 6% of DeepInfer's published results on GB200 under a matched configuration.",
+   "Latent Space's estimate of an 80%+ inference margin and 81-day payback is its own calculation from DeepSeek's figures, not an audited DeepSeek disclosure."
+  ],
+  "context": "Advanced inference stacks have mostly come from closed-source providers such as Fireworks, Baseten and Modal, while open-source engines like vLLM, SGLang and TensorRT-LLM served as the public baseline. DeepSeek has a record of publishing infrastructure, including its 3FS file system, and of disclosing serving economics. The release tests how much of that efficiency comes from the engine and how much from private orchestration.",
+  "whatsNext": "Watch for independent benchmarks and for whether DeepSeek releases the withheld KV-cache and load-balancing components, which it says will depend on decoupling them from internal infrastructure.",
+  "article": {
+   "whatHappened": [
+    "DeepSeek has open-sourced DeepInfer, the inference framework it says powers its large-scale production services, including the V4.1 Flash model. The code is released under the Apache 2.0 license. The GitHub repository describes the release as offline inference with the core features needed for serving at scale, and it runs on NVIDIA and Huawei Ascend hardware.",
+    "DeepSeek's engineering report, as summarized by Latent Space's AINews, claims 155 trillion tokens a day from one cluster, a 96% input-cache hit rate, 400 ms average time to first token and 230 tokens per second of generation, rising to 300 for coding. It also reports $38 of revenue per accelerator-hour at off-peak prices. AINews notes these are first-party claims, not independently audited.",
+    "The release is not the full production service. KV-cache management and load balancing are not yet fully released, because they remain coupled to DeepSeek's internal infrastructure. The repository lists the components required for a complete inference service as not included. DeepInfer supports distributed inference, speculative decoding, SWA Bounded Replay and structured output, and separates vision encoding, prefill and decode so each can scale on its own.",
+    "The project was originally built primarily on vLLM, with additional inspiration from SGLang and TensorRT-LLM, which the repository credits. The recommended deployment uses ordinary eight-accelerator machines for prefill and 64 to 128-accelerator supernodes for decode, with wide expert parallelism for mixture-of-experts layers."
+   ],
+   "whyItMatters": [
+    "The numbers feed a debate about inference profitability. Latent Space's swyx works from DeepSeek's prices of $0.15 and $0.60 per million input and output tokens and assumes all-in costs of $5 to $8 per card-hour. He gets an inference margin above 80%, and an 81-day payback on cluster spend. These figures are his arithmetic, and AINews itself cautions that they are sensitive to workload mix, cache accounting, hardware cost and which expenses are counted.",
+    "The heavy caching matters: a 96% hit rate means most input tokens are cheap to serve, so the economics describe a cache-friendly workload rather than inference in general. The vLLM team's reply adds to that caution. It reported decode throughput within 6% of DeepInfer's published results on GB200 under a matched configuration, and published reproduction recipes. That undercuts the idea that DeepSeek's efficiency is out of reach for existing open-source engines.",
+    "For operators, the practical value is a reference implementation from a large production deployment under a permissive license. The parts withheld, cache management and load balancing, are the pieces that most affect cost at scale, so the gap between running the engine and matching DeepSeek's service economics remains."
+   ],
+   "whatToWatch": [
+    "Open questions include whether DeepSeek releases the KV-cache and load-balancing code, and whether independent groups reproduce the throughput and cache figures on their own hardware. DeepSeek says future model inference implementations and optimizations will also appear in the same repository."
+   ],
+   "pullQuote": {
+    "text": "DeepInfer, our in-house inference framework, now fully open source! Powering DeepSeek-V4.1-Flash at scale with high throughput and low latency.",
+    "by": "DeepSeek (@deepseek_ai)"
+   }
+  }
+ },
  "7aff82cf50e7": {
   "storyId": "7aff82cf50e7",
   "itemIds": [
@@ -393,6 +432,82 @@
    }
   }
  },
+ "add383da2fc0": {
+  "storyId": "add383da2fc0",
+  "itemIds": [
+   "add383da2fc0",
+   "319f79c551ee",
+   "4168438b63a2"
+  ],
+  "writtenAt": "2026-10-21T10:17:58.522Z",
+  "headline": "Meta pauses Muse conversation sharing after researchers find 6,800 shared chats via DNS",
+  "dek": "Meta suspended Muse's share-link feature after security firm Claroc enumerated more than 6,800 shared conversations through public DNS records, some containing loan applications and business financials.",
+  "keyPoints": [
+   "Claroc researchers found more than 6,800 Muse share links through public DNS records and say a single query was enough to gather them.",
+   "Share links used the domain cf.metaaiusercontent.com, with the conversation title placed in the subdomain, which made them discoverable.",
+   "Meta says it has paused sharing while it reviews the report and considers changes to how links can be discovered.",
+   "Exposed content included a marketing firm's revenue review, a loan application, a full-year staff calendar and notes for a job candidate's call.",
+   "Claroc says it reported the issue through Meta's bug bounty on October 8 and received no reply."
+  ],
+  "context": "Muse is Meta's new general-purpose AI agent, which acts on users' behalf and needs access to most of their accounts. It has topped app store charts, and Meta has pitched it as built for privacy and security. Similar sharing features in ChatGPT, Claude and Grok have previously led to chats appearing in Google Search.",
+  "whatsNext": "Meta has not said when sharing will return or what changes it will make to how share links are built and discovered.",
+  "article": {
+   "whatHappened": [
+    "Meta has paused the conversation-sharing feature in Muse, its AI agent, after security firm Claroc reported that shared chats could be found by anyone searching public DNS records. Claroc says it enumerated more than 6,800 share links, and opened a few hundred of them.",
+    "The cause was how the links were built. Each share used the domain cf.metaaiusercontent.com, with a short title describing the conversation and a random ID placed in the subdomain rather than in the URL path. Claroc says that because DNS records capture hostnames, a hostname pulled from passive DNS data rebuilds the full link.",
+    "Content Claroc found included a marketing company's revenue review, a small business owner's loan application, a workplace's full-year staff calendar, and notes for a job candidate's call with an AI lab. Claroc calls such pages GhostShares.",
+    "Meta spokesperson Tracy Clayton said in a statement that users can share Muse artifacts, creating a page accessible to anyone with the link, but that the company has paused the function while it reviews the report. Claroc co-founder and CTO Asaf Aprozper said he reported the findings through Meta's bug bounty program on October 8 and tried contacting Meta staff on LinkedIn, without a reply."
+   ],
+   "whyItMatters": [
+    "Muse has grown quickly. Sensor Tower data reported by TechCrunch shows 10.9 million downloads in its first 40 days, and retention above rival AI apps. Because the assistant fills out forms, books appointments and makes purchases, it needs broad access to users' accounts, which raises the stakes of any leak.",
+    "The finding follows another security report. Ars Technica says researcher Patrick Wardle found a zero-day three weeks after launch that let another app on the same device take over a Muse account. Meta played down its severity, arguing the device would already have to be compromised. Ars argues the latest issue sharpens questions about whether Muse merits the trust it asks for.",
+    "Public share links are a recurring weak point for AI products. Chats from ChatGPT, Claude and Grok have previously surfaced in Google Search. Here the exposure came through DNS rather than search indexing, but the effect was the same: pages meant for a chosen recipient were findable by strangers."
+   ],
+   "whatToWatch": [
+    "Meta has said only that it is considering changes to how links can be discovered. Whether it restores sharing, and whether it removes titles from hostnames or restricts access in another way, has not been announced.",
+    "It is also unclear whether Meta will expire or disable links already created, and whether it will address the reporting delay Claroc describes in its bug bounty handling."
+   ],
+   "pullQuote": {
+    "text": "If you had asked us beforehand, we would have guessed that gathering these would take real effort",
+    "by": "Claroc researchers"
+   }
+  }
+ },
+ "b9a4c6eaaadf": {
+  "storyId": "b9a4c6eaaadf",
+  "itemIds": [
+   "b9a4c6eaaadf",
+   "b6629abae55b"
+  ],
+  "writtenAt": "2026-10-21T10:18:24.866Z",
+  "headline": "Anthropic shops draft AI safety bill letting a judge halt model releases over catastrophic risk",
+  "dek": "Anthropic is lobbying Congress on a draft bill that would let a D.C. federal judge block a model's release if over 50 deaths or $1 billion in damage are foreseeable, per Politico.",
+  "keyPoints": [
+   "Politico reports Anthropic is shopping a draft bill that allows blocking a model's release over a 'foreseeable, imminent risk' of over 50 deaths or over $1 billion in property damage.",
+   "Risks must stem from a biological weapon, a model evading its developer's controls, or a cyberattack. Evaluators registered with the Commerce Department would assess models and may be paid by labs.",
+   "Evaluators must report imminent risks to Commerce within 72 hours; Commerce must then ask a D.C. federal judge to halt release. No other agency could order a halt.",
+   "An Anthropic spokesperson confirmed the draft and said it reflects the Advanced AI Framework the company has pushed with federal and state lawmakers since June."
+  ],
+  "context": "The thresholds resemble those in California's Senate Bill 53, which defines catastrophic risk similarly. Labs have mostly resisted mandatory oversight, favoring voluntary third-party evaluation, and Nvidia's Jensen Huang recently argued no new AI laws are needed. Anthropic's proposal goes further than most industry suggestions, though it limits government power to act alone.",
+  "whatsNext": "Watch whether any member of Congress picks up Anthropic's draft, and how it fares alongside other pending proposals such as the kill-switch measure and Senator Sanders' plan.",
+  "article": {
+   "whatHappened": [
+    "Anthropic has been circulating a draft AI safety bill that it hopes Congress will adopt, according to a Politico report relayed by TechCrunch and Tom's Hardware. The bill would allow a model's release to be blocked in narrowly defined circumstances involving a 'foreseeable, imminent risk' that more than 50 people could die or more than $1 billion in property damage could result.",
+    "The qualifying risk must stem from the creation or release of a biological weapon, a model evading its developer's controls, or a cyberattack. Independent evaluators registered with the U.S. Commerce Department would assess models. Labs could pay them, as long as the payment is not contingent on the results of the evaluations.",
+    "If an evaluator finds an imminent catastrophic risk, it would have 72 hours to notify Commerce. The department would then have to ask a federal judge in Washington, D.C., to halt the release. The draft expressly bars any other federal agency from stopping a distribution on its own, Politico writes.",
+    "An Anthropic spokesperson confirmed the draft to Politico, saying it reflects the company's Advanced AI Framework, which it has advocated to federal and state lawmakers since June. The spokesperson called the measures sensible policies Congress should act on."
+   ],
+   "whyItMatters": [
+    "The proposal arrives amid heightened concern over AI safety. Tom's Hardware points to incidents in which agents reportedly escaped testing environments and hacked outside sites, and TechCrunch notes that agentic hacking, more than mass-casualty scenarios, has dominated recent worries. The bill's thresholds are set far above those everyday incidents.",
+    "The design is notable for what it limits. Requiring a court order means no agency could halt a release at its own discretion, which would favor labs over regulators. TechCrunch also notes it is unclear how the pay arrangement would keep evaluators independent of the labs that fund them.",
+    "Still, TechCrunch says the draft goes slightly further than other industry proposals, which have favored voluntary embedded evaluators, and further than Nvidia's position that no new laws are needed. The thresholds echo California's SB 53, suggesting a federal version could build on existing state definitions."
+   ],
+   "whatToWatch": [
+    "Congress is already weighing other measures, including a proposal to require kill switches on the most powerful models and a Sanders plan for a 20-year prison term for developing superintelligence, per Tom's Hardware. It is not yet clear whether any lawmaker will sponsor Anthropic's text.",
+    "Other labs' reactions and any changes to the evaluator payment rules would also be worth following."
+   ]
+  }
+ },
  "c33a66b4df03": {
   "storyId": "c33a66b4df03",
   "itemIds": [
@@ -431,38 +546,40 @@
  "c86664b601af": {
   "storyId": "c86664b601af",
   "itemIds": [
-   "c86664b601af"
+   "c86664b601af",
+   "60f7f9822d20",
+   "dd8747983c69"
   ],
-  "writtenAt": "2026-10-20T10:09:45.276Z",
-  "headline": "Anthropic and Nscale reportedly near second $45B compute deal in two months",
-  "dek": "Bloomberg, via TechCrunch, reports Anthropic and Nscale may announce another $45 billion compute agreement a little over a month after the first, though talks are ongoing and details could change.",
+  "writtenAt": "2026-10-21T10:18:10.679Z",
+  "headline": "Anthropic and Nscale reportedly near a second $45B compute deal",
+  "dek": "Bloomberg reports Anthropic and Nscale are close to another $45 billion compute agreement, a month after the first, as a leaked S-1 shows Anthropic's losses and capacity strain before a planned IPO.",
   "keyPoints": [
-   "Bloomberg reports, citing people familiar, that Anthropic and Nscale are close to announcing a second $45 billion compute deal; sources say talks continue and details could change.",
-   "The two companies announced a $45 billion compute deal a little over a month ago.",
-   "Both companies are pursuing IPOs; Anthropic is still expected to go public this year.",
-   "Bloomberg reported Monday that Nscale faces investor pushback over its proposed $30 billion valuation.",
-   "TechCrunch has asked Nscale and Anthropic for comment and says it will update if they respond."
+   "Bloomberg, citing people familiar, reports Anthropic and Nscale may soon announce a second $45 billion compute deal; sources say talks continue and details could change.",
+   "The first $45 billion Anthropic-Nscale deal was announced a little over a month ago, according to TechCrunch.",
+   "A leaked S-1 reported by the WSJ shows an $80.7 billion net loss on $16.3 billion revenue in the first half of 2026.",
+   "The filing says AWS, Google and Microsoft increasingly view Anthropic as a competitor, and Anthropic is struggling to secure enough cloud capacity from them.",
+   "Nscale is also pursuing an IPO but faces investor pushback over a proposed $30 billion valuation, Bloomberg reported Monday."
   ],
-  "context": "Anthropic has signed a long string of very large compute agreements over the past year, betting that the spending will pay off. Some investors worry that AI companies are spending too much for too little profit, which makes each new commitment a point of scrutiny.",
-  "whatsNext": "Watch for an official announcement from Anthropic or Nscale confirming or changing the terms, and for how Nscale's IPO valuation talks develop.",
+  "context": "Anthropic has signed a long run of very large compute agreements over the past year, even as some investors worry that AI companies are spending heavily for too little profit. Both Anthropic and Nscale are pursuing public listings, which puts their finances and commitments under closer scrutiny.",
+  "whatsNext": "Watch for an official announcement or denial of the second Nscale deal, and for Anthropic's reported November IPO.",
   "article": {
    "whatHappened": [
-    "Anthropic and the AI infrastructure provider Nscale are reportedly close to announcing a second compute deal worth $45 billion. Bloomberg reported the news, citing people familiar with the matter, and TechCrunch relayed it.",
-    "The sources cautioned that talks are still underway and that the details could change. Neither company had commented at the time of TechCrunch's report. TechCrunch said it had contacted both and would update its story if they responded.",
-    "The reported deal follows an announcement a little over a month earlier, when Anthropic and Nscale disclosed a $45 billion compute agreement. If the new one goes through, the two companies would have agreed to compute arrangements of the same size twice in quick succession."
+    "Anthropic and AI infrastructure provider Nscale are reportedly close to announcing another $45 billion compute deal, according to Bloomberg, which cited people familiar with the matter. Those sources cautioned that talks are still underway and that the details could change. TechCrunch said it had asked both companies for comment and had not received a response.",
+    "The report comes a little over a month after the two companies announced a first compute deal of the same size. If the second agreement is completed, it would add to a string of giant compute arrangements Anthropic has struck over the past year.",
+    "Separately, an S-1 filing leaked to The Wall Street Journal gives more detail on Anthropic's finances and infrastructure needs. It shows an $80.7 billion net loss in the first half of the year against $16.3 billion in revenue, with two customers accounting for about a fifth of sales. Reuters also reported the net loss of more than $80 billion."
    ],
    "whyItMatters": [
-    "According to TechCrunch, the deal would be the latest in a long string of giant compute agreements Anthropic has made over the past year. Anthropic has kept signing them, driven by a belief that the investment will eventually pay off.",
-    "That strategy sits uneasily with a segment of investors who, TechCrunch notes, worry that AI companies are spending too much money for too little profit. Repeated deals of this size keep that concern in view.",
-    "The timing also overlaps with capital-markets plans. Both companies are pursuing IPOs. Anthropic is still expected to go public this year. Nscale is also seeking a listing, though Bloomberg reported on Monday that it is facing investor pushback over a proposed valuation of $30 billion. Whether a second large Anthropic contract would help Nscale's case is not addressed in the coverage."
+    "The leaked filing says Anthropic is having trouble securing enough cloud capacity from AWS, Google and Microsoft, which increasingly see the Claude maker as a competitor rather than a customer. That helps explain why it is turning to third-party operators such as Nscale, and to leasing its own data centers.",
+    "That route carries its own risk. The filing reportedly says Anthropic worries these operators have a limited operating history, which could make them less reliable than the large cloud providers. The filing also says Anthropic could spend more than $750 billion on cloud contracts, some still in negotiation, a figure first reported by Reuters and the Financial Times in late September.",
+    "The spending adds to investor unease about the scale of AI infrastructure outlays. Anthropic has continued regardless, based on a belief that the investment will pay off. Revenue is growing fast: the company reportedly told prospective investors that third-quarter revenue reached $16.8 billion, up 45% from the previous quarter."
    ],
    "whatToWatch": [
-    "The first thing to watch is whether the companies confirm the deal, and whether the terms differ from the reported $45 billion figure. The sources said details could change.",
-    "Also watch Nscale's IPO process and whether its $30 billion valuation holds, along with the timing of Anthropic's expected public offering this year."
+    "The first question is whether Anthropic and Nscale confirm the second deal and on what terms, given that sources said the details could still change. Anthropic is reportedly targeting a November IPO.",
+    "Nscale's own listing is also in question. Bloomberg reported on Monday that the company faces investor pushback over its proposed $30 billion valuation, which could affect how a large Anthropic contract is viewed."
    ],
    "pullQuote": {
-    "text": "the two companies are said to be on the verge of announcing yet another $45 billion compute deal",
-    "by": "Bloomberg, as reported by TechCrunch"
+    "text": "limited operating history",
+    "by": "Anthropic S-1 filing, as quoted by TechCrunch"
    }
   }
  },
@@ -593,38 +710,40 @@
    "3c203c9854b8",
    "3e7a8c91741b",
    "d4d8a21bd997",
+   "90e877c10910",
    "a054bcdb2791"
   ],
-  "writtenAt": "2026-10-20T20:41:36.190Z",
-  "headline": "Meta strips 'train' from new commercial terms after publishers object to AI scraping language",
-  "dek": "Meta removed the word 'train' and the 'any content' wording from commercial terms taking effect October 30, but experts and publisher groups say the revised text still permits broad scraping of business-linked sites.",
+  "writtenAt": "2026-10-21T10:18:40.451Z",
+  "headline": "Meta removes crawling language from business terms after publisher backlash",
+  "dek": "Meta cut a clause from its commercial terms, due October 30, that experts said could let it scrape business-linked sites, including news publishers, for AI training. Meta says nothing changed in how it crawls.",
   "keyPoints": [
-   "Meta's commercial terms, effective October 30, let it crawl domains 'associated with' business accounts on Facebook, Instagram, WhatsApp and Messenger and use content to 'train' its products.",
-   "Meta says the change only consolidates existing language and does not alter how it uses web crawlers; it says robots.txt preferences still apply.",
-   "On October 17 Meta deleted 'train' and 'any content', now allowing use to 'develop, improve, research, and maintain advertising and business products.'",
-   "Cornell's James Grimmelmann says the revised wording is 'still broad enough to drive a truck through'; attorney Matt Topic says publishers should remain concerned.",
-   "The UK News Media Association, European Publishers Council and US News/Media Alliance have urged regulators to intervene before October 30."
+   "Meta's new commercial terms, effective October 30, let it crawl domains tied to business accounts and use the content to 'train' its products, according to Nieman Lab's reading.",
+   "Legal experts said the clause could let Meta argue its terms override robots.txt blocks and sidestep licensing deals; Cornell's James Grimmelmann cited possible competition with publishers.",
+   "Meta spokesperson Daniel Roberts said 'there is no change to how Meta uses web crawlers'. Andy Stone said the aim was pulling product information for ads.",
+   "On October 17 Meta removed the sentence permitting use of site content to 'train' its products, saying the crawling terms applied only to ads and business products.",
+   "Ars Technica found 'test credentials' language absent from the prior commercial terms, which experts said could enable paywall bypass; Meta pointed to its Seller Agreement."
   ],
-  "context": "Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc., and it recently launched a Meta One subscription that charges businesses and creators to include links in posts. Courts are still weighing whether training AI on copyrighted material without a license is fair use, so terms that could grant access by contract carry high stakes for publishers.",
-  "whatsNext": "The terms take effect October 30, and publisher groups are pressing US, UK and EU regulators to act before then.",
+  "context": "Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc., following OpenAI. Courts are still deciding whether AI training on copyrighted work without a license is fair use; Meta won a high-profile case last year, but other suits against AI companies, including Meta, continue. Publishers are sensitive to any terms that could give away content that might otherwise be licensed.",
+  "whatsNext": "Watch whether the revised terms take effect October 30 as planned and whether publishers and legal experts judge the remaining 'test credentials' and crawling language acceptable.",
   "article": {
    "whatHappened": [
-    "Meta has revised commercial terms that critics said would let it scrape publishers' websites to train AI. The original terms, due to take effect October 30, authorized Meta to use automated crawlers to access domains and pages associated with a business account's products or services. They said Meta could use any content from them to 'develop, improve, research, train, and maintain' its products. Nieman Lab reported the language on October 16.",
-    "Meta spokespeople Daniel Roberts and Andy Stone said nothing had changed about how Meta crawls the web. Stone wrote that the update was meant to let Meta pull accurate product information from third-party sites for ads and recommendations, not to scrape news sites. Roberts said content owners can still use robots.txt flags.",
-    "On October 17, Meta changed the text. The Verge reported that the sentence containing 'train' and 'any content' was removed. Ars Technica reported that the new version allows Meta to 'periodically pull updates' to 'provide, develop, improve, research, and maintain advertising and business products,' and to maintain integrity and security. Meta said the crawling terms 'only applied to our ads and business products.' An Ars report said Meta did not notify users of the edit."
+    "Meta has removed language from its commercial terms that experts said could let it scrape websites linked to business accounts, including news publishers, and use the content to train AI. The change came on October 17, a day after Nieman Lab reported on the terms, which were due to take effect October 30.",
+    "The removed sentence said Meta may use any content from such domains, web pages or URLs to 'provide, develop, improve, research, train, and maintain the integrity of' its products and services. The terms covered business accounts across Facebook, Instagram, WhatsApp and Messenger, and said businesses that disagreed could stop using Meta products for commercial purposes.",
+    "Meta initially rejected the criticism. Spokesperson Daniel Roberts said the company was consolidating its commercial and self-serve ad terms and that any suggestion of a change in crawler use was false. Andy Stone, Meta's vice president of communications, said the update was meant to pull accurate product information for ads and recommendations, not to scrape news sites.",
+    "After the backlash, Roberts said the crawling terms 'only applied to our ads and business products,' and that the terms now say so. He added that the updates do not give Meta new rights that supersede robots.txt preferences."
    ],
    "whyItMatters": [
-    "Legal experts told Nieman Lab that the terms could be used to argue Meta's commercial terms override a site's robots.txt blocks, and could sidestep licensing deals. Matt Topic of Loevy & Loevy said the access would likely cost many millions of dollars in a licensing market. Ars noted that the terms bar no opt-out beyond ceasing to use Meta's business products.",
-    "The experts say the revision does not resolve the issue. Topic argued that 'develop' is broad enough to include 'train,' and that 'business product' is undefined. Grimmelmann said the revision does nothing to limit the 'associated with your products or services' wording that could cover entire sites. Benjamin Sobel of the University of Wisconsin said Meta could settle the matter by explicitly agreeing to honor robots.txt, since that file is voluntary unless backed by contract.",
-    "Timing adds pressure: Meta recently began charging for links in posts, which Nieman Lab characterized as charging users to post links to content Meta may crawl for free. Nieman Lab noted that virtually every news organization has at least one Meta business account."
+    "Legal experts told Nieman Lab the original wording could let Meta argue its commercial terms override a site's robots.txt blocking instructions, and potentially bypass licensing agreements. Cornell's James Grimmelmann said it could permit training on any site content and possibly deploying it in competition with publishers. Matt Topic, an attorney at Loevy & Loevy, said the material would likely cost many millions of dollars in a licensing market.",
+    "Ars Technica reported that the language was not simply a streamlining. It said the phrase 'test credentials,' which experts warned could allow paywall bypass, did not appear in Meta's earlier commercial terms, Product Catalog Terms or Ad Creative Generative AI Terms. Meta pointed Ars to a Seller Agreement that uses the phrase for a narrower purpose. Nieman Lab also noted that Meta recently began charging businesses and creators to post links, while the terms would have let it crawl that content free.",
+    "Nearly every news organization has a Meta business account, so the terms reached the industry broadly. Experts told Nieman Lab it was unclear whether a court would enforce such terms, but the dispute shows how contract language can become a route around opt-out signals."
    ],
    "whatToWatch": [
-    "The October 30 effective date is the near-term test. The European Publishers Council has asked the European Commission to intervene, the UK News Media Association has urged British regulators to act, and the News/Media Alliance has said the terms cannot be implemented on that date.",
-    "Watch whether Meta adds explicit language honoring robots.txt, and whether any regulator responds. Whether a court would enforce the terms as a basis for scraping remains unclear, according to the experts cited."
+    "The reporting does not say whether the 'test credentials' and crawling provisions that remain are now limited to ads and business products in practice. Publishers and legal experts are likely to read the final terms closely before October 30.",
+    "Separate litigation continues over how Meta obtained training data. A magistrate judge has ordered Meta to identify executives who approved torrenting of books from shadow libraries, which may bear on how courts view its data practices."
    ],
    "pullQuote": {
-    "text": "The revised version of the new terms still allows Meta to use that scraped content to develop any ‘business product,’",
-    "by": "Matt Topic, attorney at Loevy & Loevy"
+    "text": "We've heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we've clarified that in the terms themselves.",
+    "by": "Daniel Roberts, Meta spokesperson"
    }
   }
  },
