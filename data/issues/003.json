@@ -1,0 +1,276 @@
+{
+ "number": 3,
+ "date": "2026-10-21T11:40:27.726Z",
+ "subject": "DeepSeek open-sources the inference stack behind V4.1 Flash",
+ "preview": "Anthropic nears a second $45B Nscale deal, and DHS tells agencies to drop DeepSeek.",
+ "intro": "DeepSeek ended up in two different stories this week, one about its engineering and one about who is allowed to use it. Meanwhile the money side of AI looked shakier, with enormous compute commitments next to a distressed debt market.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "79e072c52849",
+     "headline": "DeepSeek open-sources DeepInfer, the inference stack behind V4.1 Flash",
+     "body": "DeepSeek released DeepInfer under Apache 2.0. It says the framework runs V4.1 Flash in production and supports NVIDIA and Huawei Ascend hardware. The published numbers: 155 trillion tokens a day from one cluster, 96% input-cache hits, 400 ms average time to first token, and $38 revenue per accelerator-hour at off-peak prices. KV-cache management and load balancing are not fully released because they are tied to internal infrastructure. vLLM, which DeepInfer was mainly built on, says it got decode throughput within 6% of DeepInfer's results on GB200 with a matched configuration. That suggests much of the edge may lie in private orchestration rather than the engine."
+    }
+   ]
+  },
+  {
+   "heading": "Money and policy",
+   "stories": [
+    {
+     "storyId": "c86664b601af",
+     "headline": "Anthropic and Nscale reportedly near a second $45B compute deal",
+     "body": "Bloomberg reports the two companies may soon announce another $45 billion agreement, a little over a month after the first. Talks are continuing and details could change. A leaked S-1 reported by the WSJ shows an $80.7 billion net loss on $16.3 billion revenue in the first half of 2026. It also says AWS, Google and Microsoft increasingly see Anthropic as a competitor, and that Anthropic is struggling to get enough cloud capacity from them. Nscale is pursuing its own IPO but is meeting investor pushback over a proposed $30 billion valuation. Both companies are heading into closer scrutiny."
+    },
+    {
+     "storyId": "d2321eb5a0cf",
+     "headline": "US orders federal civilian agencies to remove DeepSeek from their systems",
+     "body": "A Department of Homeland Security order bars civilian agencies from buying DeepSeek products and requires removal from government IT systems, citing national security concerns tied to the company's operations in China. It also covers third-party products and services built on DeepSeek technology, though agencies can request exceptions. DHS warned that sensitive data from US government users could be accessible to Chinese authorities under Chinese law. China's Foreign Ministry said Beijing opposes politicizing technology and trade issues. A law passed in December 2025 had already limited DeepSeek in intelligence national security systems. If you build on DeepSeek models for government customers, check your exposure."
+    },
+    {
+     "storyId": "8f0ccb03f018",
+     "headline": "CoreWeave's bonds fall into distressed territory",
+     "body": "Investors are now demanding more than 1,000 basis points above government yields on CoreWeave's bonds, and its shares have dropped more than 20 percent in a week. The slide has spilled over to other AI companies and revived talk of an AI private credit bubble. CoreWeave is a major GPU cloud provider, so trouble in its debt is a useful signal for how easily the wider infrastructure buildout can keep raising money. It is worth reading next to the Anthropic numbers above."
+    }
+   ]
+  },
+  {
+   "heading": "Models and research",
+   "stories": [
+    {
+     "storyId": "c33a66b4df03",
+     "headline": "Nvidia releases open Nemotron 3.5 Super VL and two Bolt models",
+     "body": "Nemotron 3.5 Super VL has 120 billion parameters and is aimed at enterprise agents. Nvidia says it matches Nemotron 3 Ultra's accuracy on instruction-following and tool-use tasks with fewer parameters. It also claims that, once post-trained on tasks like document intelligence and financial accounting, it finishes work faster than Anthropic and OpenAI models. Two Bolt models, 74B-A9B and the smaller E4B, target local use on RTX Spark AI PCs and DGX Spark workstations. Super VL and Bolt 74B-A9B are available now, and Bolt E4B arrives later this month. Nvidia lists Skydance, EY, Ramp, Crowdstrike, Perplexity and Salesforce as Super VL users."
+    },
+    {
+     "storyId": "92c294f17fe5",
+     "headline": "Goodfire researcher argues neural networks are easier to interpret than thought",
+     "body": "Nick Cammarata of Goodfire published a 26,000-word post arguing that LLMs may be far easier to understand, monitor and control than assumed. He says he spent about 10 hours a day, seven days a week, for most of a year examining neurons with new tools and AI agents. Revisiting Inception v1, he now thinks the car-and-cat neuron detects a shared V shape rather than mixing unrelated concepts. Some researchers on X were effusive. Stanford's Chris Potts called it little more than a hunch that makes no problems easier. It is a bet against the superposition picture that has shaped the field since 2020."
+    }
+   ]
+  },
+  {
+   "heading": "Security",
+   "stories": [
+    {
+     "storyId": "add383da2fc0",
+     "headline": "Meta pauses Muse chat sharing after 6,800 conversations turn up in DNS records",
+     "body": "Security firm Claroc found more than 6,800 shared Muse conversations by querying public DNS records, and says a single query was enough. Share links used the domain cf.metaaiusercontent.com with the conversation title in the subdomain, which made them discoverable. Exposed content included a loan application, a marketing firm's revenue review and a full-year staff calendar. Claroc says it reported the issue through Meta's bug bounty on October 8 and got no reply. Meta has paused sharing while it reviews the report and considers changes to how links can be discovered. Muse is an agent with access to much of a user's accounts, so privacy lapses matter more here."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "dbaa90254253",
+   "text": "OpenAI is acquiring Orchestra Bio, which builds AI operations tools for life sciences R&D, adding to its biopharma push."
+  },
+  {
+   "storyId": "4e839948c5b0",
+   "text": "SpaceX reported $4.4 billion Q3 net income, its first profitable quarter, with its AI business the main driver."
+  },
+  {
+   "storyId": "141841bfba33",
+   "text": "Hackers breached part of OpenCode's platform and stole some users' API keys, running up charges on their AI accounts. Rotate keys."
+  },
+  {
+   "storyId": "938ea47a6b58",
+   "text": "Google is bringing Gemini's Personal Intelligence to Android Auto and Google built-in cars, drawing on Gmail, Calendar, Maps and more."
+  },
+  {
+   "storyId": "5b6885c6efbc",
+   "text": "Spotify says it removed more than 50 million AI slop and spam tracks from recommendations over the past year."
+  },
+  {
+   "storyId": "25c38f880dd1",
+   "text": "Tenstorrent raised $1.5 billion at a $6.2 billion valuation to stay independent and focus on open-weight AI chips."
+  },
+  {
+   "storyId": "82497db5b87a",
+   "text": "Otter.ai raised $320 million from General Catalyst's Customer Value Fund, a non-dilutive vehicle tied to marketing spend results."
+  },
+  {
+   "storyId": "0e19bec78e36",
+   "text": "Microsoft says AI agents should be treated like insider threats and that frontier models can't be trusted."
+  },
+  {
+   "storyId": "5b545cfdb425",
+   "text": "Anthropic reports Claude designed protein binders against scorpion neurotoxins."
+  }
+ ],
+ "links": {
+  "79e072c52849": [
+   {
+    "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "source": "github.com"
+   },
+   {
+    "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+    "url": "https://news.ycombinator.com/item?id=50163277",
+    "source": "HN discussion"
+   },
+   {
+    "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+    "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+    "source": "Latent Space"
+   }
+  ],
+  "c86664b601af": [
+   {
+    "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+    "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Anthropic logged net loss of over $80B in first half of 2026",
+    "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+    "source": "reuters.com"
+   },
+   {
+    "title": "Anthropic logged net loss of over $80B in first half of 2026",
+    "url": "https://news.ycombinator.com/item?id=50171966",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic’s cloud partnerships are getting messy",
+    "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+    "source": "TechCrunch"
+   }
+  ],
+  "d2321eb5a0cf": [
+   {
+    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+    "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+    "source": "reuters.com"
+   },
+   {
+    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+    "url": "https://news.ycombinator.com/item?id=50154244",
+    "source": "HN discussion"
+   },
+   {
+    "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+    "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+    "source": "TechCrunch"
+   }
+  ],
+  "8f0ccb03f018": [
+   {
+    "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+    "source": "The Verge"
+   }
+  ],
+  "c33a66b4df03": [
+   {
+    "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+    "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+    "source": "TechCrunch"
+   }
+  ],
+  "92c294f17fe5": [
+   {
+    "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+    "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+    "source": "MIT Technology Review"
+   }
+  ],
+  "add383da2fc0": [
+   {
+    "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+    "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+    "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+    "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+    "source": "The Verge"
+   }
+  ],
+  "dbaa90254253": [
+   {
+    "title": "OpenAI acquires Orchestra Bio",
+    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "source": "OpenAI"
+   },
+   {
+    "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+    "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+    "source": "TechCrunch"
+   }
+  ],
+  "4e839948c5b0": [
+   {
+    "title": "SpaceX’s AI business is beating expectations",
+    "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+    "source": "TechCrunch"
+   }
+  ],
+  "141841bfba33": [
+   {
+    "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+    "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+    "source": "TechCrunch"
+   }
+  ],
+  "938ea47a6b58": [
+   {
+    "title": "Gemini's Personal Intelligence is coming to cars",
+    "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Google’s more personalized Gemini AI is heading to your car",
+    "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+    "source": "The Verge"
+   }
+  ],
+  "5b6885c6efbc": [
+   {
+    "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+    "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+    "source": "The Verge"
+   }
+  ],
+  "25c38f880dd1": [
+   {
+    "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+    "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+    "source": "TechCrunch"
+   }
+  ],
+  "82497db5b87a": [
+   {
+    "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+    "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "source": "TechCrunch"
+   }
+  ],
+  "0e19bec78e36": [
+   {
+    "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+    "source": "TechCrunch"
+   }
+  ],
+  "5b545cfdb425": [
+   {
+    "title": "Claude designed protein binders against scorpion neurotoxins",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "source": "anthropic.com"
+   },
+   {
+    "title": "Claude designed protein binders against scorpion neurotoxins",
+    "url": "https://news.ycombinator.com/item?id=50170021",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
