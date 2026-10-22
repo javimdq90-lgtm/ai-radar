@@ -4578,7 +4578,7 @@
   "entities": [
    "Anthropic"
   ],
-  "storyId": "56b1c8aea759"
+  "storyId": "b9a4c6eaaadf"
  },
  {
   "url": "https://www.anthropic.com/news/public-benefit-fund",
@@ -5489,7 +5489,7 @@
   "entities": [
    "Hugging Face"
   ],
-  "storyId": "56b1c8aea759"
+  "storyId": "b9a4c6eaaadf"
  },
  {
   "url": "https://huggingface.co/papers/2610.26802",
@@ -7303,7 +7303,7 @@
    "Walmart",
    "Amazon"
   ],
-  "storyId": "c722db5f4d79"
+  "storyId": "4472664e9020"
  },
  {
   "url": "https://huggingface.co/papers/2610.28632",
@@ -7652,7 +7652,7 @@
    "Perplexity",
    "Meta"
   ],
-  "storyId": "c722db5f4d79"
+  "storyId": "4472664e9020"
  },
  {
   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -7733,7 +7733,7 @@
    "GPT-6 Astra",
    "Marcus Williams"
   ],
-  "storyId": "f0018f5b54af"
+  "storyId": "0e19bec78e36"
  },
  {
   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
@@ -7752,5 +7752,563 @@
    "Hugging Face"
   ],
   "storyId": "f9b499debdda"
+ },
+ {
+  "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+  "title": "Using LLM for confidence scoring is a bad idea",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-21T04:27:51.000Z",
+  "score": 98,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50176082",
+  "id": "0ef7b7288d26",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "An essay argues that using LLMs to produce confidence scores is unreliable.",
+  "whyItMatters": "Relevant to builders who gate agent or pipeline decisions on model-reported confidence.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "0ef7b7288d26"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.29989",
+  "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective jointly optimized with teacher-forced denoising that predicts temporally separated chunks without access to the intervening visual context. Drawing supervision directly from training …",
+  "score": 68,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.29989.png",
+  "id": "0f7eabbb925d",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "A paper introduces Future Chunk Prediction, an auxiliary objective for autoregressive video diffusion. It predicts temporally separated chunks so models learn scene evolution rather than relying on local continuity shortcuts.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Future Chunk Prediction"
+  ],
+  "storyId": "0f7eabbb925d"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+  "title": "Meta to create a new class of shares to fund AI push",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-21T21:30:02.000Z",
+  "snippet": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, and pursue new strategic initiatives amidst the AI transformation taking place in the industry is significant,\" Meta says in the press release. Susan Li, Meta's chief financial officer, added during an earnings call that the new clas…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "15efdecd25aa",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Meta will issue a new class of non-voting shares to fund AI initiatives, acquisitions and employee compensation, with trading starting in 2027.",
+  "whyItMatters": "Shows how large AI spending is pushing Meta to new financing structures.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Meta",
+   "Susan Li"
+  ],
+  "storyId": "15efdecd25aa"
+ },
+ {
+  "url": "https://claude.com/resources/articles/claude-duet",
+  "title": "Claude Duet",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-21T19:40:18.000Z",
+  "score": 81,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50186455",
+  "id": "292e35e33e7b",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Anthropic appears to have launched 'Claude Duet', a new Claude product. Details are not given.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude Duet"
+  ],
+  "image": "https://claude.com/resources/articles/claude-duet/opengraph-image/og",
+  "imageCheckedAt": "2026-10-22T10:18:11.618Z",
+  "storyId": "5dbb54a00540"
+ },
+ {
+  "url": "https://openai.com/index/broad-access-through-consistent-standards",
+  "title": "Broad access through consistent standards",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-21T21:00:00.000Z",
+  "snippet": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+  "id": "2ed22a61b2f1",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "OpenAI described how it works with distribution partners to keep consistent safeguards and clarify expectations under its Usage Policies.",
+  "whyItMatters": "Clarifies the rules for builders reselling or distributing OpenAI access.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "2ed22a61b2f1"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+  "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-21T22:51:22.000Z",
+  "snippet": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+  "id": "3acc865d1f4f",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Blackstone's AI head Jas Khaira says fears about debt financing the AI buildout are overblown and the firm isn't panicked by market jitters.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Blackstone",
+   "Jas Khaira"
+  ],
+  "storyId": "8f0ccb03f018"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+  "title": "Making the case for context-aware AI",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-22T10:00:00.000Z",
+  "snippet": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+  "id": "3b1852bb0011",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:11.138Z",
+  "summary": "MIT Technology Review argues that enterprise AI needs context about how a business operates to make good decisions, as companies move from experimentation to everyday use.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "MIT Technology Review"
+  ],
+  "storyId": "3b1852bb0011"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28402",
+  "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit requirements for state changes and content preservation. Performance is assessed along four evaluation dimension…",
+  "score": 58,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28402.png",
+  "id": "44512f6af4ef",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "StreamEval is a new benchmark for interactive streaming video generation. It has 300 scripted test cases of 15-300s across five tasks: avatar dialogue, avatar performance, world generation, instruction editing and reference editing.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "StreamEval"
+  ],
+  "storyId": "44512f6af4ef"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.29357",
+  "title": "Memory-Centric Continual Learning for AI Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches, evaluated primarily by whether they can recall stored facts or past interactions. Whether memory can drive genuine continual learning remains an open question. In this paper, we introduce Memory-Centric Continual Learning (MCCL), arguing that memory should be judged by whether it improves future actions…",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.29357.png",
+  "id": "4c5892041ccf",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "A paper proposes Memory-Centric Continual Learning, arguing that agent memory should be judged by whether it improves future actions, not just fact recall.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "4c5892041ccf"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.30108",
+  "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use? We introduce PAPAV, a unified capability-centric framework of five recurring functions: Perceive the …",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30108.png",
+  "id": "4daaac9c4523",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "A survey defines multimodal embodied agents and introduces PAPAV, a framework of five capabilities spanning computer-use agents to robot-use agents.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "PAPAV"
+  ],
+  "storyId": "4daaac9c4523"
+ },
+ {
+  "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+  "title": "Ensemble forecasting with IBM Granite time-series models",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-22T07:51:31.000Z",
+  "id": "5d118fadbe79",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:11.138Z",
+  "summary": "Hugging Face published a post on ensemble forecasting with IBM's Granite time-series models.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "IBM",
+   "Granite",
+   "Hugging Face"
+  ],
+  "storyId": "5d118fadbe79"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+  "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-21T17:18:27.000Z",
+  "snippet": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800",
+  "id": "7427c42a84e4",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Blacksmith raised a $66M Series C led by Sequoia at a $1B valuation. It provides a platform for building and testing AI-generated code.",
+  "whyItMatters": "Shows investor appetite for infrastructure around AI-generated code.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Blacksmith",
+   "Sequoia"
+  ],
+  "imageCheckedAt": "2026-10-22T10:18:11.280Z",
+  "storyId": "7427c42a84e4"
+ },
+ {
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "title": "Mistral Large 4",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-21T19:20:55.000Z",
+  "score": 320,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50186129",
+  "id": "820bd24a41c4",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Mistral announced Mistral Large 4, the next version of its flagship model. No details were included.",
+  "whyItMatters": "A flagship release from the leading European lab could shift options for builders.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Mistral",
+   "Mistral Large 4"
+  ],
+  "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+  "imageCheckedAt": "2026-10-22T10:18:11.457Z",
+  "storyId": "5888c276693c"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+  "title": "AI’s hidden storage bill: What inference leaves behind",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-22T08:41:18.000Z",
+  "snippet": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png",
+  "id": "8cacaf29b137",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:11.138Z",
+  "summary": "MIT Technology Review argues that data storage is an overlooked cost of AI, since billions of daily prompts, images and videos generate back-end data that must be stored after inference.",
+  "whyItMatters": "Storage and retention costs should be part of AI deployment budgeting, not just GPU spend.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "MIT Technology Review"
+  ],
+  "storyId": "8cacaf29b137"
+ },
+ {
+  "url": "https://openai.com/index/cloudflare-cyber",
+  "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-21T00:00:00.000Z",
+  "snippet": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+  "id": "9201054eeb4c",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Cloudflare uses OpenAI's Daybreak to investigate vulnerabilities and propose fixes for human review. Its developers also use Codex for faster coding and better code quality.",
+  "whyItMatters": "A concrete enterprise example of AI in security workflows.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Cloudflare",
+   "OpenAI",
+   "Codex",
+   "Daybreak"
+  ],
+  "storyId": "9201054eeb4c"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+  "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-21T17:59:12.000Z",
+  "snippet": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/12/GettyImages-460689215.jpg?resize=1200,801",
+  "id": "a61190ef2d92",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "OpenAI and Google's Wiz found long-standing vulnerabilities in PHP, causing alarm across the internet. The flaws were found with AI, but AI also raises the risk of their exploitation.",
+  "whyItMatters": "Shows AI vulnerability discovery cutting both ways for defenders and attackers.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Wiz",
+   "Google",
+   "PHP"
+  ],
+  "imageCheckedAt": "2026-10-22T10:18:11.282Z",
+  "storyId": "d3f519557f32"
+ },
+ {
+  "url": "https://github.com/google-research/harness2",
+  "title": "Harness2 by Google Research – Recursive Agent Harnessing",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-19T11:28:45.000Z",
+  "score": 80,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50151059",
+  "id": "a6f637d138a7",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Google Research published Harness2, a GitHub project on recursive agent harnessing. Few details are available beyond the title.",
+  "whyItMatters": "Signals Google's interest in agent harness design, which could influence how agent scaffolds are built.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Google Research"
+  ],
+  "storyId": "a6f637d138a7"
+ },
+ {
+  "url": "https://github.com/omnara-ai/omnara",
+  "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-21T16:44:53.000Z",
+  "score": 81,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50183892",
+  "id": "b328ea6101eb",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Omnara is an open-source alternative to Claude Managed Agents, shown on Show HN.",
+  "whyItMatters": "Offers a self-hostable option for teams wary of lock-in to managed agent platforms.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Omnara",
+   "Claude Managed Agents",
+   "Anthropic"
+  ],
+  "storyId": "b328ea6101eb"
+ },
+ {
+  "url": "https://github.com/openai/openai-cli",
+  "title": "OpenAI CLI",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T05:23:11.000Z",
+  "score": 121,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50191507",
+  "id": "b3cb6b9ecffc",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "OpenAI released a command-line interface, published on GitHub.",
+  "whyItMatters": "An official CLI could simplify scripting and agent workflows against OpenAI's APIs.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "image": "https://opengraph.githubassets.com/40c2eb5846bd57b6bf119685073b493aaf3297e320b0eee4cc5402e7b9e44fd8/openai/openai-cli",
+  "imageCheckedAt": "2026-10-22T10:18:11.642Z",
+  "storyId": "b3cb6b9ecffc"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28589",
+  "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether post-training can also improve robot planners. However, applying it across robot harnesses requires accommodating different execution mechanisms, including VLA skill invocation and con…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28589.png",
+  "id": "b47fa45e8ff1",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "AgenticRoboRL applies coding-agent-style post-training to robot planners, rather than relying on closed-source models as planners.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "AgenticRoboRL"
+  ],
+  "storyId": "b47fa45e8ff1"
+ },
+ {
+  "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+  "title": "Google staff resign in backlash over its AI contracts with military",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-21T19:14:21.000Z",
+  "score": 124,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50186043",
+  "id": "b949a9351a02",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Google staff have resigned in protest over the company's AI contracts with the military, according to the BBC.",
+  "whyItMatters": "Renewed internal dissent over military AI use could affect Google's talent and defense strategy.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google"
+  ],
+  "image": "https://ichef.bbci.co.uk/news/1024/branded_news/4ad8/live/cd13e390-cbc3-11f1-aba9-2bb2608f11d9.jpg",
+  "imageCheckedAt": "2026-10-22T10:18:11.347Z",
+  "storyId": "b949a9351a02"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+  "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-21T21:16:20.000Z",
+  "snippet": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+  "id": "bee997298d40",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+  "title": "Data centers could erase decades of air quality gains",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-21T22:33:44.000Z",
+  "snippet": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas turbines or renewable energy - will determine just how dirty things will get. So far, though, things are looking grim. Tech companies and data center developers are devising new ways to get enough electricity, including building out their own power sources. But if all…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c777cca0670d",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "New data centers for generative AI could push Texas air pollution back to 2000s levels, depending on whether gas turbines or renewables meet their power demand.",
+  "whyItMatters": "Highlights the environmental costs and regulatory risks of AI infrastructure growth.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Texas"
+  ],
+  "storyId": "8b3dcb15f7a3"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28577",
+  "title": "Cache Engineering for Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too littl…",
+  "score": 71,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28577.png",
+  "id": "c931af3845e2",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "A paper examines KV cache I/O and storage costs for long-running LLM agents. It argues that context trimming or summarization invalidates cached prefixes and forces costly re-prefilling.",
+  "whyItMatters": "Cache cost is a major practical bottleneck for anyone running long-trajectory agents in production.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "storyId": "c931af3845e2"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.29997",
+  "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, together with 2) BiHOI, a multi-view dataset of 1…",
+  "score": 30,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.29997.png",
+  "id": "cead82cd3e76",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "DONIC is presented as the first generalist bimanual dexterous tracking controller. It was trained on human demonstrations and comes with BiHOI, a multi-view dataset.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "DONIC",
+   "BiHOI"
+  ],
+  "storyId": "cead82cd3e76"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.28698",
+  "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-19T20:00:00.000Z",
+  "snippet": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only…",
+  "score": 20,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28698.png",
+  "id": "da99ff5289ab",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "A controlled study of continued pre-training for embodied agents in virtual worlds ran 120 configurations. Models ranged from 0.8B to 27B parameters and data from 50 to 1,600 hours, testing whether scaling gains carry across game environments.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "da99ff5289ab"
+ },
+ {
+  "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+  "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-22T07:42:44.000Z",
+  "snippet": "The Big Hardening begins",
+  "image": "https://substackcdn.com/image/fetch/$s_!Ak4o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f193200-5a32-4d16-8cef-d36ab44b0848_1440x1290.png",
+  "id": "dc028fea27bb",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:11.138Z",
+  "summary": "OpenAI's Patch the Planet program, using GPT-5.6 Sol, was one of two parties to discover the PHP2Shell vulnerabilities in core PHP, which affects an estimated 70% of the web. A coordinated disclosure and response ran over two months.",
+  "whyItMatters": "It is a concrete example of frontier models finding serious vulnerabilities in widely deployed software, and PHP-based sites will need to patch.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "Patch the Planet",
+   "GPT-5.6 Sol",
+   "PHP"
+  ],
+  "storyId": "d3f519557f32"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+  "title": "Meta says Muse has over 10M users, with shopping a top activity",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-21T21:14:19.000Z",
+  "snippet": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-finger-on-app-GettyImages-2293791808.jpg?w=1024",
+  "id": "e9fc4036438c",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "Meta said on its Q3 earnings call that its Muse AI app has over 10M users, with shopping and personal productivity top uses.",
+  "whyItMatters": "Gives an early read on consumer adoption of Meta's AI app.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Muse"
+  ],
+  "imageCheckedAt": "2026-10-22T10:18:11.272Z",
+  "storyId": "add383da2fc0"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.29680",
+  "title": "TraceForge: Distilling with Your Own Thinking",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-source model is still entirely routine; the restriction applies to their own outputs alone. Recent work recovers the hidden reasoning by replaying encrypted blocks across models. It somehow works, but i…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.29680.png",
+  "id": "fd7f7a449778",
+  "fetchedAt": "2026-10-22T10:17:44.814Z",
+  "enrichedAt": "2026-10-22T10:18:05.389Z",
+  "summary": "TraceForge is a method for recovering hidden reasoning traces from frontier models that return only answers or summaries, so they can be used for distillation.",
+  "whyItMatters": "It reflects the ongoing tension between labs hiding reasoning traces and others trying to distill from them.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TraceForge"
+  ],
+  "storyId": "fd7f7a449778"
  }
 ]
