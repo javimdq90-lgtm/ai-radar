@@ -1,6 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Michroma } from "next/font/google";
 import { SITE_NAME, TAGLINE } from "@/components/brand";
+import { SubscribePrompt } from "@/components/subscribe-prompt";
+import { membershipOpen } from "@/lib/membership";
+import { METER_SCRIPT } from "@/lib/meter";
 import { OG_BASE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -21,15 +24,22 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0A0A0A",
+  themeColor: "#1C1B19",
   colorScheme: "dark",
 };
 
 /** Pages compose their own full-width bands (utility bar, header, sections, footer); see components/brand. */
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${michroma.variable} ${inter.variable}`}>
-      <body className="min-h-screen antialiased">{children}</body>
+    <html lang="en" className={`${michroma.variable} ${inter.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Sets html[data-paywall] before the first paint, so a locked briefing never flashes. */}
+        <script dangerouslySetInnerHTML={{ __html: METER_SCRIPT }} />
+      </head>
+      <body className="min-h-screen antialiased">
+        {children}
+        {membershipOpen() && <SubscribePrompt />}
+      </body>
     </html>
   );
 }

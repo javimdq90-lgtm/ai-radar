@@ -26,12 +26,12 @@ const SECTION_DAYS = 7;
 export async function getFrontPage() {
   "use cache";
   cacheLife("hours");
-  const [stories, issues] = await Promise.all([getStories(), loadIssues()]);
+  const stories = await getStories();
   const now = Date.now();
   const recent = stories.filter((s) => s.firstSeen >= new Date(now - FRONT_PAGE_HOURS * HOUR).toISOString());
 
-  // 12: the top story, three hero cards and a grid of eight (two full rows of four).
-  const top = recent.slice(0, 12);
+  // 10: the top story, three hero cards and a grid of six (two rows of four with the two-wide sign-up tile).
+  const top = recent.slice(0, 10);
   const shown = new Set(top.map((s) => s.id));
   const weekCutoff = new Date(now - SECTION_DAYS * 24 * HOUR).toISOString();
   const sections = CATEGORIES.map((category) => ({
@@ -45,7 +45,6 @@ export async function getFrontPage() {
     // Everything newest-first, minus what the main column already shows.
     wire: recent.filter((s) => !shown.has(s.id)).sort(byRecency).slice(0, 16),
     sections,
-    latestIssue: issues[0] ?? null,
     generatedAt: new Date(now).toISOString(),
   };
 }

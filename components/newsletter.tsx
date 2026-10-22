@@ -1,25 +1,34 @@
 "use client";
 
-import Link from "next/link";
 import { useActionState, useEffect, useRef } from "react";
 import { subscribe, type SubscribeState } from "@/app/actions";
 
 const initial: SubscribeState = { message: "" };
 
-type LatestIssue = { number: number; subject: string } | null | undefined;
-
-/** The dark palette, for the band when it sits on a bone page. */
+/** The dark palette, for the band and side card when they sit on a bone page. */
 const DARK =
-  "[--dek:#c8cace] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#3a3d42] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]";
+  "[--dek:#d6d2c8] [--fg:var(--cw-bone)] [--muted:var(--cw-concrete)] [--raised:var(--cw-slate)] [--rule-strong:#45423d] [--signal:var(--cw-orange)] [--surface:var(--cw-black)]";
+
+/** The promise, said the same way everywhere. */
+export const NEWSLETTER_PROMISE = "The AI stories that matter, briefed and sourced. Monday, Wednesday and Friday. Free.";
+
+type Variant = "card" | "band" | "tile" | "hero" | "side";
 
 /**
- * "THE CONTEXT BRIEFING." sign-up, the #newsletter target of every SUBSCRIBE button.
- * `card`: a bone card with the large chamfer (front page, section pages).
- * `band`: a full-width black band (briefing pages, which are bone).
+ * "THE CONTEXT BRIEFING." sign-up. `card`, `band` and `tile` carry id="newsletter", the target of
+ * every SUBSCRIBE link, so a page shows only one of them.
+ * `card`: a bone card with the large chamfer (section pages).
+ * `band`: a full-width dark band (briefing and issue pages, which are bone).
+ * `tile`: two story cards wide, one tall, for the front page's More stories grid.
+ * `hero`: just the promise and the form, over the front-page photo.
+ * `side`: a compact dark card for the rail beside a briefing.
  */
-export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?: LatestIssue; variant?: "card" | "band" }) {
+export function NewsletterBox({ variant = "card" }: { variant?: Variant }) {
   const [state, action, pending] = useActionState(subscribe, initial);
-  const band = variant === "band";
+  // Dark surroundings get a dark field and an orange button; bone ones a white field and a black button.
+  const dark = variant === "band" || variant === "hero" || variant === "side";
+  const compact = variant === "tile" || variant === "hero" || variant === "side";
+  const inline = variant !== "card" && variant !== "side";
 
   // React clears form fields after each submission, so the load time is written back every time `state` changes.
   const startedAt = useRef<HTMLInputElement>(null);
@@ -34,11 +43,11 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
       {state.message}
     </p>
   ) : (
-    <form action={action} className="relative flex flex-col gap-2">
-      <label htmlFor={`newsletter-email-${variant}`} className="text-[13px] font-medium text-dek">
+    <form action={action} className="relative flex flex-col gap-2" aria-label="Subscribe to The Context Briefing">
+      <label htmlFor={`newsletter-email-${variant}`} className={compact ? "sr-only" : "text-[13px] font-medium text-dek"}>
         Email address
       </label>
-      <div className={`flex gap-2 ${band ? "flex-wrap" : "flex-col"}`}>
+      <div className={`flex gap-2 ${inline ? "flex-wrap" : "flex-col"}`}>
         <input
           id={`newsletter-email-${variant}`}
           name="email"
@@ -46,9 +55,9 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
           required
           autoComplete="email"
           placeholder="you@company.com"
-          className={`min-h-12 px-3.5 text-fg placeholder:text-muted ${
-            band ? "flex-[1_1_220px] border border-rule-strong bg-raised" : "border border-black bg-white"
-          }`}
+          className={`${compact ? "min-h-11" : "min-h-12"} px-3.5 text-fg placeholder:text-muted ${
+            dark ? "border border-rule-strong bg-raised" : "border border-black bg-white"
+          } ${inline ? "flex-[1_1_200px]" : ""}`}
         />
         {/* Spam traps: a field people never see, and the time the form loaded. */}
         <input ref={startedAt} type="hidden" name="t" defaultValue="" />
@@ -59,8 +68,8 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
         <button
           type="submit"
           disabled={pending}
-          className={`caps min-h-12 cursor-pointer border-0 px-6 disabled:opacity-70 ${
-            band ? "bg-orange text-black" : "bg-black text-bone"
+          className={`caps ${compact ? "min-h-11" : "min-h-12"} cursor-pointer border-0 px-6 disabled:opacity-70 ${
+            dark ? "bg-orange text-black hover:bg-bone" : "bg-black text-bone"
           }`}
         >
           {pending ? "Subscribing…" : "Subscribe →"}
@@ -71,50 +80,77 @@ export function NewsletterBox({ latestIssue, variant = "card" }: { latestIssue?:
           {state.message}
         </p>
       )}
-      <p className="m-0 text-[12px] text-muted">
-        We&rsquo;ll email you once to confirm. Unsubscribe anytime.{" "}
-        <Link href="/privacy" className="link">
-          Privacy
-        </Link>
-      </p>
     </form>
   );
 
-  const issueLink = latestIssue && (
-    <Link href={`/issues/${latestIssue.number}`} className="text-[13px] text-muted">
-      Latest issue, #{latestIssue.number}: <span className="link">{latestIssue.subject}</span>
-    </Link>
-  );
+  const titleId = `newsletter-title-${variant}`;
 
-  if (band) {
+  if (variant === "hero") {
     return (
-      <section id="newsletter" aria-labelledby="newsletter-title" className={`scroll-mt-6 bg-surface text-fg ${DARK}`}>
+      <div className={`flex max-w-[480px] flex-col gap-3 ${DARK}`}>
+        <p className="m-0 text-[15px] leading-[1.5] text-dek">{NEWSLETTER_PROMISE}</p>
+        {form}
+      </div>
+    );
+  }
+
+  if (variant === "side") {
+    return (
+      <section aria-labelledby={titleId} className={`chamfer-md flex flex-col gap-3 bg-surface p-6 text-fg ${DARK}`}>
+        <p className="kicker m-0 text-signal">Three times a week</p>
+        <h2 id={titleId} className="display m-0 text-[20px] leading-[1.15]">
+          The Context Briefing.
+        </h2>
+        <p className="m-0 text-[14px] leading-[1.5] text-dek">{NEWSLETTER_PROMISE}</p>
+        {form}
+      </section>
+    );
+  }
+
+  if (variant === "band") {
+    return (
+      <section id="newsletter" aria-labelledby={titleId} className={`scroll-mt-6 bg-surface text-fg ${DARK}`}>
         <div className="container-cw flex flex-wrap items-center gap-8 py-14">
           <div className="flex flex-[1_1_420px] flex-col gap-2.5">
             <p className="kicker m-0 text-signal">Three times a week</p>
-            <h2 id="newsletter-title" className="display m-0 text-[clamp(26px,3.4vw,34px)] leading-[1.12]">
+            <h2 id={titleId} className="display m-0 text-[clamp(26px,3.4vw,34px)] leading-[1.12]">
               The Context Briefing.
             </h2>
             <p className="m-0 text-dek">The most important AI news, analysis and ideas, briefed and sourced.</p>
           </div>
-          <div className="flex flex-[1_1_420px] flex-col gap-3">
-            {form}
-            {issueLink}
-          </div>
+          <div className="flex flex-[1_1_420px] flex-col gap-3">{form}</div>
         </div>
       </section>
     );
   }
 
+  if (variant === "tile") {
+    return (
+      <section
+        id="newsletter"
+        aria-labelledby={titleId}
+        className="bone chamfer-lg flex h-full scroll-mt-6 flex-col justify-center gap-4 p-7 sm:col-span-2 lg:p-9"
+      >
+        <p className="kicker m-0 text-signal">Three times a week</p>
+        <h2 id={titleId} className="display m-0 text-[clamp(22px,2.4vw,30px)] leading-[1.12]">
+          The Context Briefing.
+        </h2>
+        <p className="m-0 max-w-[44ch] text-[16px] leading-[1.5] text-dek">
+          The most important AI news, analysis and ideas. A wider context, in your inbox.
+        </p>
+        {form}
+      </section>
+    );
+  }
+
   return (
-    <section id="newsletter" aria-labelledby="newsletter-title" className="bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8">
+    <section id="newsletter" aria-labelledby={titleId} className="bone chamfer-lg flex scroll-mt-6 flex-col gap-4 p-8">
       <p className="kicker m-0 text-signal">Three times a week</p>
-      <h2 id="newsletter-title" className="display m-0 text-[28px] leading-[1.12]">
+      <h2 id={titleId} className="display m-0 text-[28px] leading-[1.12]">
         The Context Briefing.
       </h2>
       <p className="m-0 text-[16px] text-dek">The most important AI news, analysis and ideas. A wider context.</p>
       {form}
-      {issueLink}
     </section>
   );
 }

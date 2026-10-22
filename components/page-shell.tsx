@@ -7,13 +7,11 @@ export function PageShell({
   active,
   title,
   intro,
-  latestIssue,
   children,
 }: {
   active?: NavKey;
   title: ReactNode;
   intro?: ReactNode;
-  latestIssue?: { number: number; subject: string } | null;
   children: ReactNode;
 }) {
   return (
@@ -26,7 +24,7 @@ export function PageShell({
           <div className="mt-4">{children}</div>
         </main>
         <aside aria-label="Newsletter" className="min-w-0 flex-[1_1_320px] self-start lg:sticky lg:top-6">
-          <NewsletterBox latestIssue={latestIssue} />
+          <NewsletterBox />
         </aside>
       </div>
       <Footer newsletterHref="#newsletter" />

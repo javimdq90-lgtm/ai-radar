@@ -53,7 +53,8 @@ export function StoryVisual({
   fill = false,
   priority = false,
 }: {
-  story: Story;
+  /** Only the id (for the brand fallback) and image are used, so a bare id works too. */
+  story: Pick<Story, "id" | "image">;
   ratio?: string;
   fill?: boolean;
   priority?: boolean;
@@ -162,9 +163,14 @@ export function Byline({ story, children }: { story: Story; children?: ReactNode
         </span>
       )}
       <span className="flex flex-col text-[13px]">
-        <span className="font-medium">By {AUTHOR.name}</span>
+        <span className="font-medium">
+          Curated by{" "}
+          <Link href="/about" className="hover:text-signal">
+            {AUTHOR.name}
+          </Link>
+        </span>
         <span className="text-muted">
-          {fmtDateTime(story.firstSeen)}
+          Written with Claude · {fmtDateTime(story.firstSeen)}
           {story.brief && <> · {readMinutes(story.brief)} min read</>}
           {children}
         </span>

@@ -1,0 +1,93 @@
+{
+  "slug": "get-started-with-claude-code",
+  "title": "Install Claude Code and use it safely on your first project",
+  "dek": "Install Anthropic's terminal coding agent, sign in, point it at a project, and learn to keep its edits under your control before you hand it real work.",
+  "vendor": "Anthropic",
+  "product": "Claude Code",
+  "level": "Beginner",
+  "minutes": 25,
+  "updated": "2026-10-18",
+  "intro": [
+    "Claude Code is Anthropic's coding agent. Rather than answering questions in a chat window and leaving you to copy the results across, it works inside your project: it reads files, runs commands, edits code and can handle Git for you. The main version runs in your terminal, and the same engine sits behind the VS Code and JetBrains extensions, a desktop app and a browser version.",
+    "This guide is for developers and technical people who have used a terminal before and want a careful first session. It covers installation, signing in, getting Claude to explain a codebase, making and reviewing a small change, choosing how much freedom it has, and writing a CLAUDE.md file so you stop repeating yourself.",
+    "It earns its keep on work that spans several files or needs commands run and checked: tracing a bug, adding tests, tidying a module, writing up how something works. For a one-line question about syntax, an ordinary chat assistant is still quicker."
+  ],
+  "youNeed": [
+    "A paid Claude plan (Pro, Max, Team or Enterprise) or a Claude Console account with API credit; the free Claude plan does not include Claude Code",
+    "macOS 13 or later, Windows 10 (1809) or later, or a recent Ubuntu, Debian or Alpine Linux, with at least 4 GB of RAM",
+    "A terminal and an internet connection",
+    "A project folder to try it on, ideally a Git repository with nothing uncommitted",
+    "On native Windows, Git for Windows is recommended so Claude Code can use Git Bash"
+  ],
+  "steps": [
+    {
+      "title": "Install Claude Code",
+      "body": "Anthropic recommends its native installer, which keeps itself up to date in the background. Run the line for your system.\n\nmacOS, Linux or WSL:\n\n```bash\ncurl -fsSL https://claude.ai/install.sh | bash\n```\n\nWindows PowerShell (your prompt starts with `PS`):\n\n```powershell\nirm https://claude.ai/install.ps1 | iex\n```\n\nIf you prefer a package manager, `brew install --cask claude-code` and `winget install Anthropic.ClaudeCode` also work, but those copies do not update themselves, so you will need to upgrade them by hand.\n\nThe installer prints nothing while it downloads, so give it a minute. Then open a **new** terminal window and check it worked:\n\n```bash\nclaude --version\n```\n\nIf the shell says `claude` is not recognised, the install folder is not on your PATH yet; Anthropic's troubleshooting page covers the fix. `claude doctor` gives a fuller health check without starting a session."
+    },
+    {
+      "title": "Start it in your project and sign in",
+      "body": "Claude Code works on whichever folder you launch it from, so move into the project first:\n\n```bash\ncd path/to/your-project\nclaude\n```\n\nOn the first run it opens your browser to sign in. Use the same account as your Claude subscription, or your Console account if you are paying per use. Credentials are stored, so you will not be asked again on that machine. Inside a session, `/login` switches accounts, and on a subscription `/status` helps you keep an eye on how much usage you have left.\n\nOne trap: if your environment has an `ANTHROPIC_API_KEY` variable set and you approve it when asked, Claude Code uses that key instead of your subscription, and the usage is billed to the API account. On Pro and Max, usage limits are shared between Claude Code and the regular Claude apps."
+    },
+    {
+      "title": "Ask it to explain the code before changing anything",
+      "body": "Start with questions. Claude reads whatever files it needs, so you do not have to paste code in. Type plain requests at the prompt, for example:\n\n- `give me a two-paragraph summary of what this repository does and how it is laid out`\n- `walk me through what happens when a user submits the signup form, file by file`\n- `which parts of this code have no tests?`\n\nType `@` followed by part of a filename to point Claude at a specific file. This is also a cheap way to judge its accuracy on code you already understand before you trust it with code you don't."
+    },
+    {
+      "title": "Choose a permission mode",
+      "body": "The permission mode decides what Claude may do without asking you. The ones that matter at first:\n\n- **Manual** (config value `default`): Claude can read freely but asks before editing files or running most commands. The right choice while you are learning.\n- **Accept edits** (`acceptEdits`): file edits and basic file commands such as `mkdir` and `mv` inside the project go ahead; other commands still ask. Useful once you are happy reviewing changes afterwards with `git diff`.\n- **Plan** (`plan`): Claude investigates and writes a plan but cannot edit your code until you approve the plan.\n- **Auto** (`auto`): a separate safety model reviews actions instead of you and blocks ones that look risky. Anthropic is clear that this reduces prompts rather than guaranteeing safety.\n\nRecent versions start terminal sessions in auto mode by default, so check the status bar under the prompt. Press `Shift+Tab` to cycle modes; from auto, the first press takes you to Manual. You can also choose at launch:\n\n```bash\nclaude --permission-mode manual\n```\n\nThere is also a mode that skips all checks; leave it alone unless you are working inside a throwaway container or VM."
+    },
+    {
+      "title": "Make a small change and approve it",
+      "body": "Give Claude a contained task with an obvious right answer, such as `the date in the footer is hard-coded; make it use the current year`.\n\nIn Manual mode it shows you each proposed edit or command and waits. You can choose:\n\n- **Yes** to allow that one action.\n- **Yes, and don't ask again** to allow similar actions. For file edits this lasts until the session ends; for a shell command it is saved as a rule for that repository.\n- **No** to refuse. Press `Tab` on an option first if you want to add a note, such as why you said no or what to do instead.\n\nWhen it finishes, look at the result as you would a colleague's change: run `git diff`, run the tests, open the page. You can also ask Claude to run the tests itself and show you the output."
+    },
+    {
+      "title": "Interrupt, undo and redirect",
+      "body": "You do not have to wait for Claude to finish a wrong turn.\n\n- Press `Esc` to stop it mid-task. Work done so far is kept, and you can type a correction.\n- Press `Esc` twice with an empty prompt, or run `/rewind`, to go back to an earlier point. You can restore the code, the conversation or both.\n- Run `/clear` before starting an unrelated task, so old context does not muddy the new one.\n\nRewind only covers edits Claude made with its own file-editing tools. Files changed by shell commands, by you, or by another session are not tracked, so keep committing to Git and treat that as your real safety net."
+    },
+    {
+      "title": "Give it standing instructions with CLAUDE.md",
+      "body": "Claude starts each session with no memory of the last one, apart from a file called `CLAUDE.md` in your project root, which it reads every time. Use it for things you would otherwise keep repeating: how to build and test, conventions, where things live, what not to touch.\n\nRun `/init` and Claude will draft one from your codebase. Then edit it down. Short, checkable lines work best, for instance:\n\n```markdown\n# Commands\n- Run tests with `npm test`; run a single file with `npm test -- path/to/file`\n\n# Conventions\n- TypeScript strict mode; no `any`\n- Database migrations are hand-written; never edit files in `migrations/`\n```\n\nCommit it so your team shares it. Personal preferences go in `CLAUDE.local.md` (add it to `.gitignore`) or `~/.claude/CLAUDE.md` for all your projects. Anthropic suggests keeping each file under about 200 lines, as long files are followed less reliably. If your repository already has an `AGENTS.md` and no `CLAUDE.md`, Claude Code reads that instead. Run `/context` to confirm what was loaded."
+    },
+    {
+      "title": "Pick a sensible first real task",
+      "body": "Good first jobs are useful, limited in scope, and easy to check:\n\n- Write tests for one untested function, run them and fix any failures.\n- Explain and fix a specific error message you can paste in.\n- Update the README's setup section to match what the project actually needs.\n- Rename something confusing across the codebase and run the build to prove nothing broke.\n- Draft a commit message for your current changes, or ask what you have changed since the last commit.\n\nFor anything touching several files, switch to plan mode first (`Shift+Tab`, or start a single prompt with `/plan`), read the plan, correct it, and only then let Claude implement. Avoid starting with vague requests like \"improve the code\" or with anything involving production credentials."
+    }
+  ],
+  "tips": [
+    "Be concrete about the outcome. Name the file, describe the symptom, and say how success will be checked, such as which test should pass.",
+    "Give Claude a way to check its own work. A test suite, a build or a linter lets it notice and fix its mistakes before you have to.",
+    "Commit before each task. A clean working tree makes it easy to see exactly what Claude changed and to throw it away if needed.",
+    "If you have corrected the same mistake twice, run /clear and start again with a better first prompt rather than piling on corrections.",
+    "Start a line with ! to run a shell command yourself and let Claude see the output, which is handy for sharing a failing test run."
+  ],
+  "faq": [
+    {
+      "q": "Can I use Claude Code on the free Claude plan?",
+      "a": "No. Anthropic's setup documentation says the free plan does not include it. You need Pro, Max, Team or Enterprise, a Claude Console account billed per use, or access through Amazon Bedrock, Google Cloud or Microsoft Foundry."
+    },
+    {
+      "q": "Does it change my files without asking?",
+      "a": "That depends on the permission mode. In Manual mode it asks before edits and most commands. Recent versions start in auto mode, where a safety model approves routine actions for you, so check the status bar and press `Shift+Tab` if you want Manual. To make Manual the default on your machine, set `permissions.defaultMode` to `\"default\"` in `~/.claude/settings.json`."
+    },
+    {
+      "q": "Do I have to use the terminal?",
+      "a": "No. There are extensions for VS Code and JetBrains IDEs, a desktop app, and a browser version at claude.ai/code. They share the same engine, so your `CLAUDE.md` and settings carry across. The terminal version is the most complete, which is why this guide uses it."
+    },
+    {
+      "q": "How do I pick up where I left off yesterday?",
+      "a": "Conversations are saved locally. Run `claude -c` in the same folder to continue the most recent one, or `claude -r` to choose from a list."
+    }
+  ],
+  "sources": [
+    { "title": "Quickstart", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/quickstart" },
+    { "title": "Overview", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/overview" },
+    { "title": "Advanced setup", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/setup" },
+    { "title": "Choose a permission mode", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/permission-modes" },
+    { "title": "Configure permissions", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/permissions" },
+    { "title": "Checkpointing", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/checkpointing" },
+    { "title": "Interactive mode", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/interactive-mode" },
+    { "title": "How Claude remembers your project", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/memory" },
+    { "title": "Best practices for Claude Code", "publisher": "Anthropic (Claude Code docs)", "url": "https://code.claude.com/docs/en/best-practices" },
+    { "title": "Use Claude Code with your Pro or Max plan", "publisher": "Anthropic Help Centre", "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan" }
+  ]
+}

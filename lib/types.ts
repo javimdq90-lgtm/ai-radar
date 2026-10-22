@@ -91,7 +91,16 @@ export type Story = {
   brief?: Brief;
 };
 
-export type IssueStory = { storyId: string; headline: string; body: string };
+export type IssueStory = {
+  storyId: string;
+  headline: string;
+  body: string;
+  /** One or two sentences on why it matters. Issues written before it existed lack it. */
+  why?: string;
+};
+
+/** A paid placement, always labelled as such. Frozen into the issue it ran in. */
+export type Sponsor = { name: string; url: string; headline: string; body: string; cta?: string };
 
 export type Issue = {
   number: number;
@@ -103,4 +112,5 @@ export type Issue = {
   quickHits: { storyId: string; text: string }[];
   /** storyId -> links, frozen at send time so the archive never changes under you. */
   links: Record<string, { title: string; url: string; source: string }[]>;
+  sponsor?: Sponsor;
 };

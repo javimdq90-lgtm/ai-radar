@@ -37,19 +37,19 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
                 src={BRAND.hero}
                 alt=""
                 fetchPriority="high"
-                className="h-full w-full object-cover object-[62%_center] md:object-[left_center]"
+                className="h-full w-full object-cover object-[62%_center] saturate-[0.7] md:object-[left_center]"
               />
             </picture>
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(10_10_10/0)_38%)] max-md:bg-[rgb(10_10_10/0.55)]" />
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(28_27_25/0)_38%)] max-md:bg-[rgb(28_27_25/0.55)]" />
           </div>
         ) : (
           <Scene name="curve" />
         )}
         {/* Darken the text side and the card strip so both read over any image. */}
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(10_10_10/0.7)_30%,rgb(10_10_10/0)_55%)]" />
-        <div className="absolute inset-0 bg-[linear-gradient(0deg,var(--cw-black)_0%,rgb(10_10_10/0)_40%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--cw-black)_0%,rgb(28_27_25/0.7)_30%,rgb(28_27_25/0)_55%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(0deg,var(--cw-black)_0%,rgb(28_27_25/0)_40%)]" />
         {/* A soft band along the top so the header reads over bright sky and concrete. */}
-        <div className="absolute inset-x-0 top-0 h-40 bg-[linear-gradient(180deg,rgb(10_10_10/0.75)_0%,rgb(10_10_10/0)_100%)]" />
+        <div className="absolute inset-x-0 top-0 h-40 bg-[linear-gradient(180deg,rgb(28_27_25/0.75)_0%,rgb(28_27_25/0)_100%)]" />
       </div>
 
       <SiteHeader overlay />
@@ -63,9 +63,7 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
             context.
           </h1>
           <p className="m-0 max-w-[30ch] text-[clamp(16px,1.6vw,21px)] leading-[1.5] text-bone">{SUBLINE}</p>
-          <Link href="#top-story" aria-label="Today's top story" className="inline-flex min-h-11 items-center self-start text-orange">
-            <Arrow width={44} />
-          </Link>
+          <NewsletterBox variant="hero" />
         </div>
 
         {stories.length > 0 && (
@@ -81,16 +79,17 @@ function Hero({ stories, now }: { stories: Story[]; now: string }) {
 }
 
 export default async function Home() {
-  const { lead, top, wire, latestIssue, generatedAt: now } = await getFrontPage();
+  const { lead, top, wire, generatedAt: now } = await getFrontPage();
   // The top story is the highest-ranked briefing (our own summary); the next three go in the
   // hero cards and the rest in the grid.
   const ranked = lead ? [lead, ...top] : [];
   const topStory = ranked.find((s) => s.brief) ?? ranked[0];
   const others = ranked.filter((s) => s !== topStory);
   const heroStories = others.slice(0, 3);
-  // Whole rows only: the grid is four columns wide on desktop and two on tablets.
-  const rest = others.slice(3, 11);
-  const gridStories = rest.length >= 4 ? rest.slice(0, rest.length - (rest.length % 4)) : rest;
+  // Whole rows only: the grid is four wide on desktop and two on tablets, and the sign-up tile
+  // fills two cells, so it shows six stories (or two).
+  const rest = others.slice(3, 9);
+  const gridStories = rest.length >= 6 ? rest : rest.slice(0, 2);
 
   return (
     <div className="max-md:pb-24">
@@ -110,28 +109,29 @@ export default async function Home() {
           {gridStories.length > 0 && (
             <section id="top-stories" aria-labelledby="top-h" className="flex scroll-mt-6 flex-col gap-7 border-b border-rule py-14">
               <SectionTitle id="top-h">More stories</SectionTitle>
-              {/* Hairline grid: each card draws a 1px ring that meets its neighbour's in the 1px gap. */}
+              {/* Hairline grid: each card draws a 1px ring that meets its neighbour's in the 1px gap. The
+                  two-wide sign-up tile ends the first row on desktop and has a row of its own on tablets. */}
               <div className="grid gap-px p-px sm:grid-cols-2 lg:grid-cols-4">
-                {gridStories.map((s) => (
+                {gridStories.slice(0, 2).map((s) => (
+                  <StoryCard key={s.id} story={s} now={now} />
+                ))}
+                <NewsletterBox variant="tile" />
+                {gridStories.slice(2).map((s) => (
                   <StoryCard key={s.id} story={s} now={now} />
                 ))}
               </div>
             </section>
           )}
 
-          <div className="flex flex-wrap gap-12 pb-18 pt-14">
-            <section id="latest" aria-labelledby="latest-h" className="flex min-w-0 flex-[999_1_560px] flex-col gap-5">
-              <SectionTitle id="latest-h">Latest</SectionTitle>
-              <ol className="m-0 list-none border-t-2 border-fg p-0">
-                {wire.map((s) => (
-                  <LatestRow key={s.id} story={s} now={now} />
-                ))}
-              </ol>
-            </section>
-            <aside aria-label="Newsletter" className="min-w-0 flex-[1_1_340px] self-start lg:sticky lg:top-6">
-              <NewsletterBox latestIssue={latestIssue} />
-            </aside>
-          </div>
+          {/* data-prompt-at: the membership offer opens when a reader gets here (components/subscribe-prompt). */}
+          <section id="latest" aria-labelledby="latest-h" data-prompt-at className="flex flex-col gap-5 pb-18 pt-14">
+            <SectionTitle id="latest-h">Latest</SectionTitle>
+            <ol className="m-0 list-none border-t-2 border-fg p-0 lg:grid lg:grid-cols-2 lg:gap-x-12">
+              {wire.map((s) => (
+                <LatestRow key={s.id} story={s} now={now} />
+              ))}
+            </ol>
+          </section>
         </main>
       )}
 

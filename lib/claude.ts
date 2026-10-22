@@ -194,7 +194,7 @@ const IssueDraftSchema = z.object({
   sections: z.array(
     z.object({
       heading: z.string(),
-      stories: z.array(z.object({ storyId: z.string(), headline: z.string(), body: z.string() })),
+      stories: z.array(z.object({ storyId: z.string(), headline: z.string(), body: z.string(), why: z.string() })),
     }),
   ),
   quickHits: z.array(z.object({ storyId: z.string(), text: z.string() })),
@@ -210,7 +210,7 @@ Structure:
 - subject: under 70 characters, names the biggest story concretely.
 - preview: one line shown in the inbox after the subject, teasing the second or third story.
 - intro: 2-3 sentences on the shape of the past few days. Don't restate the headlines.
-- sections: 2-4 sections with short, plain headings (e.g. "The big one", "Models", "Research worth reading", "Money and policy"). 4-8 stories in total, most important first. Each story: a headline that states the news, and a body of 50-110 words covering what happened, the specifics that matter, and why the reader should care. Merge closely related stories into one entry.
+- sections: 2-4 sections with short, plain headings (e.g. "The big one", "Models", "Research worth reading", "Money and policy"). 4-8 stories in total, most important first. Each story: a headline that states the news; a body of 40-90 words covering what happened and the specifics that matter; and "why": one or two sentences, under 40 words, on why it matters to the reader (the consequence, not a recap). Merge closely related stories into one entry.
 - quickHits: 4-10 one-line items for the rest worth knowing, each under 25 words.
 
 Rules:
