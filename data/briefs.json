@@ -41,38 +41,39 @@
  "15efdecd25aa": {
   "storyId": "15efdecd25aa",
   "itemIds": [
-   "15efdecd25aa"
+   "15efdecd25aa",
+   "f7403dc55170"
   ],
-  "writtenAt": "2026-10-22T10:18:35.617Z",
-  "headline": "Meta to issue new class of non-voting shares to fund AI spending",
-  "dek": "Meta announced with its Q3 earnings that it will create non-voting stock for AI investment, acquisitions and employee pay, with trading beginning in 2027, as capital spending guidance rises.",
+  "writtenAt": "2026-10-22T20:37:32.202Z",
+  "headline": "Meta to create non-voting share class to fund AI spending, acquisitions and pay",
+  "dek": "Meta will distribute a new class of non-voting stock to existing shareholders by dividend, with trading starting in 2027, to fund AI, acquisitions and employee compensation while keeping founder control.",
   "keyPoints": [
-   "Meta will issue a new class of non-voting shares, announced alongside its third-quarter earnings report on Wednesday; trading begins in 2027.",
-   "The shares will fund AI initiatives, potential acquisitions and employee compensation, according to Meta's press release.",
-   "Meta now expects 2026 capital expenditures of $135 billion to $145 billion, up from a prior estimate of $130 billion to $145 billion.",
-   "CFO Susan Li said the shares will \"expand our funding tools and give us flexibility to invest behind the unprecedented momentum we're seeing.\"",
-   "Meta's Muse AI agent, launched in September, hit 10 million US downloads this week despite privacy problems."
+   "Meta announced with Q3 earnings that it will create a non-voting capital stock class, distributed to existing shareholders through a stock dividend; trading begins in 2027.",
+   "CFO Susan Li says the shares are for capital raising, employee compensation, acquisitions and general corporate purposes, preserving Class A and B voting power.",
+   "Meta expects 2026 capital expenditures of $135 billion to $145 billion, up from a prior range of $130 billion to $145 billion, per The Verge.",
+   "Q3 revenue was $64 billion, up 26%, while costs and expenses rose 68%, according to TechCrunch.",
+   "Mark Zuckerberg says more than 10 million people in the US and Canada have set up Muse personal agents."
   ],
-  "context": "Meta has spent heavily on data centers, talent hiring from rivals such as OpenAI, and AI models meant to compete with other large tech companies. A non-voting share class is a way to raise equity or pay staff without diluting voting control. The move shows how large the AI spending race has become.",
-  "whatsNext": "Trading in the new shares is due to begin in 2027.",
+  "context": "Meta has spent heavily on AI infrastructure, talent and models, and its capital spending guidance keeps climbing. Its dual-class structure leaves voting control with existing Class A and B holders, so a non-voting class lets it raise or spend equity without diluting that control. Semafor reported the plan before the earnings call.",
+  "whatsNext": "Watch for the dividend distribution details and the start of trading in the new shares in 2027, plus the youth-related trials Meta says are scheduled in the US in coming months.",
   "article": {
    "whatHappened": [
-    "Meta said it will create a new class of non-voting shares to help fund its AI efforts. The company disclosed the plan on Wednesday as part of its third-quarter earnings report. Trading in the new stock is set to begin in 2027.",
-    "Beyond AI initiatives, Meta says the shares will go toward potential acquisitions and employee compensation. In its press release, the company said the scale of investment needed to compete and expand infrastructure during the AI shift is significant.",
-    "On an earnings call, chief financial officer Susan Li said the new class would expand Meta's funding tools and give it flexibility to invest. The company also raised the low end of its capital expenditure guidance for this year to between $135 billion and $145 billion, from a previous range of $130 billion to $145 billion."
+    "Meta said alongside its third-quarter earnings on Wednesday that it will create a new class of non-voting capital stock. The shares will be distributed to all existing shareholders through a stock dividend, with trading starting in 2027. Semafor reported the plan earlier in the day, and Meta confirmed it on its earnings call.",
+    "Chief financial officer Susan Li said the company created the class to have a publicly traded non-voting stock usable for capital raising, employee compensation, acquisitions and other general corporate purposes, while preserving the voting power of existing Class A and B shareholders. She said it will also help maintain Meta's founder-led structure.",
+    "The announcement came with strong results. Meta reported $64 billion in revenue, up 26% from a year earlier and ahead of Wall Street expectations, according to TechCrunch. Costs and expenses rose 68%. Meta now expects 2026 capital expenditures of $135 billion to $145 billion, up from an earlier range of $130 billion to $145 billion. It also expects Reality Labs losses to shrink to between $18 billion and $19 billion."
    ],
    "whyItMatters": [
-    "Meta has put billions of dollars into the AI race. It is building large data centers, hiring top talent from companies such as OpenAI, and developing models intended to rival those from other big technology firms. The new share class gives it another way to pay for that work and to compensate employees.",
-    "The announcement landed during a busy period for the company. Meta launched its Muse AI agent in September. Like other agents, it can clean out an email inbox, book restaurant reservations and plan trips. The Muse app rose to the top of app stores after launch and reached 10 million US downloads this week. Meta also released its Muse Wonder model this week.",
-    "Muse has had problems. A tech YouTuber reported that the agent gave his address to a stranger on Facebook Marketplace, adding to privacy concerns. Meta also paused Muse's conversation-sharing feature after researchers found chats publicly available on the web."
+    "The scale of Meta's AI spending is the stated reason for the move. Its press release said the investment required to compete amid the AI transformation is significant. A share class that can be sold or used as currency gives the company another way to pay for data centers, acquisitions and the talent it has recruited from rivals, without handing over votes.",
+    "The product side offers the justification Meta wants investors to see. Zuckerberg said more than 10 million people in the US and Canada have set up Muse personal agents in a month and a half, and that the app has been number one in the App Store almost every day. He said Muse has clear product-market fit and the company is entering a more operational phase focused on scaling it.",
+    "There are complications. The Verge reported privacy concerns, including a YouTuber's claim that the agent gave his address to a stranger, and a paused conversation-sharing feature after chats appeared publicly on the web. Li also flagged scrutiny of youth-related issues and trials coming in the US."
    ],
    "whatToWatch": [
-    "The main date is 2027, when trading in the new non-voting shares is due to start. The coverage does not say how many shares will be issued or at what price, so those details remain open.",
-    "Also worth tracking is whether capital spending guidance keeps rising, and how Meta handles the privacy issues around Muse as the app grows."
+    "The coverage gives no dividend ratio or exact date beyond 2027 trading, so the mechanics of distribution and how the shares are priced remain open. How investors value non-voting stock from a founder-controlled company will matter once it trades.",
+    "Also watch whether capital expenditure guidance keeps rising and how the youth-related trials Li mentioned play out in the coming months."
    ],
    "pullQuote": {
-    "text": "The scale of investment required to compete, sustain growth, expand infrastructure, and pursue new strategic initiatives amidst the AI transformation taking place in the industry is significant",
-    "by": "Meta"
+    "text": "create a new class of non-voting capital stock, which will be distributed to all existing shareholders through a stock dividend.",
+    "by": "Susan Li, Meta chief financial officer"
    }
   }
  },
@@ -198,35 +199,36 @@
   "itemIds": [
    "5dbb54a00540",
    "292e35e33e7b",
-   "1f413756a0cb"
+   "1f413756a0cb",
+   "8e16d6a95427"
   ],
-  "writtenAt": "2026-10-22T10:18:26.287Z",
-  "headline": "Anthropic launches Claude Duet, a proactive AI agent, in research preview",
-  "dek": "Built on Claude Opus 5.5, Duet sends a morning brief, works in a cloud VM and asks approval before payments or deletions; it is waitlisted for US Pro and Max subscribers.",
+  "writtenAt": "2026-10-22T20:37:21.654Z",
+  "headline": "Anthropic launches Claude Duet, a proactive AI agent for professionals, in research preview",
+  "dek": "Built on Claude Opus 5.5, Duet sends a morning brief and messages users only when needed; it is waitlisted for US Pro and Max subscribers on iOS, Android and web.",
   "keyPoints": [
-   "Claude Duet is a research preview agent for professionals and small business owners, built on Claude Opus 5.5, on iOS, Android and claude.ai.",
-   "Access is by waitlist, for Pro and Max subscribers in the US only; Team and Enterprise plans are not included yet.",
-   "It checks connected accounts every few hours, and its background checks count against the same usage limits as the rest of Claude.",
-   "It asks approval before sending messages, making payments, signing documents or deleting anything. Trading securities and moving money between accounts are off-limits.",
-   "A new classifier and safety system prompt rejects requests to share the strictest tier of information, such as credit card numbers and government ID."
+   "Claude Duet is a research preview agent for professionals and small business owners, built on Claude Opus 5.5, available on iOS, Android and claude.ai via a waitlist.",
+   "Access is limited to Pro and Max subscribers in the US; Team and Enterprise plans are not included yet, and Duet shares the plan's existing usage limits.",
+   "Duet asks approval before sending messages, making payments, signing documents or deleting anything, and will not trade securities or move money between accounts.",
+   "A new classifier and safety system prompt rejects requests to share the strictest tier of information, including credit card numbers and government identification.",
+   "It runs in its own cloud virtual machine with a browser, checks connected accounts every few hours, and can use over 6,000 connectors and plugins from the Claude Marketplace."
   ],
-  "context": "Anthropic's launch positions Duet against Meta's Muse and OpenAI's Dots, as The Verge describes them, in the race to build agents that act without being prompted. Unlike the standard Claude app, which waits for a chat, Duet initiates contact, which raises the stakes on judgment and data handling.",
-  "whatsNext": "Anthropic says it will share more details on how Claude Duet is designed for safety in the coming days.",
+  "context": "Duet enters a crowded field of agent products, including Meta's Muse and OpenAI's Dots, which TechCrunch says are also moving toward business use. It extends Anthropic's Claude line from chat, where the user opens a conversation, to an agent that contacts the user first.",
+  "whatsNext": "Anthropic says it will share more details about how Claude Duet is designed for safety in the coming days, and it is still tuning when the agent decides to message users.",
   "article": {
    "whatHappened": [
-    "Anthropic has opened a research preview of Claude Duet, an agent aimed at professionals and small business owners. It runs as a standalone app on iOS and Android and on claude.ai, and is built around Claude Opus 5.5. Access is through a waitlist, and Anthropic says it is limited to Pro and Max subscribers in the US.",
-    "Each morning Duet sends a short brief on the most important items across a user's connected apps. During the day it monitors those apps and messages only when something needs attention. Users can also hand it tasks, from scheduling meetings to building dashboards, financial or sales forecasts, prototypes and web apps.",
-    "Duet carries over memory, skills and connectors from a user's Claude account and has its own virtual machine with a browser, so it keeps working when the user's phone or laptop is off. Anthropic says it can use more than 6,000 connectors and plugins from the Claude Marketplace, and can make purchases through Stripe's Link wallet after confirming with the user.",
-    "Anthropic says important decisions stay with the user. Before sending a message, making a payment, signing a document or deleting anything, Duet shows what it is about to do and waits for approval. Some actions, such as trading securities or moving money between accounts, are off-limits even with approval."
+    "Anthropic has opened a research preview of Claude Duet, an app in which Claude works as a proactive agent. It is aimed at professionals and small business owners. It is available as a standalone app on iOS and Android and on claude.ai, and users must join a waitlist. During the preview it is included in Pro and Max plans in the US.",
+    "Each morning Duet sends a short brief on the most important items across a user's connected apps. During the day it monitors those apps and messages the user only when something needs attention. Users can also hand it tasks, from scheduling meetings to building dashboards, financial or sales forecasts, prototypes and web apps. Anthropic says it checks accounts every few hours, because constant checking would use up plan limits faster.",
+    "The agent carries over memory, skills and connected apps from a user's Claude account. It has a virtual machine with its own browser, so it can keep working when the user's phone or laptop is off. It can use over 6,000 connectors and plugins in the Claude Marketplace, and TechCrunch reports it can buy items through Stripe's Link or Shopify's Shop Pay.",
+    "Before sending a message, making a payment, signing a document or deleting anything, Duet shows the user what it will do and waits for approval. Some actions, such as trading securities or moving money between accounts, are off-limits even with approval. Anthropic also added a classifier and safety system prompt meant to block leaks of sensitive data. Health or personal finance information is sent only when the user explicitly instructs it."
    ],
    "whyItMatters": [
-    "Duet is Anthropic's move into proactive agents, a category The Verge says includes Meta's Muse and OpenAI's Dots. The difference from the regular Claude app is who starts the interaction: Duet comes to the user, which means its decisions about what is urgent matter as much as its ability to complete tasks.",
-    "That makes safety and cost design central. Anthropic says a new dedicated classifier and system prompt check each message and are designed to reject sharing the strictest tier of information, including credit card numbers and government ID. Health and personal finance details go out only when the user explicitly instructs it. Anthropic also notes Duet checks accounts only every few hours, because constant checking would use up plan limits faster.",
-    "Anthropic is candid about limits. It calls Duet an early version that may misread a thread, miscalibrate urgency or miss something that arrives between checks, and The Verge notes it is not as strong at personal errands such as booking tickets. The testimonials Anthropic cites come from early-access users and its own staff, so independent assessments will matter."
+    "The launch puts Anthropic against Meta's Muse and OpenAI's Dots, along with a long list of smaller assistants. TechCrunch notes that many rivals are leaning toward business use, and Duet's focus on small business owners follows that pattern. Anthropic is separating Duet from personal agents by saying it is weaker at errands such as booking tickets, and TechCrunch reports it cannot show its browser use as it happens.",
+    "The design choice is notable: an agent that reaches out first, rather than waiting in a chat window, depends on judgment about what is urgent. Anthropic acknowledges the risk, saying Duet may misread a thread, miscalibrate urgency, or miss something that arrives between checks. Giving an agent access to email, payments and documents also raises the stakes of the sensitive-information safeguards, which have only just been released and are still being developed.",
+    "Usage limits are another practical constraint. Duet draws on the same limits as the rest of Claude, and its background checks count toward them. Larger tasks such as building a financial model or a deck take more model turns, so heavy users may find the cost in limits significant."
    ],
    "whatToWatch": [
-    "Anthropic has promised more detail on Duet's safety design in the coming days. How it describes the classifier's behaviour, and whether outside researchers can test it, will bear on how much trust the approval model earns.",
-    "Watch also for waitlist expansion beyond US Pro and Max subscribers, since Team and Enterprise plans are excluded for now, and for how usage limits hold up when background checks and large tasks draw on the same allowance."
+    "Anthropic has promised more detail on Duet's safety design in the coming days. Watch for how it describes the classifier's performance and what the approval and off-limits rules look like in practice.",
+    "Also open are the waitlist timeline and whether Anthropic extends Duet beyond US Pro and Max subscribers to Team and Enterprise plans, which are not included yet."
    ],
    "pullQuote": {
     "text": "still might misread a thread or miscalibrate what’s urgent",
@@ -456,6 +458,45 @@
    }
   }
  },
+ "7bc6770bad95": {
+  "storyId": "7bc6770bad95",
+  "itemIds": [
+   "7bc6770bad95",
+   "d26ae9b2d9ce"
+  ],
+  "writtenAt": "2026-10-22T20:36:58.904Z",
+  "headline": "Microsoft's AI diagnostic system beats doctors on test cases in Science study",
+  "dek": "Microsoft AI says its multi-agent MAI-DxO system scored 83% on New England Journal of Medicine cases versus 36% for generalist physicians, though testing used only past cases and gains over base models were modest.",
+  "keyPoints": [
+   "On NEJM cases, Microsoft's system scored about 83%, versus roughly 36% for generalist physicians with references and 22% without them, according to the Science paper.",
+   "On Beth Israel emergency department cases it scored 80% against an average of 47% for physicians; TechCrunch notes complex cases are usually handled by specialists, who weren't compared.",
+   "TechCrunch reports much of the gain comes from stronger underlying models; with GPT-5.5, the system lifted complex-case accuracy from 72% to nearly 87% but showed no emergency gains.",
+   "Microsoft plans real-world testing with Beth Israel Deaconess, which Dominic King says should start within a couple of months. No timeline or commercial plan was given.",
+   "Suleyman says Microsoft is training a healthcare foundation model with the Mayo Clinic, with release planned next year."
+  ],
+  "context": "Microsoft AI, led by DeepMind co-founder Mustafa Suleyman, is pursuing what it calls medical superintelligence. It joins Google and OpenAI in claiming AI can match or beat doctors on diagnosis. Google has a parallel real-world study of its AMIE system, also with Beth Israel, published in The Lancet.",
+  "whatsNext": "Watch for the Beth Israel Deaconess clinical evaluation, which Microsoft says should begin within a couple of months, and for the Mayo Clinic-trained healthcare model planned for next year.",
+  "article": {
+   "whatHappened": [
+    "Microsoft AI says its diagnostic system can diagnose conditions up to four times more accurately than human doctors in tests on medical scenarios. The findings were published Thursday in Science. The system, called MAI-DxO or the Diagnostic Orchestrator, uses multiple AI agents that act like a panel of doctors: they question a patient, order tests and debate a diagnosis.",
+    "On cases drawn from hundreds of New England Journal of Medicine reports, the system reached about 83% accuracy. Generalist physicians using references scored roughly 36%, and those without references 22%. On emergency department cases from Beth Israel Deaconess Medical Center in Boston, it scored 80% against an average of 47% for physicians. It also tended to reach diagnoses at lower estimated cost.",
+    "Microsoft compiled the cases into its own benchmark, SDBench, which it plans to open-source. The system was tested with models from several companies, including OpenAI, Google, Anthropic, Meta and DeepSeek, with its best results coming from OpenAI's GPT-5 and GPT-5.5."
+   ],
+   "whyItMatters": [
+    "The headline comparison comes with caveats. TechCrunch notes that cases this complex are usually handled by specialists or physician teams, who were not part of the comparison. The system has only been tested on past cases, and Suleyman himself says it needs clinical validation, calling real-world use a leap.",
+    "TechCrunch's reading of the study's data is that most of the improvement comes from stronger underlying models. GPT-5 alone scored 78.9% on complex cases; the orchestrator cut cost by about $3,000 per case but added only about four points of accuracy. With GPT-5.5, it raised complex-case accuracy from 72% to nearly 87%, but emergency cases stayed near 85% either way. It helped most with weaker models, such as Gemini 2.5 Flash, which rose from 46.4% to nearly 69%.",
+    "The paper also does not test newer models, though the researchers say improvements in model capability do not necessarily diminish the benefits of multiple agents working together. The work shows Microsoft building its own health AI stack as competitors publish similar claims."
+   ],
+   "whatToWatch": [
+    "Microsoft will begin testing with Beth Israel Deaconess in hospital settings. Patients will receive standard care, and those who consent will also interact with the system, with its recommendations compared against human doctors'. Dominic King says this should get underway in the next couple of months, though neither he nor Suleyman committed to a firm timeline.",
+    "Commercialization is possible, but Microsoft has not said when or how. King stressed the high regulatory and compliance requirements in medicine. Suleyman says a healthcare foundation model trained with the Mayo Clinic is planned for release next year."
+   ],
+   "pullQuote": {
+    "text": "It needs clinical validation,",
+    "by": "Mustafa Suleyman, Microsoft AI CEO"
+   }
+  }
+ },
  "92c294f17fe5": {
   "storyId": "92c294f17fe5",
   "itemIds": [
@@ -634,40 +675,38 @@
    "add383da2fc0",
    "319f79c551ee",
    "4168438b63a2",
-   "e9fc4036438c"
+   "e9fc4036438c",
+   "8bd29f6029cc",
+   "b3eae9960910"
   ],
-  "writtenAt": "2026-10-22T10:19:13.298Z",
-  "headline": "Meta pauses Muse chat sharing after researchers find 6,800 links via public DNS",
-  "dek": "Meta suspended Muse's share feature after security firm Claroc enumerated more than 6,800 conversation links through DNS records, as the agent app passes 10 million users.",
+  "writtenAt": "2026-10-22T20:37:42.785Z",
+  "headline": "Meta pauses Muse conversation sharing after researchers find 6,800 chats discoverable online",
+  "dek": "Security firm Claroc says it found more than 6,800 shared Muse conversations through public DNS records; Meta paused the share feature while it reviews how the links can be discovered.",
   "keyPoints": [
-   "Claroc says it enumerated 6,800 Muse share links via passive DNS records; a few hundred opened showed revenue reviews, a loan application and a staff calendar.",
-   "Links put the conversation title in the subdomain of cf.metaaiusercontent.com, which public DNS records, making them searchable.",
-   "Meta paused the feature while it reviews the report and considers changes to how links can be discovered.",
-   "Claroc's CTO says he reported the issue via Meta's bug bounty on October 8 and got no reply.",
-   "On its Q3 call, Meta said Muse has over 10 million users; Sensor Tower counted 10.9 million downloads in 40 days."
+   "Claroc researchers enumerated 6,800 Muse share links via passive DNS records, because the conversation title sits in the subdomain of cf.metaaiusercontent.com.",
+   "Meta says it has paused the sharing feature while it reviews the report and considers changes to how links can be discovered.",
+   "Claroc's CTO says he reported the issue through Meta's bug bounty program on October 8 and got no reply.",
+   "Exposed chats included a revenue review, a loan application, a full-year staff calendar and notes for a job candidate's call.",
+   "Separately, Meta says Muse has over 10 million users; Sensor Tower counts 10.9 million downloads in 40 days."
   ],
-  "context": "Muse is Meta's general-purpose AI agent, which books, buys and fills out forms using access to a user's accounts. Similar share features have previously surfaced ChatGPT, Claude and Grok chats on Google Search. Ars Technica notes an earlier Muse vulnerability reported by researcher Patrick Wardle, which Meta downplayed.",
-  "whatsNext": "Watch whether Meta restores sharing with redesigned links, and how it responds to Claroc's report, which it says it is still reviewing.",
+  "context": "Muse is Meta's general-purpose AI agent, launched publicly in September, and it needs broad access to users' accounts to work. Zuckerberg said it was built from the ground up for privacy and security. Shared chats from ChatGPT, Claude and Grok have previously ended up in Google Search, so the problem is not unique to Meta.",
+  "whatsNext": "Meta has not said when sharing will return or what changes it will make to how share links are built.",
   "article": {
    "whatHappened": [
-    "Meta has suspended the conversation-sharing feature in Muse, its new AI agent, after researchers showed that shared links could be found by anyone searching public DNS records. Security firm Claroc published its findings this week, and Ars Technica and The Verge asked Meta about them.",
-    "Claroc says it enumerated more than 6,800 share links. After opening a few hundred, it found material not meant to be public, including a marketing company's revenue review, a small business owner's loan application, a workplace's full-year staff calendar and notes for a job candidate's call with an AI lab.",
-    "The cause, according to Claroc, is how Muse builds addresses. Each share lives at a hostname on cf.metaaiusercontent.com that combines the conversation title with a random ID. Because hostnames appear in passive DNS databases, a hostname pulled from DNS is enough to rebuild the full link.",
-    "Meta spokesperson Tracy Clayton said in a statement that sharing creates a page accessible to those with the link, but that the company has paused the functionality while it reviews the report and considers changes to how the links can be discovered."
+    "Meta has paused the conversation-sharing feature in Muse, its new AI agent, after researchers at security firm Claroc reported that shared chats could be found by anyone searching public DNS records. Meta told Ars Technica and The Verge it is reviewing the report and considering changes to how the links can be discovered.",
+    "Claroc says it enumerated more than 6,800 share links. The links use the domain cf.metaaiusercontent.com, and Muse puts a short title describing the conversation in the subdomain, followed by a random ID. Once a recipient opens a link, the hostname is recorded in passive DNS databases, which commercial services make searchable.",
+    "After opening a few hundred of the links, the researchers found material that was clearly not meant to be public. According to The Verge, this included a marketing company's revenue review, a small business owner's loan application, a workplace's full-year staff calendar and notes for a job candidate's call with an AI lab.",
+    "Claroc co-founder and CTO Asaf Aprozper said he reported the findings through Meta's bug bounty program on October 8 and also tried contacting Meta staff on LinkedIn, but received no reply. Meta's statement said it opened the bounty program so researchers could raise such scenarios."
    ],
    "whyItMatters": [
-    "Muse needs broad access to a user's email, calendar and accounts to work, and Meta has marketed it as trustworthy with that access. Mark Zuckerberg said last month it was built for privacy and security. A leak of shared chats cuts against that pitch just as adoption is climbing.",
-    "Public-link sharing is common, and Claroc notes that other assistants use it. ChatGPT, Claude and Grok conversations have also ended up in Google Search. What distinguishes this case, per Claroc, is the title in the hostname, a design choice rather than an inherent feature of link sharing.",
-    "The timing is awkward for Meta. Sensor Tower data cited by TechCrunch put Muse at 10.9 million downloads in 40 days, with stronger retention than ChatGPT, Claude and Grok. On its Q3 call Meta said Muse has over 10 million users and that Zuckerberg sees users' willingness to connect email and calendars as a sign of trust in its security setup."
+    "Sharing by public link is common across AI assistants, and Claroc acknowledges as much. The difference here is the design choice: putting the title in the hostname rather than the URL path exposes it to DNS logging. Unguessable links only protect users if nothing else publishes them.",
+    "The issue lands as Meta promotes Muse as trustworthy enough to hold access to email, calendars and payments. Ars Technica notes that a separate vulnerability, found by researcher Patrick Wardle three weeks after launch, let other apps on a device take control of a Muse account. Meta played down that finding.",
+    "Muse is growing quickly. Sensor Tower data reported by TechCrunch shows 10.9 million downloads in 40 days, and Zuckerberg told investors on the Q3 earnings call that more than 10 million users have set it up. Privacy problems at that scale carry more weight, particularly as Meta pitches Muse for shopping and personal tasks."
    ],
    "whatToWatch": [
-    "Meta has not said whether or when sharing will return. Watch for a redesign that removes titles from hostnames, and for any statement on whether already-created links remain reachable.",
-    "Also open is how Meta handles outside reports. Claroc's CTO says he filed through the bug bounty on October 8 and also tried LinkedIn without a reply, and Ars notes an earlier Muse flaw that Meta played down."
-   ],
-   "pullQuote": {
-    "text": "What makes Muse’s shares easy to find is the title sitting inside the web address, where public DNS records it for anyone to search.",
-    "by": "Claroc"
-   }
+    "Watch whether Meta restores sharing and, if so, how it changes link construction, for example by removing titles from hostnames. Meta has given no timeline.",
+    "Also watch whether the links already exposed remain reachable, and whether Meta responds to the earlier Muse security reports. The coverage does not say whether Meta will notify affected users."
+   ]
   }
  },
  "b9a4c6eaaadf": {
@@ -780,39 +819,79 @@
    }
   }
  },
+ "d1b19037538a": {
+  "storyId": "d1b19037538a",
+  "itemIds": [
+   "d1b19037538a"
+  ],
+  "writtenAt": "2026-10-22T20:37:09.233Z",
+  "headline": "Microsoft says China-aligned hackers used AI agents to breach about 2,250 ConnectWise customers",
+  "dek": "Microsoft says a China state-aligned group stole credentials from ConnectWise's cloud backup service, then used the ARTEX AI framework to hit around 2,250 organizations at nearly 3,000 sign-in attempts per minute.",
+  "keyPoints": [
+   "Microsoft attributes the ConnectWise breach to China state-aligned hackers who broke into its cloud backup service and stole application credentials used to link ConnectWise with customers.",
+   "The credentials let attackers sign in to customers' Microsoft-hosted environments as authorized users and reach emails and other files.",
+   "Microsoft says AI agents drove attacks on about 2,250 organizations at almost 3,000 attempted sign-ins per minute, leaving defenders 'little time to detect and respond.'",
+   "The tool named is ARTEX, an open source AI framework for stress-testing cyber defenses, also used in a recent compromise of South Korea's financial systems.",
+   "ConnectWise has paused access to its cloud backup system, is investigating, and said as of Thursday it was working to restore the service."
+  ],
+  "context": "ConnectWise makes IT management and remote access software used by service providers, so a breach there can reach many downstream customers at once. The reported use of AI agents to automate intrusions at scale fits growing concern that attackers can use such tools to speed up credential-based attacks. TechCrunch frames this as another bad week for cybersecurity.",
+  "whatsNext": "Watch for ConnectWise's investigation findings and the restoration of its cloud backup service, which the company said it was working on as of Thursday.",
+  "article": {
+   "whatHappened": [
+    "Chinese state-aligned hackers have spied on thousands more companies after breaching ConnectWise, the IT management and remote access provider, according to security researchers at Microsoft. TechCrunch reported the findings, which describe a breach of ConnectWise's cloud backup service and the theft of credentials tied to it.",
+    "Microsoft says the stolen application credentials are used to establish data links between ConnectWise and corporate customers who rely on the service to back up company data. With them, the hackers could log in to a customer's Microsoft-hosted environment as if they were an authorized user, and access emails and other files.",
+    "Microsoft says the attackers used AI agents to break into around 2,250 organizations at a rate of almost 3,000 attempted sign-ins per minute. The company said this speed gives defenders 'little time to detect and respond.' The speed was attributed to ARTEX, an open source AI framework that works with AI models to stress-test cyber defenses.",
+    "ConnectWise said it has paused access to its cloud backup system and is investigating the breach. As of Thursday, the company said it was working on restoring the service."
+   ],
+   "whyItMatters": [
+    "The incident combines two concerns: supply-chain risk and AI-assisted speed. ConnectWise sits between service providers and their customers, so a single compromise of stored credentials gave attackers a route into thousands of separate environments without needing to breach each one directly.",
+    "The reported use of ARTEX is notable because it is an open source framework intended for stress-testing defenses. According to the coverage, the same software was used in a recent compromise of South Korea's financial systems, many of which had weak security and lacked multi-factor authentication. That suggests the tooling is being reused across campaigns, though the coverage does not give further detail on how the attacks were run.",
+    "The rate Microsoft cites, almost 3,000 attempted sign-ins per minute, would be hard for manual review to follow. If accurate, it argues for faster automated detection and for controls such as multi-factor authentication, though the coverage does not say whether those would have stopped this particular attack."
+   ],
+   "whatToWatch": [
+    "The main open items are ConnectWise's investigation and the restoration of its cloud backup service. The coverage does not give a timeline, nor does it say how many of the roughly 2,250 targeted organizations had data accessed.",
+    "It is also unclear whether ConnectWise or Microsoft will publish further technical detail, such as how the credentials were stolen, or whether other agencies or vendors will confirm the attribution to a China-aligned group."
+   ],
+   "pullQuote": {
+    "text": "little time to detect and respond.",
+    "by": "Microsoft"
+   }
+  }
+ },
  "d2321eb5a0cf": {
   "storyId": "d2321eb5a0cf",
   "itemIds": [
    "d2321eb5a0cf",
-   "3309b6ce15f4"
+   "3309b6ce15f4",
+   "2bef5e155399"
   ],
-  "writtenAt": "2026-10-20T20:41:10.826Z",
+  "writtenAt": "2026-10-22T20:37:52.737Z",
   "headline": "US orders federal civilian agencies to remove DeepSeek AI from their systems",
-  "dek": "A Department of Homeland Security order bars civilian agencies from buying DeepSeek products or third-party services built on its technology and requires removal from existing systems, citing data access risks under Chinese law.",
+  "dek": "DHS bars purchases of DeepSeek products and third-party services built on its technology, citing data-access risks under Chinese law; Bloomberg then reported the company raised about $15 billion.",
   "keyPoints": [
-   "DHS ordered federal civilian agencies to stop buying DeepSeek products and remove them from government IT systems, citing national security concerns tied to the company's operations in China.",
-   "The order also covers third-party products and services built on DeepSeek technology, though agencies can request exceptions.",
-   "DHS warned that sensitive data from US government users could potentially be accessible to Chinese authorities under Chinese law.",
-   "China's Foreign Ministry spokesperson Mao Ning said Beijing opposes politicizing technology and trade issues and will safeguard Chinese firms' rights.",
-   "A law passed in December 2025 had already limited DeepSeek's use in intelligence national security systems; the new order extends limits to civilian agencies."
+   "DHS ordered federal civilian agencies to stop buying DeepSeek products and remove them from IT systems, with exceptions available on request.",
+   "The order also covers third-party products and services built on DeepSeek technology, not just DeepSeek's own app.",
+   "DHS warns sensitive data from US government users could be accessible to Chinese authorities under Chinese law.",
+   "China's Foreign Ministry spokesperson Mao Ning said Beijing opposes 'overstretching the concept of national security and politicizing technology and trade issues.'",
+   "Bloomberg reports DeepSeek raised about $15 billion (100 billion yuan) two days later; CATL and Tencent are among potential investors."
   ],
-  "context": "DeepSeek drew global scrutiny after its R1 reasoning model shook the AI industry in January 2025 and triggered a sharp sell-off in Nvidia shares. OpenAI and Anthropic have separately accused it of attempting to distill their models, and a September US report accused DeepSeek and five other Chinese AI firms of large-scale distillation. The order reflects widening US-China competition over AI.",
-  "whatsNext": "Watch how agencies handle exception requests and how broadly the ban on third-party services built on DeepSeek technology is applied.",
+  "context": "DeepSeek drew global attention in January 2025 when its open-weight R1 reasoning model triggered a sell-off in Nvidia shares. A law passed in December 2025 already restricted its use in intelligence national security systems, and OpenAI and Anthropic have separately alleged DeepSeek attempted to distill their models. The new order extends restrictions to the civilian side of government.",
+  "whatsNext": "Watch how agencies handle exception requests and how far the ban reaches into third-party software built on DeepSeek models.",
   "article": {
    "whatHappened": [
-    "The US has ordered federal civilian agencies to stop purchasing services and products from Chinese AI startup DeepSeek and to remove them from government IT systems, according to the Department of Homeland Security. The department cited national security concerns tied to the company's operations in China.",
-    "The order is broader than a ban on DeepSeek's own product. It also covers third-party products and services built using DeepSeek technology, though agencies can request exceptions. It applies to both new purchases and systems already in use.",
-    "DHS raised concerns about DeepSeek's handling of user data, warning that sensitive information from US government users could potentially be accessible to Chinese authorities under Chinese law, the order said.",
-    "China pushed back. Foreign Ministry spokesperson Mao Ning said on Tuesday that Beijing opposes overstretching the concept of national security and politicizing technology and trade issues, according to an official briefing."
+    "The US has ordered federal civilian agencies to stop purchasing products and services from Chinese AI startup DeepSeek and to remove them from government IT systems, according to the Department of Homeland Security. The department cited national security concerns tied to the company's operations in China. Agencies can request exceptions.",
+    "The order goes beyond DeepSeek's own product. It also covers third-party products and services built using DeepSeek technology. DHS raised concerns about the company's handling of user data, warning that sensitive information from US government users could potentially be accessible to Chinese authorities under Chinese law, the order said.",
+    "China pushed back. Foreign Ministry spokesperson Mao Ning said Beijing opposes overstretching the concept of national security and politicizing technology and trade issues, and said China would safeguard the rights of Chinese enterprises.",
+    "Two days after the order, Bloomberg reported that DeepSeek had raised about $15 billion, roughly 100 billion yuan, one of the largest funding rounds in China. Potential investors include battery maker CATL and Tencent. DeepSeek did not immediately respond to TechCrunch's request for comment."
    ],
    "whyItMatters": [
-    "The order builds on earlier restrictions. A law passed in December 2025 targeted DeepSeek's use in intelligence national security systems. The new order extends the limits to the wider civilian government, and by reaching third-party services built on DeepSeek technology it may affect vendors that use its models without being obvious about it.",
-    "DeepSeek has challenged US rivals such as OpenAI and Meta with low-cost open-weight models. It has faced scrutiny from governments and regulators worldwide since its R1 model arrived in January 2025. A September US report accused DeepSeek and five other Chinese AI companies, including Alibaba and Moonshot AI, of using large-scale model distillation to extract information from American AI systems.",
-    "OpenAI and Anthropic have raised similar concerns. Earlier this year OpenAI told US lawmakers it had observed suspected distillation attempts by DeepSeek, and Anthropic said it had identified unauthorized attempts by DeepSeek and other Chinese labs to collect outputs from Claude."
+    "The order widens earlier limits. A law passed in December 2025 targeted DeepSeek's use in intelligence agencies' national security systems; the new directive reaches civilian agencies, covering both new purchases and existing systems. Because it also names third-party services built on DeepSeek technology, it could affect vendors that embed the company's open-weight models.",
+    "The dispute runs alongside allegations about model distillation. A September report accused DeepSeek and five other Chinese AI companies, including Alibaba and Moonshot AI, of using large-scale distillation to extract information from American AI systems. OpenAI told lawmakers it had seen suspected distillation attempts by DeepSeek, and Anthropic said it had identified unauthorized attempts to collect outputs from Claude.",
+    "The funding report suggests the restrictions have not slowed investor interest at home. It follows a June round of more than $7 billion at a $50 billion valuation, and Bloomberg says DeepSeek is increasing spending on infrastructure and open models for domestic and international markets. Founder Liang Wenfeng retains an estimated 81.6% stake in the Chinese operating entity, according to WireScreen."
    ],
    "whatToWatch": [
-    "The exception process is the main open question: the coverage does not say how many agencies use DeepSeek or its derivatives, or how exceptions will be judged.",
-    "The dispute may also widen on the Chinese side. Bloomberg reported last week that China is reportedly considering export restrictions on 23 AI-related technologies, including chip designs and certain advanced AI models."
+    "The practical test is enforcement: how many exceptions agencies request, and how they identify third-party products that rely on DeepSeek technology.",
+    "On the Chinese side, Bloomberg reported last week that Beijing is considering export restrictions on 23 AI-related technologies, including chip designs and certain advanced models. DeepSeek has also been linked to a possible IPO in China as early as next year."
    ],
    "pullQuote": {
     "text": "We will resolutely safeguard the legitimate rights and interests of Chinese enterprises",
