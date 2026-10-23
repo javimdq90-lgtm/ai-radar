@@ -8819,7 +8819,7 @@
    "Elon Musk",
    "Nvidia"
   ],
-  "storyId": "c6b16d28af7e"
+  "storyId": "4e839948c5b0"
  },
  {
   "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
@@ -8858,7 +8858,7 @@
    "Microsoft Research",
    "Flint-interactive"
   ],
-  "storyId": "ccc3219ff3a4"
+  "storyId": "d777d785a3ac"
  },
  {
   "url": "https://www.latent.space/p/moshi",
@@ -9044,5 +9044,404 @@
   ],
   "imageCheckedAt": "2026-10-22T20:36:44.222Z",
   "storyId": "fe52d49759b6"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+  "title": "Canva’s first AI image model plans designs before generating them",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-22T21:51:25.000Z",
+  "snippet": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an announcement on Thursday. Canva Craft can generate images at up to 2K resolution and in more than 30 aspect ratios. In addition to generating social media posts and marketing content, it's also supposed to create realistic scenes, digital art, environm…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "09c9f9d097fb",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Canva launched Canva Craft, its first image generation model, which plans a design in a two-stage architecture before generating. It outputs up to 2K resolution in over 30 aspect ratios and competes with OpenAI, Microsoft and Google models.",
+  "whyItMatters": "A design platform moving to its own image model reduces reliance on third-party providers.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Canva",
+   "Canva Craft"
+  ],
+  "storyId": "865ffb65f1d5"
+ },
+ {
+  "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+  "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-23T00:00:00.000Z",
+  "snippet": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+  "id": "15c1f8ef7a58",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "OpenAI and Poland's NASK are partnering on AI safety, security and technical research.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "NASK"
+  ],
+  "storyId": "15c1f8ef7a58"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.27851",
+  "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from simulation and robot trajectories together with broader image and video data. Two designs make this work. First, we describe both numerical actions and visual changes in language, enabling …",
+  "score": 25,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.27851.png",
+  "id": "1d7cbb737154",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "LaLa-World is a JEPA-style latent world model conditioned on language, describing both numerical actions and visual changes in text. It learns from simulation, robot trajectories, and broader image and video data, and is used for planning and policy fine-tuning.",
+  "whyItMatters": "Suggests a path to general world models for robotics using the language interface of video generators.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "LaLa-World",
+   "JEPA"
+  ],
+  "storyId": "1d7cbb737154"
+ },
+ {
+  "url": "https://latent.space/p/ainews-black-october/",
+  "title": "[AINews] Black October",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-23T10:09:29.000Z",
+  "snippet": "the Cyber onslaught continues.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/logo/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.jpg",
+  "id": "24a759e0d336",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Latent Space's AINews issue 'Black October' says the cyber onslaught continues.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Latent Space"
+  ],
+  "storyId": "24a759e0d336"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.29677",
+  "title": "Toward Recursive Self-Improvement in Physical AI",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-20T20:00:00.000Z",
+  "snippet": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and potentially irreversible consequences. We position RSI within robot learning and trace pathways from improving robot capabilities to improving the processes that generate them. We ex…",
+  "score": 41,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.29677.png",
+  "id": "2a76e5ab6cae",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "A position paper applies recursive self-improvement, where a system improves its own improvement process, to robot learning. It traces pathways from better robot capabilities to better learning processes, noting the challenges of partial observations, costly trials and irreversible consequences.",
+  "whyItMatters": "Frames what would be needed to carry self-rewriting agents from software into physical robots.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "2a76e5ab6cae"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+  "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-23T04:00:00.000Z",
+  "snippet": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+  "id": "3602c8887bef",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Ride-hailing company inDrive plans to test Pony.ai robotaxis in Kazakhstan's capital in the first half of 2027, with Nvidia involved.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "inDrive",
+   "Pony.ai",
+   "Nvidia"
+  ],
+  "storyId": "3602c8887bef"
+ },
+ {
+  "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+  "title": "Every AI model has the same \"controversial\" take on humans",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T16:08:00.000Z",
+  "score": 425,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50197313",
+  "id": "374db3b9194f",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "A comparison on modelcompare.ai finds that different AI models give strikingly similar answers when asked for a controversial take on humans.",
+  "whyItMatters": "Hints at shared training data and alignment pushing models toward homogeneous outputs.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "modelcompare.ai"
+  ],
+  "storyId": "374db3b9194f"
+ },
+ {
+  "url": "https://www.anthropic.com/research/formal-verification",
+  "title": "LLMs are making formal software verification feasible at a much larger scale",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T22:54:43.000Z",
+  "score": 348,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50202217",
+  "id": "4e9bfd07ae02",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Anthropic argues that LLMs are making formal software verification feasible at a much larger scale.",
+  "whyItMatters": "Cheaper formal proofs could improve reliability of AI-generated code.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+  "imageCheckedAt": "2026-10-23T10:11:28.827Z",
+  "storyId": "4e9bfd07ae02"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+  "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-22T22:08:24.000Z",
+  "snippet": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680",
+  "id": "6372ebaa66c8",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "OpenAI is reportedly working on a new $30B raise at a $1.25T valuation ahead of an IPO, which would make it the most valuable private company ever.",
+  "whyItMatters": "Signals the scale of capital behind frontier AI and a looming public listing.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-23T10:11:28.730Z",
+  "storyId": "6372ebaa66c8"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+  "title": "Designing an AI serving harness built to last",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-22T21:17:29.000Z",
+  "snippet": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840",
+  "id": "712bc0d815dc",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "An article argues that enterprise AI advantage now depends more on the serving harness built around a model than on model choice.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "712bc0d815dc"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+  "title": "Left alone with nothing to do, AI agents started playing",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-23T00:45:37.000Z",
+  "snippet": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590",
+  "id": "8937fd9c8277",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "MIT researchers placed 13 AI agents on a virtual island; left idle, they invented games, mourned a lost ring and eventually improved at their tasks.",
+  "whyItMatters": "An intriguing look at emergent behavior in open-ended multi-agent settings.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "MIT"
+  ],
+  "imageCheckedAt": "2026-10-23T10:11:28.721Z",
+  "storyId": "8937fd9c8277"
+ },
+ {
+  "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+  "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-23T06:41:11.000Z",
+  "score": 118,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50205229",
+  "id": "8db2bf743b5d",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Berget.ai reports the same AI request emits 8.5 times more CO2 in Texas than in Sweden because of grid differences.",
+  "whyItMatters": "Data center location strongly affects AI's carbon footprint.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Berget.ai"
+  ],
+  "storyId": "8db2bf743b5d"
+ },
+ {
+  "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-22T22:24:34.000Z",
+  "id": "95eb6975ad24",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "A Hugging Face post describes turning database grading into RL rewards to post-train agents with ThinkingBox.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "ThinkingBox"
+  ],
+  "storyId": "95eb6975ad24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.27251",
+  "title": "AI and the Enclosure of the Scientific Commons",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T18:28:16.000Z",
+  "score": 135,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50199230",
+  "id": "a89c1639c81c",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "An arXiv paper argues that AI is leading to the enclosure of the scientific commons, concentrating control over shared scientific knowledge.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [],
+  "storyId": "a89c1639c81c"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.30926",
+  "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-22T04:43:48.000Z",
+  "snippet": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them through native conditioning pathways, and using them does not ensure either factor-aware control or generation-compatible temporal prediction. We propose Factor-Aware Predictive Learnin…",
+  "score": 140,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30926.png",
+  "id": "aabb50f6607f",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "A paper proposes Factor-Aware Predictive Learning to make multimodal LLM latents useful for cinematic video generation. It targets control over character, scene, action and camera from sparse inputs in video diffusion transformers.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "aabb50f6607f"
+ },
+ {
+  "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+  "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T20:51:23.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50200843",
+  "id": "b7046e0a16fa",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "A poll reported by ABC News finds most Americans say AI is bad for society and oppose building more data centers.",
+  "whyItMatters": "Public opposition could add political friction to data center buildout.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "ABC News"
+  ],
+  "image": "https://i.abcnewsfe.com/a/76af8d06-92bb-4767-b96d-3f27f7c34e58/data-gty-er--261020_1792522906404_hpMain_16x9.jpg?w=1600",
+  "imageCheckedAt": "2026-10-23T10:11:28.874Z",
+  "storyId": "b7046e0a16fa"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+  "title": "Meta’s AI could still scrape news sites, legal experts say",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-22T20:32:05.000Z",
+  "snippet": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape entire sites,\" James Grimmelmann, a professor of digital and information law at Cornell Law School, tells Nieman Lab. Initially, Meta's new terms for business accounts appeared to give the company permission to train its AI on news sites. The terms, which go into ef…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c744e4ea5afb",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Meta changed its business terms to remove language implying it could freely train AI on news sites, but legal experts like Cornell's James Grimmelmann say the remaining 'associated with your products or services' wording could still allow scraping entire sites.",
+  "whyItMatters": "Publishers' leverage over AI training data remains contested.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "James Grimmelmann",
+   "The Verge"
+  ],
+  "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50200997",
+  "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T21:03:55.000Z",
+  "score": 159,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50200997",
+  "id": "ce7fed74f496",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "A forum thread asks why OpenAI doesn't simply launch 100 companies if its models are as capable as claimed.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "ce7fed74f496"
+ },
+ {
+  "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+  "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-22T18:02:54.000Z",
+  "score": 85,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50198940",
+  "id": "cec2f20b5c8c",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "Biograph reports that AI analysis of CT scans found coronary inflammation in 42.9% of patients.",
+  "whyItMatters": "Shows AI extracting new diagnostic signals from routine imaging.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Biograph"
+  ],
+  "storyId": "cec2f20b5c8c"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.31329",
+  "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-21T20:00:00.000Z",
+  "snippet": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha mattes. Architecturally, we integrate a lightweight pixel decoder into the VLM via a special <OBJ> token…",
+  "score": 33,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31329.png",
+  "id": "e0ece036cc7a",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "WeChat released WeVisOne-VL, a vision-language model unifying object-level and pixel-level tasks such as detection, counting, OCR, segmentation and matting through next-token prediction. A lightweight pixel decoder is attached via a special <OBJ> token.",
+  "whyItMatters": "Offers a single VLM for fine-grained perception tasks that usually need separate specialized models.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "WeChat",
+   "WeVisOne-VL"
+  ],
+  "storyId": "e0ece036cc7a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.30949",
+  "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-21T20:00:00.000Z",
+  "snippet": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and formats and progressively extending the context; and (3) multi-scaffold with multi-version post-training…",
+  "score": 38,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30949.png",
+  "id": "f680fcbe625c",
+  "fetchedAt": "2026-10-23T10:11:09.705Z",
+  "enrichedAt": "2026-10-23T10:11:28.664Z",
+  "summary": "IQuest-Q1 is a sparse MoE agentic model with 320B total and 15B active parameters, aimed at CLI coding agents. It uses Muon, muP and a coding-heavy curriculum, followed by multi-scaffold post-training.",
+  "whyItMatters": "Another large open-style agentic coding model competing in the CLI agent space.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "IQuest-Q1"
+  ],
+  "storyId": "f680fcbe625c"
  }
 ]

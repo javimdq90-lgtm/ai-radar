@@ -315,6 +315,43 @@
    }
   }
  },
+ "6372ebaa66c8": {
+  "storyId": "6372ebaa66c8",
+  "itemIds": [
+   "6372ebaa66c8"
+  ],
+  "writtenAt": "2026-10-23T10:11:41.663Z",
+  "headline": "OpenAI reportedly seeks up to $30B at $1.25T valuation in round led by Coatue and UAE investors",
+  "dek": "Sources told CNBC the round would value OpenAI at $1.25 trillion pre-money, above the $852 billion set in March, with terms still under negotiation and an IPO filed confidentially in June.",
+  "keyPoints": [
+   "CNBC, citing sources, reports OpenAI is raising up to $30 billion at a $1.25 trillion pre-money valuation, led by Coatue and investors in the UAE.",
+   "Bloomberg reported a month earlier a $30 billion raise at $1.4 trillion; both outlets say terms are still being negotiated and could change.",
+   "The UAE funding could be paired with a deal to give OpenAI more computing capacity from the UAE, per CNBC. OpenAI declined comment.",
+   "OpenAI's last raise in March valued it at $852 billion post-money, and it filed confidentially for an IPO in June.",
+   "Anthropic raised $65 billion at $965 billion in May and is reportedly seeking $1.5 to $2 trillion in an IPO, CNBC reports."
+  ],
+  "context": "OpenAI and Anthropic have both raised very large private rounds this year and both filed confidential IPO paperwork in June. A valuation above $1 trillion would make OpenAI the most valuable private company on record and set a high bar for its public listing, and for Anthropic's.",
+  "whatsNext": "Watch for final terms of the round, and for Anthropic's public S-1 filing, which TechCrunch says rumors suggest could come any day.",
+  "article": {
+   "whatHappened": [
+    "OpenAI is reportedly working on a new private funding round of up to $30 billion at a $1.25 trillion pre-money valuation, according to sources who spoke to CNBC. The round would be led by Coatue and investors in the United Arab Emirates. OpenAI declined to comment on the report.",
+    "The figure follows an earlier Bloomberg report, from about a month ago, that OpenAI was seeking $30 billion at a $1.4 trillion valuation. Both outlets say terms are still being negotiated, so the size and valuation could change. CNBC adds that the UAE funding could be coupled with an agreement to secure more computing capacity for OpenAI from the UAE."
+   ],
+   "whyItMatters": [
+    "A valuation above $1 trillion would make OpenAI the most valuable private company ever. It would also be a large step up from March, when its last raise valued the ChatGPT maker at $852 billion post-money. OpenAI filed confidential paperwork for an IPO in June, and a higher private mark raises the bar for its eventual public debut.",
+    "The number also bears on Anthropic, whose IPO many observers believe is closer to materializing. Anthropic raised $65 billion at a $965 billion valuation in May, widely seen then as its last major round before going public, and it also filed confidentially in June. CNBC reports Anthropic is seeking a $1.5 to $2 trillion valuation for its debut.",
+    "The report is notable because OpenAI appears to be raising more private money rather than moving straight to an IPO, as TechCrunch frames it. The reported UAE link to computing capacity also shows how funding and infrastructure deals are increasingly tied together, though the details are not public."
+   ],
+   "whatToWatch": [
+    "The main open question is the final terms: the two reports differ by $150 billion on valuation, and both outlets caution that numbers could shift before a deal closes.",
+    "Also worth tracking is Anthropic's public S-1 filing, which would reveal financials for one of the two companies and give a first look at how public-market investors might price them."
+   ],
+   "pullQuote": {
+    "text": "Terms are still being negotiated, both outlets report, so they could ultimately change.",
+    "by": "TechCrunch"
+   }
+  }
+ },
  "66d5720ec836": {
   "storyId": "66d5720ec836",
   "itemIds": [
@@ -1029,38 +1066,37 @@
    "3e7a8c91741b",
    "d4d8a21bd997",
    "90e877c10910",
-   "a054bcdb2791"
+   "a054bcdb2791",
+   "c744e4ea5afb"
   ],
-  "writtenAt": "2026-10-21T10:18:40.451Z",
-  "headline": "Meta removes crawling language from business terms after publisher backlash",
-  "dek": "Meta cut a clause from its commercial terms, due October 30, that experts said could let it scrape business-linked sites, including news publishers, for AI training. Meta says nothing changed in how it crawls.",
+  "writtenAt": "2026-10-23T10:11:53.486Z",
+  "headline": "Meta removes crawling language from commercial terms after publishers warn of free AI training",
+  "dek": "Meta deleted a clause from its commercial terms, due October 30, that experts said could let it scrape business-linked sites for AI training; it says nothing about its crawlers changed.",
   "keyPoints": [
-   "Meta's new commercial terms, effective October 30, let it crawl domains tied to business accounts and use the content to 'train' its products, according to Nieman Lab's reading.",
-   "Legal experts said the clause could let Meta argue its terms override robots.txt blocks and sidestep licensing deals; Cornell's James Grimmelmann cited possible competition with publishers.",
-   "Meta spokesperson Daniel Roberts said 'there is no change to how Meta uses web crawlers'. Andy Stone said the aim was pulling product information for ads.",
-   "On October 17 Meta removed the sentence permitting use of site content to 'train' its products, saying the crawling terms applied only to ads and business products.",
-   "Ars Technica found 'test credentials' language absent from the prior commercial terms, which experts said could enable paywall bypass; Meta pointed to its Seller Agreement."
+   "Terms due October 30 let Meta crawl domains \"associated\" with business accounts on Facebook, Instagram, WhatsApp and Messenger, and use content to \"train\" its products, Nieman Lab reported.",
+   "Experts, including Cornell's James Grimmelmann, said the clause could let Meta argue its terms override robots.txt blocks and sidestep licensing deals with publishers.",
+   "Meta spokesperson Daniel Roberts said \"There is no change to how Meta uses web crawlers\"; Andy Stone said the aim was product data for ads.",
+   "On October 17, Meta removed the sentence about using content to develop and train its products, saying the terms applied only to ads and business products.",
+   "Ars Technica found the \"test credentials\" wording was new to the commercial terms; Meta pointed to a Seller Agreement containing similar language."
   ],
-  "context": "Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc., following OpenAI. Courts are still deciding whether AI training on copyrighted work without a license is fair use; Meta won a high-profile case last year, but other suits against AI companies, including Meta, continue. Publishers are sensitive to any terms that could give away content that might otherwise be licensed.",
-  "whatsNext": "Watch whether the revised terms take effect October 30 as planned and whether publishers and legal experts judge the remaining 'test credentials' and crawling language acceptable.",
+  "context": "Publishers are fighting AI companies over whether training on their content without a license is fair use, and Meta has struck licensing deals with CNN, Fox News, USA Today and People Inc. Meta won a high-profile copyright case last year, but other suits against AI companies, including Meta, continue. Meta also recently launched a Meta One subscription that charges businesses and creators to include links in posts.",
+  "whatsNext": "Watch whether publishers and legal experts judge the revised commercial terms, which still take effect October 30, to be adequately narrowed.",
   "article": {
    "whatHappened": [
-    "Meta has removed language from its commercial terms that experts said could let it scrape websites linked to business accounts, including news publishers, and use the content to train AI. The change came on October 17, a day after Nieman Lab reported on the terms, which were due to take effect October 30.",
-    "The removed sentence said Meta may use any content from such domains, web pages or URLs to 'provide, develop, improve, research, train, and maintain the integrity of' its products and services. The terms covered business accounts across Facebook, Instagram, WhatsApp and Messenger, and said businesses that disagreed could stop using Meta products for commercial purposes.",
-    "Meta initially rejected the criticism. Spokesperson Daniel Roberts said the company was consolidating its commercial and self-serve ad terms and that any suggestion of a change in crawler use was false. Andy Stone, Meta's vice president of communications, said the update was meant to pull accurate product information for ads and recommendations, not to scrape news sites.",
-    "After the backlash, Roberts said the crawling terms 'only applied to our ads and business products,' and that the terms now say so. He added that the updates do not give Meta new rights that supersede robots.txt preferences."
+    "Meta has removed a sentence from its commercial terms that legal experts said could have let it scrape publishers' websites to train AI. The change came on October 17, a day after Nieman Lab reported on the new terms, which take effect October 30. The deleted text said Meta \"may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of\" its products.",
+    "The original language applied to business accounts on Facebook, Instagram, WhatsApp and Messenger. It authorized Meta to use scrapers, bots and crawlers, and to create test credentials, to access domains and pages associated with a business's products or services. Ars Technica reported that businesses could not opt out and were told they could stop using Meta's products if they disagreed.",
+    "Meta spokesperson Daniel Roberts first said the company was consolidating its commercial and self-serve ad terms and that any suggestion of a change in crawling was false. Communications chief Andy Stone said the aim was to pull accurate product information from third-party sites for ad and content recommendations. After the backlash, Meta said the crawling terms applied only to its ads and business products and that it had clarified this in the terms."
    ],
    "whyItMatters": [
-    "Legal experts told Nieman Lab the original wording could let Meta argue its commercial terms override a site's robots.txt blocking instructions, and potentially bypass licensing agreements. Cornell's James Grimmelmann said it could permit training on any site content and possibly deploying it in competition with publishers. Matt Topic, an attorney at Loevy & Loevy, said the material would likely cost many millions of dollars in a licensing market.",
-    "Ars Technica reported that the language was not simply a streamlining. It said the phrase 'test credentials,' which experts warned could allow paywall bypass, did not appear in Meta's earlier commercial terms, Product Catalog Terms or Ad Creative Generative AI Terms. Meta pointed Ars to a Seller Agreement that uses the phrase for a narrower purpose. Nieman Lab also noted that Meta recently began charging businesses and creators to post links, while the terms would have let it crawl that content free.",
-    "Nearly every news organization has a Meta business account, so the terms reached the industry broadly. Experts told Nieman Lab it was unclear whether a court would enforce such terms, but the dispute shows how contract language can become a route around opt-out signals."
+    "Nearly every news organization has a Meta business account, Nieman Lab noted, so the clause reached the industry most in dispute with AI developers. Legal experts told Nieman Lab the terms could be used to argue they supersede robots.txt, the standard file sites use to block crawlers. Matt Topic, an attorney at Loevy & Loevy, said the content would likely cost many millions of dollars in a licensing market.",
+    "Ars Technica disputed Meta's description of the change as streamlining. It found that the phrase \"test credentials,\" which experts said could allow paywall bypass, did not appear in the existing commercial terms, Product Catalog Terms or Ad Creative Generative AI Terms. Meta pointed to a Seller Agreement with similar wording, but that agreement limits the permission to a specific purpose. Three experts said it was unclear whether a court would enforce such terms."
    ],
    "whatToWatch": [
-    "The reporting does not say whether the 'test credentials' and crawling provisions that remain are now limited to ads and business products in practice. Publishers and legal experts are likely to read the final terms closely before October 30.",
-    "Separate litigation continues over how Meta obtained training data. A magistrate judge has ordered Meta to identify executives who approved torrenting of books from shadow libraries, which may bear on how courts view its data practices."
+    "The terms take effect October 30. Publishers and lawyers will likely check whether the remaining crawling language, including test credentials, is as limited as Meta now says, and whether Meta's statement that the updates give it no new rights over robots.txt preferences holds in practice.",
+    "The wider legal fight continues. News organizations are litigating AI training and fair use against OpenAI, and other cases against AI companies, Meta among them, remain open."
    ],
    "pullQuote": {
-    "text": "We've heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we've clarified that in the terms themselves.",
+    "text": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
     "by": "Daniel Roberts, Meta spokesperson"
    }
   }
