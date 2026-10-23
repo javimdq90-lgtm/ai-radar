@@ -534,6 +534,45 @@
    }
   }
  },
+ "8b3dcb15f7a3": {
+  "storyId": "8b3dcb15f7a3",
+  "itemIds": [
+   "8b3dcb15f7a3",
+   "c777cca0670d",
+   "8db2bf743b5d"
+  ],
+  "writtenAt": "2026-10-23T20:31:17.874Z",
+  "headline": "Judge rules EPA cannot dismiss NAACP pollution suit against SpaceXAI's Memphis data center",
+  "dek": "US District Judge Debra Brown held that nothing in the Clean Air Act lets the EPA unilaterally dismiss a citizen suit over unpermitted gas turbines at Musk's Colossus data center in Memphis.",
+  "keyPoints": [
+   "Judge Debra Brown ruled Tuesday that \"nothing\" in the Clean Air Act lets the EPA Administrator unilaterally dismiss a citizen suit; the NAACP's case against SpaceXAI continues.",
+   "The NAACP seeks an injunction requiring best available pollution controls on the turbines and penalties of up to $124,426 per day per violation.",
+   "A Houston Advanced Research Center report says planned Texas data centers on the expected grid mix could triple power-sector soot and raise NOx 136 percent within five years.",
+   "Berget AI says a typical request emits 3.2 g CO2 in Texas versus 0.4 g in Sweden, a difference of 8.5 times."
+  ],
+  "context": "Colossus, built by xAI (now SpaceXAI after a merger), drew attention when unpermitted gas turbines were found powering it. Such turbines are an increasingly common way for AI firms to get capacity running quickly. The ruling comes as data center electricity demand grows and the Trump administration pushes rapid AI buildout through its AI Action Plan.",
+  "whatsNext": "The NAACP's Clean Air Act case against SpaceXAI now proceeds, with Earthjustice vowing to keep pressing it.",
+  "article": {
+   "whatHappened": [
+    "A federal judge has rejected the Trump administration's attempt to end a pollution lawsuit against Elon Musk's SpaceXAI. US District Judge Debra Brown ruled Tuesday that \"nothing\" in the Clean Air Act allows the EPA Administrator to \"unilaterally dismiss a citizen suit.\" The case over the Colossus data center in Memphis, Tennessee, will therefore continue.",
+    "The NAACP sued after unpermitted gas turbines were found powering Colossus. It wants an injunction requiring xAI, now known as SpaceXAI following a merger, to use the best available pollution control technology, plus penalties of up to $124,426 per day per violation. The group argues the turbines risk raising pollution in nearby neighborhoods that are predominantly Black.",
+    "The administration intervened, arguing the EPA could dismiss such suits whenever the president decides against enforcement, and that allowing them would not serve the public interest given the push to bring data centers online quickly. Brown called this an \"extraordinary position\" with no grounding in federal law. She said the Act's one relevant exception applies when the EPA is itself suing or acting to require compliance, which is not the case here because the administration has no intention of suing SpaceXAI."
+   ],
+   "whyItMatters": [
+    "Brown reasoned that the Clean Air Act also lets citizens sue the EPA Administrator for failing to enforce it. \"Evidently, Congress contemplated that citizen suits may not always align with the EPA's judgment,\" she wrote. She also noted that Congress considered, and did not adopt, a 1990 amendment that would have let the EPA take over citizen suits.",
+    "Brown's order suggested the administration's reading would have given it power to block any data center pollution suit, and to defend other interests against Clean Air Act claims too. Earthjustice, which supports the NAACP, monitors data center disputes nationwide. Ars Technica notes the Colossus case was the first to expose the industry's use of unpermitted gas turbines, so the ruling may matter beyond Memphis.",
+    "The stakes are growing. A Houston Advanced Research Center report says that if all planned Texas data centers ran on the anticipated grid mix, power-sector soot would more than triple and NOx would rise 136 percent in five years. The outcome depends heavily on whether developers use onsite renewables or gas engines."
+   ],
+   "whatToWatch": [
+    "The case returns to the merits, where the NAACP must still show the turbines violated the Clean Air Act. The coverage does not say whether the administration will appeal the ruling.",
+    "Earthjustice's Laura Thoms said the group will \"continue the fight to hold xAI accountable.\" Other data center disputes involving unpermitted turbines may test similar arguments."
+   ],
+   "pullQuote": {
+    "text": "Evidently, Congress contemplated that citizen suits may not always align with the EPA’s judgment",
+    "by": "Judge Debra Brown"
+   }
+  }
+ },
  "92c294f17fe5": {
   "storyId": "92c294f17fe5",
   "itemIds": [
@@ -942,35 +981,35 @@
    "d3f519557f32",
    "1bfd140f401f",
    "a61190ef2d92",
-   "dc028fea27bb"
+   "dc028fea27bb",
+   "24a759e0d336"
   ],
-  "writtenAt": "2026-10-22T10:19:01.374Z",
-  "headline": "AI-found PHP2Shell flaws in core PHP prompt NSA warning and patch to version 8.5.12",
-  "dek": "OpenAI-backed researchers at Calif and Google's Wiz independently found two critical PHP engine flaws using GPT-5.6 Sol and Gemini 4 Argon; PHP patched them October 21 after two months of coordination.",
+  "writtenAt": "2026-10-23T20:31:05.473Z",
+  "headline": "OpenAI and Wiz find PHP2Shell flaws in core PHP; patch ships after two-month embargo",
+  "dek": "Two teams using AI models independently found two critical PHP engine bugs (CVE-2026-109618 and -109619) affecting every version since 5.4; PHP released a fix on October 21 and the NSA urged immediate patching.",
   "keyPoints": [
-   "Two CVEs, CVE-2026-109618 and CVE-2026-109619, cover four memory-safety bugs in PHP's core engine, with severity up to CVSS 9.2, according to Wiz.",
-   "Calif found one flaw via OpenAI's Patch the Planet using GPT-5.6 Sol; Wiz separately used Wiz Atlas, Gemini 4 Argon and GPT-5.6 Sol.",
-   "Wiz says every PHP version back to 5.4 in the last decade is affected; PHP released the fix October 21, and TechCrunch says to update to 8.5.12.",
-   "Researchers demonstrated unauthenticated remote code execution on WordPress, Drupal and Joomla, plus memory disclosure; the NSA advised taking unpatchable sites offline.",
-   "OpenAI says the flaws were found before hackers did, and TechCrunch reports no exploits in the wild; Cloudflare says early attacks were appearing as it deployed WAF rules."
+   "PHP2Shell covers two CVEs, CVE-2026-109618 and CVE-2026-109619, with severity up to CVSS 9.2, in PHP's handling of fatal and out-of-memory errors. Wiz says every version back to 5.4 is affected.",
+   "Calif researcher Ryan Austin found one flaw via OpenAI's Patch the Planet using GPT-5.6 Sol; Wiz independently found others using Gemini 4 Argon, GPT-5.6 Sol and its Wiz Atlas agent.",
+   "PHP released a patch on October 21, 2026; TechCrunch says the current version is 8.5.12 and PHP 8.1 and older are unsupported.",
+   "The NSA advised taking sites offline if they cannot be patched promptly; Cloudflare deployed stopgap WAF rules for all customers, including the free tier.",
+   "Wiz demonstrated unauthenticated remote code execution on WordPress, Drupal and Joomla, plus memory disclosure; OpenAI says it found no reports of exploitation in the wild before disclosure."
   ],
-  "context": "PHP powers roughly 70% of websites, including WordPress, Drupal and MediaWiki. OpenAI announced a $1B Daybreak subsidy for defenders about two months earlier, and Patch the Planet coordinates fixes for flaws AI agents find. The case shows AI lowering the cost of building complex exploit chains, which helps defenders and attackers alike.",
-  "whatsNext": "Watch how quickly operators patch to the fixed PHP release and whether exploitation in the wild appears now that details are public.",
+  "context": "AI models have been finding serious bugs in widely used open-source software, and OpenAI's $1B Daybreak subsidy and Patch the Planet initiative aim to channel that work into coordinated fixes. PHP powers roughly 70% of websites, including WordPress, Drupal and MediaWiki. Wiz compares the disclosure to Heartbleed and Log4Shell, though Latent Space notes the comparison is debated.",
+  "whatsNext": "Watch how quickly unpatched PHP sites are updated and whether exploitation appears now that details are public, as Cloudflare already reports early attacks.",
   "article": {
    "whatHappened": [
-    "PHP released a patch on October 21, 2026 for multiple memory-safety vulnerabilities in its core engine, nicknamed PHP2Shell. The flaws are grouped under CVE-2026-109618 and CVE-2026-109619. The US National Security Agency warned that sites which cannot be patched immediately should be taken offline until they can be.",
-    "Two parties found the bugs independently. Ryan Austin of the security firm Calif found one through OpenAI's Patch the Planet initiative, using GPT-5.6 Sol. Wiz, recently acquired into Google Cloud, used its Wiz Atlas agent along with Gemini 4 Argon and GPT-5.6 Sol. Both worked with PHP on fixes before disclosure.",
-    "According to Wiz, the bugs stem from how PHP handles fatal errors, particularly out-of-memory errors, and can leave corrupted internal state that a later request or worker reuses. That can lead to memory disclosure or corruption. Wiz says it chained four bugs into one exploit script and ran it against the latest WordPress, Drupal and Joomla container images without authentication.",
-    "Wiz says a simple Hello World application on an affected PHP version can be vulnerable, and that memory reads can expose passwords, tokens and API keys without code execution. Cloudflare deployed WAF rules for all customers, including the free tier, before the patch, and called them a stopgap."
+    "Two critical vulnerabilities in the core of PHP, the scripting language behind roughly 70% of websites, were disclosed on October 21, 2026, alongside a patch from the PHP project. Dubbed PHP2Shell and tracked as CVE-2026-109618 and CVE-2026-109619, the flaws allow memory disclosure and unauthenticated remote code execution, with severity reaching CVSS 9.2, according to Wiz.",
+    "Two parties found the bugs separately. OpenAI says Calif researcher Ryan Austin discovered one using GPT-5.6 Sol under its Patch the Planet initiative. Wiz, recently acquired by Google Cloud, used its Wiz Atlas agent, Gemini 4 Argon and GPT-5.6 Sol to find multiple vulnerabilities. Both worked with PHP on patches before going public, and OpenAI describes about two months of coordinated remediation.",
+    "Technically, the bugs stem from how PHP handles fatal errors, particularly out-of-memory conditions, which can leave corrupted internal state that a later request or worker reuses. Wiz says it chained four exploitable bugs into one script, php2shell, and demonstrated code execution against the latest WordPress, Drupal and Joomla container images. It also says even a simple Hello World application on an affected version can be vulnerable."
    ],
    "whyItMatters": [
-    "PHP runs about 70% of websites, so a flaw in the engine reaches sites whose own code is sound. WordPress said the issue is not specific to its software and that site owners must patch servers and work with hosts. TechCrunch notes that PHP 8.1 and older are unsupported, so some operators face upgrade work.",
-    "The episode also shows AI changing exploit economics. Wiz says the flaws were decades old but hard to exploit, needing a complex chain at the edge of what human researchers could do, and that frontier models let it adapt working exploits across applications in hours. Wiz compares the potential significance to Heartbleed and Log4Shell.",
-    "That comparison is contested. Latent Space's newsletter says the degree to which this matches those famous bugs is up for debate and that high-profile cyber disclosures carry some marketing. It also notes that the researcher-reported demonstrations should not be read as an identical, immediately exploitable path on every deployment."
+    "Because the flaw sits in PHP itself, patching plugins or applications does not fix it. Wiz says every PHP release of the past decade is affected, going back to 5.4, and TechCrunch notes that PHP 8.1 and older are unsupported, so many sites face an upgrade rather than a simple patch. WordPress has said the flaw is not WordPress specific and that site owners must patch servers and work with their hosts.",
+    "The case also shows AI cutting both ways. Wiz argues the flaws had been present for decades but that exploiting them required a chain of steps at the edge of what human researchers could achieve; frontier models let its team adapt working exploits across multiple applications in hours. TechCrunch frames it as an issue found because of AI that is also high risk largely because of AI.",
+    "Details are contested. Latent Space says the severity relative to Log4Shell and Heartbleed is debated, treats the exploit results as researcher-reported, and notes the PHP Foundation says another AI model, Claude Mythos, had scanned PHP earlier. Latent Space also places PHP2Shell within a wider wave of AI-accelerated disclosures that week."
    ],
    "whatToWatch": [
-    "The main question is the patching race. TechCrunch says tens of millions of sites need updates before attackers can exploit unpatched ones, and Cloudflare reported early attacks as it rolled out mitigations. The coverage does not say how many compromises have occurred.",
-    "Wiz also says other tracked and likely untracked variants of the pattern exist, though it says the PHP patch fixes the issue at its core in the patched release. Further disclosures from AI-assisted audits of widely used software are likely."
+    "The immediate question is how fast operators patch. The NSA said sites that cannot be updated quickly should be taken offline, and Cloudflare said its WAF rules cover known vectors but are only a stopgap. Cloudflare's CTO reported early attacks emerging, though the coverage gives no figures on compromises.",
+    "Wiz says other tracked and likely untracked variants exist, though it says the PHP patch fixes the underlying issue and eliminates all variants in the patched release."
    ],
    "pullQuote": {
     "text": "With AI this is no longer a barrier. LLMs can help adapt an exploit to different PHP versions, configurations and memory layouts",
@@ -1067,33 +1106,35 @@
    "d4d8a21bd997",
    "90e877c10910",
    "a054bcdb2791",
-   "c744e4ea5afb"
+   "c744e4ea5afb",
+   "47740c8fb238"
   ],
-  "writtenAt": "2026-10-23T10:11:53.486Z",
-  "headline": "Meta removes crawling language from commercial terms after publishers warn of free AI training",
-  "dek": "Meta deleted a clause from its commercial terms, due October 30, that experts said could let it scrape business-linked sites for AI training; it says nothing about its crawlers changed.",
+  "writtenAt": "2026-10-23T20:31:30.568Z",
+  "headline": "Meta removes AI-training scraping clause from commercial terms after publisher backlash",
+  "dek": "Meta deleted language letting it use content from business accounts' linked websites to train AI, a day after Nieman Lab reported it, saying its crawling practices have not changed.",
   "keyPoints": [
-   "Terms due October 30 let Meta crawl domains \"associated\" with business accounts on Facebook, Instagram, WhatsApp and Messenger, and use content to \"train\" its products, Nieman Lab reported.",
-   "Experts, including Cornell's James Grimmelmann, said the clause could let Meta argue its terms override robots.txt blocks and sidestep licensing deals with publishers.",
-   "Meta spokesperson Daniel Roberts said \"There is no change to how Meta uses web crawlers\"; Andy Stone said the aim was product data for ads.",
-   "On October 17, Meta removed the sentence about using content to develop and train its products, saying the terms applied only to ads and business products.",
-   "Ars Technica found the \"test credentials\" wording was new to the commercial terms; Meta pointed to a Seller Agreement containing similar language."
+   "Meta's commercial terms, due October 30, let it crawl domains tied to business accounts and use content to 'train' its products; the clause was removed October 17.",
+   "Meta spokesperson Daniel Roberts says there is 'no change to how Meta uses web crawlers' and that robots.txt preferences still apply.",
+   "Cornell's James Grimmelmann told Nieman Lab the terms were permission to train AI on any content from publishers' sites, possibly in competition with them.",
+   "Andy Stone, Meta's communications VP, said the aim was pulling product information from third-party sites for ad recommendations, not scraping news sites.",
+   "Ars Technica found the 'test credentials' language was new to the commercial terms, which experts said could allow paywall bypass."
   ],
-  "context": "Publishers are fighting AI companies over whether training on their content without a license is fair use, and Meta has struck licensing deals with CNN, Fox News, USA Today and People Inc. Meta won a high-profile copyright case last year, but other suits against AI companies, including Meta, continue. Meta also recently launched a Meta One subscription that charges businesses and creators to include links in posts.",
-  "whatsNext": "Watch whether publishers and legal experts judge the revised commercial terms, which still take effect October 30, to be adequately narrowed.",
+  "context": "Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc., while news organizations and AI companies fight over whether training without a license is fair use. Meta won a high-profile copyright case last year, but other suits against AI firms, including Meta, continue. Meta recently launched a Meta One subscription that charges businesses to post links.",
+  "whatsNext": "Watch whether publishers and legal experts judge the revised commercial terms, which take effect October 30, to be free of the broader crawling and training permissions.",
   "article": {
    "whatHappened": [
-    "Meta has removed a sentence from its commercial terms that legal experts said could have let it scrape publishers' websites to train AI. The change came on October 17, a day after Nieman Lab reported on the new terms, which take effect October 30. The deleted text said Meta \"may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of\" its products.",
-    "The original language applied to business accounts on Facebook, Instagram, WhatsApp and Messenger. It authorized Meta to use scrapers, bots and crawlers, and to create test credentials, to access domains and pages associated with a business's products or services. Ars Technica reported that businesses could not opt out and were told they could stop using Meta's products if they disagreed.",
-    "Meta spokesperson Daniel Roberts first said the company was consolidating its commercial and self-serve ad terms and that any suggestion of a change in crawling was false. Communications chief Andy Stone said the aim was to pull accurate product information from third-party sites for ad and content recommendations. After the backlash, Meta said the crawling terms applied only to its ads and business products and that it had clarified this in the terms."
+    "Meta has removed language from its commercial terms that experts said could let it scrape websites linked to business accounts and use the content to train AI. The Verge reported the change on October 17, a day after Nieman Lab flagged the clause and the terms drew criticism from legal experts and publishers.",
+    "The deleted sentence said Meta may use any content from such domains, web pages or URLs to 'provide, develop, improve, research, train, and maintain the integrity of' its products and services. The terms, due to take effect October 30, apply to business accounts across Facebook, Instagram, WhatsApp and Messenger. They also authorized automated crawlers and 'test credentials' to access linked content, and said businesses that disagreed could stop using Meta's products for commercial purposes.",
+    "Meta first called the change a consolidation of its commercial and self-serve ad terms. Spokesperson Daniel Roberts said any suggestion that crawling had changed was false. After the removal, Roberts said the crawling terms 'only applied to our ads and business products,' that Meta has clarified this in the terms themselves, and that the updates do not supersede robots.txt preferences."
    ],
    "whyItMatters": [
-    "Nearly every news organization has a Meta business account, Nieman Lab noted, so the clause reached the industry most in dispute with AI developers. Legal experts told Nieman Lab the terms could be used to argue they supersede robots.txt, the standard file sites use to block crawlers. Matt Topic, an attorney at Loevy & Loevy, said the content would likely cost many millions of dollars in a licensing market.",
-    "Ars Technica disputed Meta's description of the change as streamlining. It found that the phrase \"test credentials,\" which experts said could allow paywall bypass, did not appear in the existing commercial terms, Product Catalog Terms or Ad Creative Generative AI Terms. Meta pointed to a Seller Agreement with similar wording, but that agreement limits the permission to a specific purpose. Three experts said it was unclear whether a court would enforce such terms."
+    "For publishers, the stakes were licensing leverage. Nieman Lab noted that virtually every news organization has at least one Meta business account. Matt Topic, an attorney at Loevy & Loevy, said the provision would give Meta access to material that would likely cost many millions of dollars in a licensing market. Three legal experts told Nieman Lab it was unclear whether a court would enforce the terms, but they could be used to argue Meta may scrape news sites.",
+    "Ars Technica added that the 'streamlining' claim looked weaker on inspection. It found 'test credentials' absent from Meta's existing commercial terms, product catalog terms and ad creative generative AI terms. Meta pointed it to a seller agreement that uses similar wording but is limited to e-commerce listings. Legal experts also raised the antitrust concept of tying, since Meta had begun charging for links it could crawl for free.",
+    "The episode lands as Meta faces separate copyright litigation over AI training data. Ars Technica reports a magistrate judge has ordered Meta to identify executives who authorized downloading books from shadow libraries. That case is distinct, but it shows how closely courts are examining how Meta sources training data."
    ],
    "whatToWatch": [
-    "The terms take effect October 30. Publishers and lawyers will likely check whether the remaining crawling language, including test credentials, is as limited as Meta now says, and whether Meta's statement that the updates give it no new rights over robots.txt preferences holds in practice.",
-    "The wider legal fight continues. News organizations are litigating AI training and fair use against OpenAI, and other cases against AI companies, Meta among them, remain open."
+    "The revised terms are due to take effect October 30. Publishers and lawyers will likely check whether the final text leaves any broader crawling or training rights, and whether the 'test credentials' language remains.",
+    "Meta says robots.txt remains the way for content owners to signal preferences. Whether courts treat such signals as binding is still open, and pending fair use cases could shape that."
    ],
    "pullQuote": {
     "text": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",

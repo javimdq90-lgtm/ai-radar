@@ -9120,7 +9120,7 @@
   "entities": [
    "Latent Space"
   ],
-  "storyId": "24a759e0d336"
+  "storyId": "d3f519557f32"
  },
  {
   "url": "https://huggingface.co/papers/2610.29677",
@@ -9272,7 +9272,7 @@
   "entities": [
    "Berget.ai"
   ],
-  "storyId": "8db2bf743b5d"
+  "storyId": "8b3dcb15f7a3"
  },
  {
   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
@@ -9443,5 +9443,294 @@
    "IQuest-Q1"
   ],
   "storyId": "f680fcbe625c"
+ },
+ {
+  "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-23T17:00:00.000Z",
+  "snippet": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+  "id": "298c8de07d18",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "OpenAI details how it scaled its Habitat online storage system using multi-tenancy, global caching and Azure Cosmos DB, delivering 12x faster reads for ChatGPT's over 1 billion users.",
+  "whyItMatters": "Offers practical infrastructure lessons for scaling storage behind AI products.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT",
+   "Azure Cosmos DB"
+  ],
+  "imageCheckedAt": "2026-10-23T20:30:48.069Z",
+  "storyId": "298c8de07d18"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.31158",
+  "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-21T20:00:00.000Z",
+  "snippet": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments. This task has direct practical value because it helps users locate relevant moments, verify claims, reproduce demonstrated procedures, and make informed decisions from video content. We present a skill-based work…",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31158.png",
+  "id": "45f855ed6fb9",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Researchers introduce a benchmark task for video-centered deep research report generation, where an agent takes a video and a request, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments.",
+  "whyItMatters": "It extends deep research agent evaluation beyond text and web search to video sources.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "45f855ed6fb9"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+  "title": "Meta delays new business terms after publisher pushback on AI scraping",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-23T14:47:41.000Z",
+  "snippet": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow more time for us to explain to our partners and stakeholders what's changing and what's not.\" The business terms, which were originally supposed to go into effect on October 30th, appeared to give Meta permission to freely scrape the new sites that use its platforms, while …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "47740c8fb238",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Meta delayed enforcement of its new business terms from October 30 to November 20 after publishers worried they allowed scraping of news sites for AI training.",
+  "whyItMatters": "Highlights ongoing friction between platforms and publishers over AI training data rights.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta"
+  ],
+  "storyId": "e874f1181e68"
+ },
+ {
+  "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+  "title": "Securing our frontier model training environment",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-23T10:00:00.000Z",
+  "snippet": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+  "id": "48e2274fdf2b",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "OpenAI describes how it strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+  "whyItMatters": "Gives a glimpse of how a leading lab approaches security and containment as models grow more capable.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-23T20:30:48.080Z",
+  "storyId": "48e2274fdf2b"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+  "title": "The iPhone Duo should have been an iPad",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-23T17:00:18.000Z",
+  "snippet": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay debate whether the Duo deserved the score it got, and try to work through how this device might change over time. Is the outer screen, as Daring Fireball's John Gruber suggested, the worst iPhone ever? Would it be a better product if it started as an iPad rather than an iPhone? Would we feel differently about…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_102326_Site_attempt.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "4e972ac67253",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+  "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-23T19:32:39.000Z",
+  "snippet": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between the model and the speaker does have a mostly natural back and forth (though for some reason, the model initially mistakes the speaker for somebody named \"Ronaldo\"). We made the first AI model you can have a realistic conversation with that was trained entirel…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "4f1a69c73f38",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Jack Dorsey's Block announced Dessa, a conversational AI model it says was trained from scratch on only human conversation, and shared sometimes awkward sample chats.",
+  "whyItMatters": "Block entering voice/conversational models with a from-scratch approach is notable, though quality looks early.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Block",
+   "Dessa",
+   "Jack Dorsey",
+   "Ragavan Thurairatnam"
+  ],
+  "storyId": "4f1a69c73f38"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+  "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-23T19:06:23.000Z",
+  "snippet": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+  "id": "4f8bba4990b7",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+  "title": "AI Is Getting Good at Math. Here’s Why.",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-23T15:19:48.000Z",
+  "snippet": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/bd3e76aa-5e3c-4cbf-b175-c20919ca2b9d/Math_Feature_Image-selection3.png?t=1792768487",
+  "id": "619059630d1f",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "An article examines a pattern in the math problems AI models are solving, which could help predict which problems they'll solve next.",
+  "whyItMatters": "Offers a framework for anticipating where AI math capabilities are heading.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "storyId": "619059630d1f"
+ },
+ {
+  "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "title": "Does Your Model Run on AWS Trainium? Look It Up",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-23T00:00:00.000Z",
+  "id": "6430909168b5",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Hugging Face offers a lookup for checking whether a given model runs on AWS Trainium.",
+  "whyItMatters": "Helps builders check hardware compatibility before committing to Trainium deployments.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "AWS Trainium"
+  ],
+  "storyId": "6430909168b5"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+  "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-23T20:19:55.000Z",
+  "snippet": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg",
+  "id": "6643f32ed82d",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Google's updated privacy policy says Gmail data may be used for advertising when users turn on Personal Intelligence, giving the company more data for ad targeting.",
+  "whyItMatters": "Enabling AI personalization may have ad-targeting trade-offs for users.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gmail",
+   "Personal Intelligence"
+  ],
+  "storyId": "97597de85741"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+  "title": "Retro gaming is being overrun with AI",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-23T12:00:00.000Z",
+  "snippet": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as hobbyists take apart games and then rebuild them for new platforms. But while AI has supercharged the pace of these ports, it's also tearing apart tight-knit communities dedicated to preserving games. Decomps and recomps - shorthand for decompile and recompile - are a form of reverse e…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK465_VIDEO_GAMES_EMULATOR__CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "73558bf56090",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "New AI tools are speeding up decompilation and recompilation of retro games, producing viral ports such as Halo in a browser and Wind Waker on iPhone, while straining game preservation communities.",
+  "whyItMatters": "Shows AI coding tools enabling reverse engineering at scale, and the community tensions that follow.",
+  "category": "products",
+  "importance": 2,
+  "entities": [],
+  "storyId": "73558bf56090"
+ },
+ {
+  "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+  "title": "Swedish government offices to ban ChatGPT and Claude",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-23T11:39:54.000Z",
+  "score": 310,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50207405",
+  "id": "9174a0a001c9",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Swedish government offices are set to ban the use of ChatGPT and Claude.",
+  "whyItMatters": "Signals growing government caution over data exposure with commercial AI chatbots.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "ChatGPT",
+   "Claude",
+   "Swedish government"
+  ],
+  "image": "https://static-cdn.sr.se/images/83/4f267bc3-0129-4628-bd75-1e593f208dfc.jpg",
+  "imageCheckedAt": "2026-10-23T20:30:48.410Z",
+  "storyId": "9174a0a001c9"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+  "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-23T16:52:55.000Z",
+  "snippet": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous version simply said it wouldn't do that, as of October 16th, Google has added the line, \"unless you choose to make data from these services available to other Google services that support personalized ads.\" That means anyone who has connected their Drive, Gmail, or…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "97597de85741",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "Google updated its privacy policy on October 16 to say it may use Gmail, Drive and Photos data for personalized ads if users connect that data to other Google services supporting personalized ads, such as AI features.",
+  "whyItMatters": "Enabling personalized AI features could expose personal data to ad targeting.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gmail",
+   "Google Photos"
+  ],
+  "storyId": "97597de85741"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.30755",
+  "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-21T20:00:00.000Z",
+  "snippet": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw history to supply evidence to a reader LLM. Across LoCoMo, LongMemEval, MEME, and MemoryAgentBench, Raw-RAG ranks first among the compared memory systems in six of seven benchmark-model settings, outperforming the strongest compared agentic memory system by 0.13-5.53 points. We inves…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30755.png",
+  "id": "99638248aba8",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "A paper finds that a naive RAG baseline (dense retrieval plus reranking over raw history) ranks first among compared memory systems in six of seven settings across LoCoMo, LongMemEval, MEME and MemoryAgentBench, beating the strongest agentic memory system by 0.13-5.53 points.",
+  "whyItMatters": "Suggests builders may not need complex agentic memory and should try a simple RAG baseline first.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Raw-RAG",
+   "LoCoMo",
+   "LongMemEval"
+  ],
+  "storyId": "99638248aba8"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+  "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-23T17:18:31.000Z",
+  "snippet": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
+  "id": "b2b7ebe6730f",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/blog/allenai/litpivot",
+  "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-23T16:15:50.000Z",
+  "id": "d5dfb55b0129",
+  "fetchedAt": "2026-10-23T20:30:32.792Z",
+  "enrichedAt": "2026-10-23T20:30:48.017Z",
+  "summary": "LitPivot is a research tool for developing research ideas through dynamic contextualization within the literature landscape.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "LitPivot"
+  ],
+  "storyId": "d5dfb55b0129"
  }
 ]
