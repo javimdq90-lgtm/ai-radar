@@ -1,0 +1,287 @@
+{
+ "number": 4,
+ "date": "2026-10-23T11:31:06.532Z",
+ "subject": "OpenAI reportedly seeks $30B at a $1.25T valuation",
+ "preview": "Plus Claude Duet, an agent that messages you first, and OpenAI's models arriving on Google Cloud.",
+ "intro": "Most of the week was money and plumbing: who funds the labs, which clouds sell whose models, and what agents are allowed to touch. The research items were more measured than the claims around them, and one security story shows agents working for the other side.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "6372ebaa66c8",
+     "headline": "OpenAI is reportedly raising up to $30B at a $1.25T valuation",
+     "body": "CNBC, citing sources, says the round is led by Coatue and UAE investors at a $1.25 trillion pre-money valuation. Bloomberg reported a month earlier a $30 billion raise at $1.4 trillion, and terms are still being negotiated. The UAE money could come paired with a deal for more computing capacity there. OpenAI declined comment. Its March round valued it at $852 billion post-money, and it filed confidentially for an IPO in June.",
+     "why": "A valuation above $1 trillion sets a high bar for OpenAI's listing and for Anthropic's, which CNBC says is reportedly seeking $1.5 to $2 trillion in an IPO."
+    },
+    {
+     "storyId": "15efdecd25aa",
+     "headline": "Meta will create a non-voting share class to fund AI spending",
+     "body": "Announced with Q3 earnings, the new class will go to existing shareholders as a stock dividend, with trading starting in 2027. CFO Susan Li says it is for capital raising, employee compensation, acquisitions and general purposes, and leaves Class A and B voting power intact. Meta expects 2026 capex of $135 billion to $145 billion. Q3 revenue was $64 billion, up 26%, while costs and expenses rose 68%.",
+     "why": "Meta can raise or spend equity on AI without diluting control, which matters because costs are growing far faster than revenue."
+    }
+   ]
+  },
+  {
+   "heading": "Agents and models",
+   "stories": [
+    {
+     "storyId": "5dbb54a00540",
+     "headline": "Anthropic launches Claude Duet, an agent that contacts you first",
+     "body": "Duet is a research preview built on Claude Opus 5.5. It sends a morning brief and messages you only when needed. It's waitlisted for US Pro and Max subscribers on iOS, Android and web. It asks approval before sending messages, making payments, signing documents or deleting anything, and won't trade securities or move money. It runs in its own cloud VM, checks connected accounts every few hours and can use over 6,000 connectors.",
+     "why": "This moves Claude from a chat you open to an agent that reaches out, putting Anthropic against Meta's Muse and OpenAI's Dots."
+    },
+    {
+     "storyId": "61f4d0141ff3",
+     "headline": "OpenAI's GPT 6 and 6.1 models are coming to Google Cloud",
+     "body": "Google Cloud will add OpenAI's GPT 6 and 6.1 models, named Astra, Sol and Luna, to Model Garden in the coming weeks. All three are in private preview now for select enterprise customers. They run on Google's infrastructure and bill through Google Cloud Marketplace, so they can count toward existing spending commitments. GPT models are also planned for Antigravity. OpenAI says Microsoft remains its primary cloud partner.",
+     "why": "Google says it is now the only large cloud offering all three leading closed model families, so buyers can mix them on one bill."
+    },
+    {
+     "storyId": "5888c276693c",
+     "headline": "Mistral previews Large 4, a 1 trillion-parameter model with open weights due this month",
+     "body": "Large 4 is a natively multimodal mixture-of-experts model with about 1 trillion total and 52 billion active parameters. The preview API is live on Mistral Studio, and Mistral says weights will be released by the end of the month. It says it trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in European datacenters. It reports 93% on Cybench and 61.7% on DeepSWE v1.1.",
+     "why": "If the weights ship as promised, a trillion-parameter model becomes self-hostable. All the benchmark figures are Mistral's own."
+    }
+   ]
+  },
+  {
+   "heading": "Research and security",
+   "stories": [
+    {
+     "storyId": "7bc6770bad95",
+     "headline": "Microsoft's diagnostic system beats generalist doctors on past cases",
+     "body": "In a Science paper, Microsoft's multi-agent MAI-DxO scored about 83% on NEJM cases, versus roughly 36% for generalist physicians with references and 22% without. TechCrunch notes specialists, who usually handle complex cases, weren't compared. It also reports much of the gain comes from stronger base models: with GPT-5.5 the system lifted complex-case accuracy from 72% to nearly 87% but showed no emergency gains. Real-world testing with Beth Israel Deaconess should start within a couple of months.",
+     "why": "The headline gap comes from retrospective cases and a generalist comparison. The planned real-world test is the result to wait for."
+    },
+    {
+     "storyId": "d1b19037538a",
+     "headline": "Microsoft says China-aligned hackers used AI agents against about 2,250 ConnectWise customers",
+     "body": "Microsoft says a China state-aligned group broke into ConnectWise's cloud backup service and stole application credentials that link it to customers. Those let attackers sign in to customers' Microsoft-hosted environments and reach emails and files. AI agents drove attacks on about 2,250 organizations at almost 3,000 attempted sign-ins per minute, using the open source ARTEX framework. ConnectWise paused access to the backup system and was working to restore it as of Thursday.",
+     "why": "Stolen integration credentials plus automated sign-in attempts leave defenders little time to react. Audit which third-party apps hold standing access to your accounts."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "4472664e9020",
+   "text": "Walmart will let customers connect their own AI agents to its site next month, with approval, review and spending-limit controls."
+  },
+  {
+   "storyId": "ba6fa07d677a",
+   "text": "Uber is rolling out OpenAI's ChatGPT Work to more than 30,000 employees for research, data analysis and presentations."
+  },
+  {
+   "storyId": "fe52d49759b6",
+   "text": "1Password launched a feature that lets AI agents log into personal accounts without ever seeing the passwords."
+  },
+  {
+   "storyId": "d777d785a3ac",
+   "text": "Startup Recursive released Flint, a free laptop-sized coding model it says was largely built by its own AI research system."
+  },
+  {
+   "storyId": "865ffb65f1d5",
+   "text": "Canva released its first image generation model to all users, promising more customizable output at lower cost."
+  },
+  {
+   "storyId": "7427c42a84e4",
+   "text": "Blacksmith raised a $66M Series C led by Sequoia at a $1B valuation for tooling to build and test AI-generated code."
+  },
+  {
+   "storyId": "b949a9351a02",
+   "text": "The BBC reports Google staff have resigned in protest over the company's AI contracts with the military."
+  },
+  {
+   "storyId": "b7046e0a16fa",
+   "text": "A poll reported by ABC News finds most Americans say AI is bad for society and oppose building more data centers."
+  }
+ ],
+ "links": {
+  "6372ebaa66c8": [
+   {
+    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+    "source": "TechCrunch"
+   }
+  ],
+  "15efdecd25aa": [
+   {
+    "title": "Meta to create a new class of shares to fund AI push",
+    "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+    "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+    "source": "TechCrunch"
+   }
+  ],
+  "5dbb54a00540": [
+   {
+    "title": "Claude Duet",
+    "url": "https://claude.com/product/claude-duet",
+    "source": "claude.com"
+   },
+   {
+    "title": "Claude Duet",
+    "url": "https://news.ycombinator.com/item?id=50186037",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Claude Duet",
+    "url": "https://claude.com/resources/articles/claude-duet",
+    "source": "claude.com"
+   },
+   {
+    "title": "Claude Duet",
+    "url": "https://news.ycombinator.com/item?id=50186455",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+    "source": "The Verge"
+   },
+   {
+    "title": "Claude Duet app is Anthropic’s bet on agents",
+    "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+    "source": "TechCrunch"
+   }
+  ],
+  "61f4d0141ff3": [
+   {
+    "title": "OpenAI models are coming to Google Cloud",
+    "url": "https://openai.com/index/openai-models-google-cloud",
+    "source": "OpenAI"
+   },
+   {
+    "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+    "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+    "source": "Ars Technica"
+   }
+  ],
+  "5888c276693c": [
+   {
+    "title": "Mistral Large 4",
+    "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+    "source": "docs.mistral.ai"
+   },
+   {
+    "title": "Mistral Large 4",
+    "url": "https://news.ycombinator.com/item?id=50186129",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "source": "mistral.ai"
+   }
+  ],
+  "7bc6770bad95": [
+   {
+    "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+    "source": "The Verge"
+   },
+   {
+    "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+    "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+    "source": "TechCrunch"
+   }
+  ],
+  "d1b19037538a": [
+   {
+    "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+    "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+    "source": "TechCrunch"
+   }
+  ],
+  "4472664e9020": [
+   {
+    "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+    "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Walmart is inviting AI agents to shop for you",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+    "source": "The Verge"
+   }
+  ],
+  "ba6fa07d677a": [
+   {
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "source": "OpenAI"
+   },
+   {
+    "title": "Uber puts all 30,000 employees on ChatGPT Work",
+    "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+    "source": "TechCrunch"
+   }
+  ],
+  "fe52d49759b6": [
+   {
+    "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+    "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+    "source": "TechCrunch"
+   }
+  ],
+  "d777d785a3ac": [
+   {
+    "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+    "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Flint-interactive: A language for creating interactive data visualizations",
+    "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+    "source": "Microsoft Research"
+   }
+  ],
+  "865ffb65f1d5": [
+   {
+    "title": "Canva releases its first image generation model",
+    "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Canva’s first AI image model plans designs before generating them",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+    "source": "The Verge"
+   }
+  ],
+  "7427c42a84e4": [
+   {
+    "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+    "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+    "source": "TechCrunch"
+   }
+  ],
+  "b949a9351a02": [
+   {
+    "title": "Google staff resign in backlash over its AI contracts with military",
+    "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+    "source": "bbc.com"
+   },
+   {
+    "title": "Google staff resign in backlash over its AI contracts with military",
+    "url": "https://news.ycombinator.com/item?id=50186043",
+    "source": "HN discussion"
+   }
+  ],
+  "b7046e0a16fa": [
+   {
+    "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+    "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+    "source": "abcnews.com"
+   },
+   {
+    "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+    "url": "https://news.ycombinator.com/item?id=50200843",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
