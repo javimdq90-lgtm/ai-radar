@@ -9519,7 +9519,7 @@
    "OpenAI"
   ],
   "imageCheckedAt": "2026-10-23T20:30:48.080Z",
-  "storyId": "48e2274fdf2b"
+  "storyId": "d3f519557f32"
  },
  {
   "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
@@ -9789,7 +9789,7 @@
   "entities": [
    "OpenAI"
   ],
-  "storyId": "48e2274fdf2b"
+  "storyId": "d3f519557f32"
  },
  {
   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
@@ -9868,7 +9868,7 @@
    "OpenAI"
   ],
   "imageCheckedAt": "2026-10-24T09:37:09.776Z",
-  "storyId": "48e2274fdf2b"
+  "storyId": "d3f519557f32"
  },
  {
   "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
@@ -10065,5 +10065,143 @@
    "Cola2"
   ],
   "storyId": "fe7e5994cd69"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+  "title": "Blue Planet III is keeping the rough edges in the age of AI",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-24T21:29:12.000Z",
+  "snippet": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue Planet III goes warts and all. Executive Producer Elizabeth White told The Guardian in the past, \"the amount of plankton and things\" floating in the water would have caused them to cut a shot. Or \"we might have framed out a boat or a buoy or gone: 'Oh, actually ……",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100",
+  "id": "26a10ea170f0",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "BBC's Blue Planet III is keeping imperfect shots, such as plankton in the water, to signal authenticity, since overly polished footage can look AI-generated, executive producer Elizabeth White said.",
+  "whyItMatters": "It shows how AI-generated imagery is changing what audiences read as real and how producers market authenticity.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "BBC",
+   "Blue Planet III",
+   "Elizabeth White"
+  ],
+  "storyId": "26a10ea170f0"
+ },
+ {
+  "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+  "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-24T23:11:54.000Z",
+  "score": 366,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50226419",
+  "id": "283aef7b5aec",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "Apricitas Economics examines how much of the US loss of about 200,000 jobs in media, film and the arts can be attributed to AI.",
+  "whyItMatters": "It offers data-driven context on AI's actual labour impact in creative industries.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Apricitas Economics"
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png",
+  "imageCheckedAt": "2026-10-25T09:53:57.071Z",
+  "storyId": "283aef7b5aec"
+ },
+ {
+  "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+  "title": "No signs of AI payoff outside the tech sector",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-24T19:47:19.000Z",
+  "score": 554,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50224463",
+  "id": "6597a1303e38",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "Apollo's analysis argues there are no signs yet of an AI payoff in economic data outside the tech sector.",
+  "whyItMatters": "It feeds the debate over whether AI investment is translating into broad productivity gains or remains concentrated in tech.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Apollo"
+  ],
+  "image": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
+  "imageCheckedAt": "2026-10-25T09:53:58.202Z",
+  "storyId": "6597a1303e38"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.31574",
+  "title": "Rethinking Sequence Compression with Test-time Regression",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-22T13:14:38.000Z",
+  "snippet": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation. Importantly, the regression problem is learned end-to-end via backpropagation, while its coefficients are computed efficiently in closed form during the forward pass. This leads to TTR-Compressor, …",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31574.png",
+  "id": "7ffe866b6370",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "A paper proposes TTR-Compressor, which treats sequence compression as test-time regression: input tokens define a regression problem whose closed-form coefficients become the compressed representation, with the problem learned end-to-end via backprop.",
+  "whyItMatters": "Better token compression could cut context costs in language and multimodal models versus pooling or learned projections.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TTR-Compressor"
+  ],
+  "storyId": "7ffe866b6370"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.29162",
+  "title": "Why is AI generated language so hard to understand?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-24T18:04:57.000Z",
+  "score": 201,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50223647",
+  "id": "81c8fd74d5e2",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "An arXiv paper asks why AI-generated language is so hard to understand, examining the readability and comprehension problems of machine-written text.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "81c8fd74d5e2"
+ },
+ {
+  "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+  "title": "Neural chip decodes interactions between brain regions",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-24T15:57:17.000Z",
+  "score": 106,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50222525",
+  "id": "a2ab57efc2fc",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "EPFL researchers present a neural chip that decodes interactions between different brain regions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "EPFL"
+  ],
+  "storyId": "a2ab57efc2fc"
+ },
+ {
+  "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+  "title": "Cerebras Deploys Trillion-Parameter AI Models",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T01:33:49.000Z",
+  "score": 163,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50227356",
+  "id": "c35e0b6aa8bd",
+  "fetchedAt": "2026-10-25T09:53:48.332Z",
+  "enrichedAt": "2026-10-25T09:53:56.947Z",
+  "summary": "Cerebras announced it is deploying trillion-parameter AI models on its hardware.",
+  "whyItMatters": "It signals wafer-scale systems are being positioned as an alternative to GPU clusters for serving very large models.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Cerebras"
+  ],
+  "image": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format",
+  "imageCheckedAt": "2026-10-25T09:53:57.216Z",
+  "storyId": "c1ad71a16e1f"
  }
 ]
