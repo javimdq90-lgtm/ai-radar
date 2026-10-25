@@ -790,38 +790,40 @@
   "storyId": "c1ad71a16e1f",
   "itemIds": [
    "c1ad71a16e1f",
-   "c35e0b6aa8bd"
+   "c35e0b6aa8bd",
+   "36a01b353c30"
   ],
-  "writtenAt": "2026-10-25T09:54:12.716Z",
-  "headline": "Moonshot launches Kimi K3.1 Pro, a 2.8T-parameter model, with open weights due Nov. 4",
-  "dek": "Moonshot's Kimi K3.1 Pro has 2.8 trillion total and 104 billion active parameters, launched via API and apps now, with weights promised for November 4; Artificial Analysis ranks it fourth overall.",
+  "writtenAt": "2026-10-25T19:44:09.408Z",
+  "headline": "Moonshot launches Kimi K3.1 Pro, a 2.8T-parameter model with weights due Nov. 4",
+  "dek": "Moonshot's Kimi K3.1 Pro, a 2.8T-parameter mixture-of-experts model with 104B active parameters, ranks fourth on Artificial Analysis' index; the API is live and open weights are promised by November 4.",
   "keyPoints": [
-   "Moonshot describes K3.1 Pro as a multimodal mixture-of-experts model with 2.8T total parameters, 104B active, and a 1-million-token context window. Weights are promised by November 4, 2026.",
-   "Artificial Analysis scores it 55 on its Intelligence Index, fourth behind Opus 5.5 (58) and Sonnet 5.5 and Muse Wonder Full (56).",
-   "Arena puts it eighth in Code Arena: WebDev at 1,692 points, up 37 points over Kimi K3.",
-   "A Highspeed tier is claimed to generate output 2–3x faster; an official-account summary says it costs twice as much.",
-   "Cerebras separately published a post on splitting a roughly 3T-parameter Kimi K3 across multiple WSE-3T wafers, targeting 1000–2000+ tokens per second."
+   "Moonshot describes K3.1 Pro as multimodal, with 2.8 trillion total and 104 billion active parameters and a 1-million-token context window. Weights are promised by November 4, 2026.",
+   "Artificial Analysis ranks it fourth on its Intelligence Index at 55, behind Opus 5.5 (58) and Sonnet 5.5 and Muse Wonder Full (both 56).",
+   "Arena placed it eighth in Code Arena: WebDev at 1,692 points, up 37 points over Kimi K3. It also scored 64% on Artificial Analysis' Cyber Index.",
+   "A Highspeed API tier generates output 2–3× faster, per Moonshot; an official-account summary says it costs twice as much.",
+   "Reaction is mixed: concerns about inference cost, uneven results on some tasks and allegations of undisclosed paid promotion, which no one has corroborated."
   ],
-  "context": "Kimi K3.1 Pro is a post-trained version of Kimi K3, which Moonshot says used substantially more post-training compute. Coverage frames it as narrowing the gap between open-weight and closed frontier models, though weights are not yet public. Models of this size also raise practical questions about who can actually host them.",
-  "whatsNext": "Watch for the weights on November 4, which will show the license, checkpoint precision and real inference requirements.",
+  "context": "Kimi K3 was an open model of roughly 3 trillion parameters that Cerebras used as an example for multi-wafer deployment. K3.1 Pro is a post-trained version with much more reinforcement-learning compute, not a new base model. It matters because it would be one of the largest open-weight models to land near closed frontier systems on independent benchmarks.",
+  "whatsNext": "Moonshot has promised the open weights by November 4, 2026, which should show the license terms and the real hardware needed to run the model.",
   "article": {
    "whatHappened": [
-    "Moonshot has launched Kimi K3.1 Pro, a multimodal mixture-of-experts model with 2.8 trillion total parameters, 104 billion active parameters and a 1-million-token context window. Moonshot promotes it for full-project coding, Blender and CAD work, financial modeling and long-running agents. The API and apps are live. The weights are not, though Moonshot has promised them by November 4, 2026.",
-    "Standard and Highspeed versions are available across Kimi's website and app, Kimi Work, Kimi Code and the API. Moonshot claims Highspeed keeps the model's intelligence while generating output 2–3x faster. An official-account summary says it costs twice as much. The launch also includes Kimi Hosted Agents, a managed harness with a 24/7 execution environment for long-running work and multi-agent collaboration.",
-    "Moonshot says K3.1 Pro is a post-trained version of Kimi K3 with substantially larger post-training compute, using joint reinforcement learning across hundreds of downstream domains. Independent results are mixed but strong. Artificial Analysis ranks it fourth on its Intelligence Index with 55. Arena placed it eighth in Code Arena: WebDev. Artificial Analysis also gave it 64% on its Cyber Index, second overall behind a trusted-access GPT-6 variant at 69%."
+    "Moonshot AI launched Kimi K3.1 Pro, a multimodal mixture-of-experts model with 2.8 trillion total parameters, 104 billion active parameters and a 1-million-token context window. Standard and Highspeed versions are available on Kimi's website and app, Kimi Work, Kimi Code and the API. The weights were not released at launch.",
+    "Moonshot says Highspeed keeps the model's intelligence while generating output 2–3× faster. An official-account summary says it costs twice as much. The launch also includes Kimi Hosted Agents, a managed harness with a 24/7 execution environment for long-running work and multi-agent collaboration.",
+    "Moonshot describes K3.1 Pro as a post-trained version of Kimi K3 with substantially larger post-training compute, built on a reinforcement-learning stack tuned for hundreds of downstream domains. Little other research detail has been disclosed.",
+    "Independent results are strong. Artificial Analysis put the model fourth on its Intelligence Index with 55, behind Opus 5.5 at 58 and Sonnet 5.5 and Muse Wonder Full at 56. Arena ranked it eighth in Code Arena: WebDev. On Artificial Analysis' Cyber Index it scored 64%, second overall behind the trusted-access GPT-6 Sol Daybreak Blue at 69%."
    ],
    "whyItMatters": [
-    "Latent Space frames the release as an open-weight model that competes with a top closed model, narrowing the closed-model lead to about a month. That claim rests on benchmark rankings, and the weights are unpublished, so it cannot yet be checked by outside users. The coverage also notes that the eventual license and commercial-use terms are unknown, so calling it open source is premature.",
-    "Size is the practical constraint. Latent Space's illustrative arithmetic puts 2.8T parameters at about 5.6 TB at 16-bit or 1.4 TB at 4-bit, before overhead. Active parameters are only 104B, but a deployment must still hold the full expert pool. Self-hostable and local on a consumer device are different things, and at least one commenter warned against calling trillion-parameter models local.",
-    "Cerebras illustrates one route to serving such models. Its post describes splitting a roughly 3T-parameter Kimi K3 across multiple wafers, each with 44 GB of on-chip memory, and passing only activations between them. It cites speeds of 1000–2000+ tokens per second for multi-trillion-parameter models. That post covers the earlier K3, not K3.1 Pro."
+    "Open-weight models have generally trailed closed ones, and Latent Space frames K3.1 Pro as narrowing that gap to about a month. The caveat is that the weights are not yet public. Artificial Analysis recorded them as unpublished, and the license, commercial-use terms and precision of the release are unknown. Calling it open source is premature.",
+    "Size is another limit on how open the model is in practice. Latent Space's illustrative arithmetic puts 2.8T parameters at about 5.6 TB at 16-bit or 1.4 TB at 4-bit, before overhead. Active parameters are only 104B, but a deployment must still hold the whole expert pool. Cerebras' write-up on serving Kimi K3 shows that this takes multiple wafers or accelerators, so the model is self-hostable only with serious infrastructure.",
+    "Reception is mixed. On the Interconnects podcast, Nathan Lambert said the post-training felt a little undercooked for so large a model, and Florian Brand noted some benchmarks that reward long exploration show weaker results. Brand also said the launch involved alleged undisclosed paid promotion; Lambert said one screenshot of press instructions surfaced and no one has corroborated it."
    ],
    "whatToWatch": [
-    "The main date is November 4, when Moonshot says the weights will arrive. Details to check include the license, redistribution and commercial-use terms, checkpoint precision and full inference requirements.",
-    "Also open: no Flash model was announced, and some reactions speculate that the Pro name implies a smaller version later. Reactions also raised inference economics, weaker results on some interactive tasks, and allegations of undisclosed paid promotion, which are separate from the model's capability."
+    "The main date is November 4, when Moonshot says the weights will be released. That will settle the license, checkpoint format and hardware needs. Artificial Analysis is also expected to publish a new version of its benchmarks soon, which could shift the rankings.",
+    "No smaller Flash model was announced, and some observers speculate that the Pro name implies one later. Moonshot has not said so."
    ],
    "pullQuote": {
-    "text": "Kimi K3.1 Pro is a post-trained version of Kimi K3, with substantially larger post-training compute.",
-    "by": "Moonshot (Kimi)"
+    "text": "In the past, the Kimi models always lived up to the expectations, but this release is kind of weird compared to the others.",
+    "by": "Florian Brand, Interconnects"
    }
   }
  },

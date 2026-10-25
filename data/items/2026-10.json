@@ -10203,5 +10203,181 @@
   "image": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format",
   "imageCheckedAt": "2026-10-25T09:53:57.216Z",
   "storyId": "c1ad71a16e1f"
+ },
+ {
+  "url": "https://lynchlab.net/llm-skin-cancer",
+  "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T17:15:38.000Z",
+  "score": 208,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50233779",
+  "id": "1dc75a32fc6a",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "A 10-year-old convolutional neural network outperformed frontier LLMs at diagnosing skin cancer.",
+  "whyItMatters": "A reminder that specialized, smaller models can beat general LLMs on narrow medical tasks.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "CNN",
+   "frontier LLMs"
+  ],
+  "imageCheckedAt": "2026-10-25T19:43:54.686Z",
+  "storyId": "1dc75a32fc6a"
+ },
+ {
+  "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+  "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T16:28:26.000Z",
+  "score": 101,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50233304",
+  "id": "33331332d5b9",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "A UC Berkeley math professor says AI use by students leaves him seeing no point in grading homework.",
+  "whyItMatters": "Illustrates how AI is forcing educators to rethink assessment.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "UC Berkeley"
+  ],
+  "storyId": "33331332d5b9"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+  "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-10-25T11:49:00.000Z",
+  "snippet": "#20",
+  "id": "36a01b353c30",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "Interconnects podcast episode 20 covers Kimi K3.1 Pro, the new cyber reality, and Muse.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Kimi K3.1 Pro",
+   "Interconnects",
+   "Muse"
+  ],
+  "storyId": "c1ad71a16e1f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+  "title": "The hottest AI wearables and gadgets you should know about",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-25T14:10:00.000Z",
+  "snippet": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+  "id": "611184d5aa6f",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "TechCrunch rounds up the hottest AI wearables and gadgets, including Muse Charm, Bee, Friend, and Plaud.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Muse Charm",
+   "Bee",
+   "Friend",
+   "Plaud",
+   "TechCrunch"
+  ],
+  "storyId": "611184d5aa6f"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+  "title": "r/opensource just banned AI, non-English speakers, and more",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-25T13:25:32.000Z",
+  "snippet": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred the creation of a rival sub r/trueopensource. Moderator Wolvereness has waded into the comments to explain that there's nuance and room for selective enforcement, such as \"software that incidentally ha…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+  "id": "6bffee9c13e8",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "Moderators of r/opensource introduced submission rules banning projects that use, are made by, or are intended for AI, plus non-English posts. The rules caused a backlash and a rival subreddit, r/trueopensource.",
+  "whyItMatters": "Reflects growing friction between open source communities and AI-assisted development.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "r/opensource",
+   "r/trueopensource",
+   "Reddit"
+  ],
+  "storyId": "6bffee9c13e8"
+ },
+ {
+  "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+  "title": "Google’s AI search changes upended online publishing",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-25T12:00:00.000Z",
+  "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on Google for a very long time. Many outlets spent time and money optimizing their webpages to show up at the top of the search engine, with the goal of getting readers to click on their articles or discover their websites for the first time. For years, the relationship between Google a…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "6f9ed043fa8a",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "The Verge's Stepback newsletter examines how Google's AI search changes have upended online publishing, which long depended on Google traffic and invested heavily in search optimization.",
+  "whyItMatters": "Falling referral traffic reshapes the web's economics and the content that AI systems draw on.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "The Verge"
+  ],
+  "storyId": "6f9ed043fa8a"
+ },
+ {
+  "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+  "title": "Imagine an AI future where being banned means you are now economically useless",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T12:47:20.000Z",
+  "score": 86,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50230995",
+  "id": "8a99d48c2aa4",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "A tweet imagines an AI-dominated future in which being banned from AI services leaves a person economically useless.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [],
+  "storyId": "8a99d48c2aa4"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+  "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-25T16:57:32.000Z",
+  "snippet": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
+  "id": "b23877b88e69",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "Apollo economist says AI has delivered zero financial payoff to corporate America outside of tech, despite massive investment and hype.",
+  "whyItMatters": "Adds to the debate over whether enterprise AI spending is yielding returns, which affects demand for AI products.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Apollo"
+  ],
+  "imageCheckedAt": "2026-10-25T19:43:54.252Z",
+  "storyId": "6597a1303e38"
+ },
+ {
+  "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+  "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T09:51:17.000Z",
+  "score": 116,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50229827",
+  "id": "ed849a13eb41",
+  "fetchedAt": "2026-10-25T19:43:44.716Z",
+  "enrichedAt": "2026-10-25T19:43:54.181Z",
+  "summary": "A Nikon photography contest winner was stripped of the title after scientists found signs the winning image was AI-generated.",
+  "whyItMatters": "Shows how hard it is for contests to police AI imagery, and that forensic analysis is now part of judging.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Nikon"
+  ],
+  "storyId": "ed849a13eb41"
  }
 ]
