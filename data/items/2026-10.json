@@ -10379,5 +10379,87 @@
    "Nikon"
   ],
   "storyId": "ed849a13eb41"
+ },
+ {
+  "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+  "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-26T03:29:05.000Z",
+  "score": 152,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50238739",
+  "id": "38d74fada354",
+  "fetchedAt": "2026-10-26T11:13:34.583Z",
+  "enrichedAt": "2026-10-26T11:13:40.698Z",
+  "summary": "PaperPilot is a new open-source PDF engine written in pure Rust that runs locally with no cloud, compiles to WASM, and exposes an MCP interface.",
+  "whyItMatters": "A local, MCP-compatible PDF tool lets agent builders process documents without sending data to third-party services.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "PaperPilot",
+   "MCP",
+   "Rust"
+  ],
+  "storyId": "38d74fada354"
+ },
+ {
+  "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+  "title": "R/open source bans all solo projects and projects using LLMs",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T14:05:03.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50231722",
+  "id": "3cfe81138dd2",
+  "fetchedAt": "2026-10-26T11:13:34.583Z",
+  "enrichedAt": "2026-10-26T11:13:40.698Z",
+  "summary": "A Reddit open source community is reported to have banned all solo projects and any projects that use LLMs. Details of the rule and its rationale are not provided in the item.",
+  "whyItMatters": "It reflects growing community pushback against AI-assisted code in open source showcase spaces.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Reddit"
+  ],
+  "storyId": "6bffee9c13e8"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+  "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-25T21:31:16.000Z",
+  "snippet": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+  "id": "bf7f18e0418c",
+  "fetchedAt": "2026-10-26T11:13:34.583Z",
+  "enrichedAt": "2026-10-26T11:13:40.698Z",
+  "summary": "Grok has released the first seven minutes of 'Odyssey', an AI-generated film. TechCrunch describes the footage as passable but lacking artistry, inspiration, or human interest.",
+  "whyItMatters": "It's a public test of how far AI video generation can go toward sustained narrative content, and the early verdict is underwhelming.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Grok",
+   "xAI"
+  ],
+  "storyId": "bf7f18e0418c"
+ },
+ {
+  "url": "https://minimaxir.com/2026/10/cheap-llms/",
+  "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-25T21:11:31.000Z",
+  "score": 329,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50236102",
+  "id": "c45c68dc9fe2",
+  "fetchedAt": "2026-10-26T11:13:34.583Z",
+  "enrichedAt": "2026-10-26T11:13:40.698Z",
+  "summary": "OpenAI and Anthropic have cut LLM prices by up to 80% within a few months, and the piece from Max Woolf (minimaxir) asks why.",
+  "whyItMatters": "Rapid price drops change the cost calculus for building on frontier APIs and signal intense competition or efficiency gains.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Anthropic",
+   "Max Woolf"
+  ],
+  "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
+  "imageCheckedAt": "2026-10-26T11:13:40.757Z",
+  "storyId": "c45c68dc9fe2"
  }
 ]
