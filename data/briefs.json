@@ -77,6 +77,38 @@
    }
   }
  },
+ "1758535ac6be": {
+  "storyId": "1758535ac6be",
+  "itemIds": [
+   "1758535ac6be"
+  ],
+  "writtenAt": "2026-10-26T21:40:56.187Z",
+  "headline": "OpenAI introduces GPT-6.1 Terra, a model it says brings computer use to everyone",
+  "dek": "OpenAI announced GPT-6.1 Terra, which it describes as bringing fast and capable computer use to everyone; the only coverage so far is the company's own announcement, with no details on pricing or rollout.",
+  "keyPoints": [
+   "OpenAI introduced a model called GPT-6.1 Terra.",
+   "OpenAI says the model brings fast and capable computer use to everyone.",
+   "The available coverage is a one-line summary from OpenAI; it gives no benchmarks, pricing, or availability details."
+  ],
+  "context": "Computer use, where a model operates software by viewing a screen and issuing clicks and keystrokes, has been a focus for several AI labs since Anthropic introduced it in 2024, and OpenAI has since offered its own agent products. The claim that it is available to everyone, if borne out, would signal a move from limited previews to broad access.",
+  "article": {
+   "whatHappened": [
+    "OpenAI has introduced GPT-6.1 Terra, a new model. In its announcement, titled \"Introducing GPT-6.1 Terra,\" the company says the model brings fast and capable computer use to everyone.",
+    "The coverage available so far consists only of that short description from OpenAI. It does not specify how the model works, which products or plans will include it, what it costs, or how its performance compares with earlier OpenAI models or with rivals."
+   ],
+   "whyItMatters": [
+    "Computer use refers to a model's ability to operate software the way a person would, by reading a screen and acting on it. Several AI developers have pursued the capability, and speed and reliability have been the main limits on how useful it is in practice. OpenAI's description emphasizes both qualities, saying the model is fast and capable.",
+    "The phrase \"to everyone\" suggests broad availability, though the material provided does not say whether that means free users, paid subscribers, or developers using an API. Until OpenAI publishes those details, it is unclear how widely the feature will actually reach, and the performance claims remain unverified by outside testing."
+   ],
+   "whatToWatch": [
+    "Readers should look for OpenAI's full announcement and any accompanying documentation covering availability, pricing, safety measures for agents that act on a user's computer, and benchmark results. Independent evaluations of the model's computer-use accuracy and speed will be the test of the company's claims."
+   ],
+   "pullQuote": {
+    "text": "brings fast and capable computer use to everyone",
+    "by": "OpenAI"
+   }
+  }
+ },
  "218f77bb959f": {
   "storyId": "218f77bb959f",
   "itemIds": [
@@ -152,6 +184,46 @@
    "whatToWatch": [
     "It remains unclear who the recordings were intended for. Ars Technica suggests that may emerge as the case proceeds, but no motive or recipient has been stated in the coverage.",
     "Alfozan faces up to five years in prison and a $250,000 fine, followed by three years of supervised release, if convicted. The National Security, Cyber & Special Prosecutions Section of the Northern District of California is handling the case."
+   ]
+  }
+ },
+ "52c4e7935441": {
+  "storyId": "52c4e7935441",
+  "itemIds": [
+   "52c4e7935441",
+   "3dc689c9c8a5",
+   "7ca6b100a30f",
+   "8d6b6f60f40a",
+   "65068ccb5e36",
+   "a3e5e3993999"
+  ],
+  "writtenAt": "2026-10-26T21:40:48.391Z",
+  "headline": "Anthropic files public S-1 for Nasdaq IPO under ticker ANT, showing $16.3B revenue",
+  "dek": "Anthropic's public prospectus shows $16.3 billion in first-half 2026 revenue, an $80.7 billion net loss driven by noncash charges, and a founder-controlled governance structure ahead of a Nasdaq listing.",
+  "keyPoints": [
+   "Anthropic plans to list on Nasdaq as \"ANT\"; it has not disclosed how much it hopes to raise or a proposed share price.",
+   "First-half 2026 revenue was $16.3 billion, up from $1.2 billion a year earlier; operating loss was $693 million, against $2.1 billion in H1 2025.",
+   "Net loss was $80.7 billion, largely noncash accounting adjustments tied to convertible debt, according to TechCrunch and The Verge citing earlier WSJ reporting.",
+   "As of Sept. 30, more than 11,900 customers spent $100,000 or more annually, about 1,900 spent $1 million or more, and about 250 spent $10 million or more.",
+   "Seven cofounders will form a \"Founder LLC\" holding 50.1% of voting power, while the Long-Term Benefit Trust appoints most of the board."
+  ],
+  "context": "Anthropic confidentially filed in June, and leaked drafts of the S-1 circulated for weeks before the public filing. The company is positioned to list ahead of OpenAI. The filing is the first detailed look at the finances and governance of a leading AI lab as a public-market issuer.",
+  "whatsNext": "Watch for Anthropic to set a price range and the size of the offering, which the filing does not yet specify.",
+  "article": {
+   "whatHappened": [
+    "Anthropic has made its S-1 registration statement public, setting out plans to list on the Nasdaq exchange under the ticker \"ANT.\" The company confidentially filed with the Securities and Exchange Commission in June. The public document runs 335 pages, about 100 of them devoted to risk factors, according to MIT Technology Review. Anthropic has not said how much it hopes to raise or what its share price will be.",
+    "The filing reports revenue of $16.3 billion for the first half of 2026, up from $1.2 billion in the same period last year. Operating loss was $693 million, improved from $2.1 billion a year earlier. Net loss reached $80.7 billion, which TechCrunch says was largely driven by noncash adjustments tied to convertible debt. The company says it \"may not achieve or sustain profitability in the future.\"",
+    "The filing also lists large compute commitments: about $3.1 billion per month to SpaceX for Nvidia GPU access once planned capacity is delivered, totaling as much as $120.5 billion by 2029. It also lists $44.9 billion with Microsoft through 2033, at least $114.5 billion with Google through 2033, and $110 billion with Amazon over ten years.",
+    "On customers, Anthropic reports that as of Sept. 30 it had more than 11,900 customers spending at least $100,000 a year, more than 1,900 spending $1 million or more, and about 250 spending $10 million or more. It cites net revenue retention of about 900% as of the end of the third quarter."
+   ],
+   "whyItMatters": [
+    "The filing gives outside investors their first detailed look at the economics of a frontier AI lab. The revenue growth is steep, but the scale of the compute obligations shows how much capital the business depends on. The enterprise figures point to a cross-selling strategy: more than half of $100,000-plus customers now use both the Claude Platform and a first-party app such as Claude Code or Cowork, up from about 30% at the end of last year.",
+    "Governance is the most contested element. Seven cofounders, including Dario and Daniela Amodei, will form a \"Founder LLC\" with 50.1% of voting power, and the Long-Term Benefit Trust will appoint most of the board. Anthropic says this protects its safety mission. TechCrunch notes that it leaves public shareholders with little practical control, since voting power will not track economic ownership.",
+    "The risk factors are unusually frank. They include models developing \"forms of sentience,\" copyright disputes over training data, and \"catastrophic\" incidents that the company says no single insurer could underwrite. The filing also warns that Amazon, Google and Microsoft, which both sell Claude and supply compute, increasingly see Anthropic as a competitor and may prioritize their own needs. MIT Technology Review's newsletter argues that the company's public narrative is carefully constructed, a view the company has not addressed in the coverage provided."
+   ],
+   "whatToWatch": [
+    "The next concrete disclosures are the price range and offering size. MIT Technology Review's piece refers to an IPO valuation above $1.5 trillion, but the other coverage does not state a valuation, so that figure should be treated as unconfirmed until Anthropic sets terms.",
+    "Also worth watching is whether investors push back on the founder-control structure, and how the cloud partners' dual role as suppliers and rivals shows up in later filings."
    ]
   }
  },
