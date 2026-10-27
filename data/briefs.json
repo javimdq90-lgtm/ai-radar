@@ -195,36 +195,42 @@
    "7ca6b100a30f",
    "8d6b6f60f40a",
    "65068ccb5e36",
-   "a3e5e3993999"
+   "a3e5e3993999",
+   "031487784200",
+   "95af72b561e4"
   ],
-  "writtenAt": "2026-10-26T21:40:48.391Z",
-  "headline": "Anthropic files public S-1 for Nasdaq IPO under ticker ANT, showing $16.3B revenue",
-  "dek": "Anthropic's public prospectus shows $16.3 billion in first-half 2026 revenue, an $80.7 billion net loss driven by noncash charges, and a founder-controlled governance structure ahead of a Nasdaq listing.",
+  "writtenAt": "2026-10-27T10:41:11.184Z",
+  "headline": "Anthropic files public S-1 for Nasdaq IPO under ticker 'ANT'",
+  "dek": "Anthropic's prospectus shows $16.3 billion in first-half revenue, an $80.7 billion net loss driven mostly by non-cash charges, and founder control of 50.1% of voting power.",
   "keyPoints": [
-   "Anthropic plans to list on Nasdaq as \"ANT\"; it has not disclosed how much it hopes to raise or a proposed share price.",
-   "First-half 2026 revenue was $16.3 billion, up from $1.2 billion a year earlier; operating loss was $693 million, against $2.1 billion in H1 2025.",
-   "Net loss was $80.7 billion, largely noncash accounting adjustments tied to convertible debt, according to TechCrunch and The Verge citing earlier WSJ reporting.",
-   "As of Sept. 30, more than 11,900 customers spent $100,000 or more annually, about 1,900 spent $1 million or more, and about 250 spent $10 million or more.",
-   "Seven cofounders will form a \"Founder LLC\" holding 50.1% of voting power, while the Long-Term Benefit Trust appoints most of the board."
+   "Anthropic filed its S-1 with the SEC and plans to list on Nasdaq as \"ANT\"; it had filed confidentially in June, per The Verge.",
+   "First-half 2026 revenue was $16.3 billion, up from $1.2 billion a year earlier. Net loss was $80.7 billion, largely non-cash charges tied to convertible notes.",
+   "Operating loss for the half was $693 million, per TechCrunch. Latent Space reports Q2 operating profit of $974 million, which appears to be an adjusted figure.",
+   "Compute commitments include up to $120.5 billion with SpaceX by 2029, at least $114.5 billion with Google, $110 billion with Amazon and $44.9 billion with Microsoft.",
+   "Seven cofounders will form a \"Founder LLC\" holding 50.1% of voting power; the Long-Term Benefit Trust appoints most of the board."
   ],
-  "context": "Anthropic confidentially filed in June, and leaked drafts of the S-1 circulated for weeks before the public filing. The company is positioned to list ahead of OpenAI. The filing is the first detailed look at the finances and governance of a leading AI lab as a public-market issuer.",
-  "whatsNext": "Watch for Anthropic to set a price range and the size of the offering, which the filing does not yet specify.",
+  "context": "Anthropic has grown from a safety-focused lab into one of the largest AI companies, competing directly with OpenAI, which it is now set to beat to public markets. The filing is the first detailed look at its finances, compute dependence and governance, including a structure that limits public shareholders' influence.",
+  "whatsNext": "The coverage says Anthropic has not yet disclosed how much it hopes to raise or its proposed share price; Latent Space notes the IPO had been expected around Nov. 9.",
   "article": {
    "whatHappened": [
-    "Anthropic has made its S-1 registration statement public, setting out plans to list on the Nasdaq exchange under the ticker \"ANT.\" The company confidentially filed with the Securities and Exchange Commission in June. The public document runs 335 pages, about 100 of them devoted to risk factors, according to MIT Technology Review. Anthropic has not said how much it hopes to raise or what its share price will be.",
-    "The filing reports revenue of $16.3 billion for the first half of 2026, up from $1.2 billion in the same period last year. Operating loss was $693 million, improved from $2.1 billion a year earlier. Net loss reached $80.7 billion, which TechCrunch says was largely driven by noncash adjustments tied to convertible debt. The company says it \"may not achieve or sustain profitability in the future.\"",
-    "The filing also lists large compute commitments: about $3.1 billion per month to SpaceX for Nvidia GPU access once planned capacity is delivered, totaling as much as $120.5 billion by 2029. It also lists $44.9 billion with Microsoft through 2033, at least $114.5 billion with Google through 2033, and $110 billion with Amazon over ten years.",
-    "On customers, Anthropic reports that as of Sept. 30 it had more than 11,900 customers spending at least $100,000 a year, more than 1,900 spending $1 million or more, and about 250 spending $10 million or more. It cites net revenue retention of about 900% as of the end of the third quarter."
+    "Anthropic has publicly filed its S-1 prospectus with the Securities and Exchange Commission, setting up an initial public offering on Nasdaq under the ticker \"ANT.\" The company filed confidentially in June. The public document, about 335 pages with roughly 100 pages on risks, gives the first full account of its finances and plans.",
+    "For the first half of 2026, Anthropic reported revenue of $16.3 billion, up from $1.2 billion in the same period of 2025. Its operating loss was $693 million, down from $2.1 billion a year earlier. Net loss was $80.7 billion, which The Verge and TechCrunch attribute largely to non-cash accounting charges tied to convertible notes.",
+    "Latent Space, summarizing reactions on social media, reports Q2 revenue of $11.6 billion and a Q2 operating profit of $974 million after adjusting for stock-based compensation. It also reports that 48% of first-half revenue flowed through cloud marketplaces such as Bedrock, Vertex and Azure. These are secondhand figures. TechCrunch says Anthropic warns it \"may not achieve or sustain profitability in the future.\"",
+    "As of the end of September, Anthropic had more than 11,900 customers spending $100,000 or more annually, 1,900 spending $1 million or more, and about 250 spending $10 million or more, according to TechCrunch."
    ],
    "whyItMatters": [
-    "The filing gives outside investors their first detailed look at the economics of a frontier AI lab. The revenue growth is steep, but the scale of the compute obligations shows how much capital the business depends on. The enterprise figures point to a cross-selling strategy: more than half of $100,000-plus customers now use both the Claude Platform and a first-party app such as Claude Code or Cowork, up from about 30% at the end of last year.",
-    "Governance is the most contested element. Seven cofounders, including Dario and Daniela Amodei, will form a \"Founder LLC\" with 50.1% of voting power, and the Long-Term Benefit Trust will appoint most of the board. Anthropic says this protects its safety mission. TechCrunch notes that it leaves public shareholders with little practical control, since voting power will not track economic ownership.",
-    "The risk factors are unusually frank. They include models developing \"forms of sentience,\" copyright disputes over training data, and \"catastrophic\" incidents that the company says no single insurer could underwrite. The filing also warns that Amazon, Google and Microsoft, which both sell Claude and supply compute, increasingly see Anthropic as a competitor and may prioritize their own needs. MIT Technology Review's newsletter argues that the company's public narrative is carefully constructed, a view the company has not addressed in the coverage provided."
+    "The filing exposes how much of Anthropic's future is tied to compute contracts. The Verge reports commitments of about $3.1 billion a month to SpaceX for Nvidia GPUs once planned capacity is delivered, as much as $120.5 billion by 2029, plus at least $114.5 billion with Google through 2033, $110 billion with Amazon over ten years and $44.9 billion with Microsoft through 2033.",
+    "Governance is the other point of contention. Seven cofounders, including Dario and Daniela Amodei, will form a \"Founder LLC\" with 50.1% of voting power, and the Long-Term Benefit Trust will appoint most of the board. Anthropic says this protects its safety mission. TechCrunch notes that it leaves public shareholders with little practical control over a company that says its technology poses \"catastrophic or existential risks to humanity.\"",
+    "MIT Technology Review's newsletter takes a more skeptical view, arguing that Anthropic plays several roles at once: safety organization, frontier lab and profit-seeking company. It reports that the IPO values the company at more than $1.5 trillion, while Latent Space's headline cites about $2 trillion. The coverage does not reconcile the two figures."
    ],
    "whatToWatch": [
-    "The next concrete disclosures are the price range and offering size. MIT Technology Review's piece refers to an IPO valuation above $1.5 trillion, but the other coverage does not state a valuation, so that figure should be treated as unconfirmed until Anthropic sets terms.",
-    "Also worth watching is whether investors push back on the founder-control structure, and how the cloud partners' dual role as suppliers and rivals shows up in later filings."
-   ]
+    "The pricing terms are still missing. Anthropic has not said how much it plans to raise or at what share price, and the figures will show how investors weigh the losses against the growth.",
+    "Latent Space reports that the IPO had been expected around Nov. 9, and that the lockup is staggered over more than a year rather than a single 180-day cliff. Both details come from secondhand summaries of the filing."
+   ],
+   "pullQuote": {
+    "text": "may not achieve or sustain profitability in the future",
+    "by": "Anthropic, in its S-1 filing"
+   }
   }
  },
  "5888c276693c": {
@@ -1222,6 +1228,45 @@
    "pullQuote": {
     "text": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
     "by": "Daniel Roberts, Meta spokesperson"
+   }
+  }
+ },
+ "f16aefe89a6e": {
+  "storyId": "f16aefe89a6e",
+  "itemIds": [
+   "f16aefe89a6e",
+   "b14ae2720380"
+  ],
+  "writtenAt": "2026-10-27T10:41:25.742Z",
+  "headline": "OpenAI claims proofs in math, computer science and physics, adds outside expert review",
+  "dek": "OpenAI says its models disproved the Exponential Time Hypothesis, proved local smoothing and Kakeya in all dimensions, and proved existence of QCD-type theories, with outside groups checking the work.",
+  "keyPoints": [
+   "OpenAI says its model proved Sogge's local smoothing conjecture in every dimension at least two, which it says also resolves the Kakeya and Stein restriction conjectures; the output was released directly.",
+   "OpenAI claims a deterministic subexponential-time algorithm for counting satisfying assignments of fixed-width CNF formulas, refuting the Exponential Time Hypothesis via 3-SAT. The proof and Lean files are on GitHub.",
+   "Russell Impagliazzo, Ramamohan Paturi and Ryan Williams will lead an independent group to examine and explain the computer science result.",
+   "A physics result claims a rigorous existence proof of some interacting quantum field theories, including QCD. A group led by David Gross will shepherd it; the full work is unreleased.",
+   "OpenAI's own math advisory panel recommended a day earlier that AI companies not adopt designated early-access recipients, citing unequal access and biased selection."
+  ],
+  "context": "The announcement comes less than a month after OpenAI released hundreds of manuscripts it said solved long-standing math questions, which mathematicians said would take years to digest. OpenAI has since pledged $5 million to help mathematicians assess AI-generated research. The Kakeya conjecture in three dimensions was resolved by Hong Wang, recently awarded a Fields Medal.",
+  "whatsNext": "Watch for the Impagliazzo-Paturi-Williams group's assessment of the ETH refutation and responses to OpenAI's open letter on norms for AI-generated results.",
+  "article": {
+   "whatHappened": [
+    "OpenAI announced three results it calls major, in mathematics, computer science and physics, less than a month after releasing hundreds of math manuscripts. The difference this time, according to The Verge, is that outside experts it calls shepherds are guiding the computer science and physics results, while for the math problem advisers told OpenAI to release the raw AI output for researchers to work through.",
+    "The math result concerns local smoothing for the Euclidean wave equation. OpenAI says its model proved Sogge's local smoothing conjecture in every spatial dimension at least two, using an auxiliary partial differential equation. It says this also yields the Kakeya maximal and dimension conjectures and Stein's spherical restriction estimates across the interior of the conjectured range. The model output is being released directly.",
+    "In computer science, OpenAI says the paper gives a deterministic algorithm that exactly counts satisfying assignments of fixed-width CNF formulas in subexponential time and polynomial space. The 3-SAT case would refute the Exponential Time Hypothesis, proposed in 1999 and widely believed. Impagliazzo and Paturi, who were among its originators, and MIT's Ryan Williams will examine the proof. At their request, the write-up and Lean proof were posted to GitHub.",
+    "The physics result has not been released in full. OpenAI describes it as a mathematically rigorous existence proof of certain interacting quantum field theories with gauge fields and fermions in four dimensions, including Quantum Chromodynamics and a unified completion of the Standard Model. David Gross will lead a group including Michael Douglas, Arthur Jaffe, Igor Klebanov and Nikita Nekrasov to shepherd the work."
+   ],
+   "whyItMatters": [
+    "If the claims hold, they would be significant: the ETH underpins much of the field's reasoning about which problems are hard, and a rigorous construction of QCD-type theories touches a long-standing problem in mathematical physics. None of the results has yet been independently verified, and the coverage describes them as OpenAI's claims.",
+    "The release process is itself contested. OpenAI's own AGMAI panel of math advisers said a day earlier that it recommends AI companies not adopt the practice of designating certain people to receive output first, citing unequal access, borrowed reputation and biased selection. It suggested release on scholarly repositories with Lean-formalized proofs, information on problem selection, and funding for those working to understand the results. OpenAI acknowledges its shepherd approach may have its own issues."
+   ],
+   "whatToWatch": [
+    "OpenAI also published an open letter asking the community how to set norms: what should govern early access and conflict-of-interest disclosure, how credit should reflect both discovery and the work of checking and explaining, and how to support students and researchers as methods change.",
+    "The key near-term question is whether the working groups confirm the ETH refutation and the physics proof, and how quickly the full physics materials are made public."
+   ],
+   "pullQuote": {
+    "text": "we recommend that AI companies do not adopt",
+    "by": "AGMAI panel of math advisers"
    }
   }
  },
