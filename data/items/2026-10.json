@@ -12550,5 +12550,653 @@
    "Survival LLM"
   ],
   "storyId": "f6df93ac1527"
+ },
+ {
+  "url": "https://openai.com/index/the-future-of-the-firm",
+  "title": "The future of the firm",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-28T10:00:00.000Z",
+  "snippet": "How AI might enter the org chart—beneath, beside, and between us.",
+  "id": "0dc3cf0b7c98",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "OpenAI publishes an essay exploring how AI might enter the corporate org chart: beneath, beside and between human workers.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "0dc3cf0b7c98"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+  "title": "Microsoft hits 10 quarters of record- breaking revenue in a row",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T21:25:30.000Z",
+  "snippet": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Satya-Nadella.jpg?resize=1200,800",
+  "id": "0ef91bd8c8c1",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "Microsoft reported record quarterly revenue of $92.3 billion, up 19% year over year, its tenth straight record quarter.",
+  "whyItMatters": "Shows AI demand continues to drive strong results for Microsoft's cloud and software businesses.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Microsoft"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.723Z",
+  "storyId": "0ef91bd8c8c1"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+  "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T15:41:18.000Z",
+  "snippet": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+  "id": "1af93ecc8fda",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "South Korea's financial institutions suffered another wave of cyberattacks, with AI-driven hacking cited as a growing risk in Asia.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "South Korea"
+  ],
+  "storyId": "1af93ecc8fda"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+  "title": "Microsoft is ending Copilot support on smart TVs",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T18:36:26.000Z",
+  "snippet": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, or Microsoft, but from an on-screen notification that appeared on Windows Central's Zac Bowden's webOS-powered LG TV earlier today. \"Microsoft has recently decided to end support for Copilot functionality on all TVs, including the Copilot-enabled feature available on …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/copilot.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "238a740f5b9d",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Microsoft is ending Copilot support on all smart TVs this year, including LG and Samsung sets, per an on-screen notice reported by Windows Central.",
+  "whyItMatters": "A sign that early AI assistant integrations on consumer devices are being cut back.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Microsoft",
+   "Copilot",
+   "LG",
+   "Samsung"
+  ],
+  "storyId": "238a740f5b9d"
+ },
+ {
+  "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+  "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-28T13:41:30.000Z",
+  "score": 373,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
+  "id": "31ebe027e441",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "A Kentucky man became the first humanist granted a religious exemption from AI, according to religion news coverage.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Kentucky"
+  ],
+  "storyId": "31ebe027e441"
+ },
+ {
+  "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "sourceId": "deepmind",
+  "publishedAt": "2026-10-28T17:00:58.000Z",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+  "id": "34b0bf3f94c3",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Google DeepMind announced Gemini 4 Carbon, its next frontier model.",
+  "whyItMatters": "A new frontier model from a top lab affects model choices for builders.",
+  "category": "models",
+  "importance": 5,
+  "entities": [
+   "Google DeepMind",
+   "Gemini 4 Carbon"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:31.134Z",
+  "storyId": "34b0bf3f94c3"
+ },
+ {
+  "url": "https://openai.com/index/legora",
+  "title": "Legora is building the agentic operating system for legal work",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-28T09:30:00.000Z",
+  "snippet": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+  "id": "41c97fe8dc29",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Legal AI company Legora is using OpenAI models, ChatGPT and Codex to speed up legal workflows and contract analysis, in a customer story published by OpenAI.",
+  "whyItMatters": "Shows how vertical legal AI startups are building agentic products on top of frontier model APIs.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Legora",
+   "OpenAI",
+   "Codex",
+   "ChatGPT"
+  ],
+  "storyId": "2fc8e689e413"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+  "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-28T18:47:27.000Z",
+  "snippet": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
+  "id": "41e0dc889e76",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Google announced Gemini 4 Carbon, its latest frontier model, which is not generally available; Ars Technica describes it as a slightly better version of Argon.",
+  "whyItMatters": "Suggests an incremental step over Argon and that builders can't use it yet.",
+  "category": "models",
+  "importance": 5,
+  "entities": [
+   "Google",
+   "Gemini 4 Carbon",
+   "Argon"
+  ],
+  "storyId": "34b0bf3f94c3"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+  "title": "Meta quietly launched an ‘AI pet journal’ app",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T11:27:30.000Z",
+  "snippet": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" Users should talk, not type, with their pets, the description says, as well as play \"cozy games\" like stacking groceries or word games. The Play store description says: A little friend that listens. A cozy world that's yours. Waddle World is a cozy 16-bit world where your pixel pet lives. Hatch a v…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Waddle-World-meta-app-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "4683a3b03315",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Meta quietly launched Waddle World, a 16-bit tamagotchi-style app where users talk to AI pets that draw doodles of their conversations, pitched as a daily journal disguised as a pet.",
+  "whyItMatters": "A small consumer experiment showing Meta's push into AI companion-style products.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Meta",
+   "Waddle World"
+  ],
+  "storyId": "4683a3b03315"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+  "title": "AI execs may be too out of touch to build for the general public",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T15:53:52.000Z",
+  "snippet": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+  "id": "516d6345c17a",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "TechCrunch argues AI executives are out of touch with the general public, citing leaders bragging about using AI to connect with their families.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "TechCrunch"
+  ],
+  "storyId": "516d6345c17a"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+  "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T20:03:00.000Z",
+  "snippet": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over Argon, which Google released earlier this month. It's currently only available to a select group of cybersecurity defense companies, but it will eventually expand to other partners in its Fairwind Program. The company s…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK255_Google_Gemini_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5ca8bf6a7f7b",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "Google released Gemini 4 Carbon, claiming significant gains in coding, agentic tasks and cybersecurity, and the top spot on the Artificial Analysis Intelligence Index v5.0 ahead of Claude Opus 5.5 and GPT-6 Astra. It is initially limited to select cybersecurity defense companies in the Fairwind Program, and follows Argon released earlier this month.",
+  "whyItMatters": "A new leader on a major benchmark reshuffles the frontier, though limited access means most builders can't use it yet.",
+  "category": "models",
+  "importance": 5,
+  "entities": [
+   "Google",
+   "Gemini 4 Carbon",
+   "Claude Opus 5.5",
+   "GPT-6 Astra"
+  ],
+  "storyId": "34b0bf3f94c3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+  "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T17:00:00.000Z",
+  "snippet": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+  "id": "5e4098babe95",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Chrome's AI autofill can now pull flight confirmations, tracking info and order details from Gmail, with user permission.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Chrome",
+   "Gmail",
+   "Google"
+  ],
+  "storyId": "cca2247626bb"
+ },
+ {
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "title": "Gemini 4 Carbon",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-28T17:01:23.000Z",
+  "score": 661,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50276792",
+  "id": "6318bf62f2c5",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Google announced Gemini 4 Carbon on its blog.",
+  "category": "models",
+  "importance": 5,
+  "entities": [
+   "Google",
+   "Gemini 4 Carbon"
+  ],
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+  "imageCheckedAt": "2026-10-28T21:43:30.894Z",
+  "storyId": "34b0bf3f94c3"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+  "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-10-28T12:58:39.000Z",
+  "snippet": "A sort of review of the benchmarking industry and what's missing.",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/6a847075-78be-45e9-b554-ae9abc6f9296_3182x1790.png",
+  "id": "65e05126788d",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Interconnects reviews the benchmarking industry around Artificial Analysis v5 and discusses what is missing from current evaluations, the 'benchmarker's dilemma'.",
+  "whyItMatters": "Useful context for judging how much to trust the leaderboards used to pick models.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Artificial Analysis",
+   "Interconnects"
+  ],
+  "storyId": "65e05126788d"
+ },
+ {
+  "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+  "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-28T13:15:00.000Z",
+  "snippet": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+  "id": "75e2017ed4c5",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "OpenAI and ServiceNow expanded their partnership, bringing OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+  "whyItMatters": "Signals OpenAI's deepening push into enterprise workflow automation through platform partnerships.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ServiceNow",
+   "ChatGPT",
+   "Codex"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.697Z",
+  "storyId": "75e2017ed4c5"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+  "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-28T14:58:17.000Z",
+  "id": "7ae8eb20550e",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "NVIDIA released Nemotron 3.5 Transcribe and the Granary v2 dataset for multilingual transcription that can be prompted and adapted.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "NVIDIA",
+   "Nemotron 3.5 Transcribe",
+   "Granary v2"
+  ],
+  "storyId": "7ae8eb20550e"
+ },
+ {
+  "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+  "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T19:05:46.000Z",
+  "snippet": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]",
+  "id": "8500267ec5b4",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+  "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T21:34:04.000Z",
+  "snippet": "The MPC Sample Key looks like the MPC Sample just with keys instead of pads. | Image: Akai The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run some version of the same software found on the MPC Sample, but with tweaks to accommodate the traditional keyboard, pitch, and mod wheels. Unlike the higher-end MPC Key 37, how…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Akai-MPC-Sample-Key.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "8a483cf9155c",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "Akai is giving modders early access to its unannounced MPC Sample Key, which will ship with open-source firmware, to embrace community vibe-coded custom firmware.",
+  "whyItMatters": "A quirky example of hardware makers welcoming AI-assisted hobbyist coding.",
+  "category": "open-source",
+  "importance": 1,
+  "entities": [
+   "Akai"
+  ],
+  "storyId": "8a483cf9155c"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+  "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T18:50:39.000Z",
+  "snippet": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]",
+  "id": "964eb21e0e03",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://surgehq.ai/blog/dayjob-tax",
+  "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-28T15:46:30.000Z",
+  "score": 160,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50275626",
+  "id": "97373eedda74",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Surge AI's Dayjob: Tax benchmark evaluates AI agents on 50 professional tax assignments.",
+  "whyItMatters": "Gives a realistic measure of agent performance on professional knowledge work.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Surge AI"
+  ],
+  "storyId": "97373eedda74"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+  "title": "Google AI gets cagey when asked who won the 2020 elections",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-28T17:46:32.000Z",
+  "snippet": "But the AI responses get more forthright when asked outside the US.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
+  "id": "9a783b4021e0",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Google's AI gives evasive answers when asked who won the 2020 US election, while responses are more direct when asked about elections outside the US.",
+  "whyItMatters": "Shows how political guardrails produce inconsistent behavior in AI search answers.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Google"
+  ],
+  "storyId": "9a783b4021e0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+  "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T17:00:00.000Z",
+  "snippet": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/ConnectedAppshero.width-2200.format-webp.webp?resize=1200,675",
+  "id": "a01db71b034c",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Google is launching a developer platform that lets businesses bring their services and apps into Gemini and Search's AI experiences.",
+  "whyItMatters": "Could reshape how apps are discovered and distributed as agents mediate the web.",
+  "category": "tools",
+  "importance": 4,
+  "entities": [
+   "Google",
+   "Gemini",
+   "Google Search"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.713Z",
+  "storyId": "a01db71b034c"
+ },
+ {
+  "url": "https://latent.space/p/supabase/",
+  "title": "Why Agents Love Supabase",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-28T19:48:05.000Z",
+  "snippet": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+  "image": "https://i.ytimg.com/vi/zHG6sAss_kE/maxresdefault.jpg",
+  "id": "a075480e28a0",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "Supabase founders Paul Copplestone and Ant Wilson discuss building the backend for AI agents and why agents favor Supabase.",
+  "whyItMatters": "Shows which backend infrastructure agent-building developers are converging on.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Supabase",
+   "Paul Copplestone",
+   "Ant Wilson"
+  ],
+  "storyId": "a075480e28a0"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+  "title": "Meta says it’ll probably delay its controversial new business terms again",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T16:15:30.000Z",
+  "snippet": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with industry groups and leaders.\" The new business terms, which were supposed to take effect on October 30th, initially appeared to give Meta permission to train its AI models on the news sites that use Facebook and Instagram. Meta later changed its policies to remove language indicating that it could \"tra…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_3_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "b358f24cec5b",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Meta says it will likely delay its new business terms beyond November 20 after publisher backlash over AI training concerns; the terms were due October 30 and Meta has removed language about training on news sites.",
+  "whyItMatters": "Shows continued tension between publishers and platforms over AI training data.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Andy Stone"
+  ],
+  "storyId": "b358f24cec5b"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+  "title": "Pairing industrial AI autonomy and human control",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-28T12:00:00.000Z",
+  "id": "c3f87b32bcfc",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "MIT Technology Review piece on combining autonomous industrial AI with human control.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "MIT Technology Review"
+  ],
+  "storyId": "c3f87b32bcfc"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+  "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T17:00:00.000Z",
+  "snippet": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving you from having to search for confirmation emails, receipts, or shipping updates yourself. The expanded autofill capabilities can retrieve details such as a shipment's tracking number, travel details l…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/chrome.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cca2247626bb",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Chrome's enhanced autofill now uses Gemini with Personal Intelligence to pull details like tracking numbers and travel info from Gmail to fill forms.",
+  "whyItMatters": "Another example of Gemini being wired into personal data in everyday Google products.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Chrome",
+   "Gemini",
+   "Gmail"
+  ],
+  "storyId": "cca2247626bb"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+  "title": "Voters in Texas agree: They hate data centers",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T12:00:00.000Z",
+  "snippet": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed to be a park. Temple, around 40 miles away, is another sore spot, Bledsoe says. The mayor and City Council members there face recall attempts over data center developments. And some 30 miles outside of Austin, San Marcos became the first city in all of Texas to ban data centers. Nowhere in the worl…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_TEXAS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cf5c3f4a4398",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Opposition to data centers is growing across Texas around Austin: San Marcos became the first Texas city to ban them, and officials in Temple face recall attempts over projects.",
+  "whyItMatters": "Local backlash is becoming a real constraint on where AI compute capacity can be built.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Texas",
+   "San Marcos",
+   "Gary Bledsoe"
+  ],
+  "storyId": "17fc845daf1a"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+  "title": "Creating AI value with enterprise context",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-10-28T20:32:02.000Z",
+  "snippet": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?w=840",
+  "id": "d29f179e903a",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "MIT Technology Review's sponsored-style piece argues that multiple AI platforms and tools running in a business can produce wrong or confused outcomes without shared enterprise context.",
+  "category": "business",
+  "importance": 1,
+  "entities": [],
+  "storyId": "d29f179e903a"
+ },
+ {
+  "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+  "title": "The October inflection point for vibe game development",
+  "sourceId": "simonw",
+  "publishedAt": "2026-10-28T13:55:15.000Z",
+  "snippet": "<p>I've written before about how November 2025 was <a href=\"https://simonwillison.net/tags/november-2025-inflection/\">an inflection point for coding agents</a> - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for <strong>vibe coding computer games</strong>.</p> <ul> <li><a href=\"https://simonwillison.net/2026/Oct/28/vibe-game-development/#tree-appreciator\">Tree Appreciator</a></li> <li><a href=\"https://si…",
+  "image": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
+  "id": "d63165261460",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Simon Willison argues October 2026 is a new inflection point for vibe-coding computer games, following November 2025 when Opus 4.5 and GPT-5.1 made coding agents reliable daily drivers, and showcases games built this way.",
+  "whyItMatters": "A respected practitioner's view that agent-built games have become practical.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Simon Willison",
+   "Opus 4.5",
+   "GPT-5.1"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.830Z",
+  "storyId": "d63165261460"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+  "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T15:00:00.000Z",
+  "snippet": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/AI-on-the-tongue.png?resize=1200,600",
+  "id": "d9d311919980",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "Nvidia released a free speech-to-text model supporting up to 40 languages, but it works only on recorded audio, not live streams.",
+  "whyItMatters": "Useful for meeting and medical transcription builders, while real-time use stays with rivals like ElevenLabs.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "ElevenLabs"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.719Z",
+  "storyId": "7ae8eb20550e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+  "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T19:19:58.000Z",
+  "snippet": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1080",
+  "id": "ea370fdd96af",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "Anthropic launched tools that show companies what their spending on its models is buying, giving customers visibility into usage and cost. The move comes ahead of a planned IPO.",
+  "whyItMatters": "Better cost visibility helps teams justify and control Claude spend, and signals Anthropic is polishing its enterprise story before going public.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.710Z",
+  "storyId": "ea370fdd96af"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+  "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T13:00:00.000Z",
+  "snippet": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+  "id": "efca0b654d0c",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+  "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-28T14:44:00.000Z",
+  "snippet": "xAI’s Southaven, Mississippi data center. | Photo by Brandon Dill / AFP via Getty Images A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reportedly told one resident that xAI plans to purchase 418 homes, adding that 18 homeowners already have plans to sell. People who rent homes in the area report they're already being forced out, with 60 days' notice …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2289399619.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f010b1f4f032",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:22.187Z",
+  "summary": "An xAI subsidiary is offering to buy 418 homes near its Southaven, Mississippi data center and power plant, on condition that residents don't join a lawsuit over noise and pollution, per The Guardian.",
+  "whyItMatters": "Highlights the community and legal friction around AI data center buildouts.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "xAI",
+   "Elon Musk",
+   "Southaven"
+  ],
+  "storyId": "f010b1f4f032"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+  "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-28T21:34:30.000Z",
+  "snippet": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800",
+  "id": "f9d1493b929c",
+  "fetchedAt": "2026-10-28T21:43:00.845Z",
+  "enrichedAt": "2026-10-28T21:43:30.570Z",
+  "summary": "Microsoft said it earned $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30.",
+  "whyItMatters": "It highlights how financially intertwined Microsoft and OpenAI remain.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Microsoft",
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-28T21:43:30.726Z",
+  "storyId": "0ef91bd8c8c1"
  }
 ]

@@ -186,6 +186,48 @@
    }
   }
  },
+ "34b0bf3f94c3": {
+  "storyId": "34b0bf3f94c3",
+  "itemIds": [
+   "34b0bf3f94c3",
+   "6318bf62f2c5",
+   "41e0dc889e76",
+   "5ca8bf6a7f7b"
+  ],
+  "writtenAt": "2026-10-28T21:43:47.456Z",
+  "headline": "Google announces Gemini 4 Carbon, limited to cyber defenders at first",
+  "dek": "Two weeks after Gemini 4 Argon, Google says Carbon tops the Artificial Analysis Intelligence Index at 59 and leads cyber benchmarks, but access starts with select Fairwind Program partners at $2/$10 per million tokens.",
+  "keyPoints": [
+   "Google says Carbon ranks #1 on Artificial Analysis Intelligence Index v5.0 with a score of 59, ahead of Claude Opus 5.5 and GPT-6 Astra.",
+   "Cyber benchmarks cited by Google: SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%. Google says secure-code success is more than 2x Argon's on internal tests.",
+   "Access starts this week for a subset of cyber defenders via the Fairwind Program; Google is in the U.S. government's voluntary pre-release testing and gives no wide-release date.",
+   "Introductory pricing matches Argon: $2 per million input tokens, $10 per million output tokens, cached input 95% cheaper. Ars Technica reports the price will double later, with no end date given.",
+   "Carbon rose 89 Elo points to #4 (1768) on WebDev Arena. Ars Technica says Carbon beats Argon only by slim margins and may be a post-training upgrade."
+  ],
+  "context": "Gemini 4 Argon launched two weeks earlier with a similar staged rollout and discounted pricing. Google's frontier rivals, OpenAI and Anthropic, have models scoring in a similar range on most benchmarks, so Carbon's lead is a matter of a few points. The release also continues the trend of labs gating their most cyber-capable models behind trusted-partner programs.",
+  "whatsNext": "Watch for Google to finish the U.S. government's voluntary testing and widen Carbon beyond Fairwind partners, and for a date when the introductory price ends.",
+  "article": {
+   "whatHappened": [
+    "Google DeepMind announced Gemini 4 Carbon, which it calls its strongest model, with what it describes as state-of-the-art cybersecurity and long-horizon capabilities. The release comes two weeks after Gemini 4 Argon. Google says Carbon ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59.",
+    "Carbon is not generally available. Starting this week, Google is giving it to a subset of cyber defenders and plans to phase in more trusted partners through its Fairwind Program. The company says it is taking part in the U.S. government's voluntary pre-release testing process and is still gathering feedback and iterating on guardrails before opening it to developers, businesses and consumers.",
+    "Google cites SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation and CWE-bench (71.0%) for patching. It says internal tests show more than twice Argon's success rate at generating secure code, and that the Chrome team found Carbon more than 10 times better than another lab's frontier model at producing high-quality patches. On WebDev Arena, Carbon gained 89 Elo points to reach fourth place at 1768.",
+    "Pricing matches Argon's introductory rate: $2 per million input tokens and $10 per million output tokens, with cached input tokens 95% cheaper. Google says Carbon is built for sustained agentic work and that internal teams have seen it run for days on multi-step engineering problems such as tracing and patching subtle bugs."
+   ],
+   "whyItMatters": [
+    "Ars Technica is more skeptical of the framing. It notes that Carbon beats Argon by slim margins on every test Google published, and that Google presents it as a new model although it could be a post-training upgrade of Argon. It also points out that every frontier model scores in the same neighborhood, with Carbon ahead of GPT-6 Astra, Claude Opus 5.5 and Claude Fable 5.1 by only a few points.",
+    "The cybersecurity focus is the notable part. Google is positioning Carbon for the whole defense lifecycle of detection, validation and remediation, and is restricting early access to defenders. Dual-use capability, particularly in exploitation benchmarks, is the reason Google gives for a deliberate rollout. The Chrome and Wiz comments are Google-side claims and have not been independently verified in the coverage.",
+    "On safety, Ars Technica reports that in the Grey Swan evaluation Carbon resisted every attempted prompt-injection attack, a 0 percent success rate for attackers versus 0.7 percent for Argon, 1 percent for Opus 5.5 and 8.5 percent for GPT-6 Astra. The Verge adds that Google says Carbon halves unsupported claims compared with Argon."
+   ],
+   "whatToWatch": [
+    "Google has not promised a timeline for broad availability. Ars Technica says that if Carbon follows Argon, it could arrive in a couple of weeks, probably first for AI Ultra subscribers and Gemini API developers, though that is its expectation rather than a Google commitment.",
+    "The introductory price is temporary, and Ars Technica reports it will double once the period ends. Argon's discounted rate runs through the end of November, but Google has declined to give an end date for Carbon."
+   ],
+   "pullQuote": {
+    "text": "Carbon illustrates the pace at which we’re pushing the frontier forward.",
+    "by": "Google DeepMind"
+   }
+  }
+ },
  "421acab06078": {
   "storyId": "421acab06078",
   "itemIds": [
@@ -813,6 +855,40 @@
     "text": "The real story is removing the lock-in that kept developers from having a real choice at all.",
     "by": "Colin Brace, VP of Technology Software at AWS Annapurna Labs"
    }
+  }
+ },
+ "a01db71b034c": {
+  "storyId": "a01db71b034c",
+  "itemIds": [
+   "a01db71b034c"
+  ],
+  "writtenAt": "2026-10-28T21:43:56.900Z",
+  "headline": "Google opens Connected Apps Platform so developers can add apps to Gemini and Search",
+  "dek": "Google launched a US-only beta platform letting businesses submit apps to Gemini and Search; over 50 apps already run in Gemini and are coming to Search in the next few weeks.",
+  "keyPoints": [
+   "Google's Connected Apps Platform is in public preview for US developers who join a waitlist; Google gave no date for broader availability.",
+   "Developers integrate through a cloud-hosted MCP server or Android MCP using AppFunctions APIs, then register, test and submit via the Google Connected Console.",
+   "Developers can choose Search, the Gemini app, or both, and can track traffic, latency and error rates while keeping control of verified logos and accounts.",
+   "Gemini already has more than 50 connected apps, including Adobe, Experian, Localiza and Peloton; these arrive in Search over the next few weeks.",
+   "Calm is a new partner, and its app will soon launch on both Gemini and Search, Google said."
+  ],
+  "context": "Connected apps debuted in Gemini and Google Search earlier this year, letting users link third-party services and take actions in them. Rivals such as ChatGPT and Meta's Muse have tried similar integrations. The bet is that people will increasingly use services through their preferred AI provider rather than opening individual apps.",
+  "whatsNext": "Watch for the rollout of Gemini's existing connected apps to Search over the coming weeks, and for any announcement of wider availability beyond the US waitlist.",
+  "article": {
+   "whatHappened": [
+    "Google has launched the Connected Apps Platform, a developer program that lets businesses and developers submit their own apps for use inside Gemini and Google Search's AI experiences. The platform is in public preview, available in beta to developers in the US who sign up for a waitlist. Google did not say when it would become more broadly available.",
+    "To participate, developers integrate with a cloud-hosted MCP (Model Context Protocol) server, or with Android MCP using the AppFunctions APIs. They then use the Google Connected Console to register, test and submit the app. Developers can decide whether the app appears in Search, the Gemini app, or both.",
+    "Once an app is live, developers can monitor traffic, latency and error rates, and keep control of brand elements such as verified logos and authenticated accounts.",
+    "Gemini already offers more than 50 connected apps, from partners including Adobe, Experian, Localiza and Peloton, plus Google's own services such as Photos and YouTube Music. Those apps will come to Search over the next few weeks. Search currently has fewer, including Instacart, Canva, YouTube Music and Yahoo Fantasy Football. Calm is a new partner and will soon launch on both."
+   ],
+   "whyItMatters": [
+    "Connected apps let users link a service and act on it from within an AI interface, such as designing a flyer in Canva or building a playlist in YouTube Music. Other consumer AI products, including ChatGPT and Meta's Muse, have taken their own approaches. The underlying premise is that people may shift from opening individual apps to using their favorite services through an AI provider.",
+    "That shift only works if the selection is broad enough to be worth using. Opening the platform to any business or developer is Google's route to that breadth. TechCrunch compares the move to early search engine optimization, suggesting that listing in these AI surfaces could become a first step for businesses seeking visibility on the agentic web. That is an interpretation rather than something Google has claimed."
+   ],
+   "whatToWatch": [
+    "The near-term marker is the arrival of Gemini's connected apps in Search over the next few weeks, which will show how closely the two experiences line up.",
+    "Open questions include when the platform leaves the US-only waitlist beta and how many developers outside Google's launch partners submit apps."
+   ]
   }
  },
  "a2c304623a61": {
