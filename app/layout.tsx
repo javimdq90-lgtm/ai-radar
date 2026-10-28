@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Michroma } from "next/font/google";
+import { Suspense } from "react";
 import { SITE_NAME, TAGLINE } from "@/components/brand";
+import { SiteAnalytics } from "@/components/analytics";
 import { SubscribePrompt } from "@/components/subscribe-prompt";
 import { membershipOpen } from "@/lib/membership";
 import { METER_SCRIPT } from "@/lib/meter";
@@ -39,6 +41,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-screen antialiased">
         {children}
         {membershipOpen() && <SubscribePrompt />}
+        {/* Reads the URL, so it sits in a boundary to keep pages static. */}
+        <Suspense fallback={null}>
+          <SiteAnalytics />
+        </Suspense>
       </body>
     </html>
   );

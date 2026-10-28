@@ -24,7 +24,8 @@ const SECTIONS: { heading: string; body: string[] }[] = [
   {
     heading: "The website",
     body: [
-      "The site has no advertising and no analytics or tracking cookies. Search runs in your browser over a list of stories; what you type isn't sent to us.",
+      "The site has no advertising and no tracking cookies. Search runs in your browser over a list of stories; what you type isn't sent to us.",
+      "We count visits with Vercel Web Analytics, which uses no cookies and doesn't identify you. It records the page, the site you came from, your country, and your browser and device type, and we only ever see totals. It tells visitors apart with a code made from the request that Vercel discards after 24 hours.",
       "To count your free briefings, your browser keeps a list of the briefings you've opened this month in its own storage. It never leaves your device, and clearing your browser's site data resets it.",
       "The site is hosted on Vercel, which, like any web host, handles your IP address to serve pages and may keep it briefly in server logs for security and reliability.",
       "Story images are loaded from the publishers' own servers, which therefore see your IP address, as they would if you visited them. Headlines that aren't briefings link straight to the original article, on that publisher's site and under its own privacy policy.",
