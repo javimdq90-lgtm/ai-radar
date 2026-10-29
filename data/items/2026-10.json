@@ -13416,5 +13416,680 @@
   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png",
   "imageCheckedAt": "2026-10-29T11:35:40.896Z",
   "storyId": "f40066880a48"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+  "title": "Anthropic is asking Wall Street to believe in AGI",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-29T14:00:00.000Z",
+  "snippet": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start trading as soon as next month at a valuation of anywhere between $1.5 trillion and $2 trillion. That would immediately make it one of the most valuable companies on the planet. But the price tag really isn’t the whole story here. The S-1 document published earlier this week is hundreds upon hundreds of pages …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_DCD_anthropic_IPO.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "01b61253f2f1",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Anthropic filed an S-1 to list on Nasdaq, possibly trading next month at a valuation of $1.5 trillion to $2 trillion. SemiAnalysis's Joey Brookhart digs into the numbers on The Verge's Decoder.",
+  "whyItMatters": "An Anthropic IPO would be among the largest ever and reveals the economics of a frontier lab.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Anthropic",
+   "SemiAnalysis",
+   "Joey Brookhart",
+   "Nasdaq"
+  ],
+  "storyId": "52c4e7935441"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+  "title": "Granola crunches up a dictation feature to compete with Wispr",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T17:54:38.000Z",
+  "snippet": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+  "id": "066f3bd17c5f",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Granola, the AI meeting notetaker, is adding a dictation feature to compete with Wispr, which recently added meeting notes to its dictation app.",
+  "whyItMatters": "Voice AI apps are converging on the same feature set, so differentiation will come down to quality and workflow.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Granola",
+   "Wispr"
+  ],
+  "storyId": "066f3bd17c5f"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+  "title": "Anthropic’s business plan: Build God or die trying",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-29T13:30:00.000Z",
+  "snippet": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT contracts, Anthropic has just offered a handy solution: Doing a bunch of things that look like you're trying to build the machine god is the only way to avoid going bankrupt. Forget about the machine god for a minute. At least in my read of the S-1, it seems like Anthropic is pinning the future of i…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_dario-amodei_money.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "113fb4594f86",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Reading Anthropic's S-1, The Verge argues the filing justifies spending as much as possible on compute, since chasing AGI-scale ambitions is framed as the way to avoid going bankrupt.",
+  "whyItMatters": "Shows the financial logic driving frontier labs' massive compute spending.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "52c4e7935441"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+  "title": "Microsoft’s AI future has fewer jobs",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-29T16:00:00.000Z",
+  "snippet": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and India. It's the first time the company has presented such an offer to so many employees, expanding greatly upon the retirement offer that was limited to around 9,000 employees earlier this year. It's all part of an ongoing effort to avoid reducing investment in AI inf…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832912/STK095_MICROSOFT_2_CVirginia_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "169aca9d9c2a",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Microsoft is offering voluntary buyouts to about 60,000 employees across the US, UK, Canada and India, far beyond the roughly 9,000 offered a retirement deal earlier this year, as it keeps investing in AI infrastructure.",
+  "whyItMatters": "A major signal that AI spending is reshaping big tech workforces.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Microsoft",
+   "Satya Nadella"
+  ],
+  "storyId": "169aca9d9c2a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+  "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T20:08:31.000Z",
+  "snippet": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/03/reddit-e1708636699632.jpg?resize=1200,800",
+  "id": "1e09943a421e",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Reddit is shifting to a logged-in experience as search traffic declines, saying AI is changing how people find information online.",
+  "whyItMatters": "It shows AI search eroding open-web traffic and pushing platforms to wall off content and rely on direct audiences.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Reddit"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.779Z",
+  "storyId": "1e09943a421e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+  "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T17:00:00.000Z",
+  "snippet": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/06/GettyImages-1760104305.jpg?resize=1200,798",
+  "id": "23e63926ccea",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Mistral has released the weights of its new trillion-parameter model, pitching it at cybersecurity use. It says open weights give organizations control over their cyber defenses that closed models can't.",
+  "whyItMatters": "A trillion-parameter open-weights release raises the bar for open models and lets security teams self-host instead of sending sensitive data to closed APIs.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Mistral"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.797Z",
+  "storyId": "a1765f446c5b"
+ },
+ {
+  "url": "https://openai.com/index/ropes-gray-ai-diligence",
+  "title": "How Ropes & Gray is developing AI for transactional diligence",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-29T07:00:00.000Z",
+  "snippet": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+  "id": "2d9928289658",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Law firm Ropes & Gray is building AI with OpenAI for transactional diligence, where lawyers review grouped documents, summaries and reports before advising clients.",
+  "whyItMatters": "Shows how big law is deploying AI with humans kept in the review loop.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Ropes & Gray",
+   "OpenAI"
+  ],
+  "storyId": "2d9928289658"
+ },
+ {
+  "url": "https://latent.space/p/elorian/",
+  "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-29T16:00:00.000Z",
+  "snippet": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/c0263f23-d8f4-45a5-8e75-1ea88650605f/Elorian_Decoy_Feature_Image.png?t=1793221147",
+  "id": "2df0e95472f6",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Elorian's new decoy counting benchmark shows frontier models struggle to reason about images despite seeing them, and its Glimpse model tries to close the gap by thinking with images.",
+  "whyItMatters": "Points to a concrete weakness in multimodal reasoning.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Elorian",
+   "Glimpse"
+  ],
+  "storyId": "2df0e95472f6"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+  "title": "OpenAI-backed Thrive Holdings acquires ADT",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T19:56:19.000Z",
+  "snippet": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/ADT-logo.jpg?resize=1200,800",
+  "id": "4db20898e948",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "OpenAI-backed Thrive Holdings is acquiring ADT in a $15.3 billion deal, planning to bring AI to the home security business.",
+  "whyItMatters": "It is a large example of AI-backed roll-ups buying traditional service businesses to automate them.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Thrive Holdings",
+   "ADT",
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.787Z",
+  "storyId": "4db20898e948"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+  "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T16:21:00.000Z",
+  "snippet": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+  "id": "4dcfcc0d1943",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Ex-Palantir executives launched Dream with $17M from a16z to build AI world models for construction, trained on over 100 million square feet of building data from US permit archives.",
+  "whyItMatters": "Another vertical world-model startup applying physics-grounded AI beyond text.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Dream",
+   "a16z",
+   "Palantir"
+  ],
+  "storyId": "4dcfcc0d1943"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+  "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T14:35:26.000Z",
+  "snippet": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/wabi-20.jpg?resize=1200,620",
+  "id": "5c450d9a985f",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Wabi, an AI app that builds mini apps and now calls itself a 'personal agent', raised $55 million at a $1.25 billion valuation.",
+  "whyItMatters": "Signals investor appetite for consumer agents that generate software on demand.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Wabi"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.803Z",
+  "storyId": "5c450d9a985f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+  "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T13:00:00.000Z",
+  "snippet": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+  "id": "65d251570ded",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Amazon updated Alexa so users can create and edit shopping lists, manage subscriptions and update delivery instructions.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Amazon",
+   "Alexa"
+  ],
+  "storyId": "65d251570ded"
+ },
+ {
+  "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+  "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T14:29:06.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
+  "id": "6a4dc94a574c",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "404 Media reports on internal turmoil at Proton over AI, including manifestos, fear and clashes over 'loser thinking'.",
+  "whyItMatters": "Illustrates the internal culture clashes privacy-focused companies face when adopting AI.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Proton"
+  ],
+  "storyId": "6a4dc94a574c"
+ },
+ {
+  "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+  "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T17:43:48.000Z",
+  "score": 210,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50293047",
+  "id": "6e8fb8e0c17d",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "title": "LLM Voice",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T14:57:55.000Z",
+  "score": 277,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
+  "id": "739e0b5535e3",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Martin Fowler's site discusses 'LLM voice', the recognizable writing style of LLM-generated text.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Martin Fowler"
+  ],
+  "storyId": "739e0b5535e3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+  "title": "Rivian expands joint venture with VW to include AI assistant",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T20:05:47.000Z",
+  "snippet": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+  "id": "7587406daf7d",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Rivian is expanding its joint venture with Volkswagen to include an AI assistant. It did not say whether the $5.8 billion venture's value will grow.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Rivian",
+   "Volkswagen"
+  ],
+  "storyId": "7587406daf7d"
+ },
+ {
+  "url": "https://openai.com/index/updated-model-spec",
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-29T17:00:00.000Z",
+  "snippet": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+  "id": "7bf0065ceb16",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "OpenAI published an updated Model Spec outlining five core values to guide more capable AI toward sound judgment, human agency and faithfulness to human intent.",
+  "whyItMatters": "The Model Spec defines intended model behavior, which shapes what developers can expect from OpenAI models.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Model Spec"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.749Z",
+  "storyId": "7bf0065ceb16"
+ },
+ {
+  "url": "https://huggingface.co/blog/anydecisionmodel",
+  "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "id": "85d975255b4f",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Hugging Face introduced AnySpeechRecognizer and AnyDecisionModel, open models for speech recognition and decision tasks that run on Apple platforms.",
+  "whyItMatters": "Gives iOS and Mac developers more open options for on-device speech and decision features.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Apple"
+  ],
+  "storyId": "85d975255b4f"
+ },
+ {
+  "url": "https://mistral.ai/news/mistral-large-4-oss/",
+  "title": "We're releasing the weights of Mistral Large 4",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T14:13:21.000Z",
+  "score": 1031,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
+  "id": "8ccea7e89b70",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Mistral is releasing the open weights of Mistral Large 4.",
+  "whyItMatters": "A new large open-weight model from a major lab expands self-hosting and fine-tuning options.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Mistral",
+   "Mistral Large 4"
+  ],
+  "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+  "imageCheckedAt": "2026-10-29T21:52:09.988Z",
+  "storyId": "a1765f446c5b"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+  "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-29T18:45:31.000Z",
+  "snippet": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in the web version for now. Google added support for generating and downloading files in Gemini earlier this year, but now you can tweak those files without leaving the Gemini app. Google says you can expand documents to edit them in full-screen mode and highligh…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "904e4b10c7b3",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Google Gemini now lets all users generate, preview and edit PDFs, Docs, Sheets, slides, Markdown, TXT and code files inside chats. PDF editing works on web and mobile; other formats are web-only for now.",
+  "whyItMatters": "Editing files in-chat makes Gemini more of a document workspace and narrows the gap with rival assistants' canvas-style tools.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "storyId": "904e4b10c7b3"
+ },
+ {
+  "url": "https://huggingface.co/blog/mistral-large4",
+  "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "image": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+  "id": "a1765f446c5b",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Mistral Large 4 (nicknamed Le Chonk) is now available on Hugging Face.",
+  "whyItMatters": "Builders can download and self-host a new large Mistral model.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Mistral",
+   "Mistral Large 4",
+   "Hugging Face"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.895Z",
+  "storyId": "a1765f446c5b"
+ },
+ {
+  "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+  "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T15:45:05.000Z",
+  "score": 106,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50290912",
+  "id": "a525c413ff05",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "SkyPilot says a new scheduler for Grace Blackwell systems yields 27% more usable GPUs from the same racks.",
+  "whyItMatters": "Better scheduling on expensive Blackwell clusters cuts effective compute costs.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "SkyPilot",
+   "Nvidia",
+   "Grace Blackwell"
+  ],
+  "image": "https://cdn.sanity.io/images/9qcljuzt/production/3cb7da5832bff00b2dd5c3fd21fc742b3e0a09ae-3840x2160.png?rect=0,77,3840,2006&w=1200&h=627&fit=crop&auto=format",
+  "imageCheckedAt": "2026-10-29T21:52:09.859Z",
+  "storyId": "a525c413ff05"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+  "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T16:42:32.000Z",
+  "snippet": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/09/nvidia-ceo-jensen-huang-with-geforce-rtx-4090.jpg?resize=1200,800",
+  "id": "a9493e03c65c",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "The US investigated a Chinese spy plot aimed at Nvidia's CEO, according to the New York Times. A top executive of a Singapore AI cloud firm accused of illegally selling Nvidia chips to China may have been a Chinese spy.",
+  "whyItMatters": "Highlights ongoing chip export-control enforcement and security risks around AI hardware.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "New York Times"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.785Z",
+  "storyId": "a9493e03c65c"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+  "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-29T16:24:55.000Z",
+  "snippet": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+  "id": "b394caaea480",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Google acknowledged that AI search earns less money and plans to offset it with more ads; negative cash flow hit -$9.06 billion and the stock fell after Q3 earnings.",
+  "whyItMatters": "Shows the monetization pressure AI search puts on Google's core business.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Google"
+  ],
+  "storyId": "9b7dd4a7a685"
+ },
+ {
+  "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+  "title": "Zombie stats: Where the numbers AI quotes come from",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T15:06:17.000Z",
+  "score": 124,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50290283",
+  "id": "bd43dca7b973",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Trakkr analyzes where the statistics AI systems quote come from, finding 'zombie stats' that persist despite being outdated.",
+  "whyItMatters": "Highlights citation reliability issues in AI answers.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Trakkr"
+  ],
+  "storyId": "bd43dca7b973"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+  "title": "Meta quietly launches an AI fashion app called Style Sketch",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T19:14:36.000Z",
+  "snippet": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+  "id": "bde015e58f37",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Meta quietly launched Style Sketch, an AI fashion app that builds a virtual closet from photos on your Instagram or from items you add by photo, video or upload.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Meta",
+   "Instagram"
+  ],
+  "storyId": "bde015e58f37"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+  "title": "Microsoft Research Focus – Edition #97",
+  "sourceId": "msr",
+  "publishedAt": "2026-10-29T19:19:16.000Z",
+  "snippet": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting.",
+  "id": "c1d5df7fdedb",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "summary": "Microsoft Research's Focus edition #97 rounds up work on challenges facing coding agents, how people use AI at work, and extended-range weather forecasting.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Microsoft Research"
+  ],
+  "storyId": "c1d5df7fdedb"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+  "title": "The NYT Cooking app is testing AI recipe modifications",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-29T14:39:37.000Z",
+  "snippet": "The AI tool provides recommendations and adjusts the recipe accordingly. | Image: The New York Times The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any number of servings, and \"generally make our recipes work for what a cook needs at that moment.\" One of the examples given in the article shows a user asking to use baby spi…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/NYT-Cooking-AI-recipe-modification-feature-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cec407323f5f",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "The New York Times is testing an AI feature in its Cooking app that suggests ingredient substitutions and scales recipes, and some users have objected.",
+  "whyItMatters": "An example of user backlash to AI features in a trusted editorial product.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "The New York Times",
+   "NYT Cooking"
+  ],
+  "storyId": "cec407323f5f"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+  "title": "Trump declares robot imports a national security threat",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-29T19:07:53.000Z",
+  "snippet": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/6k_quick_delivery_robots-1152x648.jpg",
+  "id": "cfed78c7b300",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:09.715Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+  "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T13:00:00.000Z",
+  "snippet": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Scott-Kwin-1.jpg?resize=1200,800",
+  "id": "d0e2301d55a3",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Deepgram acquired Daily, the maker of the Pipecat open-source voice agent framework, to strengthen its voice AI infrastructure.",
+  "whyItMatters": "Consolidation in voice AI infrastructure affects the stack many voice agent builders rely on.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Deepgram",
+   "Daily",
+   "Pipecat"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.817Z",
+  "storyId": "d0e2301d55a3"
+ },
+ {
+  "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+  "title": "How we detect frontier model misalignment",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-29T09:00:00.000Z",
+  "snippet": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+  "id": "d28967fce9c6",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "OpenAI describes using layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+  "whyItMatters": "Gives a look at how a leading lab operationalizes safety for agents, relevant for anyone deploying them.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-29T21:52:09.737Z",
+  "storyId": "a720d84afe9d"
+ },
+ {
+  "url": "https://huggingface.co/blog/announcing-project-protostar",
+  "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "id": "e1c742c1d925",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Hugging Face announced Project ProtoStar, an effort to make publicly funded scientific data and research AI-ready.",
+  "whyItMatters": "Better-structured public science data could become training and evaluation material for open models.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Project ProtoStar"
+  ],
+  "storyId": "e1c742c1d925"
+ },
+ {
+  "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+  "title": "Why are good developers so wary of agentic development?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T13:58:41.000Z",
+  "score": 82,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50289162",
+  "id": "e73b1e188559",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Martin Fowler's site explores why good developers are wary of agentic development.",
+  "whyItMatters": "Useful perspective on adoption friction for coding agents on engineering teams.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Martin Fowler"
+  ],
+  "storyId": "e73b1e188559"
+ },
+ {
+  "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+  "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T12:41:56.000Z",
+  "score": 324,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50288019",
+  "id": "eebb63f2228b",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "Gemini 4 Carbon ranks first on the Artificial Analysis Intelligence Index v5.",
+  "whyItMatters": "A new top model on a widely watched independent benchmark shifts the picks for builders choosing a frontier model.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Google",
+   "Gemini 4 Carbon",
+   "Artificial Analysis"
+  ],
+  "image": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
+  "imageCheckedAt": "2026-10-29T21:52:09.966Z",
+  "storyId": "65e05126788d"
+ },
+ {
+  "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+  "title": "Granite Switch 4.1.1 — Update models like you update software",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-29T13:37:07.000Z",
+  "id": "f3538b6fb36f",
+  "fetchedAt": "2026-10-29T21:51:37.853Z",
+  "enrichedAt": "2026-10-29T21:52:00.444Z",
+  "summary": "IBM's Granite Switch 4.1.1 is released, pitched as a way to update models the way you update software.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "IBM",
+   "Granite Switch"
+  ],
+  "storyId": "f3538b6fb36f"
  }
 ]
