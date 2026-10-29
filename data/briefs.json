@@ -186,48 +186,6 @@
    }
   }
  },
- "34b0bf3f94c3": {
-  "storyId": "34b0bf3f94c3",
-  "itemIds": [
-   "34b0bf3f94c3",
-   "6318bf62f2c5",
-   "41e0dc889e76",
-   "5ca8bf6a7f7b"
-  ],
-  "writtenAt": "2026-10-28T21:43:47.456Z",
-  "headline": "Google announces Gemini 4 Carbon, limited to cyber defenders at first",
-  "dek": "Two weeks after Gemini 4 Argon, Google says Carbon tops the Artificial Analysis Intelligence Index at 59 and leads cyber benchmarks, but access starts with select Fairwind Program partners at $2/$10 per million tokens.",
-  "keyPoints": [
-   "Google says Carbon ranks #1 on Artificial Analysis Intelligence Index v5.0 with a score of 59, ahead of Claude Opus 5.5 and GPT-6 Astra.",
-   "Cyber benchmarks cited by Google: SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%. Google says secure-code success is more than 2x Argon's on internal tests.",
-   "Access starts this week for a subset of cyber defenders via the Fairwind Program; Google is in the U.S. government's voluntary pre-release testing and gives no wide-release date.",
-   "Introductory pricing matches Argon: $2 per million input tokens, $10 per million output tokens, cached input 95% cheaper. Ars Technica reports the price will double later, with no end date given.",
-   "Carbon rose 89 Elo points to #4 (1768) on WebDev Arena. Ars Technica says Carbon beats Argon only by slim margins and may be a post-training upgrade."
-  ],
-  "context": "Gemini 4 Argon launched two weeks earlier with a similar staged rollout and discounted pricing. Google's frontier rivals, OpenAI and Anthropic, have models scoring in a similar range on most benchmarks, so Carbon's lead is a matter of a few points. The release also continues the trend of labs gating their most cyber-capable models behind trusted-partner programs.",
-  "whatsNext": "Watch for Google to finish the U.S. government's voluntary testing and widen Carbon beyond Fairwind partners, and for a date when the introductory price ends.",
-  "article": {
-   "whatHappened": [
-    "Google DeepMind announced Gemini 4 Carbon, which it calls its strongest model, with what it describes as state-of-the-art cybersecurity and long-horizon capabilities. The release comes two weeks after Gemini 4 Argon. Google says Carbon ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59.",
-    "Carbon is not generally available. Starting this week, Google is giving it to a subset of cyber defenders and plans to phase in more trusted partners through its Fairwind Program. The company says it is taking part in the U.S. government's voluntary pre-release testing process and is still gathering feedback and iterating on guardrails before opening it to developers, businesses and consumers.",
-    "Google cites SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation and CWE-bench (71.0%) for patching. It says internal tests show more than twice Argon's success rate at generating secure code, and that the Chrome team found Carbon more than 10 times better than another lab's frontier model at producing high-quality patches. On WebDev Arena, Carbon gained 89 Elo points to reach fourth place at 1768.",
-    "Pricing matches Argon's introductory rate: $2 per million input tokens and $10 per million output tokens, with cached input tokens 95% cheaper. Google says Carbon is built for sustained agentic work and that internal teams have seen it run for days on multi-step engineering problems such as tracing and patching subtle bugs."
-   ],
-   "whyItMatters": [
-    "Ars Technica is more skeptical of the framing. It notes that Carbon beats Argon by slim margins on every test Google published, and that Google presents it as a new model although it could be a post-training upgrade of Argon. It also points out that every frontier model scores in the same neighborhood, with Carbon ahead of GPT-6 Astra, Claude Opus 5.5 and Claude Fable 5.1 by only a few points.",
-    "The cybersecurity focus is the notable part. Google is positioning Carbon for the whole defense lifecycle of detection, validation and remediation, and is restricting early access to defenders. Dual-use capability, particularly in exploitation benchmarks, is the reason Google gives for a deliberate rollout. The Chrome and Wiz comments are Google-side claims and have not been independently verified in the coverage.",
-    "On safety, Ars Technica reports that in the Grey Swan evaluation Carbon resisted every attempted prompt-injection attack, a 0 percent success rate for attackers versus 0.7 percent for Argon, 1 percent for Opus 5.5 and 8.5 percent for GPT-6 Astra. The Verge adds that Google says Carbon halves unsupported claims compared with Argon."
-   ],
-   "whatToWatch": [
-    "Google has not promised a timeline for broad availability. Ars Technica says that if Carbon follows Argon, it could arrive in a couple of weeks, probably first for AI Ultra subscribers and Gemini API developers, though that is its expectation rather than a Google commitment.",
-    "The introductory price is temporary, and Ars Technica reports it will double once the period ends. Argon's discounted rate runs through the end of November, but Google has declined to give an end date for Carbon."
-   ],
-   "pullQuote": {
-    "text": "Carbon illustrates the pace at which we’re pushing the frontier forward.",
-    "by": "Google DeepMind"
-   }
-  }
- },
  "421acab06078": {
   "storyId": "421acab06078",
   "itemIds": [
@@ -281,34 +239,35 @@
    "40066215b8c1",
    "9daa2cd43fa5",
    "e4dbba9a243c",
-   "1b16f2a2a47a"
+   "1b16f2a2a47a",
+   "ea370fdd96af"
   ],
-  "writtenAt": "2026-10-28T11:25:50.851Z",
-  "headline": "Anthropic files public S-1 for Nasdaq IPO under ticker ANT",
-  "dek": "Anthropic's public filing shows $16.3 billion in first-half revenue, an $80.7 billion net loss driven by noncash charges, and a founder-controlled governance structure ahead of a Nasdaq listing.",
+  "writtenAt": "2026-10-29T11:36:23.174Z",
+  "headline": "Anthropic files public S-1 for Nasdaq IPO under ticker ANT, showing $16.3B in H1 revenue",
+  "dek": "Anthropic's public S-1 shows $16.3 billion in first-half 2026 revenue, an $80.7 billion net loss driven by non-cash charges, and a founder-controlled governance structure, ahead of a Nasdaq listing as \"ANT.\"",
   "keyPoints": [
-   "Anthropic plans to list on Nasdaq as \"ANT\". Its first-half 2026 revenue was $16.3 billion, up from $1.2 billion a year earlier, per TechCrunch's reading of the filing.",
-   "Net loss was $80.7 billion, mostly noncash charges tied to convertible notes. Operating loss was $693 million, down from $2.1 billion in the first half of 2025.",
-   "Compute commitments include up to $120.5 billion through 2029 to SpaceX for Nvidia GPUs, at least $114.5 billion to Google and $110 billion to Amazon.",
-   "Seven cofounders in a \"Founder LLC\" will hold 50.1% of voting power, and the Long-Term Benefit Trust will appoint most of the board.",
-   "Anthropic has not disclosed how much it hopes to raise or its proposed share price."
+   "Anthropic reports $16.3 billion in H1 2026 revenue, up from $1.2 billion a year earlier, with an operating loss of $693 million, per TechCrunch.",
+   "The $80.7 billion H1 net loss is mostly non-cash accounting charges tied to convertible notes the company issued for funding, according to the filing and reporting.",
+   "Compute commitments include up to $120.5 billion with SpaceX by 2029, at least $114.5 billion with Google, $110 billion with Amazon and $44.9 billion with Microsoft.",
+   "Seven cofounders in a \"Founder LLC\" will hold 50.1% of voting power; the Long-Term Benefit Trust will appoint most of the board.",
+   "Anthropic has not disclosed how much it plans to raise or its proposed share price."
   ],
-  "context": "Anthropic filed confidentially in June and the S-1 contents had leaked in recent weeks. It is moving to list ahead of OpenAI, its main rival. The filing is a rare look at the finances of a frontier AI lab, and at how a company that stresses safety plans to run as a public one.",
-  "whatsNext": "Watch for the amended filing with the price range and raise size; Latent Space noted the IPO had been expected around Nov 9.",
+  "context": "Anthropic filed confidentially in June, and leaked drafts of the S-1 circulated for weeks before the public filing. The Verge reports the listing would come ahead of an OpenAI IPO. The filing is the first detailed look at the finances of one of the leading frontier AI labs.",
+  "whatsNext": "Watch for the price range and size of the offering, which Anthropic has not yet disclosed; Latent Space notes the IPO had been expected around Nov 9.",
   "article": {
    "whatHappened": [
-    "Anthropic has publicly filed its S-1 registration statement with the US Securities and Exchange Commission, setting up an initial public offering on Nasdaq under the ticker \"ANT\". The company filed confidentially in June. The public document, about 335 pages with roughly 100 on risk factors, gives the first official account of its finances, plans and governance.",
-    "According to the filing, Anthropic recorded $16.3 billion in revenue in the first half of 2026, against $1.2 billion in the same period of 2025. Its operating loss was $693 million, down from $2.1 billion. The net loss was $80.7 billion, which TechCrunch and The Verge attribute mostly to noncash accounting charges tied to convertible notes. Anthropic says it \"may not achieve or sustain profitability in the future.\"",
-    "The filing also describes enterprise demand. At the end of September, Anthropic had more than 11,900 customers spending at least $100,000 a year, 1,900 spending $1 million or more, and about 250 spending $10 million or more. The Verge reports commitments including $44.9 billion with Microsoft through 2033, at least $114.5 billion with Google through 2033, and $110 billion with Amazon over ten years."
+    "Anthropic has made its S-1 registration statement public, setting up a Nasdaq listing under the ticker \"ANT.\" The company filed confidentially in June. The Verge reports it is positioned to go public before OpenAI. The document runs 335 pages, about 100 of them on risk, according to MIT Technology Review.",
+    "The filing reports revenue of $16.3 billion for the first half of 2026, compared with $1.2 billion in the same period of 2025, according to TechCrunch. The operating loss was $693 million, down from $2.1 billion a year earlier. The net loss was $80.7 billion, which the coverage attributes mostly to non-cash charges on convertible notes. Anthropic says it \"may not achieve or sustain profitability in the future.\"",
+    "The filing also details enterprise adoption and compute spending. As of the end of September, Anthropic had more than 11,900 customers paying $100,000 or more a year, 1,900 paying $1 million or more, and about 250 paying $10 million or more. Compute commitments include about $3.1 billion a month to SpaceX for Nvidia GPUs once capacity is delivered, up to $120.5 billion by 2029."
    ],
    "whyItMatters": [
-    "The filing sets out a governance structure that is likely to draw scrutiny. Seven cofounders, including Dario and Daniela Amodei, will form a \"Founder LLC\" with 50.1% of voting power, and the Long-Term Benefit Trust will appoint most of the board. TechCrunch notes that voting power will not track the founders' economic ownership, leaving public shareholders little practical control.",
-    "The risk language is unusual for a prospectus. Anthropic warns that its technology could pose \"catastrophic or existential risks to humanity\", that its models might develop \"forms of sentience\", and that no single insurer could likely underwrite catastrophic AI risk. MIT Technology Review argues the document is also a piece of storytelling, in which business success depends on managing what the company has built.",
-    "Latent Space, summarizing posts from analysts on social media, reports a Q2 operating profit of $974 million, 48% of first-half revenue sold through cloud marketplaces such as Bedrock, Vertex and Azure, and an 85% gross margin. Those figures come from secondary readings of the filing, and Latent Space itself advises caution on derived cash-flow numbers. They also conflict with TechCrunch's report of a first-half operating loss, possibly because of differing treatment of stock compensation."
+    "The numbers are large even by the standards of AI. Latent Space, summarizing posts on X, reports a $974 million operating profit in the second quarter, 48% of first-half revenue flowing through cloud marketplaces, and about $9.7 billion in implied lifetime burn. Those figures are derived by commentators and some of them conflict, so they warrant caution. The headline net loss is largely an accounting effect: Latent Space says it reflects $81.1 billion of non-cash charges on instruments that convert at far below the Series H price.",
+    "Governance is the sharper point of contention. Seven cofounders, including Dario and Daniela Amodei, will form a \"Founder LLC\" holding 50.1% of voting power, which Anthropic says is meant to preserve its safety mission. TechCrunch notes that public shareholders will have little practical control over a company that itself describes possible \"catastrophic or existential risks to humanity.\"",
+    "The prospectus is also unusual in tone. It lists risks such as models developing \"forms of sentience,\" and MIT Technology Review argues the document is an exercise in narrative control. The Verge notes the filing says no single insurer could likely underwrite catastrophic AI risk. The cloud partners are both suppliers and distributors, and Amazon and Google are also holders of convertible notes."
    ],
    "whatToWatch": [
-    "Anthropic has not said how much it hopes to raise or at what price. An amended filing with a price range would show how investors are valuing it; MIT Technology Review cites a valuation above $1.5 trillion and Latent Space about $2 trillion.",
-    "Also open is how the compute commitments, which run into the next decade, weigh on the company if growth slows."
+    "Anthropic has not said how much it hopes to raise or at what price. Latent Space says the IPO had been expected around Nov 9, though that timing is from social media reports rather than the filing. Its lockup reportedly staggers over more than a year rather than the usual 180-day cliff.",
+    "Also watch how investors treat the compute commitments, which run into the 2030s, and whether the governance structure draws pushback before pricing."
    ],
    "pullQuote": {
     "text": "We encourage you, as a prospective owner of our stock, not to think of your purchase in purely transactional terms",
@@ -468,6 +427,50 @@
    "pullQuote": {
     "text": "Terms are still being negotiated, both outlets report, so they could ultimately change.",
     "by": "TechCrunch"
+   }
+  }
+ },
+ "65e05126788d": {
+  "storyId": "65e05126788d",
+  "itemIds": [
+   "65e05126788d",
+   "34b0bf3f94c3",
+   "6318bf62f2c5",
+   "41e0dc889e76",
+   "5ca8bf6a7f7b",
+   "8266ea920e51"
+  ],
+  "writtenAt": "2026-10-29T11:35:58.274Z",
+  "headline": "Google announces Gemini 4 Carbon, tops Artificial Analysis index but limits access",
+  "dek": "Google's Gemini 4 Carbon, released two weeks after Argon, scores 59 on Artificial Analysis Intelligence Index v5.0 and is initially limited to cyber defenders in the Fairwind Program, at $2/$10 per million tokens.",
+  "keyPoints": [
+   "Google says Carbon ranks #1 on Artificial Analysis Intelligence Index v5.0 with 59; Latent Space reports the previous top score was Claude Opus 5.5 at 58.",
+   "Google reports 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench, and more than 2x Argon's success rate in generating secure code.",
+   "Access starts this week for a subset of cyber defenders via the Fairwind Program; Google gives no date for developers, businesses or consumers.",
+   "Introductory pricing is $2 per million input and $10 per million output tokens; Artificial Analysis lists standard pricing at $4/$20 with a launch discount that has no end date.",
+   "Ars Technica notes Carbon beats Argon by slim margins and that rivals score in the same range; Latent Space says Claude Code with Opus 5.5 beats Carbon on its coding agent index."
+  ],
+  "context": "Carbon follows Gemini 4 Argon by about two weeks and keeps the same staged-release approach, with Google taking part in the US government's voluntary pre-release testing process. It arrives as Google competes with Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Astra at the top of independent leaderboards, with cybersecurity capability a central selling point.",
+  "whatsNext": "Watch for the timing of broader availability through Google's product surfaces and for when the introductory API price ends, which Google has not specified.",
+  "article": {
+   "whatHappened": [
+    "Google DeepMind announced Gemini 4 Carbon, which it calls its strongest model, with what it describes as state-of-the-art cybersecurity and long-horizon capabilities. Google says Carbon ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59. The model arrives roughly two weeks after Gemini 4 Argon.",
+    "Google reports 88.2% on SEC-bench Pro for finding vulnerabilities, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching. It says Carbon more than doubles Argon's success rate in generating secure code on internal benchmarks, and that the Chrome team found it more than 10 times better than another lab's large frontier model at producing high-quality patches. Carbon also rose 89 Elo points to fourth place (1768) on WebDev Arena.",
+    "Availability is narrow. Starting this week, Carbon goes to a subset of cyber defenders, with access phased in to more trusted partners through the Fairwind Program. Google says it is taking part in the US government's voluntary pre-release testing process and is iterating on guardrails before offering the model to developers, businesses and consumers. It gave no date for that wider release.",
+    "Pricing matches Argon's introductory rate of $2 per million input tokens and $10 per million output tokens, with cached input tokens 95% cheaper. Artificial Analysis, as summarized by Latent Space, lists standard pricing at $4 and $20 with a 50% launch discount that has no end date."
+   ],
+   "whyItMatters": [
+    "Carbon is the first model from Google DeepMind to take the top spot on the Artificial Analysis index, according to Latent Space, which puts it ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57). The margins are small, though. Ars Technica notes that Carbon beats Argon by slim margins on every test Google supplied, that frontier models score in the same neighborhood, and that Carbon could even be a post-training upgrade of Argon. That is the publication's speculation, not something Google has said.",
+    "Independent results are mixed. Latent Space's roundup shows Carbon behind Claude Code with Opus 5.5 on the Coding Agent Index (59 versus 62) and behind GPT-6 Astra, Opus 5.5 and Sonnet 5.5 on FrontierSWE. It leads on several knowledge and reasoning evals, and uses fewer output tokens per task than Opus. Its hallucination rate on Artificial Analysis's Omniscience test rose from 4% to 11% versus Argon, though that remains the second lowest measured. The coding-agent results were measured in Google's Antigravity CLI, so other harnesses are untested.",
+    "The staged rollout reflects the dual-use nature of the cyber results. Google frames the gains as defensive, but the same benchmarks measure exploitation, which is why it is routing the model through vetted defenders and government testing before general release."
+   ],
+   "whatToWatch": [
+    "The main open question is when Carbon reaches developers and consumers. Google has made no promises on timing; Ars Technica suggests that, if it follows Argon, the wait could be a couple of weeks, and that AI Ultra subscribers and Gemini API developers may get it first.",
+    "Pricing is also unsettled. Ars Technica reports the discounted rate will double when the introductory period ends, and Google declined to give an end date, suggesting none has been decided. Argon's discounted rates run through the end of November."
+   ],
+   "pullQuote": {
+    "text": "Carbon illustrates the pace at which we’re pushing the frontier forward.",
+    "by": "Google DeepMind"
    }
   }
  },
@@ -768,6 +771,43 @@
    "pullQuote": {
     "text": "As far as I can tell, nothing about this blog post makes the problems any easier",
     "by": "Chris Potts, Stanford University"
+   }
+  }
+ },
+ "9b7dd4a7a685": {
+  "storyId": "9b7dd4a7a685",
+  "itemIds": [
+   "9b7dd4a7a685"
+  ],
+  "writtenAt": "2026-10-29T11:36:07.685Z",
+  "headline": "Google takes ads in AI Mode global as Search ad growth slows to 12%",
+  "dek": "Announced on Alphabet's Q3 call, the international rollout of AI Mode ads comes as revenue rose 25% to $127.6 billion, Search growth slowed to 12% and shares fell 8%.",
+  "keyPoints": [
+   "Google is expanding ads in AI Mode to international markets, plus multi-turn ads and AI Mode ads in the U.S., Philipp Schindler said on the Q3 call.",
+   "Alphabet Q3 revenue rose 25% to $127.6 billion; Google Search revenue grew 12%, down from 17% in Q2 and 19% in Q1. Shares fell 8%.",
+   "Schindler says click-through rates for sponsored product listings in AI Mode are comparable to organic listings; Google's user research suggests people find the ads relevant.",
+   "Pichai says AI Mode queries are three times longer than traditional searches, and one in five AI Mode searches globally involves voice, images or documents.",
+   "Google Cloud revenue rose 103% to $30.7 billion; Google Services, including Search, brought in $96.3 billion, up 11%."
+  ],
+  "context": "Google announced Gemini-powered ad formats in May, including conversational discovery ads and sponsored recommendations inside AI-generated answers. Investors have been watching whether AI answers can be monetized as well as classic search results, so the deceleration in Search growth raises the stakes for the AI Mode rollout.",
+  "article": {
+   "whatHappened": [
+    "Google said it is bringing ads in its AI-powered Search experiences to international markets for the first time. The announcement came Wednesday during Alphabet's third-quarter earnings call, alongside the expansion of multi-turn ads and AI Mode in the U.S.",
+    "Alphabet reported revenue of $127.6 billion, up 25% year over year. Google Search revenue grew 12%, down from 17% in the second quarter and 19% in the first. Alphabet shares fell 8% after the results.",
+    "Philipp Schindler, Google's chief business officer, said the company is scaling ads within AI Overviews and AI Mode to more users and queries. He said click-through rates for sponsored product listings in AI Mode are already comparable to those for organic listings, and that Google's user research indicates people find the ads relevant.",
+    "CEO Sundar Pichai said Search queries grew at their fastest year-over-year rate in five years, without giving the figure. He said AI Mode queries are on average three times longer than traditional searches, and one in five AI Mode searches globally involves voice, images or documents. Google has passed 50 billion visual searches per month."
+   ],
+   "whyItMatters": [
+    "The deceleration in Search growth puts pressure on Google to turn its AI features into a real source of ad revenue. Taking AI Mode ads global is the company's clearest answer so far, though the earnings report gives no AI-specific ad revenue figure.",
+    "The move builds on the Gemini-powered ad formats Google announced in May, which include conversational discovery ads that respond to users' questions and sponsored recommendations integrated into AI-generated answers.",
+    "Elsewhere in the results, Google Services, which includes Search, generated $96.3 billion, up 11%. Google Cloud grew 103% to $30.7 billion. The quarter also included the release of Gemini 4 Argon, the Gemini app passing 1 billion monthly users and the Pixel 11 launch."
+   ],
+   "whatToWatch": [
+    "Key questions are which international markets get AI Mode ads first and how quickly, as the coverage does not give a schedule. Also worth watching is whether the click-through parity Schindler cites holds as the formats reach more queries, and whether Search growth stabilizes in coming quarters."
+   ],
+   "pullQuote": {
+    "text": "This includes taking our monetization footprint global for the first time.",
+    "by": "Philipp Schindler, Google chief business officer"
    }
   }
  },
