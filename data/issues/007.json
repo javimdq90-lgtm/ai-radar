@@ -1,0 +1,284 @@
+{
+ "number": 7,
+ "date": "2026-10-30T12:43:22.505Z",
+ "subject": "Gemini 4 Carbon tops the index, but only defenders get it",
+ "preview": "Mistral opens a trillion-parameter model, and Microsoft offers buyouts to about 60,000 staff.",
+ "intro": "The best model on one leaderboard is now one most people can't use, while an open-weight release landed with a gap between its claims and independent tests. Earnings week also showed what AI spending does to the rest of the business: slower Search growth at Google and buyout offers at Microsoft.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "65e05126788d",
+     "headline": "Google's Gemini 4 Carbon takes first place on Artificial Analysis, with access limited to cyber defenders",
+     "body": "Google released Gemini 4 Carbon two weeks after Argon. It leads Artificial Analysis Intelligence Index v5.0 with 59, ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57), per Latent Space. Google reports 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench. Access starts with a subset of cyber defenders through the Fairwind Program at $2/$10 per million tokens, with no date for wider release.",
+     "why": "A one-point lead is thin, and Ars Technica says Carbon beats Argon by slim margins and may be a post-training upgrade. The notable part is a top model shipping first to defenders only."
+    }
+   ]
+  },
+  {
+   "heading": "Models",
+   "stories": [
+    {
+     "storyId": "a1765f446c5b",
+     "headline": "Mistral releases open weights for Mistral Large 4, a 1-trillion-parameter model",
+     "body": "Mistral put the weights of Large 4, a multimodal model nicknamed Le Chonk, on Hugging Face and its API. Latent Space, citing Artificial Analysis, lists 1.05T total and 52B active parameters, 1M context and $0.70/$2.10 per million tokens. Mistral claims 19.7% on FrontierCode 2.0 and 41% on Terminal-Bench 4.0; Artificial Analysis reportedly measured 15% and 25%.",
+     "why": "Open weights at this size give self-hosters a serious option. The gap between vendor and independent numbers is a reason to test it on your own tasks first."
+    }
+   ]
+  },
+  {
+   "heading": "Money and policy",
+   "stories": [
+    {
+     "storyId": "9b7dd4a7a685",
+     "headline": "Google takes AI Mode ads global as Search growth slows to 12% and the stock drops",
+     "body": "On Alphabet's Q3 call, Google said it will bring ads in AI Mode to international markets for the first time and add multi-turn ads in the US. Revenue rose 25% to $127.6 billion, but Search growth slowed to 12% from 17% in Q2. Per Ars Technica, an AI Mode query earns less than a comparable web search. Shares fell 8% per TechCrunch, nearly 12% per Ars Technica. Cloud revenue rose 103% to $30.7 billion.",
+     "why": "Google still expects 2026 capex of $195 billion to $205 billion. Whether AI answers monetize as well as classic search is now the central question for its core business."
+    },
+    {
+     "storyId": "169aca9d9c2a",
+     "headline": "Microsoft offers voluntary buyouts to about 60,000 employees in four countries",
+     "body": "Microsoft is offering voluntary exit packages to roughly 60,000 employees in the US, UK, Canada and India, about a quarter of its workforce, per The Verge. Eligible staff have until December to decide. Headcount fell to about 223,000 as of June 30 from 228,000 in 2025, the first yearly decline in a decade. The packages reportedly resemble regular severance. A 4,800-person layoff came months ago, with rumors of more cuts in November and January.",
+     "why": "Nadella said people costs would fall while GPUs per researcher rose. This is the clearest sign of what that looks like in headcount."
+    },
+    {
+     "storyId": "4db20898e948",
+     "headline": "OpenAI-backed Thrive Holdings agrees to buy ADT in a $15.3 billion deal",
+     "body": "Thrive Holdings, a Thrive Capital spinout with OpenAI as partner and investor, will pay $10 per share for ADT, about $7.6 billion in equity. ADT puts the total enterprise value at $15.3 billion. Thrive says it holds over 75 companies and wants to keep them long-term while revitalizing them with AI. OpenAI supplies models, technology and forward-deployed engineers. Neither company named specific AI security products.",
+     "why": "It's a large test of buying established businesses and applying AI to them, rather than building AI-native startups. The AI plan for ADT is still unspecified."
+    }
+   ]
+  },
+  {
+   "heading": "Tools",
+   "stories": [
+    {
+     "storyId": "a01db71b034c",
+     "headline": "Google opens a Connected Apps Platform for adding apps to Gemini and Search",
+     "body": "Google launched a US-only public preview that lets developers on a waitlist submit apps to Gemini, Search or both. Integration runs through a cloud-hosted MCP server or Android MCP using AppFunctions APIs, with registration and testing in the Google Connected Console. Gemini already has more than 50 connected apps, including Adobe, Experian, Localiza and Peloton, and these reach Search over the next few weeks. Calm is a new partner.",
+     "why": "Google is betting people will use services through the assistant rather than separate apps. If you build consumer software, there's now a distribution channel to evaluate."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "0ef91bd8c8c1",
+   "text": "Microsoft posted record quarterly revenue of $92.3 billion, up 19%, its tenth straight record quarter."
+  },
+  {
+   "storyId": "7ae8eb20550e",
+   "text": "Nvidia released a free speech-to-text model covering up to 40 languages, but it handles recorded audio only, not live streams."
+  },
+  {
+   "storyId": "9fd54443238a",
+   "text": "The Wikimedia Foundation filed an amicus brief in the NYT cases against OpenAI and Microsoft, backing training on copyrighted work but not chatbot regurgitation."
+  },
+  {
+   "storyId": "b358f24cec5b",
+   "text": "Meta says it will probably delay its new business terms past November 20 after publisher backlash over AI training."
+  },
+  {
+   "storyId": "1e09943a421e",
+   "text": "Reddit is moving to a logged-in experience as search traffic declines, citing AI's effect on how people find information."
+  },
+  {
+   "storyId": "d0e2301d55a3",
+   "text": "Deepgram acquired Daily, maker of the open-source Pipecat voice agent framework."
+  },
+  {
+   "storyId": "5c450d9a985f",
+   "text": "Wabi, an app that builds mini apps and now calls itself a personal agent, raised $55 million at a $1.25 billion valuation."
+  },
+  {
+   "storyId": "f010b1f4f032",
+   "text": "An xAI subsidiary offered to buy 418 homes near its Southaven, Mississippi data center, conditional on residents not joining a noise and pollution lawsuit."
+  }
+ ],
+ "links": {
+  "65e05126788d": [
+   {
+    "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+    "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+    "source": "Interconnects"
+   },
+   {
+    "title": "Gemini 4 Carbon: Our next frontier model",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "Gemini 4 Carbon",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "source": "blog.google"
+   },
+   {
+    "title": "Gemini 4 Carbon",
+    "url": "https://news.ycombinator.com/item?id=50276792",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+    "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+    "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+    "source": "The Verge"
+   },
+   {
+    "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+    "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+    "source": "Latent Space"
+   },
+   {
+    "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+    "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+    "source": "artificialanalysis.ai"
+   },
+   {
+    "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+    "url": "https://news.ycombinator.com/item?id=50288019",
+    "source": "HN discussion"
+   }
+  ],
+  "a1765f446c5b": [
+   {
+    "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+    "url": "https://huggingface.co/blog/mistral-large4",
+    "source": "Hugging Face"
+   },
+   {
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "source": "mistral.ai"
+   },
+   {
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://news.ycombinator.com/item?id=50289418",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+    "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+    "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+    "source": "Latent Space"
+   }
+  ],
+  "9b7dd4a7a685": [
+   {
+    "title": "Google expands AI Search ads globally as core ad growth slows",
+    "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+    "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+    "source": "Ars Technica"
+   }
+  ],
+  "169aca9d9c2a": [
+   {
+    "title": "Microsoft’s AI future has fewer jobs",
+    "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+    "source": "The Verge"
+   }
+  ],
+  "4db20898e948": [
+   {
+    "title": "OpenAI-backed Thrive Holdings acquires ADT",
+    "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+    "source": "TechCrunch"
+   }
+  ],
+  "a01db71b034c": [
+   {
+    "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+    "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+    "source": "TechCrunch"
+   }
+  ],
+  "0ef91bd8c8c1": [
+   {
+    "title": "Microsoft hits 10 quarters of record- breaking revenue in a row",
+    "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+    "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+    "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+    "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+    "source": "TechCrunch"
+   }
+  ],
+  "7ae8eb20550e": [
+   {
+    "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "source": "Hugging Face"
+   },
+   {
+    "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+    "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+    "source": "TechCrunch"
+   }
+  ],
+  "9fd54443238a": [
+   {
+    "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+    "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+    "source": "The Verge"
+   }
+  ],
+  "b358f24cec5b": [
+   {
+    "title": "Meta says it’ll probably delay its controversial new business terms again",
+    "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+    "source": "The Verge"
+   }
+  ],
+  "1e09943a421e": [
+   {
+    "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+    "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+    "source": "TechCrunch"
+   }
+  ],
+  "d0e2301d55a3": [
+   {
+    "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+    "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+    "source": "TechCrunch"
+   }
+  ],
+  "5c450d9a985f": [
+   {
+    "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+    "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+    "source": "TechCrunch"
+   }
+  ],
+  "f010b1f4f032": [
+   {
+    "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+    "source": "The Verge"
+   }
+  ]
+ }
+}
