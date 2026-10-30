@@ -14378,5 +14378,753 @@
    "Troy Jackson"
   ],
   "storyId": "17fc845daf1a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+  "title": "Cracks are emerging in the AI spending boom",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T21:17:40.000Z",
+  "snippet": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
+  "id": "07912041c313",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Big Tech's multibillion-dollar AI infrastructure spending is facing mounting debt, negative cash flow and growing investor skepticism.",
+  "whyItMatters": "Sustainability of the spending boom affects funding, pricing and availability of AI services.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Big Tech"
+  ],
+  "imageCheckedAt": "2026-10-30T21:34:31.522Z",
+  "storyId": "41a783f21e16"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+  "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-30T17:38:19.000Z",
+  "snippet": "Low costs and offline security mean magnetic tape still has a job.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
+  "id": "09484dfee9e7",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Fujifilm will boost magnetic tape production fivefold as AI-driven data growth increases demand for cheap, offline archiving.",
+  "whyItMatters": "Shows AI's data appetite is rippling into storage infrastructure.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Fujifilm"
+  ],
+  "storyId": "09484dfee9e7"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+  "title": "The biggest names in AI are backing a new way to opt out of scraping",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T20:26:10.000Z",
+  "snippet": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal is proposed by Kevin Kelley, a technical lead for standards at Anthropic, as part of the Internet Engineering Task Force (IETF). It will live within a website's robots.txt file, which has long signaled which web crawlers can and can't scrape a …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "205a002f8608",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "OpenAI, Google, Microsoft and Anthropic will adopt a shared 'policy token' in robots.txt, proposed at the IETF by Anthropic's Kevin Kelley, letting publishers set AI training preferences once across companies.",
+  "whyItMatters": "Could simplify scraping opt-outs for publishers and set a de facto industry standard.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "Google",
+   "Microsoft",
+   "Anthropic",
+   "IETF"
+  ],
+  "storyId": "25cc4c9bb2e3"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+  "title": "Was I wrong about open models & cyber risks?",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-10-30T17:36:56.000Z",
+  "snippet": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+  "image": "https://substackcdn.com/image/fetch/$s_!NQ70!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png",
+  "id": "21d66635327b",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Interconnects revisits its stance on open models and cyber risk after a wave of critical vulnerability disclosures, including PHP2Shell and GitLab, dubbed 'Black October'.",
+  "whyItMatters": "Informs the debate over whether open-weight models meaningfully raise cybersecurity risk.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Interconnects",
+   "PHP2Shell",
+   "GitLab"
+  ],
+  "storyId": "21d66635327b"
+ },
+ {
+  "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+  "title": "Making it easier for websites to express AI training preferences",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-30T09:30:00.000Z",
+  "snippet": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+  "id": "25cc4c9bb2e3",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "OpenAI will honor a shared robots.txt signal that lets website operators state their AI training preferences to participating providers.",
+  "whyItMatters": "A common opt-out standard matters for anyone publishing content or building crawlers.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-30T21:34:31.387Z",
+  "storyId": "25cc4c9bb2e3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+  "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T13:00:00.000Z",
+  "snippet": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+  "id": "3e4e3eed2bbf",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Runware is building a factory to mass-produce prefabricated AI data centers on an assembly line.",
+  "whyItMatters": "Faster, standardized data center builds could ease compute capacity bottlenecks.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Runware"
+  ],
+  "storyId": "3e4e3eed2bbf"
+ },
+ {
+  "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+  "title": "US tech stocks see sharp falls over AI cost fears",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T16:13:02.000Z",
+  "score": 219,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
+  "id": "41a783f21e16",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "US tech stocks fell sharply over fears about AI costs, according to the BBC.",
+  "whyItMatters": "Investor worries over AI spending could affect funding and infrastructure plans.",
+  "category": "business",
+  "importance": 3,
+  "entities": [],
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+  "imageCheckedAt": "2026-10-30T21:34:31.446Z",
+  "storyId": "41a783f21e16"
+ },
+ {
+  "url": "https://github.com/dbreunig/nesformer",
+  "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T16:40:22.000Z",
+  "score": 143,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
+  "id": "58bdc6b4d610",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "A Show HN project runs a working Nintendo emulation-style experience within about 1GB of Qwen weights.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Qwen"
+  ],
+  "storyId": "58bdc6b4d610"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+  "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T14:00:00.000Z",
+  "snippet": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free.",
+  "id": "62373f3f48e1",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://openai.com/index/credit-saison",
+  "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-29T00:00:00.000Z",
+  "snippet": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+  "id": "6750c2461412",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Credit Saison reports a 954% ROI from a ChatGPT Enterprise pilot, which grew into companywide adoption.",
+  "whyItMatters": "It is a vendor-published case study, so treat the ROI figure with caution.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "Credit Saison",
+   "ChatGPT Enterprise"
+  ],
+  "storyId": "6750c2461412"
+ },
+ {
+  "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+  "title": "Backdoors in official Claude Code extensions",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T11:05:53.000Z",
+  "score": 649,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50302334",
+  "id": "7e2aaf184ac3",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Reports describe backdoors in extensions posing as official Claude Code extensions.",
+  "whyItMatters": "It adds to evidence of a wider campaign targeting AI coding tool users.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Claude Code"
+  ],
+  "storyId": "bf5aaab63512"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.40647",
+  "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-28T20:00:00.000Z",
+  "snippet": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each ass…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40647.png",
+  "id": "83164272268b",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "SpecSlot is a pixel-space rectified-flow Transformer that decouples output detail from global attention sequence length by handling low-frequency structure globally and high-frequency detail locally.",
+  "whyItMatters": "It could reduce the attention cost of high-resolution pixel-space image generation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SpecSlot"
+  ],
+  "storyId": "83164272268b"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+  "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-30T16:53:49.000Z",
+  "snippet": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg",
+  "id": "871b81f930c7",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "The DOJ says thousands of AI-driven 'ghost students' have stolen millions in federal student loans, and is stepping up its crackdown.",
+  "whyItMatters": "It shows AI-enabled fraud is hitting government systems at scale.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "DOJ"
+  ],
+  "storyId": "871b81f930c7"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+  "title": "Silicon Valley wants you to invest in miracles",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T13:11:05.000Z",
+  "snippet": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, Anthropic suggests in a letter at the top of its S-1 filing, you have to just believe. Anthropic's 335-page S-1 prospectus, filed Monday, is part of a steady hype escalation in Silicon Valley's interactions with Wall Street. In some ways, it's not even that bizarre; SpaceX IPO'd…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "8bf6d6694350",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Anthropic's 335-page S-1 prospectus, filed Monday, includes a letter saying AI could pose catastrophic risks or bring an 'age of miracles', in a pattern of escalating hype aimed at Wall Street.",
+  "whyItMatters": "An Anthropic IPO filing is a major milestone for the AI industry and its financing.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "52c4e7935441"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+  "title": "Basically no one is using AI agents for their DoorDash orders",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-30T19:30:52.000Z",
+  "snippet": "But it's still early days for the relatively new e-commerce use case.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2301817894-1024x648.jpg",
+  "id": "8f65b6637c02",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Data indicates almost no one is using AI agents to place DoorDash orders, though the use case is still new.",
+  "whyItMatters": "Tempers hype about agentic commerce adoption.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "DoorDash"
+  ],
+  "storyId": "e9e7beb52b83"
+ },
+ {
+  "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+  "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-30T21:09:54.000Z",
+  "snippet": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg",
+  "id": "93351cbb4cc4",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Anthropic's VS Code extension on Cursor was backdoored for nearly 12 hours; how attackers accessed Anthropic's verified Cursor account is still unknown.",
+  "whyItMatters": "Developers using AI coding extensions face real supply-chain risk and should review installed extensions.",
+  "category": "tools",
+  "importance": 4,
+  "entities": [
+   "Anthropic",
+   "Cursor",
+   "VS Code"
+  ],
+  "storyId": "bf5aaab63512"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.39301",
+  "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-28T20:00:00.000Z",
+  "snippet": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordinate system, and a few fusion layers let video frames attend to concurrent audio, bringing cross-mod…",
+  "score": 48,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39301.png",
+  "id": "995c90cb5d11",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Youtu-Parsing-Omni is an omni-modal parser that uses one shared encoder and one schema to turn documents, images, audio and video into structured records grounded in space and time.",
+  "whyItMatters": "It targets the perception layer for agents that need to locate and cite evidence across modalities.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Youtu-Parsing-Omni"
+  ],
+  "storyId": "995c90cb5d11"
+ },
+ {
+  "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+  "title": "Anthropic Cracking Down on Video Game Rewrites",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T14:22:52.000Z",
+  "score": 94,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
+  "id": "9b894388109d",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Anthropic is reportedly cracking down on AI-assisted rewrites of video games.",
+  "whyItMatters": "It hints at how Anthropic enforces usage policies around Claude and IP.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "9b894388109d"
+ },
+ {
+  "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+  "title": "AI isn't replacing SREs, it's deskilling them",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T15:52:18.000Z",
+  "score": 419,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
+  "id": "9e37c40a85b3",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "An essay argues AI isn't replacing site reliability engineers but is deskilling them.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [],
+  "storyId": "9e37c40a85b3"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+  "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T13:01:14.000Z",
+  "snippet": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, the world deserves to understand how the universe works,\" Altman said during an episode of the Cheeky Pint podcast released Thursday. \"But I do have empathy for the method.\" His comments mark one of the first times the OpenAI chief has directly acknowledged the compan…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "a4231a3499cd",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Sam Altman said on the Cheeky Pint podcast that he sympathizes with mathematicians overwhelmed by OpenAI's stream of AI-generated results but won't stop, hinting at more discoveries to come.",
+  "whyItMatters": "It shows OpenAI doubling down on AI-driven math and science output despite friction with the research community.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Sam Altman",
+   "OpenAI"
+  ],
+  "storyId": "a4231a3499cd"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+  "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T17:47:12.000Z",
+  "snippet": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+  "id": "a457451f7b0a",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Zest launched an AI concierge that works over text, combining a group's tastes, running a vote on restaurant options, and booking the reservation.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Zest"
+  ],
+  "storyId": "a457451f7b0a"
+ },
+ {
+  "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+  "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T10:22:51.000Z",
+  "score": 397,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50301983",
+  "id": "a510883f6a1b",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "A Claude Code VS Code extension containing a backdoor was released on the Cursor marketplace.",
+  "whyItMatters": "Developers should verify extension publishers before installing AI tooling.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Claude Code",
+   "Cursor"
+  ],
+  "imageCheckedAt": "2026-10-30T21:34:31.490Z",
+  "storyId": "bf5aaab63512"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+  "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T17:38:04.000Z",
+  "snippet": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More Perfect Union. It sounds similar to the technology that Taco Bell is experimenting with, which could change the layout, content, and visuals on a digital menu board \"on a car-by-car basis.\" McDonald's also recently showed off an AI-…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "abf1986abc86",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Starbucks CEO Brian Niccol said the company will explore AI that recognizes customers at the drive-thru and shows personalized digital menus, similar to Taco Bell experiments.",
+  "whyItMatters": "Another sign of AI personalization moving into fast-food ordering.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Starbucks",
+   "Brian Niccol",
+   "Taco Bell"
+  ],
+  "storyId": "abf1986abc86"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+  "title": "Last-minute Halloween costumes for tech nerds",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T21:26:59.000Z",
+  "snippet": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+  "id": "ade2d7581a3b",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "TechCrunch lists tech-themed Halloween costume ideas, including an AI agent icon and a PHP vulnerability.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "TechCrunch"
+  ],
+  "storyId": "ade2d7581a3b"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+  "title": "nemotron-halloween",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-10-30T17:57:24.000Z",
+  "id": "b2263e9f8412",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "A Hugging Face item titled 'nemotron-halloween', apparently related to NVIDIA's Nemotron models; no details provided.",
+  "category": "open-source",
+  "importance": 1,
+  "entities": [
+   "Hugging Face",
+   "Nemotron"
+  ],
+  "storyId": "b2263e9f8412"
+ },
+ {
+  "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+  "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T17:27:25.000Z",
+  "score": 210,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
+  "id": "b329cc4aaa4c",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Blackstone says Anthropic may not secure an investment-grade credit rating after its IPO.",
+  "whyItMatters": "Signals financial-market caution about the heavy capital needs of frontier labs.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Blackstone"
+  ],
+  "imageCheckedAt": "2026-10-30T21:34:31.485Z",
+  "storyId": "52c4e7935441"
+ },
+ {
+  "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+  "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T07:09:12.000Z",
+  "score": 655,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
+  "id": "bf5aaab63512",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "A Claude Code extension for VS Code listed on the Cursor Marketplace was found to contain a backdoor.",
+  "whyItMatters": "Malicious extensions impersonating AI coding tools are a real supply-chain risk for developers installing from marketplaces.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Claude Code",
+   "Cursor",
+   "VS Code"
+  ],
+  "image": "https://phorion.io/images/default-social-card.png",
+  "imageCheckedAt": "2026-10-30T21:34:31.490Z",
+  "storyId": "bf5aaab63512"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+  "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T14:58:06.000Z",
+  "snippet": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many of the ideas Pope Leo laid out in his first major papal document in May, which highlighted \"safeguarding the human person in the time of artificial intelligence.\" In line with his encyclical, Pope Leo tells participants that \"Mac…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c4bb3b9b5d21",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Pope Leo XIV urged UN member states to take concrete steps toward banning lethal autonomous weapons at their Geneva meeting next month, saying AI should be 'disarmed' and that machines are tools, not persons.",
+  "whyItMatters": "A prominent moral voice adds pressure to the autonomous weapons debate.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Pope Leo XIV",
+   "United Nations"
+  ],
+  "storyId": "c4bb3b9b5d21"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+  "title": "Google’s satellite AI server transmits its first response to Earth",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T18:21:38.000Z",
+  "snippet": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in silent grace Starlight feeds my core. ✨ Google says it tried out other space-themed limericks and telemetry prompts as well. The test is part of Google's Project Suncatcher, an experimental initiative that could eventually put AI data centers in space. Google launch…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c6c587b774df",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Google booted TPUs on a satellite and ran Gemma 4 on board, which answered a prompt for a space haiku, as part of Project Suncatcher, an experiment toward space-based AI data centers.",
+  "whyItMatters": "An early proof point for running AI inference in orbit.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemma 4",
+   "Project Suncatcher",
+   "TPU"
+  ],
+  "storyId": "fc6c72287137"
+ },
+ {
+  "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+  "title": "Community safety report and new protections for teens",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-30T09:00:00.000Z",
+  "snippet": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+  "id": "c7606af40dbb",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "OpenAI is expanding ChatGPT's violence-prevention safeguards, adding earlier interventions and new protections for teens, and committing to public safety reporting.",
+  "whyItMatters": "It signals growing pressure on AI labs to publish safety data and tighten protections for minors.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "imageCheckedAt": "2026-10-30T21:34:31.375Z",
+  "storyId": "c7606af40dbb"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+  "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+  "sourceId": "msr",
+  "publishedAt": "2026-10-30T13:05:28.000Z",
+  "snippet": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances.",
+  "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/FromSyntheticEnterprise-BlogHeroFeature-1400x788-1-1024x576.jpg",
+  "id": "c76597c7b398",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Microsoft Research describes using synthetic enterprise data to evaluate Copilot at scale, since real enterprise data is too sensitive to use for testing.",
+  "whyItMatters": "It offers a pattern for evaluating AI products when real data is off-limits.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Microsoft",
+   "Copilot"
+  ],
+  "storyId": "c76597c7b398"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.39302",
+  "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-28T20:00:00.000Z",
+  "snippet": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation whenever their positive pairs are two observations of one scene--good views--and their misalignment i…",
+  "score": 47,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39302.png",
+  "id": "c8f4db4ef10f",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "A paper proves a Platonic Representation Theorem: JEPAs trained separately on different modalities learn the same representation up to a rotation when their positive pairs are good views of one scene.",
+  "whyItMatters": "It gives theoretical grounding to the idea that models converge across modalities, though it is mainly of academic interest.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "JEPA"
+  ],
+  "storyId": "c8f4db4ef10f"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+  "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-30T20:40:13.000Z",
+  "snippet": "People who love AI don't always love telling others they used it.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-1152x648.jpg",
+  "id": "d6402cbeb2e6",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Dartmouth's provost, who had warned about AI cheating, lost his job over his own undisclosed AI use.",
+  "whyItMatters": "Highlights ongoing tensions around AI disclosure and integrity in academia.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Dartmouth"
+  ],
+  "storyId": "d6402cbeb2e6"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+  "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T16:03:45.000Z",
+  "snippet": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+  "id": "d906f2ca87fc",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Theranos whistleblower Tyler Shultz warns that the AI boom, with unprofitable companies raising at trillion-dollar valuations, is 'a great opportunity to go deceive people'.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Tyler Shultz",
+   "Theranos"
+  ],
+  "storyId": "d906f2ca87fc"
+ },
+ {
+  "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+  "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T17:24:45.000Z",
+  "score": 232,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
+  "id": "da44a73a6396",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:31.308Z",
+  "summary": "Proton's CEO has canceled planned AI-driven 'Re-Interviews' after backlash, according to 404 Media.",
+  "whyItMatters": "Shows the reputational risk of using AI in hiring or employee evaluation.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Proton"
+  ],
+  "storyId": "6a4dc94a574c"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+  "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T13:54:25.000Z",
+  "snippet": "DoorDash said that it is open to working with third-party agent makers.",
+  "id": "e9e7beb52b83",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "DoorDash says it has received only 'several hundred' orders from AI agents and is open to working with third-party agent makers.",
+  "whyItMatters": "It is a data point suggesting agentic commerce is still tiny in practice.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "DoorDash"
+  ],
+  "storyId": "e9e7beb52b83"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+  "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T13:00:00.000Z",
+  "snippet": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+  "id": "f63058a65b72",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+  "title": "Google’s first data center satellite is online and writing poetry",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T17:00:00.000Z",
+  "snippet": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
+  "id": "fc6c72287137",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Google's first data center satellite is online, with a TPU in space running a Google DeepMind Gemma 4 model that writes poetry.",
+  "whyItMatters": "It is an early demo of orbital AI compute, though mostly a novelty for now.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Google DeepMind",
+   "Gemma 4",
+   "TPU"
+  ],
+  "imageCheckedAt": "2026-10-30T21:34:31.540Z",
+  "storyId": "fc6c72287137"
+ },
+ {
+  "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+  "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-28T12:24:25.000Z",
+  "score": 122,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50272479",
+  "id": "feb4caa835f1",
+  "fetchedAt": "2026-10-30T21:34:00.425Z",
+  "enrichedAt": "2026-10-30T21:34:19.953Z",
+  "summary": "Google Research introduces a 'Sleep' framework that helps LLMs retain previously learned knowledge during continual learning.",
+  "whyItMatters": "Mitigating catastrophic forgetting would make it easier to keep deployed models updated without full retraining.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Google Research"
+  ],
+  "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+  "imageCheckedAt": "2026-10-30T21:34:31.636Z",
+  "storyId": "feb4caa835f1"
  }
 ]

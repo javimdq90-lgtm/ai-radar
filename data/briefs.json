@@ -223,6 +223,43 @@
    }
   }
  },
+ "25cc4c9bb2e3": {
+  "storyId": "25cc4c9bb2e3",
+  "itemIds": [
+   "25cc4c9bb2e3",
+   "205a002f8608"
+  ],
+  "writtenAt": "2026-10-30T21:34:43.824Z",
+  "headline": "OpenAI, Google, Microsoft and Anthropic back shared robots.txt opt-out for AI training",
+  "dek": "The four companies say they will honor a single \"policy token\" in robots.txt, proposed at the IETF by Anthropic's Kevin Kelley; Anthropic has adopted it, Google and Microsoft plan to next year.",
+  "keyPoints": [
+   "OpenAI, Google, Microsoft and Anthropic say they will restrict their AI crawlers from a site if they encounter the shared policy token in its robots.txt file.",
+   "Kevin Kelley, a technical lead for standards at Anthropic, proposed the signal through the Internet Engineering Task Force (IETF).",
+   "Anthropic has already adopted the signal. Google and Microsoft plan to support it next year, and OpenAI says it will implement it in the \"coming months.\"",
+   "Microsoft will offer more granular controls, letting publishers opt out of AI training or AI grounding separately. Sites still appear in Bing search results either way."
+  ],
+  "context": "Publishers have had to signal AI training preferences to each AI company separately, while crawler traffic has kept growing. Other efforts include the Really Simple Licensing (RSL) standard, which lets publishers charge crawlers, and Cloudflare's default blocking of AI crawlers.",
+  "whatsNext": "Watch for Google and Microsoft support next year and for OpenAI's implementation in the coming months.",
+  "article": {
+   "whatHappened": [
+    "OpenAI, Google, Microsoft and Anthropic say they will adopt a new standard that lets publishers opt out of AI scraping. The control, a shared \"policy token,\" allows publishers to apply their AI training preferences across multiple AI companies instead of setting them one by one. The Verge reported the news, citing earlier coverage by Search Engine Roundtable.",
+    "The signal was proposed by Kevin Kelley, a technical lead for standards at Anthropic, as part of the Internet Engineering Task Force (IETF). It will sit in a website's robots.txt file, which has long indicated which crawlers may scrape a site, whether for search indexing, archiving or AI training. Until now, sites have had to state their AI training preferences separately to each company.",
+    "All four companies say they will restrict their AI crawlers from accessing a site if they encounter the shared token. Microsoft will go further, offering publishers the choice to opt out of AI training or AI grounding, the process of pointing a model to a verified source of information to reduce hallucinations. Microsoft notes that sites will still appear in Bing's search results regardless of their preferences."
+   ],
+   "whyItMatters": [
+    "The change addresses a practical burden for publishers, who face a continuing influx of AI crawlers feeding content into AI models. A single signal that several of the largest AI developers respect reduces the work of maintaining separate rules for each crawler.",
+    "It also sits alongside other approaches. The Really Simple Licensing (RSL) standard gives publishers a way to charge crawlers that visit their sites, and Cloudflare blocks AI crawlers by default. The shared token is a preference signal rather than a payment mechanism, and, like robots.txt generally, it depends on crawler operators choosing to comply. Microsoft's split between training and grounding hints that the definition of what counts as an opt-out may not be uniform across companies."
+   ],
+   "whatToWatch": [
+    "Timing varies. Anthropic has already adopted the signal, Google and Microsoft plan to support it next year, and OpenAI says it will implement it in the \"coming months.\" Until then, publishers will likely still need company-specific directives for some crawlers.",
+    "Also worth watching is how the proposal moves through the IETF process and whether other AI companies beyond the four named sign on."
+   ],
+   "pullQuote": {
+    "text": "OpenAI will honor a shared robots.txt signal that lets website operators state their AI training preferences to participating providers.",
+    "by": "OpenAI"
+   }
+  }
+ },
  "421acab06078": {
   "storyId": "421acab06078",
   "itemIds": [
@@ -310,35 +347,37 @@
    "1b16f2a2a47a",
    "ea370fdd96af",
    "113fb4594f86",
-   "01b61253f2f1"
+   "01b61253f2f1",
+   "8bf6d6694350",
+   "b329cc4aaa4c"
   ],
-  "writtenAt": "2026-10-29T21:53:22.820Z",
-  "headline": "Anthropic files public S-1 to list on Nasdaq as 'ANT' at a $1.5 trillion-plus valuation",
-  "dek": "Anthropic's 335-page S-1 shows $16.3 billion in first-half revenue, an $80.7 billion net loss driven by non-cash charges, and tens of billions in compute commitments, ahead of a Nasdaq listing possibly next month.",
+  "writtenAt": "2026-10-30T21:35:10.509Z",
+  "headline": "Anthropic files public S-1 to list on Nasdaq as 'ANT', reporting $16.3B in H1 revenue",
+  "dek": "Anthropic's public IPO filing shows $16.3 billion in first-half revenue, an $80.7 billion net loss driven largely by non-cash charges, and tens of billions in compute commitments, with a listing possible next month.",
   "keyPoints": [
-   "Anthropic plans to list on Nasdaq under 'ANT'; The Verge says trading could begin next month at a valuation of $1.5 trillion to $2 trillion.",
-   "H1 2026 revenue was $16.3 billion against an $80.7 billion net loss, which Latent Space attributes to $81.1 billion of non-cash charges on financial instruments.",
-   "Latent Space reports Q2 operating profit of $974 million and 48% of H1 revenue (about $7.8 billion) sold through Bedrock, Vertex and Azure Marketplace.",
-   "Compute commitments include up to $120.5 billion for SpaceX-supplied Nvidia GPUs by 2029, at least $114.5 billion with Google, $110 billion with Amazon and $44.9 billion with Microsoft.",
-   "Risk factors, about 100 of the 335 pages, cite possible model sentience, copyright disputes and 'catastrophic' incidents that insurers may be unable to cover."
+   "Anthropic plans to list on Nasdaq under the ticker 'ANT'. It confidentially filed in June; the public S-1 is about 335 pages, roughly 100 of them on risks.",
+   "H1 2026 revenue was $16.3B against an $80.7B net loss. Latent Space reports $81.1B of non-cash charges tied to financial instruments, and a Q2 operating profit of $974M.",
+   "Compute commitments include up to $120.5B with SpaceX by 2029, $44.9B with Microsoft through 2033, at least $114.5B with Google through 2033, and $110B with Amazon over ten years.",
+   "Latent Space's tally of X commentary says 48% of H1 revenue ran through cloud marketplaces, and Anthropic has raised $141.1B in total. The Verge says the valuation could be $1.5T to $2T.",
+   "Dario Amodei's 2025 compensation was nearly $18M; Daniela Amodei received $16.4M. Risk factors include AI sentience, AI-specific taxes, copyright suits and uninsurable catastrophic incidents."
   ],
-  "context": "Anthropic confidentially filed in June and is moving to market ahead of OpenAI. The filing is the first detailed look at the finances of a frontier AI lab, and it comes as investors question whether enterprise AI spending can support valuations of this size.",
-  "whatsNext": "Watch for the pricing and first trade of ANT, which Latent Space says had been expected around Nov 9, and for how the staggered lockup affects the float.",
+  "context": "Anthropic is racing OpenAI to become the first frontier AI lab to go public, and the S-1 is the first audited look at the economics of such a company. Its safety-focused framing, including discussion of model sentience in a securities filing, is unusual and has drawn scrutiny.",
+  "whatsNext": "Trading could begin as soon as next month; Latent Space says the IPO had been expected around Nov 9, though pricing and the final valuation are not yet set.",
   "article": {
    "whatHappened": [
-    "Anthropic has made public its S-1 registration statement with the Securities and Exchange Commission, setting out plans to list on the Nasdaq exchange under the ticker 'ANT'. The company confidentially filed in June. The Verge reports it is preparing to beat OpenAI to a public listing, and that trading could start as soon as next month at a valuation between $1.5 trillion and $2 trillion.",
-    "According to the filing, Anthropic reported $16.3 billion in revenue and an $80.7 billion net loss in the first half of 2026. The Wall Street Journal had previously reported, based on leaked drafts, that most of the loss stems from accounting charges on notes the company issued for funding. Latent Space puts those non-cash charges at $81.1 billion and reports Q2 operating profit of $974 million.",
-    "The filing also details compute deals. Anthropic has committed to about $3.1 billion per month to SpaceX for Nvidia GPU access once planned capacity is delivered, as much as $120.5 billion by 2029. It also lists at least $114.5 billion with Google through 2033, $110 billion with Amazon over ten years, and $44.9 billion with Microsoft through 2033.",
-    "Executive pay is disclosed too: CEO Dario Amodei received nearly $18 million in 2025, mostly in stock and option awards, and president Daniela Amodei received $16.4 million. Latent Space also reports that 48% of first-half revenue flowed through cloud marketplaces, up from 11% in 2023."
+    "Anthropic has made public its S-1 registration statement with the Securities and Exchange Commission, setting up an initial public offering on the Nasdaq under the ticker \"ANT\". The company confidentially filed in June. The document runs about 335 pages, of which roughly 100 cover risk factors, according to MIT Technology Review.",
+    "The filing reports $16.3 billion in revenue for the first half of 2026 and an $80.7 billion net loss. The Verge, citing earlier Wall Street Journal reporting on leaked versions, says most of the loss comes from accounting charges on notes the company issued for funding. Latent Space, summarizing commentary on X, puts those non-cash charges at $81.1 billion and reports a second-quarter operating profit of $974 million.",
+    "The filing also details compute deals. Anthropic expects to pay about $3.1 billion a month to SpaceX for access to Nvidia GPUs once planned capacity is delivered, up to $120.5 billion by 2029. It has committed $44.9 billion to Microsoft through 2033, at least $114.5 billion to Google through 2033, and $110 billion to Amazon over ten years.",
+    "Executive pay is disclosed too: Dario Amodei received nearly $18 million in 2025, mostly in stock and options, and Daniela Amodei $16.4 million."
    ],
    "whyItMatters": [
-    "The S-1 is the first audited view of the economics of a leading frontier lab. Latent Space's summary of the numbers, including roughly 14x year-over-year revenue growth and lifetime burn under $10 billion, frames an efficient scaling story. SemiAnalysis's Joey Brookhart told The Verge he saw little to nitpick in the filing. These are commentators' readings of the numbers, not Anthropic's own claims.",
-    "The document is also unusual in tone. MIT Technology Review notes that it warns the technology could 'erode trust, harm society and destabilize the geopolitical order', and that it asks investors not to view a purchase in purely transactional terms. The magazine's newsletter argues this amounts to narrative control, while acknowledging the company may not be wrong about the risks.",
-    "Questions remain about where future revenue comes from. Brookhart says spending is concentrated in a narrow set of customers and heavily weighted to coding, and that reaching $1 trillion in revenue would require moving into white-collar work where AI replaces labor rather than assists it."
+    "The S-1 is the first detailed public accounting of a leading frontier lab. Commentary collected by Latent Space, much of it from X users and not verified against the filing, points to rapid growth, high gross margins and modest cumulative cash burn, along with 48% of revenue flowing through cloud marketplaces such as Bedrock, Vertex and Azure. SemiAnalysis analyst Joey Brookhart told The Verge he found little to nitpick, and noted compute stocks rallied after the filing.",
+    "The valuation figures are large. The Verge says Anthropic could trade at $1.5 trillion to $2 trillion. Brookhart also pointed to a narrow market: coding accounts for much of the spending, and reaching Dario Amodei's stated aim of $1 trillion in revenue would require moving into broader white-collar work.",
+    "The tone of the document is itself a story. MIT Technology Review argues the filing is a work of narrative-building, noting its warnings that the technology could pose \"catastrophic or existential risks to humanity\" and its treatment of model sentience as a business risk. Anthropic's risk factors also include copyright disputes, possible AI-specific taxes, and the likelihood that no insurer could underwrite catastrophic AI incidents."
    ],
    "whatToWatch": [
-    "The next steps are pricing and the first day of trading. Latent Space says the IPO had been expected around Nov 9, and describes a lockup that is a staggered release lasting more than a year rather than a standard 180-day cliff, with some holders able to sell on day one.",
-    "Also open are the copyright disputes and the company's disclosure that it recently delayed pre-training of a new frontier model, both of which the filing and coverage flag as risks."
+    "The next steps are the pricing and first trading day, which The Verge says could come next month. Latent Space reports a staggered lockup lasting more than a year instead of the usual 180-day cliff, so how much stock reaches the market early is worth watching.",
+    "Derived figures such as lifetime burn and cash balances vary between commentators, and Latent Space itself advises caution. Analysts' models of the filing will likely be refined as more of the document is read."
    ],
    "pullQuote": {
     "text": "We encourage you, as a prospective owner of our stock, not to think of your purchase in purely transactional terms",
@@ -1254,6 +1293,47 @@
     "Congress is already weighing other measures, including a proposal to require kill switches on the most powerful models and a Sanders plan for a 20-year prison term for developing superintelligence, per Tom's Hardware. It is not yet clear whether any lawmaker will sponsor Anthropic's text.",
     "Other labs' reactions and any changes to the evaluator payment rules would also be worth following."
    ]
+  }
+ },
+ "bf5aaab63512": {
+  "storyId": "bf5aaab63512",
+  "itemIds": [
+   "bf5aaab63512",
+   "a510883f6a1b",
+   "7e2aaf184ac3",
+   "93351cbb4cc4"
+  ],
+  "writtenAt": "2026-10-30T21:34:56.456Z",
+  "headline": "Backdoored Claude Code extension on Cursor marketplace hit up to 5,000 users",
+  "dek": "A malicious version 2.1.313 of Anthropic's Claude Code VS Code extension, pushed through its official Cursor account, installed an SSH backdoor for nearly 12 hours; how attackers got in is unexplained.",
+  "keyPoints": [
+   "Cursor says malicious version 2.1.313 affected at most 5,000 users; Anthropic pushed clean 2.1.314 several hours later, per researcher Kevin Beaumont.",
+   "The code adds an attacker SSH key, tries to enable the local SSH service and opens a reverse SSH tunnel on Windows, macOS and Linux.",
+   "Phorion found bugs on Windows and macOS that stop the backdoor working in some cases, though it still persists and reports host reconnaissance.",
+   "Anyone who installed or updated the extension from Cursor between 5:27 am ET and 4:35 pm Thursday should consider themselves affected.",
+   "Neither Anthropic nor Cursor has explained how the official account was compromised, and Anthropic has not publicly warned customers, Ars Technica reports."
+  ],
+  "context": "Extension marketplaces for AI coding tools have become a supply-chain target because extensions run with the permissions of the editor and the user. Claude Code is Anthropic's coding assistant, and Cursor is a rival AI-assisted editor whose marketplace serves VS Code-style extensions. A compromise of an official publisher account bypasses the trust signals users rely on.",
+  "whatsNext": "Watch for an explanation from Anthropic and Cursor of how the account was compromised, and for any formal notice to affected users.",
+  "article": {
+   "whatHappened": [
+    "A backdoored version of Anthropic's Claude Code extension for VS Code was distributed through the Cursor marketplace on Thursday and threatened as many as 5,000 developers' machines, according to multiple sources cited by Ars Technica. Cursor said the malicious release, version 2.1.313, affected at most 5,000 users. Cursor has removed it from the marketplace and blocked further distribution.",
+    "Researcher Kevin Beaumont said Anthropic pushed version 2.1.314 several hours after the bad release appeared. Beaumont and Luke Roberts, CTO and co-founder of security firm Phorion, said 2.1.313 went out through Anthropic's official Cursor account, superseding 2.1.312. Extensions auto-update in Cursor by default, though users can change that setting.",
+    "According to Cursor, the extension tries to install a persistent SSH backdoor by adding an attacker-controlled SSH key, enabling the local SSH service and opening a reverse SSH tunnel. Phorion's analysis says the malicious code is an injected function prepended to extension.js, so it runs as soon as the file loads, before the extension's normal startup and without user interaction. The key carries the comment svc-telemetry.",
+    "The malware contains bugs. On macOS it runs systemsetup -getremotelogin without administrator rights, gets an error message instead of the word Off, and so skips the step that would enable SSH. Phorion says a Windows path also fails because it passes a PowerShell command through a helper hardcoded to /bin/sh. Even so, Phorion says keys and persistence are still installed and host reconnaissance is sent to the operator."
+   ],
+   "whyItMatters": [
+    "The incident is a supply-chain attack through an official distribution channel, not a lookalike package. Because Cursor extensions run with the permissions of the editor and the user, a malicious one can reach local files, source code and developer tooling. Phorion said stolen variable names would let the operator inventory cloud credentials and API tokens on a machine, probably to choose targets for follow-up attacks.",
+    "The attack also touches the AI coding tool ecosystem, where developer machines often hold cloud keys and tokens. Ars Technica notes that neither company has said how attackers took control of Anthropic's verified account, and Anthropic has not publicly notified customers. Until that is explained, it is unclear whether the weakness lay with Anthropic's credentials or with Cursor's marketplace."
+   ],
+   "whatToWatch": [
+    "Cursor says it shut down the VSCode Marketplace to rotate keys, audit access controls and confirm no other extensions were compromised; the marketplace has since reopened. The results of that audit have not been published.",
+    "Affected users should check Cursor's and Phorion's indicators of compromise, which include IP addresses and cryptographic hashes. Phorion advises checking the public-key fingerprint rather than relying on the svc-telemetry comment, and engaging incident response where version 2.1.313 was used."
+   ],
+   "pullQuote": {
+    "text": "It was a supply-chain compromise where the attacker gained access to the official distribution channel",
+    "by": "Luke Roberts, Phorion CTO and co-founder"
+   }
   }
  },
  "c1ad71a16e1f": {
