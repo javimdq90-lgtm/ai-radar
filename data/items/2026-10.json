@@ -13923,7 +13923,7 @@
    "Meta",
    "Instagram"
   ],
-  "storyId": "bde015e58f37"
+  "storyId": "4683a3b03315"
  },
  {
   "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
@@ -14091,5 +14091,292 @@
    "Granite Switch"
   ],
   "storyId": "f3538b6fb36f"
+ },
+ {
+  "url": "https://fig.blue/posts/duet-is-the-future/",
+  "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T17:24:25.000Z",
+  "score": 118,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50292727",
+  "id": "11ef932bb8b9",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "A blog post argues that Claude Duet is the first personal-assistant-style harness that feels genuinely useful.",
+  "whyItMatters": "Signals movement toward practical personal-agent harnesses built on Claude.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Claude Duet",
+   "Anthropic"
+  ],
+  "storyId": "11ef932bb8b9"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.39633",
+  "title": "Intrinsic Distribution Matching",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-28T20:00:00.000Z",
+  "snippet": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A decomposition of the reverse-KL field into a Gaussian moment component and a non-Gaussian residual i…",
+  "score": 232,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.39633.png",
+  "id": "13b40bac05ea",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "A paper proposes Intrinsic Distribution Matching, adding an explicit moment constraint to distribution matching distillation to improve one-step and few-step text-to-image generation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "13b40bac05ea"
+ },
+ {
+  "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+  "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-30T08:24:29.000Z",
+  "snippet": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+  "id": "371b1e06db16",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "Latent Space's AINews recap covers Mistral's open-weight release, frontier monitoring and the day's social media discussion, alongside plans for the AIE CODE coding agent conference.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Mistral",
+   "Latent Space"
+  ],
+  "storyId": "a1765f446c5b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+  "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T01:20:48.000Z",
+  "snippet": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+  "id": "3f421dfac052",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "David Durman, a University of Kentucky administrator, earned a religious exemption from using AI in the workplace.",
+  "whyItMatters": "An early example of workplace AI mandates being challenged on legal and religious grounds.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "David Durman",
+   "University of Kentucky"
+  ],
+  "storyId": "31ebe027e441"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.38352",
+  "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-27T20:00:00.000Z",
+  "snippet": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning. Its agent harness maintains shared production state so that tool feedback informs subsequent decisions and repairs. Because finished videos do not expose these decisions, our four-stage data pipeline combin…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.38352.png",
+  "id": "561eab6b0b2a",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "WeVisCut is an agentic system that turns narration scripts into long-form videos, using a harness with shared production state and policy learning from a four-stage data pipeline.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "WeVisCut"
+  ],
+  "storyId": "561eab6b0b2a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+  "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-29T23:42:22.000Z",
+  "snippet": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+  "id": "720b04b8c5b9",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "Amazon CEO Andy Jassy said AWS could become a $1 trillion revenue business, but Amazon must keep up heavy capex spending on AI cloud computing first.",
+  "whyItMatters": "Shows the scale of infrastructure investment underpinning AI cloud capacity.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "AWS",
+   "Amazon",
+   "Andy Jassy"
+  ],
+  "imageCheckedAt": "2026-10-30T11:27:47.711Z",
+  "storyId": "0ef91bd8c8c1"
+ },
+ {
+  "url": "https://convo.casa/@b/117525936178835007",
+  "title": "Proton goes all in on using AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T21:49:28.000Z",
+  "score": 100,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50296602",
+  "id": "923d025e66a5",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "Proton is making a major push into AI across its products, according to a commentary post.",
+  "whyItMatters": "A privacy-focused company embracing AI shows how widespread the shift has become.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Proton"
+  ],
+  "storyId": "6a4dc94a574c"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.40599",
+  "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-28T20:00:00.000Z",
+  "snippet": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: each card is a single token, and a set diffusion transformer denoises all cards together. From a si…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40599.png",
+  "id": "929ef2bf1b43",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "HairDeck generates animation-ready stylized hair cards from a single image, treating a hairstyle as an unordered set of cards denoised together by a set diffusion transformer, replacing CHARM's autoregressive approach.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "HairDeck",
+   "CHARM"
+  ],
+  "storyId": "929ef2bf1b43"
+ },
+ {
+  "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+  "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T09:00:00.000Z",
+  "snippet": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger the open web. In an amicus brief filed Friday, the nonprofit behind Wikipedia weighed in on a set of lawsuits pitting publishers including The New York Times against OpenAI and Microsoft, taking neither side. \"Wikimedia is concerned that the …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "9fd54443238a",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "The Wikimedia Foundation filed an amicus brief in the NYT v. OpenAI and Microsoft copyright cases, urging courts to protect LLM training on copyrighted work but not chatbots regurgitating it.",
+  "whyItMatters": "A nuanced stance from a major nonprofit could shape how courts draw lines between training and output in AI copyright law.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Wikimedia Foundation",
+   "OpenAI",
+   "Microsoft",
+   "The New York Times"
+  ],
+  "storyId": "9fd54443238a"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50301479",
+  "title": "Ask HN: Are you tired too in this AI era?",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T09:17:43.000Z",
+  "score": 97,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50301479",
+  "id": "b91e16468749",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "An Ask HN thread asks whether others feel fatigued by the current AI era.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [],
+  "storyId": "b91e16468749"
+ },
+ {
+  "url": "https://github.com/mottopanikeiku/doomformer",
+  "title": "Show HN: I Turned DOOM into a Transformer",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T23:25:46.000Z",
+  "score": 96,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50297697",
+  "id": "c8776eb352e9",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "A developer released a project that implements DOOM as a transformer.",
+  "category": "open-source",
+  "importance": 1,
+  "entities": [
+   "DOOM"
+  ],
+  "storyId": "c8776eb352e9"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.38568",
+  "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-27T20:00:00.000Z",
+  "snippet": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain in…",
+  "score": 56,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.38568.png",
+  "id": "d0a61c51acd8",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "A-RSI is a recursive self-improvement method for multimodal models that uses training dynamics to decide when to introduce fresh tasks, rather than relying on self-consistency or majority voting for supervision.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "A-RSI"
+  ],
+  "storyId": "d0a61c51acd8"
+ },
+ {
+  "url": "https://huggingface.co/papers/2610.40614",
+  "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-28T20:00:00.000Z",
+  "snippet": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction w…",
+  "score": 29,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40614.png",
+  "id": "d29a393655a1",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "L3G-World introduces a Latent 3D Gaussian Memory for interactive world models, enabling spatially consistent, real-time infinite world generation without memory growing with stream length.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "L3G-World"
+  ],
+  "storyId": "d29a393655a1"
+ },
+ {
+  "url": "https://labs.ycombinator.com/projects/games/index.html",
+  "title": "We ran AI agent swarms in Minecraft and Mindustry",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T21:40:28.000Z",
+  "score": 305,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50296486",
+  "id": "d8eb5a4b641e",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.662Z",
+  "summary": "Y Combinator Labs ran swarms of AI agents in Minecraft and Mindustry to test multi-agent behavior in game environments.",
+  "whyItMatters": "Offers practical observations on how agent swarms coordinate in open-ended environments.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Y Combinator"
+  ],
+  "storyId": "d8eb5a4b641e"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+  "title": "Maine’s data center revolt will decide who controls the Senate",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T11:00:00.000Z",
+  "snippet": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger, Troy Jackson. But the fear echoing through the auditorium wasn't so easily dismissed. Just days before voters head to the polls, the rapid expansion of resource-hungry data centers has exploded into one of Maine's most volatile campaign issues. Maine dre…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_MAINE_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "fdc6e1d8e3bf",
+  "fetchedAt": "2026-10-30T11:27:34.432Z",
+  "enrichedAt": "2026-10-30T11:27:47.663Z",
+  "summary": "AI data centers have become a volatile issue in Maine's Senate race between Susan Collins and Troy Jackson, with voters voicing fears over climate and water impacts.",
+  "whyItMatters": "Local backlash against data centers is turning into electoral politics and could constrain AI infrastructure buildout.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Susan Collins",
+   "Troy Jackson"
+  ],
+  "storyId": "17fc845daf1a"
  }
 ]
