@@ -13535,7 +13535,7 @@
    "Mistral"
   ],
   "imageCheckedAt": "2026-10-29T21:52:09.797Z",
-  "storyId": "a1765f446c5b"
+  "storyId": "65e05126788d"
  },
  {
   "url": "https://openai.com/index/ropes-gray-ai-diligence",
@@ -13781,7 +13781,7 @@
   ],
   "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
   "imageCheckedAt": "2026-10-29T21:52:09.988Z",
-  "storyId": "a1765f446c5b"
+  "storyId": "65e05126788d"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
@@ -13822,7 +13822,7 @@
    "Hugging Face"
   ],
   "imageCheckedAt": "2026-10-29T21:52:09.895Z",
-  "storyId": "a1765f446c5b"
+  "storyId": "65e05126788d"
  },
  {
   "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
@@ -14145,7 +14145,7 @@
    "Mistral",
    "Latent Space"
   ],
-  "storyId": "a1765f446c5b"
+  "storyId": "65e05126788d"
  },
  {
   "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
@@ -14266,7 +14266,7 @@
    "Microsoft",
    "The New York Times"
   ],
-  "storyId": "9fd54443238a"
+  "storyId": "d2282bcce162"
  },
  {
   "url": "https://news.ycombinator.com/item?id=50301479",
@@ -14397,7 +14397,7 @@
    "Big Tech"
   ],
   "imageCheckedAt": "2026-10-30T21:34:31.522Z",
-  "storyId": "41a783f21e16"
+  "storyId": "d906f2ca87fc"
  },
  {
   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
@@ -14460,7 +14460,7 @@
    "PHP2Shell",
    "GitLab"
   ],
-  "storyId": "21d66635327b"
+  "storyId": "65e05126788d"
  },
  {
   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
@@ -14516,7 +14516,7 @@
   "entities": [],
   "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
   "imageCheckedAt": "2026-10-30T21:34:31.446Z",
-  "storyId": "41a783f21e16"
+  "storyId": "d906f2ca87fc"
  },
  {
   "url": "https://github.com/dbreunig/nesformer",
@@ -15126,5 +15126,239 @@
   "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
   "imageCheckedAt": "2026-10-30T21:34:31.636Z",
   "storyId": "feb4caa835f1"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+  "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T23:08:12.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50311311",
+  "id": "1ad66cf690a9",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Credit agencies are reportedly set to give Anthropic a high-yield 'junk' rating following its IPO, per TechCrunch.",
+  "whyItMatters": "It reflects how rating agencies see the financial risk of frontier AI labs.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+  "imageCheckedAt": "2026-10-31T10:58:53.143Z",
+  "storyId": "52c4e7935441"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+  "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T22:32:53.000Z",
+  "snippet": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring the new Siri AI to China. Instead, Apple is launching several of its earlier Apple Intelligence features like notification summaries, real-time translation, rewriting and proofreading tools, visual intelligence, and removing objects from photos. Apple also says it…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "1fff1698b18b",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, with a beta on November 4 and a full release in December. It includes earlier features like notification summaries, translation, writing tools, visual intelligence and photo object removal, but not the new Siri AI.",
+  "whyItMatters": "It opens Apple's AI features to the Chinese market, though in a limited form.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Apple",
+   "Apple Intelligence",
+   "China"
+  ],
+  "storyId": "1fff1698b18b"
+ },
+ {
+  "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+  "title": "Building an AI-native engineering org",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T21:58:34.000Z",
+  "score": 159,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
+  "id": "2f083e35c49b",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "A post on building an 'AI-native' engineering organization, with no details available beyond the title.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "2f083e35c49b"
+ },
+ {
+  "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+  "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-30T14:08:20.000Z",
+  "score": 203,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
+  "id": "32c78f8a2d41",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Cisco gave an engineer unlimited AI tokens to rewrite legacy code, according to Fortune.",
+  "whyItMatters": "It is an example of companies testing heavy AI usage for large code migrations.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Cisco"
+  ],
+  "storyId": "32c78f8a2d41"
+ },
+ {
+  "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+  "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-31T05:00:48.000Z",
+  "snippet": "It turns out you cannot have your cake AND eat it",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f13715b2-ed2d-4a14-bbf6-85f184b4b202/SCR-20261030-svzc.png?t=1793423031",
+  "id": "4505f5f4bd09",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Google admitted that AI Mode hurts Search revenue, and its stock fell 15%, a $500B drop and the worst since its 2004 IPO. The newsletter asks whether an AI bear market is coming.",
+  "whyItMatters": "It suggests AI products can cannibalize core search ad revenue.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Google",
+   "AI Mode"
+  ],
+  "storyId": "d906f2ca87fc"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+  "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-30T20:48:43.000Z",
+  "snippet": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want local inference. And somehow, they assume that the problem is solved now because we are going to have open-source models, we're going to be able to run them on our computers, and so we're not going to need all the stuff in the data center. But from a global allocation perspective, …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5a1dea183cd6",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "On the Cheeky Pint podcast, Sam Altman said it is better for RAM to sit in data centers than in personal PCs amid the ongoing RAM shortage. He dismissed the idea that open-source models running locally remove the need for data center capacity.",
+  "whyItMatters": "It signals OpenAI's view that compute should be centralized, as AI demand drives up memory prices for consumers.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Sam Altman",
+   "OpenAI"
+  ],
+  "storyId": "a4231a3499cd"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+  "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T22:56:13.000Z",
+  "snippet": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+  "id": "5d6f84404e1c",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Ollie, a privacy-focused AI assistant, is shutting down in a week, its founder says, as the market fills with AI assistants.",
+  "whyItMatters": "It illustrates how hard it is for small, privacy-first assistants to compete.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Ollie"
+  ],
+  "storyId": "5d6f84404e1c"
+ },
+ {
+  "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+  "title": "OpenAI raises less than half of $30B target",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T03:22:44.000Z",
+  "score": 154,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
+  "id": "9a1e17b51b2d",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "OpenAI has raised less than half of its $30B fundraising target, according to the WSJ.",
+  "whyItMatters": "A shortfall would signal investor caution about funding frontier AI.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-31T10:58:53.333Z",
+  "storyId": "9a1e17b51b2d"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+  "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-30T21:54:34.000Z",
+  "snippet": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
+  "id": "a977761811a9",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Intel's stock crashed, cutting $12B from the US government's stake, as PC sales suffer. AI demand for memory and other components is pushing PC prices up.",
+  "whyItMatters": "It shows AI buildout costs spilling over to the consumer hardware market.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Intel"
+  ],
+  "imageCheckedAt": "2026-10-31T10:58:53.142Z",
+  "storyId": "a977761811a9"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+  "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-31T01:20:05.000Z",
+  "snippet": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+  "id": "c6b2d3ea7917",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Nvidia is weighing cosigning a loan for Nscale's AI data center in West Virginia, to reassure nervous investors.",
+  "whyItMatters": "It shows chipmakers backstopping customers' financing to sustain AI infrastructure spending.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Nscale"
+  ],
+  "imageCheckedAt": "2026-10-31T10:58:53.145Z",
+  "storyId": "c6b2d3ea7917"
+ },
+ {
+  "url": "https://openai.com/index/fair-use-benefits-everyone",
+  "title": "Fair use benefits everyone",
+  "sourceId": "openai",
+  "publishedAt": "2026-10-30T00:00:00.000Z",
+  "snippet": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+  "id": "d2282bcce162",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "OpenAI published excerpts from court briefs by creators, academics, accessibility advocates and legal experts arguing that fair use covers AI training.",
+  "whyItMatters": "The fair use question in ongoing copyright cases will shape what data AI developers can legally train on.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-31T10:58:53.122Z",
+  "storyId": "d2282bcce162"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+  "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+  "sourceId": "ars",
+  "publishedAt": "2026-10-30T21:41:54.000Z",
+  "snippet": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-1152x648.jpg",
+  "id": "ef4c1375c469",
+  "fetchedAt": "2026-10-31T10:58:41.784Z",
+  "enrichedAt": "2026-10-31T10:58:53.069Z",
+  "summary": "Boom's supersonic airliner may be delayed as the company shifts toward powering AI data centers, and its data center power business has lost a customer.",
+  "whyItMatters": "It shows how AI data center power demand is pulling companies away from other ventures.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Boom"
+  ],
+  "storyId": "ef4c1375c469"
  }
 ]

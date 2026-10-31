@@ -349,35 +349,36 @@
    "113fb4594f86",
    "01b61253f2f1",
    "8bf6d6694350",
-   "b329cc4aaa4c"
+   "b329cc4aaa4c",
+   "1ad66cf690a9"
   ],
-  "writtenAt": "2026-10-30T21:35:10.509Z",
-  "headline": "Anthropic files public S-1 to list on Nasdaq as 'ANT', reporting $16.3B in H1 revenue",
-  "dek": "Anthropic's public IPO filing shows $16.3 billion in first-half revenue, an $80.7 billion net loss driven largely by non-cash charges, and tens of billions in compute commitments, with a listing possible next month.",
+  "writtenAt": "2026-10-31T10:59:40.294Z",
+  "headline": "Anthropic files public S-1 to list on Nasdaq as 'ANT', disclosing $16.3B in H1 revenue",
+  "dek": "Anthropic's public IPO filing shows $16.3 billion in first-half revenue, an $80.7 billion net loss driven largely by non-cash charges, and over $400 billion in compute commitments, with a Nasdaq listing as 'ANT'.",
   "keyPoints": [
-   "Anthropic plans to list on Nasdaq under the ticker 'ANT'. It confidentially filed in June; the public S-1 is about 335 pages, roughly 100 of them on risks.",
-   "H1 2026 revenue was $16.3B against an $80.7B net loss. Latent Space reports $81.1B of non-cash charges tied to financial instruments, and a Q2 operating profit of $974M.",
-   "Compute commitments include up to $120.5B with SpaceX by 2029, $44.9B with Microsoft through 2033, at least $114.5B with Google through 2033, and $110B with Amazon over ten years.",
-   "Latent Space's tally of X commentary says 48% of H1 revenue ran through cloud marketplaces, and Anthropic has raised $141.1B in total. The Verge says the valuation could be $1.5T to $2T.",
-   "Dario Amodei's 2025 compensation was nearly $18M; Daniela Amodei received $16.4M. Risk factors include AI sentience, AI-specific taxes, copyright suits and uninsurable catastrophic incidents."
+   "Anthropic plans to list on Nasdaq under 'ANT'; The Verge says trading could start next month at a valuation of $1.5 trillion to $2 trillion.",
+   "H1 2026 revenue was $16.3 billion against an $80.7 billion net loss, most of it non-cash charges tied to notes, per the filing and Latent Space.",
+   "Compute deals include up to $120.5 billion with SpaceX by 2029, $114.5 billion with Google, $110 billion with Amazon and $44.9 billion with Microsoft.",
+   "Latent Space reports Q2 operating profit of $974 million and 48% of H1 revenue sold through cloud marketplaces such as Bedrock, Vertex and Azure.",
+   "The roughly 335-page filing devotes about 100 pages to risks, including model sentience, copyright disputes and 'catastrophic' incidents, MIT Technology Review says."
   ],
-  "context": "Anthropic is racing OpenAI to become the first frontier AI lab to go public, and the S-1 is the first audited look at the economics of such a company. Its safety-focused framing, including discussion of model sentience in a securities filing, is unusual and has drawn scrutiny.",
-  "whatsNext": "Trading could begin as soon as next month; Latent Space says the IPO had been expected around Nov 9, though pricing and the final valuation are not yet set.",
+  "context": "Anthropic confidentially filed in June and now moves ahead of OpenAI toward a public listing. The two labs have driven a compute buildout financed by cloud partners and chipmakers, and the filing is the first audited look at frontier-lab economics. Its mix of heavy losses on paper and reported operating profit is a test of how investors value AI revenue.",
+  "whatsNext": "Trading could begin as soon as next month, with the IPO earlier expected around Nov 9 according to Latent Space.",
   "article": {
    "whatHappened": [
-    "Anthropic has made public its S-1 registration statement with the Securities and Exchange Commission, setting up an initial public offering on the Nasdaq under the ticker \"ANT\". The company confidentially filed in June. The document runs about 335 pages, of which roughly 100 cover risk factors, according to MIT Technology Review.",
-    "The filing reports $16.3 billion in revenue for the first half of 2026 and an $80.7 billion net loss. The Verge, citing earlier Wall Street Journal reporting on leaked versions, says most of the loss comes from accounting charges on notes the company issued for funding. Latent Space, summarizing commentary on X, puts those non-cash charges at $81.1 billion and reports a second-quarter operating profit of $974 million.",
-    "The filing also details compute deals. Anthropic expects to pay about $3.1 billion a month to SpaceX for access to Nvidia GPUs once planned capacity is delivered, up to $120.5 billion by 2029. It has committed $44.9 billion to Microsoft through 2033, at least $114.5 billion to Google through 2033, and $110 billion to Amazon over ten years.",
-    "Executive pay is disclosed too: Dario Amodei received nearly $18 million in 2025, mostly in stock and options, and Daniela Amodei $16.4 million."
+    "Anthropic has made its S-1 prospectus public, setting out plans to list on the Nasdaq under the ticker 'ANT'. The company confidentially filed with the SEC in June. The Verge reports it is preparing to beat OpenAI to a public offering, and that trading could begin as soon as next month at a valuation between $1.5 trillion and $2 trillion.",
+    "The filing shows $16.3 billion in revenue and an $80.7 billion net loss in the first half of 2026. The Verge, citing earlier Wall Street Journal reporting, says most of the loss comes from accounting charges on notes the company issued for funding. Latent Space puts the non-cash charges at $81.1 billion and reports a second-quarter operating profit of $974 million.",
+    "Compute commitments are large. Anthropic expects to pay SpaceX about $3.1 billion a month for Nvidia GPU access once planned capacity is delivered, up to $120.5 billion by 2029. It has also committed at least $114.5 billion to Google through 2033, $110 billion to Amazon over ten years, and $44.9 billion to Microsoft through 2033.",
+    "Executive pay is also disclosed. The Verge reports CEO Dario Amodei received nearly $18 million in 2025, mostly in stock and options, and president Daniela Amodei received $16.4 million."
    ],
    "whyItMatters": [
-    "The S-1 is the first detailed public accounting of a leading frontier lab. Commentary collected by Latent Space, much of it from X users and not verified against the filing, points to rapid growth, high gross margins and modest cumulative cash burn, along with 48% of revenue flowing through cloud marketplaces such as Bedrock, Vertex and Azure. SemiAnalysis analyst Joey Brookhart told The Verge he found little to nitpick, and noted compute stocks rallied after the filing.",
-    "The valuation figures are large. The Verge says Anthropic could trade at $1.5 trillion to $2 trillion. Brookhart also pointed to a narrow market: coding accounts for much of the spending, and reaching Dario Amodei's stated aim of $1 trillion in revenue would require moving into broader white-collar work.",
-    "The tone of the document is itself a story. MIT Technology Review argues the filing is a work of narrative-building, noting its warnings that the technology could pose \"catastrophic or existential risks to humanity\" and its treatment of model sentience as a business risk. Anthropic's risk factors also include copyright disputes, possible AI-specific taxes, and the likelihood that no insurer could underwrite catastrophic AI incidents."
+    "The filing gives the first detailed public view of a frontier AI lab's economics. Latent Space's roundup of reactions highlights 48% of first-half revenue, about $7.8 billion, flowing through cloud marketplaces, up from 11% in 2023. Marketplace fees sit in sales and marketing rather than cost of revenue, so they do not affect the reported 85% gross margin. Those figures come from social-media analysis of the filing and should be treated as secondary readings.",
+    "SemiAnalysis's Joey Brookhart told The Verge's Decoder there was little to criticise, and noted that the revenue base is narrow and heavily weighted toward coding. He said reaching Amodei's $1 trillion revenue ambition would require moving into white-collar work where AI shifts from augmenting labor to replacing it.",
+    "The document is also unusual in tone. MIT Technology Review's newsletter notes it warns that the technology could 'pose catastrophic or existential risks to humanity' and treats model sentience as a business risk. The newsletter argues this framing is a form of narrative control, while saying it is not claiming Anthropic is wrong. The filing also says no single insurer could likely underwrite catastrophic AI risk."
    ],
    "whatToWatch": [
-    "The next steps are the pricing and first trading day, which The Verge says could come next month. Latent Space reports a staggered lockup lasting more than a year instead of the usual 180-day cliff, so how much stock reaches the market early is worth watching.",
-    "Derived figures such as lifetime burn and cash balances vary between commentators, and Latent Space itself advises caution. Analysts' models of the filing will likely be refined as more of the document is read."
+    "The main near-term question is pricing and timing. Latent Space says the IPO had been expected around Nov 9, and The Verge says trading could start next month. The valuation range cited across coverage runs from $1.5 trillion to roughly $2 trillion.",
+    "Also open are the lockup, described as a staggered release lasting over a year rather than a 180-day cliff, and the disclosed delay of pre-training for a new frontier model, which Latent Space flags without further detail."
    ],
    "pullQuote": {
     "text": "We encourage you, as a prospective owner of our stock, not to think of your purchase in purely transactional terms",
@@ -548,37 +549,44 @@
    "6318bf62f2c5",
    "41e0dc889e76",
    "5ca8bf6a7f7b",
+   "a1765f446c5b",
    "8266ea920e51",
-   "eebb63f2228b"
+   "eebb63f2228b",
+   "8ccea7e89b70",
+   "23e63926ccea",
+   "371b1e06db16",
+   "21d66635327b"
   ],
-  "writtenAt": "2026-10-29T21:52:35.568Z",
-  "headline": "Google announces Gemini 4 Carbon, tops Artificial Analysis index but limits access to cyber defenders",
-  "dek": "Google's Gemini 4 Carbon, released two weeks after Argon, scores 59 on Artificial Analysis Intelligence Index v5.0 but is initially limited to cyber defenders in the Fairwind Program, at $2/$10 per million tokens.",
+  "writtenAt": "2026-10-31T10:59:27.615Z",
+  "headline": "Google announces Gemini 4 Carbon, tops Artificial Analysis index but limited to cyber defenders",
+  "dek": "Google's Gemini 4 Carbon, released two weeks after Argon, scores 59 on Artificial Analysis Intelligence Index v5.0, but access is limited to select cyber defenders via the Fairwind Program.",
   "keyPoints": [
-   "Carbon ranks #1 on Artificial Analysis Intelligence Index v5.0 with 59, ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57), according to Latent Space's summary.",
-   "Google reports 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench, and says Carbon more than doubles Argon's success rate in generating secure code.",
-   "Access starts this week with a subset of cyber defenders via the Fairwind Program; Google gives no date for wider availability to developers, businesses or consumers.",
-   "Introductory pricing is $2 per million input tokens and $10 per million output; Artificial Analysis lists standard pricing of $4/$20 with a launch discount that has no end date.",
-   "Ars Technica notes Carbon beats Argon by slim margins and suggests it could be a post-training upgrade of Argon; Google positions it as a new model."
+   "Google says Carbon ranks #1 on Artificial Analysis Intelligence Index v5.0 with 59, ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57).",
+   "Cyber scores Google reports: 88.2% on SEC-bench Pro, 54.8% on ExploitGym and 71.0% on CWE-bench. Google says secure-code success is over 2x Argon's.",
+   "Access starts this week with a subset of cyber defenders, then more trusted partners via Fairwind. No date is given for developers, businesses or consumers.",
+   "Introductory pricing matches Argon: $2 per million input tokens and $10 per million output tokens. Ars Technica says the price will double later; Artificial Analysis lists $4/$20 standard.",
+   "Carbon is #4 on WebDev Arena at 1768, up 89 Elo points, per Google. Latent Space notes it trails Claude Code with Opus 5.5 on one coding index."
   ],
-  "context": "Google released Gemini 4 Argon about two weeks ago, also with a staged rollout and the same introductory pricing. Carbon competes with Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Astra, and Latent Space says it may be the first time Google DeepMind has led the Artificial Analysis index. The limited release reflects the growing practice of holding back models with strong cyber capabilities while safeguards are tested.",
-  "whatsNext": "Watch for the Fairwind phase-in to widen and for Google to set a date for general availability and for the end of the introductory pricing, neither of which it has given.",
+  "context": "Gemini 4 Argon launched about two weeks earlier with a similar staged rollout, and Carbon builds on it. Google is competing with Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Astra, which led the Artificial Analysis index before Carbon. Cybersecurity capability is the stated reason for the cautious release.",
+  "whatsNext": "Watch for the widening of Fairwind access and the completion of US government pre-release testing, which would precede availability to developers and consumers; Google gives no date.",
   "article": {
    "whatHappened": [
-    "Google DeepMind announced Gemini 4 Carbon, which it calls its strongest model, with what it describes as state-of-the-art cybersecurity and long-horizon capabilities. Google says Carbon ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59. The announcement came two weeks after Gemini 4 Argon, which Carbon builds on.",
-    "On cybersecurity, Google reports 88.2% on SEC-bench Pro for finding vulnerabilities, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching. It says Carbon achieves more than a 2x improvement over Argon in success rate for generating secure code on internal benchmarks. Google also says the Chrome team found Carbon performed more than 10 times better than another lab's large frontier model at generating high-quality patches.",
-    "Carbon is not generally available. Starting this week, Google is giving a subset of cyber defenders access and will phase in additional trusted partners through its Fairwind Program. Google says it is taking part in the U.S. government's voluntary pre-release testing process and is still iterating on guardrails before opening the model to developers, businesses and consumers. Pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% cheaper."
+    "Google DeepMind announced Gemini 4 Carbon, which it calls its strongest model, with what it describes as state-of-the-art cybersecurity and long-horizon capabilities. The release comes about two weeks after Gemini 4 Argon. Google says Carbon ranks first on version 5.0 of the Artificial Analysis Intelligence Index with a score of 59.",
+    "Google reports 88.2% on SEC-bench Pro for finding vulnerabilities, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching. It says Carbon more than doubles Argon's success rate at generating secure code on internal benchmarks, and that the Chrome team found it more than 10 times better than another lab's frontier model at producing high-quality patches.",
+    "Access is limited. Starting this week, Carbon goes to a subset of cyber defenders, with additional trusted partners added gradually through the Fairwind Program. Google says it is taking part in the US government's voluntary pre-release testing process and will iterate on guardrails before opening Carbon to developers, businesses and consumers.",
+    "Pricing matches Argon's introductory rate of $2 per million input tokens and $10 per million output tokens, with cached input 95% cheaper. Ars Technica reports the price will double after the introductory period and that Google declined to give an end date."
    ],
    "whyItMatters": [
-    "Third-party numbers broadly support the headline ranking but add caveats. Latent Space's roundup of Artificial Analysis data shows Carbon leading four of the index's nine evaluations. On the Coding Agent Index it scores 59 against 62 for Claude Code with Opus 5.5, and on FrontierSWE it trails GPT-6 Astra and Opus 5.5. The same roundup says the coding results were measured in Google's Antigravity CLI, so other harnesses are untested. It also reports Carbon's hallucination rate on Omniscience rose from Argon's 4% to 11%, still second lowest measured.",
-    "Ars Technica is more skeptical, noting that Carbon beats Argon by slim margins in every test Google gave and that the gap to rivals is only a few points. It says it is possible Carbon is a post-training upgrade of Argon, though that is the outlet's speculation. The pricing is also unsettled: Artificial Analysis lists $4/$20 standard rates with a 50% launch discount, and Ars reports Google declined to say when the discount ends."
+    "Carbon puts Google at the top of a widely watched independent index. Latent Space says that may be the first time Google DeepMind has led the Artificial Analysis index. Before Carbon, Opus 5.5 scored 58 and GPT-6 Astra 57, so the margin is small. Ars Technica notes that frontier models score in the same neighborhood and that Carbon beats Argon by slim margins in every test Google shared.",
+    "The details are less uniform than the headline. Latent Space's roundup shows Carbon scoring 59 on the Coding Agent Index in Antigravity CLI versus 62 for Claude Code with Opus 5.5, and 61.2% on FrontierSWE behind Astra and Opus. It also reports Artificial Analysis seeing Carbon's hallucination rate rise from 4% to 11%, still the second lowest measured. Ars Technica questions whether Carbon is a new model or a post-training upgrade of Argon, which is speculation, not something Google has said.",
+    "The staged release reflects the cyber capabilities Google is advertising. As with Argon, the strongest results are in tasks that help defenders and could also help attackers, and Google's own benchmark numbers were evaluated without guardrails."
    ],
    "whatToWatch": [
-    "The key open questions are timing and price. Google offers no schedule for wider release beyond \"as soon as possible\"; Ars notes that Argon reached wider availability in roughly two weeks, though Google makes no such promise for Carbon.",
-    "Independent testing outside Google's own harness, and the results of the cyber defenders' early use, will show whether Carbon's lead holds up in practice."
+    "The main open question is timing. Google promises wider availability only \"as soon as possible\". Ars Technica suggests that if Carbon follows Argon, a broader release could come within a couple of weeks, though that is an estimate.",
+    "Also unresolved is the end of the discounted API price. Artificial Analysis lists a $4/$20 standard rate with a launch discount that has no end date, and Google has not said when the increase will happen."
    ],
    "pullQuote": {
-    "text": "Carbon illustrates the pace at which we’re pushing the frontier forward.",
+    "text": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
     "by": "Google DeepMind"
    }
   }
@@ -883,6 +891,38 @@
    }
   }
  },
+ "9a1e17b51b2d": {
+  "storyId": "9a1e17b51b2d",
+  "itemIds": [
+   "9a1e17b51b2d"
+  ],
+  "writtenAt": "2026-10-31T10:59:02.601Z",
+  "headline": "OpenAI has raised less than half of its $30 billion funding target, WSJ reports",
+  "dek": "The Wall Street Journal reports that OpenAI has secured less than half of the $30 billion it set out to raise; the coverage gives no further detail on investors or timing.",
+  "keyPoints": [
+   "The Wall Street Journal reports OpenAI has raised less than half of its $30 billion fundraising target.",
+   "The target is $30 billion, so the amount secured so far is under $15 billion, by the WSJ's account.",
+   "The available coverage does not name investors, valuation, deadlines or the reasons for the shortfall."
+  ],
+  "context": "OpenAI has raised very large sums to pay for model training and computing infrastructure, and a $30 billion target would rank among the largest private fundraisings on record. A shortfall against a target of that size would bear on how quickly the company can fund its compute plans. The coverage provided is a brief summary, so the details behind the figure are not yet clear.",
+  "article": {
+   "whatHappened": [
+    "OpenAI has raised less than half of the $30 billion it was targeting in its current fundraising effort, according to a report from The Wall Street Journal.",
+    "The report, as summarized in the coverage available, gives the headline figure only. It does not say how much has been committed, who the investors are, what valuation is being discussed or whether the target date has moved. OpenAI's own response is not included in the material."
+   ],
+   "whyItMatters": [
+    "A $30 billion raise would be among the largest private financings ever attempted. Frontier AI developers need large amounts of capital for chips, data centers and training runs, and OpenAI has relied on outside investors to cover those costs.",
+    "If the WSJ's account is accurate, the company has so far fallen well short of its goal. What that means is uncertain. It could reflect a raise that is still in progress, with more commitments to come, or investor hesitation over price or terms. The coverage does not say which, and the reasons should not be assumed."
+   ],
+   "whatToWatch": [
+    "The main open questions are whether OpenAI confirms or disputes the figure, whether further commitments close, and whether the target or terms change. Any statement from the company or named investors would clarify the picture."
+   ],
+   "pullQuote": {
+    "text": "OpenAI has raised less than half of its $30B fundraising target, according to the WSJ.",
+    "by": "Wall Street Journal summary"
+   }
+  }
+ },
  "9b7dd4a7a685": {
   "storyId": "9b7dd4a7a685",
   "itemIds": [
@@ -1041,48 +1081,6 @@
     "The near-term marker is the arrival of Gemini's connected apps in Search over the next few weeks, which will show how closely the two experiences line up.",
     "Open questions include when the platform leaves the US-only waitlist beta and how many developers outside Google's launch partners submit apps."
    ]
-  }
- },
- "a1765f446c5b": {
-  "storyId": "a1765f446c5b",
-  "itemIds": [
-   "a1765f446c5b",
-   "8ccea7e89b70",
-   "23e63926ccea",
-   "371b1e06db16"
-  ],
-  "writtenAt": "2026-10-30T11:28:02.608Z",
-  "headline": "Mistral releases open weights for Mistral Large 4, a 1-trillion-parameter model",
-  "dek": "Mistral has put the weights of its improved multimodal flagship on Hugging Face, claiming top open-weight coding results and cyber-defense strength, while independent tests from Artificial Analysis show lower scores.",
-  "keyPoints": [
-   "Mistral released the weights of Mistral Large 4 (\"Le Chonk\"), a 1-trillion-parameter multimodal model, on Hugging Face and via its API, weeks after a public preview.",
-   "Mistral says it scores 48% on the Artificial Analysis Coding Agent Index, tied with GLM-5.3, using 47% fewer tokens per task, and leads Cognition's FrontierCode 2.0 at 19.7%.",
-   "Latent Space, citing Artificial Analysis, lists 1.05T total and 52B active parameters, 1M context, and $0.70/$2.10 per 1M input/output tokens, about 50% below the preview.",
-   "Independent figures differ from Mistral's: Artificial Analysis reportedly gives 15% on FrontierCode 2.0 and 25% on Terminal-Bench 4.0, versus Mistral's 19.7% and 41%.",
-   "Mistral reports a 96.6% average refusal rate on malicious cyber requests and a 51% score on the Artificial Analysis Cyber Index."
-  ],
-  "context": "Mistral introduced Mistral Large 4 in public preview earlier this month and has since added reinforcement learning. The release lands as open-weight developers, including Chinese labs such as Zhipu's GLM line, compete with closed providers like OpenAI and Anthropic. Mistral is pitching self-hosted, European-trained models as the basis for sovereign AI.",
-  "whatsNext": "Watch for further independent evaluations and for how enterprises and security vendors use the weights, including the license terms for commercial model-as-a-service businesses.",
-  "article": {
-   "whatHappened": [
-    "Mistral has released the weights of Mistral Large 4, nicknamed Le Chonk, a 1-trillion-parameter, natively multimodal model. The weights are available on Hugging Face and through Mistral's API, so businesses and governments can download and deploy the model themselves. The company first released the model in public preview earlier this month and says it has since continued scaling reinforcement learning, with gains in coding, defensive cybersecurity and reasoning efficiency.",
-    "Mistral says the model is the best open-weight model for coding. It reports a 19.7% score on Cognition's private FrontierCode 2.0 benchmark, a lead among open models, and 48% on the Artificial Analysis Coding Agent Index, effectively tied with GLM-5.3 while using 47% fewer tokens per task. On Terminal-Bench 4.0 it reports 41%, up 13 points from the preview, with 30% fewer output tokens.",
-    "On security, Mistral says the model scores 51% on the Artificial Analysis Cyber Index, which covers finding, reproducing and patching vulnerabilities. It reports a 96.6% average refusal rate on malicious cyber requests, which it calls the highest it measures among open models. The model now offers three reasoning modes to trade off cost against performance.",
-    "Latent Space's roundup, citing Artificial Analysis, gives 1.05T total and 52B active parameters, a 1M-token context window, and pricing of $0.70 per million input tokens and $2.10 per million output tokens, about half the preview price. It says a separate commercial license is required for model-as-a-service businesses."
-   ],
-   "whyItMatters": [
-    "Mistral is arguing that open weights matter most in cybersecurity, where organizations want control over their data and systems. Pierre Stock, Mistral's vice president of science, told TechCrunch the open release gives access to frontier capability that cannot be cut off, and allows on-premises deployment. That is a direct contrast with the closed-model approach of OpenAI and Anthropic.",
-    "The independent numbers are more mixed than Mistral's. Latent Space, citing Artificial Analysis, reports 15% on FrontierCode 2.0 and 25% on Terminal-Bench 4.0, against Mistral's 19.7% and 41%. The listed figures also show it trailing DeepSeek V4.1 Flash and GLM-5.3 by 6 points on the Intelligence Index, though it is narrowly the top open model developed outside China. The differences may reflect different test settings, which the coverage does not explain.",
-    "The release also arrived with fast community support: vLLM serving, quantized builds and fine-tuning recipes appeared quickly, according to Latent Space. That tooling will affect how widely the model is actually used."
-   ],
-   "whatToWatch": [
-    "Further third-party benchmarks should show whether Mistral's coding and cyber claims hold up outside its own testing. Latent Space also notes an unverified claim by one security researcher of finding four zero-days in a messaging app, with no details public.",
-    "The license terms and the cost of self-hosting a model of this size will shape adoption among the enterprises and governments Mistral is targeting."
-   ],
-   "pullQuote": {
-    "text": "Access that can’t be cut off by definition because the model is open-weighted",
-    "by": "Pierre Stock, Vice President of Science at Mistral"
-   }
   }
  },
  "a2c304623a61": {
@@ -1575,6 +1573,47 @@
    "pullQuote": {
     "text": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access",
     "by": "OpenAI"
+   }
+  }
+ },
+ "d906f2ca87fc": {
+  "storyId": "d906f2ca87fc",
+  "itemIds": [
+   "d906f2ca87fc",
+   "41a783f21e16",
+   "07912041c313",
+   "4505f5f4bd09"
+  ],
+  "writtenAt": "2026-10-31T10:59:14.920Z",
+  "headline": "Alphabet loses $500B in a day after saying AI Mode is hurting Search ad revenue",
+  "dek": "Alphabet fell 12% on Thursday, its worst day on record, after saying AI Mode's lower monetization weighed on Search growth, which slowed to 12%; the Nasdaq fell about 2.8% on Friday.",
+  "keyPoints": [
+   "Alphabet stock fell 12% Thursday, erasing more than $500 billion, then dropped another 1.4% Friday. TechCrunch calls it the company's worst day on record.",
+   "Search ad growth slowed to 12%, its weakest in five quarters. Philipp Schindler said AI Mode queries had an impact because of lower monetization.",
+   "Alphabet reported negative free cash flow of $9.1 billion in Q3 and expects to spend up to $205 billion this year, with spending rising in 2027.",
+   "Intel fell 28% Friday and Reddit 29%; Reddit warned that Google's AI-driven search is hurting its referral traffic. The Nasdaq closed 2.8% lower, its worst month since March 2025.",
+   "Alphabet, Amazon, Meta and Microsoft plan more than $740 billion in capex this year, per TechCrunch. The big five tech firms raised $326 billion in debt in 2026, triple last year's amount."
+  ],
+  "context": "Publishers have long complained that Google's snippets and AI Overviews cut traffic to their sites. This week's results show the same dynamic may affect Google's own ad business. It lands as investors question whether huge AI infrastructure outlays will pay off, just before an expected Anthropic IPO and a possible OpenAI listing.",
+  "whatsNext": "Investors will watch whether AI stocks keep sliding in November, and how the selloff affects Anthropic's IPO, which it filed for this week.",
+  "article": {
+   "whatHappened": [
+    "Alphabet shares fell 12% on Thursday, the company's worst day on record according to TechCrunch, taking more than $500 billion off its market value. The drop followed third-quarter results in which Alphabet disclosed that its AI summaries, now the top answer to many search queries, were affecting its core search advertising revenue. The stock fell another 1.4% on Friday.",
+    "Google's Search advertising business, which makes up roughly half of revenue, saw growth slow to 12%, its weakest pace in five quarters. Chief Business Officer Philipp Schindler said, as quoted by Latent Space, that strong growth in AI Mode queries had an impact because of lower monetization in AI Mode. Google does not break out AI Mode figures in detail.",
+    "The selloff spread on Friday. The Nasdaq closed 2.8% lower, according to the BBC, and ended October with its worst monthly slide since March 2025. Intel fell 28%, losing more than $130 billion in value, after forecasting weak fourth-quarter revenue. Reddit dropped 29% after warning that Google's AI-driven search was hurting referral traffic, and Roblox fell 18%."
+   ],
+   "whyItMatters": [
+    "The episode puts a number on a tension that publishers have raised for years: a good AI summary reduces the need to click through. Here the affected party is Google itself, which is spending heavily on the technology that may undercut its most profitable business. Alphabet reported negative free cash flow of $9.1 billion in Q3, its second straight quarter in the red, with capex of $51.4 billion and up to $205 billion expected this year.",
+    "Alphabet is not alone. Amazon reported negative free cash flow of $42.4 billion over twelve months and plans $220 billion in capex. Meta reported negative free cash flow of $2.1 billion in the quarter. Microsoft was the exception, with $18.6 billion in positive free cash flow. S&P Global Market Intelligence data cited by TechCrunch shows five large tech companies raised $326 billion in debt in 2026, triple last year's figure.",
+    "The timing complicates the AI IPO pipeline. Anthropic filed to go public this week, and the Financial Times reported that Blackstone warned investors it might not qualify for an investment-grade rating afterward. Latent Space notes OpenAI reportedly raised at $1.25 trillion rather than $1.4 trillion."
+   ],
+   "whatToWatch": [
+    "Analysts quoted by the BBC point to the coming days as a test. XTB's Kathleen Brookes noted that November is typically a strong month for stocks, but said continued struggles could suggest the AI trade is past its peak.",
+    "Also open is whether Google can monetize AI Mode as well as classic search, and how Anthropic's IPO fares in a weaker market. Despite the drops, the Nasdaq is still up 7.8% over the past year."
+   ],
+   "pullQuote": {
+    "text": "Investors have turned ruthless, punishing any signs of disappointment in [third quarter] earnings",
+    "by": "Kathleen Brookes, research director at XTB"
    }
   }
  },
