@@ -14397,7 +14397,7 @@
    "Big Tech"
   ],
   "imageCheckedAt": "2026-10-30T21:34:31.522Z",
-  "storyId": "d906f2ca87fc"
+  "storyId": "9b7dd4a7a685"
  },
  {
   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
@@ -14516,7 +14516,7 @@
   "entities": [],
   "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
   "imageCheckedAt": "2026-10-30T21:34:31.446Z",
-  "storyId": "d906f2ca87fc"
+  "storyId": "9b7dd4a7a685"
  },
  {
   "url": "https://github.com/dbreunig/nesformer",
@@ -15033,7 +15033,7 @@
    "Tyler Shultz",
    "Theranos"
   ],
-  "storyId": "d906f2ca87fc"
+  "storyId": "9b7dd4a7a685"
  },
  {
   "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
@@ -15222,7 +15222,7 @@
    "Google",
    "AI Mode"
   ],
-  "storyId": "d906f2ca87fc"
+  "storyId": "9b7dd4a7a685"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
@@ -15360,5 +15360,149 @@
    "Boom"
   ],
   "storyId": "ef4c1375c469"
+ },
+ {
+  "url": "https://latent.space/p/arca/",
+  "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-10-31T16:05:00.000Z",
+  "snippet": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+  "image": "https://i.ytimg.com/vi/KM3VQZKjpiY/maxresdefault.jpg",
+  "id": "18eadc7cf156",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "Arca's head of AI discusses building agents for long-horizon financial work, covering persistent memory, a custom harness, and workflows that run over days.",
+  "whyItMatters": "It offers practical lessons for building long-running agents in production.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Arca",
+   "Latent Space"
+  ],
+  "storyId": "18eadc7cf156"
+ },
+ {
+  "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+  "title": "Malware uses LLMs to rank victims by how much they're worth",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T14:29:03.000Z",
+  "score": 207,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50316531",
+  "id": "5b0ac3b976a1",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "Cisco Talos reports on malware that uses LLMs to rank victims by their estimated value.",
+  "whyItMatters": "Attackers are using LLMs to prioritize targets, making attacks more efficient and targeted.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Cisco Talos"
+  ],
+  "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg",
+  "imageCheckedAt": "2026-10-31T20:29:58.465Z",
+  "storyId": "5b0ac3b976a1"
+ },
+ {
+  "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+  "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T18:50:34.000Z",
+  "score": 87,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50318871",
+  "id": "82785ab4f152",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "A blogger reports that GPT-5.6 Sol can beat the game Factorio on peaceful mode.",
+  "whyItMatters": "Long-horizon game completion is a useful informal test of agentic planning ability.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "GPT-5.6 Sol",
+   "Factorio"
+  ],
+  "storyId": "82785ab4f152"
+ },
+ {
+  "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+  "title": "Do the math: How we took over ChatGPT accounts",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T10:30:11.000Z",
+  "score": 279,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50314699",
+  "id": "a9ce9215ef28",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "Parameter.ai describes how it took over ChatGPT accounts by exploiting a flaw, with the write-up centered on a math-based trick.",
+  "whyItMatters": "Account takeover bugs in widely used AI services put user chats and data at risk.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "ChatGPT",
+   "OpenAI",
+   "Parameter.ai"
+  ],
+  "image": "https://www.parameter.ai/opengraph-image.png",
+  "imageCheckedAt": "2026-10-31T20:29:58.519Z",
+  "storyId": "a9ce9215ef28"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+  "title": "OpenAI reportedly lowers funding target for new round",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-31T16:12:55.000Z",
+  "snippet": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+  "id": "c10fef6ec816",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "OpenAI has reportedly lowered the funding target for its new round, as the raise falls short of expectations.",
+  "whyItMatters": "It may signal cooling investor appetite for frontier AI valuations.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-10-31T20:29:58.455Z",
+  "storyId": "9a1e17b51b2d"
+ },
+ {
+  "url": "https://thedataexchange.media/leo-de-moura-lean-aws/",
+  "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T15:29:48.000Z",
+  "score": 171,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50290652",
+  "id": "c2ed3a03a42f",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "The Data Exchange podcast interviews Leo de Moura, creator of the Lean theorem prover, on how AI and Lean are shaping formal verification.",
+  "whyItMatters": "Formal verification paired with AI could become a way to check machine-generated code and proofs.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Leo de Moura",
+   "Lean"
+  ],
+  "storyId": "c2ed3a03a42f"
+ },
+ {
+  "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+  "title": "I built an AI Tamagotchi before Meta could",
+  "sourceId": "verge",
+  "publishedAt": "2026-10-31T16:05:00.000Z",
+  "snippet": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G cellular radio, but it really talks to Muse and has cute avatars, too! It doubles as a pocket watch and a remote camera viewfinder, and it can (theoretically) control my smart home. Or at least it ca…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&strip=all&crop=4,0,96,94.899920311255",
+  "id": "ee9f8f39beac",
+  "fetchedAt": "2026-10-31T20:29:49.768Z",
+  "enrichedAt": "2026-10-31T20:29:58.326Z",
+  "summary": "A Verge writer built a $50 DIY AI Tamagotchi-style gadget that talks to Meta's Muse, with avatars, a clock and camera viewfinder, as a homemade alternative to Meta's Muse Charm.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Meta",
+   "Muse Charm",
+   "The Verge"
+  ],
+  "storyId": "ee9f8f39beac"
  }
 ]

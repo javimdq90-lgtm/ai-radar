@@ -894,32 +894,37 @@
  "9a1e17b51b2d": {
   "storyId": "9a1e17b51b2d",
   "itemIds": [
-   "9a1e17b51b2d"
+   "9a1e17b51b2d",
+   "c10fef6ec816"
   ],
-  "writtenAt": "2026-10-31T10:59:02.601Z",
-  "headline": "OpenAI has raised less than half of its $30 billion funding target, WSJ reports",
-  "dek": "The Wall Street Journal reports that OpenAI has secured less than half of the $30 billion it set out to raise; the coverage gives no further detail on investors or timing.",
+  "writtenAt": "2026-10-31T20:30:08.212Z",
+  "headline": "OpenAI cuts funding target to $20B after raising $11B so far, reports say",
+  "dek": "The FT reports OpenAI has lowered its round target from $30 billion to $20 billion, led by UAE investors, while the WSJ says $11 billion is secured and some large investors were tepid.",
   "keyPoints": [
-   "The Wall Street Journal reports OpenAI has raised less than half of its $30 billion fundraising target.",
-   "The target is $30 billion, so the amount secured so far is under $15 billion, by the WSJ's account.",
-   "The available coverage does not name investors, valuation, deadlines or the reasons for the shortfall."
+   "The Financial Times reported Friday that OpenAI lowered its funding target to $20 billion, with a first close expected to come in below that figure.",
+   "The WSJ says OpenAI has secured $11 billion so far, less than half of the earlier $30 billion target.",
+   "The FT says a group of United Arab Emirates investors will lead the round; a later retail offering to wealthy individuals could lift the total to $20 billion.",
+   "The WSJ reports that some large investors responded to the fundraising with a 'tepid' reception. TechCrunch has asked OpenAI for comment."
   ],
-  "context": "OpenAI has raised very large sums to pay for model training and computing infrastructure, and a $30 billion target would rank among the largest private fundraisings on record. A shortfall against a target of that size would bear on how quickly the company can fund its compute plans. The coverage provided is a brief summary, so the details behind the figure are not yet clear.",
+  "context": "OpenAI was earlier reported to be raising $30 billion at a $1.4 trillion valuation, later reported at $1.25 trillion, ahead of a planned IPO. The reported shortfall comes as Wall Street has grown wary of heavy AI infrastructure spending, prompting a sell-off in tech stocks.",
+  "whatsNext": "Watch for OpenAI's response to the reports, the size of the first close, and whether the retail offering brings the round to $20 billion.",
   "article": {
    "whatHappened": [
-    "OpenAI has raised less than half of the $30 billion it was targeting in its current fundraising effort, according to a report from The Wall Street Journal.",
-    "The report, as summarized in the coverage available, gives the headline figure only. It does not say how much has been committed, who the investors are, what valuation is being discussed or whether the target date has moved. OpenAI's own response is not included in the material."
+    "OpenAI's latest funding round is falling short of earlier expectations, according to reports from the Financial Times and The Wall Street Journal. The FT reported Friday that the company has lowered its funding target to $20 billion, with a first close expected to be even lower than that.",
+    "The FT said the round will be led by a group of investors from the United Arab Emirates. A subsequent retail offering aimed at wealthy individuals could bring the total up to the $20 billion target.",
+    "A follow-up WSJ story added that OpenAI has secured $11 billion so far, which is less than half of the $30 billion it had been seeking. The WSJ also reported that the fundraising had met with a \"tepid\" response from some large investors. TechCrunch says it has asked OpenAI for comment."
    ],
    "whyItMatters": [
-    "A $30 billion raise would be among the largest private financings ever attempted. Frontier AI developers need large amounts of capital for chips, data centers and training runs, and OpenAI has relied on outside investors to cover those costs.",
-    "If the WSJ's account is accurate, the company has so far fallen well short of its goal. What that means is uncertain. It could reflect a raise that is still in progress, with more commitments to come, or investor hesitation over price or terms. The coverage does not say which, and the reasons should not be assumed."
+    "OpenAI was previously reported to be raising $30 billion at a $1.4 trillion valuation, and then at $1.25 trillion, ahead of a planned IPO. A smaller target and a first close below it suggest demand has been weaker than the company hoped, though the reports do not say what valuation applies to the reduced round.",
+    "TechCrunch ties the difficulty partly to timing. Wall Street investors have become wary of heavy AI infrastructure spending, which has contributed to a major sell-off of tech stocks. TechCrunch also notes that Anthropic's planned IPO could be facing challenges as well, pointing to a broader chill for AI fundraising."
    ],
    "whatToWatch": [
-    "The main open questions are whether OpenAI confirms or disputes the figure, whether further commitments close, and whether the target or terms change. Any statement from the company or named investors would clarify the picture."
+    "The main open questions are how large the first close turns out to be and whether the retail offering to wealthy individuals can close the gap to $20 billion. OpenAI has not yet commented in the coverage provided.",
+    "It also remains to be seen how the reduced raise affects the planned IPO and the valuation the company ultimately secures."
    ],
    "pullQuote": {
-    "text": "OpenAI has raised less than half of its $30B fundraising target, according to the WSJ.",
-    "by": "Wall Street Journal summary"
+    "text": "its fundraising efforts had met with a “tepid” response from some large investors",
+    "by": "The Wall Street Journal, as reported by TechCrunch"
    }
   }
  },
@@ -927,38 +932,42 @@
   "storyId": "9b7dd4a7a685",
   "itemIds": [
    "9b7dd4a7a685",
-   "b394caaea480"
+   "b394caaea480",
+   "d906f2ca87fc",
+   "41a783f21e16",
+   "07912041c313",
+   "4505f5f4bd09"
   ],
-  "writtenAt": "2026-10-29T21:53:10.318Z",
-  "headline": "Google expands ads in AI Mode globally as Search growth slows and Alphabet stock falls",
-  "dek": "Alphabet announced international ads in AI Mode and multi-turn ads in the US with Q3 results: revenue up 25% to $127.6 billion, Search growth down to 12%, shares sharply lower.",
+  "writtenAt": "2026-10-31T20:30:21.858Z",
+  "headline": "Alphabet falls 12% after Google says AI Mode earns less than web search, expands AI ads",
+  "dek": "Alphabet's Q3 revenue rose 25% to $127.6 billion, but Search growth slowed to 12% and Google conceded AI Mode monetizes less, wiping about $500 billion off its market value.",
   "keyPoints": [
-   "Google is taking ads in AI Mode to international markets for the first time and adding multi-turn ads in the US, Philipp Schindler said on the Q3 earnings call.",
-   "Alphabet Q3 revenue rose 25% to $127.6 billion; Search revenue grew 12%, down from 17% in Q2 and 19% in Q1.",
-   "Schindler said each AI Mode query earns less than a comparable web search, with fewer, cheaper ads, per Ars Technica; click-through on sponsored product listings is comparable to organic.",
-   "Shares fell 8% per TechCrunch and nearly 12% per Ars Technica; EPS was $2.12 against $3.02 expected, and Q3 capex was $51.4 billion.",
-   "Google Cloud revenue rose 103% to $30.7 billion; Google still expects 2026 capex of $195 billion to $205 billion and more than $300 billion in 2027."
+   "Alphabet reported Q3 revenue of $127.6 billion, up 25%; Search revenue growth slowed to 12%, from 17% in Q2 and 19% in Q1. Cloud revenue rose 103% to $30.7 billion.",
+   "Philipp Schindler said strong AI Mode query growth had an impact because of lower monetization there. Ars Technica reports AI Mode queries carry fewer, cheaper ads.",
+   "Google is expanding ads in AI Mode to international markets and adding multi-turn ads in the U.S. Schindler says sponsored product click-through rates match organic listings.",
+   "Alphabet had negative free cash flow of about $9.1 billion on $51.4 billion of Q3 capex. It expects $195 billion to $205 billion in 2026 and more than $300 billion in 2027.",
+   "Alphabet fell 12% on Thursday, its worst day on record per TechCrunch, and slipped another 1.4% Friday as the Nasdaq closed 2.8% lower."
   ],
-  "context": "Google began adding Gemini-powered ad formats to AI-generated answers in May, as Search shifts toward AI Mode and AI Overviews. The question for investors is whether AI search can earn as much per query as traditional search while Google spends heavily on infrastructure.",
-  "whatsNext": "Watch how quickly the international AI Mode ads and US multi-turn ads roll out, and whether per-query revenue in AI Mode closes the gap with web search.",
+  "context": "Google has been moving Search toward Gemini-powered AI Overviews and AI Mode, and in May announced new Gemini-based ad formats. Investors have tolerated record AI capital spending while growth held up. This quarter put the cost of cannibalizing a core ad business alongside that spending.",
+  "whatsNext": "Watch whether AI Mode ad monetization improves as international ads and multi-turn formats roll out, and whether Alphabet's 2027 spending plans hold up under investor pressure.",
   "article": {
    "whatHappened": [
-    "Google said on Wednesday that it will bring ads in AI Mode to international markets, the first time its AI search advertising has gone global. The announcement came during Alphabet's third-quarter earnings call. In the US, Google is also adding multi-turn ads, which change as a user continues a back-and-forth conversation with the search chatbot.",
-    "Alphabet reported $127.6 billion in revenue, up 25% from a year earlier. Search revenue grew 12%, down from 17% in the second quarter and 19% in the first. Google Services, which includes Search, brought in $96.3 billion, up 11%, while Google Cloud revenue rose 103% to $30.7 billion.",
-    "Chief business officer Philipp Schindler said early results are encouraging, with click-through rates for sponsored product listings in AI Mode comparable to organic listings. Google's research also indicates users find the ads relevant. CEO Sundar Pichai said queries grew at their fastest annual rate in five years and that AI Mode queries are three times longer than traditional searches.",
-    "Markets reacted badly. TechCrunch reported shares down 8% after the results, while Ars Technica put the decline near 12%, calling it one of the largest post-earnings drops in the company's history. Ars Technica reported earnings per share of $2.12 against a consensus of $3.02."
+    "Alphabet reported third-quarter results on Wednesday showing revenue of $127.6 billion, up 25% year over year, and the stock fell sharply afterward. TechCrunch reported an initial 8% drop; by Thursday's close the decline was 12%, which TechCrunch calls its worst day on record, erasing about $500 billion in market value. The BBC said shares fell a further 1.4% on Friday.",
+    "The central issue was Search. Google Search revenue grew 12%, down from 17% in the second quarter and 19% in the first. Ars Technica reported earnings per share of $2.12 against a consensus of $3.02, and net income almost $9 billion lower than a year earlier. Google Cloud beat expectations, with revenue up 103% to $30.7 billion.",
+    "On the call, Chief Business Officer Philipp Schindler acknowledged that growth in AI Mode queries weighed on results because of lower monetization there. Ars Technica reports that each AI Mode query earns less than a comparable web search, with fewer ads that cost less. Schindler urged patience, saying advertisers may need time to understand the value of AI search ads.",
+    "Google also announced it is taking ads in AI Mode and AI Overviews global for the first time, adding international markets, along with multi-turn ads in the U.S. that change as a user continues a conversation. Schindler said click-through rates for sponsored product listings in AI Mode are comparable to organic listings, and that user research shows people find the ads relevant."
    ],
    "whyItMatters": [
-    "The announcement shows Google trying to prove that AI search can be monetized at scale. Ars Technica reports that Schindler acknowledged each AI Mode query earns less than a similar web search, because there are fewer ads and they cost less. He also cautioned that advertisers may need time to understand the value of AI search ads.",
-    "The spending side adds pressure. Ars Technica says Q3 capital expenditures were $51.4 billion, negative cash flow widened from $5.8 billion to $9.06 billion, and Google expects 2026 spending of $195 billion to $205 billion, with more than $300 billion targeted for 2027. Cloud growth is the main offset, though Ars Technica notes much of that demand comes from AI startups funded by venture capital.",
-    "Whether slowing Search growth reflects users shifting to AI chatbots is the author's inference at Ars Technica, not something Google confirmed in the coverage."
+    "The results put a number on a tension that publishers have long complained about: an AI summary can remove the need to click through. Here the same dynamic is affecting Google's own revenue. Search advertising makes up roughly half of Alphabet's revenue, according to TechCrunch, so a lower-yielding AI format has large consequences.",
+    "Spending compounds the worry. Alphabet had negative free cash flow of about $9.1 billion in Q3, its second straight quarter in the red, as capex reached $51.4 billion. It expects up to $205 billion this year and, per Ars Technica, more than $300 billion in 2027. Ars Technica notes that cloud revenue growth depends partly on AI startups that are themselves funded by venture capital.",
+    "The reaction extended beyond Google. The BBC reported that the Nasdaq had its worst monthly slide since March 2025, with Intel down 28% and Reddit down 29% on Friday, the latter citing AI search's effect on referral traffic. Analyst Kathleen Brookes of XTB said investors now want payback on AI spending. Alphabet is still down only 1.3% over twelve months, so the picture is a sharp reset rather than a collapse."
    ],
    "whatToWatch": [
-    "The coverage gives no dates for the international rollout or the multi-turn ad formats, beyond Ars Technica saying ads will appear in more markets soon. Advertiser uptake and per-query revenue in AI Mode are the numbers to follow in coming quarters.",
-    "Investors will also look for whether Search growth stabilizes and whether cloud demand holds as capital spending rises."
+    "The next test is whether international AI Mode ads and multi-turn formats close the monetization gap with traditional search. Schindler signaled that improvement will take time, so the next quarters' Search growth figures will matter.",
+    "Investors will also look at whether Alphabet and other large spenders keep raising capital expenditure. TechCrunch notes the weaker sentiment could complicate Anthropic's planned IPO, which depends on securing large amounts of compute."
    ],
    "pullQuote": {
-    "text": "We are now scaling high-quality ads within AI overviews in AI mode to more users and queries",
+    "text": "It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.",
     "by": "Philipp Schindler, Google chief business officer"
    }
   }
@@ -1573,47 +1582,6 @@
    "pullQuote": {
     "text": "Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access",
     "by": "OpenAI"
-   }
-  }
- },
- "d906f2ca87fc": {
-  "storyId": "d906f2ca87fc",
-  "itemIds": [
-   "d906f2ca87fc",
-   "41a783f21e16",
-   "07912041c313",
-   "4505f5f4bd09"
-  ],
-  "writtenAt": "2026-10-31T10:59:14.920Z",
-  "headline": "Alphabet loses $500B in a day after saying AI Mode is hurting Search ad revenue",
-  "dek": "Alphabet fell 12% on Thursday, its worst day on record, after saying AI Mode's lower monetization weighed on Search growth, which slowed to 12%; the Nasdaq fell about 2.8% on Friday.",
-  "keyPoints": [
-   "Alphabet stock fell 12% Thursday, erasing more than $500 billion, then dropped another 1.4% Friday. TechCrunch calls it the company's worst day on record.",
-   "Search ad growth slowed to 12%, its weakest in five quarters. Philipp Schindler said AI Mode queries had an impact because of lower monetization.",
-   "Alphabet reported negative free cash flow of $9.1 billion in Q3 and expects to spend up to $205 billion this year, with spending rising in 2027.",
-   "Intel fell 28% Friday and Reddit 29%; Reddit warned that Google's AI-driven search is hurting its referral traffic. The Nasdaq closed 2.8% lower, its worst month since March 2025.",
-   "Alphabet, Amazon, Meta and Microsoft plan more than $740 billion in capex this year, per TechCrunch. The big five tech firms raised $326 billion in debt in 2026, triple last year's amount."
-  ],
-  "context": "Publishers have long complained that Google's snippets and AI Overviews cut traffic to their sites. This week's results show the same dynamic may affect Google's own ad business. It lands as investors question whether huge AI infrastructure outlays will pay off, just before an expected Anthropic IPO and a possible OpenAI listing.",
-  "whatsNext": "Investors will watch whether AI stocks keep sliding in November, and how the selloff affects Anthropic's IPO, which it filed for this week.",
-  "article": {
-   "whatHappened": [
-    "Alphabet shares fell 12% on Thursday, the company's worst day on record according to TechCrunch, taking more than $500 billion off its market value. The drop followed third-quarter results in which Alphabet disclosed that its AI summaries, now the top answer to many search queries, were affecting its core search advertising revenue. The stock fell another 1.4% on Friday.",
-    "Google's Search advertising business, which makes up roughly half of revenue, saw growth slow to 12%, its weakest pace in five quarters. Chief Business Officer Philipp Schindler said, as quoted by Latent Space, that strong growth in AI Mode queries had an impact because of lower monetization in AI Mode. Google does not break out AI Mode figures in detail.",
-    "The selloff spread on Friday. The Nasdaq closed 2.8% lower, according to the BBC, and ended October with its worst monthly slide since March 2025. Intel fell 28%, losing more than $130 billion in value, after forecasting weak fourth-quarter revenue. Reddit dropped 29% after warning that Google's AI-driven search was hurting referral traffic, and Roblox fell 18%."
-   ],
-   "whyItMatters": [
-    "The episode puts a number on a tension that publishers have raised for years: a good AI summary reduces the need to click through. Here the affected party is Google itself, which is spending heavily on the technology that may undercut its most profitable business. Alphabet reported negative free cash flow of $9.1 billion in Q3, its second straight quarter in the red, with capex of $51.4 billion and up to $205 billion expected this year.",
-    "Alphabet is not alone. Amazon reported negative free cash flow of $42.4 billion over twelve months and plans $220 billion in capex. Meta reported negative free cash flow of $2.1 billion in the quarter. Microsoft was the exception, with $18.6 billion in positive free cash flow. S&P Global Market Intelligence data cited by TechCrunch shows five large tech companies raised $326 billion in debt in 2026, triple last year's figure.",
-    "The timing complicates the AI IPO pipeline. Anthropic filed to go public this week, and the Financial Times reported that Blackstone warned investors it might not qualify for an investment-grade rating afterward. Latent Space notes OpenAI reportedly raised at $1.25 trillion rather than $1.4 trillion."
-   ],
-   "whatToWatch": [
-    "Analysts quoted by the BBC point to the coming days as a test. XTB's Kathleen Brookes noted that November is typically a strong month for stocks, but said continued struggles could suggest the AI trade is past its peak.",
-    "Also open is whether Google can monetize AI Mode as well as classic search, and how Anthropic's IPO fares in a weaker market. Despite the drops, the Nasdaq is still up 7.8% over the past year."
-   ],
-   "pullQuote": {
-    "text": "Investors have turned ruthless, punishing any signs of disappointment in [third quarter] earnings",
-    "by": "Kathleen Brookes, research director at XTB"
    }
   }
  },
