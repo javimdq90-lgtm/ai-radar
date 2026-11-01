@@ -1,0 +1,176 @@
+[
+ {
+  "url": "https://github.com/kerlenton/bootgpt",
+  "title": "Show HN: A language model that lives in a boot sector",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T12:58:29.000Z",
+  "score": 86,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50315782",
+  "id": "14074b4203bb",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "A developer released a tiny language model on GitHub that runs from a computer's boot sector, with no operating system needed.",
+  "whyItMatters": "It's a quirky demonstration of how small a working language model can be made.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [],
+  "storyId": "14074b4203bb"
+ },
+ {
+  "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+  "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-01T02:19:53.000Z",
+  "score": 150,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50322173",
+  "id": "2a10a176a3e7",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "A Brazilian court sanctioned lawyers who embedded prompt injection in a court filing, apparently aimed at influencing AI tools reviewing it.",
+  "whyItMatters": "It's an early legal consequence of prompt injection in real-world AI-assisted workflows.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Brazil"
+  ],
+  "image": "https://jetstream.security/wp-content/uploads/2026/07/ChatGPT-Image-Jul-1-2026-02_56_34-PM.png",
+  "imageCheckedAt": "2026-11-01T11:54:50.477Z",
+  "storyId": "2a10a176a3e7"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+  "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-31T21:36:07.000Z",
+  "snippet": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+  "id": "5a4bff0c2db2",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+  "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T21:07:58.000Z",
+  "score": 150,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50320255",
+  "id": "71145972f162",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "Anthropic is adding safeguards to stop Claude from being used to reverse-engineer video games.",
+  "whyItMatters": "It shows Anthropic tightening usage restrictions on specific coding use cases, which may affect modders and security researchers.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "storyId": "9b894388109d"
+ },
+ {
+  "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+  "title": "The AI cost of JavaScript frameworks",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-01T06:06:19.000Z",
+  "score": 105,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50323088",
+  "id": "761e5e0baaa4",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "Nolan Lawson examines the cost of JavaScript frameworks in the era of AI coding tools, where models favor popular frameworks.",
+  "whyItMatters": "It raises how AI assistants may entrench dominant frameworks and shape tech stack choices.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Nolan Lawson"
+  ],
+  "storyId": "761e5e0baaa4"
+ },
+ {
+  "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+  "title": "ChatGPT and Codex usage limits merging",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T21:49:07.000Z",
+  "score": 157,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50320588",
+  "id": "85c82f0a9571",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "OpenAI is merging usage limits for ChatGPT and Codex into a single shared allowance.",
+  "whyItMatters": "Heavy Codex users will draw from the same pool as ChatGPT usage, changing how they budget their plan.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT",
+   "Codex"
+  ],
+  "imageCheckedAt": "2026-11-01T11:54:50.453Z",
+  "storyId": "85c82f0a9571"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+  "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-31T21:41:00.000Z",
+  "snippet": "Apple's new CEO defended the company's current position in the AI landscape.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+  "id": "9f56e268b05e",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "Apple's new CEO defended the company's AI position, saying Apple doesn't want to ship AI for AI's sake.",
+  "whyItMatters": "It signals Apple will keep a cautious, product-driven AI strategy rather than racing rivals on features.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Apple"
+  ],
+  "imageCheckedAt": "2026-11-01T11:54:50.462Z",
+  "storyId": "9f56e268b05e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+  "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-10-31T21:17:03.000Z",
+  "snippet": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+  "id": "e07dacdb45dc",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "A judge is allowing the NAACP's Clean Air Act lawsuit over pollution from xAI's data center to proceed. xAI is now owned by SpaceX.",
+  "whyItMatters": "The case could set precedent for environmental liability around AI data centers' power generation.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "xAI",
+   "SpaceX",
+   "NAACP"
+  ],
+  "imageCheckedAt": "2026-11-01T11:54:50.467Z",
+  "storyId": "e07dacdb45dc"
+ },
+ {
+  "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+  "title": "Anthropic blocks users for anything touching training larger models",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-31T19:39:19.000Z",
+  "score": 380,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50319358",
+  "id": "e07ec5d69c95",
+  "fetchedAt": "2026-11-01T11:54:41.361Z",
+  "enrichedAt": "2026-11-01T11:54:50.420Z",
+  "summary": "Users report that Anthropic is blocking accounts for requests related to training larger models.",
+  "whyItMatters": "Builders working on model training or distillation with Claude may hit enforcement of usage policies.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
+  "imageCheckedAt": "2026-11-01T11:54:50.901Z",
+  "storyId": "e07ec5d69c95"
+ }
+]
