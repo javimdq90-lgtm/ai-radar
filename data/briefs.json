@@ -933,38 +933,39 @@
   "itemIds": [
    "9b7dd4a7a685",
    "b394caaea480",
+   "60b3e2f69130",
    "d906f2ca87fc",
    "41a783f21e16",
    "07912041c313",
    "4505f5f4bd09"
   ],
-  "writtenAt": "2026-10-31T20:30:21.858Z",
-  "headline": "Alphabet falls 12% after Google says AI Mode earns less than web search, expands AI ads",
-  "dek": "Alphabet's Q3 revenue rose 25% to $127.6 billion, but Search growth slowed to 12% and Google conceded AI Mode monetizes less, wiping about $500 billion off its market value.",
+  "writtenAt": "2026-11-01T21:15:40.632Z",
+  "headline": "Alphabet loses $500B in value after admitting AI Mode earns less than classic Search",
+  "dek": "Alphabet's Q3 revenue rose 25% to $127.6 billion, but Search growth slowed to 12% and Google said AI Mode monetizes less, sending shares down about 12% as it expands AI ads globally.",
   "keyPoints": [
-   "Alphabet reported Q3 revenue of $127.6 billion, up 25%; Search revenue growth slowed to 12%, from 17% in Q2 and 19% in Q1. Cloud revenue rose 103% to $30.7 billion.",
-   "Philipp Schindler said strong AI Mode query growth had an impact because of lower monetization there. Ars Technica reports AI Mode queries carry fewer, cheaper ads.",
-   "Google is expanding ads in AI Mode to international markets and adding multi-turn ads in the U.S. Schindler says sponsored product click-through rates match organic listings.",
-   "Alphabet had negative free cash flow of about $9.1 billion on $51.4 billion of Q3 capex. It expects $195 billion to $205 billion in 2026 and more than $300 billion in 2027.",
-   "Alphabet fell 12% on Thursday, its worst day on record per TechCrunch, and slipped another 1.4% Friday as the Nasdaq closed 2.8% lower."
+   "Alphabet's Q3 revenue rose 25% to $127.6 billion; Search grew 12%, down from 17% in Q2 and 19% in Q1, and EPS was $2.12 against a $3.02 consensus (Ars Technica).",
+   "Philipp Schindler said strong AI Mode query growth hurt results because of lower monetization; Google is expanding AI Mode ads to international markets and adding multi-turn ads in the US.",
+   "Shares fell over 12% to a six-month low, cutting market value from $3.97 trillion to $3.46 trillion, per the BBC.",
+   "Google Cloud revenue rose 103% to $30.7 billion; Google expects 2026 capex of $195 billion to $205 billion and more than $300 billion in 2027.",
+   "Free cash flow was negative $9.06 billion, per Ars Technica, and the Nasdaq had its worst monthly slide since March 2025."
   ],
-  "context": "Google has been moving Search toward Gemini-powered AI Overviews and AI Mode, and in May announced new Gemini-based ad formats. Investors have tolerated record AI capital spending while growth held up. This quarter put the cost of cannibalizing a core ad business alongside that spending.",
-  "whatsNext": "Watch whether AI Mode ad monetization improves as international ads and multi-turn formats roll out, and whether Alphabet's 2027 spending plans hold up under investor pressure.",
+  "context": "Google has spent two years moving Search toward Gemini-powered AI Overviews and AI Mode, while chatbots such as ChatGPT and Claude compete for the same queries. Investors have worried that AI answers would cannibalize ad-supported search. This is the first time Google has tied weaker Search results to AI Mode monetization, and it landed amid broader concern over AI spending.",
+  "whatsNext": "Watch the international rollout of AI Mode ads and whether Google shows AI Mode monetization closing the gap with traditional search in coming quarters.",
   "article": {
    "whatHappened": [
-    "Alphabet reported third-quarter results on Wednesday showing revenue of $127.6 billion, up 25% year over year, and the stock fell sharply afterward. TechCrunch reported an initial 8% drop; by Thursday's close the decline was 12%, which TechCrunch calls its worst day on record, erasing about $500 billion in market value. The BBC said shares fell a further 1.4% on Friday.",
-    "The central issue was Search. Google Search revenue grew 12%, down from 17% in the second quarter and 19% in the first. Ars Technica reported earnings per share of $2.12 against a consensus of $3.02, and net income almost $9 billion lower than a year earlier. Google Cloud beat expectations, with revenue up 103% to $30.7 billion.",
-    "On the call, Chief Business Officer Philipp Schindler acknowledged that growth in AI Mode queries weighed on results because of lower monetization there. Ars Technica reports that each AI Mode query earns less than a comparable web search, with fewer ads that cost less. Schindler urged patience, saying advertisers may need time to understand the value of AI search ads.",
-    "Google also announced it is taking ads in AI Mode and AI Overviews global for the first time, adding international markets, along with multi-turn ads in the U.S. that change as a user continues a conversation. Schindler said click-through rates for sponsored product listings in AI Mode are comparable to organic listings, and that user research shows people find the ads relevant."
+    "Alphabet reported third-quarter results on Wednesday showing revenue of $127.6 billion, up 25% from a year earlier. Search revenue growth slowed to 12%, from 17% in the second quarter and 19% in the first. Earnings per share were $2.12 against a consensus of $3.02, according to Ars Technica, and the stock fell sharply in following sessions.",
+    "On the earnings call, chief business officer Philipp Schindler said growth in AI Mode queries weighed on results because of lower monetization. Ars Technica reports that each AI Mode query earns less than a comparable web search, with fewer ads that cost less. Schindler also said he felt \"very good about our trajectory\" with the AI-focused search product, per the BBC.",
+    "Google announced it is expanding ads in AI Mode into international markets, its first global push for ads in AI Overviews and AI Mode. In the US it is adding multi-turn ads that change as users go back and forth with the chatbot. Schindler said click-through rates for sponsored product listings in AI Mode are comparable to organic listings.",
+    "Alphabet lost just over $500 billion in market value on Thursday, falling from $3.97 trillion to $3.46 trillion, the BBC reported. Shares dropped more than 12% to a six-month low, and fell a further 1.4% on Friday."
    ],
    "whyItMatters": [
-    "The results put a number on a tension that publishers have long complained about: an AI summary can remove the need to click through. Here the same dynamic is affecting Google's own revenue. Search advertising makes up roughly half of Alphabet's revenue, according to TechCrunch, so a lower-yielding AI format has large consequences.",
-    "Spending compounds the worry. Alphabet had negative free cash flow of about $9.1 billion in Q3, its second straight quarter in the red, as capex reached $51.4 billion. It expects up to $205 billion this year and, per Ars Technica, more than $300 billion in 2027. Ars Technica notes that cloud revenue growth depends partly on AI startups that are themselves funded by venture capital.",
-    "The reaction extended beyond Google. The BBC reported that the Nasdaq had its worst monthly slide since March 2025, with Intel down 28% and Reddit down 29% on Friday, the latter citing AI search's effect on referral traffic. Analyst Kathleen Brookes of XTB said investors now want payback on AI spending. Alphabet is still down only 1.3% over twelve months, so the picture is a sharp reset rather than a collapse."
+    "The disclosure puts numbers on a long-standing worry: that AI-generated answers reduce the ad inventory that funds Search. Google's own AI summaries are now cited as a factor in slower Search growth. Reddit, which fell 29% on Friday, separately warned that Google's AI-driven search was hurting referral traffic.",
+    "The spending side adds pressure. Ars Technica reports quarterly capital expenditure of $51.4 billion, a 2026 range of $195 billion to $205 billion and a 2027 target above $300 billion. Free cash flow was negative $9.06 billion. Cloud revenue rose 103% to $30.7 billion, which Google points to as justification, though Ars notes that cloud demand partly depends on venture-funded AI companies.",
+    "Alphabet was not alone. The BBC reports that Amazon posted negative cash flow of $42 billion, and Intel fell 28% on Friday. Analyst Tracy Woo of Forrester said the Search results highlight the challenge of funding AI investment while maintaining established businesses. Former Google ads chief Kim Scott framed the hit as Google choosing to cannibalize itself rather than let a rival do it."
    ],
    "whatToWatch": [
-    "The next test is whether international AI Mode ads and multi-turn formats close the monetization gap with traditional search. Schindler signaled that improvement will take time, so the next quarters' Search growth figures will matter.",
-    "Investors will also look at whether Alphabet and other large spenders keep raising capital expenditure. TechCrunch notes the weaker sentiment could complicate Anthropic's planned IPO, which depends on securing large amounts of compute."
+    "The main open question is whether AI Mode ads, now spreading internationally and gaining multi-turn formats, can narrow the monetization gap. Ars Technica notes Schindler cautioned that advertisers may need time to see the value of AI search ads.",
+    "Market sentiment is the other test. XTB's Kathleen Brookes said continued weakness in AI stocks in the coming days could suggest the AI trade is past its peak, though she noted November is typically a strong month."
    ],
    "pullQuote": {
     "text": "It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.",

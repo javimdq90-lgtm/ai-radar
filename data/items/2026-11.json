@@ -172,5 +172,81 @@
   "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
   "imageCheckedAt": "2026-11-01T11:54:50.901Z",
   "storyId": "e07ec5d69c95"
+ },
+ {
+  "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+  "title": "It wasn't AI that flipped Proton's charge",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-01T18:53:55.000Z",
+  "score": 109,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50328488",
+  "id": "4b795773d113",
+  "fetchedAt": "2026-11-01T21:15:17.637Z",
+  "enrichedAt": "2026-11-01T21:15:23.470Z",
+  "summary": "A blog post argues that AI was not the cause of the change in Proton's charge, pushing back on claims that blamed AI.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Proton"
+  ],
+  "storyId": "6a4dc94a574c"
+ },
+ {
+  "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+  "title": "Google value plunges by $500B as AI fears rattle Wall Street",
+  "sourceId": "hn",
+  "publishedAt": "2026-10-29T22:22:13.000Z",
+  "score": 80,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50297037",
+  "id": "60b3e2f69130",
+  "fetchedAt": "2026-11-01T21:15:17.637Z",
+  "enrichedAt": "2026-11-01T21:15:23.470Z",
+  "summary": "Google's market value fell by roughly $500 billion as investor worries about AI disruption hit Wall Street, according to the BBC.",
+  "whyItMatters": "It shows markets are repricing incumbents on fears that AI could erode their core businesses, which affects platform and funding dynamics.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Alphabet"
+  ],
+  "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3304/live/1c4d6e00-d3d4-11f1-b441-2b33b063138f.jpg",
+  "imageCheckedAt": "2026-11-01T21:15:23.684Z",
+  "storyId": "9b7dd4a7a685"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+  "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-01T20:57:58.000Z",
+  "snippet": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+  "id": "bb2642061f37",
+  "fetchedAt": "2026-11-01T21:15:17.637Z",
+  "enrichedAt": "2026-11-01T21:15:23.470Z",
+  "summary": "TechCrunch's Equity podcast discusses why tech CEOs' statements about AI often come across as tone deaf, asking who benefits beyond executives.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "TechCrunch"
+  ],
+  "storyId": "bb2642061f37"
+ },
+ {
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+  "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-01T13:47:24.000Z",
+  "score": 130,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50325662",
+  "id": "e17eb6c5fcac",
+  "fetchedAt": "2026-11-01T21:15:17.637Z",
+  "enrichedAt": "2026-11-01T21:15:23.470Z",
+  "summary": "Experiments with swarms of AI agents in Minecraft found they failed to build a functioning civilization, getting bogged down in bureaucracy and coordination overhead.",
+  "whyItMatters": "It is a concrete example of the coordination limits of multi-agent systems, relevant for anyone designing agent swarms.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Minecraft"
+  ],
+  "storyId": "d8eb5a4b641e"
  }
 ]
