@@ -1460,6 +1460,45 @@
    }
   }
  },
+ "ca130899e453": {
+  "storyId": "ca130899e453",
+  "itemIds": [
+   "ca130899e453"
+  ],
+  "writtenAt": "2026-11-02T13:38:46.428Z",
+  "headline": "China proposes export controls on frontier AI models, agents and chip design",
+  "dek": "China's commerce and science ministries proposed adding 23 AI technologies to export restrictions, including model weights above 10^26 FLOPs, and imposed an interim registration requirement that applies now.",
+  "keyPoints": [
+   "Announcement No. 48, issued October 16, 2026, proposes 40 catalogue additions: 23 in AI, 5 in biomedicine and 12 in photovoltaics, split into 14 prohibited and 26 restricted items.",
+   "Model weights and related know-how are restricted if a model meets any one test: 10^26 FLOPs, 2 trillion parameters, or a global top-10 position on rankings or call volume.",
+   "The catalogue additions are a draft open for comment until November 15, 2026; the pre-export registration requirement is in effect now, including for exports already begun.",
+   "MOFCOM says API, app, web, SaaS and lightweight on-device use do not count as exporting a model; local deployment outside China does.",
+   "MOFCOM's spokesperson called the revision routine and said it \"does not target any specific country, region, or entity.\""
+  ],
+  "context": "China's export catalogue has been revised several times since 2001; the 2020 revision added recommendation-algorithm technology and complicated the proposed TikTok sale. ChinaTalk notes the 10^26 FLOP threshold mirrors the figure in the 2023 U.S. executive order and the since-rescinded 2025 AI Diffusion rule. Frontier AI supply chains now face formal outbound controls from both of the largest AI-producing jurisdictions.",
+  "whatsNext": "The draft catalogue is open for comment until November 15, 2026, and the interim registration requirement stays in force until the revised catalogue takes effect.",
+  "article": {
+   "whatHappened": [
+    "China's Ministry of Commerce (MOFCOM) and Ministry of Science and Technology issued Announcement No. 48 of 2026 on October 16, 2026. It proposes adding 40 technologies to the Catalogue of Technologies Prohibited or Restricted from Export, 23 of them in artificial intelligence, and it sets an interim pre-export registration requirement that is already in effect.",
+    "The catalogue changes are a draft open for comment until November 15, 2026. Under the draft, model weights, key checkpoints, source code, architecture and training and inference know-how are restricted if a model meets any one of three tests: at least 10^26 FLOPs of training compute, at least 2 trillion parameters, or a global top-10 position on public rankings, call volume or comparable measures at the time of export.",
+    "Agents are controlled separately from models. Planning, multi-agent coordination, tool use and game-theoretic decision technologies are restricted above set benchmarks, and high-performance agents built for critical infrastructure, defense or core government use are prohibited outright. Across AI, biomedicine and photovoltaics the draft lists 14 prohibited and 26 restricted items. The annex excludes technology already in the public domain through open-source release or academic publication.",
+    "Until the revised catalogue takes effect, exporters must register through MOFCOM's unified business platform before exporting any listed technology. Triggers are transfer of ownership abroad, licensing for overseas use, a change of ownership or control to a foreign entity, and other cases MOFCOM designates. Exporters must judge for themselves whether a technology is in scope."
+   ],
+   "whyItMatters": [
+    "The line between service access and custody determines most enterprise exposure. MOFCOM says API, app, web, SaaS and lightweight on-device use are not exports of a large model, while deploying a restricted model locally outside China is, though automatic licensing may apply on a Chinese company's own overseas cloud. Analysts also warn that licensing deals, ownership changes and possibly intra-group code sharing could require registration.",
+    "Earlier revisions touched AI only narrowly; the 2020 additions covered personalized recommendation and AI interaction interfaces. This draft reaches model weights, agent architectures and offensive cyber capability with explicit thresholds. ChinaTalk estimates no released Chinese model currently exceeds the 10^26 FLOP threshold, so the compute and parameter tests may bite less than the ranking test.",
+    "That ranking test is dynamic: a model below the compute and parameter thresholds can become restricted if it reaches the global top 10 when exported. ChinaTalk calls it \"by far the most up-for-interpretation\" criterion. MOFCOM describes the revision as routine, grounded in Article 20 of the Foreign Trade Law, and aimed at preventing uncontrolled diffusion while protecting legitimate cooperation."
+   ],
+   "whatToWatch": [
+    "The comment period closes November 15, 2026, after which the final catalogue could differ from the draft, particularly on how the ranking and call-volume criteria are defined.",
+    "Also open is how exporters and provincial licensing authorities interpret the registration form, since companies must self-assess scope and licensing is administered provincially, though central authorities have intervened in prominent cases."
+   ],
+   "pullQuote": {
+    "text": "does not target any specific country, region, or entity",
+    "by": "MOFCOM spokesperson"
+   }
+  }
+ },
  "d1b19037538a": {
   "storyId": "d1b19037538a",
   "itemIds": [
