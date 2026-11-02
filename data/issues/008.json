@@ -1,0 +1,256 @@
+{
+ "number": 8,
+ "date": "2026-11-02T15:39:11.083Z",
+ "subject": "OpenAI cuts its funding target to $20B after raising $11B",
+ "preview": "China proposes export controls on frontier model weights, and a TPU in orbit writes a haiku.",
+ "intro": "Money and borders dominated the weekend. The biggest AI lab is finding that investors are less eager than the headline valuations suggested, and China is writing rules for exporting models. Elsewhere, the usual mix of small product moves and one satellite doing something charming.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "9a1e17b51b2d",
+     "headline": "OpenAI lowers its funding target from $30B to $20B",
+     "body": "The Financial Times reported Friday that OpenAI cut its round target to $20 billion, with a first close expected to come in below that. The WSJ says $11 billion is secured so far, less than half the earlier $30 billion goal, and that some large investors were tepid. UAE investors will lead, and a later retail offering to wealthy individuals could lift the total to $20 billion.",
+     "why": "This round comes ahead of a planned IPO, so a smaller raise and lukewarm investors suggest less appetite for the AI spending story, just as Wall Street grows wary of infrastructure costs."
+    }
+   ]
+  },
+  {
+   "heading": "Policy",
+   "stories": [
+    {
+     "storyId": "ca130899e453",
+     "headline": "China proposes export controls on frontier AI models, agents and chip design",
+     "body": "Announcement No. 48 proposes 40 catalogue additions, 23 of them in AI. Model weights and related know-how are restricted if a model hits any one test: 10^26 FLOPs, 2 trillion parameters, or a global top-10 ranking or call volume. The additions are a draft open for comment until November 15, but pre-export registration applies now. API, app, SaaS and on-device use don't count as exporting; local deployment outside China does.",
+     "why": "If you build on Chinese open-weight models, local deployment abroad could now require registration. Both major AI jurisdictions now have formal outbound controls, and China's threshold copies the 2023 U.S. figure."
+    }
+   ]
+  },
+  {
+   "heading": "Products",
+   "stories": [
+    {
+     "storyId": "fc6c72287137",
+     "headline": "Google's first data center satellite is online and running Gemma 4",
+     "body": "Google's first data center satellite is online. It carries a TPU running Gemma 4, the Google DeepMind model, which answered a prompt for a space haiku. The satellite is part of Project Suncatcher, Google's experiment toward space-based AI data centers.",
+     "why": "It is an early proof that AI compute can run in orbit. For now it is mostly a demo, and a poetry prompt is not a workload."
+    },
+    {
+     "storyId": "1fff1698b18b",
+     "headline": "Apple Intelligence reaches China with iOS 27.3",
+     "body": "Apple will launch Apple Intelligence in China with iOS 27.3, with a beta on November 4 and a full release in December. It includes earlier features such as notification summaries, translation, writing tools, visual intelligence and photo object removal. The new Siri AI is not part of the package.",
+     "why": "It opens Apple's AI features to the Chinese market, but in a trimmed form that leaves out the headline Siri upgrade."
+    }
+   ]
+  },
+  {
+   "heading": "Worth hearing",
+   "stories": [
+    {
+     "storyId": "a4231a3499cd",
+     "headline": "Altman: OpenAI's math results will keep coming, and RAM belongs in data centers",
+     "body": "On the Cheeky Pint podcast, Sam Altman said he sympathizes with mathematicians overwhelmed by OpenAI's stream of AI-generated results but won't stop, and hinted at more discoveries. He also said that during the RAM shortage it is better for memory to sit in data centers than in personal PCs, and dismissed the idea that local open-source models remove the need for data center capacity.",
+     "why": "OpenAI is pressing ahead on AI-driven math despite friction with researchers, and its CEO is arguing for data center priority in a tight memory market."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "85c82f0a9571",
+   "text": "OpenAI is merging ChatGPT and Codex usage limits into one shared allowance, so heavy Codex users will draw from the same pool."
+  },
+  {
+   "storyId": "9b894388109d",
+   "text": "Users report Anthropic is blocking accounts for requests touching the training of larger models."
+  },
+  {
+   "storyId": "2a10a176a3e7",
+   "text": "A Brazilian court sanctioned lawyers who put prompt injection in a court filing, apparently to sway AI tools reviewing it."
+  },
+  {
+   "storyId": "5b0ac3b976a1",
+   "text": "Cisco Talos reports malware that uses LLMs to rank victims by their estimated value."
+  },
+  {
+   "storyId": "a977761811a9",
+   "text": "Intel's stock crash cut $12B from the U.S. government's stake as PC sales suffer and AI demand for memory pushes prices up."
+  },
+  {
+   "storyId": "c6b2d3ea7917",
+   "text": "Nvidia is weighing cosigning a loan for Nscale's West Virginia AI data center to reassure nervous investors."
+  },
+  {
+   "storyId": "e07dacdb45dc",
+   "text": "A judge is letting the NAACP's Clean Air Act lawsuit over pollution from xAI's data center proceed; xAI is now owned by SpaceX."
+  },
+  {
+   "storyId": "e9e7beb52b83",
+   "text": "DoorDash says it has received only 'several hundred' orders from AI agents, and is open to working with third-party agent makers."
+  }
+ ],
+ "links": {
+  "9a1e17b51b2d": [
+   {
+    "title": "OpenAI raises less than half of $30B target",
+    "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+    "source": "wsj.com"
+   },
+   {
+    "title": "OpenAI raises less than half of $30B target",
+    "url": "https://news.ycombinator.com/item?id=50312922",
+    "source": "HN discussion"
+   },
+   {
+    "title": "OpenAI reportedly lowers funding target for new round",
+    "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+    "source": "TechCrunch"
+   }
+  ],
+  "ca130899e453": [
+   {
+    "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+    "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+    "source": "labs.cloudsecurityalliance.org"
+   },
+   {
+    "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+    "url": "https://news.ycombinator.com/item?id=50334038",
+    "source": "HN discussion"
+   }
+  ],
+  "fc6c72287137": [
+   {
+    "title": "Google’s first data center satellite is online and writing poetry",
+    "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Google’s satellite AI server transmits its first response to Earth",
+    "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+    "source": "The Verge"
+   }
+  ],
+  "1fff1698b18b": [
+   {
+    "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+    "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+    "source": "The Verge"
+   }
+  ],
+  "a4231a3499cd": [
+   {
+    "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+    "source": "The Verge"
+   },
+   {
+    "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+    "source": "The Verge"
+   }
+  ],
+  "85c82f0a9571": [
+   {
+    "title": "ChatGPT and Codex usage limits merging",
+    "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+    "source": "help.openai.com"
+   },
+   {
+    "title": "ChatGPT and Codex usage limits merging",
+    "url": "https://news.ycombinator.com/item?id=50320588",
+    "source": "HN discussion"
+   }
+  ],
+  "9b894388109d": [
+   {
+    "title": "Anthropic Cracking Down on Video Game Rewrites",
+    "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+    "source": "twitter.com"
+   },
+   {
+    "title": "Anthropic Cracking Down on Video Game Rewrites",
+    "url": "https://news.ycombinator.com/item?id=50304358",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "source": "twitter.com"
+   },
+   {
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "url": "https://news.ycombinator.com/item?id=50319358",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+    "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+    "source": "mashable.com"
+   },
+   {
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+    "url": "https://news.ycombinator.com/item?id=50320255",
+    "source": "HN discussion"
+   }
+  ],
+  "2a10a176a3e7": [
+   {
+    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+    "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+    "source": "jetstream.security"
+   },
+   {
+    "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+    "url": "https://news.ycombinator.com/item?id=50322173",
+    "source": "HN discussion"
+   }
+  ],
+  "5b0ac3b976a1": [
+   {
+    "title": "Malware uses LLMs to rank victims by how much they're worth",
+    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+    "source": "blog.talosintelligence.com"
+   },
+   {
+    "title": "Malware uses LLMs to rank victims by how much they're worth",
+    "url": "https://news.ycombinator.com/item?id=50316531",
+    "source": "HN discussion"
+   }
+  ],
+  "a977761811a9": [
+   {
+    "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+    "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+    "source": "TechCrunch"
+   }
+  ],
+  "c6b2d3ea7917": [
+   {
+    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "source": "TechCrunch"
+   }
+  ],
+  "e07dacdb45dc": [
+   {
+    "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+    "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+    "source": "TechCrunch"
+   }
+  ],
+  "e9e7beb52b83": [
+   {
+    "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+    "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Basically no one is using AI agents for their DoorDash orders",
+    "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+    "source": "Ars Technica"
+   }
+  ]
+ }
+}
