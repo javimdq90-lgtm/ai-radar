@@ -42,37 +42,40 @@
   "itemIds": [
    "0dbf0226aa90",
    "19244c7aa206",
-   "a4a3f94120ca"
+   "a4a3f94120ca",
+   "346706f894ca"
   ],
-  "writtenAt": "2026-11-03T12:53:26.957Z",
-  "headline": "OpenAI launches Grid Protectors Program, pilots it at Georgia data center",
-  "dek": "OpenAI says its Effingham County, Georgia campus will free up to 1,000 MW during extreme weather or emergencies, as local opposition to data centers grows across the US.",
+  "writtenAt": "2026-11-03T22:23:32.697Z",
+  "headline": "OpenAI launches Grid Protectors Program, piloting 1,000 MW grid relief at Georgia site",
+  "dek": "OpenAI says its planned Effingham County, Georgia campus will free up to 1,000 MW during extreme weather or emergencies, as it also adopts the term 'compute campuses' amid data center backlash.",
   "keyPoints": [
-   "OpenAI will pilot the Grid Protectors Program at an upcoming data center in Effingham County, Georgia, working with utilities on grid reliability and consumer electricity costs.",
-   "The company promises to free up to 1,000 megawatts during extreme weather or emergencies, which it says is enough to power air conditioners in about 700,000 homes.",
-   "OpenAI argues steady year-round demand spreads the grid's fixed costs across more electricity sales, while flexibility lets it cut demand when the system is busiest.",
-   "OpenAI now calls its data centers 'compute campuses'; Axios reports a post-midterm PR push led by policy chief Chris Lehane.",
-   "Other Stargate sites with Oracle and SoftBank include Shackelford and Milam counties in Texas and Doña Ana County, New Mexico."
+   "OpenAI will pilot the Grid Protectors Program at an upcoming Effingham County, Georgia site, promising to free up to 1,000 MW in extreme weather or emergencies, which it says could cool about 700,000 homes.",
+   "OpenAI says it will 'pay the costs we create' and work with utilities and policymakers on reducing demand when the grid is under strain.",
+   "The roughly 900-word announcement used 'data center' twice and 'compute campus' far more often; The Verge found no earlier use of the term on OpenAI's site.",
+   "Axios reported OpenAI planned a PR push after the midterms, including rebranding data centers as 'AI compute campuses'; chief global affairs officer Chris Lehane discussed it.",
+   "PauseAI US and the NAACP criticized the rebrand as cosmetic. OpenAI did not respond to The Verge's request for comment."
   ],
-  "context": "Public opposition to data centers has grown, with protests in Utah and laws in states such as Tennessee, Florida, Oklahoma and Oregon meant to stop AI companies passing energy costs to residents. Amazon and Microsoft have said they will stop using NDAs in talks with local governments. OpenAI's program fits a broader effort to reframe its buildout as a benefit to communities.",
-  "whatsNext": "Watch for the utility agreements and policymaker arrangements OpenAI says it will pursue, and whether the Georgia pilot is extended to other Stargate sites.",
+  "context": "Data centers have drawn bipartisan opposition over electricity use, costs passed to residents, and environmental effects, and several US states have passed laws or moratoriums in response. Rival Anthropic pledged earlier this year to cover 100 percent of grid-connection upgrades for its data centers, and Amazon and Microsoft have said they will stop using NDAs with local governments.",
+  "whatsNext": "Watch for the Georgia pilot's utility agreements and for how OpenAI's policy push plays out after Tuesday's midterm elections.",
   "article": {
    "whatHappened": [
-    "OpenAI on Monday announced the Grid Protectors Program, an initiative to work with utilities so that its future compute campuses support grid reliability and protect consumer electricity costs. The company will pilot the program at an upcoming data center in Effingham County, Georgia.",
-    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which it says is enough to run air conditioners in around 700,000 homes. It describes the power plants feeding its campuses as a resource utilities can call on when communities need it most.",
-    "OpenAI also makes an economic argument. Its announcement says electricity demand rises and falls with the seasons, while its campuses need power year-round. With the right agreements, it says, that steady demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it reduce demand when the system is busiest. The company says it will keep working with policymakers and utilities on arrangements to cut demand when the grid is under strain."
+    "OpenAI on Monday launched the Grid Protectors Program, an initiative it says is meant to make its future computing sites support grid reliability and protect consumer electricity costs. The first pilot will be at an upcoming site in Effingham County, Georgia.",
+    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which The Verge reports is enough to run air conditioners in about 700,000 homes. OpenAI pitches the arrangement as a resource utilities can call on when communities need it most.",
+    "The company argues that year-round demand helps consumers. Its announcement says steady demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it cut demand when the system is busiest. OpenAI says it will keep working with policymakers and utilities on arrangements to reduce demand when the grid is strained.",
+    "The announcement also introduced new vocabulary. According to The Verge, the roughly 900-word post used 'data center' only twice, and the term 'compute campus' appeared more often. A search of OpenAI's website turned up no earlier use of the phrase."
    ],
    "whyItMatters": [
-    "The announcement lands as opposition to data centers spreads. In Utah, residents protested after Box Elder County commissioners approved a project expected to use more than double the state's 2025 peak electricity demand. Several states have passed laws meant to keep AI companies from passing energy costs to residents, and some have adopted moratoriums or other restrictions. A Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains over five years.",
-    "The program also fits a messaging shift. The Verge notes OpenAI has begun calling its data centers compute campuses to distance them from their reputation. TechCrunch, citing Axios, reports OpenAI is preparing a PR push after the midterm elections, with chief global affairs officer Chris Lehane saying he expects AI to be the issue in the 2028 presidential race. Whether the pledge changes local sentiment will depend on binding terms, which the coverage does not detail."
+    "The launch lands as opposition to data centers spreads. The Verge cites a Utah protest over a Box Elder County project expected to use more than double the state's 2025 peak electricity demand, and notes that Tennessee, Florida, Oklahoma and Oregon have passed laws meant to stop AI companies passing energy costs to residents. A Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains within five years.",
+    "The rebrand is the more contested part. Axios reported that OpenAI planned a PR push after the midterms, anticipating a tougher regulatory climate if Democrats gain ground, and that the plan included calling data centers 'AI compute campuses.' Chris Lehane, OpenAI's chief global affairs officer, called the midterms a preview of 2028, when he expects AI to be a central presidential issue.",
+    "Critics are unconvinced. Holly Elmore of PauseAI US and Abre' Conner of the NAACP told The Verge that a new name does not address pollution, resource use or residents' concerns. Elmore also compared OpenAI unfavorably with Anthropic, which has made specific commitments on grid upgrade costs, community investment, water and NDAs."
    ],
    "whatToWatch": [
-    "The coverage does not say when the Georgia campus will open or what contractual terms will govern the 1,000 MW commitment. Those agreements with utilities and policymakers are the concrete test of the pledge.",
-    "OpenAI's other Stargate sites, built with Oracle and SoftBank in Shackelford and Milam counties in Texas and Doña Ana County in New Mexico, are likely places to see whether similar commitments follow."
+    "The main open question is how binding the Georgia arrangements are. The coverage gives no detail on contracts with utilities, how often the 1,000 MW would be released, or how the pilot would be verified.",
+    "OpenAI is also building Stargate sites with Oracle and SoftBank in Texas and New Mexico. Whether the program extends there, and how the post-midterm political environment shapes the company's policy push, are the next things to follow."
    ],
    "pullQuote": {
-    "text": "Our compute campuses need power year-round.",
-    "by": "OpenAI"
+    "text": "Communities that despise them will not be fooled into thinking they have transformed into something else.",
+    "by": "Holly Elmore, PauseAI US"
    }
   }
  },
@@ -335,6 +338,38 @@
    "whatToWatch": [
     "It remains unclear who the recordings were intended for. Ars Technica suggests that may emerge as the case proceeds, but no motive or recipient has been stated in the coverage.",
     "Alfozan faces up to five years in prison and a $250,000 fine, followed by three years of supervised release, if convicted. The National Security, Cyber & Special Prosecutions Section of the Northern District of California is handling the case."
+   ]
+  }
+ },
+ "42ec3b43220b": {
+  "storyId": "42ec3b43220b",
+  "itemIds": [
+   "42ec3b43220b"
+  ],
+  "writtenAt": "2026-11-03T22:22:46.631Z",
+  "headline": "Fal raises $1.3B at a $16B valuation, doubling its April price",
+  "dek": "The San Francisco AI inference startup closed a Bessemer-led Series F with Nvidia participating, after passing $800 million in annualized revenue, according to Bloomberg.",
+  "keyPoints": [
+   "Fal raised $1.3 billion in a round led by Bessemer Venture Partners, with Nvidia, Sound Ventures and T. Rowe Price participating.",
+   "The deal values Fal at $16 billion, double the $8 billion valuation from April, Bloomberg reported.",
+   "Fal announced Series E and Series F together, totaling $1.65 billion; Sequoia led the earlier round.",
+   "Fal surpassed $800 million in annualized revenue earlier this year, per Bloomberg.",
+   "Rivals Baseten, Fireworks AI and Modal are growing fast, but gross margins stay thin because of compute costs, sources say."
+  ],
+  "context": "Inference, running already-trained models to generate outputs, has become a major market as companies adopt open source models. Fal focuses on video, image and audio models, and competes with providers such as Baseten, Fireworks AI and Modal, which have also raised large rounds at rising valuations.",
+  "article": {
+   "whatHappened": [
+    "Fal, a San Francisco-based startup that hosts and runs AI video, image and audio models, has raised $1.3 billion in a round led by Bessemer Venture Partners. Nvidia, Sound Ventures and T. Rowe Price also participated.",
+    "The deal values the company at $16 billion, twice the $8 billion valuation it had in April, according to Bloomberg. Fal announced its Series E and Series F rounds at the same time, with a combined $1.65 billion raised across both. Sequoia led the earlier round.",
+    "Bloomberg's report noted that Fal passed $800 million in annualized revenue earlier this year. Fal was co-founded in 2021 by Burkay Gur, a former Coinbase machine learning leader and Oracle engineer, and Gorkem Yurtseven, previously a developer at Amazon."
+   ],
+   "whyItMatters": [
+    "The round comes amid strong demand for inference services, particularly from customers who rely on open source models. Inference is the process of running a trained model to produce outputs, and Fal's specialty is media generation across video, image and audio.",
+    "Fal is not alone. Baseten, Fireworks AI and Modal have also grown quickly and raised large rounds at higher valuations. TechCrunch, citing several people familiar with the companies' financials, reports that their gross margins remain thin because buying or leasing compute is expensive.",
+    "That tension is worth noting: revenue growth is strong, but the valuations assume these companies can eventually keep more of each dollar they bring in. The coverage does not say what Fal's own margins are."
+   ],
+   "whatToWatch": [
+    "The coverage does not point to specific next steps. The open question is whether inference providers can improve margins as their revenue scales, given the compute costs that currently limit them."
    ]
   }
  },
@@ -721,6 +756,44 @@
     "Oracle plans to rely on vendor financing, customer-provided hardware and customer prepayments to reach positive free cash flow, which it expects in the second half of 2028. Whether those sources materialize is a key test of the plan.",
     "Pat Nerney of Dynasty Financial Partners said execution is what ultimately matters, and warned that if Oracle has to return to market in the back half of 2027 after calling this the last capital needed, investors should look out."
    ]
+  }
+ },
+ "775f6b0b1d66": {
+  "storyId": "775f6b0b1d66",
+  "itemIds": [
+   "775f6b0b1d66"
+  ],
+  "writtenAt": "2026-11-03T22:22:38.888Z",
+  "headline": "Apple opens Siri AI to all third-party apps in iOS 27.3 developer preview",
+  "dek": "With the iOS 27.3 developer preview, Apple lets developers integrate Siri AI into all apps, using personal context, natural-language prompts and on-screen awareness, plus a new 'app skills' feature for multi-step actions.",
+  "keyPoints": [
+   "Apple says developers can integrate Siri AI's new features in \"all apps\" through the iOS 27.3 Developer Preview, which began rolling out Tuesday.",
+   "Siri AI can draw on personal context, process natural-language prompts and use on-screen awareness to complete requests inside third-party apps.",
+   "A new \"app skills\" feature lets developers combine several tasks into a single action.",
+   "Users needn't name an app when it is in the foreground, during a Live Activity, or in a Siri AI conversation about it.",
+   "Apple is also extending Siri AI to its own apps, including Calendar, Files, Mail, Maps, Messages, Photos, Safari and Notes."
+  ],
+  "context": "9to5Mac notes Apple previously offered third-party developers only a smaller set of Siri features. Letting an AI assistant act inside other companies' apps is central to whether voice assistants can match the agent-style capabilities rivals have been building. Apple's approach relies on developers adopting its tools.",
+  "whatsNext": "Watch for the iOS 27.3 public release and how many third-party developers adopt Siri AI integration and app skills.",
+  "article": {
+   "whatHappened": [
+    "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update, which began rolling out Tuesday as a Developer Preview, Apple announced that developers can integrate Siri AI's new features in \"all apps.\" The voice assistant can draw on a user's personal context, process natural language prompts and use on-screen awareness to complete requests.",
+    "The update also adds an \"app skills\" feature that third-party developers can create to combine several tasks into a single action. According to Apple's developer documentation, users won't have to mention an app's name in a request while the app is in the foreground, during a Live Activity, or in a conversation with Siri AI about that app.",
+    "Apple gave a ride share example: a person might request a ride, follow the Live Activity while they wait, then ask to change the pickup to a different address by saying \"Hey Siri, change my ride pickup to a new address.\"",
+    "Apple is also bringing Siri AI's expanded capabilities to its own apps: Calendar, Files, Finder, Journal, Mail, Maps, Messages, Music, Notes, Photos, Preview, Reminders, Safari, Shortcuts and Weather. Apple says users can ask Siri AI what it can do in each app."
+   ],
+   "whyItMatters": [
+    "As 9to5Mac noted, Apple previously made only a smaller set of features available to third-party developers. Extending Siri AI to all apps widens what the assistant can do beyond Apple's own software, which determines how useful it is in daily use.",
+    "The app skills feature suggests Apple wants developers to package multi-step workflows, rather than leaving Siri AI to work out each step. How well that works will depend on developer adoption and on how reliably Siri AI interprets requests that don't name an app. The coverage does not say how either will perform."
+   ],
+   "whatToWatch": [
+    "The features are in a Developer Preview, so wider availability will follow the iOS 27.3 release to the public. The coverage gives no date for that.",
+    "Also open is which major apps add Siri AI support and app skills first, and whether the unnamed-app behavior works as Apple describes."
+   ],
+   "pullQuote": {
+    "text": "Users can do things like find a coffee shop they visited last week or archive files that haven’t been opened in over a year",
+    "by": "Apple"
+   }
   }
  },
  "79e072c52849": {
@@ -1379,6 +1452,48 @@
    }
   }
  },
+ "b450560162d2": {
+  "storyId": "b450560162d2",
+  "itemIds": [
+   "b450560162d2",
+   "ba273efe94ab",
+   "6df21e5a1561",
+   "f3b71b18e198"
+  ],
+  "writtenAt": "2026-11-03T22:23:07.845Z",
+  "headline": "Google will switch off Search for schools that opt out of its AI tools",
+  "dek": "Google says K-12 student accounts will have Gemini, Gemini Notebook, Gemini in Classroom and Search off by default; schools that decline the AI features cannot keep Search, drawing criticism from Sanders and Mamdani.",
+  "keyPoints": [
+   "Google says Gemini, Gemini Notebook, Gemini in Classroom and Search will be 'entirely off' for K-12 student accounts unless administrators explicitly turn them on.",
+   "Administrators cannot disable Gemini-powered features without also losing Search. Google's Chris Phillips says 'Search and AI are deeply integrated.'",
+   "Sen. Bernie Sanders called the policy 'extortion'; NYC Mayor Zohran Mamdani said no corporation should dictate how children are taught.",
+   "Google will embed Guided Learning in AI Overviews in Search and begin testing it in select US schools this month.",
+   "Google will share specifics with schools in the coming months before the changes roll out."
+  ],
+  "context": "Google turned Gemini on by default in Google Classroom, used by more than 150 million teachers and students, only months ago, which fed skepticism about AI in schools. Last month, lawmakers pressed the company on potential harms. Google has said in the consumer market that Search is AI search, and the new policy applies that stance to education.",
+  "whatsNext": "Google says it will share more specifics with schools in the coming months ahead of the rollout, and Guided Learning in Search begins testing in select US schools this month.",
+  "article": {
+   "whatHappened": [
+    "Google says it will turn off Gemini, Gemini Notebook, Gemini in Classroom and Google Search for K-12 student accounts unless school administrators explicitly enable them. The company announced the change Tuesday in an education update and confirmed details to The New York Times. TechCrunch reports the change applies next year, and Ars Technica says it will roll out in the coming months.",
+    "The catch is that the tools cannot be separated. Administrators will not be able to turn off Gemini-powered features while keeping Search. Chris Phillips, Google's vice president of education, told the Times that schools that disable the AI features 'will not have access to Search, and they'll see a message from their school that indicates it's not available.'",
+    "Google presents the change as a matter of control, saying it will 'give schools more choice, not less.' It says schools can turn each service on or off individually. It also says the policy follows consultations with schools, teachers, researchers and policymakers.",
+    "Alongside the policy, Google is trying to address worries that students use AI to find shortcuts. It is putting its Guided Learning feature, designed to help students work through problems rather than get answers, into AI Overviews in Search. Testing in select US schools begins this month. Ars Technica notes that Google says all its generative AI products can make mistakes."
+   ],
+   "whyItMatters": [
+    "The change comes months after Google turned Gemini on by default in Classroom, which is used by more than 150 million people globally. That default drew skepticism amid reports of declining test scores and effects on learning, and lawmakers pressed Google last month on potential harms. Moving to off-by-default answers part of that criticism, but bundling Search with the AI tools limits what opting out means.",
+    "Critics were quick to respond. Sen. Bernie Sanders called it 'extortion,' NYC Mayor Zohran Mamdani said no corporation should have the power to dictate how children are taught, and California official Rohit Chopra wrote that Big Tech should not be able to 'strong-arm schools.'",
+    "TechCrunch and Ars Technica both point to Google's weight in classrooms, where its apps and Chromebooks are widespread. Teachers may not want students relying on AI Overviews but still need a search engine for sources. Ars Technica says Google could have built an AI-free school version of Search and chose not to, and suggests the company is betting schools will not give up Search. Alternatives such as DuckDuckGo, which lets users disable AI features, exist, though switching has its own costs."
+   ],
+   "whatToWatch": [
+    "Google has not yet said exactly when the changes take effect. It says it will share specifics with schools in the coming months so they can prepare, so the precise timing and administrator controls are the first things to watch.",
+    "Also open is whether the political criticism turns into formal action, and whether any school systems choose to drop Search rather than enable AI. Google did not immediately respond to The Verge's request for comment on the criticism, though it later added responses to the story."
+   ],
+   "pullQuote": {
+    "text": "Search and AI are deeply integrated",
+    "by": "Chris Phillips, Google vice president of education"
+   }
+  }
+ },
  "b9a4c6eaaadf": {
   "storyId": "b9a4c6eaaadf",
   "itemIds": [
@@ -1983,39 +2098,79 @@
   "storyId": "fb9ff410aee0",
   "itemIds": [
    "fb9ff410aee0",
-   "150a24daa34d"
+   "150a24daa34d",
+   "3a6efdada65a",
+   "a4abd1e2a1c1"
   ],
-  "writtenAt": "2026-11-02T23:56:18.018Z",
+  "writtenAt": "2026-11-03T22:23:21.114Z",
   "headline": "Anthropic's amended S-1 shows $17B Q3 revenue, slower growth and $895B in commitments",
-  "dek": "Anthropic's amended IPO filing reports about $17 billion in third-quarter revenue, growth slowing to 47% quarter over quarter, a $23.29 billion quarterly loss and roughly $895.4 billion in committed spending.",
+  "dek": "Anthropic's amended IPO filing reports about $17 billion in third-quarter revenue, up 47% on Q2 versus 144% a quarter earlier, alongside $895.4 billion in mostly compute-related commitments and rising compute costs.",
   "keyPoints": [
-   "Anthropic reported $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% year over year, with a $104 billion net loss, mostly from convertible note and derivative fair-value changes.",
-   "Q3 revenue was about $17 billion, but quarter-over-quarter growth fell to around 47%, from 144% in Q2 and 132% in Q1. Q3 net loss was $23.29 billion.",
-   "Purchase and lease commitments total about $895.4 billion, 'substantially all' for compute and infrastructure. Compute expenses rose $14.4 billion over nine months, up 329%.",
-   "A Tech Policy Press op-ed by Matt Scherer argues the SEC should block the IPO, citing at least $582 billion in commitments to five firms and unaudited 2026 results.",
-   "OpenAI confidentially filed its prospectus in June, but its executives have signaled a 2027 debut."
+   "Anthropic reported $33.24 billion in revenue for the nine months to Sept. 30 and a $104 billion net loss, mostly from fair-value changes on convertible notes and derivatives, CNBC reports.",
+   "Q3 revenue was roughly $17 billion, up about 47% sequentially, down from 144% growth in Q2 and 132% in Q1. Q3 net loss was $23.29 billion.",
+   "Aggregate committed spend on purchase and lease agreements is about $895.4 billion, 'substantially all of which is related to compute and infrastructure,' the filing says.",
+   "Compute took 58% of Q3 revenue, up from 48% in Q2, per TechCrunch. Revenue per compute dollar fell to 1.72x. $5.0 billion of the roughly $10 billion bill was short-term compute.",
+   "Critics are already arguing over the numbers: an opinion writer at Tech Policy Press urges the SEC to block the IPO, and Henry Blodget says growth flattened."
   ],
-  "context": "Anthropic published its first prospectus last week, which covered only first-half financials, and the amended filing adds the third quarter ahead of a roadshow. The filing lands amid investor worry about the AI buildout, including rising rates and hyperscaler spending. Rival OpenAI, founded by Anthropic's co-founders' former employer, is on a slower IPO track.",
-  "whatsNext": "Anthropic is preparing to start its roadshow, with a November market debut cited in the opinion coverage.",
+  "context": "Anthropic published its initial S-1 last week with financials only through June 30; Monday's amendment adds the third quarter. The filing comes as investors worry about AI data center debt and rising interest rates. OpenAI, Anthropic's chief rival, filed confidentially in June and is signaling a 2027 debut.",
+  "whatsNext": "Anthropic is preparing to start its IPO roadshow, where investors will press it on slowing growth, compute costs and its commitments.",
   "article": {
    "whatHappened": [
-    "Anthropic filed an amended Form S-1 with the Securities and Exchange Commission on Monday, adding third-quarter results to the prospectus it unveiled last week. The original filing included financials only through the first half of the year.",
-    "The company reported $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from the same period a year earlier. Net loss for the period was $104 billion, though CNBC reports most of that came from changes in the fair value of convertible notes and derivative liabilities. Anthropic lost $25.1 billion over the same stretch in 2025.",
-    "Third-quarter revenue was roughly $17 billion, up about 1,127% from a year earlier. Growth slowed sequentially: revenue rose around 47% over the second quarter, compared with 144% growth in Q2 and 132% in Q1. The third-quarter net loss was $23.29 billion.",
-    "The filing also says Anthropic has purchase commitments and lease agreements with aggregate committed spend of about $895.4 billion, 'substantially all of which is related to compute and infrastructure.' Compute and infrastructure expenses rose by $14.4 billion in the nine months, up 329%."
+    "Anthropic filed an amended Form S-1 with the SEC on Monday, extending the financial disclosures in its IPO prospectus from the first half of the year through Sept. 30. The company reported $33.24 billion in revenue for the first nine months of 2026, up roughly 1,200% year over year, and a $104 billion net loss. CNBC reports most of that loss came from changes in the fair value of convertible notes and derivative liabilities.",
+    "Third-quarter revenue was roughly $17 billion, up from about $11.5 billion in the second quarter, according to TechCrunch. That is growth of around 47% quarter on quarter, compared with 144% in Q2 and 132% in Q1. The company reported a net loss of $23.29 billion for the quarter.",
+    "The filing also discloses purchase commitments and lease agreements with an aggregate committed spend of about $895.4 billion. Anthropic says substantially all of it relates to compute and infrastructure. Compute and infrastructure expenses rose $14.4 billion in the nine-month period, up 329%.",
+    "TechCrunch says compute consumed 58% of revenue in Q3, up from 48% in Q2. The quarterly compute bill reached about $10 billion, including $5.0 billion of short-term commitments that the filing says cost significantly more than comparable multi-year capacity."
    ],
    "whyItMatters": [
-    "The numbers show a company growing very fast while its obligations grow faster. Anthropic gets much of its capacity from Amazon, Google and SpaceX, and also leans on neoclouds. CNBC notes Wall Street is already nervous about rising interest rates and the strain of AI spending on hyperscaler cash flows, which some investors fear could slow the arrival of computing capacity Anthropic needs.",
-    "Critics are using the filing to question the offering itself. In Tech Policy Press, Matt Scherer, co-author of a report on the AI bubble bursting, argues the SEC should block the IPO. He points to at least $582 billion in non-cancelable commitments to Amazon, AMD, Broadcom, Google and Microsoft, against $96 billion in cash, and notes that 2026 results have not been formally audited. He also says the commitments could reach a trillion dollars by year-end. These are his opinions, and the piece does not show the SEC is considering such action.",
-    "Anthropic frames the risks differently. The S-1 includes more than 90 pages of risk factors, covering political headwinds, complex infrastructure needs and the difficulty of balancing safety and commercial goals. OpenAI, its chief rival, filed confidentially in June but is signaling a 2027 debut."
+    "The numbers give IPO investors a first look at the economics of a frontier lab, and the picture is mixed. Revenue is still growing at a pace few companies have reached, but TechCrunch notes that compute margins worsened when the company would prefer to show them improving. It describes the shift as more likely a blip than a lasting problem, as Anthropic scrambled for expensive short-term capacity, including from neoclouds such as Nscale, Akamai and Volta, and a reported $1.25 billion a month deal with SpaceX.",
+    "Commentators are reading the slowdown differently. Henry Blodget argues from the quarterly figures and a reported $65 billion annualized run-rate in July that growth barely rose from July to September, and says this is an estimate, not company-reported monthly data. He suggests the cause could be seasonality, capacity limits or customers shifting to cheaper Chinese models. Matt Scherer of Tech Policy Press, an opinion piece, calls the commitments effectively debts and argues the SEC should block the IPO. He cites at least $582 billion owed to five companies against $96 billion in cash.",
+    "The backdrop is tense. CNBC says Wall Street worries that rising rates will make debt unaffordable for data center developers and neoclouds, and that hyperscaler spending is straining cash flows, which could delay the capacity Anthropic needs."
    ],
    "whatToWatch": [
-    "The next step is the roadshow, where Anthropic will have to address the slowing quarterly growth and the size of its compute commitments with prospective investors.",
-    "Also worth watching is whether further compute contracts push commitments higher before the offering, as Scherer expects, and how markets respond to the AI financing concerns raised in the hyperscalers' recent earnings."
+    "Anthropic is about to begin its roadshow. Watch whether it provides further run-rate figures and how it answers questions on the Q3 slowdown, the rise in compute's share of revenue, and the size of its commitments.",
+    "The filing says compute will stay its largest operating expense for the foreseeable future, so progress on its in-house 'Anthropic Direct' effort and on multi-year capacity coming online will shape margins. OpenAI's own filing, expected to lead to a 2027 debut, will offer a comparison."
    ],
    "pullQuote": {
-    "text": "We consider it our personal responsibility to help the world understand these risks, to prevent or mitigate them when they arise from our AI models",
-    "by": "Anthropic's co-founders, in the S-1 filing"
+    "text": "We expect compute and infrastructure expenses to increase in absolute dollars and remain our largest operating expense for the foreseeable future",
+    "by": "Anthropic, in its amended S-1 filing"
+   }
+  }
+ },
+ "fd8195e7fb64": {
+  "storyId": "fd8195e7fb64",
+  "itemIds": [
+   "fd8195e7fb64"
+  ],
+  "writtenAt": "2026-11-03T22:22:56.372Z",
+  "headline": "OpenAI says ChatGPT search volume is now 20% of Google's",
+  "dek": "OpenAI's Adam Fry said ChatGPT search queries now equal one-fifth of Google's volume, counting any query that triggers a web search, though the source of the Google figure was not given.",
+  "keyPoints": [
+   "OpenAI says ChatGPT search query volume equals 20 percent of Google's, according to Adam Fry, consumer product lead for ChatGPT, speaking at a Monday press event.",
+   "OpenAI counts a search as any query that results in a web search, excluding tasks like defining a term or giving a simple how-to explanation.",
+   "Fry did not specify where the Google search volume number came from, so the comparison cannot be verified.",
+   "Fry said ads have not hurt the product or its usage; OpenAI recently began showing images of sponsored products in ChatGPT.",
+   "OpenAI is pursuing what it calls Intelligent UI, a visual, interactive interface inside chatbot responses, and may IPO as early as next year."
+  ],
+  "context": "Google's search dominance has faced pressure from AI chatbots, and in its 2023 antitrust trial Google described AI as a potential disruptor. Microsoft's Satya Nadella testified then that Bing held about 3 percent of the market after more than a decade. OpenAI's figure suggests ChatGPT has reached meaningful scale as a search tool, though on its own definition of a search.",
+  "whatsNext": "Watch for OpenAI's IPO, which The Verge says could come early next year, and for how its advertising expands in ChatGPT.",
+  "article": {
+   "whatHappened": [
+    "OpenAI says the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, announced the figure at a press event on Monday, according to The Verge.",
+    "Fry said OpenAI defines a search as any time a user enters a query that results in a web search, as opposed to tasks such as defining a term or a simple how-to explanation. He did not specify the source of the Google search volume number used for the comparison.",
+    "Fry also described where OpenAI wants the product to go. The company calls its approach Intelligent UI, meaning a visual and interactive interface inside a chatbot response. \"That's where the future of this technology goes. You're talking to a canvas,\" he said."
+   ],
+   "whyItMatters": [
+    "One-fifth of Google's volume is still far from overtaking it, but The Verge notes the scale of the challenge has changed. During Google's 2023 antitrust trial, Microsoft CEO Satya Nadella said Bing had about 3 percent of the search market after more than a decade of trying. Google argued then that ChatGPT was poised to compete seriously with it, and OpenAI now appears to agree.",
+    "The comparison comes with caveats. OpenAI's definition counts only queries that trigger a web search, and the Google figure was not sourced, so the two numbers may not measure the same thing. The Verge also reports that OpenAI likely uses Microsoft Bing for a significant part of its searches alongside its own index, though there is speculation that some queries route through Google.",
+    "Money is part of the story. Like Google, OpenAI sees a path to profitability through ads, particularly as it approaches an IPO potentially slated for early next year. Fry told reporters ads have not produced a lasting backlash, and OpenAI said last month it would show images of sponsored products and services rather than only a name, logo and link."
+   ],
+   "whatToWatch": [
+    "The main open questions are whether OpenAI will publish more detail on how it measures search volume and where the Google comparison comes from, and whether usage keeps growing as ads become more prominent.",
+    "The timing of a possible IPO, which The Verge says could come early next year, will also shape how aggressively OpenAI expands advertising in ChatGPT."
+   ],
+   "pullQuote": {
+    "text": "Ads have not negatively impacted the product or the usage of the product",
+    "by": "Adam Fry, OpenAI consumer product lead for ChatGPT"
    }
   }
  }
