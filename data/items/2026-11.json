@@ -493,7 +493,7 @@
    "OpenAI"
   ],
   "imageCheckedAt": "2026-11-02T23:56:01.873Z",
-  "storyId": "19244c7aa206"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
@@ -884,7 +884,7 @@
   "entities": [
    "OpenAI"
   ],
-  "storyId": "19244c7aa206"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
@@ -1110,5 +1110,483 @@
   "image": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080",
   "imageCheckedAt": "2026-11-02T23:56:02.195Z",
   "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.03092",
+  "title": "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "Personal AI agents are increasingly capable of handling long-horizon tasks across applications, yet users often need to invest substantial effort in specifying goals, resolving ambiguity, and verifying outcomes. We argue that progress should be measured by how effectively agents amplify human agency: enabling people to pursue their goals with less routine supervision while retaining control over consequential decisions. We advocate Avatar Intelligence, a paradigm of persistent personal agents that represent users' goals, values, and constraints through sustained decision delegation across con…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03092.png",
+  "id": "06d047e6b83a",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "A position paper argues AI agent progress should be measured by how well they amplify human agency, advocating persistent personal 'Avatar Intelligence' agents that act on delegated goals and values.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "06d047e6b83a"
+ },
+ {
+  "url": "https://openai.com/index/heimstaden",
+  "title": "Heimstaden is changing residential real estate management with AI",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-03T08:00:00.000Z",
+  "snippet": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+  "id": "08b710f1e780",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Property manager Heimstaden uses ChatGPT Enterprise and Codex across Europe to cut costs and speed up property management work.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Heimstaden",
+   "OpenAI",
+   "Codex"
+  ],
+  "storyId": "08b710f1e780"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+  "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-03T07:20:00.000Z",
+  "snippet": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+  "id": "0947affcb4cc",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Apple's Audio Intelligence features for Apple Watch, which help recall and recap conversations and take notes, have entered beta testing.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Apple",
+   "Apple Watch"
+  ],
+  "storyId": "0947affcb4cc"
+ },
+ {
+  "url": "https://longcat.ai/blog/longcat-2.5/",
+  "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-02T15:00:26.000Z",
+  "score": 85,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50337716",
+  "id": "16a04cf8b747",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "LongCat-2.5 is announced as a natively multimodal model aimed at agentic tasks.",
+  "whyItMatters": "Another capable model family from a Chinese lab to watch for agent use.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "LongCat-2.5",
+   "Meituan"
+  ],
+  "image": "https://s3plus.meituan.net/aigc-media-resources/longcat/big-cat-logo.png",
+  "imageCheckedAt": "2026-11-03T12:53:13.931Z",
+  "storyId": "16a04cf8b747"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.03602",
+  "title": "Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T13:41:14.000Z",
+  "snippet": "Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content of each video. Motivated by this observation, we propose Reviso, an agentic video captioning framework that learns what to observe and how to gather relevant visual evidence. From a low-frame-rate global preview, Reviso constructs a hierarchical Context--Focus--Points (CFP) observation plan that ide…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03602.png",
+  "id": "23bc9b8bbdaa",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Reviso is an agentic video captioning framework that builds a hierarchical observation plan from a low-frame-rate preview to focus on the most important visual evidence.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Reviso"
+  ],
+  "storyId": "23bc9b8bbdaa"
+ },
+ {
+  "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+  "title": "Preparing our next security sprint to harden OpenAI",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-02T18:00:00.000Z",
+  "snippet": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+  "id": "262cfa35f430",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems, using AI to test and strengthen its defenses.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Cathedral Systems"
+  ],
+  "storyId": "262cfa35f430"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.01860",
+  "title": "Advances in Agentic Computer Graphics",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-31T20:00:00.000Z",
+  "snippet": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult for manual literature reviews to keep pace with new developments. At the same time, similar ideas are…",
+  "score": 47,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.01860.png",
+  "id": "2d52e97e8a16",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "A survey paper reviews the fast-growing field of agentic computer graphics, where LLM agents generate graphics code and refine it through feedback.",
+  "whyItMatters": "Gives builders a map of a emerging paradigm for automating graphics workflows.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "2d52e97e8a16"
+ },
+ {
+  "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+  "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-03T05:35:00.000Z",
+  "snippet": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/7c05f6ee-ac6d-4327-b763-7d43c0fa8d35/image.png?t=1793682395",
+  "id": "360a3a5d8e13",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Latent Space's AINews covers work showing LLMs can read and write neural network weights ('Weight Space Programming'), such as editing Qwen weights to reduce reasoning loops, plus a DeepSeek super-agent prototype and the GDPx benchmark.",
+  "whyItMatters": "Direct weight editing by LLMs could shortcut parts of automated research loops.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Qwen",
+   "DeepSeek",
+   "GDPx"
+  ],
+  "storyId": "38c41eb0ed98"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.01560",
+  "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-31T20:00:00.000Z",
+  "snippet": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks. Our analysis across model generations, famil…",
+  "score": 37,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.01560.png",
+  "id": "37f83cfc4111",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "The uni-robot-agent harness enables open-weight robot-use agents with further training; Qwen3.8-Flash-Next scores 31.39 on RoboDojo, beating the published GPT-6 Astra-RoboProbe result of 28.97.",
+  "whyItMatters": "Suggests open models can rival proprietary ones for robot manipulation agents, opening this research to more teams.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Qwen3.8-Flash-Next",
+   "GPT-6 Astra-RoboProbe",
+   "uni-robot-agent"
+  ],
+  "storyId": "37f83cfc4111"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.01484",
+  "title": "CrossSWE: Benchmarking Cross-Repository Joint Development for Coding Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-31T23:16:52.000Z",
+  "snippet": "As coding agents achieve increasingly high success rates on software engineering benchmarks, recent efforts have sought to increase task complexity through longer horizons and more extensive code modifications. However, real-world software development often spans multiple interdependent repositories, introducing additional challenges in dependency reasoning, change propagation, and interface consistency. Rather than further increasing complexity within individual repositories, we introduce CrossSWE, a benchmark for cross-repository joint development comprising 171 real-world instances spannin…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.01484.png",
+  "id": "3ca89e3a8361",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "CrossSWE is a new benchmark of 171 real-world instances testing coding agents on development spanning multiple interdependent repositories.",
+  "whyItMatters": "Single-repo benchmarks are saturating, and cross-repo work is closer to real engineering.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CrossSWE"
+  ],
+  "storyId": "3ca89e3a8361"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+  "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-03T03:30:00.000Z",
+  "snippet": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+  "id": "4ed35bdfdb65",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Google's AI experiment Dreambeans, which generates personal stories, now supports 13 Indian languages and has launched in India.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Dreambeans"
+  ],
+  "storyId": "4ed35bdfdb65"
+ },
+ {
+  "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+  "title": "Rewarding defenders with bigger bug bounties",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-02T18:00:00.000Z",
+  "snippet": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+  "id": "6fd6ad7938fa",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "OpenAI is raising Security Bug Bounty rewards and adding bonuses for report quality, loyalty and priority campaigns for independent researchers.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "6fd6ad7938fa"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+  "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-03T04:18:47.000Z",
+  "snippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
+  "id": "76af35d96ed5",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "MIT Technology Review reports on who is complying with a Trump executive order directing agencies to rebrand AI as 'Super Intelligence'.",
+  "whyItMatters": "Shows political pressure shaping how government and vendors talk about AI.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Trump",
+   "MIT Technology Review"
+  ],
+  "storyId": "efcf00e7bea3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+  "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-03T00:35:52.000Z",
+  "snippet": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+  "id": "793a736581dc",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Y Combinator's Garry Tan said on Walter Isaacson's podcast The Builders that he spends up to $200K a year on tokens for AI agents and jokingly described himself as suffering 'cyber psychosis'.",
+  "whyItMatters": "A data point on heavy agent usage costs among power users.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Garry Tan",
+   "Y Combinator"
+  ],
+  "storyId": "793a736581dc"
+ },
+ {
+  "url": "https://github.com/NVIDIA/auto-ontology",
+  "title": "Nvidia – open-source auto-ontology",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T07:04:50.000Z",
+  "score": 144,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50348962",
+  "id": "8ac198972094",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Nvidia released an open-source auto-ontology project on GitHub.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Nvidia"
+  ],
+  "storyId": "8ac198972094"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+  "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-03T01:49:52.000Z",
+  "snippet": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+  "id": "968f14d53faf",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "On its earnings call Apple hinted it could raise revenue through unspecified 'opportunities' involving third-party AI apps.",
+  "whyItMatters": "Could affect App Store economics for AI app developers.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Apple"
+  ],
+  "imageCheckedAt": "2026-11-03T12:53:13.510Z",
+  "storyId": "968f14d53faf"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.03178",
+  "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T09:15:11.000Z",
+  "snippet": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback. Its three-la…",
+  "score": 77,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03178.png",
+  "id": "9978900b6441",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "CoworkOS is a general-purpose harness for long-horizon agent work that separates task strategy (model decisions, delegation) from execution management (runtime state and feedback).",
+  "whyItMatters": "Reflects the trend toward harness design as a key lever for agent reliability.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "CoworkOS"
+  ],
+  "storyId": "9978900b6441"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+  "title": "How “reverse game theory” could keep AI agents in check",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-03T10:43:41.000Z",
+  "snippet": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
+  "id": "a312adbc2b5e",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "A 'reverse game theory' approach aims to keep powerful AI agents aligned by designing systems whose incentives make them follow the rules.",
+  "whyItMatters": "Offers an alternative to training-only alignment for agent safety.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "a312adbc2b5e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.02102",
+  "title": "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-10-31T20:00:00.000Z",
+  "snippet": "Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes. The Flywheel uses these records to curate verified trajectories. For unsolved tasks, recursive self-improvement evolves reusable skills and preserves verified milestones so later attemp…",
+  "score": 26,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02102.png",
+  "id": "a3dce92c4693",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "NorthCUA is a technical report on a computer-use agent system that uses an experience flywheel, a long-interaction harness and verified trajectories with recursive self-improvement of skills.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "NorthCUA"
+  ],
+  "storyId": "a3dce92c4693"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.02897",
+  "title": "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of composition-aware features. The designed features are extracted using foundation and task-specific vision models and structured into four photographic tokens: Subject, Composition, Aesthetics, and Integrit…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02897.png",
+  "id": "c13c96e83c9e",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "PhotoGuider is a method for composition-aware image cropping and 360-degree view framing using learned scorers over photographic features with explainable assessments.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "PhotoGuider"
+  ],
+  "storyId": "c13c96e83c9e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.01815",
+  "title": "When Does Latent Prediction Error Support Physical Surprise Claims in Video World Models?",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T06:31:09.000Z",
+  "snippet": "Prediction errors from video world models are often treated as physical surprise, but they can also reflect appearance, static content, motion, or ordinary prediction difficulty. We present an evaluation framework that separates what frozen representations contain, how they organize appearance and physical differences, and what changes a model's own prediction error. On IntPhys2, a benchmark of physically possible and impossible events, we compare representations from latent prediction, masked pixel reconstruction, and simple visual statistics. Appearance remains easy to decode, while V-JEPA2…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.01815.png",
+  "id": "ed0db306244d",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "A paper proposes an evaluation framework showing that prediction error in video world models may reflect appearance or prediction difficulty rather than true physical surprise, tested on IntPhys2 with V-JEPA2 among others.",
+  "whyItMatters": "Cautions against over-reading world-model errors as physical understanding.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "V-JEPA2",
+   "IntPhys2"
+  ],
+  "storyId": "ed0db306244d"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.03126",
+  "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T08:41:14.000Z",
+  "snippet": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework. At the system level, an outer world-data-model flywheel continuously incorporates open-world corpus and leverages evol…",
+  "score": 55,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03126.png",
+  "id": "eed1f589970e",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "CUA-Master is a nested double-loop recursive improvement framework for computer-use agents, using an outer world-data-model flywheel that brings in open-world corpora to overcome limits of self-generated experience.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CUA-Master"
+  ],
+  "storyId": "eed1f589970e"
+ },
+ {
+  "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+  "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-02T16:25:33.000Z",
+  "score": 100,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50339224",
+  "id": "fd613bbbc38c",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "A blog post claims Claude Opus 5.5 can produce permit-level architectural drawings.",
+  "whyItMatters": "If true, it shows frontier models moving into professional, regulated design deliverables.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Claude Opus 5.5",
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-03T12:53:13.490Z",
+  "storyId": "fd613bbbc38c"
+ },
+ {
+  "url": "https://huggingface.co/blog/transformers-mic",
+  "title": "Transformers Model Integration Contracts",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-03T00:00:00.000Z",
+  "id": "fec0e46ceba4",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "Hugging Face published a post on Transformers model integration contracts, covering how models are integrated into the Transformers library.",
+  "whyItMatters": "Useful for contributors adding models to the Transformers library.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Transformers"
+  ],
+  "storyId": "fec0e46ceba4"
+ },
+ {
+  "url": "https://openai.com/index/dan-driscoll-joins-openai",
+  "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-02T00:00:00.000Z",
+  "snippet": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+  "id": "ff138f709a7e",
+  "fetchedAt": "2026-11-03T12:52:53.511Z",
+  "enrichedAt": "2026-11-03T12:53:13.377Z",
+  "summary": "OpenAI appointed Dan Driscoll as Senior Counselor for National Security Modernization to advise on responsible AI, cyber resilience and cooperation with U.S. allies.",
+  "whyItMatters": "Signals OpenAI's deepening push into national security work.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Dan Driscoll"
+  ],
+  "imageCheckedAt": "2026-11-03T12:53:13.459Z",
+  "storyId": "ff138f709a7e"
  }
 ]

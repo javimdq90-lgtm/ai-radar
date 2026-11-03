@@ -37,6 +37,45 @@
    }
   }
  },
+ "0dbf0226aa90": {
+  "storyId": "0dbf0226aa90",
+  "itemIds": [
+   "0dbf0226aa90",
+   "19244c7aa206",
+   "a4a3f94120ca"
+  ],
+  "writtenAt": "2026-11-03T12:53:26.957Z",
+  "headline": "OpenAI launches Grid Protectors Program, pilots it at Georgia data center",
+  "dek": "OpenAI says its Effingham County, Georgia campus will free up to 1,000 MW during extreme weather or emergencies, as local opposition to data centers grows across the US.",
+  "keyPoints": [
+   "OpenAI will pilot the Grid Protectors Program at an upcoming data center in Effingham County, Georgia, working with utilities on grid reliability and consumer electricity costs.",
+   "The company promises to free up to 1,000 megawatts during extreme weather or emergencies, which it says is enough to power air conditioners in about 700,000 homes.",
+   "OpenAI argues steady year-round demand spreads the grid's fixed costs across more electricity sales, while flexibility lets it cut demand when the system is busiest.",
+   "OpenAI now calls its data centers 'compute campuses'; Axios reports a post-midterm PR push led by policy chief Chris Lehane.",
+   "Other Stargate sites with Oracle and SoftBank include Shackelford and Milam counties in Texas and Doña Ana County, New Mexico."
+  ],
+  "context": "Public opposition to data centers has grown, with protests in Utah and laws in states such as Tennessee, Florida, Oklahoma and Oregon meant to stop AI companies passing energy costs to residents. Amazon and Microsoft have said they will stop using NDAs in talks with local governments. OpenAI's program fits a broader effort to reframe its buildout as a benefit to communities.",
+  "whatsNext": "Watch for the utility agreements and policymaker arrangements OpenAI says it will pursue, and whether the Georgia pilot is extended to other Stargate sites.",
+  "article": {
+   "whatHappened": [
+    "OpenAI on Monday announced the Grid Protectors Program, an initiative to work with utilities so that its future compute campuses support grid reliability and protect consumer electricity costs. The company will pilot the program at an upcoming data center in Effingham County, Georgia.",
+    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which it says is enough to run air conditioners in around 700,000 homes. It describes the power plants feeding its campuses as a resource utilities can call on when communities need it most.",
+    "OpenAI also makes an economic argument. Its announcement says electricity demand rises and falls with the seasons, while its campuses need power year-round. With the right agreements, it says, that steady demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it reduce demand when the system is busiest. The company says it will keep working with policymakers and utilities on arrangements to cut demand when the grid is under strain."
+   ],
+   "whyItMatters": [
+    "The announcement lands as opposition to data centers spreads. In Utah, residents protested after Box Elder County commissioners approved a project expected to use more than double the state's 2025 peak electricity demand. Several states have passed laws meant to keep AI companies from passing energy costs to residents, and some have adopted moratoriums or other restrictions. A Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains over five years.",
+    "The program also fits a messaging shift. The Verge notes OpenAI has begun calling its data centers compute campuses to distance them from their reputation. TechCrunch, citing Axios, reports OpenAI is preparing a PR push after the midterm elections, with chief global affairs officer Chris Lehane saying he expects AI to be the issue in the 2028 presidential race. Whether the pledge changes local sentiment will depend on binding terms, which the coverage does not detail."
+   ],
+   "whatToWatch": [
+    "The coverage does not say when the Georgia campus will open or what contractual terms will govern the 1,000 MW commitment. Those agreements with utilities and policymakers are the concrete test of the pledge.",
+    "OpenAI's other Stargate sites, built with Oracle and SoftBank in Shackelford and Milam counties in Texas and Doña Ana County in New Mexico, are likely places to see whether similar commitments follow."
+   ],
+   "pullQuote": {
+    "text": "Our compute campuses need power year-round.",
+    "by": "OpenAI"
+   }
+  }
+ },
  "0e19bec78e36": {
   "storyId": "0e19bec78e36",
   "itemIds": [
