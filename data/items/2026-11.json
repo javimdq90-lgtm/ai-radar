@@ -2909,5 +2909,601 @@
   "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
   "imageCheckedAt": "2026-11-04T13:05:06.073Z",
   "storyId": "f3900be82c6f"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+  "title": "ChatGPT will now make you animated GIFs",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T18:00:00.000Z",
+  "snippet": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single step. An example shared by the company shows how ChatGPT can generate a GIF in response to the prompt, \"can you make a gif of a cat dancing?\" while also providing you with the option to change the playback speed and view it frame by frame. Along with support for GIF-making…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "0ded2053c0de",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "ChatGPT can now generate animated GIFs from a prompt or photo, with adjustable speed and frame-by-frame editing, rolling out with OpenAI's new Images 2.6 model.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT",
+   "Images 2.6"
+  ],
+  "storyId": "0ded2053c0de"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+  "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-04T18:50:55.000Z",
+  "snippet": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600",
+  "id": "31bba1eca5b3",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Texas, the fastest-growing US data center market, may lose its edge after Democrats won the Senate seat (James Talarico) and governorship (Gina Hinojosa).",
+  "whyItMatters": "Political shifts could slow AI buildout in the state hosting some of Big Tech's largest projects.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Texas",
+   "James Talarico",
+   "Gina Hinojosa"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.760Z",
+  "storyId": "7aec60f41c48"
+ },
+ {
+  "url": "https://openai.com/index/openai-to-acquire-pierre",
+  "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-04T14:30:00.000Z",
+  "snippet": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+  "id": "3a06f84c0f51",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "OpenAI will acquire Pierre Computer Company to expand Codex's tools for building, understanding and reviewing code.",
+  "whyItMatters": "It signals OpenAI's continued investment in code review and understanding as Codex competes with other coding agents.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Pierre Computer Company",
+   "Codex"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.652Z",
+  "storyId": "3a06f84c0f51"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+  "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T14:46:01.000Z",
+  "snippet": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their computers, and it is fucking annoying that this was taken out of context. i have been arguing for the world to ramp up memory production for a long time.\" He replied to another comment, saying, \"i want you to have so much ram lets build more.\" but only because…i actually do want the world to have tons of memory and people…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2236544097.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "3fd5d1ee6f93",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Sam Altman defended his earlier comments on PC RAM, changing his X name to \"Ram Altman\" and saying he wants people to have lots of memory and has long argued for ramping up memory production.",
+  "whyItMatters": "It reflects the ongoing controversy over AI demand driving up memory prices.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Sam Altman",
+   "OpenAI"
+  ],
+  "storyId": "3fd5d1ee6f93"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+  "title": "Securing the agentic enterprise with data lineage",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-04T13:00:00.000Z",
+  "snippet": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR_Cyberhaven_V4_Cover.png?w=840",
+  "id": "416b7eba9f32",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "The piece argues enterprises need data lineage to secure multi-agent workflows, where one agent's output feeds another with no human checking the handoffs and restricted data may leak.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "416b7eba9f32"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+  "title": "Nothing teases a screen-free AI device ahead of launch next month",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T18:26:07.000Z",
+  "snippet": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature it won't have is a screen: \"Our first AI-native product ships next month. It's a tool, but one built with the personality and care that have come to define a Nothing product. It has no new screen, and it couldn't have been an app.\" Pei shared an image with the post that says \"NOTHING(R)\" in the top …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/nothing-phone-4a-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "42af486580e7",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Nothing CEO Carl Pei said the company's first AI-native device ships in December and will have no new screen.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Nothing",
+   "Carl Pei"
+  ],
+  "storyId": "42af486580e7"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+  "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-04T20:55:50.000Z",
+  "snippet": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302983449-1024x648.jpg",
+  "id": "44e59e6a2681",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Big Tech is claiming voters' AI backlash is \"anti-Trump\" rather than \"anti-tech\" after the US voted heavily to restrict AI and data centers.",
+  "whyItMatters": "It shows the industry and voters read the political signal differently, which affects future regulation.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Big Tech"
+  ],
+  "storyId": "7aec60f41c48"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+  "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T16:51:35.000Z",
+  "snippet": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+  "id": "472484bded0a",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "A TechCrunch reviewer found Apple's AI-powered Siri Recaps useful after a day of use, though with privacy concerns and room for improvement.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Apple",
+   "Siri"
+  ],
+  "storyId": "472484bded0a"
+ },
+ {
+  "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+  "title": "Open source AI is booming. Hugging Face explains who profits.",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T19:30:04.000Z",
+  "snippet": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+  "id": "49cf82dfae35",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Hugging Face's policy chief discusses who profits from booming open source AI as enterprises and governments adopt it and Chinese open models gain ground.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "bb779f39a67b"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+  "title": "Google hasn’t figured out how to make AI pay like its search engine",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T12:00:00.000Z",
+  "snippet": "Google Chief Business Officer Philipp Schindler. | Bloomberg via Getty Images Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. Meanwhile, growth in paid clicks - clicks on ads that generate revenue for Google - slowed from 13 percent to 8 percent. That's still substantial growth, but not the direction investors were hoping for from a company planning to spend about $2…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-106058340.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "595c3100a213",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Alphabet's Q3 Search revenue growth slowed to 12% year over year from about 17% the prior quarter, and paid-click growth fell from 13% to 8%, even as query volume grew at its fastest pace in five years. Google still plans huge AI spending.",
+  "whyItMatters": "It shows AI search usage is not yet monetizing as well as classic search, a key tension for Google's AI strategy.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Alphabet",
+   "Philipp Schindler"
+  ],
+  "storyId": "595c3100a213"
+ },
+ {
+  "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+  "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-04T17:50:10.000Z",
+  "id": "5afc49da7bd4",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Dharma Field Extractor is a Hugging Face release that turns any document into structured fields in JSON.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Dharma Field Extractor"
+  ],
+  "storyId": "5afc49da7bd4"
+ },
+ {
+  "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+  "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-04T07:00:00.000Z",
+  "snippet": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+  "id": "75679f5aa60b",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "OpenAI's Daybreak Red, built on GPT-5.6 Cyber, is now available to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+  "whyItMatters": "It extends frontier cyber models to regulated government workloads.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Daybreak Red",
+   "GPT-5.6 Cyber",
+   "AWS",
+   "Amazon Bedrock"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.644Z",
+  "storyId": "75679f5aa60b"
+ },
+ {
+  "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+  "title": "Data centers lost the midterms",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T16:05:39.000Z",
+  "snippet": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters polled by NBC News on Election Day, 76 percent said they opposed data centers in their communities. Dozens of local communities voted directly to restrict development through ballot measures. And upset winners like Texas Democratic Governor-elect Gina Hinojosa and Michigan's Democratic Senator-elect A…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "7aec60f41c48",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Voters backed candidates and ballot measures favoring data center moratoriums and restrictions in the midterms, with 76% of those polled by NBC opposing data centers in their communities.",
+  "whyItMatters": "Tougher local siting rules could constrain AI compute buildout.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "NBC News",
+   "Gina Hinojosa"
+  ],
+  "storyId": "7aec60f41c48"
+ },
+ {
+  "url": "https://www.anthropic.com/research/provable-inference",
+  "title": "Progress on provable inference for large language models",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T17:17:46.000Z",
+  "score": 152,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50368626",
+  "id": "7b93706aafff",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Anthropic published a post on progress toward provable inference for large language models, i.e. verifying that outputs come from a specific model.",
+  "whyItMatters": "Verifiable inference could help build trust in hosted models and enable auditing.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+  "imageCheckedAt": "2026-11-04T22:40:53.728Z",
+  "storyId": "993e48dc4504"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+  "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T22:13:16.000Z",
+  "snippet": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+  "id": "858a2ce3283f",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:53.579Z",
+  "summary": "Nothing's CEO says the company's still-mysterious AI-first device will launch next month, designed to use AI for productivity gains. The type of product has not been disclosed.",
+  "whyItMatters": "It is another attempt at an AI-native consumer device, a category that has struggled so far.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Nothing"
+  ],
+  "storyId": "42af486580e7"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+  "title": "How big is the open model economy today?",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-11-04T16:35:44.000Z",
+  "snippet": "Our first open model economy research note for paid subscribers.",
+  "image": "https://substackcdn.com/image/fetch/$s_!hFZ7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c5f2798-10bc-487a-8932-5f851ad61b24_1600x840.svg",
+  "id": "93ee83f44d29",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Interconnects published its first open model economy research note, sizing the open model market, for paid subscribers.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Interconnects"
+  ],
+  "storyId": "93ee83f44d29"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+  "title": "Almost no one uses AI agents to book their Uber, company says",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T21:56:01.000Z",
+  "snippet": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800",
+  "id": "94c502abbc46",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:53.579Z",
+  "summary": "Uber said that in its busiest week last quarter, only four people booked a ride through an AI agent.",
+  "whyItMatters": "It is a concrete data point showing that agentic commerce adoption is still negligible despite the hype.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Uber"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.682Z",
+  "storyId": "e64d0791be6f"
+ },
+ {
+  "url": "https://www.ricursive.com/ripple",
+  "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T18:53:29.000Z",
+  "score": 165,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50369925",
+  "id": "96eddcc208ed",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Ricursive previewed Ripple-65B, claiming state-of-the-art results among US open-weight models on agentic coding.",
+  "whyItMatters": "A new US open-weight option for coding agents, though the claim is self-reported.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Ricursive",
+   "Ripple-65B"
+  ],
+  "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
+  "imageCheckedAt": "2026-11-04T22:40:53.835Z",
+  "storyId": "96eddcc208ed"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+  "title": "OpenAI is already trying to shape the 2028 election",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T21:25:44.000Z",
+  "snippet": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
+  "id": "a1e153edc152",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:53.579Z",
+  "summary": "OpenAI's Chris Lehane wants AI to be a defining issue of the 2028 US election, proposing a new social contract that he says would benefit Americans while also advancing OpenAI's business interests.",
+  "whyItMatters": "It signals OpenAI is starting early to shape the political and regulatory debate around AI.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Chris Lehane"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.677Z",
+  "storyId": "a1e153edc152"
+ },
+ {
+  "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+  "title": "A thousand fewer paths to root",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-04T08:00:00.000Z",
+  "snippet": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+  "id": "a4f4c423c542",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "OpenAI built an autonomous pipeline that found, validated and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+  "whyItMatters": "It is a concrete, large-scale demonstration of AI doing end-to-end vulnerability discovery and fixing.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "Linux kernel"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.655Z",
+  "storyId": "a4f4c423c542"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+  "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T16:17:22.000Z",
+  "snippet": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/03/students-typing-on-laptops-GettyImages_1513744777.jpeg?w=1200",
+  "id": "ac5380eefb5a",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Google faces criticism from figures including NYC mayor Zohran Mamdani and Lina Khan over a plan that would turn off Search for schools that restrict AI, with accusations of acting as an unregulated monopoly.",
+  "whyItMatters": "It raises antitrust and education-policy questions over tying AI features to core products.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Zohran Mamdani",
+   "Lina Khan"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.721Z",
+  "storyId": "b450560162d2"
+ },
+ {
+  "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+  "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T18:00:00.000Z",
+  "snippet": "Also, can I just say this LED indicator light is way too small and unnoticeable? This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and small, have triggered this question. Three weeks ago, it was the fact that I had to ask my therapist for her consent because I was wearing the Amazon Bee Frontier during our session. That first week, I did…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268817_Bee_Frontier_AKrales_0098.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "acc28d88e49f",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "A Verge reviewer describes wearing the Amazon Bee Frontier AI wearable, including to a therapy session, and finds its tiny recording indicator light problematic.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Amazon",
+   "Bee Frontier"
+  ],
+  "storyId": "acc28d88e49f"
+ },
+ {
+  "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+  "title": "Everything is an AI scam now",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T21:05:19.000Z",
+  "score": 95,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50371508",
+  "id": "ad486aacca15",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:53.579Z",
+  "summary": "An essay argues that AI-branded scams have become so pervasive that nearly everything online now looks like one. Only the title is available, so the specifics of the argument are unknown.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [],
+  "storyId": "ad486aacca15"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+  "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T18:44:57.000Z",
+  "snippet": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+  "id": "bb779f39a67b",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Hugging Face's policy chief discusses the costs, risks and trade-offs of building on open source AI, including how companies capture value and whether US players can keep up with Chinese open models.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "bb779f39a67b"
+ },
+ {
+  "url": "https://openai.com/index/devrev-enterprise-self-service",
+  "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-04T00:00:00.000Z",
+  "snippet": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+  "id": "bf25be8f8779",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "DevRev is using OpenAI's GPT-6.1 Sol to power its Computer and Operator products for autonomous enterprise customer service, citing a balance of reasoning, speed and cost.",
+  "whyItMatters": "A customer case study that hints at how GPT-6.1 Sol performs in production agent workloads.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "DevRev",
+   "OpenAI",
+   "GPT-6.1 Sol"
+  ],
+  "storyId": "bf25be8f8779"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+  "title": "Gemini for Home now plugs into AT&T’s smart security system",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T20:23:24.000Z",
+  "snippet": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide detailed descriptions about events captured by your security cameras, such as who delivered a package and how many items they dropped off. You can also search recorded video footage using natural language questions, like \"What dug up the yard last nig…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cb762b7ed208",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "AT&T's Connected Life security system now integrates with Gemini for Home, enabling summaries of camera events and natural-language search of video history.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "AT&T",
+   "Gemini for Home",
+   "Google"
+  ],
+  "storyId": "cb762b7ed208"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+  "title": "Meta acquires AI coding startup Conductor",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T21:10:56.000Z",
+  "snippet": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-ray-bans.png?resize=1200,653",
+  "id": "d23caa988630",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:53.579Z",
+  "summary": "Meta has acquired Conductor, an AI coding startup whose tool lets software engineers deploy teams of agents to work on different parts of a project simultaneously.",
+  "whyItMatters": "It shows Meta buying into multi-agent coding workflows as the race over developer tooling heats up.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Conductor"
+  ],
+  "imageCheckedAt": "2026-11-04T22:40:53.684Z",
+  "storyId": "d23caa988630"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+  "title": "17 better ways Elon Musk could have wasted $446 million",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T21:45:00.000Z",
+  "snippet": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you may delusionally throw away nearly $500 million dollars on midterm elections, just like Elon Musk. In particular, $47 million of that money from Musk's America PAC was aimed at defeating Texas Democrat James Talarico, who trounced …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268859_How_the_tech_right_could_have_spent_all_the_money_they_burned_on_the_midterms_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "e5fe4bf1b72b",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:53.579Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+  "title": "Uber only fulfilled 4 rides from AI agents last quarter",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T15:58:45.000Z",
+  "snippet": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording \"around 500\" during the week of Halloween, out of a total 320 million Uber rides and Uber Eats deliveries. This is the first time that Uber has disclosed the number of third-party AI agents that have arranged deliveries or rides on its platform. With the rise of AI agents like Meta's Mus…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "e64d0791be6f",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Uber disclosed that only four rides were booked by third-party AI agents in Q3 2026, plus about 500 Uber Eats orders in Halloween week, out of 320 million total trips and deliveries.",
+  "whyItMatters": "It's a reality check on how little agentic commerce is actually happening.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Uber",
+   "Uber Eats"
+  ],
+  "storyId": "e64d0791be6f"
+ },
+ {
+  "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+  "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-04T19:17:30.000Z",
+  "snippet": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3f11140f-17d7-4e20-bda5-a8bfffa6738a/ChatGPT_Image_Nov_4__2026__11_17_02_AM.png?t=1793819847",
+  "id": "e9efb1446d7a",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "Latent Space's quiet-day AINews issue shares behind-the-scenes updates, including its AIEi Shanghai event.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Latent Space"
+  ],
+  "storyId": "e9efb1446d7a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+  "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T19:29:52.000Z",
+  "snippet": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+  "id": "f1f26a9d7d87",
+  "fetchedAt": "2026-11-04T22:40:25.837Z",
+  "enrichedAt": "2026-11-04T22:40:47.678Z",
+  "summary": "DuckDuckGo is pitching its search engine to schools frustrated by Google's AI restrictions, pointing to options to disable AI features.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "DuckDuckGo",
+   "Google"
+  ],
+  "storyId": "b450560162d2"
  }
 ]

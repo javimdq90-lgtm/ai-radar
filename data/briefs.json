@@ -840,6 +840,46 @@
    }
   }
  },
+ "7aec60f41c48": {
+  "storyId": "7aec60f41c48",
+  "itemIds": [
+   "7aec60f41c48",
+   "31bba1eca5b3",
+   "44e59e6a2681"
+  ],
+  "writtenAt": "2026-11-04T22:41:08.727Z",
+  "headline": "Voters back data center limits in midterms, with Texas flipping to Democrats who favor pauses",
+  "dek": "Local ballot measures restricting data centers passed in most places where they appeared, and Democrats who back moratoriums won Texas races, while tech industry voices dispute that the results show an anti-tech mandate.",
+  "keyPoints": [
+   "Redbud Consulting's tracker, cited by The Verge, shows 33 of 45 local data center ballot measures restricting development as of Wednesday; Ars Technica cites 38 of 44 passing.",
+   "NBC News Election Day polling found 76 percent of voters opposed data centers in their communities.",
+   "Democrats Gina Hinojosa (Texas governor) and Abdul El-Sayed (Michigan Senate) back moratoriums; Bloomberg says about 13 gigawatts of Texas capacity is now exposed.",
+   "Chamber of Progress CEO Adam Kovacevich says the results show an anti-Trump wave, not an anti-tech mandate; a civil rights group disagrees.",
+   "Analysts say the measures mostly affect projects planned for 2028, not those already under construction or approved through 2027."
+  ],
+  "context": "Data center construction has underpinned AI investment and economic growth, with Texas the fastest-growing market. Opposition over electricity bills, water use and tax breaks has grown across both parties for months. Greg Abbott had already ordered a halt to data center permits on September 21, before the election.",
+  "whatsNext": "Watch whether Hinojosa and the new Texas legislature turn campaign pledges into a moratorium, and how long any pause lasts.",
+  "article": {
+   "whatHappened": [
+    "Voters across the US backed candidates and ballot measures that favor tighter limits on data center development in Tuesday's midterms. NBC News found that 76 percent of voters polled on Election Day opposed data centers in their communities, according to The Verge.",
+    "Redbud Consulting tracked local ballot measures. The Verge reported that, as of Wednesday morning, 33 of 45 would restrict development. Ars Technica, citing the same tracker, counted 38 of 44 measures across 10 states passing. Examples include a 180-day moratorium in Wells, Maine, a ban on data centers above 25MW in several Ohio cities, and a 10-year ban above 10MW in El Dorado, Kansas.",
+    "In Texas, Democrat Gina Hinojosa won the governor's race over incumbent Republican Greg Abbott, and Democrat James Talarico won the Senate seat over Ken Paxton. MIT Technology Review reports Democrats also take the Texas House for the first time in 24 years. Hinojosa has called for a statewide moratorium. Democrats also won governor races in Arizona, Georgia and Ohio, Ars Technica reported."
+   ],
+   "whyItMatters": [
+    "Texas is the center of the AI buildout. MIT Technology Review notes the Stargate Frontier site in Shackelford County is projected at 1,820 megawatts, and Nexus Hubbard, aimed mostly at Anthropic, at 6,400 megawatts. Bloomberg, cited by Ars Technica, put about 13 gigawatts of capacity at risk. Gordon Johnson of GLJ Research expects projects lacking state environmental permits to slip 12 to 18 months.",
+    "The results are contested. Ars Technica reports that Chamber of Progress CEO Adam Kovacevich argues that Democratic gubernatorial candidates who opposed data center bans won at a higher rate than those who supported them. The Verge also notes that Byron Donalds won in Florida opposing an outright ban and Rob Sand won in Iowa opposing a moratorium. NBC exit polls ranked cost of living and corruption above AI as voter concerns.",
+    "Following through may be hard. MIT Technology Review says decisions involve cities, counties and state offices, that Texas counties with heavy data center activity voted differently, and that construction unions that backed some Democrats may resist a moratorium."
+   ],
+   "whatToWatch": [
+    "The key question is whether a Texas moratorium materializes and how long it lasts. Analysts quoted by Ars Technica expect at least slower permitting and more concessions from developers, such as limits on tax incentives and rules on who pays for grid and water costs.",
+    "Some projects may move to other states such as Louisiana or Georgia, according to the coverage, though Democrats won in Georgia as well."
+   ],
+   "pullQuote": {
+    "text": "Let’s not confuse an anti-Trump wave with an anti-tech mandate.",
+    "by": "Adam Kovacevich, CEO of Chamber of Progress"
+   }
+  }
+ },
  "7aff82cf50e7": {
   "storyId": "7aff82cf50e7",
   "itemIds": [
@@ -1367,6 +1407,43 @@
    }
   }
  },
+ "a4f4c423c542": {
+  "storyId": "a4f4c423c542",
+  "itemIds": [
+   "a4f4c423c542"
+  ],
+  "writtenAt": "2026-11-04T22:41:24.672Z",
+  "headline": "OpenAI says autonomous pipeline found and patched 948 Linux kernel privilege-escalation bugs",
+  "dek": "OpenAI says it built an autonomous pipeline that found, validated and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel, according to a post titled \"A thousand fewer paths to root.\"",
+  "keyPoints": [
+   "OpenAI says its autonomous pipeline found, validated and generated patches for 948 Linux kernel vulnerabilities.",
+   "All 948 are local privilege-escalation flaws, which let a user already on a machine gain higher access, up to root.",
+   "The pipeline covers the full chain: discovery, validation that each bug is real, and patch generation.",
+   "The coverage is a short summary; it gives no detail on upstream acceptance, CVE assignment, cost or false-positive rates."
+  ],
+  "context": "Automated bug-finding in the Linux kernel is not new; fuzzers such as syzkaller have reported thousands of crashes over the years, and Google's Big Sleep and DARPA's AI Cyber Challenge have pushed AI-driven vulnerability discovery and repair. What stands out here is the claimed scale and the focus on one serious class of kernel bug, along with the end-to-end automation.",
+  "whatsNext": "Watch for whether the patches are accepted by Linux kernel maintainers and how many of the 948 issues receive public advisories or CVE identifiers.",
+  "article": {
+   "whatHappened": [
+    "OpenAI says it has built an autonomous pipeline that found, validated and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel. The claim comes in a post on OpenAI's site titled \"A thousand fewer paths to root,\" a reference to root, the highest level of access on a Linux system.",
+    "The summary describes three stages: finding candidate flaws, validating them, and writing fixes. It describes the system as autonomous, which suggests the process ran without a human triaging each bug, though the material available does not explain how much human review took place before patches were produced.",
+    "Local privilege escalation means an attacker or program that already has limited access to a machine can obtain greater control, including full administrative rights. Such flaws are commonly chained with other bugs to turn a minor foothold into a complete compromise."
+   ],
+   "whyItMatters": [
+    "If the figure holds up, 948 validated kernel vulnerabilities in a single class is a large number. The Linux kernel runs on servers, phones, cloud infrastructure and embedded devices, so weaknesses that lead to root access matter well beyond desktop users. Cutting that count could reduce options available to attackers, which is the apparent point of the post's title.",
+    "The work also fits a broader push to use AI models for defensive security. Earlier efforts, including Google's Big Sleep and entrants in DARPA's AI Cyber Challenge, showed models finding and fixing real bugs. The distinguishing claim here is the combination of volume, a focus on the kernel, and a pipeline that validates findings and proposes patches instead of only reporting suspects.",
+    "There are open questions that the available material does not answer. Validation could mean anything from a crash to a working exploit. Generated patches still need review by kernel maintainers, who have a history of being wary of high-volume automated reports. How many of the 948 are distinct, exploitable and already fixed is not stated."
+   ],
+   "whatToWatch": [
+    "The key test is upstream acceptance: whether kernel maintainers merge the patches, and how quickly. Public advisories, CVE assignments and independent confirmation of the count would help show whether the 948 figure reflects distinct, exploitable flaws.",
+    "Also worth watching is whether OpenAI publishes technical detail on the pipeline, including error rates, compute cost and the degree of human oversight, and whether it makes the tooling available to maintainers or security teams."
+   ],
+   "pullQuote": {
+    "text": "OpenAI built an autonomous pipeline that found, validated and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+    "by": "OpenAI"
+   }
+  }
+ },
  "a720d84afe9d": {
   "storyId": "a720d84afe9d",
   "itemIds": [
@@ -1462,39 +1539,40 @@
    "b450560162d2",
    "ba273efe94ab",
    "6df21e5a1561",
-   "f3b71b18e198"
+   "f3b71b18e198",
+   "ac5380eefb5a",
+   "f1f26a9d7d87"
   ],
-  "writtenAt": "2026-11-03T22:23:07.845Z",
-  "headline": "Google will switch off Search for schools that opt out of its AI tools",
-  "dek": "Google says K-12 student accounts will have Gemini, Gemini Notebook, Gemini in Classroom and Search off by default; schools that decline the AI features cannot keep Search, drawing criticism from Sanders and Mamdani.",
+  "writtenAt": "2026-11-04T22:41:36.392Z",
+  "headline": "Google will switch off Search for schools that don't enable its AI tools",
+  "dek": "Google says K-12 student accounts will have Gemini, Gemini Notebook, Gemini in Classroom and Search off by default, and schools that decline AI cannot keep Search; Sanders and Khan criticized the plan.",
   "keyPoints": [
-   "Google says Gemini, Gemini Notebook, Gemini in Classroom and Search will be 'entirely off' for K-12 student accounts unless administrators explicitly turn them on.",
-   "Administrators cannot disable Gemini-powered features without also losing Search. Google's Chris Phillips says 'Search and AI are deeply integrated.'",
-   "Sen. Bernie Sanders called the policy 'extortion'; NYC Mayor Zohran Mamdani said no corporation should dictate how children are taught.",
-   "Google will embed Guided Learning in AI Overviews in Search and begin testing it in select US schools this month.",
-   "Google will share specifics with schools in the coming months before the changes roll out."
+   "Gemini, Gemini Notebook, Gemini in Classroom and Search will be \"entirely off\" for K-12 student accounts unless administrators turn them on, Google says in its education update.",
+   "Administrators cannot disable Gemini features without also losing Search, according to The Verge. Google's Chris Phillips says \"Search and AI are deeply integrated.\"",
+   "Sen. Bernie Sanders called the move \"extortion\"; NYC Mayor Zohran Mamdani and former FTC chair Lina Khan also criticized it, Khan calling Google an unregulated monopolist.",
+   "Google says the change gives schools \"more choice, not less\" and that each service can be turned on individually. Guided Learning testing in select US schools starts this month.",
+   "Google will share specifics with schools in the coming months before the changes roll out; TechCrunch reports they take effect next year."
   ],
-  "context": "Google turned Gemini on by default in Google Classroom, used by more than 150 million teachers and students, only months ago, which fed skepticism about AI in schools. Last month, lawmakers pressed the company on potential harms. Google has said in the consumer market that Search is AI search, and the new policy applies that stance to education.",
-  "whatsNext": "Google says it will share more specifics with schools in the coming months ahead of the rollout, and Guided Learning in Search begins testing in select US schools this month.",
+  "context": "Google turned Gemini on by default in Google Classroom, used by more than 150 million teachers and students, only months ago, and lawmakers pressed it last month about potential harms of AI in schools. Google has also woven AI Overviews and AI Mode into Search, which makes a non-AI version harder to offer. Courts have previously found Google liable for violating antitrust laws, which critics cite here.",
+  "whatsNext": "Google says it will share more specifics with schools in the coming months before the changes roll out, and Guided Learning testing in select US schools begins this month.",
   "article": {
    "whatHappened": [
-    "Google says it will turn off Gemini, Gemini Notebook, Gemini in Classroom and Google Search for K-12 student accounts unless school administrators explicitly enable them. The company announced the change Tuesday in an education update and confirmed details to The New York Times. TechCrunch reports the change applies next year, and Ars Technica says it will roll out in the coming months.",
-    "The catch is that the tools cannot be separated. Administrators will not be able to turn off Gemini-powered features while keeping Search. Chris Phillips, Google's vice president of education, told the Times that schools that disable the AI features 'will not have access to Search, and they'll see a message from their school that indicates it's not available.'",
-    "Google presents the change as a matter of control, saying it will 'give schools more choice, not less.' It says schools can turn each service on or off individually. It also says the policy follows consultations with schools, teachers, researchers and policymakers.",
-    "Alongside the policy, Google is trying to address worries that students use AI to find shortcuts. It is putting its Guided Learning feature, designed to help students work through problems rather than get answers, into AI Overviews in Search. Testing in select US schools begins this month. Ars Technica notes that Google says all its generative AI products can make mistakes."
+    "Google said on Tuesday that K-12 student accounts on its education products will have AI tools turned off by default, unless school administrators explicitly turn them on. The affected products are Gemini, Gemini Notebook, Gemini in Classroom and Google Search. Google says the change follows consultations with schools, teachers, researchers and policymakers.",
+    "The catch is that Search is on the list. Chris Phillips, Google's vice president for education, told The New York Times that \"Search and AI are deeply integrated,\" so schools that decline AI will not have access to Search, and students will see a message from their school saying it is unavailable. The Verge reports that administrators cannot switch off Gemini features without also disabling Search.",
+    "Google rejects the framing that it is limiting choice. It says the change will give schools more choice, and that schools can turn individual services on or off. In a post on X, it said schools had told it they want control and that it is addressing feedback from educators in recent months. Phillips wrote that Google will share specifics before the rollout so schools have time to prepare."
    ],
    "whyItMatters": [
-    "The change comes months after Google turned Gemini on by default in Classroom, which is used by more than 150 million people globally. That default drew skepticism amid reports of declining test scores and effects on learning, and lawmakers pressed Google last month on potential harms. Moving to off-by-default answers part of that criticism, but bundling Search with the AI tools limits what opting out means.",
-    "Critics were quick to respond. Sen. Bernie Sanders called it 'extortion,' NYC Mayor Zohran Mamdani said no corporation should have the power to dictate how children are taught, and California official Rohit Chopra wrote that Big Tech should not be able to 'strong-arm schools.'",
-    "TechCrunch and Ars Technica both point to Google's weight in classrooms, where its apps and Chromebooks are widespread. Teachers may not want students relying on AI Overviews but still need a search engine for sources. Ars Technica says Google could have built an AI-free school version of Search and chose not to, and suggests the company is betting schools will not give up Search. Alternatives such as DuckDuckGo, which lets users disable AI features, exist, though switching has its own costs."
+    "The reaction was quick and political. Sen. Bernie Sanders accused Google of \"extortion\", Sen. Richard Blumenthal said Google was more concerned with forcing Gemini into schools than helping students succeed, and NYC Mayor Zohran Mamdani said no corporation should dictate how children are taught. Former FTC chair Lina Khan called it a danger of letting an unregulated monopolist control an essential service, and noted that courts have found Google liable for antitrust violations.",
+    "For schools the choice is awkward. Teachers may not want students relying on AI Overviews, but they still need a search engine for sources and learning materials. Ars Technica notes that alternatives such as DuckDuckGo, which lets users disable AI features, exist, but TechCrunch points out that for millions of students required to use Chromebooks and Google education tools, switching search engines is not a simple fix.",
+    "The move is consistent with Google's consumer strategy, where, as Ars Technica notes, executives have said Search is AI search. It also follows months of skepticism about AI in classrooms amid reports of declining test scores. Whether Google could offer an AI-free Search for schools is a question the company has not addressed in the coverage; Ars notes that it could, but is not."
    ],
    "whatToWatch": [
-    "Google has not yet said exactly when the changes take effect. It says it will share specifics with schools in the coming months so they can prepare, so the precise timing and administrator controls are the first things to watch.",
-    "Also open is whether the political criticism turns into formal action, and whether any school systems choose to drop Search rather than enable AI. Google did not immediately respond to The Verge's request for comment on the criticism, though it later added responses to the story."
+    "Google has said Guided Learning, which is meant to walk students through problems rather than hand over answers, will be embedded in AI Overviews in Search and begin testing in select US schools this month. Schools that enable AI will choose between standard Gemini-based AI and the Guided Learning version. Google itself notes its generative AI products can make mistakes, so how well the tool resists requests to simply do homework is an open question.",
+    "Also open is whether the criticism from lawmakers turns into formal action, and whether Google changes the Search bundling before the rollout. None of the coverage reports a regulatory step so far."
    ],
    "pullQuote": {
     "text": "Search and AI are deeply integrated",
-    "by": "Chris Phillips, Google vice president of education"
+    "by": "Chris Phillips, Google vice president for education"
    }
   }
  },
