@@ -37,44 +37,86 @@
    }
   }
  },
+ "0947affcb4cc": {
+  "storyId": "0947affcb4cc",
+  "itemIds": [
+   "0947affcb4cc",
+   "ed7232d12d40",
+   "775f6b0b1d66"
+  ],
+  "writtenAt": "2026-11-04T13:05:29.349Z",
+  "headline": "Apple opens Siri AI to all third-party apps and tests always-on Watch audio features",
+  "dek": "The iOS 27.3 and watchOS 27.3 developer betas let Siri AI act across all apps and add Audio Intelligence, which summarizes conversations and transcribes the last 15 seconds of audio on Apple Watch.",
+  "keyPoints": [
+   "iOS 27.3 developer preview lets developers integrate Siri AI in 'all apps', using personal context, natural-language prompts and on-screen awareness; a new 'app skills' feature combines several tasks into one action.",
+   "Siri Recap uses ambient listening to summarize conversations; Live Rewind shows a text transcript of the last 15 seconds of audio, deleted after 30 seconds unless saved.",
+   "Apple says raw audio is handled in dedicated hardware, is not saved as a file, and is not accessible to the OS, apps or Apple.",
+   "Audio Intelligence targets Apple Watch Series 12 and Ultra 4, running on the S11 chip, the paired iPhone and Private Cloud Compute.",
+   "The iOS 27.3 beta also includes a redesigned Health app with an Insights tab and a For You section."
+  ],
+  "context": "Apple had previously opened only a smaller set of Siri features to third-party developers, according to 9to5Mac. Always-listening AI wearables, including Meta's AI glasses, have drawn privacy backlash, which is the backdrop for Apple's emphasis on on-device handling and limits on retention.",
+  "whatsNext": "The features are in developer beta now; Apple has not given a public release date in the coverage.",
+  "article": {
+   "whatHappened": [
+    "Apple on Tuesday released developer betas of iOS 27.3 and watchOS 27.3 that widen what Siri AI can do. Developers can now integrate Siri AI's new features in \"all apps,\" letting the assistant draw on a user's personal context, handle natural-language prompts and use on-screen awareness to complete requests, according to The Verge.",
+    "The update also adds \"app skills,\" which third-party developers can build to combine several tasks into a single action. Apple's documentation says users will not need to name an app when it is in the foreground, during a Live Activity, or in a conversation with Siri AI about that app. Its example is a ride-share user asking Siri to change a pickup address. Apple is also bringing the expanded capabilities to its own apps, including Mail, Maps, Messages, Photos and Safari.",
+    "On the Apple Watch, the watchOS 27.3 beta adds Audio Intelligence, first announced at Apple's September hardware event. Siri Recap uses ambient listening to produce a short sentence and bullet points summarizing a conversation. Live Rewind shows a text snippet of the last 15 seconds of audio when the wearer double-presses the digital crown. TechCrunch reports unsaved snippets are deleted after 30 seconds and unsaved recaps within seven days.",
+    "Both features are opt-in. Recaps can run on a schedule and be switched off from Control Center, and they do not record while the wearer is listening to music on headphones or using noise cancellation. Apple says Recaps omit sensitive data such as government identifiers and financial or authentication details, and do not identify speakers."
+   ],
+   "whyItMatters": [
+    "Opening Siri AI to all apps is a larger step than the smaller set of features Apple offered developers before. If developers adopt app skills, Siri could become a way to chain actions across apps without the user naming them, though how well that works will depend on developer uptake.",
+    "The Watch features are the more sensitive part. TechCrunch notes that features listening to human conversation are the potentially controversial ones, given backlash to AI recording devices such as Meta's AI glasses. Apple's response is architectural: it says raw audio is processed in a secure enclave, is not saved and is inaccessible to the operating system, apps or Apple, and that saved summaries sync end-to-end encrypted with iCloud two-factor authentication.",
+    "Those are Apple's own claims, laid out in a privacy overview, and the coverage includes no independent verification. The audible chime and on-screen animation when Live Rewind is used are meant to signal to bystanders that something has been captured."
+   ],
+   "whatToWatch": [
+    "Both releases are developer betas, so the open questions are when they reach the public, and how developers use app skills in practice.",
+    "Also worth watching is whether security researchers or privacy advocates test Apple's claims about the dedicated audio hardware, and how people nearby react to Watches that listen continuously."
+   ],
+   "pullQuote": {
+    "text": "is handled within dedicated hardware, is not saved as a file, and is not accessible to the operating system, apps, or Apple.",
+    "by": "Apple"
+   }
+  }
+ },
  "0dbf0226aa90": {
   "storyId": "0dbf0226aa90",
   "itemIds": [
    "0dbf0226aa90",
    "19244c7aa206",
    "a4a3f94120ca",
-   "346706f894ca"
+   "346706f894ca",
+   "dc28833f4985"
   ],
-  "writtenAt": "2026-11-03T22:23:32.697Z",
-  "headline": "OpenAI launches Grid Protectors Program, piloting 1,000 MW grid relief at Georgia site",
-  "dek": "OpenAI says its planned Effingham County, Georgia campus will free up to 1,000 MW during extreme weather or emergencies, as it also adopts the term 'compute campuses' amid data center backlash.",
+  "writtenAt": "2026-11-04T13:05:52.920Z",
+  "headline": "OpenAI launches Grid Protectors Program, piloting it at a Georgia data center",
+  "dek": "OpenAI says its Effingham County, Georgia site will free up to 1,000 MW during extreme weather or emergencies, as it starts calling data centers 'compute campuses' amid growing backlash.",
   "keyPoints": [
-   "OpenAI will pilot the Grid Protectors Program at an upcoming Effingham County, Georgia site, promising to free up to 1,000 MW in extreme weather or emergencies, which it says could cool about 700,000 homes.",
-   "OpenAI says it will 'pay the costs we create' and work with utilities and policymakers on reducing demand when the grid is under strain.",
-   "The roughly 900-word announcement used 'data center' twice and 'compute campus' far more often; The Verge found no earlier use of the term on OpenAI's site.",
-   "Axios reported OpenAI planned a PR push after the midterms, including rebranding data centers as 'AI compute campuses'; chief global affairs officer Chris Lehane discussed it.",
-   "PauseAI US and the NAACP criticized the rebrand as cosmetic. OpenAI did not respond to The Verge's request for comment."
+   "OpenAI will pilot the Grid Protectors Program at an upcoming Effingham County, Georgia site, promising to free up to 1,000 MW during extreme weather or emergencies, enough for air conditioners in about 700,000 homes.",
+   "OpenAI's announcement used 'compute campus' far more than 'data center'; The Verge says 'data center' appeared twice in roughly 900 words and found no earlier use of the term on OpenAI's site.",
+   "Axios reported OpenAI planned a post-midterm PR push; chief global affairs officer Chris Lehane named rebranding data centers as 'AI compute campuses' among proposals.",
+   "PauseAI US and the NAACP criticized the rebrand as not addressing pollution, resource use or residents' concerns. OpenAI did not respond to The Verge's request for comment.",
+   "Several states, including Tennessee, Florida, Oklahoma and Oregon, have enacted laws meant to stop AI companies passing energy costs to residents."
   ],
-  "context": "Data centers have drawn bipartisan opposition over electricity use, costs passed to residents, and environmental effects, and several US states have passed laws or moratoriums in response. Rival Anthropic pledged earlier this year to cover 100 percent of grid-connection upgrades for its data centers, and Amazon and Microsoft have said they will stop using NDAs with local governments.",
-  "whatsNext": "Watch for the Georgia pilot's utility agreements and for how OpenAI's policy push plays out after Tuesday's midterm elections.",
+  "context": "Data centers have drawn bipartisan opposition over electricity costs, water use and pollution, and data center politics featured in the 2026 midterms. Anthropic earlier pledged to cover 100 percent of grid-connection upgrades for its data centers, and Amazon and Microsoft have said they will stop using NDAs with local governments. OpenAI is building Stargate sites with Oracle and SoftBank across Texas and New Mexico.",
+  "whatsNext": "OpenAI says it will keep working with policymakers and utilities on arrangements for its future campus to cut demand when the grid is under strain.",
   "article": {
    "whatHappened": [
-    "OpenAI on Monday launched the Grid Protectors Program, an initiative it says is meant to make its future computing sites support grid reliability and protect consumer electricity costs. The first pilot will be at an upcoming site in Effingham County, Georgia.",
-    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which The Verge reports is enough to run air conditioners in about 700,000 homes. OpenAI pitches the arrangement as a resource utilities can call on when communities need it most.",
-    "The company argues that year-round demand helps consumers. Its announcement says steady demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it cut demand when the system is busiest. OpenAI says it will keep working with policymakers and utilities on arrangements to reduce demand when the grid is strained.",
-    "The announcement also introduced new vocabulary. According to The Verge, the roughly 900-word post used 'data center' only twice, and the term 'compute campus' appeared more often. A search of OpenAI's website turned up no earlier use of the phrase."
+    "OpenAI on Monday launched the Grid Protectors Program, an initiative with utilities meant to ensure its future compute sites support grid reliability and protect consumer electricity costs. The first pilot will be at an upcoming data center in Effingham County, Georgia.",
+    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which The Verge says is enough to run air conditioners in around 700,000 homes. OpenAI pitches the power it builds as a resource that utilities can call on when communities need it most.",
+    "OpenAI also argues that steady year-round demand helps customers. In its announcement it says that, with the right agreements, that demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it reduce demand when the system is busiest.",
+    "The announcement also introduced new terminology. According to The Verge, the roughly 900-word post used 'data center' only twice, outnumbered by 'compute campus', and a search of OpenAI's website turned up no earlier use of the term. OpenAI did not respond to a request for comment on its motivations."
    ],
    "whyItMatters": [
-    "The launch lands as opposition to data centers spreads. The Verge cites a Utah protest over a Box Elder County project expected to use more than double the state's 2025 peak electricity demand, and notes that Tennessee, Florida, Oklahoma and Oregon have passed laws meant to stop AI companies passing energy costs to residents. A Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains within five years.",
-    "The rebrand is the more contested part. Axios reported that OpenAI planned a PR push after the midterms, anticipating a tougher regulatory climate if Democrats gain ground, and that the plan included calling data centers 'AI compute campuses.' Chris Lehane, OpenAI's chief global affairs officer, called the midterms a preview of 2028, when he expects AI to be a central presidential issue.",
-    "Critics are unconvinced. Holly Elmore of PauseAI US and Abre' Conner of the NAACP told The Verge that a new name does not address pollution, resource use or residents' concerns. Elmore also compared OpenAI unfavorably with Anthropic, which has made specific commitments on grid upgrade costs, community investment, water and NDAs."
+    "The announcement lands as opposition to data centers spreads across the US. The Verge cites protests in Utah over a Box Elder County project expected to use more than double the state's peak electricity demand in 2025, and a Houston Advanced Research Center study warning that proposed Texas projects could undo decades of air quality gains within five years. Several states have passed laws aimed at keeping energy costs off residents.",
+    "The rebrand appears to be deliberate. Axios reported that OpenAI planned a policy and PR push after the midterms, and TechCrunch says chief global affairs officer Chris Lehane listed rebranding data centers as 'AI compute campuses' among proposals that also include AI 'speed limits'. Lehane called the data center debate 'good and healthy'.",
+    "Critics are unconvinced. Holly Elmore of PauseAI US said communities will not be fooled, and Abre' Conner of the NAACP said a new name does not fix real harm. Elmore also compared OpenAI unfavorably with Anthropic, which pledged to cover all grid-connection upgrades, invest in community projects and avoid NDAs with officials."
    ],
    "whatToWatch": [
-    "The main open question is how binding the Georgia arrangements are. The coverage gives no detail on contracts with utilities, how often the 1,000 MW would be released, or how the pilot would be verified.",
-    "OpenAI is also building Stargate sites with Oracle and SoftBank in Texas and New Mexico. Whether the program extends there, and how the post-midterm political environment shapes the company's policy push, are the next things to follow."
+    "The concrete test is whether utilities and policymakers sign agreements that make OpenAI's promised flexibility binding. OpenAI says it will keep working with both on arrangements to reduce demand when the grid is under strain, but the coverage gives no timeline.",
+    "The politics may also shift. The Verge notes the next Congress is likely to keep grappling with how to regulate AI and respond to the data center backlash, following midterm races where data centers were an issue."
    ],
    "pullQuote": {
-    "text": "Communities that despise them will not be fooled into thinking they have transformed into something else.",
+    "text": "Rebranding them ‘compute campuses’ may fool listeners once or twice but it’s not the name ‘data center’ that is unpopular",
     "by": "Holly Elmore, PauseAI US"
    }
   }
@@ -756,44 +798,6 @@
     "Oracle plans to rely on vendor financing, customer-provided hardware and customer prepayments to reach positive free cash flow, which it expects in the second half of 2028. Whether those sources materialize is a key test of the plan.",
     "Pat Nerney of Dynasty Financial Partners said execution is what ultimately matters, and warned that if Oracle has to return to market in the back half of 2027 after calling this the last capital needed, investors should look out."
    ]
-  }
- },
- "775f6b0b1d66": {
-  "storyId": "775f6b0b1d66",
-  "itemIds": [
-   "775f6b0b1d66"
-  ],
-  "writtenAt": "2026-11-03T22:22:38.888Z",
-  "headline": "Apple opens Siri AI to all third-party apps in iOS 27.3 developer preview",
-  "dek": "With the iOS 27.3 developer preview, Apple lets developers integrate Siri AI into all apps, using personal context, natural-language prompts and on-screen awareness, plus a new 'app skills' feature for multi-step actions.",
-  "keyPoints": [
-   "Apple says developers can integrate Siri AI's new features in \"all apps\" through the iOS 27.3 Developer Preview, which began rolling out Tuesday.",
-   "Siri AI can draw on personal context, process natural-language prompts and use on-screen awareness to complete requests inside third-party apps.",
-   "A new \"app skills\" feature lets developers combine several tasks into a single action.",
-   "Users needn't name an app when it is in the foreground, during a Live Activity, or in a Siri AI conversation about it.",
-   "Apple is also extending Siri AI to its own apps, including Calendar, Files, Mail, Maps, Messages, Photos, Safari and Notes."
-  ],
-  "context": "9to5Mac notes Apple previously offered third-party developers only a smaller set of Siri features. Letting an AI assistant act inside other companies' apps is central to whether voice assistants can match the agent-style capabilities rivals have been building. Apple's approach relies on developers adopting its tools.",
-  "whatsNext": "Watch for the iOS 27.3 public release and how many third-party developers adopt Siri AI integration and app skills.",
-  "article": {
-   "whatHappened": [
-    "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update, which began rolling out Tuesday as a Developer Preview, Apple announced that developers can integrate Siri AI's new features in \"all apps.\" The voice assistant can draw on a user's personal context, process natural language prompts and use on-screen awareness to complete requests.",
-    "The update also adds an \"app skills\" feature that third-party developers can create to combine several tasks into a single action. According to Apple's developer documentation, users won't have to mention an app's name in a request while the app is in the foreground, during a Live Activity, or in a conversation with Siri AI about that app.",
-    "Apple gave a ride share example: a person might request a ride, follow the Live Activity while they wait, then ask to change the pickup to a different address by saying \"Hey Siri, change my ride pickup to a new address.\"",
-    "Apple is also bringing Siri AI's expanded capabilities to its own apps: Calendar, Files, Finder, Journal, Mail, Maps, Messages, Music, Notes, Photos, Preview, Reminders, Safari, Shortcuts and Weather. Apple says users can ask Siri AI what it can do in each app."
-   ],
-   "whyItMatters": [
-    "As 9to5Mac noted, Apple previously made only a smaller set of features available to third-party developers. Extending Siri AI to all apps widens what the assistant can do beyond Apple's own software, which determines how useful it is in daily use.",
-    "The app skills feature suggests Apple wants developers to package multi-step workflows, rather than leaving Siri AI to work out each step. How well that works will depend on developer adoption and on how reliably Siri AI interprets requests that don't name an app. The coverage does not say how either will perform."
-   ],
-   "whatToWatch": [
-    "The features are in a Developer Preview, so wider availability will follow the iOS 27.3 release to the public. The coverage gives no date for that.",
-    "Also open is which major apps add Siri AI support and app skills first, and whether the unnamed-app behavior works as Apple describes."
-   ],
-   "pullQuote": {
-    "text": "Users can do things like find a coffee shop they visited last week or archive files that haven’t been opened in over a year",
-    "by": "Apple"
-   }
   }
  },
  "79e072c52849": {
@@ -2057,6 +2061,40 @@
    }
   }
  },
+ "f3900be82c6f": {
+  "storyId": "f3900be82c6f",
+  "itemIds": [
+   "f3900be82c6f"
+  ],
+  "writtenAt": "2026-11-04T13:05:17.927Z",
+  "headline": "Nikkei: US tech giants' off-balance-sheet AI obligations rise 90% to $3.2 trillion",
+  "dek": "Nikkei reports that off-balance-sheet AI-related debt at US tech giants nearly doubled in six months to about $3.2 trillion, with Google and Meta among firms whose commitments reach 80% of assets.",
+  "keyPoints": [
+   "Nikkei reports off-balance-sheet debt from AI-related obligations at US tech giants grew 90% in six months, to about $3.2 trillion.",
+   "Commitments and obligations at Google, Meta and others reach 80% of their assets, according to the report's subheading.",
+   "Nikkei says investors are increasingly alarmed by what it describes as seemingly unending AI spending.",
+   "Tech companies are pouring money into AI infrastructure such as data centers, including an Amazon facility in Indiana pictured with the story."
+  ],
+  "context": "Large technology companies have sharply raised capital spending on data centers and chips to meet AI demand, often through leases and purchase commitments that do not appear as conventional debt on balance sheets. Investor concern about whether returns will justify this spending has grown alongside it.",
+  "article": {
+   "whatHappened": [
+    "Nikkei Asia reported that off-balance-sheet debt tied to artificial intelligence at US tech giants has nearly doubled in six months, rising 90% to about $3.2 trillion. The report is datelined Palo Alto, California.",
+    "According to the report's subheading, commitments and obligations at Google, Meta and other companies have reached 80% of their assets. The available text of the article does not detail how the figure was calculated or which companies account for the largest shares.",
+    "Nikkei says investors are increasingly alarmed by what it calls seemingly unending spending. The article is illustrated with an Amazon data center in Indiana, as an example of the AI infrastructure the companies are building."
+   ],
+   "whyItMatters": [
+    "Off-balance-sheet obligations, such as long-term leases and purchase commitments, do not show up as ordinary borrowing, so they can be harder for investors to weigh when judging a company's financial exposure. A figure equal to 80% of assets suggests these commitments are large relative to the firms' asset bases, based on Nikkei's numbers.",
+    "The report points to a broader question in the AI sector: whether heavy spending on data centers and chips will generate returns large enough to cover the obligations. The coverage provided does not say how Nikkei assesses that risk, so any conclusion about the companies' financial stability would be speculative."
+   ],
+   "whatToWatch": [
+    "The full Nikkei report was not available in the material provided, so the methodology and the company-by-company breakdown remain unclear. Readers should look for those details, and for any response from the companies named."
+   ],
+   "pullQuote": {
+    "text": "investors increasingly alarmed by seemingly unending spending",
+    "by": "Nikkei Asia"
+   }
+  }
+ },
  "f4e0b5373313": {
   "storyId": "f4e0b5373313",
   "itemIds": [
@@ -2098,41 +2136,42 @@
   "storyId": "fb9ff410aee0",
   "itemIds": [
    "fb9ff410aee0",
+   "5464a863f83d",
    "150a24daa34d",
    "3a6efdada65a",
+   "5a3345f135c4",
    "a4abd1e2a1c1"
   ],
-  "writtenAt": "2026-11-03T22:23:21.114Z",
-  "headline": "Anthropic's amended S-1 shows $17B Q3 revenue, slower growth and $895B in commitments",
-  "dek": "Anthropic's amended IPO filing reports about $17 billion in third-quarter revenue, up 47% on Q2 versus 144% a quarter earlier, alongside $895.4 billion in mostly compute-related commitments and rising compute costs.",
+  "writtenAt": "2026-11-04T13:05:41.686Z",
+  "headline": "Anthropic's amended S-1 shows $17B Q3 revenue and $895B in compute commitments",
+  "dek": "Anthropic's updated IPO filing reports about $17 billion in third-quarter revenue, slowing quarterly growth, rising compute costs and roughly $895.4 billion in purchase and lease commitments, nearly all for compute.",
   "keyPoints": [
-   "Anthropic reported $33.24 billion in revenue for the nine months to Sept. 30 and a $104 billion net loss, mostly from fair-value changes on convertible notes and derivatives, CNBC reports.",
-   "Q3 revenue was roughly $17 billion, up about 47% sequentially, down from 144% growth in Q2 and 132% in Q1. Q3 net loss was $23.29 billion.",
-   "Aggregate committed spend on purchase and lease agreements is about $895.4 billion, 'substantially all of which is related to compute and infrastructure,' the filing says.",
-   "Compute took 58% of Q3 revenue, up from 48% in Q2, per TechCrunch. Revenue per compute dollar fell to 1.72x. $5.0 billion of the roughly $10 billion bill was short-term compute.",
-   "Critics are already arguing over the numbers: an opinion writer at Tech Policy Press urges the SEC to block the IPO, and Henry Blodget says growth flattened."
+   "Anthropic reported about $17 billion in Q3 revenue, up roughly 47% from Q2's $11.5 billion. Quarterly growth slowed from 144% in Q2 and 132% in Q1.",
+   "Nine-month revenue was $33.24 billion, with a $104 billion net loss, mostly from changes in fair value of convertible notes and derivative liabilities. The Q3 net loss was $23.29 billion.",
+   "Aggregate committed spend on purchase commitments and leases is about $895.4 billion, \"substantially all of which is related to compute and infrastructure,\" the filing says.",
+   "Compute took 58% of revenue in Q3, up from 48% in Q2, per TechCrunch. The $10 billion compute bill included $5.0 billion of costlier short-term compute.",
+   "Anthropic's Q3 compute expense is rising amid market worries about AI debt and capacity. OpenAI filed confidentially in June and is reportedly aiming for a 2027 debut."
   ],
-  "context": "Anthropic published its initial S-1 last week with financials only through June 30; Monday's amendment adds the third quarter. The filing comes as investors worry about AI data center debt and rising interest rates. OpenAI, Anthropic's chief rival, filed confidentially in June and is signaling a 2027 debut.",
-  "whatsNext": "Anthropic is preparing to start its IPO roadshow, where investors will press it on slowing growth, compute costs and its commitments.",
+  "context": "Anthropic published its first S-1 last week, with financials only through June 30. The amended filing adds the third quarter ahead of a roadshow for a potentially historic IPO. It lands as investors worry that rising interest rates and hyperscaler cash-flow strain could slow the data center buildout Anthropic depends on, while rival OpenAI is expected to list later.",
+  "whatsNext": "Watch for the start of Anthropic's roadshow and how investors respond to the slowing growth and the compute commitments.",
   "article": {
    "whatHappened": [
-    "Anthropic filed an amended Form S-1 with the SEC on Monday, extending the financial disclosures in its IPO prospectus from the first half of the year through Sept. 30. The company reported $33.24 billion in revenue for the first nine months of 2026, up roughly 1,200% year over year, and a $104 billion net loss. CNBC reports most of that loss came from changes in the fair value of convertible notes and derivative liabilities.",
-    "Third-quarter revenue was roughly $17 billion, up from about $11.5 billion in the second quarter, according to TechCrunch. That is growth of around 47% quarter on quarter, compared with 144% in Q2 and 132% in Q1. The company reported a net loss of $23.29 billion for the quarter.",
-    "The filing also discloses purchase commitments and lease agreements with an aggregate committed spend of about $895.4 billion. Anthropic says substantially all of it relates to compute and infrastructure. Compute and infrastructure expenses rose $14.4 billion in the nine-month period, up 329%.",
-    "TechCrunch says compute consumed 58% of revenue in Q3, up from 48% in Q2. The quarterly compute bill reached about $10 billion, including $5.0 billion of short-term commitments that the filing says cost significantly more than comparable multi-year capacity."
+    "Anthropic filed an amended Form S-1 with the Securities and Exchange Commission on Monday, adding third-quarter results to the IPO prospectus it unveiled last week. The first filing covered only the first half of the year.",
+    "The company said it generated $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from the same period a year earlier. Third-quarter revenue was about $17 billion, up from $11.5 billion in the previous quarter. Anthropic reported a nine-month net loss of $104 billion, though CNBC reports most of that stems from changes in the fair value of convertible notes and derivative liabilities. The Q3 net loss was $23.29 billion.",
+    "Quarterly growth slowed to about 47%, from 144% in Q2 and 132% in Q1. Anthropic also disclosed aggregate committed spend of about $895.4 billion under purchase commitments and lease agreements, \"substantially all of which is related to compute and infrastructure.\" Compute and infrastructure expenses rose $14.4 billion for the nine months, up 329%."
    ],
    "whyItMatters": [
-    "The numbers give IPO investors a first look at the economics of a frontier lab, and the picture is mixed. Revenue is still growing at a pace few companies have reached, but TechCrunch notes that compute margins worsened when the company would prefer to show them improving. It describes the shift as more likely a blip than a lasting problem, as Anthropic scrambled for expensive short-term capacity, including from neoclouds such as Nscale, Akamai and Volta, and a reported $1.25 billion a month deal with SpaceX.",
-    "Commentators are reading the slowdown differently. Henry Blodget argues from the quarterly figures and a reported $65 billion annualized run-rate in July that growth barely rose from July to September, and says this is an estimate, not company-reported monthly data. He suggests the cause could be seasonality, capacity limits or customers shifting to cheaper Chinese models. Matt Scherer of Tech Policy Press, an opinion piece, calls the commitments effectively debts and argues the SEC should block the IPO. He cites at least $582 billion owed to five companies against $96 billion in cash.",
-    "The backdrop is tense. CNBC says Wall Street worries that rising rates will make debt unaffordable for data center developers and neoclouds, and that hyperscaler spending is straining cash flows, which could delay the capacity Anthropic needs."
+    "TechCrunch notes that compute took 58% of revenue in the quarter, up from 48% in Q2, at a time when improving margins would help win over IPO investors. A chart in the filing shows revenue per dollar of compute peaking just above 2x before falling to 1.72x. The $10 billion quarterly compute bill included $5.0 billion of short-term compute that the filing says costs significantly more than comparable multi-year compute. Anthropic has bought such capacity from SpaceX, Nscale, Akamai and Volta, TechCrunch reports.",
+    "TechCrunch calls the margin dip more likely a blip than a lasting problem, and says that growth near 50% a quarter keeps most investors calm. The company says it expects compute expenses to keep rising and to remain its largest operating expense for the foreseeable future.",
+    "Critics are more pessimistic. A Tech Policy Press opinion piece by Matt Scherer argues the SEC should block the IPO. He says at least $582 billion of the commitments are non-cancelable obligations to five companies and that 2026 results are unaudited. That is one author's argument, not a regulatory finding. The market backdrop also matters: CNBC reports Wall Street worry that higher rates will make debt unaffordable for data center developers and neoclouds."
    ],
    "whatToWatch": [
-    "Anthropic is about to begin its roadshow. Watch whether it provides further run-rate figures and how it answers questions on the Q3 slowdown, the rise in compute's share of revenue, and the size of its commitments.",
-    "The filing says compute will stay its largest operating expense for the foreseeable future, so progress on its in-house 'Anthropic Direct' effort and on multi-year capacity coming online will shape margins. OpenAI's own filing, expected to lead to a 2027 debut, will offer a comparison."
+    "The next step is the roadshow, which CNBC says Anthropic is preparing to begin. Investors will test whether revenue growth near 47% a quarter can support commitments approaching $900 billion.",
+    "Also worth watching are how fast Anthropic's multi-year capacity comes online to replace pricier short-term compute, and how much its own \"Anthropic Direct\" effort can reduce costs. OpenAI, which filed confidentially in June, is reportedly aiming for 2027."
    ],
    "pullQuote": {
-    "text": "We expect compute and infrastructure expenses to increase in absolute dollars and remain our largest operating expense for the foreseeable future",
-    "by": "Anthropic, in its amended S-1 filing"
+    "text": "As our compute and infrastructure capacity grows, the associated compute and infrastructure expenses have increased",
+    "by": "Anthropic, in its amended S-1"
    }
   }
  },

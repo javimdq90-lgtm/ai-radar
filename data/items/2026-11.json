@@ -637,7 +637,7 @@
   ],
   "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
   "imageCheckedAt": "2026-11-02T23:56:02.010Z",
-  "storyId": "5464a863f83d"
+  "storyId": "fb9ff410aee0"
  },
  {
   "url": "https://openai.com/index/qodo-codex-plugin",
@@ -1959,7 +1959,7 @@
    "Siri",
    "iOS 27.3"
   ],
-  "storyId": "775f6b0b1d66"
+  "storyId": "0947affcb4cc"
  },
  {
   "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
@@ -2243,7 +2243,7 @@
   "entities": [
    "Flock"
   ],
-  "storyId": "dc28833f4985"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
@@ -2359,5 +2359,555 @@
    "Adam Fry"
   ],
   "storyId": "fd8195e7fb64"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.03634",
+  "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often lack functional depth and visual fidelity. We propose WebHarbor, a suite of 153 executable and dockerized website environments that faithfully reconstruct the visual interfaces, content, and functional workflows of real-world web services under deterministic control. We build WebHarbor through task…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03634.png",
+  "id": "08203afa74e0",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "WebHarbor offers 153 dockerized, deterministic website environments that reproduce real web services for training and evaluating GUI web agents.",
+  "whyItMatters": "Stable environments avoid the flakiness of live-site agent evaluation.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "WebHarbor"
+  ],
+  "storyId": "08203afa74e0"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50363461",
+  "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T10:10:27.000Z",
+  "score": 136,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50363461",
+  "id": "150a39b9eb9a",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:05.669Z",
+  "summary": "A user reports that Google's Gemini uses chat history from personal accounts to train its models, even for paying subscribers.",
+  "whyItMatters": "Builders and users handling sensitive data should check Gemini's privacy and training opt-out settings before relying on personal accounts.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "storyId": "605a80a50559"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.02497",
+  "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five vision-language-action (VLA) policies and three frontier AI agents across four embodiments (SO-101, Franka, Bimanual-YAM, and G1 Humanoid). The Open Track compares models without task-specific…",
+  "score": 34,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02497.png",
+  "id": "18ae6f569566",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "RoboColosseum is a distributed evaluation framework running standardized protocols across a network of local robots. The first study tested five VLA policies and three frontier AI agents on four embodiments including Franka and G1 Humanoid.",
+  "whyItMatters": "Reproducible real-world robot benchmarks are a missing piece for comparing general-purpose policies.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "RoboColosseum",
+   "Franka",
+   "G1 Humanoid"
+  ],
+  "storyId": "18ae6f569566"
+ },
+ {
+  "url": "https://eva.ac/blog/llms/",
+  "title": "So I guess everyone uses LLMs to think now",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-01T21:49:04.000Z",
+  "score": 80,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50330253",
+  "id": "2041779807cb",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "An essay reflects on how people now routinely use LLMs as part of their thinking process.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "2041779807cb"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.05193",
+  "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without explicitly resolving the intended visual modifications. In this work, we introduce Factorized MLLM Embeddings (FactEmbed), which decouples compositional query comprehension from b…",
+  "score": 32,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05193.png",
+  "id": "25bdd6e9b6c3",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "FactEmbed decouples compositional query understanding from embedding in MLLM-based composed image retrieval, explicitly resolving the intended visual modification.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "FactEmbed"
+  ],
+  "storyId": "25bdd6e9b6c3"
+ },
+ {
+  "url": "https://uncracked.city",
+  "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T21:20:03.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50358352",
+  "id": "27a269c74893",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Uncracked City is a detective game where players question LLM-powered suspects who lie.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Uncracked City"
+  ],
+  "storyId": "27a269c74893"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+  "title": "Google researchers demand freedom to tell the world what they know about AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T17:55:26.000Z",
+  "score": 91,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50355504",
+  "id": "36b7855ee5fe",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Google researchers are demanding the freedom to publicly share what they know about AI.",
+  "whyItMatters": "It signals internal tension over transparency and safety disclosure at a major lab.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google"
+  ],
+  "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/D6RH4YXCY2Y5AUD3DC467SR6OE_size-normalized.jpg&w=1440",
+  "imageCheckedAt": "2026-11-04T13:05:05.957Z",
+  "storyId": "36b7855ee5fe"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.02782",
+  "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T04:00:31.000Z",
+  "snippet": "Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillation methods do not fully exploit richer historical information to constrain the student's current prediction. To address this gap, we introduce History Forcing, a unified on-policy distillation framework that strengthens historical supervision for few-step autoregressive video generators. The framework uses the residua…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02782.png",
+  "id": "40ab3bf8fc91",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "History Forcing is an on-policy distillation framework that adds stronger historical supervision to few-step autoregressive video generators, improving consistency when subjects or scenes reappear in long rollouts.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "History Forcing"
+  ],
+  "storyId": "40ab3bf8fc91"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.02501",
+  "title": "SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. We identify three challenges. First, with one request, each step accepts few tokens but reads every target weight. Second, with batching, per-request verification work roughly halves the speedup over autoregressive (AR) decoding. Third, speculative decoding is deployment-specific, and no universal o…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02501.png",
+  "id": "40bf0a146da2",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "SpecPilot autonomously discovers algorithms and systems optimizations for speculative decoding, targeting parallel drafters whose released systems may not reach their full speedup across single-request, batched and deployment-specific settings.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SpecPilot"
+  ],
+  "storyId": "40bf0a146da2"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.04418",
+  "title": "VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality instruction data. While raw videos offer an abundant and dynamic source of visual knowledge, transforming them into precise instruction data remains highly challenging. To bridge this gap, we present VidUEU-Agent, an automated pipeline that synthesizes instruction data from raw videos for multimodal understanding, editing, and unified tasks. VidUEU-Agent follows a four-stage pipeline: it performs global perception to filter low-quality shots, mines keyframes and multimodal si…",
+  "score": 21,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04418.png",
+  "id": "49c4f78acfc1",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "VidUEU-Agent is an automated four-stage pipeline that turns raw videos into instruction data for multimodal understanding, editing and unified tasks.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "VidUEU-Agent"
+  ],
+  "storyId": "49c4f78acfc1"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+  "title": "Please stop asking me when the AI bubble will pop",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-03T23:37:45.000Z",
+  "snippet": "Emmanuel Roman, chief executive officer of Pacific Investment Management Co. (Pimco), during the Global Financial Leaders' Investment Summit in Hong Kong, China, on Tuesday, Nov. 3, 2026. | Bloomberg via Getty Images People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, go retire on a beach somewhere. Maybe run a cat sanctuary, who knows. What I can tell you is t…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302813651.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "4a5440967965",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "The Verge's writer argues that nobody can predict when the AI bubble will pop and declines to speculate on timing.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "The Verge",
+   "Pimco"
+  ],
+  "storyId": "4a5440967965"
+ },
+ {
+  "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+  "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T11:16:07.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50350560",
+  "id": "5a3345f135c4",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Anthropic's IPO filing reveals about $1.7B in quarterly payroll, roughly $107K per employee per month.",
+  "whyItMatters": "An Anthropic IPO filing gives unprecedented visibility into frontier lab economics.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-04T13:05:05.886Z",
+  "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.05280",
+  "title": "YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns. Consequently, they provide limited supervision and evaluation for multimodal stateful interaction, which requires models to understand, maintain, update, and faithfully realize evolving dialogue states across turns. To address this gap, we introduce YANAMI,…",
+  "score": 26,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05280.png",
+  "id": "61aa1110a2ec",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "YANAMI is a large-scale multimodal dataset and benchmark for multi-turn stateful interaction in unified multimodal models, where tracking evolving dialogue state across turns is required.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "YANAMI"
+  ],
+  "storyId": "61aa1110a2ec"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.05275",
+  "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost? In this work, we present Rou…",
+  "score": 87,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05275.png",
+  "id": "63973ddb0548",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Route Anything studies model and policy routing, i.e. dynamically choosing among specialized models, tools and policies per task while balancing performance and cost.",
+  "whyItMatters": "Routing is a practical lever for cutting inference cost in multi-model systems.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "63973ddb0548"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.04916",
+  "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by module. Kling-MLLM, a shared multimodal foundation model that unifies image, video, audio, synchronized audio--video, and int…",
+  "score": 47,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04916.png",
+  "id": "685e8104a6fb",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Kuaishou's Kling team reports insights from successive Kling generations, arguing video quality is a projection of multimodal understanding across the data, conditioning, alignment and evaluation chain. It describes Kling-MLLM, a shared multimodal foundation model unifying image, video and audio.",
+  "whyItMatters": "It offers a rare look into how a leading video generation team structures its stack.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Kling",
+   "Kling-MLLM"
+  ],
+  "storyId": "685e8104a6fb"
+ },
+ {
+  "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+  "title": "AI is forcing us to pay off 40 years of technical debt",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T11:52:17.000Z",
+  "score": 164,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50364336",
+  "id": "68c44263a0af",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:05.669Z",
+  "summary": "An IEEE Spectrum piece argues that AI is forcing organizations to finally address about 40 years of accumulated technical debt.",
+  "whyItMatters": "Legacy systems and messy codebases limit what AI tools can do, so cleaning them up may become a prerequisite for adoption.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "IEEE Spectrum"
+  ],
+  "storyId": "68c44263a0af"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+  "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T13:00:00.000Z",
+  "snippet": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+  "id": "6c35d4c93609",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:05.669Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.02737",
+  "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide cross-shot supervision data at scale, we develop automatic data-generation pipelines spanning synchronized multi-view footage, real-world multi-shot videos, and generated multi-shot…",
+  "score": 53,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.02737.png",
+  "id": "7148f4c95139",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "MoviEdit is a framework for editing long, multi-shot videos coherently across scene, viewpoint and subject changes. It comes with automatic data-generation pipelines for cross-shot supervision plus modeling and evaluation components.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "MoviEdit"
+  ],
+  "storyId": "7148f4c95139"
+ },
+ {
+  "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+  "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T08:46:29.000Z",
+  "score": 194,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50362905",
+  "id": "771d04f9d142",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Encrypted firmware on Nvidia's RTX Spark reportedly slows inference to 35% of expected speed on Linux.",
+  "whyItMatters": "Builders running local inference on Linux may see big performance penalties.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "RTX Spark"
+  ],
+  "image": "https://i.mscdn.ai/o/iZl0kkZU2R9KXyy7/a/3V2ICO3oSq2QZPii/_published/generated-images/0d8c9668-cbfe-4ecf-bb31-1a7fff7102be.png?fm=auto&w=1200&h=630&fit=crop",
+  "imageCheckedAt": "2026-11-04T13:05:05.889Z",
+  "storyId": "771d04f9d142"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.05377",
+  "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner. Our approach extracts compact latent actions from the video model's rich spatiot…",
+  "score": 46,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05377.png",
+  "id": "807d8e9928de",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "DreamX repurposes a pretrained video diffusion model to extract compact latent actions that transfer across embodiments and appearances.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "DreamX"
+  ],
+  "storyId": "807d8e9928de"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+  "title": "Anthropic is working on a system to prove AI models’ identity",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-03T22:41:03.000Z",
+  "snippet": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
+  "id": "993e48dc4504",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Anthropic is developing FlashProve, a system that would let anyone verify an AI response really came from the model it claims.",
+  "whyItMatters": "Verifiable model identity could curb model-substitution and fraud in API resale and inference providers.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "FlashProve"
+  ],
+  "imageCheckedAt": "2026-11-04T13:05:05.885Z",
+  "storyId": "993e48dc4504"
+ },
+ {
+  "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+  "title": "How I use AI (Oct 2026)",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T18:11:11.000Z",
+  "score": 199,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50355767",
+  "id": "a959325bd7be",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "A developer describes his personal AI usage workflow as of October 2026.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "a959325bd7be"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.03233",
+  "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-01T19:00:00.000Z",
+  "snippet": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesize challenging problems and adversarially strengthen them based on the base model's own successful s…",
+  "score": 35,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.03233.png",
+  "id": "b727f10c6404",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Axion 1.0 is a fully open agent foundation model trained in just three stages: two light SFT stages then reinforcement learning, skipping mid-training, DPO and on-policy distillation.",
+  "whyItMatters": "A simpler open recipe for agentic models lowers the bar for teams training their own.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "Axion 1.0"
+  ],
+  "storyId": "b727f10c6404"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.04814",
+  "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We propose LoCo, a local preference learning method for reasoning compression. LoCo detects candidate overthinking states from the model's own traces, freezes the corresponding reason…",
+  "score": 61,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.04814.png",
+  "id": "c183e075f0bc",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "LoCo is a local preference learning method that compresses reasoning by detecting overthinking states in a model's own traces and teaching it to stop once it has enough information.",
+  "whyItMatters": "Shorter chains of thought cut inference cost for reasoning models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "LoCo"
+  ],
+  "storyId": "c183e075f0bc"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.05036",
+  "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-02T19:00:00.000Z",
+  "snippet": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment. We propose ToolSpace, a tool-centric framework that reverses this order. ToolSpace mines data, state, and retry dependencies from adjacent calls in execution traces of re…",
+  "score": 31,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05036.png",
+  "id": "d06ef060f8d2",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "ToolSpace synthesizes agent training environments tool-first, mining dependencies from real MCP execution traces so tool interfaces and cross-environment tasks are grounded.",
+  "whyItMatters": "Better synthetic MCP environments could improve training of long-horizon tool-using agents.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ToolSpace",
+   "MCP"
+  ],
+  "storyId": "d06ef060f8d2"
+ },
+ {
+  "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+  "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T10:23:34.000Z",
+  "score": 106,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50363554",
+  "id": "dc34df3985a1",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:05.669Z",
+  "summary": "Geoffrey Hinton says in a Guardian interview that it might turn out we were better off without AI, repeating his concerns about the technology's risks.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Geoffrey Hinton"
+  ],
+  "storyId": "dc34df3985a1"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.29713",
+  "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T21:40:53.000Z",
+  "score": 359,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50358582",
+  "id": "edbf4ed1a954",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "A new arXiv book, The Little Book of Generative AI Foundations, offers an intuitive mathematical primer on generative AI.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "edbf4ed1a954"
+ },
+ {
+  "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+  "title": "The biggest modding site in PC gaming is taking a stance on AI",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T00:42:10.000Z",
+  "snippet": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent concerns we've heard is that it's not clearly disclosed when AI has been used to create a mod,\" according to the post from site owner Victor \"Foledinho\" Folmann. \"We already have tags for AI-generated and AI-assisted mods, but we recognise that there's a lot more we can do to make tha…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f2b4eea992e3",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Nexus Mods will require authors to declare whether AI was used in new mod uploads, expanding its existing AI-generated and AI-assisted tags.",
+  "whyItMatters": "It's a notable example of a major creative community mandating AI disclosure.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Nexus Mods"
+  ],
+  "storyId": "f2b4eea992e3"
+ },
+ {
+  "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+  "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-03T21:26:44.000Z",
+  "score": 370,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50358422",
+  "id": "f3900be82c6f",
+  "fetchedAt": "2026-11-04T13:04:41.399Z",
+  "enrichedAt": "2026-11-04T13:05:01.986Z",
+  "summary": "Nikkei reports that US tech giants' off-balance-sheet AI-related debt grew 90% to $3.2 trillion in six months.",
+  "whyItMatters": "Hidden leverage behind AI buildouts raises questions about the sustainability of capex.",
+  "category": "business",
+  "importance": 4,
+  "entities": [],
+  "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+  "imageCheckedAt": "2026-11-04T13:05:06.073Z",
+  "storyId": "f3900be82c6f"
  }
 ]
