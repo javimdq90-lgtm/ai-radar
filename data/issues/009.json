@@ -1,0 +1,260 @@
+{
+ "number": 9,
+ "date": "2026-11-04T14:23:14.096Z",
+ "subject": "Anthropic's IPO filing says AI-accelerated progress may be near",
+ "preview": "Plus Oracle's $20B raise, ChatGPT's search claim, and Siri opening to every app.",
+ "intro": "Most of the past few days was about who pays for AI and what they have to disclose, with debt, big raises and IPO paperwork all in view. Product news was quieter but spread into new places, from the wrist to the classroom.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "855688c450b2",
+     "headline": "Anthropic's revised IPO filing says it may soon hit its own AI-acceleration threshold",
+     "body": "In a revised S-1A filed Monday, Anthropic said internal estimates suggest it may 'imminently' meet its Responsible Scaling Policy definition of 'dramatically accelerated progress attributable to AI.' No current model is designated as exceeding the threshold, and it is still assessing the data. It also says it has previously failed to spot a significant acceleration until after it happened, and is weighing policy updates to keep humans in control.",
+     "why": "A lab put its own self-improvement estimate into a legal filing. TechCrunch notes an S-1 is both disclosure and marketing, so read it as a signal and a pitch."
+    }
+   ]
+  },
+  {
+   "heading": "Money",
+   "stories": [
+    {
+     "storyId": "755eea7f3c8e",
+     "headline": "Oracle files to sell $10 billion in stock and $10 billion in notes",
+     "body": "Oracle filed Monday to sell $10 billion in common stock and $10 billion in senior notes, with proceeds for general purposes including capital expenditures. Shares fell 8.8% even though the plan was outlined at last week's investor day. Oracle says $20 billion is the limit of additional capital market funding for fiscal 2027 to 2030. Debt was $125.34 billion on Aug. 31, and S&P rates it BBB-, one level above high yield.",
+     "why": "Oracle is the clearest test of how far debt-funded AI buildout can stretch. Its shares are down 33% this year, and credit spreads have been rising."
+    },
+    {
+     "storyId": "42ec3b43220b",
+     "headline": "Fal raises $1.3 billion at a $16 billion valuation",
+     "body": "The inference startup's round was led by Bessemer, with Nvidia, Sound Ventures and T. Rowe Price participating. The valuation doubles the $8 billion set in April, Bloomberg reported. Fal announced Series E and Series F together, totaling $1.65 billion, and passed $800 million in annualized revenue earlier this year. Sources say gross margins stay thin because of compute costs, a problem rivals like Baseten, Fireworks AI and Modal share.",
+     "why": "Demand for running models is strong enough to double a valuation since April, but thin margins show compute still takes a large share of the revenue."
+    }
+   ]
+  },
+  {
+   "heading": "Products and search",
+   "stories": [
+    {
+     "storyId": "0947affcb4cc",
+     "headline": "Apple's iOS 27.3 beta opens Siri AI to all apps and adds always-on Watch audio features",
+     "body": "The developer beta lets developers integrate Siri AI in all apps, using personal context and on-screen awareness, with 'app skills' chaining several tasks into one action. watchOS 27.3 adds Siri Recap, which summarizes conversations through ambient listening, and Live Rewind, a transcript of the last 15 seconds of audio, deleted after 30 seconds unless saved. Apple says raw audio is not accessible to the OS, apps or Apple. It targets Apple Watch Series 12 and Ultra 4.",
+     "why": "Siri becomes something third-party apps can build on. Always-on listening also tests Apple's privacy claims, given the backlash against other listening wearables."
+    },
+    {
+     "storyId": "fd8195e7fb64",
+     "headline": "OpenAI says ChatGPT search volume is now 20% of Google's",
+     "body": "Adam Fry, consumer product lead for ChatGPT, made the claim at a Monday press event. OpenAI counts any query that triggers a web search, excluding things like defining a term or a simple how-to. Fry did not say where the Google figure came from, so the comparison can't be checked. He said ads haven't hurt usage, and OpenAI recently began showing images of sponsored products in ChatGPT.",
+     "why": "Treat it as a pitch: the definition is OpenAI's own, and the company is adding ads and may IPO as early as next year."
+    }
+   ]
+  },
+  {
+   "heading": "Policy",
+   "stories": [
+    {
+     "storyId": "b450560162d2",
+     "headline": "Google will cut off Search for schools that opt out of its AI tools",
+     "body": "Google says Gemini, Gemini Notebook, Gemini in Classroom and Search will be 'entirely off' for K-12 student accounts unless administrators turn them on. Admins can't disable the Gemini features without losing Search; Google's Chris Phillips says the two are deeply integrated. Sen. Bernie Sanders called it 'extortion,' and NYC Mayor Zohran Mamdani objected too. Google will also begin testing Guided Learning in AI Overviews in select US schools this month.",
+     "why": "For schools that want no AI, opting out now costs them Search. Expect more pushback once Google shares specifics with schools in the coming months."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "f3900be82c6f",
+   "text": "Nikkei reports off-balance-sheet AI obligations at US tech giants rose 90% in six months to about $3.2 trillion."
+  },
+  {
+   "storyId": "968f14d53faf",
+   "text": "On its earnings call, Apple hinted at unspecified revenue 'opportunities' involving third-party AI apps."
+  },
+  {
+   "storyId": "9abae69701c4",
+   "text": "The New York Times and other publishers sued Brave, alleging it scraped sites for AI training, sold index access and enabled paywall bypass."
+  },
+  {
+   "storyId": "993e48dc4504",
+   "text": "Anthropic is developing FlashProve, a system meant to let anyone verify an AI response came from the model it claims."
+  },
+  {
+   "storyId": "b20c657114df",
+   "text": "Apple's new App Store rules require 18+ ratings for dating apps and AI companions offering sexual or romantic content."
+  },
+  {
+   "storyId": "032b81f3baec",
+   "text": "Palantir's US commercial revenue passed its US government revenue for the first time last quarter."
+  },
+  {
+   "storyId": "272a05aa5da7",
+   "text": "Elon Musk is throttling Grok Bot usage limits, calling costs 'unsustainably high' despite the product's rapid growth."
+  },
+  {
+   "storyId": "97ea381abb97",
+   "text": "Data center builders facing long waits for grid power and turbines are turning to old jet engines, despite lower efficiency."
+  },
+  {
+   "storyId": "f2b4eea992e3",
+   "text": "Nexus Mods will require authors to declare whether AI was used in new mod uploads."
+  }
+ ],
+ "links": {
+  "855688c450b2": [
+   {
+    "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+    "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+    "source": "TechCrunch"
+   }
+  ],
+  "755eea7f3c8e": [
+   {
+    "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "source": "cnbc.com"
+   },
+   {
+    "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+    "url": "https://news.ycombinator.com/item?id=50342284",
+    "source": "HN discussion"
+   }
+  ],
+  "42ec3b43220b": [
+   {
+    "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+    "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+    "source": "TechCrunch"
+   }
+  ],
+  "0947affcb4cc": [
+   {
+    "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+    "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+    "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+    "source": "The Verge"
+   },
+   {
+    "title": "Apple starts giving Siri AI access to third-party apps",
+    "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+    "source": "The Verge"
+   }
+  ],
+  "fd8195e7fb64": [
+   {
+    "title": "OpenAI says ChatGPT is catching up to Google in search",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+    "source": "The Verge"
+   }
+  ],
+  "b450560162d2": [
+   {
+    "title": "Google will turn off search for schools that reject AI",
+    "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+    "source": "nytimes.com"
+   },
+   {
+    "title": "Google will turn off search for schools that reject AI",
+    "url": "https://news.ycombinator.com/item?id=50353192",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+    "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Google is entirely disabling Search in schools that don’t want AI",
+    "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+    "source": "The Verge"
+   },
+   {
+    "title": "Google will let schools skip AI tools, but they have to give up search, too",
+    "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "source": "Ars Technica"
+   }
+  ],
+  "f3900be82c6f": [
+   {
+    "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+    "source": "asia.nikkei.com"
+   },
+   {
+    "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+    "url": "https://news.ycombinator.com/item?id=50358422",
+    "source": "HN discussion"
+   }
+  ],
+  "968f14d53faf": [
+   {
+    "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+    "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Apple is all in on AI — its own and everyone else’s",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+    "source": "The Verge"
+   }
+  ],
+  "9abae69701c4": [
+   {
+    "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+    "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+    "source": "The Verge"
+   },
+   {
+    "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+    "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+    "source": "TechCrunch"
+   }
+  ],
+  "993e48dc4504": [
+   {
+    "title": "Anthropic is working on a system to prove AI models’ identity",
+    "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+    "source": "TechCrunch"
+   }
+  ],
+  "b20c657114df": [
+   {
+    "title": "Apple restricts dating apps and AI companions to users 18 and up",
+    "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+    "source": "TechCrunch"
+   }
+  ],
+  "032b81f3baec": [
+   {
+    "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+    "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+    "source": "TechCrunch"
+   }
+  ],
+  "272a05aa5da7": [
+   {
+    "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+    "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+    "source": "TechCrunch"
+   }
+  ],
+  "97ea381abb97": [
+   {
+    "title": "Data centers are turning to old jet engines as the wait for power grows",
+    "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+    "source": "TechCrunch"
+   }
+  ],
+  "f2b4eea992e3": [
+   {
+    "title": "The biggest modding site in PC gaming is taking a stance on AI",
+    "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+    "source": "The Verge"
+   }
+  ]
+ }
+}
