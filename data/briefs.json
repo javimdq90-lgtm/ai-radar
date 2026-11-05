@@ -85,35 +85,36 @@
    "19244c7aa206",
    "a4a3f94120ca",
    "346706f894ca",
-   "dc28833f4985"
+   "dc28833f4985",
+   "f93567576105"
   ],
-  "writtenAt": "2026-11-04T13:05:52.920Z",
-  "headline": "OpenAI launches Grid Protectors Program, piloting it at a Georgia data center",
-  "dek": "OpenAI says its Effingham County, Georgia site will free up to 1,000 MW during extreme weather or emergencies, as it starts calling data centers 'compute campuses' amid growing backlash.",
+  "writtenAt": "2026-11-05T13:18:59.140Z",
+  "headline": "OpenAI launches Grid Protectors Program, piloting 1,000 MW grid relief at Georgia site",
+  "dek": "OpenAI says its planned Effingham County, Georgia campus will free up to 1,000 MW during extreme weather or emergencies, as it recasts data centers as 'compute campuses' amid growing backlash.",
   "keyPoints": [
-   "OpenAI will pilot the Grid Protectors Program at an upcoming Effingham County, Georgia site, promising to free up to 1,000 MW during extreme weather or emergencies, enough for air conditioners in about 700,000 homes.",
-   "OpenAI's announcement used 'compute campus' far more than 'data center'; The Verge says 'data center' appeared twice in roughly 900 words and found no earlier use of the term on OpenAI's site.",
-   "Axios reported OpenAI planned a post-midterm PR push; chief global affairs officer Chris Lehane named rebranding data centers as 'AI compute campuses' among proposals.",
-   "PauseAI US and the NAACP criticized the rebrand as not addressing pollution, resource use or residents' concerns. OpenAI did not respond to The Verge's request for comment.",
-   "Several states, including Tennessee, Florida, Oklahoma and Oregon, have enacted laws meant to stop AI companies passing energy costs to residents."
+   "OpenAI will pilot the Grid Protectors Program at an upcoming site in Effingham County, Georgia, promising to free up to 1,000 MW during extreme weather or emergencies.",
+   "OpenAI says 1,000 MW is enough to power air conditioners in around 700,000 homes, and pitches its power plants as a resource utilities can call on.",
+   "The announcement uses 'compute campus' far more than 'data center'; The Verge found no earlier use of the term on OpenAI's site.",
+   "PauseAI US and the NAACP's Abre' Conner call the rebrand empty; OpenAI did not respond to The Verge's request for comment.",
+   "Axios reported OpenAI plans a post-midterm PR push, per chief global affairs officer Chris Lehane, including AI 'speed limits' and the campus rebrand."
   ],
-  "context": "Data centers have drawn bipartisan opposition over electricity costs, water use and pollution, and data center politics featured in the 2026 midterms. Anthropic earlier pledged to cover 100 percent of grid-connection upgrades for its data centers, and Amazon and Microsoft have said they will stop using NDAs with local governments. OpenAI is building Stargate sites with Oracle and SoftBank across Texas and New Mexico.",
-  "whatsNext": "OpenAI says it will keep working with policymakers and utilities on arrangements for its future campus to cut demand when the grid is under strain.",
+  "context": "Data centers have become unpopular across the US, with bipartisan opposition, state laws on passing energy costs to residents, and local protests such as one in Box Elder County, Utah. Anthropic earlier this year pledged to cover 100 percent of grid-connection upgrades for its data centers, setting a benchmark OpenAI is now being compared with. OpenAI is also building Stargate sites with Oracle and SoftBank in Texas and New Mexico.",
+  "whatsNext": "Watch for whether utilities and policymakers sign agreements that let OpenAI cut demand under grid strain, and how the Georgia pilot performs.",
   "article": {
    "whatHappened": [
-    "OpenAI on Monday launched the Grid Protectors Program, an initiative with utilities meant to ensure its future compute sites support grid reliability and protect consumer electricity costs. The first pilot will be at an upcoming data center in Effingham County, Georgia.",
-    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which The Verge says is enough to run air conditioners in around 700,000 homes. OpenAI pitches the power it builds as a resource that utilities can call on when communities need it most.",
-    "OpenAI also argues that steady year-round demand helps customers. In its announcement it says that, with the right agreements, that demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it reduce demand when the system is busiest.",
-    "The announcement also introduced new terminology. According to The Verge, the roughly 900-word post used 'data center' only twice, outnumbered by 'compute campus', and a search of OpenAI's website turned up no earlier use of the term. OpenAI did not respond to a request for comment on its motivations."
+    "OpenAI on Monday launched its Grid Protectors Program, an initiative with utilities meant to ensure its future computing sites support grid reliability and protect consumer electricity costs. It will pilot the program at an upcoming site in Effingham County, Georgia.",
+    "At that site, OpenAI promises to free up to 1,000 megawatts of power during extreme weather or emergencies, which it says is enough to run air conditioners in about 700,000 homes. The company describes the power plants feeding its facilities as a resource utilities can call on when communities need it most.",
+    "OpenAI argues its demand can lower costs for other customers. Its announcement says the campuses need power year-round, so steady demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it reduce demand when the system is busiest. It says it will keep working with policymakers and utilities on arrangements to cut demand under strain.",
+    "The announcement also introduced the term 'compute campus.' The Verge counted the phrase outnumbering 'data center' in the roughly 900-word post, where 'data center' appeared only twice, and found no earlier use of the term on OpenAI's website."
    ],
    "whyItMatters": [
-    "The announcement lands as opposition to data centers spreads across the US. The Verge cites protests in Utah over a Box Elder County project expected to use more than double the state's peak electricity demand in 2025, and a Houston Advanced Research Center study warning that proposed Texas projects could undo decades of air quality gains within five years. Several states have passed laws aimed at keeping energy costs off residents.",
-    "The rebrand appears to be deliberate. Axios reported that OpenAI planned a policy and PR push after the midterms, and TechCrunch says chief global affairs officer Chris Lehane listed rebranding data centers as 'AI compute campuses' among proposals that also include AI 'speed limits'. Lehane called the data center debate 'good and healthy'.",
-    "Critics are unconvinced. Holly Elmore of PauseAI US said communities will not be fooled, and Abre' Conner of the NAACP said a new name does not fix real harm. Elmore also compared OpenAI unfavorably with Anthropic, which pledged to cover all grid-connection upgrades, invest in community projects and avoid NDAs with officials."
+    "The program arrives as resistance to data centers spreads. Several states, including Tennessee, Florida, Oklahoma and Oregon, have enacted laws aimed at stopping AI companies from passing energy costs to residents, and a Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains within five years.",
+    "Axios reported that OpenAI is preparing a PR push after the midterm elections, anticipating a tougher regulatory climate if Democrats gain. Chris Lehane, OpenAI's chief global affairs officer, told Axios the midterms will be a preview of 2028, when he expects AI to be the central issue. Lehane listed AI 'speed limits' and the campus rebrand among proposals.",
+    "Critics are skeptical. Holly Elmore of PauseAI US said communities will not be fooled, and the NAACP's Abre' Conner said a new name does not address real harm. Elmore also compared OpenAI unfavorably with Anthropic, which has pledged to cover grid upgrade costs, invest in community projects and forgo NDAs with officials."
    ],
    "whatToWatch": [
-    "The concrete test is whether utilities and policymakers sign agreements that make OpenAI's promised flexibility binding. OpenAI says it will keep working with both on arrangements to reduce demand when the grid is under strain, but the coverage gives no timeline.",
-    "The politics may also shift. The Verge notes the next Congress is likely to keep grappling with how to regulate AI and respond to the data center backlash, following midterm races where data centers were an issue."
+    "The main open question is whether the pledge is backed by binding agreements. OpenAI's wording refers to 'arrangements' to be worked out with utilities and policymakers, and the coverage gives no timeline for the Georgia site.",
+    "It is also unclear whether the terminology shift holds. OpenAI did not answer The Verge's questions about its motives, and its Stargate sites in Texas and New Mexico may face similar scrutiny."
    ],
    "pullQuote": {
     "text": "Rebranding them ‘compute campuses’ may fool listeners once or twice but it’s not the name ‘data center’ that is unpopular",
@@ -845,37 +846,38 @@
   "itemIds": [
    "7aec60f41c48",
    "31bba1eca5b3",
-   "44e59e6a2681"
+   "44e59e6a2681",
+   "d93ef6b85a78"
   ],
-  "writtenAt": "2026-11-04T22:41:08.727Z",
-  "headline": "Voters back data center limits in midterms, with Texas flipping to Democrats who favor pauses",
-  "dek": "Local ballot measures restricting data centers passed in most places where they appeared, and Democrats who back moratoriums won Texas races, while tech industry voices dispute that the results show an anti-tech mandate.",
+  "writtenAt": "2026-11-05T13:18:47.708Z",
+  "headline": "Voters back data center limits in midterms, threatening the AI buildout in Texas and beyond",
+  "dek": "Local ballot measures passed in dozens of places and several candidates backing moratoriums won, with NBC exit polling showing roughly 76% of voters oppose data centers nearby; analysts warn of delays, especially in Texas.",
   "keyPoints": [
-   "Redbud Consulting's tracker, cited by The Verge, shows 33 of 45 local data center ballot measures restricting development as of Wednesday; Ars Technica cites 38 of 44 passing.",
-   "NBC News Election Day polling found 76 percent of voters opposed data centers in their communities.",
-   "Democrats Gina Hinojosa (Texas governor) and Abdul El-Sayed (Michigan Senate) back moratoriums; Bloomberg says about 13 gigawatts of Texas capacity is now exposed.",
-   "Chamber of Progress CEO Adam Kovacevich says the results show an anti-Trump wave, not an anti-tech mandate; a civil rights group disagrees.",
-   "Analysts say the measures mostly affect projects planned for 2028, not those already under construction or approved through 2027."
+   "NBC exit polling found 76% of voters oppose data centers in their communities; TechCrunch reports almost 60% called them a crucial or major factor in their vote.",
+   "Redbud Consulting tracked 45 local ballot measures; The Verge counts 33 restricting development as of Wednesday morning, while Ars Technica cites 38 of 44 passing.",
+   "Democrat Gina Hinojosa won the Texas governorship after backing a statewide moratorium; Bloomberg says about 13 gigawatts of Texas capacity is now exposed.",
+   "Chamber of Progress CEO Adam Kovacevich says the results show an anti-Trump wave, not an anti-tech mandate; civil rights groups disagree.",
+   "Democrats also won Congress, which could improve the odds of bills like the Sanders-Ocasio-Cortez national moratorium, though a veto is possible."
   ],
-  "context": "Data center construction has underpinned AI investment and economic growth, with Texas the fastest-growing market. Opposition over electricity bills, water use and tax breaks has grown across both parties for months. Greg Abbott had already ordered a halt to data center permits on September 21, before the election.",
-  "whatsNext": "Watch whether Hinojosa and the new Texas legislature turn campaign pledges into a moratorium, and how long any pause lasts.",
+  "context": "Data centers have become a bipartisan flashpoint over electricity bills, water use and secrecy, with developers often signing nondisclosure agreements with local officials. The AI industry's buildout, with projects like Stargate and Meta's Hyperion, supports much of current economic growth. Texas had been among the easiest places to build until Gov. Greg Abbott began changing course in September.",
+  "whatsNext": "Watch whether Hinojosa follows through on a Texas moratorium once in office, and whether congressional Democrats advance national data center bills.",
   "article": {
    "whatHappened": [
-    "Voters across the US backed candidates and ballot measures that favor tighter limits on data center development in Tuesday's midterms. NBC News found that 76 percent of voters polled on Election Day opposed data centers in their communities, according to The Verge.",
-    "Redbud Consulting tracked local ballot measures. The Verge reported that, as of Wednesday morning, 33 of 45 would restrict development. Ars Technica, citing the same tracker, counted 38 of 44 measures across 10 states passing. Examples include a 180-day moratorium in Wells, Maine, a ban on data centers above 25MW in several Ohio cities, and a 10-year ban above 10MW in El Dorado, Kansas.",
-    "In Texas, Democrat Gina Hinojosa won the governor's race over incumbent Republican Greg Abbott, and Democrat James Talarico won the Senate seat over Ken Paxton. MIT Technology Review reports Democrats also take the Texas House for the first time in 24 years. Hinojosa has called for a statewide moratorium. Democrats also won governor races in Arizona, Georgia and Ohio, Ars Technica reported."
+    "Voters in the November 3 midterms backed candidates and ballot measures that favor restricting data center development, a setback for a central part of the AI industry's expansion plans. NBC News exit polling found that 76 percent of voters said they opposed data centers in their communities, according to The Verge.",
+    "Redbud Consulting tracked local ballot measures on the issue. The Verge counted 45 measures, with 33 restricting development as of Wednesday morning. Ars Technica, citing the same tracker, reported 38 of 44 measures across 10 states passing. Examples include a 180-day moratorium in Wells, Maine, a ban on facilities over 25MW in several Ohio cities, and a 10-year ban on facilities over 10MW in El Dorado, Kansas.",
+    "The biggest shift came in Texas. Democrat Gina Hinojosa won the governorship over Republican incumbent Greg Abbott, and fellow Democrat James Talarico won the Senate seat over Ken Paxton. Democrats will also take the Texas House for the first time in 24 years, according to MIT Technology Review. Hinojosa supported data center tax breaks in 2023 but campaigned on a full moratorium. Democrats also won governorships in Arizona, Georgia and Ohio, Ars Technica reported."
    ],
    "whyItMatters": [
-    "Texas is the center of the AI buildout. MIT Technology Review notes the Stargate Frontier site in Shackelford County is projected at 1,820 megawatts, and Nexus Hubbard, aimed mostly at Anthropic, at 6,400 megawatts. Bloomberg, cited by Ars Technica, put about 13 gigawatts of capacity at risk. Gordon Johnson of GLJ Research expects projects lacking state environmental permits to slip 12 to 18 months.",
-    "The results are contested. Ars Technica reports that Chamber of Progress CEO Adam Kovacevich argues that Democratic gubernatorial candidates who opposed data center bans won at a higher rate than those who supported them. The Verge also notes that Byron Donalds won in Florida opposing an outright ban and Rob Sand won in Iowa opposing a moratorium. NBC exit polls ranked cost of living and corruption above AI as voter concerns.",
-    "Following through may be hard. MIT Technology Review says decisions involve cities, counties and state offices, that Texas counties with heavy data center activity voted differently, and that construction unions that backed some Democrats may resist a moratorium."
+    "Texas is the fastest-growing US data center market. Projects there include the 1,820-megawatt Stargate Frontier and Nexus Hubbard, a 6,400-megawatt site intended mostly for Anthropic. Bloomberg, as cited by Ars Technica, says about 13 gigawatts of Texas capacity is exposed. Analyst Gordon Johnson of GLJ Research expects projects lacking state environmental permits to slip 12 to 18 months. Analysts also suggested projects already under construction or approved through 2027 would be largely unaffected, with the impact falling on plans for 2028.",
+    "The causes are disputed. Chamber of Progress CEO Adam Kovacevich, a former Google executive, argues Democratic gubernatorial candidates who opposed data center bans won at a higher rate than those who supported them. NBC exit polls suggest cost of living and corruption ranked above AI as concerns. Advocates such as Alejandra Montoya-Boyer of The Leadership Conference's civil rights and technology center see a mandate to regulate AI. The Verge notes it is hard to draw a direct line from the backlash to any single result.",
+    "Results were mixed. Republican Byron Donalds won Florida's governorship while opposing an outright ban, and Iowa's Rob Sand won despite opposing a moratorium his challenger favored. In Texas, counties with heavy data center activity split, with Ellis County going red and Cameron County blue."
    ],
    "whatToWatch": [
-    "The key question is whether a Texas moratorium materializes and how long it lasts. Analysts quoted by Ars Technica expect at least slower permitting and more concessions from developers, such as limits on tax incentives and rules on who pays for grid and water costs.",
-    "Some projects may move to other states such as Louisiana or Georgia, according to the coverage, though Democrats won in Georgia as well."
+    "MIT Technology Review notes that no single office decides whether a project proceeds, and that city, county and state officials all play a role. Local officials may resist sweeping state restrictions, and construction unions that backed some Democrats could oppose a moratorium. Campaign promises may prove harder to carry out than to make.",
+    "In Washington, Democratic control of Congress could help bills such as the Sanders-Ocasio-Cortez proposal for a national moratorium and Sen. Martin Heinrich's GRID Savings Act, though TechCrunch notes a veto is possible. Color of Change's Nadine Smith expects AI lobbyists to push back and a contested debate even among Democrats over a blanket freeze."
    ],
    "pullQuote": {
-    "text": "Let’s not confuse an anti-Trump wave with an anti-tech mandate.",
+    "text": "Let's not confuse an anti-Trump wave with an anti-tech mandate.",
     "by": "Adam Kovacevich, CEO of Chamber of Progress"
    }
   }

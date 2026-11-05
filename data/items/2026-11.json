@@ -2928,7 +2928,7 @@
    "ChatGPT",
    "Images 2.6"
   ],
-  "storyId": "0ded2053c0de"
+  "storyId": "0a437d67f2ef"
  },
  {
   "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
@@ -3505,5 +3505,410 @@
    "Google"
   ],
   "storyId": "b450560162d2"
+ },
+ {
+  "url": "https://openai.com/index/introducing-images-2-6",
+  "title": "Introducing Images 2.6",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-04T00:00:00.000Z",
+  "snippet": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+  "id": "0a437d67f2ef",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "OpenAI launched Images 2.6, with faster image generation, GIF creation, more precise editing and new API controls. It is available across ChatGPT, Codex and the API.",
+  "whyItMatters": "Developers get new image controls in the API, and GIF generation is a new output format.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Images 2.6",
+   "ChatGPT",
+   "Codex"
+  ],
+  "imageCheckedAt": "2026-11-05T13:18:30.228Z",
+  "storyId": "0a437d67f2ef"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50368804",
+  "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T17:31:53.000Z",
+  "score": 93,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50368804",
+  "id": "2b5f926b26c1",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Kino AI (YC S23) launched an AI media manager and video editor.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Kino AI",
+   "Y Combinator"
+  ],
+  "storyId": "2b5f926b26c1"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.05320",
+  "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-03T13:25:14.000Z",
+  "snippet": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller, and a success judge. The simulator supplies exact actions, and a video model conditioned on real images renders each rollout as photographic video, generating all camera views tog…",
+  "score": 21,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.05320.png",
+  "id": "358a04f01824",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "PyRUA-DataFarm uses a coding agent to replace the human teleoperator: from one calibration episode it builds the task in simulation, writing the scene, an expert controller and a success judge. A video model conditioned on real images then renders the rollouts as photographic multi-view video.",
+  "whyItMatters": "It could cut the cost of collecting robot demonstration data.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "PyRUA-DataFarm"
+  ],
+  "storyId": "358a04f01824"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06918",
+  "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-04T13:59:58.000Z",
+  "snippet": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch …",
+  "score": 52,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06918.png",
+  "id": "3701202fe75e",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "NEO-VLA is an encoder-free vision-language-action framework that tokenizes images with lightweight patch embeddings. This lets action reasoning access visual computation directly instead of a compressed encoder output.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "NEO-VLA"
+  ],
+  "storyId": "3701202fe75e"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+  "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-05T12:00:41.000Z",
+  "snippet": "US leader in deploying humanoid robots goes public on the Nadaq stock exchange.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-1152x648.jpg",
+  "id": "4513cd1ca7d8",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Agility Robotics, the US leader in deploying humanoid robots, debuted on Nasdaq, drawing scrutiny of the humanoid market.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Agility Robotics",
+   "Nasdaq"
+  ],
+  "storyId": "d94f47b36633"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06483",
+  "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-04T08:24:54.000Z",
+  "snippet": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step decision quality; rather, its strength concentrates in error recovery and long-horizon resilience. To mitigate the deployment risks caused by this budget dependence, we provide a …",
+  "score": 26,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06483.png",
+  "id": "4c33fbdd0dc4",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "A study of multi-turn agentic RL in LLM agents, measured with Pass@(K,T), finds gains depend on having enough turn budget and shrink when budgets tighten. The gains come mainly from error recovery and long-horizon resilience, not better single-step decisions.",
+  "whyItMatters": "Agents trained with RL may underperform under tight turn limits in deployment.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "storyId": "4c33fbdd0dc4"
+ },
+ {
+  "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+  "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T19:55:14.000Z",
+  "score": 164,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50370654",
+  "id": "5ccdc48dfe6e",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Qualcomm's Cloud AI 100 Ultra is a 150W AI accelerator card with 128GB of memory at 548GB/s bandwidth.",
+  "whyItMatters": "It is a power-efficient option for inference with large memory capacity.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Qualcomm",
+   "Cloud AI 100 Ultra"
+  ],
+  "storyId": "5ccdc48dfe6e"
+ },
+ {
+  "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+  "title": "[AINews] It's Swapping Season",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-05T06:24:09.000Z",
+  "snippet": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+  "id": "5e468467bd2e",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Latent Space's AINews digest for Nov 4, 2026 covers OpenAI's Linux kernel security work, open weights for Kimi K3.1 Pro and Ricursive's Ripple-65B.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Kimi K3.1 Pro",
+   "Ricursive",
+   "Ripple-65B"
+  ],
+  "storyId": "96eddcc208ed"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50366117",
+  "title": "Ask HN: What's your current AI agentic setup?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-04T14:37:22.000Z",
+  "score": 399,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50366117",
+  "id": "793baf0e5454",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Ask HN thread in which developers share their current agentic AI setups.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "793baf0e5454"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06518",
+  "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-03T19:00:00.000Z",
+  "snippet": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent and can invite reward hacking, while RLHF is difficult to scale and subject to individual aesthetic differences that complicate the calibration of facial, body motion, and chromat…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06518.png",
+  "id": "83ae48ed8791",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "EmoReward proposes a self-evolving reward calibration method for GRPO-based reinforcement learning on emotional video generation. It aims to avoid fixed rewards that miss emotional intent and invite reward hacking.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "EmoReward",
+   "GRPO"
+  ],
+  "storyId": "83ae48ed8791"
+ },
+ {
+  "url": "https://huggingface.co/blog/phonon-tts",
+  "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-05T00:00:00.000Z",
+  "id": "89209ab642b1",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Phonon TTS is a high-quality on-device speech synthesis model billed as topping benchmarks, with a deeper look published on Hugging Face.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Phonon TTS",
+   "Hugging Face"
+  ],
+  "storyId": "89209ab642b1"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+  "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-04T22:42:15.000Z",
+  "snippet": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly, forecasting around $650 million in data center revenue during the first quarter of 2027. But it anticipates that will reach $5 billion by the end of 2027 and $15 billion by 2029. Considering the co…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007992/acastro_STK082_qualcomm_02.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "9237dfef9309",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "With smartphone sales down about 20% from 2025, Qualcomm is pushing into AI data centers via partnerships with Amazon and Meta. It forecasts about $650M in data center revenue in Q1 2027, rising to $5B by end of 2027 and $15B by 2029.",
+  "whyItMatters": "It signals another chipmaker challenging Nvidia in AI inference hardware.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Qualcomm",
+   "Amazon",
+   "Meta"
+  ],
+  "storyId": "9237dfef9309"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06910",
+  "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-03T19:00:00.000Z",
+  "snippet": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review the literature, develop a research plan, conduct research and experiments, and produce structured …",
+  "score": 27,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06910.png",
+  "id": "9dbadbfd4502",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "FrontierPhysics is a benchmark of 56 end-to-end research tasks written by 42 physicists from their own work, spanning nine domains. Agents must review literature, plan, run experiments and write up results, and are judged on research quality as well as correctness.",
+  "whyItMatters": "It tests agents on full research workflows rather than isolated questions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "FrontierPhysics"
+  ],
+  "storyId": "9dbadbfd4502"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+  "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-04T22:45:09.000Z",
+  "snippet": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+  "id": "a331696f9782",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "AI industry PACs spent millions to influence the 2026 midterms with mixed results, and political groups are already looking to the next cycle.",
+  "whyItMatters": "It shows how AI regulation fights are moving into elections.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [],
+  "storyId": "a331696f9782"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+  "title": "Apple is reportedly cutting budgets for its internal AI usage",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-05T01:26:22.000Z",
+  "snippet": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+  "id": "aa3b92b87c68",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Apple is reportedly cutting its budget for internal AI usage by engineering teams significantly.",
+  "whyItMatters": "It hints at cost pressure on AI coding tool spend at a major company.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Apple"
+  ],
+  "imageCheckedAt": "2026-11-05T13:18:30.255Z",
+  "storyId": "aa3b92b87c68"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06728",
+  "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-03T19:00:00.000Z",
+  "snippet": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajecto…",
+  "score": 80,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06728.png",
+  "id": "c997aee47d8b",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "TurnWise is a turn-level GRPO framework for streaming video understanding. It assigns credit to each respond-or-wait decision rather than sharing one trajectory-level advantage across turns.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TurnWise",
+   "GRPO"
+  ],
+  "storyId": "c997aee47d8b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+  "title": "After the midterms, a bigger clash over data centers could be coming",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-05T01:02:14.000Z",
+  "snippet": "Data center opposition crossed party lines in Tuesday’s midterms.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677",
+  "id": "d93ef6b85a78",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Opposition to data centers crossed party lines in Tuesday's midterms, suggesting a bigger political clash over their buildout is coming.",
+  "whyItMatters": "Local resistance could constrain AI compute expansion.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [],
+  "imageCheckedAt": "2026-11-05T13:18:30.244Z",
+  "storyId": "7aec60f41c48"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+  "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-05T12:00:00.000Z",
+  "snippet": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+  "image": "https://techcrunch.com/wp-content/uploads/2018/02/tc-backlight-e1689786273147.png?w=1200",
+  "id": "d94f47b36633",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Agility Robotics listed on Nasdaq, becoming the first publicly traded pure-play humanoid robotics company.",
+  "whyItMatters": "Public markets now get a direct read on humanoid robot demand.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Agility Robotics",
+   "Nasdaq"
+  ],
+  "imageCheckedAt": "2026-11-05T13:18:30.241Z",
+  "storyId": "d94f47b36633"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+  "title": "Big Tech’s big AI buildout will not end until someone stops it",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-05T10:45:00.000Z",
+  "snippet": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised returns. A third thing is also starting to become clear - Big Tech will not be slowing down, at least not on its own. Amazon, Microsoft, Alphabet, and Meta told investors they're planning to spend at least $720 billion on CapEx this year alone. Most of that will go toward AI infrastructure. That's on top of at least $1 tril…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f7f044f18932",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Amazon, Microsoft, Alphabet and Meta told investors they plan at least $720B in capex this year, mostly for AI infrastructure. The buildout is yet to show promised returns, and the piece argues the spending won't slow on its own.",
+  "whyItMatters": "The scale of spending shapes compute supply, pricing and bubble risk.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "Microsoft",
+   "Alphabet",
+   "Meta"
+  ],
+  "storyId": "f7f044f18932"
+ },
+ {
+  "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+  "title": "Setting a new standard for responsible AI infrastructure",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-05T02:00:00.000Z",
+  "snippet": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+  "id": "f93567576105",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "OpenAI introduced a National Community Compact and Compute Campus Policy Blueprint. It aims to protect local resources, create jobs and guide responsible AI infrastructure development.",
+  "whyItMatters": "It responds to growing local opposition to data centers.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-05T13:18:30.230Z",
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+  "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-05T13:00:00.000Z",
+  "snippet": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+  "id": "fd04855a6f41",
+  "fetchedAt": "2026-11-05T13:18:11.094Z",
+  "enrichedAt": "2026-11-05T13:18:30.176Z",
+  "summary": "Discovered Materials, a months-old YC startup using AI to find chip materials, is offering $200,000 for each solution to five open materials science problems, $1M in total.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Discovered Materials",
+   "Y Combinator"
+  ],
+  "storyId": "fd04855a6f41"
  }
 ]
