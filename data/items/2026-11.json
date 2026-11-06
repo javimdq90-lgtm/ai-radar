@@ -2950,7 +2950,7 @@
    "Gina Hinojosa"
   ],
   "imageCheckedAt": "2026-11-04T22:40:53.760Z",
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://openai.com/index/openai-to-acquire-pierre",
@@ -3045,7 +3045,7 @@
   "entities": [
    "Big Tech"
   ],
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
@@ -3161,7 +3161,7 @@
    "NBC News",
    "Gina Hinojosa"
   ],
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://www.anthropic.com/research/provable-inference",
@@ -3771,7 +3771,7 @@
   "category": "policy",
   "importance": 2,
   "entities": [],
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
@@ -3829,7 +3829,7 @@
   "importance": 3,
   "entities": [],
   "imageCheckedAt": "2026-11-05T13:18:30.244Z",
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
@@ -3985,7 +3985,7 @@
    "Meta"
   ],
   "imageCheckedAt": "2026-11-05T22:42:39.057Z",
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
@@ -4088,7 +4088,7 @@
    "GPT-6 Cyber",
    "Hugging Face"
   ],
-  "storyId": "53c56afbaf05"
+  "storyId": "75679f5aa60b"
  },
  {
   "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
@@ -4159,7 +4159,7 @@
    "GPT-6 Cyber"
   ],
   "imageCheckedAt": "2026-11-05T22:42:39.006Z",
-  "storyId": "53c56afbaf05"
+  "storyId": "75679f5aa60b"
  },
  {
   "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
@@ -4299,7 +4299,7 @@
   "entities": [
    "Democrats"
   ],
-  "storyId": "7aec60f41c48"
+  "storyId": "f3900be82c6f"
  },
  {
   "url": "https://huggingface.co/papers/2611.04408",
@@ -4499,6 +4499,495 @@
   "entities": [
    "OpenAI"
   ],
-  "storyId": "53c56afbaf05"
+  "storyId": "75679f5aa60b"
+ },
+ {
+  "url": "https://github.com/AGGIB/Stroq",
+  "title": "Show HN: Stroq – a local audit of what your coding agent did and why",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-05T15:54:41.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50380704",
+  "id": "01c9a31508ad",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Stroq is a Show HN project that locally audits what a coding agent did and why.",
+  "whyItMatters": "Auditability of agent actions is a growing need for teams using coding agents.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Stroq"
+  ],
+  "storyId": "01c9a31508ad"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+  "title": "Airbnb is working on an AI travel agent",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T00:06:12.000Z",
+  "snippet": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But planning a trip on Airbnb is different.\" The company argued that its experience matching hosts and guests, its current role in being part of reservations already, and a \"new interface\" built \"specifically for travel\" gives it an edge. Here's how Airbnb says that new interface …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/acastro_STK090_06.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "0802c2aa0040",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Airbnb plans to launch an AI agent for trip planning and booking in the first half of 2027, with a new travel-specific interface, it said in its Q3 2026 shareholder letter.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Airbnb"
+  ],
+  "storyId": "1eac7fe42e87"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06741",
+  "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-03T19:00:00.000Z",
+  "snippet": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that improves multi-turn robustness while retaining the generative and editing capabilities acquired thro…",
+  "score": 34,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06741.png",
+  "id": "0bc660c42674",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "TailSteer is a final-stage training framework that reduces visual drift when image-editing models are applied repeatedly over multiple turns, without retraining on multi-turn data or altering pretrained priors.",
+  "whyItMatters": "Multi-turn drift is a practical problem for anyone building iterative image-editing products.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TailSteer"
+  ],
+  "storyId": "0bc660c42674"
+ },
+ {
+  "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+  "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-05T15:51:57.000Z",
+  "score": 98,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50380658",
+  "id": "0dad0a50448b",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "A write-up on architecture patterns for building a multi-agent system from scratch.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "0dad0a50448b"
+ },
+ {
+  "url": "https://openai.com/ads/customers/flipsnack",
+  "title": "Flipsnack grows product signups with conversion optimization",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-05T00:45:15.000Z",
+  "snippet": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+  "id": "1f9981de5700",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.07392",
+  "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-04T19:00:00.000Z",
+  "snippet": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared attention with independent understanding and generation parameters to limit optimization interference. Equipping each path with Mixture-of-Experts (MoE) modules provides sparse capa…",
+  "score": 35,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07392.png",
+  "id": "21a9eeb186cd",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "WeChat presents WeLM-Image, a unified image model for text-to-image generation, editing and multi-reference synthesis, using a Mixture-of-Transformers backbone with MoE and designed for single-GPU deployment.",
+  "whyItMatters": "It shows a large consumer platform shipping a unified image model built for cheap serving.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "WeChat",
+   "WeLM-Image"
+  ],
+  "storyId": "21a9eeb186cd"
+ },
+ {
+  "url": "https://openai.com/index/merge-builds-with-openai",
+  "title": "Merge builds product and business tools with OpenAI technology",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-05T08:00:00.000Z",
+  "snippet": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+  "id": "300d91101f21",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "OpenAI customer story: Merge uses GPT-6 Astra, ChatGPT and Codex for code review and marketing support.",
+  "whyItMatters": "It incidentally references a GPT-6 Astra model name.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Merge",
+   "OpenAI",
+   "GPT-6 Astra",
+   "Codex"
+  ],
+  "storyId": "300d91101f21"
+ },
+ {
+  "url": "https://github.com/anthropics/claude-code/issues/107757",
+  "title": "Claude Code sends your email address to websites",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-05T22:17:15.000Z",
+  "score": 1266,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50385272",
+  "id": "3b58ffb304e7",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "A report claims Claude Code sends the user's email address to websites it accesses.",
+  "whyItMatters": "A possible privacy leak in a widely used coding agent matters for anyone running it on sensitive work.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Claude Code",
+   "Anthropic"
+  ],
+  "image": "https://opengraph.githubassets.com/156860c1eae7dbfec6d768f522f379e6b29a57c4d9ffa167b36f8e7f08f634c2/anthropics/claude-code/issues/107757",
+  "imageCheckedAt": "2026-11-06T13:01:45.705Z",
+  "storyId": "3b58ffb304e7"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.06425",
+  "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-03T19:00:00.000Z",
+  "snippet": "Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter that removes this inter-round dependency. D3D combines blockwise denoising with auxiliary autoregressive supervision to achieve long accepted prefixes without target hidden states. This independence lets D3D draft successor blocks during verification in one packed pass, enabling …",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06425.png",
+  "id": "400e195ac374",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "D3D is a standalone diffusion drafter for speculative decoding that needs no target-model hidden states, so drafting of the next blocks can overlap with verification.",
+  "whyItMatters": "Asynchronous drafting could raise LLM inference speedups beyond what sequential speculative decoding achieves.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "D3D"
+  ],
+  "storyId": "400e195ac374"
+ },
+ {
+  "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+  "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-06T10:35:21.000Z",
+  "snippet": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/0b4283eb-1bca-4f20-a474-648eae34f704/Smol_Screenshot_2026-11-06_02.26.38-7ec1786ced3a658a.png?t=1793961438",
+  "id": "47595e2862bb",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Inkling 2 Small (17B active, 594B total) was reportedly trained in 68 hours on 12T tokens and beats Muse Spark; the issue also covers METR's study of AI research at Anthropic.",
+  "whyItMatters": "A very fast training run and METR's study of AI R&D are signals on frontier training speed and automation.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Inkling 2 Small",
+   "Muse Spark",
+   "METR",
+   "Anthropic"
+  ],
+  "storyId": "47595e2862bb"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.08449",
+  "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-04T19:00:00.000Z",
+  "snippet": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that…",
+  "score": 63,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08449.png",
+  "id": "608e1d97ab46",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "VFlash speeds up visual planning (points, boxes, trajectories) for robotics and driving VLMs by predicting primitive coordinates jointly with a lightweight drafter instead of token by token.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "VFlash"
+  ],
+  "storyId": "608e1d97ab46"
+ },
+ {
+  "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+  "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-05T23:09:57.000Z",
+  "score": 394,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50385870",
+  "id": "6f78e24cdb5b",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads, citing documents that reportedly show $16B in fraud-related revenue.",
+  "whyItMatters": "It raises pressure on platforms over AI-enabled fraud.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Mark Cuban",
+   "Meta",
+   "Facebook"
+  ],
+  "imageCheckedAt": "2026-11-06T13:01:44.495Z",
+  "storyId": "6f78e24cdb5b"
+ },
+ {
+  "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+  "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-06T00:00:00.000Z",
+  "id": "82196d4ece0a",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Egyptian and Nigerian English have been added to the Hugging Face Open ASR Leaderboard.",
+  "whyItMatters": "Broader accent coverage helps assess speech models beyond standard English.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "82196d4ece0a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+  "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T06:28:32.000Z",
+  "snippet": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
+  "id": "904574e3ce24",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Palo Alto Networks is in talks to buy AI agent security startup Clutch for about $500M; Clutch was last valued at $85M.",
+  "whyItMatters": "It shows security vendors paying up for agent-security capabilities.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Palo Alto Networks",
+   "Clutch"
+  ],
+  "imageCheckedAt": "2026-11-06T13:01:44.323Z",
+  "storyId": "904574e3ce24"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+  "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-06T10:00:00.000Z",
+  "snippet": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+  "id": "996a31376cbe",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "An MIT Technology Review reporter tried a San Francisco humanoid-robot cleaning service that cleaned her apartment.",
+  "category": "products",
+  "importance": 2,
+  "entities": [],
+  "storyId": "996a31376cbe"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+  "title": "OpenAI is stepping back from NDAs for data center projects",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T00:37:56.000Z",
+  "snippet": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions between developers and local officials. However, OpenAI says it is now allowing \"only narrow protections covering legitimate security information, trade secrets, or proprietary or competitively sensitive information.\" …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "b53db0f7184a",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "After midterms where voters opposed data center expansion, OpenAI said it will not use NDAs with public officials on data center projects, keeping only narrow protections for security and trade secrets.",
+  "whyItMatters": "Local opposition to data centers is becoming a real constraint on AI infrastructure buildout.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+  "title": "Australian universities are creating AI-native graduates",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-05T17:00:00.000Z",
+  "snippet": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+  "id": "b58fee4edbbb",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Australian universities are expanding student access to ChatGPT and integrating AI into teaching to prepare graduates for an AI-enabled workforce.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "storyId": "b58fee4edbbb"
+ },
+ {
+  "url": "https://github.com/dsx-ai-factory/nvke",
+  "title": "Nvidia Kubernetes Engine (NVKE)",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T03:16:26.000Z",
+  "score": 97,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50387738",
+  "id": "b95f6aa29001",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "A GitHub project called Nvidia Kubernetes Engine (NVKE) was posted.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Nvidia"
+  ],
+  "storyId": "b95f6aa29001"
+ },
+ {
+  "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
+  "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T00:31:11.000Z",
+  "score": 87,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50386597",
+  "id": "bb31b33e2b1a",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Major investors are reportedly skeptical that Anthropic can reach a $1.5T valuation in an IPO.",
+  "whyItMatters": "It signals limits on investor appetite for frontier-lab valuations.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-06T13:01:44.386Z",
+  "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://openai.com/index/franklin-templeton",
+  "title": "Franklin Templeton uses OpenAI to support investment research",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-05T00:00:00.000Z",
+  "snippet": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+  "id": "c0d7b0808284",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Franklin Templeton is building OpenAI-based workflows, starting with equity research, to help portfolio managers compare research views and examine investment risks.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Franklin Templeton",
+   "OpenAI"
+  ],
+  "storyId": "c0d7b0808284"
+ },
+ {
+  "url": "https://openai.com/index/cultfit-builds-with-codex",
+  "title": "Cult.fit builds operational muscle with Codex",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-05T20:00:00.000Z",
+  "snippet": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+  "id": "c88b52d0b210",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Cult.fit is using OpenAI's Codex across teams to build internal tools and speed up work.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Cult.fit",
+   "Codex",
+   "OpenAI"
+  ],
+  "storyId": "c88b52d0b210"
+ },
+ {
+  "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+  "title": "I struggle to believe that AI R&D is ingenious",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T05:19:04.000Z",
+  "score": 143,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50388513",
+  "id": "cc84fd5cfc3e",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "A LessWrong post argues it is hard to believe that AI R&D requires ingenuity.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "cc84fd5cfc3e"
+ },
+ {
+  "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+  "title": "Protesters break into Microsoft data center site in Amsterdam",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T11:55:19.000Z",
+  "snippet": "Members of the action group Geef Tegengas put a banner on a crane during a protest. | Image: Getty Images Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some scaling a crane to place a \"fuck AI\" banner. Protesters also unfurled a \"Microsoft powers genocide\" banner on the construction site, and chanted \"…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "e741512fa1b9",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:44.220Z",
+  "summary": "Around 100 protesters from the group Geef Tegengas broke into Microsoft's construction site for three 85-meter data center towers on the outskirts of Amsterdam, per Reuters. Some climbed a crane to hang a \"fuck AI\" banner, and others unfurled a \"Microsoft powers genocide\" banner.",
+  "whyItMatters": "It shows growing local opposition to AI infrastructure buildouts, which could add friction and delays to data center expansion in Europe.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Microsoft",
+   "Geef Tegengas"
+  ],
+  "storyId": "e741512fa1b9"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.08373",
+  "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-04T19:00:00.000Z",
+  "snippet": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it duri…",
+  "score": 24,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.08373.png",
+  "id": "e7b124c3848d",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "SLA is a Spatial-Language-Action model that applies continual pre-training to build 3D spatial alignment into vision-language-action models for robotic manipulation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SLA"
+  ],
+  "storyId": "e7b124c3848d"
+ },
+ {
+  "url": "https://github.com/rivet-dev/rivet",
+  "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-05T17:17:42.000Z",
+  "score": 105,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50381687",
+  "id": "f0e2e8b6917e",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Rivet (YC W23) launched a platform to scale and orchestrate AI agents using S3 storage.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Rivet"
+  ],
+  "storyId": "f0e2e8b6917e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.07854",
+  "title": "Towards Foundation Decision Models: Drex",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-04T19:00:00.000Z",
+  "snippet": "Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, however, they give inconsistent answers, require parsing of outputs, and add cost and latency. Decision models address this: given a question and a set of options supplied by the user, they return a probability distribution over the options without autoregressive decoding. We present Drex, a family of four open decision models with 8B (DLM), 9B (v1.5), 35B with 3B active (v2.0)…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.07854.png",
+  "id": "febb014e6488",
+  "fetchedAt": "2026-11-06T13:01:07.207Z",
+  "enrichedAt": "2026-11-06T13:01:41.038Z",
+  "summary": "Drex is a family of four open decision models (8B to 35B with 3B active) that output a probability distribution over user-supplied options without autoregressive decoding.",
+  "whyItMatters": "Classification-style decisions with consistent outputs and lower cost and latency than chain-of-thought suit production use.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "Drex"
+  ],
+  "storyId": "febb014e6488"
  }
 ]
