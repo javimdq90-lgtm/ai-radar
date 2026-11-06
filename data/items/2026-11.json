@@ -3965,7 +3965,7 @@
    "Stacks Project"
   ],
   "imageCheckedAt": "2026-11-05T22:42:39.060Z",
-  "storyId": "2846e03446f4"
+  "storyId": "763a8148826c"
  },
  {
   "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
@@ -4989,5 +4989,488 @@
    "Drex"
   ],
   "storyId": "febb014e6488"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+  "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T18:44:20.000Z",
+  "snippet": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+  "id": "016e849ea3ab",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Meta introduced Spaces for its Muse agents as a new way to collaborate with them.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Meta",
+   "Muse"
+  ],
+  "storyId": "4051eda06776"
+ },
+ {
+  "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+  "title": "AI for scientific discovery: How researchers use Claude",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T09:13:30.000Z",
+  "score": 83,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50389990",
+  "id": "13f4910530cc",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Anthropic published a piece on how researchers use Claude for scientific discovery.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "storyId": "13f4910530cc"
+ },
+ {
+  "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+  "title": "Could potential AI clones of GTA VI force a quicker official port?",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-06T16:19:12.000Z",
+  "snippet": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gta6-1152x648.jpg",
+  "id": "1b9119e805ea",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "A former Rockstar tech director suggests potential AI clones of GTA VI could pressure Rockstar into an earlier official PC port.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Rockstar",
+   "GTA VI"
+  ],
+  "storyId": "1b9119e805ea"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+  "title": "Physicl raises $10M to make the digital world real enough for robots",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T13:00:00.000Z",
+  "snippet": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+  "id": "1f3694f5e3c9",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Physicl raised $10M to close the sim-to-real gap for robots, using a pipeline originally built for marketing goods online.",
+  "whyItMatters": "Better simulated environments could cut the cost of training robot models.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Physicl"
+  ],
+  "storyId": "1f3694f5e3c9"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+  "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T18:44:38.000Z",
+  "snippet": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/02/GettyImages-1424498694.jpg?resize=1200,800",
+  "id": "29c568495a81",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Researchers found hundreds of servers running the Artex AI penetration-testing tool exposed to the internet, giving anyone access.",
+  "whyItMatters": "Exposed AI offensive tooling shows the security risks of poorly deployed agent tools.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Artex"
+  ],
+  "imageCheckedAt": "2026-11-06T22:10:48.682Z",
+  "storyId": "29c568495a81"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+  "title": "AI is the new dating dealbreaker",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T17:00:00.000Z",
+  "snippet": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where you can say, 'We'll get along if'',\" she recalls. \"Sometimes people will be like, 'Fuck AI.'\" Usually, the people who include this kind of value statement on their profile work in the arts, nursing, maybe graphic design. Within the span of a few minutes of sitting down and swiping, Irene shows…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268841_When_it_comes_to_dating_is_AI_the_new_politics__CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "30a37c41333d",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Anti-AI statements are becoming a dating-profile dealbreaker, with people on apps like Hinge writing 'Fuck AI' in their prompts and screening on AI views.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "Hinge"
+  ],
+  "storyId": "30a37c41333d"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+  "title": "Big Tech lost big in the 2026 election",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T16:38:02.000Z",
+  "snippet": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nilay and David discuss what the 2026 midterms mean for the tech industry going forward. They dig into the self-quarantining echo chamber that is X, the congressional energy likely to be pointed at tech CEOs and AI regulation, and whether anything is actually likely to get done in the next two years. A…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_110626_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "39858efa73f2",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "The Vergecast discusses how the 2026 midterms, where voters backed Democrats and opposed AI and data centers, may bring more scrutiny of tech CEOs and AI regulation.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [],
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+  "title": "AI is dramatically accelerating AI research",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T20:27:23.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
+  "id": "3b972ecaa602",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:48.544Z",
+  "summary": "A piece on Planned Obsolescence argues that AI is dramatically accelerating AI research itself. Only the title was available, so no specific evidence or figures can be confirmed.",
+  "whyItMatters": "If AI-assisted research speeds up progress, model capabilities and tooling could advance faster than current planning assumes.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Planned Obsolescence"
+  ],
+  "storyId": "3b972ecaa602"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+  "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T14:10:00.000Z",
+  "snippet": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+  "id": "4a6109d50595",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Amazon will roll out text-to-shop for Alexa to millions of users in the coming weeks, after having blocked Meta's Muse.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Amazon",
+   "Alexa",
+   "Meta Muse"
+  ],
+  "storyId": "5228d134120b"
+ },
+ {
+  "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+  "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T14:13:09.000Z",
+  "score": 121,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50392499",
+  "id": "5046827bcbdd",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "University libraries are being swamped by AI scraping bots, threatening public access to their collections.",
+  "whyItMatters": "Aggressive crawlers are pushing open resources toward restrictions, affecting both builders and the public.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [],
+  "image": "https://i.cbc.ca/ais/47809d1c-efd6-4753-9529-d57b9893d8fb,1793831483888/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C64%2C3000%2C1687%29%3BResize%3D620",
+  "imageCheckedAt": "2026-11-06T22:10:48.707Z",
+  "storyId": "5046827bcbdd"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+  "title": "Amazon will let you text Alexa your shopping list",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T14:00:00.000Z",
+  "snippet": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listings, text back with recommendations, and order the item on the users' behalf. This launch builds on the existing Alexa for Shopping experience that launched in May, allowing users to place orders during moments where texting is more convenient than using Amazon's app or website. The contact will appe…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Amazon-Alexa-for-Shopping-text-order.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5228d134120b",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Amazon is adding text messaging to Alexa for Shopping: users describe or photograph a product and the assistant texts back recommendations and can place the order.",
+  "whyItMatters": "It shows agentic shopping moving into messaging channels.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "Alexa for Shopping"
+  ],
+  "storyId": "5228d134120b"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+  "title": "How Akai and Moog are embracing vibe-coded mods",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T16:34:39.000Z",
+  "snippet": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sample so that people can do what they want.\" That \"toolbox\" includes making the code for devices like the recently teased MPC Sample Key open source, but also offering developers an SDK to make modifications easier and lessen the risk of bricking your beloved sampler. While Akai is eager to see what …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/assets_47c5d023e7b3451a86ac03602c65dce8_43f25647cf8a4cbb8786829bc29ee2fb.webp?quality=90&strip=all&crop=0,0,100,100",
+  "id": "56d3daaa6f15",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "inMusic, parent of Akai and Moog, will open-source code for devices like the MPC Sample Key and offer an SDK so the community can build vibe-coded mods.",
+  "whyItMatters": "It shows hardware makers embracing AI-assisted modding.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "inMusic",
+   "Akai",
+   "Moog"
+  ],
+  "storyId": "56d3daaa6f15"
+ },
+ {
+  "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+  "title": "Anthropic IPO valuation talks drop to $1.3T",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T17:21:15.000Z",
+  "score": 93,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50395318",
+  "id": "60a18250dfd4",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Anthropic IPO valuation talks reportedly dropped to $1.3T.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-06T22:10:48.741Z",
+  "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+  "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T18:10:10.000Z",
+  "snippet": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by describing it. If you connect an outside app to Muse - like Gmail, Google Calendar, OpenTable, Notion, and others Muse works with - the AI assistant will continuously pull information from them, allowing it to update pricing, dates, and other information in your space in the…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/meta-muse-spaces.png?quality=90&strip=all&crop=8.0752843063528,0,91.924715693647,74.471659887186",
+  "id": "64170924ee1a",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Meta added 'spaces' to its Muse assistant, letting users describe app-like dashboards that pull live data from connected apps such as Gmail, Calendar, OpenTable and Notion.",
+  "whyItMatters": "It's another step toward assistants generating personalized mini-apps.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Muse"
+  ],
+  "storyId": "4051eda06776"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+  "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T15:54:47.000Z",
+  "snippet": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
+  "id": "7c70b636a2cf",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Ramp data shows AI spending has stalled even as usage climbs, with price cuts and cost controls among big spenders, just as Anthropic nears an IPO.",
+  "whyItMatters": "It challenges hypergrowth assumptions behind AI valuations and suggests falling per-token costs.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Ramp",
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-06T22:10:48.683Z",
+  "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://github.com/anomalyco/rune",
+  "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T16:31:32.000Z",
+  "score": 122,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50394569",
+  "id": "8e64409f3617",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+  "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-06T17:43:02.000Z",
+  "snippet": "Meta won't force Facebook page owners to allow AI training on linked content.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1363244761-1152x648.jpg",
+  "id": "9d00431e265d",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Meta abandoned a commercial terms update that would have forced Facebook page owners to allow AI training on linked content.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Meta",
+   "Facebook"
+  ],
+  "storyId": "9d00431e265d"
+ },
+ {
+  "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+  "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T16:54:36.000Z",
+  "score": 152,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50394906",
+  "id": "a16bf7a4548e",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Bloomberg reports Anthropic IPO buyers see valuations as low as $1.1T.",
+  "whyItMatters": "An IPO at this scale would be a landmark for AI capital markets.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRvCluP4r1jA/v1/1200x800.jpg",
+  "imageCheckedAt": "2026-11-06T22:10:48.793Z",
+  "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+  "title": "Underdog shows off a 32MB speech model in new demo",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T13:02:16.000Z",
+  "snippet": "Despite its small size, Underdog's new model can generate both speech and music.",
+  "id": "a394d9aad7a2",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Underdog demoed a 32MB model that can generate both speech and music.",
+  "whyItMatters": "A tiny footprint points to on-device audio generation becoming feasible.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Underdog"
+  ],
+  "storyId": "a394d9aad7a2"
+ },
+ {
+  "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+  "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-06T15:10:53.000Z",
+  "snippet": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+  "image": "https://i.ytimg.com/vi/3nAV2s4GYbs/maxresdefault.jpg",
+  "id": "b18e8924e9aa",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Latent Space interviews Fabian Theis of Helmholtz Munich on moving systems biology from mapping to predicting and controlling biology.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Fabian Theis",
+   "Helmholtz Munich",
+   "Latent Space"
+  ],
+  "storyId": "b18e8924e9aa"
+ },
+ {
+  "url": "https://openai.com/index/partnering-with-hacktron",
+  "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-06T08:00:00.000Z",
+  "snippet": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+  "id": "bc8f9eac1966",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "OpenAI is partnering with security firm Hacktron to find vulnerabilities in its systems, test connections with third-party services, and harden defenses using frontier AI.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Hacktron"
+  ],
+  "storyId": "bc8f9eac1966"
+ },
+ {
+  "url": "https://huggingface.co/blog/allenai/toyblocks",
+  "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-06T14:00:48.000Z",
+  "id": "be1ba71e55b7",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Hugging Face published ToyBlocks, a controlled world for robot learning and evaluation.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "ToyBlocks"
+  ],
+  "storyId": "be1ba71e55b7"
+ },
+ {
+  "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+  "title": "Measuring how AI agents handle everyday wet-lab science",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-06T00:00:00.000Z",
+  "snippet": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+  "id": "cfd4354afa14",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.044Z",
+  "summary": "OpenAI introduced BioBasicsBench, a 100-task benchmark that tests how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+  "whyItMatters": "It offers a concrete yardstick for agents in bio lab workflows, beyond generic reasoning benchmarks.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "BioBasicsBench"
+  ],
+  "imageCheckedAt": "2026-11-06T22:10:48.585Z",
+  "storyId": "cfd4354afa14"
+ },
+ {
+  "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+  "title": "After the midterms, is the AI industry in for a rough two years?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T17:23:52.000Z",
+  "snippet": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2236543888.jpg?resize=1200,800",
+  "id": "ef57b5d47585",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "After Democrats' midterm wins, voters backed more data center restrictions in all but one of 41 ballot measures, and the AI industry may face a tougher two years.",
+  "whyItMatters": "Local opposition and new congressional scrutiny could constrain compute buildout and shape regulation.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [],
+  "imageCheckedAt": "2026-11-06T22:10:48.675Z",
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+  "title": "All the latest updates on AI data centers",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T20:02:22.000Z",
+  "snippet": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead of the 2026 midterms, and voters largely opposed data center expansion at the polls. Tech giants like OpenAI and Amazon are promising to work more closely with local communities and cover their data center energy costs. But following the election, Democra…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f5eee778bf79",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "The Verge's running tracker covers AI data center fights over power grids, bills and communities; voters largely opposed expansion in the midterms, and OpenAI and Amazon promise to cover energy costs.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Amazon"
+  ],
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+  "title": "How a Blue Wave midterm might reshape the AI industry",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T18:00:00.000Z",
+  "snippet": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+  "id": "fc8f30aee8f3",
+  "fetchedAt": "2026-11-06T22:10:25.818Z",
+  "enrichedAt": "2026-11-06T22:10:46.045Z",
+  "summary": "Democrats' midterm victories could reshape AI policy; 41 data center ballot measures saw voters back more restrictions in all but one.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [],
+  "storyId": "0dbf0226aa90"
  }
 ]

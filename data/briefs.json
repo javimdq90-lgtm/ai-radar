@@ -87,39 +87,42 @@
    "346706f894ca",
    "dc28833f4985",
    "f93567576105",
-   "b53db0f7184a"
+   "b53db0f7184a",
+   "39858efa73f2",
+   "ef57b5d47585",
+   "fc8f30aee8f3",
+   "f5eee778bf79"
   ],
-  "writtenAt": "2026-11-06T13:02:53.888Z",
-  "headline": "OpenAI launches Grid Protectors Program and drops NDAs with officials on data centers",
-  "dek": "OpenAI will pilot a program in Effingham County, Georgia to free up to 1,000 MW in emergencies, then pledged no NDAs with public officials, as it rebrands data centers as \"compute campuses.\"",
+  "writtenAt": "2026-11-06T22:11:18.229Z",
+  "headline": "OpenAI launches Grid Protectors Program, piloting 1,000 MW grid relief in Georgia",
+  "dek": "OpenAI will pilot the program at a planned Effingham County, Georgia site, promising up to 1,000 MW of freed-up power in emergencies, while rebranding its data centers as \"compute campuses.\"",
   "keyPoints": [
-   "OpenAI's Grid Protectors Program starts at an upcoming Effingham County, Georgia site, promising to free up to 1,000 MW during extreme weather or emergencies, enough for air conditioners in about 700,000 homes.",
-   "On Nov 5 OpenAI said it won't use NDAs with public officials on data center projects, allowing only narrow protections for security information, trade secrets and competitively sensitive information.",
-   "OpenAI also pledged to pay the full cost of electricity and the infrastructure needed to serve it, and to publish expected job numbers and report on hiring.",
-   "Every future OpenAI-owned compute campus will have a local compact reflecting local priorities, the company says.",
-   "PauseAI US and the NAACP criticized the \"compute campus\" rebrand as public relations; OpenAI did not respond to The Verge's request for comment."
+   "OpenAI's Grid Protectors Program starts at an upcoming Effingham County, Georgia site, with a promise to free up to 1,000 MW during extreme weather or emergencies, enough for about 700,000 homes' air conditioners.",
+   "OpenAI's roughly 900-word announcement used \"data center\" twice, outnumbered by \"compute campus\"; The Verge found no earlier use of the term on OpenAI's site.",
+   "On Nov. 5, OpenAI said it will not use NDAs with public officials on data center projects, keeping only narrow protections for security and trade secrets.",
+   "OpenAI also pledged to pay the full cost of its electricity and the infrastructure needed to serve it, and to publish expected jobs and report on hiring.",
+   "Critics including PauseAI US and the NAACP call the rebrand an empty fix; OpenAI did not respond to The Verge's request for comment."
   ],
-  "context": "Data centers have drawn bipartisan opposition over power use, local resource strain and secrecy, and several states have passed laws to stop AI companies from passing energy costs to residents. Anthropic earlier pledged to cover grid-connection upgrades and avoid NDAs, and Amazon said in October it would stop using NDAs with government agencies on data center projects. OpenAI's moves come right after midterms in which, The Verge reports, voters voiced opposition to data center expansion.",
-  "whatsNext": "Watch whether OpenAI signs the utility agreements the pilot depends on and publishes the local compacts and job figures it has promised for future campuses.",
+  "context": "Data centers have drawn bipartisan opposition over power use, electricity bills and environmental effects, and several states have passed laws to stop AI companies passing energy costs to residents. Anthropic made similar pledges earlier this year, including covering grid-connection upgrades and refusing NDAs with officials. Amazon said in October it would stop using NDAs with government agencies on data center projects.",
+  "whatsNext": "Watch how utilities and policymakers respond to the Georgia pilot, and whether OpenAI publishes the local compacts it promised for each future campus it owns and operates.",
   "article": {
    "whatHappened": [
-    "OpenAI on Monday launched the Grid Protectors Program, which it says will work with utilities so its future compute campuses support grid reliability and protect consumer electricity costs. The pilot will run at an upcoming data center in Effingham County, Georgia, where OpenAI promises to free up to 1,000 megawatts during extreme weather or emergencies, which it says is enough to power air conditioners in around 700,000 homes.",
-    "OpenAI argues its sites can help customers because they need power year-round. With the right agreements, it says, steady demand can spread the grid's fixed costs across more electricity sales, while flexibility lets it reduce demand when the system is busiest. It says it will keep working with policymakers and utilities on arrangements to cut demand when the grid is under strain.",
-    "The announcement used the term \"compute campus\" far more often than \"data center.\" The Verge counted two uses of \"data center\" in a roughly 900-word post. A search of OpenAI's website found no earlier use of the term, and Axios reported that OpenAI planned the rebrand as part of a post-midterm policy and PR push.",
-    "On Nov 5, OpenAI announced further community commitments, including that it won't use non-disclosure agreements with public officials. It will allow only narrow protections for legitimate security information, trade secrets, or proprietary or competitively sensitive information. It also said it will pay the full cost of the electricity and infrastructure needed to serve it, publish the jobs it expects to create, report on hiring, and attach a local compact to each future campus it owns and operates."
+    "OpenAI on Monday launched the Grid Protectors Program, an effort to work with utilities so its future AI infrastructure supports grid reliability and protects consumer electricity costs. The first pilot will be at an upcoming site in Effingham County, Georgia, where OpenAI says it will free up to 1,000 megawatts of power during extreme weather or emergencies, which it equates to air conditioning for around 700,000 homes.",
+    "The announcement also introduced new vocabulary. In a roughly 900-word post, OpenAI used the term \"data center\" only twice, while repeatedly referring to \"compute campuses.\" The Verge found no earlier use of the term on OpenAI's website. Axios reported that OpenAI planned to rebrand data centers as \"AI compute campuses\" as part of a policy and PR push after the midterms.",
+    "On Nov. 5, following the midterms, OpenAI announced further community commitments. It said it will not use non-disclosure agreements with public officials, allowing \"only narrow protections covering legitimate security information, trade secrets, or proprietary or competitively sensitive information.\" It will pay the full cost of the electricity it uses and the infrastructure needed to serve it, publish the jobs it expects to create, and report on hiring. Each future campus it owns and operates will have a local compact reflecting local priorities."
    ],
    "whyItMatters": [
-    "Opposition to data centers has spread across the US, often over projects that advanced with little input from residents. In Utah, residents protested a Box Elder County approval for a facility expected to use more than double the state's 2025 peak electricity demand. Tennessee, Florida, Oklahoma and Oregon, among others, have enacted laws meant to keep AI companies from passing energy costs to residents. A Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains within five years.",
-    "OpenAI's package follows rivals. Anthropic earlier this year pledged to cover 100 percent of grid-connection upgrades, invest in community projects, protect local water supplies and avoid NDAs with officials, and Amazon dropped NDAs with government agencies in October. Holly Elmore of PauseAI US suggested OpenAI is trying to keep up with Anthropic but is not spinning it as well.",
-    "Critics say the renaming does not address the underlying complaints. The NAACP's Abre' Conner said changing the name does not fix the harm and treats health and environmental concerns as public relations problems. The commitments are largely pledges, and how binding they are depends on agreements with utilities and local governments that were not detailed."
+    "Opposition to data centers is spreading across the US. In Utah, residents protested a Box Elder County project expected to consume more than double the state's peak electricity demand in 2025. Tennessee, Florida, Oklahoma and Oregon have passed laws meant to keep AI companies from shifting energy costs onto residents, and a Houston Advanced Research Center study said powering proposed Texas projects could undo decades of air quality gains within five years.",
+    "OpenAI's argument is that steady year-round demand spreads the grid's fixed costs over more electricity sales, while flexibility lets it cut demand when the system is busiest. Critics are unconvinced. Holly Elmore of PauseAI US said communities will not be fooled, and Abre' Conner of the NAACP said a name change does not fix real harm. Elmore also suggested OpenAI is trying to keep pace with Anthropic, which has pledged to cover grid upgrade costs and invest in community projects.",
+    "The NDA move follows scrutiny of secrecy in data center deals and Amazon's similar step in October. Whether the commitments hold up will depend on detail the announcements leave vague, such as how much flexibility the campuses actually provide."
    ],
    "whatToWatch": [
-    "The Georgia pilot is the first test of whether OpenAI's promised 1,000 MW of flexibility is backed by formal utility agreements. The coverage does not say when the site will open or what the contracts will contain.",
-    "Also open is how the local compacts will be written and enforced, and whether other developers adopt similar no-NDA and cost-coverage commitments as the political pressure continues."
+    "The Georgia pilot is the first test of whether OpenAI can deliver the promised 1,000 MW of relief in a real emergency. OpenAI says it will keep working with policymakers and utilities on arrangements to reduce demand when the grid is under strain.",
+    "OpenAI also uses the new naming for Stargate sites built with Oracle and SoftBank in Texas and New Mexico. Watch whether local compacts are published for those sites and how local officials and residents react."
    ],
    "pullQuote": {
-    "text": "Rebranding them ‘compute campuses’ may fool listeners once or twice but it’s not the name ‘data center’ that is unpopular",
-    "by": "Holly Elmore, PauseAI US"
+    "text": "Our compute campuses need power year-round.",
+    "by": "OpenAI"
    }
   }
  },
@@ -2275,38 +2278,41 @@
    "3a6efdada65a",
    "5a3345f135c4",
    "a4abd1e2a1c1",
-   "bb31b33e2b1a"
+   "bb31b33e2b1a",
+   "7c70b636a2cf",
+   "a16bf7a4548e",
+   "60a18250dfd4"
   ],
-  "writtenAt": "2026-11-06T13:02:40.522Z",
-  "headline": "Anthropic's amended S-1 shows $17B Q3 revenue, $895B in compute commitments",
-  "dek": "Anthropic's updated IPO filing reports $17 billion in third-quarter revenue, a 47% quarterly increase, but compute costs rose to 58% of revenue and committed spending reached about $895.4 billion.",
+  "writtenAt": "2026-11-06T22:11:06.590Z",
+  "headline": "Anthropic's amended S-1 shows $17B Q3 revenue, slower growth and $895B in commitments",
+  "dek": "Anthropic's updated IPO filing reports about $17B in third-quarter revenue, growth that slowed to 47% quarter on quarter, and roughly $895.4B in compute and infrastructure commitments, as buyers reportedly weigh lower valuations.",
   "keyPoints": [
-   "Anthropic reported $33.24 billion in revenue for the nine months to Sept. 30, up roughly 1,200% year on year, with a $104 billion net loss, mostly from convertible note and derivative fair-value changes.",
-   "Q3 revenue was about $17 billion, up from $11.5 billion in Q2. Quarterly growth slowed to around 47%, from 144% in Q2 and 132% in Q1.",
-   "Compute took 58% of revenue in Q3, up from 48% in Q2, per TechCrunch. Revenue per compute dollar fell to 1.72x after peaking just above 2x.",
-   "Aggregate committed spend on purchase and lease agreements is about $895.4 billion, 'substantially all of which is related to compute and infrastructure,' the filing says.",
-   "The Q3 compute bill was about $10 billion, including $5.0 billion of short-term commitments that the filing says cost significantly more than multi-year compute."
+   "Anthropic's amended S-1 reports $33.24B revenue for the nine months to Sept. 30, up roughly 1,200% year on year, with a $104B net loss largely driven by fair-value changes.",
+   "Q3 revenue was about $17B, but quarter-on-quarter growth fell to around 47%, from 144% in Q2 and 132% in Q1. Q3 net loss was $23.29B.",
+   "The filing cites about $895.4B in purchase and lease commitments, substantially all for compute and infrastructure. Compute expenses rose $14.4B over nine months, up 329%.",
+   "Bloomberg reports prospective IPO buyers are discussing a $1.2T to $1.3T valuation, some as low as $1.1T, down from an estimated $2T in early October.",
+   "Ramp data shows AI token spend grew just 1.5% across August and September, versus 42% in July, as price cuts and cost controls bite."
   ],
-  "context": "Anthropic published its first S-1 last week, with financials only through June 30. The amended filing adds the third quarter as the company prepares its roadshow. OpenAI, its chief rival, filed confidentially in June and is reportedly aiming for a 2027 debut, and investors are already nervous about AI infrastructure debt.",
-  "whatsNext": "Anthropic is preparing to begin its IPO roadshow, where investors will test the compute-cost and valuation questions raised by the amended filing.",
+  "context": "Anthropic published its first prospectus last week, covering financials only through the first half of the year. It is the first of the two leading AI labs to move toward a public listing; rival OpenAI filed confidentially in June and is reportedly aiming for 2027. The update lands as investors worry about debt costs for data center builders and the pace of AI spending.",
+  "whatsNext": "Anthropic is expected to begin formal IPO marketing, the roadshow, next week, when the valuation range will be tested with investors.",
   "article": {
    "whatHappened": [
-    "Anthropic filed an amended Form S-1 with the Securities and Exchange Commission on Monday, adding third-quarter results to the prospectus it made public last week. The first filing covered financials only through the first half of the year. The update gives investors a fuller view ahead of what could be a historic initial public offering.",
-    "The company reported $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from a year earlier. Net loss for the period was $104 billion, though CNBC reports most of that came from changes in the fair value of convertible notes and derivative liabilities. Third-quarter revenue was about $17 billion, with a net loss of $23.29 billion.",
-    "Growth is slowing in percentage terms. Third-quarter revenue rose around 47% from the prior quarter, compared with 144% in Q2 and 132% in Q1. The filing also says Anthropic has purchase commitments and lease agreements totaling about $895.4 billion, nearly all tied to compute and infrastructure."
+    "Anthropic filed an amended Form S-1 with the Securities and Exchange Commission on Monday, adding third-quarter results to the prospectus it unveiled last week. The company reported $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from the same period a year earlier, and a $104 billion net loss, most of which it attributes to changes in the fair value of convertible notes and derivative liabilities.",
+    "Third-quarter revenue was roughly $17 billion, up about 1,127% year on year. Sequential growth slowed sharply, however: revenue rose around 47% from the second quarter, compared with 144% growth in Q2 and 132% in Q1. Anthropic reported a third-quarter net loss of $23.29 billion.",
+    "The filing also says Anthropic has purchase commitments and lease agreements with an aggregate committed spend of about $895.4 billion, \"substantially all of which is related to compute and infrastructure.\" Compute and infrastructure expenses rose $14.4 billion over the nine months, up 329% from a year earlier. The prospectus includes more than 90 pages of risk factors."
    ],
    "whyItMatters": [
-    "TechCrunch's reading of the filing is that compute margins are worsening at a moment when improvement would help the IPO case. Compute took 58% of revenue in the third quarter, up from 48%. The quarterly compute bill reached about $10 billion, of which $5.0 billion was short-term compute that the filing says costs significantly more than multi-year contracts.",
-    "That points to the supply squeeze behind the numbers. Anthropic has been paying SpaceX $1.25 billion a month and has signed multibillion-dollar deals with neoclouds including Nscale, Akamai and Volta, according to TechCrunch. The filing says compute will stay the largest operating expense for the foreseeable future, and TechCrunch notes the company's own Anthropic Direct effort is unlikely to keep pace with demand.",
-    "The backdrop is skittish. CNBC reports Wall Street worries that rising interest rates will make debt unaffordable for data center developers, and that hyperscaler spending is straining cash flows and could slow capacity delivery. TechCrunch argues the margin dip may be a blip, and that near-50% quarterly growth leaves few investors worried, but it leaves Anthropic exposed to any slowdown in the buildout. Separately, the Wall Street Journal reportedly found major investors skeptical of a $1.5 trillion valuation."
+    "The numbers show a company still growing very fast but decelerating, while locking in an enormous fixed obligation. Anthropic gets much of its capacity from Amazon, Google and SpaceX, and also uses neoclouds. CNBC notes that investors are nervous about rising interest rates and about hyperscalers' heavy AI spending eating into cash flow, which could slow the arrival of capacity Anthropic needs.",
+    "Outside data adds to the caution. Ramp reports that token spend grew only 1.5% across August and September after rising 42% in July, even as usage climbed. Ramp economist Ara Kharazian attributes this to price cuts by OpenAI and Anthropic, cheaper rival and open models, and customers getting better at controlling costs. TechCrunch reports Anthropic said in a filing that price reductions on two of its models cut revenue growth by about $600 million. Ramp's October data did show a re-acceleration, with token spend up 8.9% over a month.",
+    "Valuation expectations have moved accordingly. Bloomberg reports that, after a post-election selloff, potential buyers are discussing $1.2 trillion to $1.3 trillion, with some considering $1.1 trillion. TechCrunch, citing Bloomberg, says the estimate was $2 trillion in early October and that credit agencies are expected to assign a high-yield rating. OpenAI has reportedly also cut its proposed valuation and fundraising target."
    ],
    "whatToWatch": [
-    "The next step is the roadshow, where Anthropic will have to explain the margin trend, the size of its commitments and the slowing quarterly growth to prospective buyers. Whether short-term compute costs fall as multi-year capacity arrives is an open question the filing itself frames only as an expectation of rising absolute spend.",
-    "Also worth following is OpenAI, which filed confidentially in June and is reportedly aiming for 2027, and how markets respond to the AI debt concerns raised by last week's hyperscaler earnings."
+    "Anthropic is due to start formal IPO marketing next week, according to Bloomberg. The price range it sets, and investor reaction to the slowing growth and commitment figures, will show whether the lower valuation talk holds.",
+    "Also worth watching is whether Ramp's October rebound continues, and whether OpenAI's 2027 listing timetable changes."
    ],
    "pullQuote": {
-    "text": "We consider it our personal responsibility to help the world understand these risks, to prevent or mitigate them when they arise from our AI models",
-    "by": "Anthropic's co-founders, in the S-1 filing"
+    "text": "As our compute and infrastructure capacity grows, the associated compute and infrastructure expenses have increased",
+    "by": "Anthropic"
    }
   }
  },
