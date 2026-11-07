@@ -2908,7 +2908,7 @@
   "entities": [],
   "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
   "imageCheckedAt": "2026-11-04T13:05:06.073Z",
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
@@ -2950,7 +2950,7 @@
    "Gina Hinojosa"
   ],
   "imageCheckedAt": "2026-11-04T22:40:53.760Z",
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://openai.com/index/openai-to-acquire-pierre",
@@ -3045,7 +3045,7 @@
   "entities": [
    "Big Tech"
   ],
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
@@ -3161,7 +3161,7 @@
    "NBC News",
    "Gina Hinojosa"
   ],
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://www.anthropic.com/research/provable-inference",
@@ -3771,7 +3771,7 @@
   "category": "policy",
   "importance": 2,
   "entities": [],
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
@@ -3829,7 +3829,7 @@
   "importance": 3,
   "entities": [],
   "imageCheckedAt": "2026-11-05T13:18:30.244Z",
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
@@ -3872,7 +3872,7 @@
    "Alphabet",
    "Meta"
   ],
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
@@ -3985,7 +3985,7 @@
    "Meta"
   ],
   "imageCheckedAt": "2026-11-05T22:42:39.057Z",
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
@@ -4280,7 +4280,7 @@
    "Nasdaq"
   ],
   "imageCheckedAt": "2026-11-05T22:42:39.100Z",
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
@@ -4299,7 +4299,7 @@
   "entities": [
    "Democrats"
   ],
-  "storyId": "f3900be82c6f"
+  "storyId": "0dbf0226aa90"
  },
  {
   "url": "https://huggingface.co/papers/2611.04408",
@@ -5135,7 +5135,7 @@
   "entities": [
    "Planned Obsolescence"
   ],
-  "storyId": "3b972ecaa602"
+  "storyId": "cc84fd5cfc3e"
  },
  {
   "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
@@ -5382,7 +5382,7 @@
    "OpenAI",
    "Hacktron"
   ],
-  "storyId": "bc8f9eac1966"
+  "storyId": "75679f5aa60b"
  },
  {
   "url": "https://huggingface.co/blog/allenai/toyblocks",
@@ -5472,5 +5472,168 @@
   "importance": 2,
   "entities": [],
   "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+  "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-06T22:53:46.000Z",
+  "snippet": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+  "id": "118369de89f0",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "OpenAI has reportedly raised an additional $11 billion in a funding round that has not yet closed but is expected to within weeks.",
+  "whyItMatters": "It shows continued heavy capital flowing to OpenAI, shaping its compute and product ambitions.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-07T11:47:47.765Z",
+  "storyId": "118369de89f0"
+ },
+ {
+  "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+  "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T18:04:06.000Z",
+  "score": 99,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50395933",
+  "id": "16642f6cb745",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "Microsoft is reportedly winding down its deal to rent AI cloud capacity from Oracle, according to Reuters.",
+  "whyItMatters": "It signals shifting compute demand and capacity strategy among the big cloud providers.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Microsoft",
+   "Oracle"
+  ],
+  "imageCheckedAt": "2026-11-07T11:47:47.900Z",
+  "storyId": "16642f6cb745"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+  "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T23:46:18.000Z",
+  "snippet": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5287355c1060",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "Bloomberg reports OpenAI is valued at $1.25 trillion after raising another $11 billion, up from $852 billion in March when it raised $122 billion. It is still seeking up to $20 billion total, having originally hoped for $30 billion at $1.4 trillion before tech stocks dropped; rival Anthropic is nearing an IPO.",
+  "whyItMatters": "Valuations of this scale set the competitive and financial backdrop for the frontier labs, including a looming Anthropic IPO.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "Anthropic",
+   "Bloomberg"
+  ],
+  "storyId": "118369de89f0"
+ },
+ {
+  "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+  "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T22:50:43.000Z",
+  "score": 89,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50399569",
+  "id": "54d4f685c5e0",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "A community forum post claims ChatGPT silently passes data between connectors, and that a related bug bounty asks for an ID card.",
+  "whyItMatters": "If accurate, it raises data-handling and privacy concerns for anyone wiring ChatGPT connectors into work accounts.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "storyId": "54d4f685c5e0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+  "title": "Crusoe sells troubled Wyoming data center project to Google",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-07T01:40:28.000Z",
+  "snippet": "The deal highlights the challenges of developing massive AI data centers.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800",
+  "id": "c2107a5a7cf6",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "Crusoe is selling its troubled Wyoming data center project to Google.",
+  "whyItMatters": "It illustrates the difficulty of building massive AI data centers and how larger players absorb stalled projects.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Crusoe",
+   "Google"
+  ],
+  "imageCheckedAt": "2026-11-07T11:47:47.761Z",
+  "storyId": "c2107a5a7cf6"
+ },
+ {
+  "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+  "title": "[AINews] Anthropic IPO: Whither Now?",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-07T03:04:53.000Z",
+  "snippet": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+  "id": "d62fbfe2fc04",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "Latent Space's AINews roundup covers Anthropic's IPO, ARC Prize testing Inkling 2 Small, and Thinking Machines explaining how it caught early checkpoints bypassing guardrails.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Anthropic",
+   "ARC Prize",
+   "Thinking Machines",
+   "Inkling 2 Small"
+  ],
+  "storyId": "fb9ff410aee0"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+  "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-06T23:00:44.000Z",
+  "snippet": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed is a customer of Nvidia's, and Alice Huang also has \"relationships with executives at the highest levels of the A.I. chip industry,\" including leaders at Gigabyte, the NYT says. Last week, the NYT reported that Jensen Huang was seen as the target of…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ddaec7e99048",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "The New York Times reports China's Ministry of State Security recruited Megaspeed executive Alice Huang to gather information on Nvidia CEO Jensen Huang and AI chips, and to try to influence Nvidia to make its most advanced chips available to China.",
+  "whyItMatters": "It highlights how intense the geopolitical fight over AI chip access has become.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "Megaspeed",
+   "Alice Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.21375",
+  "title": "Memorilla: Latent Semantic Memory for LLMs",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-06T18:03:33.000Z",
+  "score": 106,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50395919",
+  "id": "e086e2a5c605",
+  "fetchedAt": "2026-11-07T11:47:38.668Z",
+  "enrichedAt": "2026-11-07T11:47:47.708Z",
+  "summary": "A new arXiv paper introduces Memorilla, a latent semantic memory system for large language models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Memorilla"
+  ],
+  "storyId": "e086e2a5c605"
  }
 ]
