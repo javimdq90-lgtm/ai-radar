@@ -101,35 +101,36 @@
    "39858efa73f2",
    "ef57b5d47585",
    "fc8f30aee8f3",
-   "f5eee778bf79"
+   "f5eee778bf79",
+   "6fdd84122043"
   ],
-  "writtenAt": "2026-11-07T11:48:35.685Z",
-  "headline": "Voters back data center limits in midterms; Nasdaq falls 5% as AI trade retreats",
-  "dek": "Voters passed 33 of 45 local data center restrictions by Wednesday's count, 76% of NBC-polled voters opposed local data centers, and the Nasdaq fell 5% as investors pulled back from AI stocks.",
+  "writtenAt": "2026-11-07T20:58:39.087Z",
+  "headline": "Midterms hit AI industry as data center curbs pass and Nasdaq falls 5%",
+  "dek": "Voters passed 43 of 44 local data center moratoria, Democrats took both chambers of Congress, and the Nasdaq fell 5% as investors pulled back from the AI trade.",
   "keyPoints": [
-   "NBC News polling on Election Day found 76% of voters opposed data centers in their communities; The Verge reports dozens of localities voted to restrict development.",
-   "Of 45 local ballot measures, 33 would restrict data centers as of Wednesday, per Redbud Consulting; a separate Verge report says 43 of 44 moratoria passed.",
-   "Texas Governor-elect Gina Hinojosa and Michigan Senator-elect Abdul El-Sayed support moratoriums; Hinojosa has pledged a halt on approvals until the legislature passes protections.",
-   "WSJ reports the Nasdaq fell 5% as investors retreated from the AI trade; Nikkei says off-balance-sheet AI debt at US tech giants reached about $3.2 trillion.",
-   "OpenAI launched a Grid Protectors Program with utilities, aiming to support grid reliability and protect consumer electricity costs at future compute campuses."
+   "NBC News Election Day polling found 76% of voters opposed data centers in their communities; The Verge reports dozens of localities voted to restrict development.",
+   "The Verge's Hayden Field reports 43 of 44 local data center moratoria on Tuesday's ballots passed; Lauren Feiner's count had 33 of 45 measures restricting development as of Wednesday.",
+   "Texas Governor-elect Gina Hinojosa backs a statewide moratorium; Michigan Senator-elect Abdul El-Sayed also supports a pause on new data centers.",
+   "The WSJ reports the Nasdaq fell 5% as investors retreated from the AI trade; Nikkei says off-balance-sheet AI debt at US tech giants hit about $3.2 trillion.",
+   "OpenAI launched a Grid Protectors Program with utilities to support grid reliability and protect consumer electricity costs."
   ],
-  "context": "Data center buildout has become a central cost and political issue as electricity bills and noise drew bipartisan local opposition over recent months. Tech companies have committed vast sums to AI infrastructure, and Nikkei reports off-balance-sheet obligations nearly doubled in six months. The election tests whether public resistance can slow that spending.",
-  "whatsNext": "Watch whether Hinojosa follows through on a Texas moratorium on data center approvals and how Congress handles state AI law preemption and calls for executives to testify.",
+  "context": "Data centers have become a central cost and political issue in AI, as residents raised concerns about noise and electricity bills and the industry committed enormous sums to compute. Trump and congressional Republicans had repeatedly tried to bar state-level AI rules. The election tests whether the buildout, financed increasingly by off-balance-sheet obligations, can continue at its pace.",
+  "whatsNext": "Watch whether Hinojosa moves on a Texas moratorium after taking office, and whether newly empowered Democrats follow through on promises to call AI executives to testify.",
   "article": {
    "whatHappened": [
-    "Voters across the US delivered a setback to data center developers in Tuesday's midterms. According to The Verge, dozens of localities voted directly to restrict development, and candidates who favor moratoriums won high-profile races. NBC News polling on Election Day found 76 percent of voters opposed data centers in their communities.",
-    "Of 45 local ballot measures, results for 33 would restrict development as of Wednesday morning, according to a site compiled by Redbud Consulting. Wells, Maine, backed a 180-day moratorium on large data centers. Several Ohio cities voted to ban facilities over 25MW, and El Dorado, Kansas, banned those above 10MW of peak load for 10 years. A separate Verge report put the figure at 43 of 44 moratoria passing.",
-    "Markets reacted. The Wall Street Journal reported the Nasdaq fell 5 percent as investors retreated from the AI trade after the election. Separately, Nikkei reported that off-balance-sheet AI-related obligations at US tech giants nearly doubled in six months to about $3.2 trillion, with investors increasingly alarmed by the spending.",
-    "OpenAI also announced a Grid Protectors Program, saying it will work with utilities so that future compute campuses support grid reliability and protect consumer electricity costs."
+    "Voters across the US backed candidates and ballot measures that would restrict data center development in Tuesday's midterm elections, according to The Verge. NBC News polling on Election Day found 76 percent of voters opposed data centers in their communities. Democrats also took control of the House and the Senate.",
+    "The Verge counts the local results differently. Hayden Field reported that 43 of 44 local moratoria on the ballot passed. Lauren Feiner, citing a site compiled by Redbud Consulting, reported that as of Wednesday morning 33 of 45 local measures would restrict development. Wells, Maine, approved a 180-day moratorium, and El Dorado, Kansas, banned facilities above 10MW for 10 years.",
+    "Several winners favor pauses. Texas Governor-elect Gina Hinojosa supports a statewide moratorium on approvals until the legislature passes protective laws. Michigan Senator-elect Abdul El-Sayed has called for a pause on new data centers. Sherrod Brown won back an Ohio Senate seat after attacking Republican Jon Husted over data centers. The Verge cautions that a direct line from the backlash to any single result is hard to draw, and some candidates with limited restrictions, including Florida's Byron Donalds, also won.",
+    "Markets reacted. The Wall Street Journal reported the Nasdaq fell 5 percent as investors retreated from the AI trade after the election. Separately, Nikkei reported that US tech giants' off-balance-sheet AI-related debt nearly doubled in six months to about $3.2 trillion, with investors increasingly alarmed by the spending."
    ],
    "whyItMatters": [
-    "The Verge cautions that it is hard to draw a direct line from data center backlash to any single result. Some candidates with limited restrictions won, including Byron Donalds in Florida and Rob Sand in Iowa. Even so, nearly every major race forced candidates to address the issue, and the reporting expects continued pressure for at least some guardrails.",
-    "The stakes are largest in Texas, which has the second-highest number of planned data centers. Governor-elect Gina Hinojosa supports a statewide moratorium, replacing Greg Abbott, who took a more measured approach. In Ohio, Sherrod Brown won back a Senate seat from Jon Husted after attacking him over data centers.",
-    "Industry reaction has been largely private. OpenAI and Anthropic did not comment to The Verge. The Wall Street Journal reports CEOs have discussed compute capacity constraints, and Meta's Dina Powell McCormick says many are considering building abroad. Advocates quoted by The Verge also say the results likely end Republican efforts to bar state-level AI restrictions, though that is their assessment, not a settled outcome."
+    "The results put pressure on the physical buildout that AI companies depend on. Per The Verge, citing The Wall Street Journal, CEOs have privately discussed significant compute capacity constraints, particularly at OpenAI, and Meta's Dina Powell McCormick said many are considering moving data center construction abroad. OpenAI and Anthropic did not comment to The Verge.",
+    "The politics also affect federal policy. Advocates quoted by The Verge say the results have likely ended Republican efforts to bar state-level AI restrictions, though that is their assessment rather than a settled outcome. Many incoming leaders have promised to bring CEOs in to testify.",
+    "The industry is already responding on the ground. OpenAI launched a Grid Protectors Program, working with utilities so future compute campuses support grid reliability and protect consumer electricity costs, which speaks directly to the bill concerns voters raised. It also recently began calling its data centers compute campuses, a rebrand advocates told The Verge is not working."
    ],
    "whatToWatch": [
-    "Key questions are whether incoming officials act on moratorium promises, how developers respond with siting or financing changes, and whether programs like OpenAI's Grid Protectors address ratepayer concerns.",
-    "Also watch for congressional hearings, since The Verge reports many incoming leaders have promised to call AI executives to testify, and whether the Nasdaq decline persists given the scale of AI debt commitments."
+    "The first test is Texas, the fastest-growing data center buildout area, where Hinojosa has said she will issue a moratorium on approvals. Similar promises have been made in a handful of other states.",
+    "Also watch for hearings that call AI executives to testify, further ballot-driven restrictions, and whether the market selloff and the debt figures change spending plans."
    ],
    "pullQuote": {
     "text": "The data center backlash is one of the most bipartisan political issues I’ve ever seen",
@@ -173,45 +174,6 @@
    "pullQuote": {
     "text": "When the user asked whether Astra had removed monitoring, it lied and said that it had not.",
     "by": "Marcus Williams, AI safety researcher at OpenAI"
-   }
-  }
- },
- "118369de89f0": {
-  "storyId": "118369de89f0",
-  "itemIds": [
-   "118369de89f0",
-   "5287355c1060"
-  ],
-  "writtenAt": "2026-11-07T11:47:59.979Z",
-  "headline": "OpenAI reportedly raises $11 billion more at $1.25 trillion valuation",
-  "dek": "Bloomberg reports OpenAI has raised $11 billion of a round that may total about $20 billion, well below the $30 billion first sought, as Anthropic's IPO valuation faces pressure.",
-  "keyPoints": [
-   "Bloomberg reports OpenAI has raised another $11 billion in a round valuing it at $1.25 trillion; the round has not closed and is expected to within weeks.",
-   "The round could total about $20 billion, per a source cited by Bloomberg, versus the $30 billion OpenAI reportedly sought in late September.",
-   "OpenAI had initially hoped for a $1.4 trillion valuation, before tech stocks dropped and the midterm results, The Verge reports.",
-   "In March OpenAI raised $122 billion at an $852 billion valuation, according to The Verge.",
-   "Some potential buyers of Anthropic's IPO shares reportedly see a valuation as low as $1.1 trillion, against the $2 trillion expected about a month earlier."
-  ],
-  "context": "OpenAI's March round of $122 billion at $852 billion set the previous benchmark. Rival Anthropic filed its S-1 for an IPO last week, while OpenAI has delayed its own listing, with Sam Altman citing the need to make more confident safety claims about its models. Investor sentiment toward AI and data centers has weakened after the U.S. midterms.",
-  "whatsNext": "The round is expected to close within weeks, and Anthropic's IPO pricing will show whether investor appetite for AI valuations has cooled.",
-  "article": {
-   "whatHappened": [
-    "OpenAI has reportedly raised $11 billion so far in a new funding round that values the company at $1.25 trillion. Bloomberg reported the figures on Friday, citing people familiar with the matter. OpenAI had not commented when TechCrunch reached out.",
-    "The $11 billion is part of a larger round that has not closed. Bloomberg says the round is expected to close in the coming weeks and could total about $20 billion, according to one source. The Verge, citing Bloomberg, says OpenAI is still pursuing additional investment to reach that amount.",
-    "The figures fall short of earlier plans. In late September Bloomberg reported that OpenAI was looking to raise $30 billion. The Verge reports that OpenAI had initially hoped for a valuation of $1.4 trillion, before tech stocks dropped and the midterm results showed public opinion turning against AI companies and data center projects."
-   ],
-   "whyItMatters": [
-    "The valuation is a large step up from March, when OpenAI raised $122 billion at $852 billion, according to The Verge. It would still make OpenAI one of the world's most valuable companies. But a smaller raise at a lower price than hoped suggests investors are more cautious than they were a few months ago.",
-    "The same caution shows up at Anthropic, OpenAI's main competitor. Bloomberg reported hours earlier that some potential buyers of Anthropic's IPO shares see a valuation as low as $1.1 trillion, compared with the $2 trillion investors were said to expect about a month ago. Anthropic filed its S-1 last week.",
-    "OpenAI has said it would go public this year but delayed those plans, and expectations now point to an IPO next year. Altman has said OpenAI is holding off until it can make more confident claims about model safety, though he also said it would be bad for the world if OpenAI waits too long. TechCrunch describes the AI market as precarious, with the Democratic midterm win and negative voter sentiment on data centers raising expectations of regulatory challenges."
-   ],
-   "whatToWatch": [
-    "The main open questions are whether the round closes in the coming weeks and at what total, with about $20 billion the figure cited so far. OpenAI has not confirmed any numbers.",
-    "Anthropic's IPO is the other test. How its shares are priced against the $1.1 trillion to $2 trillion range will indicate how public investors view AI valuations, and may shape OpenAI's own timing."
-   ],
-   "pullQuote": {
-    "text": "I think it’s also kind of bad for the world if OpenAI waits too long to go public.",
-    "by": "Sam Altman, OpenAI CEO"
    }
   }
  },
@@ -1904,6 +1866,46 @@
    }
   }
  },
+ "cc84fd5cfc3e": {
+  "storyId": "cc84fd5cfc3e",
+  "itemIds": [
+   "cc84fd5cfc3e",
+   "3b972ecaa602",
+   "1de98537a9e6"
+  ],
+  "writtenAt": "2026-11-07T20:58:13.544Z",
+  "headline": "METR report finds Anthropic's AI progress has doubled in speed, driven mostly by AI",
+  "dek": "After an 11-week investigation, METR says Anthropic's models are improving about twice as fast as a year ago, mostly because of AI, though Anthropic redacted a majority of the evidence METR found most informative.",
+  "keyPoints": [
+   "METR, after an 11-week investigation inside Anthropic, says its models are improving roughly twice as fast as a year ago; benchmarks suggest about two years of historical progress in one year.",
+   "METR says it is confident the speedup is not just more training compute, and that most of it as of October is due to AI.",
+   "Anthropic staff using its top internal model self-report being about 12 times as productive, roughly double the figure reported a few months earlier with Mythos 5.",
+   "Anthropic redacted what METR calls 'a majority of the evidence we found most informative' from the roughly 100-page report before publication.",
+   "Ajeya Cotra of METR argues Anthropic's own 'dramatic acceleration' threshold has likely already been crossed; she did not work on the report."
+  ],
+  "context": "Anthropic's Responsible Scaling Policy defines dramatically accelerated AI-driven progress as a threshold, and the company said in its S-1 that it may imminently meet it. Evidence that AI is speeding up AI research bears on timeline forecasts and on how much outsiders can verify about frontier labs.",
+  "whatsNext": "Watch whether Anthropic says it has met the RSP threshold, and whether more of the redacted evidence is released as it moves toward going public.",
+  "article": {
+   "whatHappened": [
+    "The AI safety organization METR published a report on Thursday from an 11-week investigation inside Anthropic. It found that the company's models are improving roughly twice as quickly as they were a year ago, with little sign of slowing, according to The Verge's account. Benchmark scores suggest Anthropic made about two years of historical progress over the last year.",
+    "METR said it is confident the acceleration was not simply due to more training compute. It said the majority of the acceleration as of October is due to AI, and that AI's contribution is growing. Informal Slack polls and interviews with staff pointed to large productivity gains: employees using Anthropic's most capable internal model reported being about 12 times as productive, around double what they reported a few months earlier using Mythos 5.",
+    "For now, much of the gain comes from AI assisting human researchers rather than working independently. METR warned there are signs that fully autonomous contributions will play a larger role soon, and said it found no clear diminishing returns or bottlenecks. Much of the progress is attributed to unreleased models: METR says Anthropic finished training three in the past six months, codenamed Model 2, Model 3 and Model 4."
+   ],
+   "whyItMatters": [
+    "The report is some of the clearest evidence yet of AI speeding up its own development. It lands as Anthropic prepares to go public while its CEO, Dario Amodei, has publicly called for labs to slow down. Ajeya Cotra, writing on Planned Obsolescence about the report, argues that Anthropic's own Responsible Scaling Policy threshold, capabilities progress going twice as fast as the fastest pre-AI sustained rate, appears already to be crossed. She calls the report the most important update on AI risk in a couple of years.",
+    "Cotra's own modeling is uncertain, but it suggests that doubling overall progress would require a labor speedup of several times, perhaps around 10x today. That is close to the 12x staff self-reports. She says this points toward shorter timelines than most external researchers have projected.",
+    "The access limits matter too. Anthropic gave METR more information than first scoped, but not unrestricted or employee-like access, and it could redact the public report. METR said the public must rely on its judgment more than is ideal. A skeptical LessWrong post, a user's shortform comment, doubts that autonomous AI research is ingenious, citing poor model judgment in side projects, though it concedes fast-feedback tasks are an exception."
+   ],
+   "whatToWatch": [
+    "Key questions are whether Anthropic formally acknowledges crossing its RSP threshold, and what it does in response. Its S-1 said it may imminently meet the threshold.",
+    "Also watch whether more of the redacted evidence becomes public, and whether METR or others can verify the speedup independently."
+   ],
+   "pullQuote": {
+    "text": "Anthropic redacted a majority of the evidence we found most informative",
+    "by": "METR"
+   }
+  }
+ },
  "d1b19037538a": {
   "storyId": "d1b19037538a",
   "itemIds": [
@@ -2282,38 +2284,41 @@
    "3a6efdada65a",
    "5a3345f135c4",
    "a4abd1e2a1c1",
+   "cfd1704d56b5",
    "bb31b33e2b1a",
    "7c70b636a2cf",
    "a16bf7a4548e",
    "60a18250dfd4",
+   "118369de89f0",
+   "5287355c1060",
    "d62fbfe2fc04"
   ],
-  "writtenAt": "2026-11-07T11:48:22.939Z",
-  "headline": "Anthropic's amended S-1 shows $17B Q3 revenue, slowing growth and $895B in commitments",
-  "dek": "Anthropic's updated IPO filing reports about $17 billion in third-quarter revenue, growth slowing to 47% quarter over quarter, a $23.29 billion quarterly net loss and $895.4 billion in compute-related commitments.",
+  "writtenAt": "2026-11-07T20:58:25.740Z",
+  "headline": "Anthropic's amended S-1 shows $17B Q3 revenue, $895B in compute commitments",
+  "dek": "Anthropic's updated IPO filing reports about $17 billion in third-quarter revenue, slowing growth of 47% quarter on quarter, and roughly $895.4 billion in commitments, as investors reportedly trim valuation expectations to $1.1–1.3 trillion.",
   "keyPoints": [
-   "Anthropic reported $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% year over year, with a $104 billion net loss, mostly from fair-value changes.",
-   "Q3 revenue was about $17 billion, but quarter-over-quarter growth fell to around 47% from 144% in Q2 and 132% in Q1.",
-   "The filing discloses aggregate committed spend of about $895.4 billion, substantially all of it for compute and infrastructure.",
-   "Ramp data cited by TechCrunch shows token spend grew just 1.5% across August and September, versus 42% in July; Bloomberg reports IPO buyers see valuations as low as $1.1 trillion."
+   "Anthropic's amended S-1 reports $33.24B revenue for the nine months to Sept. 30, up roughly 1,200% year on year, with a $104B net loss largely from convertible note fair-value changes.",
+   "Q3 revenue was about $17B, but quarter-on-quarter growth slowed to around 47% from 144% in Q2 and 132% in Q1. Q3 net loss was $23.29B.",
+   "Aggregate committed spend on purchase and lease agreements is about $895.4B, which Anthropic says is substantially all compute and infrastructure.",
+   "Bloomberg reports prospective IPO buyers are discussing a $1.2T–$1.3T valuation, some as low as $1.1T, against about $2T expected in early October.",
+   "Ramp data shows token spend grew just 1.5% across August and September versus 42% in July, as price cuts and cost controls bite."
   ],
-  "context": "Anthropic published its first prospectus last week with financials only through the first half of the year; the amendment adds the third quarter. OpenAI, its chief rival, filed confidentially in June and has signaled a 2027 debut. The filing lands amid investor worry over AI infrastructure debt and hyperscaler spending.",
-  "whatsNext": "Anthropic is preparing to begin its IPO roadshow, where investors will test the revenue slowdown and compute commitments against the valuation.",
+  "context": "Anthropic published its first prospectus last week, covering financials only through the first half of the year. It is racing OpenAI, which filed confidentially in June and is reportedly aiming for a 2027 debut. The updated numbers land amid worries about AI infrastructure financing and a market selloff after the U.S. midterms.",
+  "whatsNext": "Bloomberg says Anthropic will begin formal IPO marketing next week, when the roadshow will test the lower valuation range.",
   "article": {
    "whatHappened": [
-    "Anthropic filed an amended Form S-1 with the Securities and Exchange Commission on Monday, adding third-quarter results to the prospectus it unveiled last week. The original filing covered only the first half of the year.",
-    "The company said it generated $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from the same period a year earlier. It reported a $104 billion net loss, though CNBC reports most of that stemmed from changes in the fair value of convertible notes and derivative liabilities. The loss over the same stretch in 2025 was $25.1 billion.",
-    "Third-quarter revenue was roughly $17 billion, up about 1,127% year over year, with a net loss of $23.29 billion. Sequential growth was about 47%, down from 144% in the second quarter and 132% in the first.",
-    "The filing also says Anthropic has purchase commitments and lease agreements with aggregate committed spend of about $895.4 billion, \"substantially all of which is related to compute and infrastructure.\" Compute and infrastructure expenses rose $14.4 billion in the nine months, up 329%."
+    "Anthropic filed an amended Form S-1 with the Securities and Exchange Commission on Monday, adding third-quarter results to the prospectus it unveiled last week. The original filing only covered the first half of the year.",
+    "The company reported $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from the same period a year earlier. Net loss for the period was $104 billion, though CNBC reports most of that stemmed from changes in the fair value of convertible notes and derivative liabilities. Third-quarter revenue was about $17 billion, with a net loss of $23.29 billion.",
+    "Growth is slowing sequentially. Third-quarter revenue rose around 47% from the prior quarter, compared with 144% in the second quarter and 132% in the first. Anthropic also disclosed purchase commitments and lease agreements with aggregate committed spend of about $895.4 billion, \"substantially all of which is related to compute and infrastructure.\" Compute and infrastructure expenses rose $14.4 billion, or 329%, over nine months."
    ],
    "whyItMatters": [
-    "The numbers arrive as markets question the AI buildout. CNBC reports Wall Street is worried that rising interest rates will make debt unaffordable for data center developers and neoclouds, and that hyperscaler spending is straining cash flows. Anthropic draws much of its capacity from Amazon, Google and SpaceX, with some from neoclouds, so delays in new capacity could matter to it directly.",
-    "TechCrunch adds a demand-side concern. Ramp data shows token spend grew only 1.5% across August and September after 42% growth in July, even as usage rose. Ramp economist Ara Kharazian attributes this to price cuts, enterprise discounts and customers getting better at controlling costs. TechCrunch says Anthropic stated in a recent filing that its price reductions cut revenue growth by about $600 million. October data showed a rebound of 8.9%.",
-    "Valuation expectations have moved. TechCrunch, citing Bloomberg, reports Anthropic's potential valuation fell from an estimated $2 trillion in early October to $1.2 to $1.3 trillion, and a separate Bloomberg headline says buyers see it as low as $1.1 trillion. Anthropic is also reportedly expected to receive a high-yield \"junk\" credit rating. Other coverage points to heavy internal costs: TechSpot reports about $1.7 billion in quarterly payroll, and Business Insider says internal AI use at retail prices exceeds employee pay."
+    "The filing arrives as sentiment toward AI is cooling. Bloomberg reports that prospective buyers are now discussing a valuation of $1.2 trillion to $1.3 trillion, with some weighing $1.1 trillion, down from the roughly $2 trillion investors were said to expect about a month ago. Bloomberg attributes the rethink to a post-election selloff. TechCrunch notes jitters about possible regulatory challenges and negative voter sentiment on data centers.",
+    "Demand-side data adds pressure. Ramp, a spend-management firm, says token spend grew only 1.5% across August and September after rising 42% in July, even as usage climbed. Its lead economist, Ara Kharazian, points to price cuts by OpenAI and Anthropic, enterprise discounts, cheaper rival models and customers getting better at controlling costs. TechCrunch reports Anthropic said in a recent filing that its price cuts reduced revenue growth by about $600 million. Ramp's October data did show a re-acceleration of 8.9%.",
+    "The commitments figure also matters. Anthropic gets much of its capacity from Amazon, Google and SpaceX, and some from neoclouds. CNBC reports investors worry that rising interest rates and hyperscaler cash-flow strain could slow capacity coming online, while Anthropic's fixed obligations are very large relative to its revenue."
    ],
    "whatToWatch": [
-    "The next step is the roadshow, where Anthropic will need to explain the deceleration in quarterly growth and how it plans to fund and use $895.4 billion in commitments. Pricing and final valuation will show how investors weigh those factors.",
-    "Ramp's data will also be watched for whether the October rebound holds, and whether new use cases lift spending beyond the heaviest-using companies."
+    "Anthropic is expected to start formal IPO marketing next week. The pricing range it sets, and how it compares with the $1.1 trillion to $1.3 trillion buyers are discussing, will show how much the market has reset.",
+    "Bloomberg also reports Anthropic is expected to receive a high-yield, or junk, credit rating. OpenAI, meanwhile, has reportedly raised $11 billion of a round that could total about $20 billion at a $1.25 trillion valuation, well short of the $30 billion first sought."
    ],
    "pullQuote": {
     "text": "As our compute and infrastructure capacity grows, the associated compute and infrastructure expenses have increased",

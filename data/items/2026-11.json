@@ -4441,7 +4441,7 @@
    "Anthropic"
   ],
   "imageCheckedAt": "2026-11-05T22:42:39.070Z",
-  "storyId": "cfd1704d56b5"
+  "storyId": "fb9ff410aee0"
  },
  {
   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -5491,7 +5491,7 @@
    "OpenAI"
   ],
   "imageCheckedAt": "2026-11-07T11:47:47.765Z",
-  "storyId": "118369de89f0"
+  "storyId": "fb9ff410aee0"
  },
  {
   "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
@@ -5533,7 +5533,7 @@
    "Anthropic",
    "Bloomberg"
   ],
-  "storyId": "118369de89f0"
+  "storyId": "fb9ff410aee0"
  },
  {
   "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
@@ -5574,7 +5574,7 @@
    "Google"
   ],
   "imageCheckedAt": "2026-11-07T11:47:47.761Z",
-  "storyId": "c2107a5a7cf6"
+  "storyId": "16642f6cb745"
  },
  {
   "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
@@ -5635,5 +5635,144 @@
    "Memorilla"
   ],
   "storyId": "e086e2a5c605"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+  "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-07T12:30:00.000Z",
+  "snippet": "Anthropic CEO Dario Amodei. | Photo: Jason Henry/Bloomberg via Getty Images Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation inside the company, as part of a report evaluating its AI research and development. The probe is separate from a program offering safety researchers \"employee-like\" access to syste…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "1de98537a9e6",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "A METR report from an 11-week investigation inside Anthropic finds the company is using AI to build more powerful AI, with its models improving roughly twice as fast as a year ago and little sign of slowing.",
+  "whyItMatters": "Accelerating automated AI R&D raises safety concerns and hints at faster capability gains ahead.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "Anthropic",
+   "METR",
+   "Dario Amodei"
+  ],
+  "storyId": "cc84fd5cfc3e"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+  "title": "The US let Nvidia sell chips to an empty office in China",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-07T15:43:45.000Z",
+  "snippet": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell with wires dangling from the ceiling where lights should be.\" In fact, the paper could find little evidence that the company exists in any meaningful way: Only scant information can be found online about New Matrix, which was created 17 months ago. At the building that New Matrix li…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "2634a86d9aad",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "The New York Times found that New Matrix, a Chinese firm approved to handle Nvidia H200 AI chips, has empty offices and little evidence of existing, raising doubts about vetting by Commerce and Nvidia.",
+  "whyItMatters": "It questions how effective US chip export controls are in practice.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "New Matrix",
+   "Commerce Department",
+   "H200"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+  "title": "The AI sell-off compared to well-known stock market crashes",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-07T02:20:06.000Z",
+  "score": 80,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50401029",
+  "id": "6fdd84122043",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "Kadoa compares the recent AI-stock sell-off with well-known historical stock market crashes.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Kadoa"
+  ],
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://hunch.net/?p=13764006",
+  "title": "The End of AI Frontiers",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-07T18:04:07.000Z",
+  "score": 81,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50406589",
+  "id": "9f1ff32d0cab",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "John Langford's hunch.net post, titled 'The End of AI Frontiers', offers commentary on the state of AI progress.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "John Langford"
+  ],
+  "storyId": "9f1ff32d0cab"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+  "title": "AI broke the cybersecurity world. What’s next?",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-07T15:00:00.000Z",
+  "snippet": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say that the multibillion-dollar cybersecurity industry as we’ve known it is essentially overdue to the unrelenting, AI-boosted waves of hacks, breaches, and attacks — and this is only the beginning of how much AI is changing security. Verge subscribers, don’t forget you get exclusi…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ac30c3ff268d",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "Cognition CSO Alex Stamos says the traditional multibillion-dollar cybersecurity industry is overwhelmed by AI-boosted hacks, breaches and attacks, and that this is only the beginning.",
+  "whyItMatters": "Builders should expect security practices to need rethinking as AI speeds up attacks.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Alex Stamos",
+   "Cognition"
+  ],
+  "storyId": "ac30c3ff268d"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+  "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-07T15:50:00.000Z",
+  "snippet": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best weapon in this fight has been AI. Between Alexa Plus in the Echo smart display on my kitchen counter, the Samsung Food app on my fridge, and even an AI-powered cooking robot, AI has become my go…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "bb9dc983cfcb",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "A Verge reviewer tried the new AI assistant in NYT Cooking, finding it rescued a weeknight chicken dinner but nearly ruined a cake.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "NYT Cooking",
+   "The Verge"
+  ],
+  "storyId": "bb9dc983cfcb"
+ },
+ {
+  "url": "https://www.anthropic.com/research/components-of-agent-memory",
+  "title": "The Components of Agent Memory",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-07T06:39:04.000Z",
+  "score": 138,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50402212",
+  "id": "d8887a09bc5e",
+  "fetchedAt": "2026-11-07T20:57:49.536Z",
+  "enrichedAt": "2026-11-07T20:57:57.047Z",
+  "summary": "Anthropic publishes a breakdown of the components that make up agent memory.",
+  "whyItMatters": "It offers practical design guidance for builders adding persistent memory to agents.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+  "imageCheckedAt": "2026-11-07T20:57:57.163Z",
+  "storyId": "d8887a09bc5e"
  }
 ]
