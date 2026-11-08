@@ -102,35 +102,36 @@
    "ef57b5d47585",
    "fc8f30aee8f3",
    "f5eee778bf79",
-   "6fdd84122043"
+   "6fdd84122043",
+   "d44fec61ccb7"
   ],
-  "writtenAt": "2026-11-07T20:58:39.087Z",
-  "headline": "Midterms hit AI industry as data center curbs pass and Nasdaq falls 5%",
-  "dek": "Voters passed 43 of 44 local data center moratoria, Democrats took both chambers of Congress, and the Nasdaq fell 5% as investors pulled back from the AI trade.",
+  "writtenAt": "2026-11-08T12:00:06.999Z",
+  "headline": "Voters back data center limits in midterms; Nasdaq falls 5% as investors retreat from AI",
+  "dek": "Voters passed 33 of 45 local data center ballot measures counted by Wednesday and elected Democrats favoring moratoriums, while the Nasdaq fell 5% and OpenAI launched a grid program.",
   "keyPoints": [
-   "NBC News Election Day polling found 76% of voters opposed data centers in their communities; The Verge reports dozens of localities voted to restrict development.",
-   "The Verge's Hayden Field reports 43 of 44 local data center moratoria on Tuesday's ballots passed; Lauren Feiner's count had 33 of 45 measures restricting development as of Wednesday.",
-   "Texas Governor-elect Gina Hinojosa backs a statewide moratorium; Michigan Senator-elect Abdul El-Sayed also supports a pause on new data centers.",
-   "The WSJ reports the Nasdaq fell 5% as investors retreated from the AI trade; Nikkei says off-balance-sheet AI debt at US tech giants hit about $3.2 trillion.",
-   "OpenAI launched a Grid Protectors Program with utilities to support grid reliability and protect consumer electricity costs."
+   "NBC News polled voters on Election Day: 76% said they opposed data centers in their communities. Dozens of localities voted to restrict development via ballot measures.",
+   "The Verge cites Redbud Consulting: 33 of 45 local measures counted by Wednesday morning restrict data centers. A second Verge report says 43 of 44 passed.",
+   "Texas governor-elect Gina Hinojosa and Michigan Senate-elect Abdul El-Sayed support moratoriums; Hinojosa wants a statewide ban on approvals until the legislature passes protections.",
+   "WSJ reports the Nasdaq sank 5% as investors retreated from the AI trade after the election. Nikkei puts big tech's off-balance-sheet AI debt at about $3.2 trillion.",
+   "OpenAI launched a Grid Protectors Program with utilities, aiming for future compute campuses to support grid reliability and protect consumer electricity costs."
   ],
-  "context": "Data centers have become a central cost and political issue in AI, as residents raised concerns about noise and electricity bills and the industry committed enormous sums to compute. Trump and congressional Republicans had repeatedly tried to bar state-level AI rules. The election tests whether the buildout, financed increasingly by off-balance-sheet obligations, can continue at its pace.",
-  "whatsNext": "Watch whether Hinojosa moves on a Texas moratorium after taking office, and whether newly empowered Democrats follow through on promises to call AI executives to testify.",
+  "context": "Data centers have become a flashpoint over electricity bills, noise and tax breaks, with protests growing across many states in recent months. The industry has also pushed for federal limits on state AI laws, an effort experts quoted by The Verge say the results have likely ended. The backlash lands as AI infrastructure spending and related debt keep growing.",
+  "whatsNext": "Watch whether Hinojosa follows through on a Texas moratorium on data center approvals and whether incoming Democratic leaders summon AI executives to testify.",
   "article": {
    "whatHappened": [
-    "Voters across the US backed candidates and ballot measures that would restrict data center development in Tuesday's midterm elections, according to The Verge. NBC News polling on Election Day found 76 percent of voters opposed data centers in their communities. Democrats also took control of the House and the Senate.",
-    "The Verge counts the local results differently. Hayden Field reported that 43 of 44 local moratoria on the ballot passed. Lauren Feiner, citing a site compiled by Redbud Consulting, reported that as of Wednesday morning 33 of 45 local measures would restrict development. Wells, Maine, approved a 180-day moratorium, and El Dorado, Kansas, banned facilities above 10MW for 10 years.",
-    "Several winners favor pauses. Texas Governor-elect Gina Hinojosa supports a statewide moratorium on approvals until the legislature passes protective laws. Michigan Senator-elect Abdul El-Sayed has called for a pause on new data centers. Sherrod Brown won back an Ohio Senate seat after attacking Republican Jon Husted over data centers. The Verge cautions that a direct line from the backlash to any single result is hard to draw, and some candidates with limited restrictions, including Florida's Byron Donalds, also won.",
-    "Markets reacted. The Wall Street Journal reported the Nasdaq fell 5 percent as investors retreated from the AI trade after the election. Separately, Nikkei reported that US tech giants' off-balance-sheet AI-related debt nearly doubled in six months to about $3.2 trillion, with investors increasingly alarmed by the spending."
+    "Voters in Tuesday's midterm elections backed candidates and ballot measures favoring tighter limits on data centers, according to The Verge. NBC News found 76 percent of Election Day voters it polled opposed data centers in their communities. Democrats took control of the House and Senate.",
+    "Of 45 local ballot measures, results for 33 counted by Wednesday morning would restrict development, per a site compiled by Redbud Consulting. A second Verge report says 43 of 44 moratoria passed; the coverage does not reconcile the figures. Wells, Maine, approved a 180-day moratorium on large data centers, and El Dorado, Kansas, banned those above 10MW of peak load for 10 years.",
+    "Candidates also took positions. Texas governor-elect Gina Hinojosa supports a statewide moratorium, and Michigan Senate-elect Abdul El-Sayed has called for a pause. Sherrod Brown beat Ohio Sen. Jon Husted after labeling him the face of data centers. Some winners, including Florida's Byron Donalds and Iowa's Rob Sand, opposed outright bans.",
+    "Markets reacted. The Wall Street Journal reported the Nasdaq sank 5 percent as investors retreated from the AI trade after the election. OpenAI separately announced a Grid Protectors Program, working with utilities so future compute campuses support grid reliability and protect consumer electricity costs."
    ],
    "whyItMatters": [
-    "The results put pressure on the physical buildout that AI companies depend on. Per The Verge, citing The Wall Street Journal, CEOs have privately discussed significant compute capacity constraints, particularly at OpenAI, and Meta's Dina Powell McCormick said many are considering moving data center construction abroad. OpenAI and Anthropic did not comment to The Verge.",
-    "The politics also affect federal policy. Advocates quoted by The Verge say the results have likely ended Republican efforts to bar state-level AI restrictions, though that is their assessment rather than a settled outcome. Many incoming leaders have promised to bring CEOs in to testify.",
-    "The industry is already responding on the ground. OpenAI launched a Grid Protectors Program, working with utilities so future compute campuses support grid reliability and protect consumer electricity costs, which speaks directly to the bill concerns voters raised. It also recently began calling its data centers compute campuses, a rebrand advocates told The Verge is not working."
+    "The results hit a central pillar of the AI industry: physical capacity. The Verge reports CEOs have privately discussed compute constraints, particularly at OpenAI, citing The Wall Street Journal, and Meta's Dina Powell McCormick says many are considering moving construction abroad. The Verge notes it is hard to draw a direct line from data center backlash to any single result.",
+    "The spending at stake is large. Nikkei reports big US tech firms' off-balance-sheet AI-related obligations nearly doubled in six months to about $3.2 trillion, roughly 80 percent of assets by its measure, with investors increasingly alarmed. Tighter siting rules could make those commitments harder to deploy and to justify.",
+    "Policy may shift too. Advocates quoted by The Verge say the results likely end Republican efforts to bar state AI laws, and Wes McEnany of the Future of Life Institute called the outcome a total repudiation of the AI field. These are advocates' readings, not settled outcomes."
    ],
    "whatToWatch": [
-    "The first test is Texas, the fastest-growing data center buildout area, where Hinojosa has said she will issue a moratorium on approvals. Similar promises have been made in a handful of other states.",
-    "Also watch for hearings that call AI executives to testify, further ballot-driven restrictions, and whether the market selloff and the debt figures change spending plans."
+    "The key test is Texas, which The Verge describes as the fastest-growing data center build-out area. Hinojosa has said she plans to halt approvals until legislators pass protections, and her predecessor Greg Abbott had ordered an audit that could slow grid connections.",
+    "Also watch for congressional hearings, since The Verge says many incoming leaders promised to have AI CEOs testify, and whether programs like OpenAI's Grid Protectors change local opposition."
    ],
    "pullQuote": {
     "text": "The data center backlash is one of the most bipartisan political issues I’ve ever seen",
@@ -1870,38 +1871,38 @@
   "storyId": "cc84fd5cfc3e",
   "itemIds": [
    "cc84fd5cfc3e",
+   "47595e2862bb",
    "3b972ecaa602",
    "1de98537a9e6"
   ],
-  "writtenAt": "2026-11-07T20:58:13.544Z",
-  "headline": "METR report finds Anthropic's AI progress has doubled in speed, driven mostly by AI",
-  "dek": "After an 11-week investigation, METR says Anthropic's models are improving about twice as fast as a year ago, mostly because of AI, though Anthropic redacted a majority of the evidence METR found most informative.",
+  "writtenAt": "2026-11-08T11:59:55.169Z",
+  "headline": "METR report finds Anthropic's AI progress has doubled in speed, driven largely by AI",
+  "dek": "After an 11-week investigation, METR says Anthropic's models are improving about twice as fast as a year ago, mostly because of AI assistance, though Anthropic redacted most of the evidence METR found most informative.",
   "keyPoints": [
-   "METR, after an 11-week investigation inside Anthropic, says its models are improving roughly twice as fast as a year ago; benchmarks suggest about two years of historical progress in one year.",
+   "METR's 11-week investigation found Anthropic's models improving roughly twice as fast as a year ago, equal to about two years of historical progress in one, according to benchmark scores.",
    "METR says it is confident the speedup is not just more training compute, and that most of it as of October is due to AI.",
-   "Anthropic staff using its top internal model self-report being about 12 times as productive, roughly double the figure reported a few months earlier with Mythos 5.",
-   "Anthropic redacted what METR calls 'a majority of the evidence we found most informative' from the roughly 100-page report before publication.",
-   "Ajeya Cotra of METR argues Anthropic's own 'dramatic acceleration' threshold has likely already been crossed; she did not work on the report."
+   "Anthropic staff using its top internal model self-reported being about 12 times as productive, roughly double the figure reported a few months earlier with Mythos 5.",
+   "Anthropic redacted what METR calls a majority of the evidence it found most informative from the roughly 100-page report's public version.",
+   "Anthropic finished training three unreleased models in six months, codenamed Model 2, 3 and 4, per METR."
   ],
-  "context": "Anthropic's Responsible Scaling Policy defines dramatically accelerated AI-driven progress as a threshold, and the company said in its S-1 that it may imminently meet it. Evidence that AI is speeding up AI research bears on timeline forecasts and on how much outsiders can verify about frontier labs.",
-  "whatsNext": "Watch whether Anthropic says it has met the RSP threshold, and whether more of the redacted evidence is released as it moves toward going public.",
+  "context": "Anthropic's Responsible Scaling Policy sets a threshold for dramatically accelerated progress due to AI, and Anthropic's S1 says it may imminently meet it. The report is some of the clearest outside evidence of AI speeding up its own development. Anthropic is preparing to go public while its CEO, Dario Amodei, has called for labs to slow down.",
+  "whatsNext": "Watch whether Anthropic declares the RSP acceleration threshold met, and whether more of the redacted evidence is released before its planned public offering.",
   "article": {
    "whatHappened": [
-    "The AI safety organization METR published a report on Thursday from an 11-week investigation inside Anthropic. It found that the company's models are improving roughly twice as quickly as they were a year ago, with little sign of slowing, according to The Verge's account. Benchmark scores suggest Anthropic made about two years of historical progress over the last year.",
-    "METR said it is confident the acceleration was not simply due to more training compute. It said the majority of the acceleration as of October is due to AI, and that AI's contribution is growing. Informal Slack polls and interviews with staff pointed to large productivity gains: employees using Anthropic's most capable internal model reported being about 12 times as productive, around double what they reported a few months earlier using Mythos 5.",
-    "For now, much of the gain comes from AI assisting human researchers rather than working independently. METR warned there are signs that fully autonomous contributions will play a larger role soon, and said it found no clear diminishing returns or bottlenecks. Much of the progress is attributed to unreleased models: METR says Anthropic finished training three in the past six months, codenamed Model 2, Model 3 and Model 4."
+    "The AI safety research group METR published a report on Thursday from an 11-week investigation inside Anthropic. It found that Anthropic's models are improving roughly twice as fast as they were a year ago, with little sign of slowing. Benchmark scores suggest Anthropic made about two years of historical progress over the last year, according to the report.",
+    "METR says it is confident the acceleration is not simply from scaling up training compute. Instead, it says the majority of the acceleration as of October is due to AI, with that share growing. Informal Slack polls and interviews with Anthropic staff pointed to large productivity gains. Employees using the most capable internal model self-reported being around 12 times as productive, about double what staff reported a few months earlier using Mythos 5.",
+    "For now, most of the gain appears to come from AI assisting human researchers rather than working independently, though METR warned there are signs that fully autonomous contributions will play a larger role soon. It found no clear sign of diminishing returns or bottlenecks. Much of the progress is attributed to unreleased internal models: Anthropic finished training three in six months, codenamed Model 2, Model 3 and Model 4."
    ],
    "whyItMatters": [
-    "The report is some of the clearest evidence yet of AI speeding up its own development. It lands as Anthropic prepares to go public while its CEO, Dario Amodei, has publicly called for labs to slow down. Ajeya Cotra, writing on Planned Obsolescence about the report, argues that Anthropic's own Responsible Scaling Policy threshold, capabilities progress going twice as fast as the fastest pre-AI sustained rate, appears already to be crossed. She calls the report the most important update on AI risk in a couple of years.",
-    "Cotra's own modeling is uncertain, but it suggests that doubling overall progress would require a labor speedup of several times, perhaps around 10x today. That is close to the 12x staff self-reports. She says this points toward shorter timelines than most external researchers have projected.",
-    "The access limits matter too. Anthropic gave METR more information than first scoped, but not unrestricted or employee-like access, and it could redact the public report. METR said the public must rely on its judgment more than is ideal. A skeptical LessWrong post, a user's shortform comment, doubts that autonomous AI research is ingenious, citing poor model judgment in side projects, though it concedes fast-feedback tasks are an exception."
+    "The report is among the clearest evidence yet of AI accelerating its own development. Ajeya Cotra, writing on Planned Obsolescence, argues that by Anthropic's own Responsible Scaling Policy the threshold for dramatically accelerated progress, defined as twice the fastest sustained pre-AI rate, appears already crossed. She says this points toward shorter timelines than most outside researchers have projected. She did not work on the report or see the unredacted version.",
+    "Cotra also argues that a doubling of overall progress implies a much larger speedup in human researchers' labor, perhaps around 10 times, which she says lines up with the staff's 12-times self-reports. She calls her estimate very uncertain. Self-reported productivity is also a soft measure.",
+    "The access terms limit what the public can check. Anthropic could redact the final report and did so heavily; METR says its information pipeline was narrow and a small number of data requests were denied. It adds that the public must rely on METR's judgment more than would be ideal. The Verge notes that Anthropic gave METR more information than initially scoped, but not the employee-like access promised to other METR safety researchers in a separate program."
    ],
    "whatToWatch": [
-    "Key questions are whether Anthropic formally acknowledges crossing its RSP threshold, and what it does in response. Its S-1 said it may imminently meet the threshold.",
-    "Also watch whether more of the redacted evidence becomes public, and whether METR or others can verify the speedup independently."
+    "Anthropic's S1 says it may imminently meet the RSP threshold, so the company's own determination, and any change in its safeguards, is the concrete thing to follow. Whether more of the redacted evidence becomes public is another open question, given METR's concern that the public version leaves readers unable to judge for themselves."
    ],
    "pullQuote": {
-    "text": "Anthropic redacted a majority of the evidence we found most informative",
+    "text": "We submitted a ~100-page full report on our assessment to Anthropic. For the public version, Anthropic redacted a majority of the evidence we found most informative",
     "by": "METR"
    }
   }

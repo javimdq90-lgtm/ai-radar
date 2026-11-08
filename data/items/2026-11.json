@@ -4689,7 +4689,7 @@
    "METR",
    "Anthropic"
   ],
-  "storyId": "47595e2862bb"
+  "storyId": "cc84fd5cfc3e"
  },
  {
   "url": "https://huggingface.co/papers/2611.08449",
@@ -5774,5 +5774,86 @@
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
   "imageCheckedAt": "2026-11-07T20:57:57.163Z",
   "storyId": "d8887a09bc5e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+  "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-07T21:17:08.000Z",
+  "snippet": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+  "id": "2c93e9013ac1",
+  "fetchedAt": "2026-11-08T11:59:35.926Z",
+  "enrichedAt": "2026-11-08T11:59:41.531Z",
+  "summary": "A US intelligence memo reportedly claims China's Ministry of State Security recruited Megaspeed executive, a woman, to spy on Nvidia CEO Jensen Huang.",
+  "whyItMatters": "It highlights the intense geopolitical scrutiny around Nvidia and AI chip access, which shapes export controls and supply.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "Megaspeed",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+  "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-07T20:45:32.000Z",
+  "score": 432,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50407882",
+  "id": "5186d80b7eef",
+  "fetchedAt": "2026-11-08T11:59:35.926Z",
+  "enrichedAt": "2026-11-08T11:59:41.531Z",
+  "summary": "Apiiro found passwords and secrets exposed in 1,122 public GitHub files, tied to Claude Code's \"Don't Ask Again\" permission option, which apparently led to sensitive settings being committed to repos.",
+  "whyItMatters": "If you use Claude Code, broad auto-approve permissions can leak credentials into version control, so check your settings files and .gitignore.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Claude Code",
+   "Anthropic",
+   "Apiiro",
+   "GitHub"
+  ],
+  "imageCheckedAt": "2026-11-08T11:59:41.601Z",
+  "storyId": "3b58ffb304e7"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+  "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-07T22:07:22.000Z",
+  "snippet": "On Equity, we unpacked what the midterms mean for the tech industry.",
+  "id": "d44fec61ccb7",
+  "fetchedAt": "2026-11-08T11:59:35.926Z",
+  "enrichedAt": "2026-11-08T11:59:41.531Z",
+  "summary": "TechCrunch's Equity podcast discusses what the US midterm results mean for tech, saying the outlook looks rocky for Elon Musk and for data center buildout.",
+  "whyItMatters": "Shifts in political power could affect data center permitting, energy policy and AI infrastructure spending.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Elon Musk",
+   "TechCrunch"
+  ],
+  "storyId": "0dbf0226aa90"
+ },
+ {
+  "url": "https://caleb.software/posts/claude-to-pi.html",
+  "title": "Goodbye Claude, Hello Pi",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T03:11:48.000Z",
+  "score": 366,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50410107",
+  "id": "e66f4eeac8f3",
+  "fetchedAt": "2026-11-08T11:59:35.926Z",
+  "enrichedAt": "2026-11-08T11:59:41.531Z",
+  "summary": "A developer describes switching from Claude to Pi as their AI coding tool, explaining their reasons for the move.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "Claude",
+   "Pi"
+  ],
+  "storyId": "e66f4eeac8f3"
  }
 ]
