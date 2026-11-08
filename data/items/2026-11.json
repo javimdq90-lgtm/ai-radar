@@ -5855,5 +5855,211 @@
    "Pi"
   ],
   "storyId": "e66f4eeac8f3"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+  "title": "Elvis and Eminem rights holders are suing Suno",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-08T17:23:19.000Z",
+  "snippet": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's Ensuring Likeness Voice and Image Security (ELVIS) Act, which makes it illegal for an AI company to clone a singer's voice. In the suit, lawyers representing Presley's rights holders argue that \"Suno has mechanically encoded itself with artists' identities, hard-work, …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "16495ea32bd4",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "Rights holders of Elvis Presley's music and the publisher of Eminem's records are suing AI music company Suno, alleging it generates music and lyrics that mimic those artists. The Presley suit invokes Tennessee's ELVIS Act, which bans AI voice cloning.",
+  "whyItMatters": "It is a test of state likeness laws against generative music and adds to Suno's mounting legal exposure.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Suno",
+   "Elvis Presley",
+   "Eminem"
+  ],
+  "storyId": "16495ea32bd4"
+ },
+ {
+  "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+  "title": "OpenAI raises $11B at a $1.25T valuation",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T14:49:23.000Z",
+  "score": 173,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50413822",
+  "id": "1d660dc4ea7a",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "OpenAI is reported to have raised $11B at a $1.25 trillion valuation.",
+  "whyItMatters": "A valuation at that level signals continued enormous investor appetite for frontier AI and raises the pressure on OpenAI to deliver revenue.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "OpenAI"
+  ],
+  "image": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
+  "imageCheckedAt": "2026-11-08T21:14:35.877Z",
+  "storyId": "1d660dc4ea7a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+  "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-08T21:00:11.000Z",
+  "snippet": "In a memo to the company, Huang admitted that he had an affair.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+  "id": "45da7994669e",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "Nvidia will investigate CEO Jensen Huang's relationship with a possible Chinese spy; in a memo to staff, Huang admitted to an affair.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-08T21:14:35.810Z",
+  "storyId": "a5b09ead90d4"
+ },
+ {
+  "url": "https://github.com/synchopate/llama-modchip",
+  "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T10:22:04.000Z",
+  "score": 302,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50411961",
+  "id": "5e9d3fd0e59c",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "A GitHub project called Llama-modchip claims to run a 284B-parameter DeepSeek model on 64GB of RAM without a GPU.",
+  "whyItMatters": "If the claim holds, it would make very large models runnable on cheap consumer hardware, though the performance trade-offs are unclear.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "DeepSeek",
+   "Llama-modchip"
+  ],
+  "image": "https://opengraph.githubassets.com/f326b58861a99785f6ad91a0be04e580ae8151370b885409815dace9c5a307bf/synchopate/llama-modchip",
+  "imageCheckedAt": "2026-11-08T21:14:36.083Z",
+  "storyId": "5e9d3fd0e59c"
+ },
+ {
+  "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+  "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T18:16:07.000Z",
+  "score": 374,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50415628",
+  "id": "68ff5ed661ee",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "Goldman Sachs is reportedly pulling Anthropic's Claude Code from its bankers and traders.",
+  "whyItMatters": "It suggests regulated financial firms are still wary of coding agents over security or compliance, a signal for enterprise adoption.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Goldman Sachs",
+   "Claude Code",
+   "Anthropic"
+  ],
+  "image": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
+  "imageCheckedAt": "2026-11-08T21:14:35.790Z",
+  "storyId": "68ff5ed661ee"
+ },
+ {
+  "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+  "title": "Why I will not be using LLMs in my coding",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T12:14:10.000Z",
+  "score": 97,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50412591",
+  "id": "70c6ac8d89e2",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "A developer explains in a personal essay why they will not use LLMs in their coding work.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "70c6ac8d89e2"
+ },
+ {
+  "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T20:26:43.000Z",
+  "score": 122,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50416801",
+  "id": "a24fdfddefa6",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "Nvidia's board announced an independent investigation into CEO Jensen Huang, overseen by a committee of independent directors with outside counsel.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "image": "https://iprsoftwaremedia.com/219/files/202512/692f56983d6332f89cbbc58b_nvidia-logo-horiz-wht-16x9/nvidia-logo-horiz-wht-16x9_44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b-prv.png?v=44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b",
+  "imageCheckedAt": "2026-11-08T21:14:35.811Z",
+  "storyId": "a5b09ead90d4"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+  "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-08T20:22:39.000Z",
+  "snippet": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation. The Board prioritizes U.S. nati…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "a5b09ead90d4",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "Nvidia's board has opened an independent investigation into CEO Jensen Huang over his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company.",
+  "whyItMatters": "Leadership and national security questions at the dominant AI chip supplier could affect export policy and trust in its governance.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "Megaspeed"
+  ],
+  "storyId": "a5b09ead90d4"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+  "title": "Apple is racing to make Siri more agentic",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-08T19:18:19.000Z",
+  "snippet": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's keeping pace with its rivals. Two significant improvements are expected to be made to Siri in the coming months. One will give the assistant fine-grained control over Apple's first-party apps, allowing it to do things like rotate and crop images in Photos and organiz…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ce0a393f5bc7",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "Per Bloomberg's Mark Gurman, Apple CEO John Ternus is pushing Craig Federighi to speed up Siri's roadmap toward an agent that can compete with OpenAI's Dots and Meta's Muse. Coming updates include fine-grained control of first-party apps, such as cropping and rotating images in Photos.",
+  "whyItMatters": "Apple acknowledges it is behind in agents, and its OS-level app control could shape what developers can build on iOS.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Apple",
+   "Siri",
+   "Craig Federighi",
+   "John Ternus"
+  ],
+  "storyId": "ce0a393f5bc7"
+ },
+ {
+  "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+  "title": "Agent memory needs its OpenTelemetry moment",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-08T08:40:23.000Z",
+  "score": 156,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50411467",
+  "id": "e4d02fd5d90b",
+  "fetchedAt": "2026-11-08T21:14:25.150Z",
+  "enrichedAt": "2026-11-08T21:14:35.690Z",
+  "summary": "An essay argues that AI agent memory needs a common standard for instrumentation and observability, comparable to what OpenTelemetry did for tracing.",
+  "whyItMatters": "Without shared standards, debugging and swapping agent memory layers stays vendor-specific and hard.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "OpenTelemetry"
+  ],
+  "storyId": "d8887a09bc5e"
  }
 ]

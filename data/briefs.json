@@ -286,6 +286,44 @@
    }
   }
  },
+ "1d660dc4ea7a": {
+  "storyId": "1d660dc4ea7a",
+  "itemIds": [
+   "1d660dc4ea7a"
+  ],
+  "writtenAt": "2026-11-08T21:14:56.789Z",
+  "headline": "OpenAI raises first $11B of new round at $1.25T pre-money valuation",
+  "dek": "About $11 billion has reached OpenAI at a $1.25 trillion pre-money valuation, roughly 37% of the original target, with SoftBank and MGX participating and up to $9 billion more still to close.",
+  "keyPoints": [
+   "About $11 billion reached OpenAI by Friday, November 6, 2026, per people familiar with the deal; CFO Sarah Friar confirmed the $1.25 trillion pre-money valuation on TV.",
+   "Reports said OpenAI first sought $30 billion or more at $1.4 trillion; Friar said the higher figures came from a media report, not the company.",
+   "SoftBank and Abu Dhabi's MGX took part. Lead investors, terms and use of proceeds were not disclosed, and the second portion has not closed.",
+   "Friar said Q3 business grew 70% quarter over quarter, enterprise doubled, and ChatGPT has 1.2 billion weekly users. She gave no revenue figures.",
+   "The price is almost 50% above March, when OpenAI raised $122 billion at $852 billion; the implied step-up is about 46.7%."
+  ],
+  "context": "OpenAI raised $122 billion at $852 billion in March, and its funding needs underpin large compute commitments to partners such as NVIDIA and Microsoft. The smaller, cheaper round follows a sell-off in AI stocks, and rival Anthropic is planning a Nasdaq listing, so private valuations of frontier labs are being tested.",
+  "whatsNext": "Watch whether OpenAI's round reaches $20 billion, whether NVIDIA meets its guidance when it reports on November 17, and how Anthropic's mid-November Nasdaq debut is received.",
+  "article": {
+   "whatHappened": [
+    "About $11 billion in new money reached OpenAI's accounts by Friday, November 6, 2026, according to people familiar with the deal. The cash is the first part of a round priced at a $1.25 trillion pre-money valuation, a figure CFO Sarah Friar confirmed in a TV interview. OpenAI declined to comment on the funding itself.",
+    "Press reports said OpenAI initially sought $30 billion or more at a $1.4 trillion valuation, and two investors put the first ask at $1.5 trillion. Friar disputed that account on air, saying the higher figure began with a media report and did not come from OpenAI. The $11 billion covers about 37% of the original target.",
+    "SoftBank and Abu Dhabi's MGX took part. The total could rise to as much as $20 billion, and a separate report put the follow-on at up to another $9 billion, which has not closed. Lead investors, terms and use of proceeds were not disclosed."
+   ],
+   "whyItMatters": [
+    "Friar described the price as almost 50% above March, when OpenAI raised $122 billion at $852 billion. The implied step-up is roughly 46.7%, though that comparison is approximate because her figure is pre-money and the basis of the March valuation is unclear. She said OpenAI's business grew 70% quarter over quarter in the third quarter, its enterprise business doubled, and revenue splits about evenly between consumer and enterprise. She cited 1.2 billion weekly ChatGPT users and an ads run rate of $1 billion by August, but gave no revenue dollar figures.",
+    "The round ended up smaller and cheaper after AI stocks sold off, which matters to Microsoft and NVIDIA because both depend on OpenAI's ability to fund its plans. Gains on Microsoft's OpenAI stake added $207 million to GAAP net income in the September quarter, against $3.1 billion in net losses a year earlier. A smaller valuation increase reduces future gains, though the article calls that minor next to 48% Azure growth.",
+    "NVIDIA has said OpenAI's existing and planned commitments add up to about 12 gigawatts of its compute, and management said frontier labs are growing faster than their balance sheets and credit profiles can support. The article argues a round that fills in stages shows that strain. NVIDIA shares rose 2.78% to $186.64 on Friday but remain down 21.4% over one month."
+   ],
+   "whatToWatch": [
+    "Two milestones will test the picture, according to the coverage: whether OpenAI's round reaches $20 billion, and whether NVIDIA meets its guidance of $108.0 billion in third-quarter revenue when it reports on Tuesday, November 17.",
+    "Anthropic plans to list on Nasdaq in mid-November. Some investors now value it at about $1.5 trillion, down from roughly $2 trillion in earlier expectations, and a weak debut could pull both labs' valuations down."
+   ],
+   "pullQuote": {
+    "text": "The demand for AI is real.",
+    "by": "Sarah Friar, OpenAI CFO"
+   }
+  }
+ },
  "218f77bb959f": {
   "storyId": "218f77bb959f",
   "itemIds": [
@@ -1499,6 +1537,46 @@
    "pullQuote": {
     "text": "OpenAI built an autonomous pipeline that found, validated and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
     "by": "OpenAI"
+   }
+  }
+ },
+ "a5b09ead90d4": {
+  "storyId": "a5b09ead90d4",
+  "itemIds": [
+   "a5b09ead90d4",
+   "a24fdfddefa6",
+   "45da7994669e"
+  ],
+  "writtenAt": "2026-11-08T21:14:47.740Z",
+  "headline": "Nvidia board opens independent investigation into CEO Jensen Huang over ties to alleged Chinese spy",
+  "dek": "A committee of independent directors will examine Huang's relationship with Megaspeed executive Alice Huang, whom US officials reportedly believe was recruited by China's Ministry of State Security; Huang has admitted an affair.",
+  "keyPoints": [
+   "Nvidia's board announced an independent investigation overseen by independent directors, assisted by outside counsel, after reports that Huang was the target of a foreign intelligence effort.",
+   "Huang admitted in a memo to staff that he had an affair with Alice Huang, a Megaspeed executive, writing: \"I was unfaithful to my wife.\"",
+   "The board says it has no reason to believe national security or Nvidia secrets were compromised, and says Huang is cooperating with the review.",
+   "Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China, according to The Verge.",
+   "The New York Times reported last month on the relationship, and US officials reportedly believe Alice Huang passed information to Beijing."
+  ],
+  "context": "US export controls on advanced AI chips have been a central point of the US-China trade dispute, and both the Biden and Trump administrations have restricted sales to China. Huang has built a close relationship with President Trump, which raises questions about what he knew of administration deliberations on AI policy. Other AI companies have already warned employees about spies who use romance or sex as a lever.",
+  "whatsNext": "The board says it will provide further updates on the investigation as appropriate, but has not given a timeline.",
+  "article": {
+   "whatHappened": [
+    "Nvidia's board of directors announced an independent investigation into CEO Jensen Huang following reports that he had been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the inquiry. The announcement came on Sunday, according to TechCrunch.",
+    "The investigation centers on Huang's relationship with Alice Huang, a Megaspeed executive. A memo circulating among US policymakers earlier this year claimed she had been recruited by China's Ministry of State Security to spy on Nvidia's CEO. The New York Times reported last month that Huang had a \"close relationship\" with her, and US officials reportedly believe she fed information back to Beijing.",
+    "Nvidia also published a message Huang sent to the company in which he admitted the relationship was an affair. He wrote that he owed his family and colleagues an apology and that he had \"fallen short\" of his responsibility to the company. The board said it has confidence in Huang and his leadership team, and that he has committed to cooperating with the review.",
+    "The board said it has no reason to believe either national security or Nvidia's secrets were compromised, but that the inquiry will examine all available information. In response to earlier reports, Nvidia had said the pair's interactions were \"not unusual\" and that it does not share classified information with customers."
+   ],
+   "whyItMatters": [
+    "Megaspeed is both an Nvidia customer and, according to The Verge, the subject of a Commerce Department investigation into whether it smuggled AI chips to China. Nvidia's chips are viewed as crucial to US technological leadership. Both the Biden and Trump administrations have restricted their sale to China. Trump has loosened some limits but still bars sales of Nvidia's most powerful chips to Chinese firms, and Commerce must approve individual firms to handle the chips.",
+    "The Verge also notes the concern about Huang's closeness to Trump: what he may have learned about the administration's thinking on AI, and whether any of it reached Alice Huang and then Beijing. The coverage does not show that this happened, and the board says it has no reason to believe secrets were compromised. The open question is the scope of what the investigation can establish."
+   ],
+   "whatToWatch": [
+    "The board has promised further updates as appropriate but has given no timeline or details on how the committee will proceed. Watch for whether outside counsel's findings are made public, and whether the review touches Nvidia's dealings with Megaspeed.",
+    "Also worth watching is any response from the Commerce Department, whose separate investigation into Megaspeed's alleged chip smuggling is already under way."
+   ],
+   "pullQuote": {
+    "text": "The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders.",
+    "by": "Nvidia Board of Directors"
    }
   }
  },
