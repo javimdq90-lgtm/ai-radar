@@ -1545,38 +1545,42 @@
   "itemIds": [
    "a5b09ead90d4",
    "a24fdfddefa6",
-   "45da7994669e"
+   "45da7994669e",
+   "9709ee9b2939",
+   "0b3a357762c2",
+   "b10abbc74a23"
   ],
-  "writtenAt": "2026-11-08T21:14:47.740Z",
-  "headline": "Nvidia board opens independent investigation into CEO Jensen Huang over ties to alleged Chinese spy",
-  "dek": "A committee of independent directors will examine Huang's relationship with Megaspeed executive Alice Huang, whom US officials reportedly believe was recruited by China's Ministry of State Security; Huang has admitted an affair.",
+  "writtenAt": "2026-11-09T14:00:49.126Z",
+  "headline": "Nvidia board opens investigation into CEO Jensen Huang over alleged spy link",
+  "dek": "Nvidia's independent directors will investigate Jensen Huang's relationship with Megaspeed executive Alice Huang, reportedly recruited by China's MSS, after Huang admitted in a staff memo to an affair.",
   "keyPoints": [
-   "Nvidia's board announced an independent investigation overseen by independent directors, assisted by outside counsel, after reports that Huang was the target of a foreign intelligence effort.",
-   "Huang admitted in a memo to staff that he had an affair with Alice Huang, a Megaspeed executive, writing: \"I was unfaithful to my wife.\"",
-   "The board says it has no reason to believe national security or Nvidia secrets were compromised, and says Huang is cooperating with the review.",
-   "Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China, according to The Verge.",
-   "The New York Times reported last month on the relationship, and US officials reportedly believe Alice Huang passed information to Beijing."
+   "Nvidia's board announced on Sunday an independent investigation, led by a committee of independent directors with outside counsel, into reports that Huang was the target of a foreign intelligence effort.",
+   "Huang's memo to staff admits he was unfaithful to his wife; it does not name Alice Huang, per TechCrunch. The Verge says it acknowledges an affair.",
+   "The board says it has no reason to believe national security or Nvidia secrets were compromised, and that it has confidence in Huang and his leadership team.",
+   "Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China.",
+   "The New York Times reported last month on a close relationship; a memo circulating among U.S. policymakers claimed China's Ministry of State Security recruited Alice Huang."
   ],
-  "context": "US export controls on advanced AI chips have been a central point of the US-China trade dispute, and both the Biden and Trump administrations have restricted sales to China. Huang has built a close relationship with President Trump, which raises questions about what he knew of administration deliberations on AI policy. Other AI companies have already warned employees about spies who use romance or sex as a lever.",
-  "whatsNext": "The board says it will provide further updates on the investigation as appropriate, but has not given a timeline.",
+  "context": "Nvidia's chips are central to the US-China technology contest, and both the Biden and Trump administrations have restricted their sale to China. Huang is also seen as close to President Trump, which raises questions about what he knew of administration AI deliberations. Nvidia earlier called the pair's interactions \"not unusual\".",
+  "whatsNext": "The board says it will provide further updates as appropriate, but no timeline for the investigation has been given.",
   "article": {
    "whatHappened": [
-    "Nvidia's board of directors announced an independent investigation into CEO Jensen Huang following reports that he had been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the inquiry. The announcement came on Sunday, according to TechCrunch.",
-    "The investigation centers on Huang's relationship with Alice Huang, a Megaspeed executive. A memo circulating among US policymakers earlier this year claimed she had been recruited by China's Ministry of State Security to spy on Nvidia's CEO. The New York Times reported last month that Huang had a \"close relationship\" with her, and US officials reportedly believe she fed information back to Beijing.",
-    "Nvidia also published a message Huang sent to the company in which he admitted the relationship was an affair. He wrote that he owed his family and colleagues an apology and that he had \"fallen short\" of his responsibility to the company. The board said it has confidence in Huang and his leadership team, and that he has committed to cooperating with the review.",
-    "The board said it has no reason to believe either national security or Nvidia's secrets were compromised, but that the inquiry will examine all available information. In response to earlier reports, Nvidia had said the pair's interactions were \"not unusual\" and that it does not share classified information with customers."
+    "Nvidia's board of directors announced on Sunday that it is opening an independent investigation into CEO Jensen Huang, following reports that he was the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the inquiry.",
+    "The board said it has no reason to believe that national security or Nvidia secrets were compromised, but that the inquiry will examine all available information. It said Huang supports the review and has committed to cooperating, and that it has confidence in him and his leadership team.",
+    "Nvidia also published a memo from Huang to staff in which he admits to an affair. \"I was unfaithful to my wife,\" he wrote, adding that he had fallen short of his responsibility to the company. According to TechCrunch, the memo does not name Alice Huang, a former executive at Singapore-based chip company Megaspeed.",
+    "The New York Times reported last month that Huang had a close relationship with the Megaspeed executive. A memo circulating among U.S. policymakers earlier this year claimed she had been recruited by China's Ministry of State Security to spy on him. The Verge reports US officials believe she was passing information to Beijing."
    ],
    "whyItMatters": [
-    "Megaspeed is both an Nvidia customer and, according to The Verge, the subject of a Commerce Department investigation into whether it smuggled AI chips to China. Nvidia's chips are viewed as crucial to US technological leadership. Both the Biden and Trump administrations have restricted their sale to China. Trump has loosened some limits but still bars sales of Nvidia's most powerful chips to Chinese firms, and Commerce must approve individual firms to handle the chips.",
-    "The Verge also notes the concern about Huang's closeness to Trump: what he may have learned about the administration's thinking on AI, and whether any of it reached Alice Huang and then Beijing. The coverage does not show that this happened, and the board says it has no reason to believe secrets were compromised. The open question is the scope of what the investigation can establish."
+    "Megaspeed is an Nvidia customer and is the subject of a Commerce Department investigation into whether it smuggled AI chips to China. Nvidia's chips are viewed as crucial to US technological supremacy, and Washington has restricted their sale to China. President Trump has loosened some limits but still bars sales of Nvidia's most powerful chips to Chinese firms, and the Commerce Department must approve individual firms.",
+    "The Verge notes that Huang has grown close to Trump, and that there is concern about what he may have learned of the administration's AI deliberations and whether any of it reached Alice Huang and then Beijing. That is the Verge's framing of the concern; the board's statement says it has seen no evidence of compromise.",
+    "Nvidia had previously said the pair's interactions were \"not unusual\" and that it does not share classified information with customers. TechCrunch notes that other AI companies have warned employees to be wary of possible spies, including those offering sex or romance."
    ],
    "whatToWatch": [
-    "The board has promised further updates as appropriate but has given no timeline or details on how the committee will proceed. Watch for whether outside counsel's findings are made public, and whether the review touches Nvidia's dealings with Megaspeed.",
-    "Also worth watching is any response from the Commerce Department, whose separate investigation into Megaspeed's alleged chip smuggling is already under way."
+    "The board has said only that it will provide further updates as appropriate. The scope, timeline and any findings of the independent investigation have not been disclosed.",
+    "Also open is whether the Commerce Department's Megaspeed probe intersects with the board's inquiry, and how the Trump administration responds to the reports."
    ],
    "pullQuote": {
-    "text": "The Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders.",
-    "by": "Nvidia Board of Directors"
+    "text": "you deserve better from me",
+    "by": "Jensen Huang, Nvidia CEO"
    }
   }
  },
