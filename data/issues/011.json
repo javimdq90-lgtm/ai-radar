@@ -1,0 +1,271 @@
+{
+ "number": 11,
+ "date": "2026-11-09T16:03:42.820Z",
+ "subject": "OpenAI's first $11B closes at a $1.25T valuation",
+ "preview": "Nvidia's board investigates its CEO, Apple hurries Siri toward agents, and Elvis's rights holders sue Suno.",
+ "intro": "Money and geopolitics dominated the weekend. A frontier lab priced itself in public, and the biggest chip company's board started looking into its own CEO. Elsewhere, the product and legal stories were smaller but pointed the same way: agents everywhere, and the lawsuits following them.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "1d660dc4ea7a",
+     "headline": "OpenAI pulls in first $11B at a $1.25T pre-money valuation",
+     "body": "About $11 billion had reached OpenAI by Friday, per people familiar, and CFO Sarah Friar confirmed the valuation on TV. That is roughly 37% of the original target, with up to $9 billion still to close. SoftBank and MGX took part; lead investors and use of proceeds weren't disclosed. Friar said Q3 business grew 70% quarter over quarter and ChatGPT has 1.2 billion weekly users, but gave no revenue figures.",
+     "why": "The round is smaller and cheaper than the reported ask, landing after an AI stock sell-off. It is a live read on what investors will pay for frontier labs."
+    }
+   ]
+  },
+  {
+   "heading": "Nvidia and China",
+   "stories": [
+    {
+     "storyId": "a5b09ead90d4",
+     "headline": "Nvidia's board opens an investigation into CEO Jensen Huang",
+     "body": "Nvidia's independent directors, with outside counsel, will investigate reports that Huang was the target of a foreign intelligence effort. In a staff memo he admitted being unfaithful to his wife; per TechCrunch it doesn't name Alice Huang, the Megaspeed executive China's MSS reportedly recruited. Megaspeed is an Nvidia customer under Commerce investigation over alleged chip smuggling. The board says it has no reason to believe national security or company secrets were compromised.",
+     "why": "Nvidia's chips sit at the center of US-China export fights, so a CEO-level inquiry tied to a customer under investigation is more than a personal story."
+    }
+   ]
+  },
+  {
+   "heading": "Compute and products",
+   "stories": [
+    {
+     "storyId": "16642f6cb745",
+     "headline": "Microsoft is winding down its Oracle AI capacity deal; Crusoe sells Wyoming site to Google",
+     "body": "Reuters reports that Microsoft is winding down its deal to rent AI cloud capacity from Oracle. Separately, Crusoe is selling its troubled Wyoming data center project to Google. Neither report, as summarized here, comes with terms, prices or reasons, so treat the details as still to come.",
+     "why": "Two data center arrangements are changing hands at once, a reminder that AI capacity commitments get reshuffled."
+    },
+    {
+     "storyId": "ce0a393f5bc7",
+     "headline": "Apple is pushing to make Siri an agent",
+     "body": "Per Bloomberg's Mark Gurman, Apple CEO John Ternus is pushing Craig Federighi to speed up Siri's roadmap toward an agent that can compete with OpenAI's Dots and Meta's Muse. Coming updates include fine-grained control of first-party apps, such as cropping and rotating images in Photos.",
+     "why": "Apple is effectively admitting it is behind on agents, and OS-level app control could shape what developers can build on iOS."
+    }
+   ]
+  },
+  {
+   "heading": "Legal",
+   "stories": [
+    {
+     "storyId": "16495ea32bd4",
+     "headline": "Elvis and Eminem rights holders sue Suno",
+     "body": "Rights holders of Elvis Presley's music and the publisher of Eminem's records are suing AI music company Suno, alleging it generates music and lyrics that mimic those artists. The Presley suit invokes Tennessee's ELVIS Act, which bans AI voice cloning. The Presley suit is the one leaning on state law.",
+     "why": "It tests a state likeness law against generative music and adds to Suno's legal exposure."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "68ff5ed661ee",
+   "text": "Goldman Sachs is reportedly pulling Anthropic's Claude Code from its bankers and traders."
+  },
+  {
+   "storyId": "29c568495a81",
+   "text": "Researchers found hundreds of servers running the Artex AI penetration-testing tool exposed to the internet, open to anyone."
+  },
+  {
+   "storyId": "5e9d3fd0e59c",
+   "text": "A GitHub project, Llama-modchip, claims to run a 284B-parameter DeepSeek model on 64GB of RAM with no GPU."
+  },
+  {
+   "storyId": "f45973610354",
+   "text": "A Show HN project compresses a 31B video+audio diffusion model to 14B parameters, running in 6 steps with INT8."
+  },
+  {
+   "storyId": "d8887a09bc5e",
+   "text": "Anthropic published a breakdown of the components that make up agent memory, useful reading for anyone building persistent agents."
+  },
+  {
+   "storyId": "9d00431e265d",
+   "text": "Meta abandoned a commercial terms update that would have forced Facebook page owners to allow AI training on linked content."
+  },
+  {
+   "storyId": "5046827bcbdd",
+   "text": "University libraries are being swamped by AI scraping bots, which threatens public access to their collections."
+  },
+  {
+   "storyId": "ac30c3ff268d",
+   "text": "Cognition CSO Alex Stamos says the cybersecurity industry is overwhelmed by AI-boosted attacks and that this is only the beginning."
+  }
+ ],
+ "links": {
+  "1d660dc4ea7a": [
+   {
+    "title": "OpenAI raises $11B at a $1.25T valuation",
+    "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+    "source": "247wallst.com"
+   },
+   {
+    "title": "OpenAI raises $11B at a $1.25T valuation",
+    "url": "https://news.ycombinator.com/item?id=50413822",
+    "source": "HN discussion"
+   }
+  ],
+  "a5b09ead90d4": [
+   {
+    "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+    "source": "The Verge"
+   },
+   {
+    "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "source": "nvidianews.nvidia.com"
+   },
+   {
+    "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+    "url": "https://news.ycombinator.com/item?id=50416801",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+    "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+    "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+    "source": "nvidianews.nvidia.com"
+   },
+   {
+    "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+    "url": "https://news.ycombinator.com/item?id=50418016",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+    "source": "The Verge"
+   },
+   {
+    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+    "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+    "source": "TechCrunch"
+   }
+  ],
+  "16642f6cb745": [
+   {
+    "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+    "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+    "source": "reuters.com"
+   },
+   {
+    "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+    "url": "https://news.ycombinator.com/item?id=50395933",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Crusoe sells troubled Wyoming data center project to Google",
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "source": "TechCrunch"
+   }
+  ],
+  "ce0a393f5bc7": [
+   {
+    "title": "Apple is racing to make Siri more agentic",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+    "source": "The Verge"
+   }
+  ],
+  "16495ea32bd4": [
+   {
+    "title": "Elvis and Eminem rights holders are suing Suno",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+    "source": "The Verge"
+   }
+  ],
+  "68ff5ed661ee": [
+   {
+    "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "source": "thestateofai.com"
+   },
+   {
+    "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+    "url": "https://news.ycombinator.com/item?id=50415628",
+    "source": "HN discussion"
+   }
+  ],
+  "29c568495a81": [
+   {
+    "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+    "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+    "source": "TechCrunch"
+   }
+  ],
+  "5e9d3fd0e59c": [
+   {
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "source": "github.com"
+   },
+   {
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://news.ycombinator.com/item?id=50411961",
+    "source": "HN discussion"
+   }
+  ],
+  "f45973610354": [
+   {
+    "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+    "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+    "source": "github.com"
+   },
+   {
+    "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+    "url": "https://news.ycombinator.com/item?id=50405263",
+    "source": "HN discussion"
+   }
+  ],
+  "d8887a09bc5e": [
+   {
+    "title": "The Components of Agent Memory",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "source": "anthropic.com"
+   },
+   {
+    "title": "The Components of Agent Memory",
+    "url": "https://news.ycombinator.com/item?id=50402212",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Agent memory needs its OpenTelemetry moment",
+    "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+    "source": "lorekit.io"
+   },
+   {
+    "title": "Agent memory needs its OpenTelemetry moment",
+    "url": "https://news.ycombinator.com/item?id=50411467",
+    "source": "HN discussion"
+   }
+  ],
+  "9d00431e265d": [
+   {
+    "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+    "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+    "source": "Ars Technica"
+   }
+  ],
+  "5046827bcbdd": [
+   {
+    "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+    "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+    "source": "cbc.ca"
+   },
+   {
+    "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+    "url": "https://news.ycombinator.com/item?id=50392499",
+    "source": "HN discussion"
+   }
+  ],
+  "ac30c3ff268d": [
+   {
+    "title": "AI broke the cybersecurity world. What’s next?",
+    "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+    "source": "The Verge"
+   }
+  ]
+ }
+}
