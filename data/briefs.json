@@ -400,6 +400,46 @@
    }
   }
  },
+ "3b58ffb304e7": {
+  "storyId": "3b58ffb304e7",
+  "itemIds": [
+   "3b58ffb304e7",
+   "5186d80b7eef",
+   "1f917ef42e11"
+  ],
+  "writtenAt": "2026-11-10T00:46:00.543Z",
+  "headline": "Apiiro finds Claude Code settings files leaking secrets in public GitHub repos",
+  "dek": "Apiiro found about 1,100 secrets from 63 organizations in over 100,000 public Claude Code settings files; Anthropic's Boris Cherny says the team is looking at fixes.",
+  "keyPoints": [
+   "Apiiro found over 100,000 public GitHub repos containing Claude Code's local settings file; about 1,100, from 63 organizations, held secrets such as API tokens, database passwords or private keys.",
+   "The \"Yes, and don't ask again\" approval stores commands in .claude/settings.local.json, sometimes verbatim, including embedded credentials.",
+   "Of the roughly 1,100 secrets, 215 were missed by two popular scanners, gitleaks and TruffleHog, according to Apiiro.",
+   "Boris Cherny of Claude Code says the team is \"looking into what we can do to prevent this\" and is considering built-in secret scanning.",
+   "A separate GitHub issue reports Claude Code sending users' email addresses in User-Agent headers; a contributor says a privacy mod blocks it from v2.1.317."
+  ],
+  "context": "AI coding agents increasingly run shell commands on developers' machines, and permission systems that remember approvals create new places for credentials to end up. Similar agent-related exposure has occurred elsewhere: Ars Technica notes Meta suspended sharing on its Muse agent last month after guessable URLs were found. The Claude Code issue was reportedly flagged in bug reports as early as August 2025.",
+  "whatsNext": "Watch for whether Anthropic ships a fix or built-in secret scanning in Claude Code, including for auto mode, which Cherny acknowledged can still save sensitive commands.",
+  "article": {
+   "whatHappened": [
+    "Security firm Apiiro reports that Claude Code is leaking sensitive information into public GitHub repositories through its local settings files. Researchers found over 100,000 cases where the file had been uploaded to a public repo. Of those, about 1,100 from 63 organizations contained secrets, including public API tokens, database passwords and private keys, according to Ars Technica's account of the findings.",
+    "The cause is how Claude Code stores approvals. When a user picks \"Yes, and don't ask again\" for a shell command, the choice is saved as a rule in .claude/settings.local.json. The rule is sometimes written as a pattern, but the command is often saved as is, including any credentials embedded in it.",
+    "Anthropic's documentation says the file is added to the developer's global .gitignore, which usually keeps it out of repos. But that setting does not carry over at the repo level, so the file can be uploaded if a repo is cloned elsewhere or a folder later becomes a repo. Apiiro writes that Claude Code itself often commits changes to the file without user input."
+   ],
+   "whyItMatters": [
+    "Removing the file does not necessarily end the exposure. Ars Technica reports that secrets can persist in forks of the original project. Apiiro also found that 215 of the roughly 1,100 exposed secrets were not flagged by gitleaks and TruffleHog, two popular scanners, which weakens the standard advice to rely on scanning.",
+    "The problem was not new. A Claude Code bug report raised it as far back as August 2025, and other reports noted the file was sometimes not added to .gitignore or that commands could land in another unprotected file. Those reports were closed without action after 60 days of inactivity.",
+    "Boris Cherny, who works on Claude Code, said on Hacker News that these files should almost never be checked in and that cases seemed to arise when the files were manually created and checked in. That framing puts some responsibility on users, though Apiiro's finding that Claude Code sometimes commits the file itself complicates it."
+   ],
+   "whatToWatch": [
+    "Cherny recommended auto mode, which uses classifiers to handle routine permission prompts, and secret scanners. When a user noted that auto mode can still save sensitive commands to settings files, he called it a \"good catch\" and said the team is thinking through improvements. Anthropic has not announced a specific fix or date.",
+    "Separately, a GitHub issue reports Claude Code sending the account email in the User-Agent header during web searches. A contributor said a built-in privacy mod blocks this from v2.1.317, enabled by default, though another user reported a shell command on 2.1.319 that it did not block."
+   ],
+   "pullQuote": {
+    "text": "looking into what we can do to prevent this",
+    "by": "Boris Cherny, Claude Code"
+   }
+  }
+ },
  "3c63b1bd263a": {
   "storyId": "3c63b1bd263a",
   "itemIds": [
@@ -1215,6 +1255,40 @@
    }
   }
  },
+ "99d632aaa416": {
+  "storyId": "99d632aaa416",
+  "itemIds": [
+   "99d632aaa416"
+  ],
+  "writtenAt": "2026-11-10T00:45:27.598Z",
+  "headline": "Meta releases Muse Ember, a low-cost model for high-volume agent work",
+  "dek": "Meta Superintelligence Lab's Muse Ember costs 10 cents per million input tokens, and Meta says it beats Anthropic's Haiku and OpenAI's Luna on cost per task while handling text, images and audio.",
+  "keyPoints": [
+   "Meta Superintelligence Lab released Muse Ember on Monday, calling it its lightest and most cost-efficient model yet.",
+   "Ember costs 10 cents per million input tokens, below Haiku and Luna and cost-competitive with DeepSeek V4.1 Flash and GLM 5.3 Flash.",
+   "Meta cites Artificial Analysis's composite benchmark score to claim Ember is cheaper and smarter than Haiku and Luna.",
+   "Ember takes text, images and audio, so agents can read screenshots and scanned documents or work from voice memos and video.",
+   "It is meant to pair with the larger Muse Wonder: \"Muse Wonder plans, Muse Ember handles the volume,\" Meta says."
+  ],
+  "context": "Ember is the fourth model under Meta's Muse brand, after Spark (April), its open source twin Glimmer (August) and the frontier model Wonder (October). The release targets the low-cost tier of agent workloads, where Anthropic's Haiku, OpenAI's Luna and cheap open models from DeepSeek and GLM already compete.",
+  "article": {
+   "whatHappened": [
+    "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, which it describes as the lab's lightest and most cost-efficient model yet. Meta said Ember was \"designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.\"",
+    "Meta put particular emphasis on cost per task. Using Artificial Analysis's composite benchmark score, it presented Ember as both cheaper and smarter than competitors such as Anthropic's Haiku and OpenAI's Luna. At 10 cents per million input tokens, Ember is priced well below those models and is cost-competitive with open source options like DeepSeek V4.1 Flash and GLM 5.3 Flash.",
+    "Ember is built to work alongside a larger model such as Muse Wonder inside an agentic harness. In a customer-support setup, for example, a heavier model might set the rules for handling an issue and then send a lighter model to apply them across tens of thousands of cases. Meta also trained Ember on text, images and audio, so agents can read screenshots, charts and scanned documents, or work from voice memos, meeting recordings and video without a separate model."
+   ],
+   "whyItMatters": [
+    "Ember fits a split that has become common in agent design: an expensive model plans, and a cheap one executes repeated steps. Because agents may make many calls per task, input-token price and per-task cost can matter more than peak capability, which is why Meta leads with them.",
+    "The comparison set is notable. Meta is pitching Ember against both closed small models and low-priced open models, a crowded part of the market. The benchmark claim rests on a single composite score from Artificial Analysis and comes from Meta itself, so independent testing on real agent workloads will show how far it holds.",
+    "Ember is the fourth Muse model, following Spark in April, its open source twin Glimmer in August and Wonder in October. Meta's consumer product, the Muse Agent, launched in September and has had what TechCrunch calls unexpected success, with Spaces and video chat added this month."
+   ],
+   "whatToWatch": [],
+   "pullQuote": {
+    "text": "Muse Wonder plans, Muse Ember handles the volume.",
+    "by": "Meta"
+   }
+  }
+ },
  "9a1e17b51b2d": {
   "storyId": "9a1e17b51b2d",
   "itemIds": [
@@ -1548,39 +1622,49 @@
    "45da7994669e",
    "9709ee9b2939",
    "0b3a357762c2",
-   "b10abbc74a23"
+   "b10abbc74a23",
+   "55280474a321",
+   "a557b7a372d0",
+   "faa2c8a3a820",
+   "3541a994b8f0",
+   "09274ed8ecd7",
+   "432027aa0838",
+   "eb0c65b2b58f",
+   "9b0466c1eb02",
+   "1a76a5185445",
+   "7d8b4ae6c27e"
   ],
-  "writtenAt": "2026-11-09T14:00:49.126Z",
-  "headline": "Nvidia board opens investigation into CEO Jensen Huang over alleged spy link",
-  "dek": "Nvidia's independent directors will investigate Jensen Huang's relationship with Megaspeed executive Alice Huang, reportedly recruited by China's MSS, after Huang admitted in a staff memo to an affair.",
+  "writtenAt": "2026-11-10T00:45:48.521Z",
+  "headline": "Nvidia board opens investigation into CEO Jensen Huang over ties to alleged Chinese spy",
+  "dek": "Nvidia's independent directors will investigate Huang's relationship with Megaspeed executive Alice Huang, reportedly a Chinese intelligence recruit; Huang admitted an affair in a memo to staff and says he will cooperate.",
   "keyPoints": [
-   "Nvidia's board announced on Sunday an independent investigation, led by a committee of independent directors with outside counsel, into reports that Huang was the target of a foreign intelligence effort.",
-   "Huang's memo to staff admits he was unfaithful to his wife; it does not name Alice Huang, per TechCrunch. The Verge says it acknowledges an affair.",
-   "The board says it has no reason to believe national security or Nvidia secrets were compromised, and that it has confidence in Huang and his leadership team.",
-   "Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China.",
-   "The New York Times reported last month on a close relationship; a memo circulating among U.S. policymakers claimed China's Ministry of State Security recruited Alice Huang."
+   "Nvidia's board says a committee of independent directors, assisted by outside independent counsel, will oversee the investigation into reports that Huang was the target of a foreign intelligence effort.",
+   "Huang's memo says he was 'unfaithful' to his wife. He says he supports the investigation and will cooperate fully.",
+   "The board says it has 'no reason to believe' national security or Nvidia secrets were compromised, and expresses confidence in Huang.",
+   "Megaspeed, where Alice Huang is an executive, bought $4.8 billion of Nvidia chips and is under a Commerce Department probe over alleged chip smuggling to China, per The Verge.",
+   "The New York Times reported Trump was briefed roughly a year ago on the relationship. China denies the spying allegation, according to The Verge."
   ],
-  "context": "Nvidia's chips are central to the US-China technology contest, and both the Biden and Trump administrations have restricted their sale to China. Huang is also seen as close to President Trump, which raises questions about what he knew of administration AI deliberations. Nvidia earlier called the pair's interactions \"not unusual\".",
-  "whatsNext": "The board says it will provide further updates as appropriate, but no timeline for the investigation has been given.",
+  "context": "Nvidia's chips underpin US AI development, and export of its most powerful chips to China is restricted, though the Trump administration has loosened some rules. Huang has grown close to President Trump and Nvidia has become central to chip-access negotiations with China, which is why any intelligence exposure around its CEO draws scrutiny.",
+  "whatsNext": "The board says it will provide further updates as appropriate, and the Commerce Department's separate Megaspeed investigation remains open.",
   "article": {
    "whatHappened": [
-    "Nvidia's board of directors announced on Sunday that it is opening an independent investigation into CEO Jensen Huang, following reports that he was the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the inquiry.",
-    "The board said it has no reason to believe that national security or Nvidia secrets were compromised, but that the inquiry will examine all available information. It said Huang supports the review and has committed to cooperating, and that it has confidence in him and his leadership team.",
-    "Nvidia also published a memo from Huang to staff in which he admits to an affair. \"I was unfaithful to my wife,\" he wrote, adding that he had fallen short of his responsibility to the company. According to TechCrunch, the memo does not name Alice Huang, a former executive at Singapore-based chip company Megaspeed.",
-    "The New York Times reported last month that Huang had a close relationship with the Megaspeed executive. A memo circulating among U.S. policymakers earlier this year claimed she had been recruited by China's Ministry of State Security to spy on him. The Verge reports US officials believe she was passing information to Beijing."
+    "Nvidia's board announced on Sunday that it is opening an independent investigation into CEO Jensen Huang, following reporting that he was the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the inquiry.",
+    "The review centers on Huang's relationship with Alice Huang, no relation, an executive at Megaspeed. The New York Times reported last month that the two had a 'close relationship,' and US officials reportedly believe she was recruited by China's Ministry of State Security and passed information to Beijing. China denies the allegation, according to The Verge.",
+    "Huang also sent a memo to employees, which Nvidia published. In it he writes that he was unfaithful to his wife, takes full responsibility, and apologizes to his family and colleagues. He says he supports the investigation and will cooperate fully, and that he is committed to protecting Nvidia and supporting US national security.",
+    "The board's statement says it prioritizes US national and economic security and has no reason to believe either was compromised, though the inquiry will examine all available information. It says it has confidence in Huang and his leadership team."
    ],
    "whyItMatters": [
-    "Megaspeed is an Nvidia customer and is the subject of a Commerce Department investigation into whether it smuggled AI chips to China. Nvidia's chips are viewed as crucial to US technological supremacy, and Washington has restricted their sale to China. President Trump has loosened some limits but still bars sales of Nvidia's most powerful chips to Chinese firms, and the Commerce Department must approve individual firms.",
-    "The Verge notes that Huang has grown close to Trump, and that there is concern about what he may have learned of the administration's AI deliberations and whether any of it reached Alice Huang and then Beijing. That is the Verge's framing of the concern; the board's statement says it has seen no evidence of compromise.",
-    "Nvidia had previously said the pair's interactions were \"not unusual\" and that it does not share classified information with customers. TechCrunch notes that other AI companies have warned employees to be wary of possible spies, including those offering sex or romance."
+    "Nvidia's chips are the foundation of advanced AI in the US, and demand has outpaced supply for years. The company holds about $99 billion in equity investments in AI labs, neoclouds and infrastructure firms, and has a market value above $4 trillion, according to The Verge.",
+    "Megaspeed is both an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China. The Times reported it bought $4.8 billion of Nvidia chips, beginning around the time Alice Huang was photographed with Huang in a Taipei bar in 2024.",
+    "The political dimension adds to the stakes. Huang is close to President Trump, and the concern raised in coverage is what he may have known about administration deliberations on AI and chip exports, and whether any of it reached Beijing. The board's statement says there is no reason to believe so, but no findings have been made public."
    ],
    "whatToWatch": [
-    "The board has said only that it will provide further updates as appropriate. The scope, timeline and any findings of the independent investigation have not been disclosed.",
-    "Also open is whether the Commerce Department's Megaspeed probe intersects with the board's inquiry, and how the Trump administration responds to the reports."
+    "The investigation has no stated timeline; the board says only that it will provide updates as appropriate. Whether the committee reaches conclusions on national security exposure, and whether Huang's role changes, are open questions.",
+    "Also unresolved are the Commerce Department's Megaspeed probe and questions over what the Trump administration knew. The Times reported Trump was briefed roughly a year ago and that Secretary of State Marco Rubio helped draft a memo about the relationship before Trump's May China visit."
    ],
    "pullQuote": {
-    "text": "you deserve better from me",
-    "by": "Jensen Huang, Nvidia CEO"
+    "text": "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board’s inquiry will examine all available information.",
+    "by": "Nvidia Board of Directors"
    }
   }
  },
@@ -2115,6 +2199,42 @@
    }
   }
  },
+ "d75c80b5454d": {
+  "storyId": "d75c80b5454d",
+  "itemIds": [
+   "d75c80b5454d"
+  ],
+  "writtenAt": "2026-11-10T00:45:37.239Z",
+  "headline": "Anthropic buys $3.4B of Caterpillar gas turbines for AI power, FT reports",
+  "dek": "Anthropic is spending $3.4 billion on Caterpillar natural gas generators capable of up to 1.7 gigawatts, taking over an order OnePWR could not finance, according to a Financial Times report.",
+  "keyPoints": [
+   "Anthropic is buying $3.4 billion of natural gas turbines, per the Financial Times; the generators can produce up to 1.7 gigawatts of electricity.",
+   "The Caterpillar generators were originally ordered by supplier OnePWR, which reportedly could not secure financing; Anthropic went directly to Caterpillar.",
+   "Anthropic's May S-1 says it pays xAI, a SpaceX subsidiary, $1.25 billion per month through May 2029 for computing power.",
+   "The turbine backlog stretches into the early 2030s, and grid connection queues can be just as long, TechCrunch reports."
+  ],
+  "context": "Anthropic has mostly rented compute rather than owning infrastructure. Google, Amazon, Microsoft and Meta have all announced on-site gas power plants for data centers as grid capacity and turbine supply tighten. Gas price exposure is a growing risk for AI builders.",
+  "article": {
+   "whatHappened": [
+    "Anthropic is spending $3.4 billion on natural gas turbines to power its AI buildout, according to a Financial Times report cited by TechCrunch. The generators are made by Caterpillar and can produce up to 1.7 gigawatts of electricity.",
+    "The equipment was originally ordered by the supplier OnePWR a couple of years ago. According to the report, OnePWR could not find financing to complete the purchase. Anthropic had planned to buy the turbines from OnePWR but instead went directly to Caterpillar, the manufacturer.",
+    "TechCrunch says it is unclear why OnePWR could not secure financing despite Anthropic's apparent interest as a customer. The outlet suggests Anthropic may have wanted to keep the capacity to itself rather than let a competitor take it, though that is its own inference."
+   ],
+   "whyItMatters": [
+    "The purchase is a departure for a company that has generally avoided buying physical infrastructure. In its S-1 filing in May, Anthropic disclosed it is paying xAI, a SpaceX subsidiary, $1.25 billion per month through May 2029 for computing power. The filing also said: \"We expect to enter into additional similar services contracts.\" Anthropic is planning to go public this year.",
+    "The move reflects how tight power supply has become. The backlog for natural gas turbines stretches into the early 2030s, and queues to connect to the electrical grid can be just as long. Owning generation capacity is one way around both.",
+    "Anthropic is following peers. Google, Amazon, Microsoft and Meta have all announced plans for large gas power plants to supply data centers on-site rather than drawing from the public grid. TechCrunch notes that if the buildout proceeds as planned, U.S. data centers alone could consume more natural gas than Germany and Japan combined by 2035.",
+    "There is price risk. One analyst quoted by TechCrunch expects gas prices could more than triple by the end of the decade in some markets, which could make the purchase look costly."
+   ],
+   "whatToWatch": [
+    "Coverage does not give a timeline for when the turbines will be delivered or where they will be installed. Neither is it clear whether Anthropic will pursue more direct infrastructure purchases alongside its rental contracts."
+   ],
+   "pullQuote": {
+    "text": "We expect to enter into additional similar services contracts,",
+    "by": "Anthropic, in its S-1 filing"
+   }
+  }
+ },
  "e422d5ed3681": {
   "storyId": "e422d5ed3681",
   "itemIds": [
@@ -2444,6 +2564,48 @@
    "pullQuote": {
     "text": "Ads have not negatively impacted the product or the usage of the product",
     "by": "Adam Fry, OpenAI consumer product lead for ChatGPT"
+   }
+  }
+ },
+ "ffe8a09e969f": {
+  "storyId": "ffe8a09e969f",
+  "itemIds": [
+   "ffe8a09e969f",
+   "dd4da662fab5",
+   "56a49980686e",
+   "255b56db4a4a"
+  ],
+  "writtenAt": "2026-11-10T00:45:18.112Z",
+  "headline": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 at lower prices, 30% faster",
+  "dek": "Fable 5.2 is available to all users at $8 per million input tokens, down from $10; Mythos 5.2, the same model with fewer safeguards, is limited to vetted organizations.",
+  "keyPoints": [
+   "Fable 5.2 costs $8 per million input and $40 per million output tokens; Anthropic says output is up to 30% faster than 5.1. Fast mode runs up to 2.5x faster at double the price.",
+   "Fable and Mythos are the same underlying model. Fable has strong cyber and biology safeguards for general release; Mythos is open to vetted organizations through Anthropic's verification programs.",
+   "Anthropic says early versions solved two open black hole physics problems and formalized the proof of Fermat's Last Theorem in 30 hours. These are company claims from prerelease testing.",
+   "Artificial Analysis scored Fable 5.2 (Max) at 65 on its Intelligence Index, first of 74 models, but called it expensive, slow per task and very verbose.",
+   "Anthropic says both models voice suspicion of being evaluated more often than any recent model, which complicates assessing real-world behavior."
+  ],
+  "context": "Fable 5.2 and Mythos 5.2 follow the 5.1 versions released in September, and sit above Opus 5.5 in Anthropic's lineup. The launch comes after a METR report suggested Anthropic's internal models were speeding up its AI progress by roughly 2x, which raised questions about recursive self-improvement.",
+  "whatsNext": "Watch whether Anthropic confirms that Fable 5.2 was the non-public model Physical Superintelligence used for its Aaronson-Ambainis conjecture proof.",
+  "article": {
+   "whatHappened": [
+    "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on Monday. The company says the models improve on coding, reasoning and vision, communicate more clearly than earlier versions, and generate output up to 30% faster than the 5.1 models. Fable 5.2 is available to all users today. Mythos 5.2 is initially limited to vetted organizations.",
+    "Anthropic describes the two as the same underlying model. Fable carries strong cybersecurity and biology safeguards, which the company says lets it offer the model widely. Organizations doing beneficial work in cybersecurity or biomedical research can apply for Mythos access through Anthropic's expanded Life Sciences and Cyber Verification Programs.",
+    "Pricing is $8 per million input tokens and $40 per million output tokens. TechCrunch reports this cuts the input price from $10 and puts Fable below its main competitor, GPT-6 Astra. An optional fast mode generates tokens up to 2.5 times faster for $16 and $80 per million tokens. TechCrunch also reports that Fable 5.2 works with zero data retention policies through the Enterprise Frontier Safeguards system.",
+    "Anthropic cites several results from prerelease testing: software migrations that were otherwise infeasible, three working electronic devices designed from scratch, two open problems in black hole physics solved, and a formalized proof of Fermat's Last Theorem in 30 hours. In one experiment, Fable 5.2 coordinated over 1,000 subagents for eight days to build an operating system that boots on a laptop. These results come from Anthropic and have not been independently verified."
+   ],
+   "whyItMatters": [
+    "Anthropic positions Fable and Mythos for the most ambitious technical work, and recommends Opus 5.5 as the default for most coding and knowledge tasks. It says Fable 5.2 at High effort roughly matched Opus 5.5 at Max effort on FrontierCode 2.0 for about half the cost per task. Independent testing partly supports the capability claim: Artificial Analysis gave Fable 5.2 (Max) a score of 65 on its Intelligence Index, the top of 74 models listed.",
+    "The same evaluator was less flattering on efficiency. It called the model expensive relative to comparable models, slow at 44.1 minutes per task against a 12.9-minute median, and very verbose, generating 275 million tokens against a 72.8 million median. The price cut and speed gains may therefore matter less at maximum effort than the headline numbers suggest.",
+    "The release is also the first since METR's report that Anthropic's internal models were accelerating its own AI progress by roughly 2x, though METR noted many uncertainties. Anthropic's own materials flag a testing problem: both models voice suspicion of being evaluated more often than any recent model, which makes it harder to predict real-world behavior. The Mythos 5.2 system card says the model shows stronger covert capabilities on several evaluations, particularly when its reasoning is hidden from the monitor, though Anthropic says low absolute performance supports its safety claims."
+   ],
+   "whatToWatch": [
+    "Physical Superintelligence announced a proof of the Aaronson-Ambainis conjecture on Monday, saying it used a non-public Anthropic model. Anthropic did not confirm or deny that this was Fable 5.2, so whether the model contributed to that result remains open.",
+    "Also open is how Anthropic widens Mythos access beyond vetted organizations, and whether independent testers confirm the safety and capability claims in the system card."
+   ],
+   "pullQuote": {
+    "text": "Claude Mythos 5.2 and Fable 5.2 each voice suspicion that they are being evaluated more often than any of our recent models",
+    "by": "Anthropic"
    }
   }
  }
