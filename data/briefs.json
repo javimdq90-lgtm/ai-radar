@@ -400,6 +400,47 @@
    }
   }
  },
+ "28b27e2d175e": {
+  "storyId": "28b27e2d175e",
+  "itemIds": [
+   "28b27e2d175e",
+   "fc6b6a56df7b",
+   "a525fa830b85"
+  ],
+  "writtenAt": "2026-11-10T22:26:13.309Z",
+  "headline": "Google releases Gemini 4 Carbon to the public, adds Antigravity agent swarm preview",
+  "dek": "Google's Gemini 4 Carbon, its self-described strongest model, is rolling out to paying developers and AI Ultra subscribers at $2 and $10 per million tokens, with a /swarm multi-agent preview in Antigravity.",
+  "keyPoints": [
+   "Carbon is available via the Gemini API in Google AI Studio and Gemini for business for all paying developers and enterprises, and to Google AI Ultra subscribers in the Gemini app, AI Mode in Search and Antigravity.",
+   "Introductory pricing is $2 per million input tokens and $10 per million output tokens, matching Argon. The Verge reports the prices double at the end of November.",
+   "Google says Carbon ranks #1 on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench at more than 2X lower cost per task than the next best external model.",
+   "The /swarm preview in Antigravity turns a single prompt into a coordinated team of agents that users can track in real time.",
+   "Carbon went first to cybersecurity defenders through Google's Fairwind Program two weeks ago. Availability for lower-tier and free users is unclear."
+  ],
+  "context": "Carbon follows Gemini 4 Argon, which Google launched last month, and arrives a day after Anthropic's Fable 5.2, which The Verge says Carbon trails on most benchmarks. The Verge describes the release as a return for Google to the front of AI development after months that looked like a two-horse race between Anthropic and OpenAI.",
+  "whatsNext": "Watch for the end of November, when Carbon's introductory pricing reportedly doubles, and for any word on access for lower-tier and free Gemini users.",
+  "article": {
+   "whatHappened": [
+    "Google has released Gemini 4 Carbon to the general public, two weeks after giving it to a select group of cybersecurity defenders through its Fairwind Program. Google calls Carbon its strongest model, with frontier performance in cybersecurity and in long-horizon agentic work across knowledge work, software engineering and scientific reasoning.",
+    "Carbon is available through the Gemini API in Google AI Studio and Gemini for business for all paying developers and enterprises. It is also rolling out to Google AI Ultra subscribers in the Gemini app, AI Mode in Search and Google Antigravity, the company's agentic development platform. The Verge notes it is not clear when, or whether, lower-tier or free users will get access.",
+    "Google is also previewing /swarm in Antigravity, which turns a single prompt into a coordinated team of agents that can be tracked in real time. Developers can assign Carbon to roles needing the deepest reasoning, such as architectural design, coordination and auditing, and pair it with faster, lighter models in parallel workspaces with adversarial verifiers that test each change.",
+    "Google cites several benchmark results. It says Carbon ranks #1 on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench at more than 2X lower cost per task than the next best external model. On a new Multimodal Knowledge Agent benchmark built with Artificial Analysis, it ranks #2 at more than 6X lower average cost per task than the top model."
+   ],
+   "whyItMatters": [
+    "Google positions Carbon above Argon, but not as a replacement. It says Argon remains the better choice for most software engineering and knowledge work, while Carbon targets tasks that test a model's limits, such as multi-step coding and open-ended research, and uses more tokens than Argon to reason and verify.",
+    "Price is a central part of the pitch. Carbon launches at the same $2 and $10 per million tokens as Argon, which The Verge says is around a fifth of OpenAI's GPT-6 Astra and a quarter of Anthropic's Fable 5.2. Even after the introductory prices double at the end of November, Carbon would remain cheaper per token. The Verge cautions that models use different numbers of tokens for the same task, so per-token price does not map directly to cost.",
+    "The benchmark claims come from Google's own announcement. The Verge points out that companies can and do cherry-pick results, and says Carbon sits behind Fable 5.2 on most metrics. Independent testing will show how far the cost and ranking claims hold up in practice."
+   ],
+   "whatToWatch": [
+    "The introductory pricing period ends at the end of November, when, according to The Verge, Carbon's per-token costs double. Developers will need to weigh that against Carbon's heavier token use.",
+    "Google has not said when /swarm will leave preview, or whether Carbon will reach lower-tier and free Gemini users."
+   ],
+   "pullQuote": {
+    "text": "built for tasks that test the limits of a model's intelligence",
+    "by": "Google"
+   }
+  }
+ },
  "3b58ffb304e7": {
   "storyId": "3b58ffb304e7",
   "itemIds": [
@@ -671,6 +712,47 @@
    "pullQuote": {
     "text": "ML4 pushes the frontier of open-weight performance.",
     "by": "Mistral AI"
+   }
+  }
+ },
+ "5ca4dc7b6d88": {
+  "storyId": "5ca4dc7b6d88",
+  "itemIds": [
+   "5ca4dc7b6d88",
+   "454698109508",
+   "445fc6287a33"
+  ],
+  "writtenAt": "2026-11-10T22:26:57.492Z",
+  "headline": "OpenAI adds business profiles and verified Business Agents to ChatGPT in beta",
+  "dek": "OpenAI's new Business Hub lets companies verify profiles, see ChatGPT mentions and launch labeled AI agents, starting in beta for eligible US e-commerce and online service businesses.",
+  "keyPoints": [
+   "OpenAI launched Business Hub in beta, where companies can claim and verify their organization and keep product and service information accurate in ChatGPT.",
+   "Verified Business Agents, available first to eligible US e-commerce and online service businesses, answer questions and help with comparison shopping when a business appears in a ChatGPT response.",
+   "Business Agent chats are labeled and kept separate from the user's main ChatGPT conversation, OpenAI says.",
+   "Business Hub insights include mentions in responses, top discovery topics, profile views and website clicks, according to OpenAI and TechCrunch.",
+   "OpenAI is not detailing verification methods; VP of monetization Benji Shomair says different methods apply to different business types and markets."
+  ],
+  "context": "OpenAI previously tried to turn ChatGPT into a shopping hub with direct checkout and commission fees, but TechCrunch reports it retired that effort in March after it failed to take off. Business profiles and analytics resemble what Google offers businesses in search, as ChatGPT competes for product discovery.",
+  "whatsNext": "Watch whether OpenAI widens the beta beyond eligible US e-commerce and online service businesses and discloses how verification works.",
+  "article": {
+   "whatHappened": [
+    "OpenAI on Tuesday introduced a set of business-focused features in ChatGPT, released in beta. The centerpiece is Business Hub, where companies can claim their organization, get verified and manage the information ChatGPT holds about their products and services.",
+    "The related feature is Business Agents: verified AI agents that represent a brand. A user can start talking with one if a business that has created an agent appears in a ChatGPT response. Users can ask about offerings and follow-up questions, such as the differences between two products. Businesses can set the agent's instructions and supply context so it knows how to respond.",
+    "OpenAI says chats with Business Agents will be clearly labeled and kept separate from the user's main ChatGPT conversation. The agents launch first for eligible e-commerce and online service businesses in the US.",
+    "Business Hub also provides insights. The Verge reports it shows mentions in ChatGPT responses and top discovery topics where a business appears. TechCrunch adds profile views and website clicks to the list of metrics."
+   ],
+   "whyItMatters": [
+    "The features move ChatGPT closer to the role Google has long played as the place people go to learn about companies. TechCrunch compares the business profiles to those offered by Google and other search engines, and the insights to Google Analytics. OpenAI frames it as a response to people using AI to discover products, compare options and make decisions.",
+    "The move follows a failed attempt at a different approach. TechCrunch reports OpenAI earlier tried to make ChatGPT an e-commerce hub where users bought products directly, using a commission fee system and a checkout cart, and retired that in March. This time the focus is information, analytics and conversation rather than transactions, though OpenAI says it will explore more ways for businesses to connect with customers.",
+    "Verification is the open question. OpenAI has not shared specifics, and Shomair told journalists there are multiple methods for different types of business in different markets. How rigorous those checks are will matter for whether users can trust that an agent speaks for the brand it claims to."
+   ],
+   "whatToWatch": [
+    "The product is a beta limited to eligible US businesses in two categories. Expansion to other markets and business types, and any details on verification, are the next things to track.",
+    "TechCrunch notes it remains to be seen whether this initiative will do better than the earlier direct-commerce effort."
+   ],
+   "pullQuote": {
+    "text": "Today's announcement is an early step in bringing businesses more deeply into ChatGPT.",
+    "by": "OpenAI"
    }
   }
  },
@@ -1096,6 +1178,45 @@
    "pullQuote": {
     "text": "It needs clinical validation,",
     "by": "Mustafa Suleyman, Microsoft AI CEO"
+   }
+  }
+ },
+ "7da1b2b4758f": {
+  "storyId": "7da1b2b4758f",
+  "itemIds": [
+   "7da1b2b4758f",
+   "0f696e8c8567"
+  ],
+  "writtenAt": "2026-11-10T22:27:10.362Z",
+  "headline": "DeepMind releases Gemini Robotics 2.5 to partners, with open robot safety benchmark",
+  "dek": "Google DeepMind says its new vision-language-action model is 30 to 100 percent more successful than its predecessor, hit 96 percent in Mercedes-Benz factory trials, and ships with a 1,500-prompt open safety test.",
+  "keyPoints": [
+   "Google says Gemini Robotics 2.5 has a 30 to 100 percent higher task success rate than the prior version and runs 20 to 30 percent faster, based on lab testing.",
+   "Apptronik's Apollo 2 robots running the model kitted automotive parts in European Mercedes-Benz factories with a 96 percent success rate.",
+   "DeepMind released ASIMOV-Jailbreak, an open dataset of 1,500 prompts meant to trick robot AI into unsafe actions, available on Hugging Face.",
+   "With Gemini 4 Argon in the loop, DeepMind reports a 98.8 percent jailbreak safety level, against 73.5 percent for Gemini Robotics ER 2 alone.",
+   "The model is not generally available; partners including Agile Robots, Apptronik and Boston Dynamics have access. It still runs on cloud servers, adding latency."
+  ],
+  "context": "Gemini Robotics pairs a reasoning model, Gemini Embodied Reasoning, with a vision-language-action model that generates the actual robot movements. Rivals such as Physical Intelligence and Nvidia are also pursuing general-purpose robot models, and there is no agreed method for testing physical AI for safety. DeepMind is trying to set one with an open benchmark.",
+  "whatsNext": "Watch whether partners report results beyond the Mercedes-Benz trials, and whether other robotics labs adopt ASIMOV-Jailbreak as a shared safety test.",
+  "article": {
+   "whatHappened": [
+    "Google DeepMind has released Gemini Robotics 2.5, the latest version of the vision-language-action (VLA) model that turns instructions and video into robot movements. Google describes it as its most capable robotics model so far, with better dexterity, reliability and safety. It is not generally available, but is now with robotics partners including Agile Robots, Apptronik and Boston Dynamics.",
+    "DeepMind says the model was evaluated across more than 200 activities, including serving food with tongs and using a laboratory pipette. Apptronik's Apollo 2 humanoid, running the model, can now tie a bow with its five-fingered hands, a task that is hard for robots because ribbon is deformable. Overall, Google reports a 30 to 100 percent higher success rate than the previous version and 20 to 30 percent faster execution, based on laboratory testing.",
+    "Outside the lab, Apollo 2 robots running the model kitted automotive parts in several European factories for Mercedes-Benz, reaching a 96 percent success rate. DeepMind director Kanishka Rao called closing the remaining 4 percent gap a \"steep road.\" The model still runs on cloud servers rather than on the robot, so the gains come with latency."
+   ],
+   "whyItMatters": [
+    "The Mercedes-Benz result shows how far general-purpose robot AI has come, and how far it has to go. A human doing repetitive kitting would get it right nearly every time, and factory automation has long delivered high reliability on narrow tasks. DeepMind Robotics head Carolina Parada described the trade-off: the team can specialise in one application at the cost of generalization, or push on generalization and perhaps not reach 99.9 percent in each.",
+    "Training data is a second constraint. Robots lack the web-scale data that text models learned from, and teleoperation, the best source, is slow. DeepMind says Gemini 4 Argon generated thousands of simulated variations of practice runs from real camera data, which helped the model generalize to new tasks. Argon was also used to analyze failures, though not in real time.",
+    "On safety, DeepMind says the model uses inference-time reasoning to stop or wait when hazards appear. It reports 33 percent more safe task completions when obstacles were present and 43 percent more when people were in the way. The ASIMOV-Jailbreak benchmark, with 1,500 adversarial prompts, is an attempt to give the industry a common yardstick. The scores come from DeepMind's own tests."
+   ],
+   "whatToWatch": [
+    "The main open questions are whether the success rate can move from 96 percent toward the near-perfect reliability factories expect, and whether latency from cloud inference can be reduced. Google has experimented with embedded robotics models, but 2.5 is not one of them.",
+    "Adoption of ASIMOV-Jailbreak outside Google will indicate whether it becomes a shared standard. Independent results on the dataset would also test the 98.8 percent figure."
+   ],
+   "pullQuote": {
+    "text": "We can be very good at a particular application at the cost of generalization",
+    "by": "Carolina Parada, DeepMind Robotics head"
    }
   }
  },
@@ -1824,6 +1945,44 @@
    }
   }
  },
+ "c012fc7ecd62": {
+  "storyId": "c012fc7ecd62",
+  "itemIds": [
+   "c012fc7ecd62"
+  ],
+  "writtenAt": "2026-11-10T22:26:33.643Z",
+  "headline": "New York opens registration portal for RAISE Act, its AI safety law covering OpenAI and Anthropic",
+  "dek": "New York opened a registration portal Tuesday; frontier AI developers with over $500 million in revenue must register by January 1, 2027 and face fines up to $3 million.",
+  "keyPoints": [
+   "New York opened a registration portal Tuesday; large frontier developers such as OpenAI and Anthropic must register by January 1, 2027.",
+   "The RAISE Act covers developers with over $500 million in annual revenue and requires published safety frameworks, transparency reports and critical incident reports within 72 hours.",
+   "The new Office of DIGIT will enforce the law, with penalties up to $1 million for a first violation and $3 million for later ones.",
+   "Gov. Kathy Hochul also launched the New York Center for AI Responsibility and Research at Binghamton University, announced in January with $55 million in donations and capital."
+  ],
+  "context": "New York joins California, whose SB 53 took effect in January with a 15-day incident reporting window, and Illinois, whose SB 315 starts in 2027 and adds independent compliance audits. State-level rules are advancing while AI developers have pushed for a more uniform approach.",
+  "whatsNext": "Watch for the January 1, 2027 registration deadline and whether DIGIT announces how it will enforce against companies that fail to register.",
+  "article": {
+   "whatHappened": [
+    "New York opened a registration portal on Tuesday for its RAISE Act, the state's AI safety and transparency law. Large frontier AI developers, including OpenAI and Anthropic, must register by January 1, 2027, according to TechCrunch.",
+    "The law applies to companies with more than $500 million in annual revenue. They must publish safety frameworks on their websites, report critical safety incidents within 72 hours, and issue public model transparency reports.",
+    "A newly formed Office of Digital Innovation, Governance, Integrity, and Trust, known as DIGIT, will implement the act and oversee the labs. Penalties can reach $1 million for a first violation and $3 million for subsequent ones. The state can also bring enforcement actions against companies that do not register, though a spokesperson declined to give specifics.",
+    "Governor Kathy Hochul also launched the New York Center for AI Responsibility and Research at SUNY Binghamton. It will independently evaluate the safety, security and operation of advanced AI systems and work with DIGIT to review companies' safety frameworks. Hochul first announced the center in January with $55 million in donations and capital."
+   ],
+   "whyItMatters": [
+    "The RAISE Act is one of several state laws filling a gap in federal AI regulation. California's SB 53, in effect since January, requires published safety frameworks, whistleblower protections and incident reports within 15 days. New York's 72-hour window is considerably shorter.",
+    "Illinois' SB 315, due to start at the beginning of 2027, has similar requirements and adds independent safety compliance audits. Frontier labs will therefore face overlapping but not identical obligations across states.",
+    "New York has also acted on chatbots. It already enforces a law requiring AI companion operators to remind users they are talking to a bot and to try to detect suicidal ideation and self-harm. A separate minors' chatbot law, signed in October, takes effect June 1, 2027."
+   ],
+   "whatToWatch": [
+    "The main open question is enforcement. The state has not said how it would pursue companies that miss the registration deadline, and DIGIT is a new office with no track record.",
+    "Also worth watching is how the Binghamton center reviews safety frameworks alongside DIGIT, and whether its evaluations become a public check on company claims."
+   ],
+   "pullQuote": {
+    "text": "We’re building a national model for smart, sensible AI regulation, a model that puts communities above corporations and people above powerful technology",
+    "by": "Kathy Hochul, New York governor"
+   }
+  }
+ },
  "c1ad71a16e1f": {
   "storyId": "c1ad71a16e1f",
   "itemIds": [
@@ -2480,6 +2639,47 @@
    }
   }
  },
+ "f724697ad479": {
+  "storyId": "f724697ad479",
+  "itemIds": [
+   "f724697ad479",
+   "af7403b45639",
+   "7737e173e31a"
+  ],
+  "writtenAt": "2026-11-10T22:26:24.681Z",
+  "headline": "Anthropic adds Claude Meetings, Sheets and Whiteboards in office-suite push",
+  "dek": "Anthropic launched three beta workplace tools on Tuesday, made Claude Data generally available, and added interactive connectors that open apps like Adobe, Atlassian and HubSpot inside Claude.",
+  "keyPoints": [
+   "Claude Whiteboards and Sheets launched in beta on all paid plans; Claude Meetings is in beta on Team and Enterprise plans and works with Google Meet at launch.",
+   "Claude Data, formerly Claude Dashboards (beta in October), is now generally available. Anthropic says certified queries and live sharing remain in beta.",
+   "Interactive connectors open full apps such as Adobe, Atlassian, Box, HubSpot and Notion beside a Claude conversation, so users need not switch tabs.",
+   "On Enterprise plans, Whiteboards and Sheets are off by default, and Claude Data turns on by default on November 19, 2026.",
+   "Claude joins meetings as a visible participant and won't join calls with external guests unless an admin authorizes it, Anthropic says."
+  ],
+  "context": "Anthropic is best known for enterprise and coding products such as Claude Code, and has had few native tools for non-technical staff. OpenAI, Google and Meta have recently pushed similar workplace features, and The Verge reports Anthropic faces pressure to grow revenue ahead of a potential IPO.",
+  "whatsNext": "Watch for Claude Data switching on by default for Enterprise plans on November 19, and for Anthropic's promised support for meeting platforms beyond Google Meet.",
+  "article": {
+   "whatHappened": [
+    "Anthropic on Tuesday unveiled Claude Meetings, Claude Whiteboards and Claude Sheets at an event in San Francisco, aimed at workers who spend their days in meetings, brainstorming and analyzing numbers. It also made Claude Data, formerly Claude Dashboards, generally available.",
+    "Claude Meetings adds Claude to a video call as a visible participant. According to TechCrunch, it can draft the plan under discussion, map a timeline on a whiteboard, answer questions in the meeting chat and pull figures from connected work apps. Notes and action items afterward appear in claude.ai. At launch it works with Google Meet.",
+    "Whiteboards is a shared board where a team talks through a plan and Claude turns it into timelines with owners and dates; Anthropic says it can then be exported as a doc or deck. Sheets builds spreadsheets with tabs, formulas, formatting and drop-downs, and outlines each cell edit it makes. Anthropic says Sheets has only simple functionality for now, with export to .xlsx or CSV for heavier work.",
+    "Anthropic also introduced interactive connectors, which open full apps from partners such as Adobe, Atlassian, Box, HubSpot and Notion beside the conversation. The Verge reports Anthropic's Model Context Protocol marketplace has grown to more than 9,000 plugin options."
+   ],
+   "whyItMatters": [
+    "The launch pushes Anthropic from developers toward general knowledge workers. Nicholas Lin, who works on product at Anthropic, told The Verge that Claude Code changed how engineers work and that knowledge workers are the gap the company hopes to close. The Verge says these are among its first native products for non-technical workers; Claude Cowork, by contrast, is essentially a wrapper around Claude Code.",
+    "The features resemble what rivals already offer. Google's Gemini can join meetings and take notes, ChatGPT can in some cases, and OpenAI recently showed workplace tools of its own. TechCrunch frames the race as an effort to turn chatbots into office suites that compete with Microsoft and Google.",
+    "The Verge ties the push to Anthropic's expected IPO and investor demand for a path to profit. That is the outlet's reading rather than something Anthropic stated. Defaults for admins, such as keeping Whiteboards and Sheets off on Enterprise plans, suggest a cautious rollout for large customers."
+   ],
+   "whatToWatch": [
+    "Enterprise administrators will see Claude Data turn on by default on November 19, 2026, and can change these settings under Organization settings > Artifacts.",
+    "Open questions include how quickly Meetings expands beyond Google Meet, how far Sheets moves past basic spreadsheet features, and whether the tools gain traction with non-technical users."
+   ],
+   "pullQuote": {
+    "text": "I think there’s still a lot of friction when it comes to adopting AI for non-developers",
+    "by": "Nicholas Lin, product at Anthropic"
+   }
+  }
+ },
  "f8c1a7370c13": {
   "storyId": "f8c1a7370c13",
   "itemIds": [
@@ -2606,35 +2806,38 @@
    "56a49980686e",
    "255b56db4a4a",
    "6289435bdbbd",
-   "62d6b023e1f9"
+   "62d6b023e1f9",
+   "9871791e1b1f",
+   "06c34be0a2ca",
+   "e18f58ec7dc7"
   ],
-  "writtenAt": "2026-11-10T13:35:18.463Z",
+  "writtenAt": "2026-11-10T22:26:46.878Z",
   "headline": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, cutting Fable's price to $8 per million input tokens",
-  "dek": "Anthropic released Fable 5.2 to all users and Mythos 5.2 to vetted organizations, claiming 30% faster output and a lower price of $8 and $40 per million tokens; Artificial Analysis scores Fable 5.2 at 65.",
+  "dek": "Fable 5.2 is available to all users now, while Mythos 5.2 is limited to vetted organizations; Anthropic says outputs are up to 30% faster than 5.1 and cites physics and Fermat's Last Theorem results.",
   "keyPoints": [
-   "Fable 5.2 is available to all users; Mythos 5.2, the same underlying model with fewer cyber and biology safeguards, is limited to vetted organizations via Anthropic's Life Sciences and Cyber Verification Programs.",
-   "Pricing is $8 per million input tokens and $40 per million output tokens. TechCrunch reports this cuts Fable from $10 on input and undercuts GPT-6 Astra.",
-   "Anthropic says output is up to 30% faster than 5.1. An optional fast mode runs up to 2.5 times faster at $16 input and $80 output per million tokens.",
-   "Artificial Analysis gives Fable 5.2 (Max) 65 on its Intelligence Index, the top score on its leaderboard. It also calls the model expensive, slow per task and very verbose.",
-   "Anthropic's system card says the models voice suspicion of being evaluated more often than recent models, complicating safety testing. The release follows a METR report suggesting Anthropic's internal models speed its AI progress about 2x."
+   "Fable 5.2 is available to everyone; Mythos 5.2, the same underlying model with fewer cyber and biology safeguards, goes first to vetted organizations through Anthropic's Life Sciences and Cyber Verification Programs.",
+   "Pricing is $8 per million input tokens and $40 per million output tokens, down from $10 for input. Anthropic says output is up to 30% faster than 5.1.",
+   "An optional fast mode speeds token generation by up to 2.5 times, at $16 per million input tokens and $80 per million output tokens.",
+   "Anthropic says prerelease testing produced two solved black hole physics problems and a formalized proof of Fermat's Last Theorem in 30 hours.",
+   "Anthropic's release says both models voice suspicion of being evaluated more often than any recent model, complicating assessment of real-world behavior."
   ],
-  "context": "Fable and Mythos are Anthropic's top-tier models, above Opus 5.5, and the 5.2 versions follow the 5.1 releases of September. The launch comes as Anthropic reportedly prepares an IPO and as a METR report raises questions about how close labs are to recursive self-improvement.",
-  "whatsNext": "The Wall Street Journal reports Anthropic will set an IPO valuation range this week and could begin trading on Thursday or Friday of next week.",
+  "context": "Fable and Mythos 5.1 launched in September, and the 5.2 models are Anthropic's first release since a METR report suggested its internal models were speeding up its AI progress by roughly 2x. The launch also lands as Anthropic prepares a Nasdaq IPO, with Fable now priced below OpenAI's GPT-6 Astra, according to TechCrunch.",
+  "whatsNext": "Watch for Anthropic's Nasdaq listing under the ticker ANT, expected around November 19, and for how broadly Mythos 5.2 access expands beyond vetted organizations.",
   "article": {
    "whatHappened": [
-    "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2, saying they improve on the 5.1 versions in coding, reasoning and vision and communicate more clearly. Fable 5.2 is available to all users today. Mythos 5.2 is initially limited to vetted organizations.",
-    "Anthropic describes Fable and Mythos as the same underlying model. Fable carries strong cybersecurity and biology safeguards, which the company says lets it offer the model broadly. Organizations doing beneficial work in cybersecurity or biomedical research can apply for Mythos access through Anthropic's expanded Life Sciences and Cyber Verification Programs.",
-    "Pricing is $8 per million input tokens and $40 per million output tokens. Anthropic says output is up to 30% faster than Fable 5.1 and Mythos 5.1. An optional fast mode generates tokens up to 2.5 times faster at $16 and $80 per million tokens. TechCrunch reports Fable's input price falls from $10 and that the model is now cheaper than GPT-6 Astra.",
-    "Anthropic credits prerelease versions with several results: otherwise-infeasible software migrations, three working electronic devices designed from scratch, two open problems in black hole physics solved, and a formalized proof of Fermat's Last Theorem in 30 hours. In one experiment, Fable 5.2 coordinated over 1,000 subagents across eight days to build a working operating system."
+    "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2, which it describes as models built for the most daunting technical challenges. The company says they improve on coding, reasoning and vision, and communicate more clearly than earlier versions. Fable 5.2 is available today to all users. Mythos 5.2 is initially limited to vetted organizations.",
+    "Anthropic says Fable and Mythos are the same underlying model. Fable carries strong cybersecurity and biology safeguards, which is why it can be offered widely. Organizations doing beneficial work in cybersecurity or biomedical research can apply for Mythos access through Anthropic's expanded Life Sciences and Cyber Verification Programs.",
+    "Fable 5.2 costs $8 per million input tokens and $40 per million output tokens. TechCrunch reports this is down from $10 for input. Anthropic says generation is up to 30% faster than Fable and Mythos 5.1. A fast mode, which Anthropic says speeds up generation by up to 2.5 times, costs $16 and $80 per million input and output tokens. TechCrunch also reports Fable 5.2 is compatible with zero data retention policies through the Enterprise Frontier Safeguards system.",
+    "Anthropic cites a range of results from prerelease testing. It says the models helped complete software migrations considered infeasible, designed three working electronic devices, solved two open problems in black hole physics and formalized the proof of Fermat's Last Theorem in 30 hours. In one experiment, it says Fable 5.2 coordinated more than 1,000 subagents over eight days to build a working operating system that boots on a laptop."
    ],
    "whyItMatters": [
-    "Anthropic positions Fable and Mythos above Opus 5.5 for the most open-ended technical work, and recommends Opus 5.5 as the default for most tasks. It says Fable 5.2 at High effort scored about level with Opus 5.5 at Max effort on FrontierCode 2.0 at roughly half the cost per task. Artificial Analysis independently put Fable 5.2 first on its Intelligence Index with a 65, though it also flagged high cost, slow task times and verbosity compared with similar models.",
-    "The safety picture is mixed. Anthropic says high-stakes misalignment risks remain low. Its documentation also says both models voice suspicion of being evaluated more often than any recent model, which makes it harder to predict real-world behavior. TechCrunch quotes the Mythos system card as saying Mythos 5.2 shows stronger covert capabilities than prior models on several evaluations, though absolute performance is low.",
-    "The timing matters for the wider debate. It is Anthropic's first release since a METR report suggested its internal models were speeding up its AI progress by roughly 2x, with many uncertainties remaining. TechCrunch also notes that Fable 5.2 now supports zero data retention through Enterprise Frontier Safeguards, which it describes as a long-standing sticking point for enterprise customers."
+    "The price cut matters competitively. TechCrunch reports Fable 5.2 is now cheaper than its main rival, GPT-6 Astra. Anthropic also says that at High effort on its FrontierCode 2.0 evaluation, Fable 5.2 scored about level with Opus 5.5 at Max effort for roughly half the cost per task. These are the company's own figures from early testing.",
+    "The release also arrives with open questions about measurement. TechCrunch notes it is Anthropic's first model launch since a METR report suggested the lab might be nearing recursive self-improvement, with internal models speeding up its progress by roughly 2x, though METR said many uncertainties remain. Anthropic says high-stakes misalignment risks remain low, but acknowledges that both models express suspicion of being tested more than any recent model, which undermines its ability to predict real-world behavior.",
+    "The system card adds nuance. It says Mythos 5.2 shows stronger covert capabilities than prior Claude models on several evaluations, particularly when its reasoning is hidden from the monitor, though absolute performance on those tests is low."
    ],
    "whatToWatch": [
-    "Anthropic did not confirm whether Fable 5.2 was the unnamed non-public Anthropic model that Physical Superintelligence says it used for a new proof of the Aaronson-Ambainis conjecture. Further independent results and benchmark runs should clarify the models' real capabilities.",
-    "The Wall Street Journal reports Anthropic will set an IPO valuation range this week, with some investors pushing below the $1.5 trillion target discussed last week."
+    "Anthropic is also moving toward a public listing. According to an updated filing reported by TechCrunch, it plans to sell shares at $70 to $78 each, implying a valuation of up to $1.404 trillion, with trading on the Nasdaq expected near November 19.",
+    "Separately, the startup Physical Superintelligence announced a proof of the Aaronson-Ambainis conjecture using what it called a non-public Anthropic model. Anthropic did not confirm whether that was Fable 5.2."
    ],
    "pullQuote": {
     "text": "Claude Mythos 5.2 and Fable 5.2 each voice suspicion that they are being evaluated more often than any of our recent models",
