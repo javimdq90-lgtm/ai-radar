@@ -484,6 +484,44 @@
    }
   }
  },
+ "2ed3a890d3d8": {
+  "storyId": "2ed3a890d3d8",
+  "itemIds": [
+   "2ed3a890d3d8"
+  ],
+  "writtenAt": "2026-11-11T23:31:04.323Z",
+  "headline": "OpenAI's quarterly revenue reportedly tops $10 billion for the first time",
+  "dek": "Bloomberg, citing anonymous sources, reports OpenAI's third-quarter revenue passed $10 billion, up almost 50% from $6.7 billion, as its annual run rate hits $50 billion and Anthropic's $81 billion run rate looms.",
+  "keyPoints": [
+   "Bloomberg, citing anonymous sources, reports OpenAI's quarterly revenue crossed $10 billion for the first time, up almost 50% from a reported $6.7 billion in Q2.",
+   "OpenAI's adjusted operating margin reportedly narrowed from -150% in the second quarter to -109% in the third quarter.",
+   "OpenAI has reportedly reached a $50 billion annual revenue run rate, according to Bloomberg.",
+   "Anthropic said its run rate rose $10 billion in a month to $81 billion at the end of October, and recently reported Q3 revenue of $17 billion.",
+   "The two firms calculate annualized revenue differently: Anthropic counts sales by cloud partners, while OpenAI reports only its share of some partner sales."
+  ],
+  "context": "OpenAI was an early commercializer of AI models and says it has over a billion users, but Anthropic has pulled ahead in enterprise sales. Earlier this year OpenAI's growth was reported at about 18% between the first and second quarters. Both face competition from Meta, Amazon, Microsoft, Google and cheaper open source models, especially from China.",
+  "whatsNext": "Anthropic is reportedly seeking a $1.4 trillion valuation in an IPO that TechCrunch says is likely to happen soon.",
+  "article": {
+   "whatHappened": [
+    "OpenAI's quarterly revenue crossed $10 billion for the first time, according to a Bloomberg report that cites anonymous sources. TechCrunch, which relayed the report, notes that the figures are unconfirmed. If accurate, revenue rose almost 50% from the $6.7 billion reportedly recorded in the second quarter.",
+    "That would be a sizable acceleration. Growth between the first and second quarters was previously reported at about 18%. Bloomberg also reports that OpenAI's adjusted operating margin improved from -150% in the second quarter to -109% in the third, a sign that losses are shrinking relative to sales.",
+    "Bloomberg says OpenAI has now reached an annual revenue run rate of $50 billion. TechCrunch attributes the rebound to strong demand for the company's recent models, along with tighter pricing, discounts, improving models, and a greater focus on enterprise products and AI agents that help people complete tasks."
+   ],
+   "whyItMatters": [
+    "The numbers land against a rival that has been growing faster. Anthropic, which TechCrunch says has taken the lead in the enterprise market, recently reported Q3 revenue of $17 billion. It said yesterday that its annual run rate rose by $10 billion within a month to $81 billion as of the end of October.",
+    "The comparison is not like for like. Anthropic counts sales made by its cloud partners, while OpenAI reports only its share of some sales through its partners. That difference likely narrows the apparent gap between the two run rates, though the coverage does not quantify it.",
+    "OpenAI's broader focus helped it build a large user base early, but TechCrunch notes that most of its billion-plus users are probably free or on its cheapest plans. Both companies also compete with models from Meta, Amazon, Microsoft and Google, and with cheaper open source models, especially from China."
+   ],
+   "whatToWatch": [
+    "Anthropic is reportedly seeking a $1.4 trillion valuation in an IPO TechCrunch describes as likely to happen soon. Any filing would put audited numbers behind the competing revenue claims.",
+    "Whether OpenAI's enterprise push keeps its growth above the roughly 50% quarterly pace reported here, and whether margins keep improving, will show if the rebound lasts."
+   ],
+   "pullQuote": {
+    "text": "OpenAI is bouncing back from the doldrums it experienced earlier this year.",
+    "by": "TechCrunch"
+   }
+  }
+ },
  "3b58ffb304e7": {
   "storyId": "3b58ffb304e7",
   "itemIds": [
@@ -2490,37 +2528,45 @@
    "7d8b4ae6c27e",
    "9922bcaa36cd",
    "5d01611fd6de",
-   "e28ff692f118"
+   "e28ff692f118",
+   "7a8ca7de71bd",
+   "94fcbf10f807",
+   "8e5f1df4bf3d",
+   "89f810b4a388",
+   "cd03d116301a",
+   "d8ef3fe6591f",
+   "b91248042740"
   ],
-  "writtenAt": "2026-11-11T12:49:37.381Z",
-  "headline": "Nvidia board opens investigation into CEO Jensen Huang over ties to alleged Chinese spy",
-  "dek": "Nvidia's board hired Wachtell Lipton to investigate after Jensen Huang admitted an affair with Megaspeed executive Alice Huang, whom the New York Times reports was recruited by China's Ministry of State Security.",
+  "writtenAt": "2026-11-11T23:31:26.880Z",
+  "headline": "Nvidia board reportedly preparing to oust CEO Jensen Huang after second alleged affair",
+  "dek": "The Wall Street Journal reports Nvidia's board may meet as soon as Wednesday to decide Jensen Huang's future, after a New York Times report of a second alleged affair; the stock fell 7 to 8 percent after hours.",
   "keyPoints": [
-   "Nvidia's board launched an independent investigation, overseen by independent directors and outside counsel, and says it has no reason to believe national security or company secrets were compromised.",
-   "Huang sent staff a memo saying he was unfaithful to his wife, and pledged to cooperate fully with the investigation.",
-   "The Verge reports the board retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz.",
-   "The NYT reports Megaspeed bought $4.8 billion of Nvidia chips and that China's MSS recruited Alice Huang; China denies the allegations, per The Verge.",
-   "Three House committees asked Huang to appear for a joint closed-door briefing on his interactions with Alice Huang."
+   "The WSJ reports Nvidia's board is preparing to dismiss CEO Jensen Huang, with a meeting possible as soon as Wednesday. Nvidia did not immediately respond to The Verge's request for comment.",
+   "The New York Times reports Huang had a second affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to him. The Times has not seen the alleged video.",
+   "Days earlier, Huang admitted an affair with Alice Huang, a Megaspeed executive US officials believe was recruited by China's Ministry of State Security to spy on Nvidia.",
+   "Nvidia shares fell about 8% in after-hours trading Wednesday (The Verge reported more than 7%), and are down about 11% over five days.",
+   "Nvidia has no obvious successor or succession plan, TechCrunch notes; Huang has about 60 direct reports, he has said."
   ],
-  "context": "Nvidia chips are central to US AI development, and both the Biden and Trump administrations have restricted their sale to China, with Trump loosening some limits while still barring its most powerful chips. Megaspeed, a Nvidia customer, is the subject of a Commerce Department investigation into whether it smuggled AI chips to China. Huang's closeness to the Trump administration raises questions about what he knew of its AI policy deliberations.",
-  "whatsNext": "Watch for the outcome of the board's investigation, which the board says will be updated as appropriate, and whether Huang appears before the House committees.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years as the company became central to the AI chip boom. The scandal began last month when the New York Times reported a 'close relationship' with a Megaspeed executive; Megaspeed is a Nvidia customer under a Commerce Department investigation over alleged chip smuggling to China. Nvidia's board had said it had confidence in Huang when it opened its investigation.",
+  "whatsNext": "Watch for the outcome of the board meeting, which the WSJ says could come as soon as Wednesday, and for any Nvidia statement on succession.",
   "article": {
    "whatHappened": [
-    "Nvidia's board announced on Sunday that it is opening an independent investigation into CEO Jensen Huang, following reports that he was the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee it. The board says it has no reason to believe national security or Nvidia secrets were compromised, and that it has confidence in Huang and his leadership team.",
-    "Huang sent employees a memo acknowledging the affair with Megaspeed executive Alice Huang, who is not related to him. He wrote that he was unfaithful to his wife, takes full responsibility, and will cooperate fully with the investigation. The New York Times had earlier reported a close relationship between the two, which Huang later described as romantic in his memo.",
-    "The Verge reports the board has retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to carry out the review. The New York Times reported that China's Ministry of State Security recruited Alice Huang to gather information on American AI chips and potentially influence Nvidia to push for its most advanced chips to be made available to China. China denies the allegations, according to The Verge."
+    "Nvidia's board is preparing to dismiss CEO and co-founder Jensen Huang, the Wall Street Journal reports. Sources told the paper the board will meet as soon as Wednesday to decide his future. Nvidia did not immediately respond to a request for comment from The Verge.",
+    "The move follows a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the two were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video. Both are married to other people.",
+    "Nvidia shares fell about 8 percent in after-hours trading on Wednesday, according to TechCrunch, and are down about 11 percent over the past five days. The Verge put the after-hours drop at more than 7 percent."
    ],
    "whyItMatters": [
-    "Nvidia sits at the center of the US AI industry. Its chips underpin advanced AI development, demand has outpaced supply for years, and The Verge says it has about $99 billion in equity investments in AI labs, neoclouds and infrastructure companies. Experts quoted by The Verge say the episode could disrupt the US AI industry and undermine the country's technological lead over China, though that remains their assessment rather than an established outcome.",
-    "The political dimension compounds the corporate one. Megaspeed is a Nvidia customer and the subject of a Commerce Department inquiry into possible chip smuggling, and Huang is close to President Trump. The coverage raises the concern, without establishing it, that Huang may have had insight into administration AI deliberations. The NYT also reports that Trump was briefed on the relationship about a year ago and again before his May China visit, with Marco Rubio involved in the latter."
+    "The reports come days after Huang admitted, in a memo to staff, a romantic relationship with Alice Huang, a Megaspeed executive. US officials believe she was recruited by China's Ministry of State Security and passed information to Beijing. Megaspeed is a Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China.",
+    "Nvidia's board announced an independent investigation on Sunday, saying it had no reason to believe national security or company secrets were compromised and that it had confidence in Huang. The company retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz. The Verge notes that a dismissal now would suggest the board will not wait for those results.",
+    "The stakes extend beyond governance. Nvidia designs the chips that power the AI boom, and US export policy on them is politically sensitive. The Verge points to concern over what Huang, who has grown close to President Trump, may have known about administration deliberations on AI. TechCrunch notes that Huang delegates little and the company has no obvious successor or succession plan."
    ],
    "whatToWatch": [
-    "The board's investigation has no stated timeline; it says it will provide further updates as appropriate. Whether it changes Huang's standing at the company will depend on what Wachtell Lipton finds.",
-    "Congress is also involved. Three House committees have asked Huang for a joint, closed-door briefing on his interactions with Alice Huang, and it is not yet clear whether or when that will happen."
+    "The immediate question is whether the board meets and acts as reported, and whether Nvidia confirms or denies the WSJ account. Any interim leadership arrangement would be the first indication of how the company intends to handle succession.",
+    "Also open is the independent investigation by outside counsel, and whether the Powell allegations, which rest on unnamed sources, are confirmed or addressed by Nvidia or the individuals involved."
    ],
    "pullQuote": {
-    "text": "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board’s inquiry will examine all available information.",
-    "by": "Nvidia board of directors"
+    "text": "The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.",
+    "by": "Nvidia board statement"
    }
   }
  },
@@ -2770,30 +2816,38 @@
  "f8c1a7370c13": {
   "storyId": "f8c1a7370c13",
   "itemIds": [
-   "f8c1a7370c13"
+   "f8c1a7370c13",
+   "4878c495cef5"
   ],
-  "writtenAt": "2026-11-10T13:35:26.213Z",
-  "headline": "Google DeepMind's AlphaProof Code writes 3 million lines of Lean proofs for Signal encryption",
-  "dek": "Google DeepMind says its new AlphaProof Code agents produced three million lines of Lean proofs to verify the core encryption of the Signal messaging app.",
+  "writtenAt": "2026-11-11T23:31:15.070Z",
+  "headline": "Google DeepMind uses AlphaProof Code to formally verify key parts of Signal's protocol",
+  "dek": "DeepMind's AlphaProof Code agents wrote three million lines of Lean proofs in a four-week project verifying core Signal encryption guarantees, finding no new vulnerabilities; Google won't disclose cost or commercial plans.",
   "keyPoints": [
-   "Google DeepMind introduced AlphaProof Code, a system of agents aimed at verifying complex software.",
-   "The agents wrote three million lines of proofs in the Lean proof assistant, according to DeepMind.",
-   "The verification target was the core encryption of Signal, the secure messaging app.",
-   "DeepMind describes the work as a breakthrough in verifying complex software at depth."
+   "DeepMind says AlphaProof Code agents wrote three million lines of Lean proofs to verify the core encryption of the Signal protocol, in a project lasting four weeks.",
+   "The analysis found no new vulnerabilities, but flagged known, long-fixed flaws in older Signal versions and showed those versions could not be verified.",
+   "The scope was limited: it did not formally verify the entire Signal mobile app, and earlier Signal Foundation verification work gave the team a head start.",
+   "DeepMind is releasing the specification and proof; it ran the work free as research and declined to share the cost or say whether a commercial product is planned."
   ],
-  "context": "AlphaProof is DeepMind's earlier system for formal mathematical reasoning, which works in the Lean proof language. Formal verification of software gives mathematical guarantees about code behavior but has traditionally demanded huge amounts of expert human labor. Automating that work with AI agents could make such guarantees practical for security-critical systems.",
+  "context": "Formal verification uses mathematical proof to show software behaves as specified, and has long been seen as a gold standard in security, but writing the proofs by hand has been slow and costly. AI agents that generate proofs are now making it more feasible, though how well it scales is unproven. Signal's protocol also underpins encryption in Google Messages and WhatsApp.",
+  "whatsNext": "Watch whether DeepMind extends AlphaProof Code beyond Signal, publishes cost figures, or turns it into a commercial verification product, none of which Google has committed to.",
   "article": {
    "whatHappened": [
-    "Google DeepMind has introduced AlphaProof Code, a system in which AI agents write formal proofs to verify software. The company says the agents produced three million lines of proofs in Lean, a proof assistant, to verify the core encryption of Signal.",
-    "DeepMind frames the announcement as a breakthrough in verifying complex software at depth. The only coverage available for this briefing is DeepMind's own summary, so details of the method, the exact properties proved, and any independent review are not yet clear."
+    "Google DeepMind researchers used agentic AI to formally verify a number of the cryptographic guarantees of the Signal protocol, using a new framework called AlphaProof Code. DeepMind says the agents wrote three million lines of Lean proofs, and Ars Technica reports the proof-of-concept project took four weeks.",
+    "The analysis did not turn up any new vulnerabilities in the portions of the protocol it examined. When researchers ran AlphaProof Code on older versions of Signal containing known, long-fixed vulnerabilities, however, it identified them and showed that those versions could not be formally verified.",
+    "The scope was limited. The work did not formally verify the entire Signal mobile app, and the researchers acknowledge they had a head start from earlier formal verification work by the Signal Foundation. DeepMind is releasing the specification and proof it developed to support other verification efforts.",
+    "DeepMind describes a human-AI collaboration process in which agents contribute and self-correct at almost every phase while humans review at key points. Research scientist Swarat Chaudhuri said the team does not want AI generating both the goals and the proofs."
    ],
    "whyItMatters": [
-    "Formal verification uses machine-checked proofs to show that code behaves according to a precise specification. It is among the strongest assurances available for security-critical software, but it is expensive, because humans must write and maintain large proofs. Three million lines of proof is a substantial volume, and having agents generate it points to a possible way to reduce that cost.",
-    "Signal's encryption is a fitting target because the app is widely used for private communication and its protocols are heavily scrutinized. Whether the proofs cover the actual implementation or a model of it, and how strong the specifications are, will determine how much assurance they provide. That is not stated in the material available, so it remains uncertain."
+    "Before AI, describing the properties to be proved, translating them into formulas and building the proof was extremely time-consuming. Agents can sharply cut the time spent on the last step, which is what made an analysis like this feasible in weeks. The result also serves as further independent validation of cryptography that protects large volumes of communications on Signal, Google Messages and WhatsApp.",
+    "The larger question is scale and cost. Google conducted the analysis free of charge, declined to share what it cost, and declined to say whether it plans a commercial verification product. Pushmeet Kohli, Google Cloud and DeepMind's chief scientist, suggested banks and other firms worried about bugs could one day prove properties of their code. Whether that is affordable remains open, and DeepMind's own researchers say there is a long way to go."
    ],
    "whatToWatch": [
-    "Readers should look for a full technical write-up, including what was specified and proved, how much human guidance was needed, and whether Signal's maintainers or outside verification experts have assessed the results. It is also unclear whether AlphaProof Code will be released to outside users."
-   ]
+    "Key signals will be whether DeepMind applies AlphaProof Code to other software, discloses what such work costs in compute and human review, and whether Google offers it as a product. Independent use of the released Signal specification and proof could also show how reusable the work is."
+   ],
+   "pullQuote": {
+    "text": "We are very excited by this result, but there is a long distance to go before we are able to scale this to all the software of the world, and we want to do that",
+    "by": "Swarat Chaudhuri, DeepMind research scientist"
+   }
   }
  },
  "fb9ff410aee0": {

@@ -8771,5 +8771,683 @@
   "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
   "imageCheckedAt": "2026-11-11T12:48:32.136Z",
   "storyId": "f7afa1dd4ce8"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+  "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T14:00:00.000Z",
+  "snippet": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+  "id": "0ccfb511c0c8",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Startup Plurai is applying the end-to-end training approach used in self-driving cars to make AI agents more reliable in unpredictable environments.",
+  "whyItMatters": "It reflects growing demand for tooling to make agents dependable.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Plurai"
+  ],
+  "storyId": "0ccfb511c0c8"
+ },
+ {
+  "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+  "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-11T17:37:32.000Z",
+  "snippet": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
+  "id": "2464a640b3fb",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Indie game Big Walk used AI to fix a bug, triggering a reckoning in indie gaming, as many Independent Games Festival judges consider any AI coding too much.",
+  "whyItMatters": "It shows how strong the cultural backlash against AI-assisted coding is in creative communities.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Big Walk",
+   "Independent Games Festival"
+  ],
+  "storyId": "2464a640b3fb"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+  "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T16:14:44.000Z",
+  "snippet": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-rose.jpg?resize=1200,675",
+  "id": "2ed3a890d3d8",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "OpenAI's quarterly revenue reportedly passed $10 billion for the first time, up almost 50% from $6.7 billion in the second quarter.",
+  "whyItMatters": "The growth rate shows demand for AI is still accelerating at the leading lab.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.343Z",
+  "storyId": "2ed3a890d3d8"
+ },
+ {
+  "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+  "title": "Retirement Savings Are Fueling the AI Bubble",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T19:06:43.000Z",
+  "score": 127,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50457164",
+  "id": "4443c3f3c02e",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "An article argues that retirement savings are funding the AI bubble.",
+  "category": "business",
+  "importance": 1,
+  "entities": [],
+  "storyId": "4443c3f3c02e"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+  "title": "Google DeepMind just mathematically verified key parts of Signal",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-11T14:08:57.000Z",
+  "snippet": "The four-week project hints that AI could make formal verification far more practical.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signal_icon-1024x648.jpg",
+  "id": "4878c495cef5",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Google DeepMind used AI to mathematically verify key parts of the Signal messaging protocol in a four-week project.",
+  "whyItMatters": "It suggests AI could make formal verification practical for real security-critical software.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Google DeepMind",
+   "Signal"
+  ],
+  "storyId": "f8c1a7370c13"
+ },
+ {
+  "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T21:24:35.000Z",
+  "score": 233,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50458900",
+  "id": "53bc56e14c08",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "United Airlines is banning AI agents from booking flights on behalf of travelers.",
+  "whyItMatters": "Signals that businesses may block agentic commerce, limiting what agents can do.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "United Airlines"
+  ],
+  "storyId": "53bc56e14c08"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+  "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T15:00:00.000Z",
+  "snippet": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+  "id": "6619f09dbc0d",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Databricks CEO Ali Ghodsi uses the company's revised Genie agent to get candid insight into problems across its 12,000 employees that staff might not report directly.",
+  "whyItMatters": "It shows an example of executives using enterprise agents as an internal feedback channel.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Databricks",
+   "Ali Ghodsi",
+   "Genie"
+  ],
+  "storyId": "6619f09dbc0d"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+  "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-11T14:00:00.000Z",
+  "snippet": "Project Screen Test lets you talk with AI-generated characters to shape their personality. | Image: Adobe Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform images into explorable 3D scenes, design AI characters by talking to them, and turn photo editing into a copy/paste process. The first (and weirdest, in my opinion) is Project Screen Test, which is designed to make AI-generated characters easier to develop and use for video con…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Adobe-Project-Screen-Test.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "6e40d6043154",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "At Adobe Max, Adobe showed experimental tools including Project Screen Test, which lets you design AI characters by talking to them for video content, plus tools that turn images into explorable 3D scenes and make photo editing a copy/paste process.",
+  "whyItMatters": "They preview where Adobe's creative tools may go, though experiments often never ship.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Adobe",
+   "Project Screen Test"
+  ],
+  "storyId": "6e40d6043154"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+  "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T19:34:55.000Z",
+  "snippet": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800",
+  "id": "6f3c74a04fea",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "British AI chip startup Fractile raised $720M, making it one of the top-funded makers of purpose-built AI chips.",
+  "whyItMatters": "It signals continued investor appetite for Nvidia alternatives.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Fractile"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.330Z",
+  "storyId": "6f3c74a04fea"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+  "title": "Meta is losing its longtime head of infrastructure",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T20:12:01.000Z",
+  "snippet": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+  "id": "70b89fd3ef03",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "Santosh Janardhan, Meta's longtime head of infrastructure who joined in 2009, is stepping down.",
+  "whyItMatters": "Leadership change at the team running Meta's massive AI infrastructure buildout.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Santosh Janardhan"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.295Z",
+  "storyId": "70b89fd3ef03"
+ },
+ {
+  "url": "https://machinelearning.apple.com/research/faster-retrieval",
+  "title": "Faster Retrieval for Better, More Efficient RAG",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T16:57:45.000Z",
+  "score": 130,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50455633",
+  "id": "7a69c1b89eda",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Apple's machine learning team published work on faster retrieval to make RAG systems more efficient and accurate.",
+  "whyItMatters": "Retrieval speed is a key bottleneck in production RAG.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Apple"
+  ],
+  "storyId": "7a69c1b89eda"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+  "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T16:16:07.000Z",
+  "snippet": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
+  "id": "7a8ca7de71bd",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Reporting examines whether Nvidia CEO Jensen Huang's alleged bad behavior reflects a wider pattern in the industry, with a consultant saying senior people know and effectively condone it.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+  "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T19:54:00.000Z",
+  "snippet": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024",
+  "id": "850c0644106f",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "CoreWeave is asking customers to prepay, borrowing against specific contracts and pursuing shorter-term deals that could mean higher prices, according to its Q3 earnings.",
+  "whyItMatters": "It reveals financing strain in AI compute capacity and may push up GPU cloud prices.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "CoreWeave"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.293Z",
+  "storyId": "850c0644106f"
+ },
+ {
+  "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+  "title": "Nvidia Is Preparing to Oust Nvidia CEO Jensen Huang",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T22:31:06.000Z",
+  "score": 233,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50459703",
+  "id": "89f810b4a388",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "WSJ reports Nvidia is preparing to oust CEO Jensen Huang.",
+  "whyItMatters": "Removal of Nvidia's founder would be a huge shift for the AI hardware ecosystem.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.304Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+  "title": "AWS Emulator and the engineer's job when agents write the code",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T18:28:31.000Z",
+  "score": 108,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50456740",
+  "id": "8c9052413e13",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "A post on AWS Emulator discusses the engineer's role when agents write the code.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "AWS"
+  ],
+  "storyId": "8c9052413e13"
+ },
+ {
+  "url": "https://openai.com/index/jiostar-vijay-seshadri",
+  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-11T00:00:00.000Z",
+  "snippet": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+  "id": "8c999d6885d2",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "JioStar's chief architect Vijay Seshadri describes how the streaming platform runs AI-driven content discovery for around 500 million users, covering evals, guardrails and moving AI into production.",
+  "whyItMatters": "It offers practical lessons on shipping and evaluating AI recommendation systems at very large scale.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "JioStar",
+   "OpenAI",
+   "Vijay Seshadri"
+  ],
+  "storyId": "8c999d6885d2"
+ },
+ {
+  "url": "https://pietromiotti.com/latest/maya-site",
+  "title": "My AI agents found an unmapped Maya site",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T12:05:22.000Z",
+  "score": 903,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50452455",
+  "id": "8d8bc38f54a7",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "A developer describes how his AI agents located a previously unmapped Maya archaeological site.",
+  "whyItMatters": "It is a concrete example of agents doing discovery work outside software.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Pietro Miotti"
+  ],
+  "storyId": "8d8bc38f54a7"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+  "title": "Jensen Huang Said to Have Had Relationship with Nvidia Executive",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T22:03:58.000Z",
+  "score": 115,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50459321",
+  "id": "8e5f1df4bf3d",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "NYT reports Nvidia CEO Jensen Huang allegedly had a relationship with an Nvidia executive.",
+  "whyItMatters": "Leadership turmoil at the dominant AI chip supplier could affect the whole industry.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.298Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+  "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T19:22:22.000Z",
+  "snippet": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+  "id": "94fcbf10f807",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "House Republicans called on Nvidia CEO Jensen Huang for a closed-door briefing about his affair with an alleged Chinese spy, with a Wednesday deadline to respond.",
+  "whyItMatters": "It adds political pressure on Nvidia amid scrutiny of China ties and chip exports.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.327Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://tis-100.wincon.dev/",
+  "title": "LLMs Play Zachtronics' TIS-100",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T00:37:05.000Z",
+  "score": 90,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50448340",
+  "id": "97c5f109dd6c",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "A site tests how well LLMs play Zachtronics' assembly-programming puzzle game TIS-100.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TIS-100",
+   "Zachtronics"
+  ],
+  "storyId": "97c5f109dd6c"
+ },
+ {
+  "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+  "title": "Why the data center you dread might never even be built",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T20:15:15.000Z",
+  "snippet": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+  "id": "ae5556d61c0b",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "Many announced AI data center projects may never be built, as local opposition, permitting delays and power scarcity hit the boom.",
+  "whyItMatters": "Compute supply growth may lag announced capacity, affecting cost and availability for builders.",
+  "category": "business",
+  "importance": 2,
+  "entities": [],
+  "storyId": "bdeaa23eb988"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+  "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T23:28:45.000Z",
+  "snippet": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+  "id": "b91248042740",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "Nvidia's stock dropped as its board reportedly prepares to remove founder and CEO Jensen Huang of 33 years, possibly as soon as Wednesday evening.",
+  "whyItMatters": "Market reaction shows how central Huang is to the AI hardware trade.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.281Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+  "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+  "sourceId": "google-ai",
+  "publishedAt": "2026-11-11T16:00:00.000Z",
+  "snippet": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
+  "id": "bad6ee94c356",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Google Labs launched Tabletop, an experiment for group collaboration where teams build interactive itineraries, polls and brackets; a waitlist is open.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google Labs",
+   "Tabletop"
+  ],
+  "storyId": "bad6ee94c356"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+  "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T20:02:14.000Z",
+  "snippet": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/ASW-Chip_tour-servers.jpg?resize=1200,900",
+  "id": "bdeaa23eb988",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "AI data center projects face local opposition, permitting delays and electricity shortages, and many announced projects may never get built.",
+  "whyItMatters": "Compute supply growth may lag announced capacity, affecting cost and availability for builders.",
+  "category": "business",
+  "importance": 3,
+  "entities": [],
+  "imageCheckedAt": "2026-11-11T23:30:50.261Z",
+  "storyId": "bdeaa23eb988"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+  "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-11T18:16:40.000Z",
+  "snippet": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
+  "id": "c2f79d0f0a9a",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "TSMC will invest $1 billion in Anthropic and OpenAI, another example of circular financing in the AI boom as the AI trade wobbles.",
+  "whyItMatters": "Suppliers funding their own customers raises questions about the sustainability of AI spending.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "TSMC",
+   "Anthropic",
+   "OpenAI"
+  ],
+  "storyId": "a548f4bc427d"
+ },
+ {
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "sourceId": "google-ai",
+  "publishedAt": "2026-11-11T18:00:00.000Z",
+  "snippet": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+  "id": "cce714811b51",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Google introduced the Gemini Decisions API, powered by a model called Gemini Decision, for fast, calibrated multimodal decisions.",
+  "whyItMatters": "Calibrated confidence outputs could suit classification and moderation workflows.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini Decisions API"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.362Z",
+  "storyId": "cce714811b51"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+  "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-11T22:44:36.000Z",
+  "snippet": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who reports to him, Nvidia's vice president of health care, Kimberly Powell, according to the Times. The Nvidia board will meet as soon as today to decide on Huang's future at the company, according to the Journal. Nvidia did not immediately respond to a request for comment from The …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cd03d116301a",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "Nvidia's board is reportedly preparing to dismiss CEO Jensen Huang after a NYT report of a second alleged affair, with Kimberly Powell, days after he admitted to a separate affair with a woman alleged to be a Chinese spy. The board may meet as soon as today.",
+  "whyItMatters": "Nvidia leadership uncertainty could ripple through AI chip supply and strategy.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "Kimberly Powell"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://huggingface.co/blog/token-pooling",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-11T00:00:00.000Z",
+  "id": "d2296a64c0dc",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "A paper proposes training multi-vector embedding models with token pooling in mind, so they hold up when token vectors are pooled to cut storage.",
+  "whyItMatters": "Pooling-aware training could make late-interaction retrieval cheaper to run in production.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "d2296a64c0dc"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+  "title": "United won’t let your AI agent book your flight",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-11T21:54:21.000Z",
+  "snippet": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned that agents could expose customers' information or make purchases they didn't intend, and potentially skirt federal rules about the kind of information airlines need to share with customers - like having them attest that their bags don't have explosives. While agen…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "d8ee9ab549e4",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "United won't let personal AI assistants book its flights, citing privacy, unintended purchases and federal disclosure rules. The airline says few customers have tried using agents so far.",
+  "whyItMatters": "Agent builders face gatekeeping from companies with regulatory obligations.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "United Airlines"
+  ],
+  "storyId": "53bc56e14c08"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+  "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T23:17:05.000Z",
+  "snippet": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+  "id": "d8ef3fe6591f",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:50.121Z",
+  "summary": "Jensen Huang, who admitted to an affair with a woman accused of being a Chinese intelligence agent, is now accused of a separate affair with an Nvidia subordinate.",
+  "whyItMatters": "Escalating scandal raises pressure on Nvidia's leadership.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-11T23:30:50.285Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+  "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-11T15:00:00.000Z",
+  "snippet": "A graphic representing Google’s AlphaGenome Atlas. | Image: Google Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor to DeepMind's genome-predicting AI model AlphaGenome, which was released last year. While nearly every cell in the human body carries the same DNA, different types of cells - from heart muscle cells and s…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ddb95c61a535",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Google DeepMind unveiled AlphaGenome 2, the successor to its genome-predicting model, which predicts how DNA variations affect different cell types.",
+  "whyItMatters": "Cell-type-level resolution could help researchers trace the causes of disease and find treatments.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Google DeepMind",
+   "AlphaGenome 2"
+  ],
+  "storyId": "ddb95c61a535"
+ },
+ {
+  "url": "https://cabird.com/talks/shipping-faster/",
+  "title": "AI, activity, and outcomes in software engineering",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T16:33:28.000Z",
+  "score": 103,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50455332",
+  "id": "e05d76cd3360",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "An essay looks at the relationship between AI use, developer activity and actual outcomes in software engineering.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "e05d76cd3360"
+ },
+ {
+  "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "sourceId": "deepmind",
+  "publishedAt": "2026-11-11T15:00:15.000Z",
+  "snippet": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+  "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
+  "id": "e879c6fc35d4",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Google DeepMind released AlphaGenome 2, which predicts how DNA sequences and their variants affect specific human cell types and disease.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Google DeepMind",
+   "AlphaGenome 2"
+  ],
+  "storyId": "ddb95c61a535"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+  "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-11T16:00:00.000Z",
+  "snippet": "Tabletop isn’t anything to do with D&D or boardgames, but it does make it easier to coordinate with freinds, | Image: Google Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing them, such as savings trackers, chore charts, event plans, and more. \"Just add in your links, files and …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Google-Labs-Tabletop.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f0476f4b70e9",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Google's Tabletop experiment lets users describe and vibecode custom collaborative hubs such as savings trackers, chore charts and event plans for friends and family.",
+  "whyItMatters": "It extends prompt-to-app generation to casual group coordination.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Tabletop"
+  ],
+  "storyId": "bad6ee94c356"
+ },
+ {
+  "url": "https://blog.atuin.sh/threads-agent-sessions/",
+  "title": "Atuin Threads: All your agent sessions on every machine",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T14:10:46.000Z",
+  "score": 180,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50453637",
+  "id": "f3e91f75ed13",
+  "fetchedAt": "2026-11-11T23:30:17.207Z",
+  "enrichedAt": "2026-11-11T23:30:41.737Z",
+  "summary": "Atuin launched Threads, a feature that syncs AI coding agent sessions across all of a user's machines.",
+  "whyItMatters": "It addresses the practical pain of continuing agent work across devices.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Atuin"
+  ],
+  "storyId": "f3e91f75ed13"
  }
 ]
