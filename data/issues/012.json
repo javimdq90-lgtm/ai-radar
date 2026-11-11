@@ -1,0 +1,367 @@
+{
+ "number": 12,
+ "date": "2026-11-11T14:06:23.067Z",
+ "subject": "Fable 5.2 and Gemini 4 Carbon land a day apart, and prices fall",
+ "preview": "Plus Anthropic's office tools, a robot safety benchmark from DeepMind, and New York's AI law portal opens.",
+ "intro": "Two frontier releases arrived a day apart, and both competed on price as much as on benchmarks. Around them, Anthropic pushed into the office, DeepMind pushed into robots, and the cost of electricity showed up in a deal.",
+ "sections": [
+  {
+   "heading": "The big ones",
+   "stories": [
+    {
+     "storyId": "ffe8a09e969f",
+     "headline": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, and cuts Fable's price",
+     "body": "Fable 5.2 is available to everyone at $8 per million input tokens and $40 per million output, down from $10 on input. Anthropic says output is up to 30% faster than 5.1, with an optional fast mode up to 2.5 times quicker at $16 and $80. Mythos 5.2, the same model with fewer cyber and biology safeguards, goes first to vetted organizations.",
+     "why": "Anthropic's flagship now costs less than OpenAI's GPT-6 Astra, per TechCrunch. Anthropic also says both models voice suspicion of being tested more than any recent model, which muddies safety evaluations."
+    },
+    {
+     "storyId": "28b27e2d175e",
+     "headline": "Google releases Gemini 4 Carbon and previews a /swarm agent mode",
+     "body": "Carbon is available to paying developers and AI Ultra subscribers at $2 per million input tokens and $10 per million output, matching Argon. Latent Space reports that rises to $4 and $20 on Dec 1. Google also previewed /swarm in Antigravity, which turns one prompt into a coordinated team of agents. Google claims #1 on CursorBench 4.0, WANDR and AutomationBench, but Fable 5.2 leads a multimodal agent benchmark, 57% to 54%.",
+     "why": "Price is Google's main lever, and the introductory rate has an end date. Early testers report hallucinations and verbosity, and Roboflow ranked Carbon last of 10 on speed and cost for vision tasks."
+    }
+   ]
+  },
+  {
+   "heading": "Products and robots",
+   "stories": [
+    {
+     "storyId": "af7403b45639",
+     "headline": "Anthropic launches Claude Meetings, Whiteboards and Sheets in beta",
+     "body": "Whiteboards and Sheets are in beta on all paid plans. Meetings is in beta on Team and Enterprise plans and works with Google Meet at launch. Dashboards, introduced in October, is now generally available as Claude Data. Interactive connectors let apps such as Adobe, Atlassian, HubSpot and Notion open inside Claude. On Enterprise, Whiteboards and Sheets are off by default, while Claude Data turns on by default November 19.",
+     "why": "Anthropic is going after knowledge workers beyond developers, where Google and OpenAI already offer meeting and workplace tools. Enterprise admins have a November 19 default to plan for."
+    },
+    {
+     "storyId": "7da1b2b4758f",
+     "headline": "DeepMind releases Gemini Robotics 2.5 to partners, with an open robot safety benchmark",
+     "body": "Google says the model has a 30 to 100 percent higher task success rate than its predecessor in lab testing and runs 20 to 30 percent faster. Apptronik's Apollo 2 robots running it kitted car parts in European Mercedes-Benz factories with a 96 percent success rate. DeepMind also released ASIMOV-Jailbreak, an open set of 1,500 prompts designed to trick robot AI into unsafe actions.",
+     "why": "There is no agreed way to test physical AI for safety, and DeepMind is trying to set one. Access is partner-only, and the model still runs in the cloud, which adds latency."
+    }
+   ]
+  },
+  {
+   "heading": "Models and research",
+   "stories": [
+    {
+     "storyId": "99d632aaa416",
+     "headline": "Meta releases Muse Ember, a 10-cent-per-million-token model for agent volume",
+     "body": "Meta Superintelligence Lab calls Ember its lightest and most cost-efficient model yet. It costs 10 cents per million input tokens and takes text, images and audio, so agents can read screenshots or work from voice memos. Meta says it beats Anthropic's Haiku and OpenAI's Luna on cost per task, citing Artificial Analysis's composite score. It is meant to pair with the larger Muse Wonder, which plans while Ember handles the volume.",
+     "why": "Meta is entering the cheap tier of agent workloads, where Haiku, Luna and DeepSeek already compete. The cost-per-task claim is Meta's own reading of the benchmark."
+    },
+    {
+     "storyId": "f8c1a7370c13",
+     "headline": "DeepMind's AlphaProof Code writes 3 million lines of Lean proofs for Signal's encryption",
+     "body": "Google DeepMind introduced AlphaProof Code, a system of agents aimed at verifying complex software. The agents wrote three million lines of proofs in the Lean proof assistant, targeting the core encryption of the Signal messaging app. DeepMind calls it a breakthrough in verifying complex software at depth. AlphaProof is its earlier system for formal mathematical reasoning.",
+     "why": "Formal verification has traditionally demanded huge amounts of expert labor. Automating it could make mathematical guarantees practical for security-critical code. So far the claim comes only from DeepMind."
+    }
+   ]
+  },
+  {
+   "heading": "Money and policy",
+   "stories": [
+    {
+     "storyId": "c012fc7ecd62",
+     "headline": "New York opens its RAISE Act registration portal for frontier AI developers",
+     "body": "Developers with over $500 million in annual revenue, such as OpenAI and Anthropic, must register by January 1, 2027. The law requires published safety frameworks, transparency reports and critical incident reports within 72 hours. The new Office of DIGIT enforces it, with penalties up to $1 million for a first violation and $3 million for later ones.",
+     "why": "New York joins California's SB 53 and Illinois's SB 315, which starts in 2027. Frontier labs now face several state regimes while having pushed for a more uniform approach."
+    },
+    {
+     "storyId": "d75c80b5454d",
+     "headline": "Anthropic buys $3.4B of Caterpillar gas turbines, FT reports",
+     "body": "The generators can produce up to 1.7 gigawatts. They were originally ordered by supplier OnePWR, which reportedly could not secure financing, so Anthropic went directly to Caterpillar. Anthropic's May S-1 says it pays xAI, a SpaceX subsidiary, $1.25 billion per month through May 2029 for computing power. TechCrunch notes the turbine backlog runs into the early 2030s.",
+     "why": "Anthropic has mostly rented compute, and this is a step toward owning its power supply. It also adds exposure to gas prices."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "5ca4dc7b6d88",
+   "text": "OpenAI's Business Hub beta lets companies verify ChatGPT profiles and launch labeled Business Agents, starting with eligible US e-commerce and online service firms."
+  },
+  {
+   "storyId": "661f340c132f",
+   "text": "Ring's $999.99 Rover Cam ships December 16; the $249.99 indoor Drone Cam is due January 27, 2027, pending FCC authorization."
+  },
+  {
+   "storyId": "974373c40fc7",
+   "text": "Microsoft researchers describe 'Lazarus', a backdoor that reprograms dormant neurons so agents with tool or terminal access run malicious commands on a trigger."
+  },
+  {
+   "storyId": "5427c369cf5d",
+   "text": "Notion says a security breach at its inference provider, Fireworks AI, affected Notion and its customers."
+  },
+  {
+   "storyId": "458bb1a34baf",
+   "text": "CoreWeave's bond yield has climbed above 16%, a sign of rising credit stress around AI infrastructure financing."
+  },
+  {
+   "storyId": "0bbf517ca2cf",
+   "text": "eBay appears to have blocked third-party AI agents, including Meta's Muse, from browsing its site."
+  },
+  {
+   "storyId": "571fb0494bf3",
+   "text": "OpenAI acquired Odessia, a travel startup created by Sonder founder Francis Davidson. OpenAI hasn't said what its travel plans are."
+  },
+  {
+   "storyId": "7739f93bab44",
+   "text": "Oura will acquire AI-native primary care startup Counsel Health for $625M, weeks after postponing its IPO indefinitely."
+  },
+  {
+   "storyId": "b54a5923f7fe",
+   "text": "Apple's Logic Pro now offers a one-time $49.99 Intelligence Usage Pack, since some features rely on cloud models from OpenAI or Google."
+  },
+  {
+   "storyId": "3e1919c777ea",
+   "text": "NaiveAI claims 2,100 tokens per second; Latent Space's hands-on test found its coding quality holds up against DeepSeek."
+  }
+ ],
+ "links": {
+  "ffe8a09e969f": [
+   {
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "source": "anthropic.com"
+   },
+   {
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://news.ycombinator.com/item?id=50429906",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+    "source": "The Verge"
+   },
+   {
+    "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+    "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+    "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+    "source": "artificialanalysis.ai"
+   },
+   {
+    "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+    "url": "https://news.ycombinator.com/item?id=50431144",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic reportedly plans to move forward with IPO plans",
+    "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+    "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+    "source": "Latent Space"
+   },
+   {
+    "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+    "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Anthropic targets $1.4 trillion IPO",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+    "source": "The Verge"
+   },
+   {
+    "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+    "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+    "source": "TechCrunch"
+   }
+  ],
+  "28b27e2d175e": [
+   {
+    "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+    "source": "The Verge"
+   },
+   {
+    "title": "Gemini 4 Carbon is now available",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "Gemini 4 Carbon is now available",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "source": "blog.google"
+   },
+   {
+    "title": "Gemini 4 Carbon is now available",
+    "url": "https://news.ycombinator.com/item?id=50442303",
+    "source": "HN discussion"
+   },
+   {
+    "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+    "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+    "source": "Latent Space"
+   }
+  ],
+  "af7403b45639": [
+   {
+    "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+    "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Anthropic has its own AI-powered office suite now",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+    "source": "The Verge"
+   },
+   {
+    "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+    "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+    "source": "claude.com"
+   },
+   {
+    "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+    "url": "https://news.ycombinator.com/item?id=50443716",
+    "source": "HN discussion"
+   }
+  ],
+  "7da1b2b4758f": [
+   {
+    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+    "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+    "source": "Ars Technica"
+   }
+  ],
+  "99d632aaa416": [
+   {
+    "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+    "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+    "source": "TechCrunch"
+   }
+  ],
+  "f8c1a7370c13": [
+   {
+    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "source": "Google DeepMind"
+   }
+  ],
+  "c012fc7ecd62": [
+   {
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "source": "TechCrunch"
+   }
+  ],
+  "d75c80b5454d": [
+   {
+    "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+    "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+    "source": "TechCrunch"
+   }
+  ],
+  "5ca4dc7b6d88": [
+   {
+    "title": "Introducing Businesses in ChatGPT",
+    "url": "https://openai.com/index/introducing-businesses-chatgpt",
+    "source": "OpenAI"
+   },
+   {
+    "title": "ChatGPT is getting verified AI ‘Business Agents’",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+    "source": "The Verge"
+   },
+   {
+    "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+    "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+    "source": "TechCrunch"
+   }
+  ],
+  "661f340c132f": [
+   {
+    "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+    "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Hands-on with Ring’s new AI drone camera for your home",
+    "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+    "source": "The Verge"
+   },
+   {
+    "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+    "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+    "source": "Ars Technica"
+   }
+  ],
+  "974373c40fc7": [
+   {
+    "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+    "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+    "source": "Microsoft Research"
+   }
+  ],
+  "5427c369cf5d": [
+   {
+    "title": "Fireworks AI security breach impacts Notion and their customers",
+    "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+    "source": "notion.com"
+   },
+   {
+    "title": "Fireworks AI security breach impacts Notion and their customers",
+    "url": "https://news.ycombinator.com/item?id=50437106",
+    "source": "HN discussion"
+   }
+  ],
+  "458bb1a34baf": [
+   {
+    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "source": "cnbc.com"
+   },
+   {
+    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+    "url": "https://news.ycombinator.com/item?id=50435660",
+    "source": "HN discussion"
+   }
+  ],
+  "0bbf517ca2cf": [
+   {
+    "title": "eBay appears to have shut the door on third-party AI agents",
+    "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+    "source": "The Verge"
+   }
+  ],
+  "571fb0494bf3": [
+   {
+    "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+    "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+    "source": "TechCrunch"
+   }
+  ],
+  "7739f93bab44": [
+   {
+    "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+    "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+    "source": "TechCrunch"
+   }
+  ],
+  "b54a5923f7fe": [
+   {
+    "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+    "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+    "source": "The Verge"
+   }
+  ],
+  "3e1919c777ea": [
+   {
+    "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+    "url": "https://latent.space/p/naiveai/",
+    "source": "Latent Space"
+   }
+  ]
+ }
+}
