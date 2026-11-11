@@ -7827,7 +7827,7 @@
    "Ring",
    "Amazon"
   ],
-  "storyId": "af2672128856"
+  "storyId": "661f340c132f"
  },
  {
   "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
@@ -7906,7 +7906,7 @@
    "Claude",
    "Anthropic"
   ],
-  "storyId": "f724697ad479"
+  "storyId": "af7403b45639"
  },
  {
   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
@@ -8091,7 +8091,7 @@
    "Amazon",
    "Jamie Siminoff"
   ],
-  "storyId": "af2672128856"
+  "storyId": "661f340c132f"
  },
  {
   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
@@ -8111,7 +8111,7 @@
    "Claude Meetings"
   ],
   "imageCheckedAt": "2026-11-10T22:25:56.929Z",
-  "storyId": "f724697ad479"
+  "storyId": "af7403b45639"
  },
  {
   "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
@@ -8192,7 +8192,7 @@
    "xAI",
    "SpaceXSI"
   ],
-  "storyId": "c3e82675d569"
+  "storyId": "3b58ffb304e7"
  },
  {
   "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
@@ -8249,7 +8249,7 @@
    "Anthropic",
    "Claude"
   ],
-  "storyId": "f724697ad479"
+  "storyId": "af7403b45639"
  },
  {
   "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
@@ -8291,5 +8291,485 @@
   ],
   "imageCheckedAt": "2026-11-10T22:25:57.148Z",
   "storyId": "28b27e2d175e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.14033",
+  "title": "Few-Step Streaming Video Generation via Condition Shifting",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-09T19:00:00.000Z",
+  "snippet": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation using the same parameters. This removes the independent fake network while retaining S2-Avatar's fro…",
+  "score": 31,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14033.png",
+  "id": "07b8c2ffe283",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "A method extends APEX to streaming video generation using condition shifting, removing the separate fake-score network that Distribution Matching Distillation needs, cutting training memory and compute for few-step generation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "APEX",
+   "S2-Avatar"
+  ],
+  "storyId": "07b8c2ffe283"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.14320",
+  "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-09T19:00:00.000Z",
+  "snippet": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them. To address this, we introduce WikiTrace,…",
+  "score": 42,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14320.png",
+  "id": "0f451c0d900e",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Researchers show that agent memory lessons can degrade performance when they are incorrect or misapplied, and introduce WikiTrace, which links lessons to the trajectories they came from as evidence.",
+  "whyItMatters": "Useful for anyone building agents with persistent memory.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "WikiTrace"
+  ],
+  "storyId": "0f451c0d900e"
+ },
+ {
+  "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+  "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+  "sourceId": "google-ai",
+  "publishedAt": "2026-11-11T09:00:00.000Z",
+  "snippet": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp",
+  "id": "14eef01dc0f4",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://openai.com/index/cogent-security",
+  "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-10T00:00:00.000Z",
+  "snippet": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+  "id": "1ff74ee2cb10",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Cogent is combining OpenAI models with enterprise context to build 'cyber defense factories' that use agents to automatically remediate vulnerabilities.",
+  "whyItMatters": "Another sign of agentic security remediation moving into enterprise products.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Cogent",
+   "OpenAI"
+  ],
+  "storyId": "1ff74ee2cb10"
+ },
+ {
+  "url": "https://openai.com/index/singapore-airlines-travel-work",
+  "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-10T08:00:00.000Z",
+  "snippet": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+  "id": "4e3e5904c85a",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Singapore Airlines uses OpenAI models and API for customer support, travel discovery and employee productivity, reportedly doubling CSAT for its Kris chatbot.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Singapore Airlines",
+   "OpenAI"
+  ],
+  "storyId": "4e3e5904c85a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.11995",
+  "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "snippet": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation horizon, while 135 of the 150 runs achieve further improvements during the second half of their budgets. These findings indicate that shorter evaluations can overlook both optimization gains and changes…",
+  "score": 24,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11995.png",
+  "id": "6441feaeee62",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.892Z",
+  "summary": "Infrathon is a benchmark of long-horizon AI infrastructure optimization tasks, evaluating six models across 150 runs with 24-hour budgets and over 10,000 GPU-hours. Model rankings change with horizon, and 135 of 150 runs kept improving in the second half.",
+  "whyItMatters": "Short agent evals understate what long-running agents can achieve.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Infrathon"
+  ],
+  "storyId": "6441feaeee62"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.11558",
+  "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-08T13:59:37.000Z",
+  "snippet": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent numerical drift. We present InfraRSI, the agentic harness that turns open-ended human commands into verified training optimizations via a five-stage workflow: init locks editable scope and a fixed task contract over workload, loss, and timing invariants to prevent reward hacking,…",
+  "score": 27,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11558.png",
+  "id": "65231d34f801",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.892Z",
+  "summary": "InfraRSI is an agentic harness that turns human commands into verified LLM training-infrastructure optimizations via a five-stage workflow. It locks editable scope and a task contract over workload, loss and timing invariants to prevent reward hacking.",
+  "whyItMatters": "Shows agents can tune distributed training setups safely, not just isolated kernels.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "InfraRSI"
+  ],
+  "storyId": "65231d34f801"
+ },
+ {
+  "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+  "title": "Apple has new Mac app coming to make running local AI models easy",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-10T21:25:03.000Z",
+  "score": 318,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50446520",
+  "id": "77d255b4e9ac",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Apple is reportedly preparing a new Mac app that makes running local AI models easy.",
+  "whyItMatters": "Could bring local model use to mainstream Mac users and shape on-device tooling.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Apple"
+  ],
+  "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
+  "imageCheckedAt": "2026-11-11T12:48:32.004Z",
+  "storyId": "77d255b4e9ac"
+ },
+ {
+  "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+  "title": "ChatGPT Plus for veterans and servicemembers",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-11T08:00:00.000Z",
+  "snippet": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+  "id": "80b38ea7da37",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus from OpenAI.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "ChatGPT Plus"
+  ],
+  "storyId": "80b38ea7da37"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.12885",
+  "title": "World In-Context Learning for Agentic Robot Manipulation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "snippet": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in…",
+  "score": 48,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12885.png",
+  "id": "871c4497cbf2",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.892Z",
+  "summary": "World In-Context Learning (WICL) lets robots learn manipulation in context by transferring semantic task steps and object roles from demonstrations in other scenes, rather than baking skills into weights.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "WICL"
+  ],
+  "storyId": "871c4497cbf2"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+  "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-10T22:35:01.000Z",
+  "snippet": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
+  "id": "9531c706dbfc",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Amazon will launch Ring Robotics, an AI-powered roaming security drone and robot, in late 2026 and early 2027.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "Ring"
+  ],
+  "storyId": "661f340c132f"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+  "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+  "sourceId": "msr",
+  "publishedAt": "2026-11-10T20:52:56.000Z",
+  "snippet": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, […]",
+  "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/MSR-BLG_LAZ_HERO.png",
+  "id": "974373c40fc7",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Microsoft researchers found 'Lazarus', a backdoor technique that reprograms dormant neurons so an AI agent runs malicious commands when a hidden trigger appears. Agents with tool or terminal access are most at risk.",
+  "whyItMatters": "Highlights a supply-chain risk for downloaded model weights used in agents.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Microsoft Research",
+   "Lazarus"
+  ],
+  "storyId": "974373c40fc7"
+ },
+ {
+  "url": "https://docs.modelplane.ai/guides/inference-guide",
+  "title": "An Open Field Guide to Inference Engineering",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-10T17:55:07.000Z",
+  "score": 89,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50443714",
+  "id": "a5749ddac123",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "An open field guide to inference engineering published on docs.modelplane.ai.",
+  "whyItMatters": "A free reference for people serving models in production.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Modelplane"
+  ],
+  "storyId": "a5749ddac123"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.12870",
+  "title": "SWAM: Scaling World Action Models with Cross-Modal Alignment",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "snippet": "World action models jointly predict video and actions conditioned on language. Existing studies focus primarily on architectures and training mechanisms, typically treating language-video alignment acquired through video pretraining as an established foundation. However, introducing action learning may impair this alignment. Principled guidance on data and supervision design for maintaining language-video alignment during action learning remains limited. To investigate this, we curate a pool of approximately 47,000 hours of general videos, egocentric videos, UMI demonstrations, and robot demo…",
+  "score": 21,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12870.png",
+  "id": "aeed2eb95f95",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.892Z",
+  "summary": "SWAM studies how to preserve language-video alignment when training world action models, using about 47,000 hours of general, egocentric, UMI and robot demonstration video.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SWAM"
+  ],
+  "storyId": "aeed2eb95f95"
+ },
+ {
+  "url": "https://huggingface.co/blog/qvac/botpsy",
+  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-11T05:01:16.000Z",
+  "id": "b22522d14a17",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "BotPsy is an on-device personal assistant built on a sub-billion-parameter agentic language model.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "BotPsy"
+  ],
+  "storyId": "b22522d14a17"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.14210",
+  "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-09T19:00:00.000Z",
+  "snippet": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop direction, strengthens a concluding direction, and preserves the layer's output on productive tokens. Withi…",
+  "score": 37,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14210.png",
+  "id": "b32f33401f92",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Tree-Ising repairs language models by casting the fix as sparse discrete optimization over BF16 weights, building on MIT work where a GPT-6 Astra agent fixed Qwen3.5-0.8B reasoning loops without gradients.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Tree-Ising",
+   "Qwen3.5-0.8B",
+   "GPT-6 Astra",
+   "MIT"
+  ],
+  "storyId": "b32f33401f92"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.11166",
+  "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-09T19:00:00.000Z",
+  "snippet": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and …",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11166.png",
+  "id": "bbabebb08df2",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "DexForesight improves dexterous manipulation policies by implicitly injecting spatial world representations, learned from depth, hand geometry and demonstrations, into the policy's latent space.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "DexForesight"
+  ],
+  "storyId": "bbabebb08df2"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.12426",
+  "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-08T19:00:00.000Z",
+  "snippet": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richness of the visual world? We present dNaViT, a Discrete Native-resolution Vision Transformer that produces discrete visual primitives analogous to language tokens. Built upon a frozen pretrained encoder…",
+  "score": 30,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.12426.png",
+  "id": "cbaff44eace9",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.892Z",
+  "summary": "dNaViT is a native-resolution vision transformer that produces discrete visual tokens from a frozen pretrained encoder. The paper argues that discrete codes serve as general-purpose visual representations.",
+  "whyItMatters": "Supports unifying vision and language under one next-token framework.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "dNaViT"
+  ],
+  "storyId": "cbaff44eace9"
+ },
+ {
+  "url": "https://latent.space/p/codex-work/",
+  "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-11T04:49:48.000Z",
+  "snippet": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/27ce2150-3717-4122-ac3a-37dd0e8ce18f/openai-aiecode-feature.png?t=1794370546",
+  "id": "d46e4b8dae91",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "At AI Engineer Code Summit, OpenAI showed developers steering Codex by voice and handing work off to the cloud.",
+  "whyItMatters": "Shows where Codex workflows are heading.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Codex"
+  ],
+  "storyId": "d46e4b8dae91"
+ },
+ {
+  "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+  "title": "Life on Claude Nine",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-10T17:44:44.000Z",
+  "score": 112,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50443587",
+  "id": "dfad3e6674c2",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "A personal essay or commentary titled 'Life on Claude Nine' about living with Claude; no further details available.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Claude"
+  ],
+  "storyId": "dfad3e6674c2"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+  "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T07:30:51.000Z",
+  "snippet": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+  "image": "https://techcrunch.com/wp-content/uploads/2019/05/GettyImages-503116193.jpeg?resize=1200,800",
+  "id": "e28ff692f118",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Corporate governance experts say the crisis unfolding at Nvidia is unlike anything they have seen before.",
+  "whyItMatters": "Nvidia's stability matters to the whole AI hardware supply chain.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-11T12:48:32.019Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+  "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-11T09:34:28.000Z",
+  "snippet": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+  "image": "https://latent.space/og/card/post/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/0a6ebbfe98ad97a5127fc1c24df129ccd58884d32c867036ad2d48f36fe03fee.png",
+  "id": "f18c0fa24109",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Mercor raised a $750M Series D at a $20B valuation with a $3B run rate. The newsletter also notes Google making Gemini 4 Carbon generally available.",
+  "whyItMatters": "Shows how big the AI training-data and expert-labor market has become.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Mercor",
+   "Google",
+   "Gemini 4 Carbon"
+  ],
+  "imageCheckedAt": "2026-11-11T12:48:32.102Z",
+  "storyId": "28b27e2d175e"
+ },
+ {
+  "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+  "title": "Gilbert + Tobin rethinks the business of law with AI",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-12T00:00:00.000Z",
+  "snippet": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+  "id": "f28f90d2895a",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "Gilbert + Tobin CEO Sam Nickless discusses how the law firm is rethinking legal business with AI, in an OpenAI customer story.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Gilbert + Tobin",
+   "OpenAI"
+  ],
+  "storyId": "f28f90d2895a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.14309",
+  "title": "MMDM: Measuring Massive Multitask Decision Making",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-09T19:00:00.000Z",
+  "snippet": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges that existing benchmarks do not adequately capture together. Thus, we introduce MMDM (Massive Mult…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.14309.png",
+  "id": "f2963506946a",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "MMDM is a benchmark for System-1 decision models that make structured probabilistic decisions in one forward pass, targeting long contexts, large option spaces and complex logic while avoiding test contamination.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "MMDM"
+  ],
+  "storyId": "f2963506946a"
+ },
+ {
+  "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+  "title": "Tracking Anthropic-discovered vulnerabilities",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-10T22:17:56.000Z",
+  "score": 420,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50447074",
+  "id": "f7afa1dd4ce8",
+  "fetchedAt": "2026-11-11T12:48:10.059Z",
+  "enrichedAt": "2026-11-11T12:48:31.893Z",
+  "summary": "VulnCheck is tracking vulnerabilities discovered by Anthropic's AI.",
+  "whyItMatters": "Gives a view of how much real-world vulnerability discovery AI models are producing.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "VulnCheck"
+  ],
+  "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+  "imageCheckedAt": "2026-11-11T12:48:32.136Z",
+  "storyId": "f7afa1dd4ce8"
  }
 ]

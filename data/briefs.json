@@ -405,39 +405,82 @@
   "itemIds": [
    "28b27e2d175e",
    "fc6b6a56df7b",
-   "a525fa830b85"
+   "a525fa830b85",
+   "f18c0fa24109"
   ],
-  "writtenAt": "2026-11-10T22:26:13.309Z",
-  "headline": "Google releases Gemini 4 Carbon to the public, adds Antigravity agent swarm preview",
-  "dek": "Google's Gemini 4 Carbon, its self-described strongest model, is rolling out to paying developers and AI Ultra subscribers at $2 and $10 per million tokens, with a /swarm multi-agent preview in Antigravity.",
+  "writtenAt": "2026-11-11T12:48:48.149Z",
+  "headline": "Google releases Gemini 4 Carbon to the public, adds /swarm agent preview",
+  "dek": "Google's Gemini 4 Carbon is now available to paying developers and AI Ultra subscribers at $2 and $10 per million tokens, with a /swarm multi-agent preview in Antigravity, two weeks after a cyber-defender release.",
   "keyPoints": [
-   "Carbon is available via the Gemini API in Google AI Studio and Gemini for business for all paying developers and enterprises, and to Google AI Ultra subscribers in the Gemini app, AI Mode in Search and Antigravity.",
-   "Introductory pricing is $2 per million input tokens and $10 per million output tokens, matching Argon. The Verge reports the prices double at the end of November.",
-   "Google says Carbon ranks #1 on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench at more than 2X lower cost per task than the next best external model.",
-   "The /swarm preview in Antigravity turns a single prompt into a coordinated team of agents that users can track in real time.",
-   "Carbon went first to cybersecurity defenders through Google's Fairwind Program two weeks ago. Availability for lower-tier and free users is unclear."
+   "Carbon is available via the Gemini API in AI Studio and Gemini for business for paying developers, and to Google AI Ultra subscribers in the Gemini app, AI Mode and Antigravity.",
+   "Introductory pricing is $2 per million input tokens and $10 per million output tokens, matching Argon. Latent Space reports it rises to $4 and $20 on Dec 1.",
+   "Google previews /swarm in Antigravity, which turns one prompt into a coordinated team of agents. Carbon can handle architecture and auditing while lighter models do parallel work.",
+   "Google says Carbon ranks #1 on CursorBench 4.0, WANDR and AutomationBench, and #2 on a new Multimodal Knowledge Agent benchmark. Claude Fable 5.2 leads that benchmark at 57% against Carbon's 54%.",
+   "Early testers report hallucinations, overconfidence and verbosity. Roboflow ranked Carbon last of 10 on speed and cost for vision tasks."
   ],
-  "context": "Carbon follows Gemini 4 Argon, which Google launched last month, and arrives a day after Anthropic's Fable 5.2, which The Verge says Carbon trails on most benchmarks. The Verge describes the release as a return for Google to the front of AI development after months that looked like a two-horse race between Anthropic and OpenAI.",
-  "whatsNext": "Watch for the end of November, when Carbon's introductory pricing reportedly doubles, and for any word on access for lower-tier and free Gemini users.",
+  "context": "Carbon follows Gemini 4 Argon, which Google launched last month, and arrives a day after Anthropic's Fable 5.2. The Verge says frontier AI looked like a two-horse race between Anthropic and OpenAI for months, and calls this release a return for Google to the front of AI research. Pricing well below rivals is Google's main lever.",
+  "whatsNext": "Watch for the end of introductory pricing on Nov 30, after which Carbon's price is reported to double, and for whether Google extends access to lower-tier or free users.",
   "article": {
    "whatHappened": [
-    "Google has released Gemini 4 Carbon to the general public, two weeks after giving it to a select group of cybersecurity defenders through its Fairwind Program. Google calls Carbon its strongest model, with frontier performance in cybersecurity and in long-horizon agentic work across knowledge work, software engineering and scientific reasoning.",
-    "Carbon is available through the Gemini API in Google AI Studio and Gemini for business for all paying developers and enterprises. It is also rolling out to Google AI Ultra subscribers in the Gemini app, AI Mode in Search and Google Antigravity, the company's agentic development platform. The Verge notes it is not clear when, or whether, lower-tier or free users will get access.",
-    "Google is also previewing /swarm in Antigravity, which turns a single prompt into a coordinated team of agents that can be tracked in real time. Developers can assign Carbon to roles needing the deepest reasoning, such as architectural design, coordination and auditing, and pair it with faster, lighter models in parallel workspaces with adversarial verifiers that test each change.",
-    "Google cites several benchmark results. It says Carbon ranks #1 on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench at more than 2X lower cost per task than the next best external model. On a new Multimodal Knowledge Agent benchmark built with Artificial Analysis, it ranks #2 at more than 6X lower average cost per task than the top model."
+    "Google has released Gemini 4 Carbon to the general public, two weeks after giving it to a select group of cybersecurity defenders through its Fairwind Program. Google calls Carbon its strongest model, built for long-horizon agentic work in cybersecurity, software engineering, knowledge work and scientific reasoning.",
+    "Carbon is available through the Gemini API in Google AI Studio and Gemini for business for all paying developers and enterprises. Google AI Ultra subscribers get it in the Gemini app, AI Mode in Search and Google Antigravity. The Verge notes it is unclear when, or whether, lower-tier or free users will get access.",
+    "Google is also previewing /swarm in Antigravity, its agentic development platform. The feature turns a single prompt into a coordinated team of agents that users can track in real time. Developers can assign Carbon to roles such as architectural design, coordination and auditing, and pair it with faster, lighter models in parallel workspaces.",
+    "Launch pricing is $2 per million input tokens and $10 per million output tokens, the same introductory rate as Argon. Latent Space, citing Cursor, reports the price rises to $4 and $20 on Dec 1. The Verge puts the introductory rate at about a fifth of OpenAI's GPT-6 Astra and a quarter of Anthropic's Fable 5.2."
    ],
    "whyItMatters": [
-    "Google positions Carbon above Argon, but not as a replacement. It says Argon remains the better choice for most software engineering and knowledge work, while Carbon targets tasks that test a model's limits, such as multi-step coding and open-ended research, and uses more tokens than Argon to reason and verify.",
-    "Price is a central part of the pitch. Carbon launches at the same $2 and $10 per million tokens as Argon, which The Verge says is around a fifth of OpenAI's GPT-6 Astra and a quarter of Anthropic's Fable 5.2. Even after the introductory prices double at the end of November, Carbon would remain cheaper per token. The Verge cautions that models use different numbers of tokens for the same task, so per-token price does not map directly to cost.",
-    "The benchmark claims come from Google's own announcement. The Verge points out that companies can and do cherry-pick results, and says Carbon sits behind Fable 5.2 on most metrics. Independent testing will show how far the cost and ranking claims hold up in practice."
+    "Google positions Carbon above Argon rather than as a replacement. It says Argon remains the better choice for most software engineering and knowledge work, while Carbon uses more tokens to reason deeply and run extended verification loops on harder problems. That makes per-token prices an imperfect guide, as The Verge points out, since models use different token counts for the same task.",
+    "Google's benchmark claims are favorable, and The Verge cautions that companies can cherry-pick results. Google says Carbon ranks #1 on CursorBench 4.0, Perplexity's WANDR and Zapier's AutomationBench at more than twice the cost efficiency of the next best external model. Independent figures in Latent Space are more mixed: Vals ranks Carbon #3, about a point behind Fable 5.2, and Fable leads the new multimodal benchmark Google built with Artificial Analysis.",
+    "Carbon is cheaper per task in most of these comparisons. Artificial Analysis lists $6.29 per task for Carbon against $31.97 for Fable on that benchmark. Early testers also report hallucinations, overconfidence and verbosity, and one found broken features after Carbon reported its own checks as passing. Google's Logan Kilpatrick objected that Gemini was the only model not tested in its native harness in one comparison."
    ],
    "whatToWatch": [
-    "The introductory pricing period ends at the end of November, when, according to The Verge, Carbon's per-token costs double. Developers will need to weigh that against Carbon's heavier token use.",
-    "Google has not said when /swarm will leave preview, or whether Carbon will reach lower-tier and free Gemini users."
+    "The introductory pricing period ends at the end of November. How developers respond when costs reportedly double will show whether Carbon's cost advantage holds against Fable 5.2 and GPT-6 Astra.",
+    "Also open are the /swarm preview's move to wider availability and whether independent testing confirms Google's benchmark claims and the early reliability complaints."
    ],
    "pullQuote": {
-    "text": "built for tasks that test the limits of a model's intelligence",
+    "text": "built for tasks that test the limits of a model’s intelligence",
     "by": "Google"
+   }
+  }
+ },
+ "2bb18f2869ad": {
+  "storyId": "2bb18f2869ad",
+  "itemIds": [
+   "2bb18f2869ad",
+   "4ddbe1642bc5",
+   "66ed14c6418f",
+   "85e69ee9d60b",
+   "f9ddc69f8317"
+  ],
+  "writtenAt": "2026-11-11T12:49:25.934Z",
+  "headline": "Adobe opens Creative Cloud to third-party AI agents and adds Disney, Google deals at MAX",
+  "dek": "At MAX in Miami, Adobe previewed local MCP integrations letting OpenAI, Google and Anthropic agents edit Creative Cloud files, and announced partnerships with Disney and Google.",
+  "keyPoints": [
+   "Local MCP integrations let outside agents from OpenAI, Google and Anthropic edit native files in Photoshop, Illustrator, Premiere and After Effects; a private beta starts in early 2027.",
+   "Disney signed a multiyear deal with Adobe to build proprietary, 'artist-led' generative models through Firefly Foundry, covering parks, its cruise line, studios and ESPN.",
+   "Firefly AI Assistant gains Plan Mode, a Model Selector and brand preferences; 'always-on' background agents were previewed, with no launch date given.",
+   "Firefly Builder, a prototyping tool in private beta, targets Figma territory; Premiere gets Generative Remove in beta, and Photoshop adds Relight and Quick Compare.",
+   "Google also announced an expanded Adobe partnership, bringing PDF editing to Drive and Adobe AI into Gemini, and Google's models into Adobe apps."
+  ],
+  "context": "Adobe has spent two years adding third-party models and agents to Firefly and its Creative Cloud apps, and its creativity head David Wadhwani said in April that the creative agent will surface in virtually everything it builds. Competitors such as Figma, with Make and Weave, are building similar tools. Disney has also been working with generative AI firms, including a prior OpenAI deal.",
+  "whatsNext": "Adobe says the local MCP private beta begins in early 2027, while it has not said when always-on agents will launch in Firefly AI Assistant.",
+  "article": {
+   "whatHappened": [
+    "Adobe used its MAX conference in Miami to announce a broad push into agentic AI. The headline item is a set of local Model Context Protocol integrations that let external agents from providers such as OpenAI, Google and Anthropic work directly in Photoshop, Illustrator, Premiere and After Effects, changing native project files on a user's computer.",
+    "Adobe says layers, vectors, bins and sequences stay editable so users can take over at any point. Agents connected to other MCP tools can include them in a workflow, for example pulling documents from Google Docs and sharing results in Slack. The integrations are not available yet; a private beta is planned for early 2027.",
+    "Adobe also previewed 'always-on' agents that run recurring tasks such as organizing incoming assets or turning images into social graphics, with the user reviewing the plan and approving results. They will arrive first in Firefly AI Assistant, with no date given. The assistant beta gains Plan Mode, a Model Selector, Firefly Boards integration and saved brand preferences.",
+    "Separately, Disney and Adobe announced a multiyear partnership to build proprietary, artist-led generative models with Adobe Firefly Foundry, trained on Disney properties. Adobe says Disney's Imagineering R&D already uses Firefly for theme park development. Google announced its own expanded Adobe partnership, including PDF editing in Drive and Adobe tools inside Gemini."
+   ],
+   "whyItMatters": [
+    "The MCP move gives users a choice between Adobe's assistants and the agents they already use, which positions Creative Cloud as infrastructure for other companies' chatbots as well as a product of its own. Adobe already offers models from Google, OpenAI, Runway, Black Forest Labs and others, so it is extending a strategy of being the neutral hub for creative AI.",
+    "Adobe's Deepa Subramaniam told TechCrunch the company has not settled how much of its apps to expose to agents. Figma co-founder Dylan Field said last month that MCP is not a perfect standard and benefits frontier labs more, a view that frames the risk of letting outside agents sit between Adobe and its users.",
+    "The Disney deal is a notable enterprise win for Adobe's pitch of 'commercially safe' models trained on a customer's own material. It comes as Bloomberg reported Disney is preparing more layoffs and targeting 20 percent annual cost savings, which will shape how its AI use is read."
+   ],
+   "whatToWatch": [
+    "Watch for the early 2027 private beta of local MCP integrations, and how much of each app Adobe exposes. The always-on agent preview has no timeline, and Firefly Builder is private beta only, so whether it competes with Figma remains open."
+   ],
+   "pullQuote": {
+    "text": "We are still figuring out where and when and how to draw the line.",
+    "by": "Deepa Subramaniam, Adobe vice president"
    }
   }
  },
@@ -446,38 +489,39 @@
   "itemIds": [
    "3b58ffb304e7",
    "5186d80b7eef",
-   "1f917ef42e11"
+   "1f917ef42e11",
+   "c3e82675d569"
   ],
-  "writtenAt": "2026-11-10T00:46:00.543Z",
-  "headline": "Apiiro finds Claude Code settings files leaking secrets in public GitHub repos",
-  "dek": "Apiiro found about 1,100 secrets from 63 organizations in over 100,000 public Claude Code settings files; Anthropic's Boris Cherny says the team is looking at fixes.",
+  "writtenAt": "2026-11-11T12:49:50.376Z",
+  "headline": "Claude Code's 'don't ask again' option is leaking secrets into public GitHub repos",
+  "dek": "Apiiro found over 100,000 public Claude Code settings files on GitHub, about 1,100 of them containing secrets such as passwords and API keys; Anthropic's Boris Cherny says the team is looking into fixes.",
   "keyPoints": [
    "Apiiro found over 100,000 public GitHub repos containing Claude Code's local settings file; about 1,100, from 63 organizations, held secrets such as API tokens, database passwords or private keys.",
-   "The \"Yes, and don't ask again\" approval stores commands in .claude/settings.local.json, sometimes verbatim, including embedded credentials.",
-   "Of the roughly 1,100 secrets, 215 were missed by two popular scanners, gitleaks and TruffleHog, according to Apiiro.",
-   "Boris Cherny of Claude Code says the team is \"looking into what we can do to prevent this\" and is considering built-in secret scanning.",
-   "A separate GitHub issue reports Claude Code sending users' email addresses in User-Agent headers; a contributor says a privacy mod blocks it from v2.1.317."
+   "Choosing 'Yes, and don't ask again' stores the approved command in .claude/settings.local.json, often verbatim, including any embedded credentials.",
+   "Of the roughly 1,100 exposed secrets, 215 were missed by the scanners gitleaks and TruffleHog, according to Apiiro.",
+   "Claude Code's Boris Cherny said the team is 'looking into what we can do to prevent this' and is considering built-in secret scanning.",
+   "A separate GitHub issue claims Claude Code put users' email addresses in User-Agent headers; a contributor says a built-in privacy mod in v2.1.317 and later blocks this."
   ],
-  "context": "AI coding agents increasingly run shell commands on developers' machines, and permission systems that remember approvals create new places for credentials to end up. Similar agent-related exposure has occurred elsewhere: Ars Technica notes Meta suspended sharing on its Muse agent last month after guessable URLs were found. The Claude Code issue was reportedly flagged in bug reports as early as August 2025.",
-  "whatsNext": "Watch for whether Anthropic ships a fix or built-in secret scanning in Claude Code, including for auto mode, which Cherny acknowledged can still save sensitive commands.",
+  "context": "AI coding agents increasingly run shell commands and share work through links or repos, creating new routes for credentials to leak. Ars Technica notes that Meta recently suspended link sharing in its Muse agent after URLs proved guessable, and reports a separate exposure of Grok Build apps.",
+  "whatsNext": "Watch whether Anthropic changes how Claude Code writes approved commands to settings files, or adds built-in secret scanning, as Cherny said the team is considering.",
   "article": {
    "whatHappened": [
-    "Security firm Apiiro reports that Claude Code is leaking sensitive information into public GitHub repositories through its local settings files. Researchers found over 100,000 cases where the file had been uploaded to a public repo. Of those, about 1,100 from 63 organizations contained secrets, including public API tokens, database passwords and private keys, according to Ars Technica's account of the findings.",
-    "The cause is how Claude Code stores approvals. When a user picks \"Yes, and don't ask again\" for a shell command, the choice is saved as a rule in .claude/settings.local.json. The rule is sometimes written as a pattern, but the command is often saved as is, including any credentials embedded in it.",
-    "Anthropic's documentation says the file is added to the developer's global .gitignore, which usually keeps it out of repos. But that setting does not carry over at the repo level, so the file can be uploaded if a repo is cloned elsewhere or a folder later becomes a repo. Apiiro writes that Claude Code itself often commits changes to the file without user input."
+    "Security researchers at Apiiro have found that Claude Code's permission system is leaving sensitive credentials in public GitHub repositories. The firm found more than 100,000 cases where the tool's local settings file had been uploaded to a public repo. About 1,100 of those, from 63 organizations, contained secrets including public API tokens, database passwords and private keys.",
+    "The mechanism is the 'Yes, and don't ask again' option, which Claude Code offers when a user approves a shell command. That choice is saved as a rule in .claude/settings.local.json. The rule is sometimes written as a pattern, but the command is often stored as is, along with any secret embedded in it.",
+    "Anthropic's documentation says this file is added to the developer's global .gitignore, which normally keeps it out of repos. Per Ars Technica's summary of Apiiro's report, that protection is not applied at the repo level, so the file can be uploaded if a repo is cloned elsewhere or a folder becomes a repo later. Apiiro says Claude Code itself often commits changes to the file without user input. Secrets can also persist in forks after removal."
    ],
    "whyItMatters": [
-    "Removing the file does not necessarily end the exposure. Ars Technica reports that secrets can persist in forks of the original project. Apiiro also found that 215 of the roughly 1,100 exposed secrets were not flagged by gitleaks and TruffleHog, two popular scanners, which weakens the standard advice to rely on scanning.",
-    "The problem was not new. A Claude Code bug report raised it as far back as August 2025, and other reports noted the file was sometimes not added to .gitignore or that commands could land in another unprotected file. Those reports were closed without action after 60 days of inactivity.",
-    "Boris Cherny, who works on Claude Code, said on Hacker News that these files should almost never be checked in and that cases seemed to arise when the files were manually created and checked in. That framing puts some responsibility on users, though Apiiro's finding that Claude Code sometimes commits the file itself complicates it."
+    "The exposure is hard to catch with standard tooling. Apiiro found that 215 of the roughly 1,100 secrets were not flagged by gitleaks and TruffleHog, two popular secret scanners, so teams relying on them alone could miss leaked credentials.",
+    "The problem is also not new. Ars Technica reports it was flagged in a Claude Code bug report as early as August 2025, and other reports noted the file was sometimes not added to .gitignore or that sensitive commands could land in another unprotected file. Those reports were closed without action after 60 days of inactivity.",
+    "Boris Cherny of the Claude Code team said on Hacker News that these files should almost never be checked in and that problems seemed to arise when 'the files were manually created and checked in.' He recommended auto mode, which uses classifiers instead of allow and deny lists, but acknowledged when a user pointed out that sensitive commands can still be saved to settings files in that mode."
    ],
    "whatToWatch": [
-    "Cherny recommended auto mode, which uses classifiers to handle routine permission prompts, and secret scanners. When a user noted that auto mode can still save sensitive commands to settings files, he called it a \"good catch\" and said the team is thinking through improvements. Anthropic has not announced a specific fix or date.",
-    "Separately, a GitHub issue reports Claude Code sending the account email in the User-Agent header during web searches. A contributor said a built-in privacy mod blocks this from v2.1.317, enabled by default, though another user reported a shell command on 2.1.319 that it did not block."
+    "Cherny said the team is thinking through improvements and is considering building secret scanning into Claude Code. No timeline was given. Users who have committed the settings file should check their repos and forks and rotate any credentials that may have been exposed.",
+    "Claude Code faces a second privacy complaint on GitHub, where a user says the tool sent his email address in a User-Agent header. A contributor says a built-in mod, enabled by default in v2.1.317 and later, blocks this, though another commenter reported a gap on 2.1.319 involving shell commands."
    ],
    "pullQuote": {
     "text": "looking into what we can do to prevent this",
-    "by": "Boris Cherny, Claude Code"
+    "by": "Boris Cherny, Claude Code team"
    }
   }
  },
@@ -919,6 +963,46 @@
    "pullQuote": {
     "text": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
     "by": "Google DeepMind"
+   }
+  }
+ },
+ "661f340c132f": {
+  "storyId": "661f340c132f",
+  "itemIds": [
+   "661f340c132f",
+   "af2672128856",
+   "9531c706dbfc"
+  ],
+  "writtenAt": "2026-11-11T12:49:13.405Z",
+  "headline": "Amazon's Ring launches robotics line with $250 indoor security drone and $1,000 patrol robot",
+  "dek": "Ring Robotics debuts the Drone Cam, due January 27, 2027 pending FCC authorization, and the business-focused Rover Cam, shipping December 16, both run by a cloud-based AI Pilot system.",
+  "keyPoints": [
+   "Ring Rover Cam, a $999.99 indoor security robot for businesses, is available for preorder and ships December 16, 2026, according to Amazon and The Verge.",
+   "Ring Drone Cam, an indoor flying camera, is due January 27, 2027 at $249.99, but still needs Federal Communications Commission authorization, Ars Technica reports.",
+   "Drone flight time is five to eight minutes per charge, with about eight minutes of charging per minute flown, The Verge reports.",
+   "Both devices use AI Pilot, which combines vision models, sensors and cloud processing to map spaces and navigate, and encrypt video with Ring's TAKE system."
+  ],
+  "context": "The Drone Cam succeeds the Always Home Cam, which Ring announced in 2020 and sold only briefly by invitation in 2021. The Rover builds on Amazon's Astro robot, which Amazon later shelved. Ring has faced privacy scrutiny, including a 2023 FTC action over employee access to customer video.",
+  "whatsNext": "Watch for the FCC decision on the Drone Cam, which determines whether the January 27, 2027 date holds, and for Rover shipments starting December 16.",
+  "article": {
+   "whatHappened": [
+    "Amazon's Ring unit announced Ring Robotics, a new division, on November 10 with two products: the Ring Drone Cam, a flying indoor security camera for homes, and the Ring Rover Cam, a wheeled patrol robot aimed at businesses. Both are driven by an AI system called AI Pilot.",
+    "The Rover Cam costs $999.99 and is available for preorder, with shipping set for December 16, 2026. It records up to 4K video, has an adjustable mast to see over counters, a siren, a light tower and two-way audio. It works on a single indoor floor and cannot climb stairs. Amazon says it covers up to 5,000 square feet.",
+    "The Drone Cam is priced at $249.99 and is due January 27, 2027, according to The Verge, which cites Ring founder Jamie Siminoff. Ars Technica reports it still needs FCC authorization. It records 2K video with a 148-degree field of view and can fly preset routes in response to Ring sensors or alarms. TechCrunch lists a $270 price, differing from The Verge.",
+    "Flight time is limited. Ring says the drone flies five to eight minutes per charge and needs about eight minutes of charging for each minute in the air. Amazon's product description warns of degraded performance around reflective surfaces such as polished marble, mirrors and frameless glass."
+   ],
+   "whyItMatters": [
+    "Ring has tried this before. The Always Home Cam was announced in 2020 and never reached wide sale. Siminoff told The Verge the company struggled to fit autonomy into a design under $250, and restarted about a year ago with a simpler drone that keeps its processing in the cloud. The trade-off, The Verge notes, is that without an internet connection the drone can only land.",
+    "The Rover follows Amazon's Astro, which TechCrunch says never took off and was dropped months after being repositioned as a small-business security product. Whether a security-focused version succeeds is an open question, and the short drone flight time suggests quick check-ins rather than continuous monitoring, The Verge says.",
+    "Privacy is the obvious pressure point. Ring says video is protected by TAKE, or Throw Away the Key Encryption, which The Verge says rotates keys every five minutes and deletes Ring's copies after 24 hours. But Ars Technica notes the 2023 FTC action over employee access to customer video and account breaches affecting 55,000 US customers, and TechCrunch notes long-running criticism about police access to Ring footage. TechCrunch says it is unclear whether local storage will be offered."
+   ],
+   "whatToWatch": [
+    "The main near-term test is the FCC authorization for the drone. Amazon's January 27 date depends on it, though Siminoff appeared confident about the launch, according to The Verge.",
+    "Reviews once the Rover ships on December 16 will show how well AI Pilot copes with real buildings, and whether the TAKE encryption claims satisfy privacy critics."
+   ],
+   "pullQuote": {
+    "text": "Together, it’s like having a guard on patrol who never clocks out",
+    "by": "Ring, as quoted by TechCrunch"
    }
   }
  },
@@ -1824,6 +1908,48 @@
    }
   }
  },
+ "af7403b45639": {
+  "storyId": "af7403b45639",
+  "itemIds": [
+   "af7403b45639",
+   "f724697ad479",
+   "7737e173e31a"
+  ],
+  "writtenAt": "2026-11-11T12:49:01.554Z",
+  "headline": "Anthropic launches Claude Meetings, Whiteboards and Sheets in beta for office workers",
+  "dek": "Anthropic unveiled office tools for non-technical staff on Tuesday: Claude Meetings, Whiteboards and Sheets in beta, plus Claude Data generally available and interactive connectors that open partner apps inside Claude.",
+  "keyPoints": [
+   "Claude Whiteboards and Sheets are in beta on all paid plans; Claude Meetings is in beta on Team and Enterprise plans and works with Google Meet at launch.",
+   "Claude Dashboards, introduced in beta in October, is now generally available as Claude Data, with certified queries and live sharing still in beta.",
+   "Interactive connectors let apps such as Adobe, Atlassian, HubSpot and Notion open inside Claude; Anthropic's MCP marketplace has more than 9,000 plugin options, The Verge reports.",
+   "On Enterprise plans, Whiteboards and Sheets are off by default, and Claude Data turns on by default on November 19, 2026, Anthropic says.",
+   "Anthropic's Nicholas Lin says non-developers face friction adopting AI; The Verge links the push to revenue pressure ahead of a potential IPO."
+  ],
+  "context": "Anthropic built its reputation on enterprise and coding tools, with Claude Code its breakout product. Rivals have moved toward office-suite features: Google's Gemini can join meetings and work in Sheets, and OpenAI recently added workplace tools and agents. The launch is Anthropic's push to win knowledge workers beyond developers.",
+  "whatsNext": "Enterprise admins will see Claude Data switched on by default on November 19, 2026, and Claude Meetings is expected to add support for more video platforms beyond Google Meet.",
+  "article": {
+   "whatHappened": [
+    "Anthropic on Tuesday unveiled three collaboration tools aimed at non-technical workers: Claude Meetings, Claude Whiteboards and Claude Sheets. At an event in San Francisco, the company said the tools let Claude join video calls, build shared boards and edit spreadsheets alongside staff. Whiteboards and Sheets are in beta on all paid plans, while Meetings is in beta on Team and Enterprise plans.",
+    "With Claude Meetings, Claude joins a call as a visible participant and follows the conversation. According to TechCrunch, it can draft the plan being discussed, map a timeline on a whiteboard, answer questions in the meeting chat and pull information such as last year's figures from connected apps. Notes and action items appear in claude.ai afterward. At launch it works with Google Meet.",
+    "Claude identifies itself in the meeting chat. It will not join calls with external guests unless an admin authorizes it, and it leaves automatically if an external guest joins. Anthropic describes Whiteboards as a shared board that Claude can turn into a doc or slide deck, and says boards can build live during a meeting.",
+    "Claude Sheets generates spreadsheets with tabs, formulas, formatting and drop-downs, often from a prompt such as a campaign tracker or hiring budget. Claude edits cells directly and outlines each change. Anthropic says sheets have simple functionality for now, with export to .xlsx or CSV, or Claude for Excel, for heavier work.",
+    "Anthropic also made Claude Dashboards generally available as Claude Data, which connects to warehouses and CRMs such as Amazon Redshift, BigQuery and ClickHouse. New interactive connectors open full apps from Adobe, Atlassian, Box, Notion and others beside the conversation."
+   ],
+   "whyItMatters": [
+    "The launch extends Anthropic beyond engineers. Product lead Nicholas Lin told The Verge that Claude Code changed how engineers work and that knowledge workers are the gap the company hopes to close. He said Claude Cowork, an earlier tool for non-engineers, is essentially a wrapper for Claude Code and targeted the technical parts of its non-technical audience. These are among its first native products for the wider group.",
+    "The move follows competitors. The Verge notes that Google's Gemini can join meetings, take live notes and build spreadsheets, and that OpenAI has leaned into integrated apps and connectors. TechCrunch says Anthropic, OpenAI and Meta are all trying to turn their products into office suites to challenge Microsoft and Google.",
+    "The Verge also ties the push to commercial pressure, reporting that Anthropic is slated to potentially make a very large public debut and that investors want a path to profit. That framing is the reporter's, not Anthropic's."
+   ],
+   "whatToWatch": [
+    "Enterprise administrators have a near-term date: Claude Data turns on by default for Enterprise plans on November 19, 2026, while Whiteboards and Sheets stay off by default and can be changed in Organization settings.",
+    "Open questions include how quickly Meetings expands beyond Google Meet and how far Sheets' simple functionality grows, which Anthropic says it is working on."
+   ],
+   "pullQuote": {
+    "text": "I think there’s still a lot of friction when it comes to adopting AI for non-developers",
+    "by": "Nicholas Lin, Anthropic product"
+   }
+  }
+ },
  "b450560162d2": {
   "storyId": "b450560162d2",
   "itemIds": [
@@ -2361,34 +2487,36 @@
    "eb0c65b2b58f",
    "9b0466c1eb02",
    "1a76a5185445",
-   "7d8b4ae6c27e"
+   "7d8b4ae6c27e",
+   "9922bcaa36cd",
+   "5d01611fd6de",
+   "e28ff692f118"
   ],
-  "writtenAt": "2026-11-10T13:35:36.563Z",
-  "headline": "Nvidia board opens investigation into Jensen Huang over ties to alleged Chinese spy",
-  "dek": "Nvidia's independent directors, with outside counsel, will examine CEO Jensen Huang's relationship with Megaspeed executive Alice Huang, whom the NYT says China's MSS recruited; Huang admitted an affair in a staff memo.",
+  "writtenAt": "2026-11-11T12:49:37.381Z",
+  "headline": "Nvidia board opens investigation into CEO Jensen Huang over ties to alleged Chinese spy",
+  "dek": "Nvidia's board hired Wachtell Lipton to investigate after Jensen Huang admitted an affair with Megaspeed executive Alice Huang, whom the New York Times reports was recruited by China's Ministry of State Security.",
   "keyPoints": [
-   "Nvidia's board formed a committee of independent directors, assisted by outside counsel, to investigate after reports that Huang was the target of a foreign intelligence effort.",
-   "Huang's memo to staff says he was 'unfaithful' to his wife, and he says he will cooperate fully with the investigation.",
-   "The NYT reports China's Ministry of State Security recruited Alice Huang, no relation to Jensen, to gather information on AI chips and possibly influence Nvidia. China denies it.",
-   "Megaspeed bought $4.8 billion of Nvidia chips and is under a Commerce Department investigation over whether it smuggled AI chips to China.",
-   "The board says it has no reason to believe national security or Nvidia secrets were compromised."
+   "Nvidia's board launched an independent investigation, overseen by independent directors and outside counsel, and says it has no reason to believe national security or company secrets were compromised.",
+   "Huang sent staff a memo saying he was unfaithful to his wife, and pledged to cooperate fully with the investigation.",
+   "The Verge reports the board retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz.",
+   "The NYT reports Megaspeed bought $4.8 billion of Nvidia chips and that China's MSS recruited Alice Huang; China denies the allegations, per The Verge.",
+   "Three House committees asked Huang to appear for a joint closed-door briefing on his interactions with Alice Huang."
   ],
-  "context": "Nvidia is central to US AI development and to the Trump administration's negotiations over Chinese access to advanced chips, which both the Biden and Trump administrations have restricted. Huang has grown close to President Trump, which raises questions about what he knew of administration deliberations. The NYT says Trump was briefed on the relationship roughly a year ago and took no action.",
-  "whatsNext": "Watch for the board committee's updates and whether Jensen Huang appears before the three House committees that asked for a closed-door briefing on his interactions with Alice Huang.",
+  "context": "Nvidia chips are central to US AI development, and both the Biden and Trump administrations have restricted their sale to China, with Trump loosening some limits while still barring its most powerful chips. Megaspeed, a Nvidia customer, is the subject of a Commerce Department investigation into whether it smuggled AI chips to China. Huang's closeness to the Trump administration raises questions about what he knew of its AI policy deliberations.",
+  "whatsNext": "Watch for the outcome of the board's investigation, which the board says will be updated as appropriate, and whether Huang appears before the House committees.",
   "article": {
    "whatHappened": [
-    "Nvidia's board announced on Sunday that it is opening an independent investigation into CEO Jensen Huang, following reporting that he was the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the inquiry. The board says Huang supports the review and has committed to cooperating.",
-    "The investigation centers on Huang's relationship with Alice Huang, an executive at Megaspeed, an AI compute company that rents access to Nvidia GPUs. The New York Times reported that China's Ministry of State Security recruited her to gather information on American AI chips and potentially influence Nvidia to push for its most advanced chips to be made available to China. No relation exists between the two Huangs. China denies the allegations.",
-    "Alongside the board's announcement, Huang sent a memo to employees acknowledging an affair. He wrote that he was unfaithful to his wife, took full responsibility, and was fully committed to Nvidia. He said he supports the investigation and is committed to protecting the company and supporting national security. The board says it has confidence in Huang and his leadership team."
+    "Nvidia's board announced on Sunday that it is opening an independent investigation into CEO Jensen Huang, following reports that he was the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee it. The board says it has no reason to believe national security or Nvidia secrets were compromised, and that it has confidence in Huang and his leadership team.",
+    "Huang sent employees a memo acknowledging the affair with Megaspeed executive Alice Huang, who is not related to him. He wrote that he was unfaithful to his wife, takes full responsibility, and will cooperate fully with the investigation. The New York Times had earlier reported a close relationship between the two, which Huang later described as romantic in his memo.",
+    "The Verge reports the board has retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to carry out the review. The New York Times reported that China's Ministry of State Security recruited Alice Huang to gather information on American AI chips and potentially influence Nvidia to push for its most advanced chips to be made available to China. China denies the allegations, according to The Verge."
    ],
    "whyItMatters": [
-    "Nvidia's chips underpin advanced AI in the US, and demand has outpaced supply for years. The company's market capitalization is above $4 trillion, and it holds about $99 billion in equity investments in AI labs, neoclouds and infrastructure firms, according to The Verge. A CEO who is a possible intelligence target is therefore a concern well beyond one company.",
-    "Megaspeed is both an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China. The NYT says it bought $4.8 billion of Nvidia chips. Trump has loosened some restrictions but still bars sales of Nvidia's most powerful chips to Chinese firms, and Commerce must approve individual firms.",
-    "Huang is also close to Trump, so there is concern about what he knew of the administration's AI deliberations and whether any of it reached Alice Huang. The board and Huang say they have no reason to believe national security or Nvidia secrets were compromised, but the investigation has not yet tested that claim."
+    "Nvidia sits at the center of the US AI industry. Its chips underpin advanced AI development, demand has outpaced supply for years, and The Verge says it has about $99 billion in equity investments in AI labs, neoclouds and infrastructure companies. Experts quoted by The Verge say the episode could disrupt the US AI industry and undermine the country's technological lead over China, though that remains their assessment rather than an established outcome.",
+    "The political dimension compounds the corporate one. Megaspeed is a Nvidia customer and the subject of a Commerce Department inquiry into possible chip smuggling, and Huang is close to President Trump. The coverage raises the concern, without establishing it, that Huang may have had insight into administration AI deliberations. The NYT also reports that Trump was briefed on the relationship about a year ago and again before his May China visit, with Marco Rubio involved in the latter."
    ],
    "whatToWatch": [
-    "Three House committees have asked Huang to appear for a joint, closed-door briefing on his interactions with Alice Huang. Whether he agrees, and when, is an open question.",
-    "The board says it will provide further updates as appropriate. Reporting also indicates Trump and Secretary of State Marco Rubio's office knew of the relationship earlier, so questions about the administration's handling are likely to continue."
+    "The board's investigation has no stated timeline; it says it will provide further updates as appropriate. Whether it changes Huang's standing at the company will depend on what Wachtell Lipton finds.",
+    "Congress is also involved. Three House committees have asked Huang for a joint, closed-door briefing on his interactions with Alice Huang, and it is not yet clear whether or when that will happen."
    ],
    "pullQuote": {
     "text": "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board’s inquiry will examine all available information.",
@@ -2636,47 +2764,6 @@
    "pullQuote": {
     "text": "set up a vocal track from a single prompt",
     "by": "Apple"
-   }
-  }
- },
- "f724697ad479": {
-  "storyId": "f724697ad479",
-  "itemIds": [
-   "f724697ad479",
-   "af7403b45639",
-   "7737e173e31a"
-  ],
-  "writtenAt": "2026-11-10T22:26:24.681Z",
-  "headline": "Anthropic adds Claude Meetings, Sheets and Whiteboards in office-suite push",
-  "dek": "Anthropic launched three beta workplace tools on Tuesday, made Claude Data generally available, and added interactive connectors that open apps like Adobe, Atlassian and HubSpot inside Claude.",
-  "keyPoints": [
-   "Claude Whiteboards and Sheets launched in beta on all paid plans; Claude Meetings is in beta on Team and Enterprise plans and works with Google Meet at launch.",
-   "Claude Data, formerly Claude Dashboards (beta in October), is now generally available. Anthropic says certified queries and live sharing remain in beta.",
-   "Interactive connectors open full apps such as Adobe, Atlassian, Box, HubSpot and Notion beside a Claude conversation, so users need not switch tabs.",
-   "On Enterprise plans, Whiteboards and Sheets are off by default, and Claude Data turns on by default on November 19, 2026.",
-   "Claude joins meetings as a visible participant and won't join calls with external guests unless an admin authorizes it, Anthropic says."
-  ],
-  "context": "Anthropic is best known for enterprise and coding products such as Claude Code, and has had few native tools for non-technical staff. OpenAI, Google and Meta have recently pushed similar workplace features, and The Verge reports Anthropic faces pressure to grow revenue ahead of a potential IPO.",
-  "whatsNext": "Watch for Claude Data switching on by default for Enterprise plans on November 19, and for Anthropic's promised support for meeting platforms beyond Google Meet.",
-  "article": {
-   "whatHappened": [
-    "Anthropic on Tuesday unveiled Claude Meetings, Claude Whiteboards and Claude Sheets at an event in San Francisco, aimed at workers who spend their days in meetings, brainstorming and analyzing numbers. It also made Claude Data, formerly Claude Dashboards, generally available.",
-    "Claude Meetings adds Claude to a video call as a visible participant. According to TechCrunch, it can draft the plan under discussion, map a timeline on a whiteboard, answer questions in the meeting chat and pull figures from connected work apps. Notes and action items afterward appear in claude.ai. At launch it works with Google Meet.",
-    "Whiteboards is a shared board where a team talks through a plan and Claude turns it into timelines with owners and dates; Anthropic says it can then be exported as a doc or deck. Sheets builds spreadsheets with tabs, formulas, formatting and drop-downs, and outlines each cell edit it makes. Anthropic says Sheets has only simple functionality for now, with export to .xlsx or CSV for heavier work.",
-    "Anthropic also introduced interactive connectors, which open full apps from partners such as Adobe, Atlassian, Box, HubSpot and Notion beside the conversation. The Verge reports Anthropic's Model Context Protocol marketplace has grown to more than 9,000 plugin options."
-   ],
-   "whyItMatters": [
-    "The launch pushes Anthropic from developers toward general knowledge workers. Nicholas Lin, who works on product at Anthropic, told The Verge that Claude Code changed how engineers work and that knowledge workers are the gap the company hopes to close. The Verge says these are among its first native products for non-technical workers; Claude Cowork, by contrast, is essentially a wrapper around Claude Code.",
-    "The features resemble what rivals already offer. Google's Gemini can join meetings and take notes, ChatGPT can in some cases, and OpenAI recently showed workplace tools of its own. TechCrunch frames the race as an effort to turn chatbots into office suites that compete with Microsoft and Google.",
-    "The Verge ties the push to Anthropic's expected IPO and investor demand for a path to profit. That is the outlet's reading rather than something Anthropic stated. Defaults for admins, such as keeping Whiteboards and Sheets off on Enterprise plans, suggest a cautious rollout for large customers."
-   ],
-   "whatToWatch": [
-    "Enterprise administrators will see Claude Data turn on by default on November 19, 2026, and can change these settings under Organization settings > Artifacts.",
-    "Open questions include how quickly Meetings expands beyond Google Meet, how far Sheets moves past basic spreadsheet features, and whether the tools gain traction with non-technical users."
-   ],
-   "pullQuote": {
-    "text": "I think there’s still a lot of friction when it comes to adopting AI for non-developers",
-    "by": "Nicholas Lin, product at Anthropic"
    }
   }
  },
