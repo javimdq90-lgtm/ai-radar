@@ -7625,7 +7625,7 @@
   "entities": [
    "Hugging Face"
   ],
-  "storyId": "3229de0d9192"
+  "storyId": "f2963506946a"
  },
  {
   "url": "https://openai.com/index/ai-effect-on-freelance-work",
@@ -8923,7 +8923,7 @@
    "Adobe",
    "Project Screen Test"
   ],
-  "storyId": "6e40d6043154"
+  "storyId": "2bb18f2869ad"
  },
  {
   "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
@@ -9021,7 +9021,7 @@
    "CoreWeave"
   ],
   "imageCheckedAt": "2026-11-11T23:30:50.293Z",
-  "storyId": "850c0644106f"
+  "storyId": "458bb1a34baf"
  },
  {
   "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
@@ -9176,7 +9176,7 @@
   "category": "business",
   "importance": 2,
   "entities": [],
-  "storyId": "bdeaa23eb988"
+  "storyId": "2969b0807146"
  },
  {
   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
@@ -9234,7 +9234,7 @@
   "importance": 3,
   "entities": [],
   "imageCheckedAt": "2026-11-11T23:30:50.261Z",
-  "storyId": "bdeaa23eb988"
+  "storyId": "2969b0807146"
  },
  {
   "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
@@ -9276,7 +9276,7 @@
    "Gemini Decisions API"
   ],
   "imageCheckedAt": "2026-11-11T23:30:50.362Z",
-  "storyId": "cce714811b51"
+  "storyId": "f2963506946a"
  },
  {
   "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
@@ -9449,5 +9449,220 @@
    "Atuin"
   ],
   "storyId": "f3e91f75ed13"
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+  "title": "Holiday Extras is rethinking what it can build with Codex",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-12T09:30:00.000Z",
+  "snippet": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+  "id": "0990939c7d6e",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "Travel services firm Holiday Extras is using OpenAI's Codex to build apps, citing better booking conversion and new growth opportunities.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "Holiday Extras"
+  ],
+  "storyId": "0990939c7d6e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+  "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-12T13:26:25.000Z",
+  "snippet": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
+  "id": "24d7fb83f2c2",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://github.com/huawei-csl/MACaQ",
+  "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T20:23:57.000Z",
+  "score": 122,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50458166",
+  "id": "418d10f93d4e",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "Huawei has released MACaQ, the quantizer it uses internally, as a GitHub repo for running models locally.",
+  "whyItMatters": "Another quantization toolkit gives local-inference builders an option, particularly for Huawei hardware.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Huawei",
+   "MACaQ"
+  ],
+  "storyId": "418d10f93d4e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.13410",
+  "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-09T19:00:00.000Z",
+  "snippet": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while its own rollouts may provide few correct responses in those contexts. We introduce SteerDistill, a quantization-aware distillation method in which a full-precision teacher guides the…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.13410.png",
+  "id": "51fa12b3ef7c",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "SteerDistill is a quantization-aware distillation method where a full-precision teacher steers a low-bit LLM agent in a closed loop. It targets quantized agents that overlook task requirements or environment conditions and drift from successful full-precision rollouts.",
+  "whyItMatters": "Cheaper low-bit agents that keep task success would cut inference costs for agent deployments.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "SteerDistill"
+  ],
+  "storyId": "51fa12b3ef7c"
+ },
+ {
+  "url": "https://latent.space/p/jev-revolution/",
+  "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-12T05:08:20.000Z",
+  "snippet": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b4181d5a-0460-4828-b350-07feca728023/jevalution-feature.jpg?t=1794458692",
+  "id": "adb66fa1efb1",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "At AI Engineer Code Summit, Jev creator Diogo Almeida urged developers to automate everything, and Glean and others showed how they use Jev and System One models.",
+  "whyItMatters": "It offers a look at real production uses of this emerging class of models.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Jev",
+   "Diogo Almeida",
+   "Glean"
+  ],
+  "storyId": "f2963506946a"
+ },
+ {
+  "url": "https://openai.com/index/children-first-declaration",
+  "title": "Supporting research on AI and children’s safety",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-12T00:00:00.000Z",
+  "snippet": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+  "id": "b06379671ede",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "OpenAI is committing $2 million to research on AI and children's safety, funding shared tools to measure risks and opportunities for young people.",
+  "whyItMatters": "Shared measurement tools could shape future standards for youth safety in AI products.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-12T13:51:09.713Z",
+  "storyId": "b06379671ede"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+  "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-12T03:13:10.000Z",
+  "snippet": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+  "id": "df5c4c0af68f",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "TechCrunch offers a speculative shortlist of possible successors to Jensen Huang, noting Nvidia has no succession plan.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "TechCrunch"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://latent.space/p/ainews-d-day-decision-models-day/",
+  "title": "[AINews] D-Day (Decision Models Day)",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-12T05:26:54.000Z",
+  "snippet": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b8ccf47f-9414-4c90-bbb5-0fcb2b0ac850/image.png?t=1794461003",
+  "id": "e10b6b9196df",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "Google is entering the decision model market, per the Latent Space newsletter. At AI Engineer, Cloudflare showed which parts of build failures a classifier can handle, and TypeSafe AI presented production customers.",
+  "whyItMatters": "A Google move into decision models signals a new model category that builders may need to evaluate.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Cloudflare",
+   "TypeSafe AI"
+  ],
+  "storyId": "f2963506946a"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+  "title": "The unfolding Jensen Huang scandal: a timeline",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-11T23:50:00.000Z",
+  "snippet": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+  "id": "efdd0bfa6110",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "TechCrunch published a timeline of the Jensen Huang scandal at Nvidia, noting possible national security ramifications as the US and China race on AI infrastructure.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "TechCrunch"
+  ],
+  "imageCheckedAt": "2026-11-12T13:51:09.752Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://ipo.anthropic.com/us/",
+  "title": "Anthropic IPO",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-12T11:46:41.000Z",
+  "score": 203,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50465829",
+  "id": "f101ffad2bb3",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "A site at ipo.anthropic.com about an Anthropic IPO is circulating, with no details provided in the item.",
+  "whyItMatters": "An Anthropic IPO would be a major event for AI industry funding, but this item is unverified.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+  "imageCheckedAt": "2026-11-12T13:51:09.724Z",
+  "storyId": "ffe8a09e969f"
+ },
+ {
+  "url": "https://twitter.com/watcherguru/status/2120645607866188008",
+  "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-11T22:36:35.000Z",
+  "score": 225,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50459776",
+  "id": "f82475629f27",
+  "fetchedAt": "2026-11-12T13:50:58.112Z",
+  "enrichedAt": "2026-11-12T13:51:09.677Z",
+  "summary": "The Wall Street Journal reports Nvidia is preparing to fire CEO Jensen Huang amid a scandal.",
+  "whyItMatters": "Leadership upheaval at the dominant AI chip supplier could affect the whole AI infrastructure supply chain.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "WSJ"
+  ],
+  "image": "https://pbs.twimg.com/media/HW4L8PTXsAAd2Xh?format=webp&name=large",
+  "imageCheckedAt": "2026-11-12T13:51:12.629Z",
+  "storyId": "ddaec7e99048"
  }
 ]

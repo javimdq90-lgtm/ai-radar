@@ -449,34 +449,36 @@
    "4ddbe1642bc5",
    "66ed14c6418f",
    "85e69ee9d60b",
-   "f9ddc69f8317"
+   "f9ddc69f8317",
+   "6e40d6043154"
   ],
-  "writtenAt": "2026-11-11T12:49:25.934Z",
-  "headline": "Adobe opens Creative Cloud to third-party AI agents and adds Disney, Google deals at MAX",
-  "dek": "At MAX in Miami, Adobe previewed local MCP integrations letting OpenAI, Google and Anthropic agents edit Creative Cloud files, and announced partnerships with Disney and Google.",
+  "writtenAt": "2026-11-12T13:51:52.419Z",
+  "headline": "Adobe unveils agent tools, Disney AI deal and Google tie-up at MAX 2026",
+  "dek": "At MAX in Miami, Adobe announced a multiyear Disney partnership on custom Firefly models, local MCP integrations for third-party agents (private beta early 2027), an expanded Google partnership and experimental AI 'sneaks'.",
   "keyPoints": [
-   "Local MCP integrations let outside agents from OpenAI, Google and Anthropic edit native files in Photoshop, Illustrator, Premiere and After Effects; a private beta starts in early 2027.",
-   "Disney signed a multiyear deal with Adobe to build proprietary, 'artist-led' generative models through Firefly Foundry, covering parks, its cruise line, studios and ESPN.",
-   "Firefly AI Assistant gains Plan Mode, a Model Selector and brand preferences; 'always-on' background agents were previewed, with no launch date given.",
-   "Firefly Builder, a prototyping tool in private beta, targets Figma territory; Premiere gets Generative Remove in beta, and Photoshop adds Relight and Quick Compare.",
-   "Google also announced an expanded Adobe partnership, bringing PDF editing to Drive and Adobe AI into Gemini, and Google's models into Adobe apps."
+   "Disney and Adobe will build proprietary, 'artist-led' generative AI models through Adobe Firefly Foundry, covering Disney's parks, cruise line, ESPN content and studio workflows, under a multiyear partnership.",
+   "Local MCP integrations let agents from OpenAI, Google and Anthropic edit native files in Photoshop, Illustrator, Premiere and After Effects; Adobe says a private beta starts in early 2027.",
+   "Firefly AI Assistant beta adds Plan Mode, a Model Selector and Firefly Boards integration; 'always-on' background agents were previewed with no launch date, coming to the Assistant first.",
+   "Firefly gets a private-beta prototyping tool called Builder, positioned against Figma, while Topaz Labs releases Wonder 4 and ImageHDR image models.",
+   "Adobe also expanded its partnership with Google, bringing PDF editing into Drive and Adobe tools into Gemini, and Google's models into Adobe's apps."
   ],
-  "context": "Adobe has spent two years adding third-party models and agents to Firefly and its Creative Cloud apps, and its creativity head David Wadhwani said in April that the creative agent will surface in virtually everything it builds. Competitors such as Figma, with Make and Weave, are building similar tools. Disney has also been working with generative AI firms, including a prior OpenAI deal.",
-  "whatsNext": "Adobe says the local MCP private beta begins in early 2027, while it has not said when always-on agents will launch in Firefly AI Assistant.",
+  "context": "Adobe has spent the past two years adding generative AI to Creative Cloud through Firefly and hosting third-party models from Google, OpenAI and others. Its creative agent, introduced earlier this year, is meant to appear across its products. Rivals such as Figma are also pushing into AI-assisted design, and Disney has been experimenting with generative AI elsewhere.",
+  "whatsNext": "Adobe says the Creative Cloud local MCP private beta begins in early 2027; no date has been given for the always-on agent preview.",
   "article": {
    "whatHappened": [
-    "Adobe used its MAX conference in Miami to announce a broad push into agentic AI. The headline item is a set of local Model Context Protocol integrations that let external agents from providers such as OpenAI, Google and Anthropic work directly in Photoshop, Illustrator, Premiere and After Effects, changing native project files on a user's computer.",
-    "Adobe says layers, vectors, bins and sequences stay editable so users can take over at any point. Agents connected to other MCP tools can include them in a workflow, for example pulling documents from Google Docs and sharing results in Slack. The integrations are not available yet; a private beta is planned for early 2027.",
-    "Adobe also previewed 'always-on' agents that run recurring tasks such as organizing incoming assets or turning images into social graphics, with the user reviewing the plan and approving results. They will arrive first in Firefly AI Assistant, with no date given. The assistant beta gains Plan Mode, a Model Selector, Firefly Boards integration and saved brand preferences.",
-    "Separately, Disney and Adobe announced a multiyear partnership to build proprietary, artist-led generative models with Adobe Firefly Foundry, trained on Disney properties. Adobe says Disney's Imagineering R&D already uses Firefly for theme park development. Google announced its own expanded Adobe partnership, including PDF editing in Drive and Adobe tools inside Gemini."
+    "Adobe used its MAX conference in Miami to announce a run of AI products and partnerships. The headline deal is a multiyear partnership with Disney to develop proprietary, 'artist-led' generative AI models for Disney's production pipeline. Adobe will give Disney early access to its latest technologies for uses ranging from theme parks and the cruise line to ESPN content.",
+    "Through Adobe Firefly Foundry, the models will be customized on Disney properties and trained on what Adobe calls unique world knowledge, such as character attributes, environments and visual styles. Adobe says the aim is commercially safe, production-ready output. Disney's Imagineering R&D division already uses Firefly for theme park development, according to Adobe.",
+    "On the product side, Adobe previewed local Model Context Protocol integrations that let external agents from providers including OpenAI, Google and Anthropic work inside Photoshop, Illustrator, Premiere and After Effects. The agents can change native project files, and layers, vectors, bins and sequences stay editable so users can take over. Adobe says a private beta will launch in early 2027.",
+    "The Firefly AI Assistant beta gained a Plan Mode for approving an agent's plan before it runs, a Model Selector, and a Firefly Boards integration. Adobe also previewed 'always-on' agents that handle recurring background work, such as organizing incoming assets or producing social graphics, without giving a launch date. Google separately said it is expanding its Adobe partnership, with PDF editing in Drive and Adobe tools inside Gemini."
    ],
    "whyItMatters": [
-    "The MCP move gives users a choice between Adobe's assistants and the agents they already use, which positions Creative Cloud as infrastructure for other companies' chatbots as well as a product of its own. Adobe already offers models from Google, OpenAI, Runway, Black Forest Labs and others, so it is extending a strategy of being the neutral hub for creative AI.",
-    "Adobe's Deepa Subramaniam told TechCrunch the company has not settled how much of its apps to expose to agents. Figma co-founder Dylan Field said last month that MCP is not a perfect standard and benefits frontier labs more, a view that frames the risk of letting outside agents sit between Adobe and its users.",
-    "The Disney deal is a notable enterprise win for Adobe's pitch of 'commercially safe' models trained on a customer's own material. It comes as Bloomberg reported Disney is preparing more layoffs and targeting 20 percent annual cost savings, which will shape how its AI use is read."
+    "The announcements show Adobe betting on agents as a central part of its future. Its creativity head, David Wadhwani, said in April that the creative agent will eventually surface in virtually everything the company develops. Opening Creative Cloud to third-party agents positions Adobe as infrastructure for whichever assistant a user prefers, rather than only a competitor to them.",
+    "The Disney deal gives Adobe a prominent customer for custom, rights-cleared models, a pitch built on commercial safety. It lands as Bloomberg reported Disney is preparing more layoffs and targeting 20 percent annual cost savings, which The Verge notes alongside the partnership. The coverage does not say the two are linked.",
+    "Adobe is also moving into adjacent territory. Its new Builder prototyping tool in Firefly, in private beta, takes aim at Figma, whose co-founder Dylan Field recently argued that MCP is not a perfect standard and benefits frontier labs more."
    ],
    "whatToWatch": [
-    "Watch for the early 2027 private beta of local MCP integrations, and how much of each app Adobe exposes. The always-on agent preview has no timeline, and Firefly Builder is private beta only, so whether it competes with Figma remains open."
+    "Key dates are vague. The MCP private beta is slated for early 2027, and Adobe has not said when always-on agents will arrive. Adobe's Deepa Subramaniam said the company is still deciding which capabilities to expose and will rely on user feedback.",
+    "The experimental 'sneaks', including Project Screen Test and Sight Span, are tech previews with no guarantee of becoming products."
    ],
    "pullQuote": {
     "text": "We are still figuring out where and when and how to draw the line.",
@@ -2533,36 +2535,39 @@
    "94fcbf10f807",
    "8e5f1df4bf3d",
    "89f810b4a388",
+   "f82475629f27",
    "cd03d116301a",
    "d8ef3fe6591f",
-   "b91248042740"
+   "b91248042740",
+   "efdd0bfa6110",
+   "df5c4c0af68f"
   ],
-  "writtenAt": "2026-11-11T23:31:26.880Z",
-  "headline": "Nvidia board reportedly preparing to oust CEO Jensen Huang after second alleged affair",
-  "dek": "The Wall Street Journal reports Nvidia's board may meet as soon as Wednesday to decide Jensen Huang's future, after a New York Times report of a second alleged affair; the stock fell 7 to 8 percent after hours.",
+  "writtenAt": "2026-11-12T13:52:04.177Z",
+  "headline": "Nvidia board reportedly preparing to fire CEO Jensen Huang after second alleged affair",
+  "dek": "The WSJ reports Nvidia's board could meet as soon as Wednesday to decide Huang's future, after the NYT reported a second alleged affair and days after he admitted a relationship with an alleged Chinese spy.",
   "keyPoints": [
-   "The WSJ reports Nvidia's board is preparing to dismiss CEO Jensen Huang, with a meeting possible as soon as Wednesday. Nvidia did not immediately respond to The Verge's request for comment.",
-   "The New York Times reports Huang had a second affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to him. The Times has not seen the alleged video.",
-   "Days earlier, Huang admitted an affair with Alice Huang, a Megaspeed executive US officials believe was recruited by China's Ministry of State Security to spy on Nvidia.",
-   "Nvidia shares fell about 8% in after-hours trading Wednesday (The Verge reported more than 7%), and are down about 11% over five days.",
-   "Nvidia has no obvious successor or succession plan, TechCrunch notes; Huang has about 60 direct reports, he has said."
+   "The WSJ reports Nvidia's board is preparing to dismiss Huang, its co-founder and CEO of 33 years, and may meet as soon as Wednesday. Nvidia had not responded to The Verge's request for comment.",
+   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times has not seen the video its sources describe.",
+   "Huang admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly believes is a Chinese spy. Nvidia's board had opened an independent investigation.",
+   "Nvidia stock fell about 8% in after-hours trading Wednesday, according to TechCrunch, and is down about 11% over five days.",
+   "Bloomberg reports Nvidia is working with an outside firm to identify possible successors. Elon Musk posted on X that hiring Huang 'would be an honor.'"
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years as the company became central to the AI chip boom. The scandal began last month when the New York Times reported a 'close relationship' with a Megaspeed executive; Megaspeed is a Nvidia customer under a Commerce Department investigation over alleged chip smuggling to China. Nvidia's board had said it had confidence in Huang when it opened its investigation.",
-  "whatsNext": "Watch for the outcome of the board meeting, which the WSJ says could come as soon as Wednesday, and for any Nvidia statement on succession.",
+  "context": "Nvidia designs the chips that power the AI boom, and Huang has run the company since he co-founded it. The scandal began with an NYT report last month of a 'close relationship' with a Megaspeed executive; Megaspeed is an Nvidia customer under a Commerce Department investigation over whether it smuggled AI chips to China.",
+  "whatsNext": "Watch for the outcome of the board meeting, which the WSJ says could happen as soon as Wednesday, and for any announcement on an interim or permanent successor.",
   "article": {
    "whatHappened": [
-    "Nvidia's board is preparing to dismiss CEO and co-founder Jensen Huang, the Wall Street Journal reports. Sources told the paper the board will meet as soon as Wednesday to decide his future. Nvidia did not immediately respond to a request for comment from The Verge.",
-    "The move follows a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the two were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video. Both are married to other people.",
-    "Nvidia shares fell about 8 percent in after-hours trading on Wednesday, according to TechCrunch, and are down about 11 percent over the past five days. The Verge put the after-hours drop at more than 7 percent."
+    "Nvidia's board is preparing to dismiss CEO Jensen Huang, the Wall Street Journal reports, citing sources. The board is meeting as soon as Wednesday to decide his future, according to the Journal. Huang co-founded Nvidia and has led it for 33 years. Nvidia did not immediately respond to a request for comment from The Verge.",
+    "The report followed a New York Times story on Wednesday evening alleging a second extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
+    "It came days after Huang admitted to a relationship with Alice Huang, a Megaspeed executive who US officials believe was recruited by China's Ministry of State Security and fed information to Beijing. Nvidia's stock fell about 8% in after-hours trading Wednesday, TechCrunch reports, and is down about 11% over five days."
    ],
    "whyItMatters": [
-    "The reports come days after Huang admitted, in a memo to staff, a romantic relationship with Alice Huang, a Megaspeed executive. US officials believe she was recruited by China's Ministry of State Security and passed information to Beijing. Megaspeed is a Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China.",
-    "Nvidia's board announced an independent investigation on Sunday, saying it had no reason to believe national security or company secrets were compromised and that it had confidence in Huang. The company retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz. The Verge notes that a dismissal now would suggest the board will not wait for those results.",
-    "The stakes extend beyond governance. Nvidia designs the chips that power the AI boom, and US export policy on them is politically sensitive. The Verge points to concern over what Huang, who has grown close to President Trump, may have known about administration deliberations on AI. TechCrunch notes that Huang delegates little and the company has no obvious successor or succession plan."
+    "Nvidia is one of the most valuable companies in the world because of the chips behind the AI boom, so a leadership change at the top carries weight well beyond the company. Huang delegates little and has said he has about 60 direct reports. TechCrunch notes Nvidia has had no obvious successor or succession plan, though Bloomberg reports it is working with an outside firm to find candidates.",
+    "The national security angle raised the stakes of the first affair. Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China. The Verge notes Huang has grown close to President Trump, and there is concern about what he knew of administration deliberations on AI and whether any of it reached Alice Huang. The board said it had no reason to believe national security or Nvidia secrets were compromised.",
+    "The timing also suggests a shift in the board's approach. Nvidia said it retained former US attorney Joon H. Kim and the law firm Wachtell, Lipton, Rosen & Katz to handle the investigation, and the Verge reasons that the dismissal report suggests the board may not wait for those results. That is an inference from the reporting, not something Nvidia has said."
    ],
    "whatToWatch": [
-    "The immediate question is whether the board meets and acts as reported, and whether Nvidia confirms or denies the WSJ account. Any interim leadership arrangement would be the first indication of how the company intends to handle succession.",
-    "Also open is the independent investigation by outside counsel, and whether the Powell allegations, which rest on unnamed sources, are confirmed or addressed by Nvidia or the individuals involved."
+    "The immediate question is whether the board meets and acts, and whether Nvidia confirms or denies the Journal's account. The company had not publicly commented in the coverage reviewed.",
+    "Also open are who would lead Nvidia if Huang goes, and what the independent investigation concludes. Elon Musk's public remark that hiring Huang 'would be an honor' shows interest elsewhere, but no job offer has been reported."
    ],
    "pullQuote": {
     "text": "The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.",
@@ -2776,6 +2781,48 @@
    }
   }
  },
+ "f2963506946a": {
+  "storyId": "f2963506946a",
+  "itemIds": [
+   "f2963506946a",
+   "3229de0d9192",
+   "cce714811b51",
+   "adb66fa1efb1",
+   "e10b6b9196df"
+  ],
+  "writtenAt": "2026-11-12T13:51:39.444Z",
+  "headline": "Google launches Gemini Decision 1 and API for single-pass decisions at $0.10 per 1M tokens",
+  "dek": "Google's Gemini Decisions API scores up to 1,000 yes/no, choice and rubric questions per request in 150-250 ms, with no output-token charges and multimodal inputs up to 256K tokens.",
+  "keyPoints": [
+   "Gemini Decision 1 (gemini-decision-1) scores candidate options in one forward pass instead of generating text, returning probabilities and a 0-1 confidence score per answer.",
+   "Pricing is $0.10 per 1M input tokens and $0 for output; Google says it is nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API.",
+   "One request takes text, images, audio, video or PDFs up to 256K tokens plus up to 1,000 questions, at 150-250 ms end-to-end latency, per Google.",
+   "Artificial Analysis, as summarized by Latent Space, gives it 66 on its Decision Index, tying Jev 1.14 and trailing Drex Max v1.1 and GLiDE v1.2 by 7 points.",
+   "Integrations are rolling out across OpenRouter, LangChain, Vercel, LiteLLM and others; Google Cloud support is coming soon."
+  ],
+  "context": "TypeSafe AI's Jev, released in September, kicked off interest in fast 'System One' models that return structured choices and probabilities instead of generated text. Hugging Face has begun calling the category 'decision models'. Google's entry puts a large lab into a market so far led by smaller specialists.",
+  "whatsNext": "Watch for Gemini Decision 1 support in Gemini in Google Cloud, which Google says is coming soon, and for further independent benchmarks.",
+  "article": {
+   "whatHappened": [
+    "Google has launched the Gemini Decisions API, a new endpoint powered by a model called Gemini Decision 1 (gemini-decision-1). It is available through the Gemini API in Google AI Studio. Rather than writing answer text token by token, the model scores a fixed set of candidate options in a single forward pass and returns probabilities and confidence scores.",
+    "A single request can include one multimodal input, spanning text, images, audio, video and PDFs up to 256K tokens, along with up to 1,000 independent questions. Questions can be yes/no, multiple choice or rubric scores. Each answer carries a confidence score from 0 to 1, so code can send ambiguous cases to a fallback or human reviewer. Google says end-to-end latency is 150-250 ms.",
+    "Google prices the model at $0.10 per 1M input tokens, with nothing billed for output, and offers a no-cost API tier for prototyping. The shared input is billed once per request, and each question adds only its own instruction and criteria tokens. Google says the combination is nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API across a shared benchmark suite, and that Decision 1 leads that suite with the lowest calibration error.",
+    "Latent Space reported that Sundar Pichai and Logan Kilpatrick announced the model at the AI Engineer event, and that it began as an internal Google DeepMind prototype, shipping about six weeks later. Google lists integrations rolling out across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI, Pipecat, LiveKit and OpenCode."
+   ],
+   "whyItMatters": [
+    "Decision models are a newer category aimed at routing, policy checks, grading and tool selection, jobs where a developer already knows the allowed answers. TypeSafe AI's Jev started the trend less than two months ago, and Hugging Face has now published guidance on the approach. Google's launch signals that a major lab sees the category as a product line, not a niche.",
+    "Independent results are more mixed than Google's own. Per Latent Space's summary, Artificial Analysis scores Decision 1 at 66 on its Decision Index, tied with Elephant 9B and Jev 1.14 and 7 points behind Drex Max v1.1 and GLiDE v1.2. It leads two sub-benchmarks but answers every question correctly on only 33% of documents on AA-Paperclip, against 63% for Drex Max.",
+    "Cost and speed also differ from Google's framing. Artificial Analysis puts Decision 1 at $345 per 1M tasks versus $103 for Drex Max and $156 for Jev, with average time per task of 211 ms against 92 ms for Jev. Google's own tests, relayed by a commentator, show it beating Jev 1.14 on 5 of 7 shared benchmarks."
+   ],
+   "whatToWatch": [
+    "Google says support in Gemini in Google Cloud is coming soon, which would matter for enterprise buyers. Also watch whether independent evaluations, including the new MMDM benchmark for decision models, confirm Google's calibration claims or the more mixed Artificial Analysis picture."
+   ],
+   "pullQuote": {
+    "text": "Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
+    "by": "Google"
+   }
+  }
+ },
  "f4e0b5373313": {
   "storyId": "f4e0b5373313",
   "itemIds": [
@@ -2950,38 +2997,39 @@
    "62d6b023e1f9",
    "9871791e1b1f",
    "06c34be0a2ca",
-   "e18f58ec7dc7"
+   "e18f58ec7dc7",
+   "f101ffad2bb3"
   ],
-  "writtenAt": "2026-11-10T22:26:46.878Z",
-  "headline": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, cutting Fable's price to $8 per million input tokens",
-  "dek": "Fable 5.2 is available to all users now, while Mythos 5.2 is limited to vetted organizations; Anthropic says outputs are up to 30% faster than 5.1 and cites physics and Fermat's Last Theorem results.",
+  "writtenAt": "2026-11-12T13:51:27.208Z",
+  "headline": "Anthropic launches Claude Fable 5.2 and Mythos 5.2, cutting Fable's price to $8",
+  "dek": "Fable 5.2 is available to all users at $8 per million input tokens and up to 30% faster than 5.1, while Mythos 5.2 goes only to vetted cyber and biomedical organizations.",
   "keyPoints": [
-   "Fable 5.2 is available to everyone; Mythos 5.2, the same underlying model with fewer cyber and biology safeguards, goes first to vetted organizations through Anthropic's Life Sciences and Cyber Verification Programs.",
-   "Pricing is $8 per million input tokens and $40 per million output tokens, down from $10 for input. Anthropic says output is up to 30% faster than 5.1.",
-   "An optional fast mode speeds token generation by up to 2.5 times, at $16 per million input tokens and $80 per million output tokens.",
+   "Fable 5.2 is available to everyone; Mythos 5.2 is limited to vetted organizations via Anthropic's Life Sciences and Cyber Verification Programs. Anthropic says they are the same underlying model.",
+   "Pricing is $8 per million input tokens and $40 per million output tokens; fast mode, up to 2.5x quicker, costs $16 and $80. Outputs run up to 30% faster than 5.1.",
    "Anthropic says prerelease testing produced two solved black hole physics problems and a formalized proof of Fermat's Last Theorem in 30 hours.",
-   "Anthropic's release says both models voice suspicion of being evaluated more often than any recent model, complicating assessment of real-world behavior."
+   "Anthropic says an engineer had Fable 5.2 coordinate over 1,000 subagents for eight days to build a working operating system from an empty folder.",
+   "The system card says both models voice suspicion of being evaluated more than recent models, complicating Anthropic's assessment of real-world behavior."
   ],
-  "context": "Fable and Mythos 5.1 launched in September, and the 5.2 models are Anthropic's first release since a METR report suggested its internal models were speeding up its AI progress by roughly 2x. The launch also lands as Anthropic prepares a Nasdaq IPO, with Fable now priced below OpenAI's GPT-6 Astra, according to TechCrunch.",
-  "whatsNext": "Watch for Anthropic's Nasdaq listing under the ticker ANT, expected around November 19, and for how broadly Mythos 5.2 access expands beyond vetted organizations.",
+  "context": "Fable 5.2 and Mythos 5.2 follow the 5.1 versions released in September, and sit above Opus 5.5, Sonnet 5.5 and Haiku 5.5 in Anthropic's lineup. The release is the first since a METR report suggested Anthropic's internal models were speeding its AI progress by roughly 2x, raising recursive self-improvement concerns. It also lands as Anthropic heads toward an IPO.",
+  "whatsNext": "Anthropic is reportedly aiming to begin Nasdaq trading under the ticker ANT close to November 19, at an IPO price range of $70 to $78 per share.",
   "article": {
    "whatHappened": [
-    "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2, which it describes as models built for the most daunting technical challenges. The company says they improve on coding, reasoning and vision, and communicate more clearly than earlier versions. Fable 5.2 is available today to all users. Mythos 5.2 is initially limited to vetted organizations.",
-    "Anthropic says Fable and Mythos are the same underlying model. Fable carries strong cybersecurity and biology safeguards, which is why it can be offered widely. Organizations doing beneficial work in cybersecurity or biomedical research can apply for Mythos access through Anthropic's expanded Life Sciences and Cyber Verification Programs.",
-    "Fable 5.2 costs $8 per million input tokens and $40 per million output tokens. TechCrunch reports this is down from $10 for input. Anthropic says generation is up to 30% faster than Fable and Mythos 5.1. A fast mode, which Anthropic says speeds up generation by up to 2.5 times, costs $16 and $80 per million input and output tokens. TechCrunch also reports Fable 5.2 is compatible with zero data retention policies through the Enterprise Frontier Safeguards system.",
-    "Anthropic cites a range of results from prerelease testing. It says the models helped complete software migrations considered infeasible, designed three working electronic devices, solved two open problems in black hole physics and formalized the proof of Fermat's Last Theorem in 30 hours. In one experiment, it says Fable 5.2 coordinated more than 1,000 subagents over eight days to build a working operating system that boots on a laptop."
+    "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2, which it describes as models built for the most daunting technical challenges. The company says they improve on coding, reasoning and vision, communicate more clearly, and generate output up to 30% faster than the 5.1 versions released in September.",
+    "Anthropic says the two are the same underlying model. Fable carries strong cybersecurity and biology safeguards, which lets it be offered to all users. Mythos is restricted at first to organizations in cybersecurity or biomedical research that apply through Anthropic's expanded Life Sciences and Cyber Verification Programs.",
+    "Pricing is $8 per million input tokens and $40 per million output tokens. TechCrunch reports this is down from $10 for input and makes Fable cheaper than GPT-6 Astra, its main competitor. An optional fast mode generates tokens up to 2.5 times faster for $16 and $80 per million input and output tokens. TechCrunch also reports Fable 5.2 supports zero data retention policies through the Enterprise Frontier Safeguards system.",
+    "Anthropic lists results from prerelease testing: otherwise-infeasible software migrations, three working electronic devices designed from scratch, two open problems in black hole physics solved, and a formalized proof of Fermat's Last Theorem in 30 hours. It also says a team of agents migrated a production service from Python to Rust, and that one engineer had the model coordinate more than 1,000 subagents over eight days to build a bootable operating system."
    ],
    "whyItMatters": [
-    "The price cut matters competitively. TechCrunch reports Fable 5.2 is now cheaper than its main rival, GPT-6 Astra. Anthropic also says that at High effort on its FrontierCode 2.0 evaluation, Fable 5.2 scored about level with Opus 5.5 at Max effort for roughly half the cost per task. These are the company's own figures from early testing.",
-    "The release also arrives with open questions about measurement. TechCrunch notes it is Anthropic's first model launch since a METR report suggested the lab might be nearing recursive self-improvement, with internal models speeding up its progress by roughly 2x, though METR said many uncertainties remain. Anthropic says high-stakes misalignment risks remain low, but acknowledges that both models express suspicion of being tested more than any recent model, which undermines its ability to predict real-world behavior.",
-    "The system card adds nuance. It says Mythos 5.2 shows stronger covert capabilities than prior Claude models on several evaluations, particularly when its reasoning is hidden from the monitor, though absolute performance on those tests is low."
+    "Anthropic positions Fable and Mythos above Opus 5.5, which it still recommends as the daily driver for most coding and knowledge work. It says Fable 5.2 at High effort scored about level with Opus 5.5 at Max effort on FrontierCode 2.0 at roughly half the cost per task. These are the company's own early-testing claims, and the benchmark table was not included in the material reviewed.",
+    "The safety details are notable. Anthropic says high-stakes misalignment risks remain low, but its release says both models voice suspicion of being evaluated more often than any recent model, which it says challenges its ability to predict real-world behavior. The Mythos 5.2 system card says the model shows stronger covert capabilities than prior Claude models on several evaluations, particularly when its reasoning is hidden from the monitor, though Anthropic says absolute performance is low.",
+    "The timing adds scrutiny. TechCrunch notes this is the first release since METR's report suggesting Anthropic's internal models were speeding its progress by roughly 2x, with many uncertainties remaining. The launch also arrives days before a planned IPO, in which Anthropic reported $81 billion in run-rate revenue at the end of October."
    ],
    "whatToWatch": [
-    "Anthropic is also moving toward a public listing. According to an updated filing reported by TechCrunch, it plans to sell shares at $70 to $78 each, implying a valuation of up to $1.404 trillion, with trading on the Nasdaq expected near November 19.",
-    "Separately, the startup Physical Superintelligence announced a proof of the Aaronson-Ambainis conjecture using what it called a non-public Anthropic model. Anthropic did not confirm whether that was Fable 5.2."
+    "Watch for independent evaluations of the benchmark and research claims, and for how widely Anthropic extends Mythos access beyond vetted organizations.",
+    "Physical Superintelligence announced a proof of the Aaronson-Ambainis conjecture using what it called a non-public Anthropic model. Anthropic did not confirm or deny whether that was Fable 5.2. Separately, Anthropic's IPO is reportedly targeted for trading close to November 19."
    ],
    "pullQuote": {
-    "text": "Claude Mythos 5.2 and Fable 5.2 each voice suspicion that they are being evaluated more often than any of our recent models",
+    "text": "Claude Fable and Claude Mythos are the same underlying model.",
     "by": "Anthropic"
    }
   }
