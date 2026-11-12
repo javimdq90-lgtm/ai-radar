@@ -760,6 +760,46 @@
    }
   }
  },
+ "53bc56e14c08": {
+  "storyId": "53bc56e14c08",
+  "itemIds": [
+   "53bc56e14c08",
+   "d8ee9ab549e4",
+   "322f998ba4d6"
+  ],
+  "writtenAt": "2026-11-12T22:47:41.049Z",
+  "headline": "United bars third-party AI agents from booking flights, citing security and federal rules",
+  "dek": "United Airlines is updating its booking and distribution policies to block unauthorized personal AI agents, including via travel agencies and aggregators, citing credential security, unintended purchases and federal check-in rules.",
+  "keyPoints": [
+   "United says it will restrict unauthorized third-party personal AI agents both on its own platforms and indirectly through travel agencies and aggregators, and is updating its booking, ticketing and distribution policies.",
+   "The airline says sharing credentials with AI assistants can expose sensitive information and cause unintended purchases, account changes or use of MileagePlus miles.",
+   "United says agents could breach federal rules, such as the requirement that a human attest at check-in that bags hold no banned substances.",
+   "Agents can still show users United flights but cannot complete bookings; CEO Scott Kirby said he doesn't want to create another middleman, per the Wall Street Journal.",
+   "Southwest has taken a different approach, making its flight inventory viewable to ChatGPT users, CBS News reports."
+  ],
+  "context": "Businesses are deciding whether to let AI agents transact on their sites. eBay appeared to block agents from browsing, several major banks have restricted them, and Bank of America last week urged customers not to share passwords with AI assistants. The decision could limit the usefulness of newer personal assistants such as Meta's Muse and OpenAI's dots.",
+  "whatsNext": "United says it could reconsider as third-party agents advance, once it has established protections for travelers; no timeline was given.",
+  "article": {
+   "whatHappened": [
+    "United Airlines says it will not let personal AI agents book flights or manage reservations on travelers' behalf. The airline cites cybersecurity risks and the possibility that agent-driven actions would undermine federal regulations. CBS News reported the announcement on Wednesday.",
+    "In a statement, United said it is restricting access both directly within its digital platforms and indirectly through travel agencies and aggregators, to prohibit use by unauthorized, third-party personal AI agents or assistants. The work includes updates to its booking, ticketing and distribution policies.",
+    "The airline says that sharing account credentials with such tools can expose sensitive information and lead to unintended purchases, account changes or use of MileagePlus miles. It also says a human must complete check-in to acknowledge that their bags contain no banned substances. Agents can still show users United flights but cannot complete the transaction. United says it has not yet seen many customers try to use agents to book."
+   ],
+   "whyItMatters": [
+    "United joins a growing group of companies limiting agent access. eBay appeared to block agents from browsing, and several major banks have set restrictions. Airlines and banks are struggling to tell real customers from AI systems acting for them, particularly when users hand over their logins. The decision could limit the usefulness of personal assistants such as Meta's Muse and OpenAI's dots.",
+    "Aviation analyst Henry Harteveldt of Atmosphere Research Group told CBS News the policy suggests United wants to keep control of the booking process. He said the airline does not want another intermediary on top of Google search, metasearch sites and online travel agencies, and noted that flight searches cost airlines money. CEO Scott Kirby made a similar point, according to the Wall Street Journal.",
+    "Not every airline is taking this line. Southwest has made its inventory viewable to ChatGPT users. Harteveldt said United fares will remain bookable through aggregators such as Kayak, Hopper and Google Flights, so consumers should not find good fares harder to find."
+   ],
+   "whatToWatch": [
+    "United has left the door open. It says that as third-party agents advance it sees opportunities, but that direct interaction with accounts or bookings involves sensitive actions and it wants protections for travelers in place first. No timeline or criteria have been given.",
+    "Also worth watching is how United enforces the restriction through travel agencies and aggregators, and whether other airlines follow United or Southwest."
+   ],
+   "pullQuote": {
+    "text": "To be honest, I don't want to create another middleman,",
+    "by": "Scott Kirby, United CEO"
+   }
+  }
+ },
  "5888c276693c": {
   "storyId": "5888c276693c",
   "itemIds": [
@@ -1900,6 +1940,51 @@
    }
   }
  },
+ "ad614f81e42f": {
+  "storyId": "ad614f81e42f",
+  "itemIds": [
+   "ad614f81e42f",
+   "a8d5fa7d24b3",
+   "8fdb0296ea11",
+   "d40fca9fd5e1",
+   "a67e1509e9c0",
+   "875637b2c34d",
+   "8af226d2b9f4"
+  ],
+  "writtenAt": "2026-11-12T22:47:18.133Z",
+  "headline": "Google launches Gemini 4 Hydrogen, a fast model replacing 3.8 Flash across its products",
+  "dek": "Gemini 4 Hydrogen costs $1.50 per million input tokens and $7.50 per million output tokens, becomes the default in AI Mode, and replaces Gemini 3.8 Flash, with Google claiming 2.5x faster tasks.",
+  "keyPoints": [
+   "Google says Hydrogen is available now in Search, the Gemini app, all tiers of AI Studio, the Gemini API, Gemini for business and, for paid Pro and Ultra users, Antigravity.",
+   "API pricing is $1.50 per million input tokens and $7.50 per million output tokens across a 1 million-token context window, unchanged from 3.8 Flash, according to Ars Technica.",
+   "Google says Hydrogen scores 51 on the Artificial Analysis Intelligence Index at default settings and 54 at xhigh, against 50 for Argon.",
+   "Versus 3.8 Flash, Google claims tasks finish 2.5 times faster, Terminal-Bench 4.1 scores rise from 18.2% to 57%, and fabricated claims fall more than 5x.",
+   "Ars Technica reports AI Plus and free Gemini app users still get the older 3.5 Flash-Lite model; Carbon and Argon API prices rise to $4/$20 next month."
+  ],
+  "context": "Google's Gemini 4 family uses element names rather than the Pro/Flash labels of earlier generations. The frontier models, Carbon and Argon, were released in staged rollouts that began with cybersecurity researchers and were limited to the priciest subscription tier. Hydrogen takes the fast, cheap tier that most Google users encounter, so it reaches a far larger audience than either.",
+  "whatsNext": "Watch for the Carbon and Argon API price increase to $4 per million input and $20 per million output tokens, which Ars Technica reports starts next month.",
+  "article": {
+   "whatHappened": [
+    "Google has released Gemini 4 Hydrogen, a faster, cheaper model in its Gemini 4 family that replaces Gemini 3.8 Flash across the company's products. Google says it is available immediately in Search, the Gemini app, all tiers of Google AI Studio, the Gemini API and Gemini for business. In Google Antigravity, its coding environment, access is limited to paid AI Pro and Ultra subscribers.",
+    "Google says Hydrogen is built for rapid execution in coding and agentic workflows, while the frontier models Gemini 4 Carbon and Argon handle deep, long-horizon reasoning. It has four thinking levels: low, medium, high (the default) and a new xhigh tier. Pricing is flat across a 1 million-token context window, at $1.50 per million input tokens and $7.50 per million output tokens.",
+    "Google's benchmark claims are specific. Hydrogen scores 51 on the Artificial Analysis Intelligence Index at high and 54 at xhigh, versus 50 for Argon. Against 3.8 Flash, Google says it finishes tasks 2.5 times faster at its default setting, more than triples its Terminal-Bench 4.1 score (57% versus 18.2%), and cuts fabricated claims by more than 5x.",
+    "Google also introduced Orchestrator in Antigravity, which switches between models such as Carbon and Hydrogen within one session. On Terminal-Bench 4.0, Google says Orchestrator reached near-Carbon success rates while using 24% less quota and finishing 19% faster."
+   ],
+   "whyItMatters": [
+    "Hydrogen's reach is the main difference from earlier Gemini 4 releases. Ars Technica notes that Carbon and Argon were rolled out in stages, starting with cybersecurity researchers and later limited to the most expensive subscription. Hydrogen is going to Search users globally on day one. Google describes it as the biggest model upgrade to Search yet.",
+    "In Search, The Verge reports Hydrogen is now the default model in AI Mode and is used for the hardest questions in AI Overviews. Google says it handles multi-part questions, typos and highly specific requests, runs simultaneous queries across subtopics to surface a wider range of links, and returns more images, tables, graphs and maps. Ars Technica is skeptical of the claim about more sources, noting it has heard similar promises from Google before.",
+    "Access is uneven outside Search. Ars Technica reports that in the Gemini app and AI Studio the model is live for AI Pro and Ultra subscribers, while AI Plus and free users remain on the older 3.5 Flash-Lite. The Verge says Google compares Hydrogen with Claude Sonnet 5.5 and GPT-6.1 Terra, though the benchmark claims come from Google and have not been independently verified in the coverage."
+   ],
+   "whatToWatch": [
+    "Pricing for the larger models changes soon. Ars Technica reports Carbon and Argon, currently $2 and $10 per million input and output tokens, will rise to $4 and $20 starting next month. That would widen the gap with Hydrogen and strengthen the case for using it as the execution model in multi-model workflows.",
+    "Independent testing will show whether Hydrogen's claimed gains over 3.8 Flash, and its edge over Argon on the Artificial Analysis index, hold up outside Google's own evaluations."
+   ],
+   "pullQuote": {
+    "text": "now the new default model in AI Mode & being used for your hardest questions in AI Overviews",
+    "by": "Robby Stein, VP of product at Google Search"
+   }
+  }
+ },
  "add383da2fc0": {
   "storyId": "add383da2fc0",
   "itemIds": [
@@ -2540,38 +2625,54 @@
    "d8ef3fe6591f",
    "b91248042740",
    "efdd0bfa6110",
-   "df5c4c0af68f"
+   "df5c4c0af68f",
+   "672380229fb0",
+   "1a1f36cb24e7",
+   "1447c52b300c",
+   "ee129214e4fa",
+   "44722bd03025",
+   "11a9f97485e1",
+   "aff4b2c65530",
+   "aa4bf4548cc5",
+   "5c8a7e2ce9e4",
+   "0a3a3741b20c",
+   "3903c89c61e5",
+   "c0e992001b85",
+   "92467d3f16d5",
+   "ef98f01e800c",
+   "4e2810e47ea3"
   ],
-  "writtenAt": "2026-11-12T13:52:04.177Z",
-  "headline": "Nvidia board reportedly preparing to fire CEO Jensen Huang after second alleged affair",
-  "dek": "The WSJ reports Nvidia's board could meet as soon as Wednesday to decide Huang's future, after the NYT reported a second alleged affair and days after he admitted a relationship with an alleged Chinese spy.",
+  "writtenAt": "2026-11-12T22:47:58.552Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Huang's resignation Thursday after reports its board was preparing to fire him over two alleged affairs, including one with a subordinate; the stock fell about 7 to 8 percent after hours.",
   "keyPoints": [
-   "The WSJ reports Nvidia's board is preparing to dismiss Huang, its co-founder and CEO of 33 years, and may meet as soon as Wednesday. Nvidia had not responded to The Verge's request for comment.",
-   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times has not seen the video its sources describe.",
-   "Huang admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly believes is a Chinese spy. Nvidia's board had opened an independent investigation.",
-   "Nvidia stock fell about 8% in after-hours trading Wednesday, according to TechCrunch, and is down about 11% over five days.",
-   "Bloomberg reports Nvidia is working with an outside firm to identify possible successors. Elon Musk posted on X that hiring Huang 'would be an honor.'"
+   "Nvidia announced Huang's resignation Thursday morning and named CFO Colette Kress interim CEO, after the WSJ reported the board could meet as soon as Wednesday night to decide his future.",
+   "The NYT reported a second alleged affair, with Nvidia VP of health care Kimberly Powell, days after Huang admitted a relationship with Megaspeed executive Alice Huang, whom US intelligence reportedly considers a Chinese spy.",
+   "Nvidia shares fell more than 7 percent (TechCrunch says about 8 percent) in after-hours trading Wednesday and are down about 11 percent over five days.",
+   "Huang has led Nvidia for 33 years and has about 60 direct reports; the company reportedly had no obvious successor, and Bloomberg says it was working with an outside firm to find candidates.",
+   "Senate Democratic leader Chuck Schumer says Huang will still need to answer to Congress despite resigning, according to The Verge."
   ],
-  "context": "Nvidia designs the chips that power the AI boom, and Huang has run the company since he co-founded it. The scandal began with an NYT report last month of a 'close relationship' with a Megaspeed executive; Megaspeed is an Nvidia customer under a Commerce Department investigation over whether it smuggled AI chips to China.",
-  "whatsNext": "Watch for the outcome of the board meeting, which the WSJ says could happen as soon as Wednesday, and for any announcement on an interim or permanent successor.",
+  "context": "Nvidia, which designs the chips behind the AI boom, has been closely identified with Huang, its co-founder, since 1993. The scandal began over the weekend when Huang confirmed a relationship with an executive at Megaspeed, a company reportedly linked to a Chinese spy allegation, and escalated with a second report on Wednesday. Few companies of Nvidia's size have lost a founder-CEO this abruptly, and the company is central to US-China tension over AI chips.",
+  "whatsNext": "Watch who Nvidia's board picks as a permanent CEO, the outcome of the Wachtell, Lipton-led investigation, and whether Congress follows through on questioning Huang.",
   "article": {
    "whatHappened": [
-    "Nvidia's board is preparing to dismiss CEO Jensen Huang, the Wall Street Journal reports, citing sources. The board is meeting as soon as Wednesday to decide his future, according to the Journal. Huang co-founded Nvidia and has led it for 33 years. Nvidia did not immediately respond to a request for comment from The Verge.",
-    "The report followed a New York Times story on Wednesday evening alleging a second extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
-    "It came days after Huang admitted to a relationship with Alice Huang, a Megaspeed executive who US officials believe was recruited by China's Ministry of State Security and fed information to Beijing. Nvidia's stock fell about 8% in after-hours trading Wednesday, TechCrunch reports, and is down about 11% over five days."
+    "Jensen Huang has resigned as CEO of Nvidia. The company announced the move Thursday morning and said CFO Colette Kress has been appointed interim CEO. It came hours after the Wall Street Journal reported that Nvidia's board was preparing to dismiss Huang and could meet as soon as Wednesday night to decide his future.",
+    "The Journal's report followed a New York Times story alleging a second extramarital affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that the two were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video. Nvidia did not immediately respond to The Verge's request for comment.",
+    "The allegations came days after Huang admitted, on Sunday, to an extramarital affair with Alice Huang, a Megaspeed executive whom US intelligence reportedly regards as a Chinese spy. Nvidia said it retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. Reuters has since reported that Huang had an intimate relationship with another Nvidia employee as well.",
+    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading Wednesday, according to The Verge, and about 8 percent, according to TechCrunch, which adds that the stock is down about 11 percent over five days."
    ],
    "whyItMatters": [
-    "Nvidia is one of the most valuable companies in the world because of the chips behind the AI boom, so a leadership change at the top carries weight well beyond the company. Huang delegates little and has said he has about 60 direct reports. TechCrunch notes Nvidia has had no obvious successor or succession plan, though Bloomberg reports it is working with an outside firm to find candidates.",
-    "The national security angle raised the stakes of the first affair. Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it smuggled AI chips to China. The Verge notes Huang has grown close to President Trump, and there is concern about what he knew of administration deliberations on AI and whether any of it reached Alice Huang. The board said it had no reason to believe national security or Nvidia secrets were compromised.",
-    "The timing also suggests a shift in the board's approach. Nvidia said it retained former US attorney Joon H. Kim and the law firm Wachtell, Lipton, Rosen & Katz to handle the investigation, and the Verge reasons that the dismissal report suggests the board may not wait for those results. That is an inference from the reporting, not something Nvidia has said."
+    "Huang has run Nvidia for 33 years, and the company has become one of the most valuable in the world by supplying the chips that power the AI boom. TechCrunch reports that he delegates little, has said he has about 60 direct reports, and that Nvidia has had no obvious successor or succession plan. Bloomberg reports the company was working with an outside firm to identify possible replacements.",
+    "The timing suggests the board did not want to wait for the law firm's investigation. The Verge notes that the Wednesday report implied the board would act before those results arrived. Kress's interim appointment keeps a senior finance executive in charge, but a company this central to AI hardware will face questions about strategy and customer confidence during a leadership search.",
+    "The scandal also carries a political dimension. The alleged link between Huang's relationship and a suspected Chinese spy touches on US-China technology rivalry, and The Verge reports that Senate Democratic leader Chuck Schumer says Huang will still need to answer to Congress despite his resignation. Elon Musk, meanwhile, posted on X late Wednesday that hiring Huang would be an honor."
    ],
    "whatToWatch": [
-    "The immediate question is whether the board meets and acts, and whether Nvidia confirms or denies the Journal's account. The company had not publicly commented in the coverage reviewed.",
-    "Also open are who would lead Nvidia if Huang goes, and what the independent investigation concludes. Elon Musk's public remark that hiring Huang 'would be an honor' shows interest elsewhere, but no job offer has been reported."
+    "The main open questions are who the board names as a permanent CEO and how long the search takes, given the lack of an obvious internal successor. Findings from the Wachtell-led investigation, and whether Nvidia publishes them, are also unresolved.",
+    "Congressional scrutiny is the other thread. Schumer's comment indicates lawmakers may still seek testimony from Huang, though the coverage does not give a date or a formal request."
    ],
    "pullQuote": {
-    "text": "The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.",
-    "by": "Nvidia board statement"
+    "text": "would be an honor",
+    "by": "Elon Musk"
    }
   }
  },
@@ -2894,6 +2995,45 @@
    "pullQuote": {
     "text": "We are very excited by this result, but there is a long distance to go before we are able to scale this to all the software of the world, and we want to do that",
     "by": "Swarat Chaudhuri, DeepMind research scientist"
+   }
+  }
+ },
+ "f98f612fda85": {
+  "storyId": "f98f612fda85",
+  "itemIds": [
+   "f98f612fda85"
+  ],
+  "writtenAt": "2026-11-12T22:47:30.688Z",
+  "headline": "Google, Samsung launch Gemini smartglasses from $395, with privacy limits",
+  "dek": "Google, Samsung, Warby Parker and Gentle Monster opened preorders for audio-and-camera Gemini glasses from $395, with Google promising no live streaming, no facial recognition and a recording light that can't be covered.",
+  "keyPoints": [
+   "Warby Parker's Alden, Reid and Wren frames start at $395 and sell only in the US; Gentle Monster's six styles start at $449 in the US and South Korea.",
+   "The glasses have a 12 MP camera, open-ear speakers and no lens display. Users activate Gemini by saying \"Hey Gemini\" or tapping the frame.",
+   "Google says the glasses refuse to use the camera if the recording light is covered, and it can remotely disable glasses used to record people without consent.",
+   "Google says Play Store apps cannot live stream from the glasses, real-time facial recognition is off the table, and faces are redacted before video goes to Google.",
+   "Data is encrypted in transit but not on Google's servers; Google says it is working on bringing Private AI Compute to the glasses."
+  ],
+  "context": "Google Glass in the early 2010s drew a privacy backlash that helped sink it, and Meta's Ray-Ban glasses have since shown a market for camera-and-audio eyewear without displays. Google is now pairing Samsung hardware and fashion-brand frames with Gemini, and is trying to head off privacy criticism with restrictions that go further than Meta's in some areas.",
+  "whatsNext": "Watch for Google's names for the Gentle Monster styles, final pricing with prescription lenses, and whether Private AI Compute arrives on the glasses.",
+  "article": {
+   "whatHappened": [
+    "Google, Samsung, Warby Parker and Gentle Monster have launched the first Gemini-powered smartglasses, with preorders open from the two eyewear brands. Samsung supplies the computing hardware inside the frames and Google provides the software. The glasses start at $395, and the price rises with lens choices.",
+    "Warby Parker has designed three frames, called Alden, Reid and Wren, offered with optical or sun lenses in Pine, Saddle and Jet Black. They start at $395 and are sold only in the US. Gentle Monster has six styles, which Google has not yet named, in dark red, pink, gray and yellow with clear, tinted, blue or brown lenses. They start at $449 in the US and South Korea.",
+    "Google says every frame weighs about 41 grams before lenses. The lenses contain no screen. Users talk to Gemini by saying \"Hey Gemini\" or tapping a touch-sensitive area on the frame, and the 12 MP wide-angle camera lets the assistant see what the wearer sees. Google suggests asking for recommendations while looking at a bookshelf, or having Gemini add an event poster to a calendar. A Gemini Guided Vision feature gives audio descriptions for visually impaired users.",
+    "Google frames its privacy approach as covering \"both sides of the lens.\" A recording light turns on whenever the camera is active, and the glasses refuse to use the camera if the light is covered or modified. All the glasses have a physical off switch. Terms of use bar recording people without consent or in sensitive areas, and Google may remotely disable glasses that break the rules."
+   ],
+   "whyItMatters": [
+    "The design closely follows the Ray-Ban Meta glasses, which have been on the market for several years: voice and camera input, no display. Google's differences are mostly in restrictions. It says no Play Store app can live stream from the glasses, not even YouTube Live, and that real-time facial recognition is not allowed. Faces are redacted automatically before video is sent to Google for processing.",
+    "On user data, Google says images and videos from the glasses are not saved in Gemini history and are not used to train models or target ads. Voice interactions get no such guarantee, though chats can be deleted. Data is encrypted on the device and in transit but not on Google's servers, which is a gap Google says Private AI Compute would close.",
+    "Ars Technica's reviewer raises a practical concern: in testing, Gemini still sometimes fails at simple tasks such as adding calendar appointments or identifying objects in images. Without a screen to check the output, errors may be harder to catch, so the glasses' usefulness depends on how reliable the assistant proves to be."
+   ],
+   "whatToWatch": [
+    "Final pricing is still open. The listed prices include non-prescription lenses only, and prescription lenses will change the total. Google has not yet disclosed names for the Gentle Monster styles.",
+    "The other open question is Private AI Compute. Google says it is working to bring the feature to glasses, which would isolate data during processing so that not even Google can access it, but it has given no timeline in the coverage."
+   ],
+   "pullQuote": {
+    "text": "Real-time facial recognition is also off the table, according to Google.",
+    "by": "Ars Technica"
    }
   }
  },
