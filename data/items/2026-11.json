@@ -11066,5 +11066,415 @@
   "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
   "imageCheckedAt": "2026-11-13T13:13:16.452Z",
   "storyId": "f980cc1f1e21"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+  "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-13T14:44:48.000Z",
+  "snippet": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+  "id": "025a6c711bf8",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "ElevenLabs launched ElevenAI, a meeting note-taking and dictation app for teams and enterprises.",
+  "whyItMatters": "ElevenLabs is moving from voice models into end-user productivity apps, competing with existing notetakers.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "ElevenLabs",
+   "ElevenAI"
+  ],
+  "storyId": "025a6c711bf8"
+ },
+ {
+  "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+  "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T18:40:44.000Z",
+  "score": 228,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50487864",
+  "id": "03f9e691f932",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "$11.4M worth of Nvidia hardware vanished during shipment from California to Texas.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Nvidia"
+  ],
+  "storyId": "03f9e691f932"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+  "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T15:08:44.000Z",
+  "score": 145,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
+  "id": "0b67abad1121",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "In a talk, Jonathan Blow asks why software still looks the same if AI has supposedly solved coding.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Jonathan Blow"
+  ],
+  "storyId": "0b67abad1121"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+  "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-13T14:00:00.000Z",
+  "snippet": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impressive text-based assistant, Meta offered us its cute little guy, Muse, to help us buy things, and OpenAI gave us the more work-oriented Dots. Claude Duet is even more focused on work than those. It's a…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "1bd099ba94a3",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "Anthropic's Claude Duet is a consumer-facing AI agent focused on work tasks, aimed at non-coders. The Verge's review calls it a little neurotic but surprisingly helpful, in a field that includes agents from Meta and OpenAI's Dots.",
+  "whyItMatters": "Consumer agents are becoming a crowded category, and Anthropic is now competing directly with OpenAI and Meta.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude Duet",
+   "OpenAI",
+   "Meta"
+  ],
+  "storyId": "1bd099ba94a3"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-13T18:00:39.000Z",
+  "id": "2427bacb74a9",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "A Hugging Face tutorial shows how to build a robot pick-and-place simulation using SimReady assets.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "Hugging Face",
+   "NVIDIA"
+  ],
+  "storyId": "2427bacb74a9"
+ },
+ {
+  "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+  "title": "AI is destroying the trust between writers and readers",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T11:13:46.000Z",
+  "score": 298,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50481870",
+  "id": "2f44ca0e016f",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "The Atlantic argues that AI-generated writing is eroding the trust between writers and readers.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "The Atlantic"
+  ],
+  "storyId": "2f44ca0e016f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+  "title": "AI agent startup LangChain hits $3B valuation",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-13T19:37:57.000Z",
+  "snippet": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+  "id": "38741df50e34",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "LangChain reached a $3B valuation and claims 7,000 customers for LangSmith, its model-agnostic agent management platform.",
+  "whyItMatters": "It shows investors are backing agent infrastructure and observability tooling.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "LangChain",
+   "LangSmith"
+  ],
+  "imageCheckedAt": "2026-11-13T22:42:59.073Z",
+  "storyId": "38741df50e34"
+ },
+ {
+  "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+  "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-13T14:05:22.000Z",
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+  "id": "40e78db6601d",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "llama.cpp has released v1.0.0, positioned as a stronger foundation for the local AI ecosystem.",
+  "whyItMatters": "A 1.0 milestone signals stability for the main engine behind local LLM inference.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "llama.cpp",
+   "Hugging Face"
+  ],
+  "imageCheckedAt": "2026-11-13T22:42:59.164Z",
+  "storyId": "40e78db6601d"
+ },
+ {
+  "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+  "title": "OpenAI disbands its robotics team as its general models start running robots",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T17:55:23.000Z",
+  "score": 125,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50487184",
+  "id": "4a36f6adfa9f",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "OpenAI has disbanded its robotics team, saying its general models are now able to run robots.",
+  "whyItMatters": "It signals a bet that general-purpose models will beat dedicated robotics stacks.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "OpenAI"
+  ],
+  "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600",
+  "imageCheckedAt": "2026-11-13T22:42:59.057Z",
+  "storyId": "4a36f6adfa9f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+  "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-13T16:00:12.000Z",
+  "snippet": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
+  "id": "4e379f6cb9d3",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to US Pro subscribers.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT Wallet"
+  ],
+  "imageCheckedAt": "2026-11-13T22:42:59.068Z",
+  "storyId": "5bf4951adbe9"
+ },
+ {
+  "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+  "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-13T21:20:47.000Z",
+  "snippet": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
+  "id": "4ecfb44c1aed",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "The FAA is expanding AI advice for managing air traffic congestion across all US airspace. Airlines praised it, but the controllers' union wasn't involved.",
+  "whyItMatters": "It is a high-stakes government deployment of AI with labour concerns.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "FAA"
+  ],
+  "storyId": "e94b95796523"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+  "title": "The unfolding Jensen Huang scandal: a timeline",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-13T15:58:00.000Z",
+  "snippet": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+  "id": "56623f1d9c94",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "Timeline of the Jensen Huang scandal: he resigned from Nvidia following an affair, with possible national security implications as the US and China race on AI infrastructure.",
+  "whyItMatters": "Nvidia's leadership and China exposure affect AI hardware supply and export policy.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-13T22:42:59.081Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://openai.com/index/introducing-chatgpt-wallet",
+  "title": "Introducing ChatGPT Wallet",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-13T15:00:00.000Z",
+  "snippet": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+  "id": "5bf4951adbe9",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "OpenAI introduced ChatGPT Wallet, letting agents in ChatGPT Work, Codex and dots complete purchases with user approval and existing card protections.",
+  "whyItMatters": "Agent payments are a key step toward agents doing real transactions, and set a pattern for approval flows.",
+  "category": "products",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "ChatGPT Wallet",
+   "Codex"
+  ],
+  "imageCheckedAt": "2026-11-13T22:42:59.048Z",
+  "storyId": "5bf4951adbe9"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+  "title": "What’s really at stake in the Jensen Huang saga",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-13T14:47:16.000Z",
+  "snippet": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness to turn a lot of blind eyes to protect a powerful ally, and about the very stability of the AI industry as a whole. It's a lot. On this episode of The Vergecast, David and Nilay start by trying to unpack the many parts of the story. We're all going to learn a lot more about Megaspe…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_111326_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5d09d1e98e76",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "Nvidia CEO Jensen Huang has resigned, and The Vergecast discusses the broader fallout: Nvidia's dealings in China, US government leniency, and the stability of the AI industry.",
+  "whyItMatters": "Leadership upheaval at the key AI chip supplier could affect the whole industry's supply and policy picture.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://text.npr.org/nx-s1-6029408",
+  "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T15:29:10.000Z",
+  "score": 156,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50484960",
+  "id": "5f1afeeb96c0",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "NPR looks at theories for why Google is cutting off Search access to schools that are AI-free.",
+  "whyItMatters": "It raises questions about how AI features are being tied to access to core products.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "NPR"
+  ],
+  "storyId": "81bcb5c122b2"
+ },
+ {
+  "url": "https://huggingface.co/blog/allenai/xybench",
+  "title": "XYBench: Helping with the problem behind the question",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-13T17:02:35.000Z",
+  "id": "8400bdfe1e2a",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "XYBench is a new benchmark on Hugging Face aimed at addressing the problem behind the question being asked.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "XYBench",
+   "Hugging Face"
+  ],
+  "storyId": "8400bdfe1e2a"
+ },
+ {
+  "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+  "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T17:30:10.000Z",
+  "score": 277,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50486748",
+  "id": "a1e895b935bb",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "AI has been used to decipher Gödel's notebooks, which are said to contain hundreds of proved theorems.",
+  "whyItMatters": "It shows AI's usefulness for historical and mathematical archival work.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Kurt Gödel"
+  ],
+  "image": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
+  "imageCheckedAt": "2026-11-13T22:42:59.054Z",
+  "storyId": "a1e895b935bb"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+  "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-13T17:25:45.000Z",
+  "snippet": "Researcher traces a path from AI reward hacking to potential human extinction.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
+  "id": "c371d06a5231",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "An OpenAI board member warns an AI takeover of society could be months away, tracing a path from reward hacking to potential human extinction.",
+  "whyItMatters": "A warning from inside OpenAI's governance adds to the safety debate, though the claim is speculative.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "c371d06a5231"
+ },
+ {
+  "url": "https://www.slopmanifesto.com/",
+  "title": "No AI Slop: A Manifesto",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T19:51:56.000Z",
+  "score": 136,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50488769",
+  "id": "cf03ad891612",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "A manifesto titled 'No AI Slop' argues against low-quality AI-generated content.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [],
+  "storyId": "cf03ad891612"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+  "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-13T20:45:10.000Z",
+  "snippet": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification lik…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "d450ad1a277f",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "OpenAI is rolling out ChatGPT Wallet to US Pro subscribers aged 18+, letting Dots agents buy things with eligible cards. Each purchase requires a check-in and biometric verification.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT Wallet",
+   "Dots"
+  ],
+  "storyId": "5bf4951adbe9"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+  "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-13T18:40:30.000Z",
+  "snippet": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
+  "id": "f17748102e2c",
+  "fetchedAt": "2026-11-13T22:42:41.585Z",
+  "enrichedAt": "2026-11-13T22:42:59.019Z",
+  "summary": "New research finds China's most advanced AI models were trained on export-banned Nvidia chips.",
+  "whyItMatters": "It undermines export-control effectiveness and adds pressure on Nvidia and US policy.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "China",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-13T22:42:59.078Z",
+  "storyId": "d096a8a420fb"
  }
 ]

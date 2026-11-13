@@ -673,6 +673,45 @@
    ]
   }
  },
+ "4a36f6adfa9f": {
+  "storyId": "4a36f6adfa9f",
+  "itemIds": [
+   "4a36f6adfa9f"
+  ],
+  "writtenAt": "2026-11-13T22:43:22.892Z",
+  "headline": "OpenAI disbands its robotics team, saying GPT-6 Astra can run robots directly",
+  "dek": "OpenAI moved its robotics researchers to its main research team and its applied robotics and hardware staff to Applied, saying general frontier models now handle robotics tasks without a dedicated team.",
+  "keyPoints": [
+   "OpenAI confirmed to Fortune it disbanded its stand-alone robotics team; researchers now report to Chief Research Officer Mark Chen, and applied robotics and hardware staff report to President Greg Brockman.",
+   "OpenAI says general models including GPT-6 Astra can be applied directly to robotics, which it says prompted the change.",
+   "In an Nvidia study, an Astra-powered agent scored 74.8% on a simulated manipulation benchmark, versus 51.0% for the best specialized robotics models.",
+   "OpenAI says it is still building its own humanoid robot; Sam Altman has targeted a first public demonstration in 2027.",
+   "The reorganization comes as OpenAI faces cost pressure, with reported losses of $10.9 billion last quarter and a possible IPO in early 2027."
+  ],
+  "context": "OpenAI closed its first robotics team in 2020, favoring large language models, and rebuilt one in 2024 with a Figure partnership that ended in February 2025. The move reflects a wider bet that general models can drive embodied AI, which challenges robotics startups that have raised billions on the premise that robots need purpose-built brains.",
+  "whatsNext": "Watch for OpenAI's planned first public demonstration of its humanoid robot, which Sam Altman has targeted for 2027.",
+  "article": {
+   "whatHappened": [
+    "OpenAI has disbanded its stand-alone robotics team and confirmed the reorganization to Fortune. The company's robotics research team has been moved to its main research organization, reporting to Chief Research Officer Mark Chen. Applied robotics and hardware teams now sit in the larger Applied organization, which reports to President Greg Brockman.",
+    "A spokesperson said robotics remains a core part of OpenAI's long-term vision and described the change as a sign of commitment rather than retreat. The timing was recent enough that OpenAI had already registered a booth at CoRL, a robotics conference in Austin. Fortune found booth #208 empty, with no OpenAI logo.",
+    "OpenAI says that at the start of the year its researchers thought the best route to robotics was building on work such as the Sora video model. Since then, the spokesperson said, general-purpose frontier models including GPT-6 Astra have shown they can be applied directly to robotics, which led to the reorganization.",
+    "Fortune cites an Nvidia study in which an Astra-powered agent, given camera images, robot information and a control interface, reached a 74.8% success rate on a simulated manipulation benchmark. The best specialized robotic models on the same leaderboard reported 51.0%. The test was in simulation, not on a real robot."
+   ],
+   "whyItMatters": [
+    "OpenAI has changed course on robotics before. It wound down its first team in 2020, citing limited robot data and a more efficient path to AGI through language models. It rebuilt the team in 2024 and partnered with Figure, which ended in February 2025 when Figure said it would develop its own robot AI.",
+    "Guanya Shi, a Carnegie Mellon robotics professor, read the move as a sign that OpenAI sees robotics as no longer a special problem, but a downstream application of general intelligence, much as frontier models now power coding or legal tools. If that holds, it undercuts the premise of many robotics startups that robots need their own specialized models.",
+    "Russ Tedrake, an MIT professor and CEO of Walden Robotics, argues startups keep an edge: their robots already work in real places such as factory floors, and the deployment data they gather becomes more valuable as foundation models improve. Fortune also ties the change to cost pressure, noting Altman's call to drop side quests and reported quarterly losses of $10.9 billion."
+   ],
+   "whatToWatch": [
+    "OpenAI says it still intends to bring general-purpose robots into the world and is developing its own humanoid, with Altman targeting a first public demonstration in 2027. How that effort is staffed under the new structure is not yet clear.",
+    "Open questions include whether simulated results like Nvidia's carry over to real robots, and whether deployment data gives robotics startups a lasting advantage over general models."
+   ],
+   "pullQuote": {
+    "text": "no longer a special problem",
+    "by": "Guanya Shi, assistant professor at Carnegie Mellon University's Robotics Institute"
+   }
+  }
+ },
  "4db20898e948": {
   "storyId": "4db20898e948",
   "itemIds": [
@@ -836,6 +875,45 @@
    "pullQuote": {
     "text": "ML4 pushes the frontier of open-weight performance.",
     "by": "Mistral AI"
+   }
+  }
+ },
+ "5bf4951adbe9": {
+  "storyId": "5bf4951adbe9",
+  "itemIds": [
+   "5bf4951adbe9",
+   "4e379f6cb9d3",
+   "d450ad1a277f"
+  ],
+  "writtenAt": "2026-11-13T22:43:12.411Z",
+  "headline": "OpenAI launches ChatGPT Wallet so its Dots agents can buy things for US Pro users",
+  "dek": "OpenAI is rolling out ChatGPT Wallet to a limited group of US Pro subscribers aged 18 and over, letting Dots agents complete purchases with eligible cards after biometric approval.",
+  "keyPoints": [
+   "Wallet starts with a limited number of US ChatGPT Pro subscribers aged 18+ with a US billing address and eligible Amex, Chase, Mastercard or Visa cards.",
+   "Every purchase requires a security check such as Face ID or a fingerprint, after users review the items, total and card, according to OpenAI's support page.",
+   "A payment token replaces card details, so neither the Dots agent nor the merchant sees the actual card number, OpenAI says.",
+   "OpenAI plans spending limits, category and time parameters for pre-approved purchases, and has published a Commerce Partner Playbook for retailers."
+  ],
+  "context": "OpenAI launched its Dots agents platform earlier this year, and Wallet adds a payment layer to it. Agentic shopping is still unproven: TechCrunch reports that DoorDash and Uber have seen low numbers of agent-placed orders, while Meta's Muse says AI-assisted shopping is a top activity. Retailer access is a barrier, with Amazon having blocked Meta's Muse agents.",
+  "whatsNext": "OpenAI says it will widen availability after the limited launch, add spending limits and pre-approval controls, and expand the range of supported retailers.",
+  "article": {
+   "whatHappened": [
+    "OpenAI on Friday launched ChatGPT Wallet, a feature that lets its Dots agents help users decide what to buy and then complete the purchase. It is available first to a limited number of ChatGPT Pro subscribers in the US who are 18 or older, have a US billing address and hold an eligible US-issued American Express, Chase, Mastercard or Visa card.",
+    "Users add a card to the wallet once, then ask a Dots agent to help with a purchase. The agent checks in before each checkout, and the user reviews the items, the total and the card to be charged. OpenAI's support page says every purchase requires a security check with biometric verification, such as Face ID or a fingerprint scan.",
+    "OpenAI says the wallet charges the selected card through a payment token, similar to tap to pay, Apple Pay or Google Wallet. That means the actual card details are not shared with the agent or the merchant. The merchant still receives what it needs to fulfil the order, such as the shipping address and contact information. OpenAI says users keep card rewards and protections such as the ability to dispute transactions."
+   ],
+   "whyItMatters": [
+    "The launch puts OpenAI into a field where results so far are mixed. TechCrunch notes that DoorDash and Uber have reported low numbers of orders placed by AI agents, while Meta says shopping has become a top activity in its Muse app, which has more than 10 million users. Other personal agents, such as Instinct, also support purchases.",
+    "The design keeps a human approval step on every transaction, and tokenisation limits exposure of card data. That is a cautious starting point compared with the autonomous buying OpenAI says it eventually expects. The company says users will be able to set spending limits, purchase categories or time periods and pre-approve purchases.",
+    "Retailer cooperation may be the larger obstacle. Some merchants restrict or block AI agents. Earlier this year Amazon blocked Meta's Muse agents, and TechCrunch reports Amazon is the largest retailer to ban agents, as it steers users to its own assistant, Alexa. OpenAI has published a Commerce Partner Playbook with tools and guidance for sites that want to support agent shoppers."
+   ],
+   "whatToWatch": [
+    "OpenAI says the limited rollout will let it test and improve the feature before wider release. No date has been given for broader availability or for the spending-limit controls.",
+    "Also open is how many retailers let agents through. OpenAI says websites must ensure agents are not inadvertently blocked and that payment and risk systems must recognise legitimate agent purchases."
+   ],
+   "pullQuote": {
+    "text": "websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents.",
+    "by": "OpenAI"
    }
   }
  },
@@ -2429,6 +2507,46 @@
    }
   }
  },
+ "d096a8a420fb": {
+  "storyId": "d096a8a420fb",
+  "itemIds": [
+   "d096a8a420fb",
+   "f17748102e2c"
+  ],
+  "writtenAt": "2026-11-13T22:43:35.882Z",
+  "headline": "Researchers say Chinese frontier AI models were built on export-banned Nvidia Blackwell chips",
+  "dek": "Unemployment Labs says weight fingerprints in six DeepSeek, Moonshot, MiniMax and Ant Group models released since April 2026 match Blackwell GPUs, though the analysis does not show where the chips sat or whether laws were broken.",
+  "keyPoints": [
+   "Unemployment Labs, led by ex-OpenAI researcher Will DePue, found Blackwell-matching numerical patterns in six models from DeepSeek, Moonshot AI, MiniMax and Ant Group released since April 2026.",
+   "Earlier models from the same labs match Nvidia's older Hopper generation. For DeepSeek-V4-Flash and Kimi K3, the match was also confirmed on physical Blackwell chips.",
+   "The researchers say the findings do not establish where the chips were located, how access was obtained, or whether export controls were violated; offshore data centers remain possible.",
+   "Epoch AI estimates about two million advanced chips entered China in 2024 and 2025 through schemes hiding their destination, and 275,000 Nvidia accelerators went to Malaysia.",
+   "TechCrunch reports Nvidia CEO Jensen Huang left this week after admitting an affair with Alice Huang of Megaspeed, a firm implicated in smuggling chips to China."
+  ],
+  "context": "The U.S. bans Blackwell exports to China, while the Trump administration permits the weaker H200 under a tariff arrangement. Officials such as White House adviser Michael Kratsios had alleged that Moonshot used banned chips, but without published technical evidence. The new analysis offers such evidence and sharpens the debate over controlling who uses chips, not just where they are installed.",
+  "whatsNext": "Watch whether U.S. investigators confirm smuggling at Megaspeed and whether Nvidia faces liability, as well as the reported pressure on Commerce Secretary Howard Lutnick.",
+  "article": {
+   "whatHappened": [
+    "A new forensic analysis from the nonprofit Unemployment Labs finds that leading Chinese open-weight AI models carry traces of training on Nvidia's Blackwell GPUs, which the U.S. bars from export to China. The group says six models from DeepSeek, Moonshot AI, MiniMax and Ant Group, all released since April 2026, contain numerical patterns that match Blackwell hardware. Earlier models from the same companies match the older Hopper generation.",
+    "The method relies only on the models' published weights. Before training, weights need initial values, which PyTorch generates with a pseudorandom algorithm called Philox, split across parallel GPU threads. Because the number of threads depends on how many processing units a chip has, the initial values reveal the hardware configuration that created them. The researchers say they recovered those traces and, for DeepSeek-V4-Flash and Kimi K3, reproduced the match on physical Blackwell chips.",
+    "The authors are explicit about limits. The fingerprint shows how the weights were created and supports, without proving, that Blackwell also did the training. Specially configured AMD hardware is the only alternative they identified; they excluded it for DeepSeek-V4-Flash and call it very unlikely for the rest. They also say the work does not establish where the chips were, how access was obtained, or whether export controls were violated.",
+    "The group also offered estimates of cluster size, but says it is not confident in them. They depend on assumed GPU efficiency, token counts and run lengths that no lab has published. A revision dated November 12, 2026 replaced earlier figures of 2,000 to 3,000 GPUs for the largest runs with about 8,000 to 9,000, after concluding the first version assumed unrealistically efficient hardware use."
+   ],
+   "whyItMatters": [
+    "Export controls aim to keep the most powerful chips out of Chinese labs' hands. U.S. officials and press reports had already alleged that DeepSeek and Moonshot used Blackwell chips, but without technical evidence. This analysis is the first public, reproducible test of that claim, though it stops short of proving a violation.",
+    "TechCrunch notes that the chips may have been in offshore data centers, a common route for Chinese firms to access compute, and Epoch AI estimates 275,000 Nvidia accelerators were imported to Malaysia in 2024 and 2025. Current rules do not clearly bar that, which is why China hawks want stronger controls on who uses chips, not only who owns them or where they sit.",
+    "For Nvidia the stakes are corporate as well as political. TechCrunch reports that CEO Jensen Huang left after admitting a relationship with Alice Huang, an executive of Megaspeed, which is under U.S. and Singaporean investigation. U.S. companies have limited duties to track customers' use of controlled chips, but liability could grow if investigators confirm smuggling and that Huang knew."
+   ],
+   "whatToWatch": [
+    "The main open questions are where the Blackwell chips were located and how they were obtained. The U.S. and Singaporean investigations into Megaspeed may answer that, and Bloomberg has reported a company linked to Alice Huang was involved in smuggling chips to a Shanghai data center.",
+    "TechCrunch also reports that Commerce Secretary Howard Lutnick could lose his job over claims that his investigators missed suspicious buyers and were too close to Nvidia. Any change in licensing policy or enforcement would be the next concrete signal."
+   ],
+   "pullQuote": {
+    "text": "If we care about the U.S. tech edge, it doesn’t make any sense to me that you would not allow Chinese companies to access chips in mainland China or Hong Kong and Macau",
+    "by": "Sam Bresnick, Georgetown Center for Security and Emerging Technology"
+   }
+  }
+ },
  "d1b19037538a": {
   "storyId": "d1b19037538a",
   "itemIds": [
@@ -2645,39 +2763,40 @@
    "12f357dd3921",
    "f41c719b0c12",
    "69b43a95305b",
-   "e00ed907e42f"
+   "e00ed907e42f",
+   "5d09d1e98e76",
+   "56623f1d9c94"
   ],
-  "writtenAt": "2026-11-13T13:13:32.436Z",
-  "headline": "Nvidia CEO Jensen Huang resigns as board weighed dismissal; CFO Colette Kress named interim chief",
-  "dek": "Jensen Huang quit as Nvidia CEO on Thursday after reports the board would fire him over a second alleged affair, days after he admitted a separate relationship; CFO Colette Kress takes over.",
+  "writtenAt": "2026-11-13T22:43:52.332Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Huang's immediate resignation after 33 years as CEO, hours after reports that its board was preparing to dismiss him over two alleged affairs; CFO Colette Kress takes over on an interim basis.",
   "keyPoints": [
-   "Nvidia announced Huang's resignation Thursday morning, naming CFO Colette Kress interim CEO. Reuters reported the resignation as effective immediately.",
-   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future; The Verge and TechCrunch relayed it before the resignation.",
-   "The NYT reported a second alleged affair, with Kimberly Powell, a vice president of health care who reports to Huang. The Times has not seen the video its sources describe.",
-   "Huang had admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly considers a Chinese spy.",
-   "Nvidia stock fell more than 7 to 8 percent in after-hours trading Wednesday and was down about 11 percent over five days."
+   "Nvidia announced Thursday that Jensen Huang resigned as CEO, with immediate effect, and that CFO Colette Kress is interim CEO, according to The Verge and Reuters.",
+   "The Wall Street Journal reported Wednesday that the board could meet that night to decide Huang's future, before he resigned.",
+   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's VP of health care, who reports to him. Nvidia has not commented on that report.",
+   "Nvidia shares fell about 7 to 8 percent in after-hours trading Wednesday and were down about 11 percent over five days, per TechCrunch.",
+   "Bloomberg reports Nvidia was working with an outside firm to identify possible CEO candidates; the company had no obvious successor."
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, taking it to the center of the AI chip market and making it one of the world's most valuable companies. He has about 60 direct reports and the company has had no obvious succession plan, according to TechCrunch. The scandal combines personal conduct, workplace reporting lines and national security concerns.",
-  "whatsNext": "Watch how quickly Nvidia names a permanent CEO, what the Wachtell, Lipton investigation finds, and how the stock trades once markets react to the resignation.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years, through its rise to become one of the world's most valuable companies on demand for AI chips. The scandal began Sunday, when he admitted an affair with a woman U.S. intelligence is said to consider a Chinese spy. The company has been known for centralized leadership, which makes any abrupt succession consequential for investors and customers.",
+  "whatsNext": "Watch for how the board proceeds with a permanent CEO search, and for the findings of the Wachtell, Lipton investigation that the company retained.",
   "article": {
    "whatHappened": [
-    "Nvidia CEO Jensen Huang has resigned, the company announced Thursday morning, naming CFO Colette Kress interim CEO. Reuters reported the resignation took effect immediately. It followed a Wall Street Journal report that the board was preparing to dismiss him and could meet as soon as Wednesday night.",
-    "The trigger was a New York Times report that Huang had a second extramarital affair, allegedly with Kimberly Powell, Nvidia's vice president of health care, who reports to him. Two unnamed sources told the Times the two were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
-    "The report came days after Huang confirmed on Sunday an affair with Alice Huang, a Megaspeed executive described as an alleged Chinese spy; TechCrunch says US intelligence regards her as one. Nvidia said it had retained former US attorney Joon H. Kim and the firm Wachtell, Lipton, Rosen & Katz to investigate.",
-    "Nvidia shares fell more than 7 percent in after-hours trading Wednesday, TechCrunch put the drop at about 8 percent, and the stock was down about 11 percent over five days. Elon Musk posted on X late Wednesday that hiring Huang \"would be an honor.\""
+    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, effective immediately. The company said CFO Colette Kress has been appointed interim CEO. Reuters also reported the resignation. Huang, a co-founder, had led the company for 33 years.",
+    "The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss him and could meet as soon as that night. The trigger was a New York Times report of a second alleged extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia did not immediately respond to The Verge's request for comment on the report.",
+    "According to two unnamed sources cited by the Times, Huang and Powell, who are both married to other people, were allegedly captured together at a San Jose hotel during Nvidia's GTC developer conference in March. The Times said it has not seen the video. An unnamed source told CNBC that rumors about the pair had circulated at Nvidia for some time."
    ],
    "whyItMatters": [
-    "Nvidia designs the chips that power the AI boom, and Huang has been its only CEO for 33 years. His departure removes the central figure of the company at a time when its products are strategically important to customers and governments.",
-    "TechCrunch notes Huang delegates little, has about 60 direct reports, and that Nvidia had no obvious successor or succession plan. Bloomberg reported the company was working with an outside firm to identify possible replacements. Kress, the CFO, now carries the company through an interim period.",
-    "The Verge noted that the board's reported move suggested it would not wait for the outside investigation to conclude. The spy allegation adds a national security dimension, given Nvidia's exposure to US-China export policy; how much that bears on the board's decision is not stated in the coverage."
+    "The reports came days after Huang and Nvidia confirmed an extramarital relationship with Alice Huang, a Megaspeed executive described as an alleged spy. TechCrunch says the woman is purported by U.S. intelligence to be a Chinese spy. Nvidia said it had retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The board's reported move suggested it would not wait for those results.",
+    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading on Wednesday, TechCrunch put the drop at about 8 percent, and the stock was down about 11 percent over five days. Nvidia designs the chips that power the AI boom, so leadership instability at the company carries weight well beyond its own shareholders.",
+    "Succession is a further complication. TechCrunch notes that Huang delegates very little and has said he has about 60 direct reports, and that Nvidia had no obvious successor or succession plan. Bloomberg reports the company was working with an outside firm to identify candidates. Elon Musk, who leads SpaceXSI, posted on X late Wednesday that hiring Huang would be an honor, though nothing in the coverage indicates any approach."
    ],
    "whatToWatch": [
-    "Key questions are whether Kress remains in the role or the board names a permanent CEO, and how long the search takes. The outside investigation by Wachtell, Lipton may still yield findings on both relationships.",
-    "Markets will also test how investors price Nvidia without Huang. Reports that rumors about Huang and Powell had circulated inside the company, per an unnamed source to CNBC, may raise governance questions."
+    "The main open question is who becomes permanent CEO and how long Kress stays in the interim role. The outcome of the outside search, and whether the board looks internally or externally, will shape how investors read the transition.",
+    "The law firm's investigation also remains unresolved, and Nvidia has not publicly addressed the Powell allegations. Further reporting on the video, the national security questions around the first relationship and any effect on Nvidia's China business could follow."
    ],
    "pullQuote": {
-    "text": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
-    "by": "The Verge"
+    "text": "would be an honor.",
+    "by": "Elon Musk, SpaceXSI CEO, on hiring Huang (posted on X)"
    }
   }
  },
