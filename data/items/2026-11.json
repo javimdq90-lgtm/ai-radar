@@ -11700,5 +11700,165 @@
    "Forge"
   ],
   "storyId": "d1318183fe17"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+  "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-14T15:00:00.000Z",
+  "snippet": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman. That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, Helen resigning, and a new board of directors. OpenAI has since restructured entirely. But it’s wort…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "19d340976929",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "Helen Toner, ex-OpenAI board member who voted to fire Sam Altman and now executive director of Georgetown's CSET, says on The Verge's Decoder podcast that AI CEOs still can't be trusted. She discusses the 2023 ouster and OpenAI's restructuring.",
+  "whyItMatters": "It's a perspective on AI lab governance and the limits of self-regulation from a key figure in the policy debate.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Helen Toner",
+   "OpenAI",
+   "Sam Altman",
+   "CSET"
+  ],
+  "storyId": "c371d06a5231"
+ },
+ {
+  "url": "https://www.netmeister.org/blog/claude-delusion.html",
+  "title": "The Claude Delusion",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T13:36:17.000Z",
+  "score": 139,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50496921",
+  "id": "1cd6c3ec19d7",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "An essay titled 'The Claude Delusion' appears to critique Anthropic's Claude or beliefs about it; no further detail is available from the title alone.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "storyId": "1cd6c3ec19d7"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+  "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-14T16:34:15.000Z",
+  "snippet": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+  "id": "2a2bfff1121f",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "Following Nvidia CEO Jensen Huang's exit, some Asian governments moved to confirm chip supply commitments, while others are watching the effect on local projects or dealing with ongoing investigations.",
+  "whyItMatters": "Leadership change at Nvidia raises questions about GPU supply and national AI infrastructure plans.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-14T21:34:34.806Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://aatishb.com/myriad/how-brains-learn/",
+  "title": "A visual explanation of reinforcement learning",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T13:31:06.000Z",
+  "score": 91,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50496885",
+  "id": "65ebb5670c6d",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "An interactive visual explainer walks through how reinforcement learning works.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "65ebb5670c6d"
+ },
+ {
+  "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+  "title": "Open-source AI without Jensen",
+  "sourceId": "interconnects",
+  "publishedAt": "2026-11-14T12:23:15.000Z",
+  "snippet": "A decapitation. It’s time to rebuild.",
+  "image": "https://substack-post-media.s3.amazonaws.com/public/images/ecd978b1-9b6a-4a7d-9324-356397d10839_3182x1790.png",
+  "id": "812c54fee2cd",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "Interconnects argues that Jensen Huang's departure from Nvidia is a blow to the open-source AI ecosystem, which he had supported, and says the community now needs to rebuild without him.",
+  "whyItMatters": "If Nvidia's backing for open models weakens, builders relying on open weights and Nvidia-supported tooling may lose a key sponsor.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia",
+   "Interconnects"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+  "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T14:09:25.000Z",
+  "score": 122,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50497155",
+  "id": "8f2daa11c505",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "Nvidia's developer blog details serving GLM-5.3 at 607.8 tokens per second across two DGX stations using vLLM.",
+  "whyItMatters": "It gives concrete throughput numbers and a reference setup for people self-hosting large open models on Nvidia hardware.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "GLM-5.3",
+   "vLLM",
+   "DGX"
+  ],
+  "storyId": "8f2daa11c505"
+ },
+ {
+  "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T15:04:15.000Z",
+  "score": 104,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50497589",
+  "id": "ad8b3d5bdfd0",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "A developer released a roughly 200-line implementation of DeepSeek V3 in pure JAX on GitHub.",
+  "whyItMatters": "A compact reference implementation makes DeepSeek V3's architecture easier to study and adapt.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "DeepSeek V3",
+   "JAX"
+  ],
+  "storyId": "ad8b3d5bdfd0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+  "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-14T17:30:00.000Z",
+  "snippet": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+  "id": "b08cefd9996d",
+  "fetchedAt": "2026-11-14T21:34:25.395Z",
+  "enrichedAt": "2026-11-14T21:34:34.755Z",
+  "summary": "TechCrunch published a running list of AI projects and startups that shut down or missed expectations, including Apple's delayed Siri AI and OpenAI's messy 'super app' launch.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Apple",
+   "OpenAI",
+   "Siri"
+  ],
+  "storyId": "b08cefd9996d"
  }
 ]

@@ -1244,25 +1244,6 @@
    }
   }
  },
- "745c37586581": {
-  "storyId": "745c37586581",
-  "itemIds": [
-   "745c37586581",
-   "a0ae48bb6d1b",
-   "339da82e2ea9"
-  ],
-  "writtenAt": "2026-10-15T15:15:56.885Z",
-  "headline": "Anthropic warns small AI models may soon self-replicate across IoT devices",
-  "dek": "Anthropic says models of 30B parameters or fewer could replicate on devices like cheap Android TV boxes by year's end, though current tests relied on larger orchestrating models and an exposed debug interface.",
-  "keyPoints": [
-   "Anthropic says small models may be months from self-replicating on commercial IoT devices; a 9B model got inference running on 8 of 9 hardware types tested.",
-   "Gemma4-26B-A4B ran across 15 Android TV boxes (about $55 each, 4GB memory each) at 0.39 tokens per second.",
-   "Anthropic estimates full inference setup takes 71 to 150 hours for Gemma4-26B-A4B and 29 to 51 hours for Qwen3.5-9B, per Ars Technica.",
-   "GLM-5.2 and stronger models can do end-to-end replication in simplified tests; Anthropic expects small models to match that if they keep improving at their historical rate.",
-   "Caveats per Ars Technica: targets had an unauthenticated Android Debug Bridge exposed, and GLM-5.2 orchestrated the process while targets ran a smaller Llama model."
-  ],
-  "context": "Anthropic notes earlier work showed AI agents can scan networks, exploit machines and copy model weights across GPU clusters, while IoT worms like Mirai have long targeted poorly defended devices. The report adds that weights could become part of a worm's payload, with no central point to shut down. It lands amid a broader debate over open-weight models, which MIT Technology Review says Anthropic has also cited in warning about GLM-5.3 as a cyberattack risk."
- },
  "755eea7f3c8e": {
   "storyId": "755eea7f3c8e",
   "itemIds": [
@@ -2769,39 +2750,40 @@
    "ad639fbc6552",
    "7039aca8dbba",
    "b26717d449a4",
-   "c46863c30810"
+   "c46863c30810",
+   "812c54fee2cd",
+   "2a2bfff1121f"
   ],
-  "writtenAt": "2026-11-14T12:18:04.006Z",
-  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-  "dek": "Nvidia announced Huang's immediate resignation after reports its board was preparing to dismiss him over a second alleged affair, days after he admitted a separate relationship with an alleged Chinese spy.",
+  "writtenAt": "2026-11-14T21:34:47.855Z",
+  "headline": "Nvidia's Jensen Huang resigns as CEO as board weighed removal; CFO Kress named interim",
+  "dek": "Huang resigned with immediate effect after a second alleged affair was reported; CFO Colette Kress is interim CEO, and Nvidia shares fell more than 7 percent after hours.",
   "keyPoints": [
-   "Nvidia announced Thursday that Jensen Huang has resigned as CEO, and that CFO Colette Kress is interim CEO. Reuters reports the resignation took effect immediately.",
-   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future. Huang had led Nvidia for 33 years.",
-   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to him. The Times has not seen the alleged video.",
-   "Nvidia shares fell more than 7 percent (The Verge) to about 8 percent (TechCrunch) in after-hours trading Wednesday, and are down about 11% over five days.",
-   "Bloomberg reports Nvidia was working with an outside firm to identify possible successors. Elon Musk posted that hiring Huang 'would be an honor.'"
+   "Nvidia announced Huang's resignation Thursday morning; CFO Colette Kress is appointed interim CEO, according to The Verge and Reuters.",
+   "WSJ reported the board would meet as soon as Wednesday night to decide Huang's future after a New York Times report of a second alleged affair.",
+   "The Times alleges the affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times has not seen the video it cites.",
+   "Nvidia stock fell more than 7 to about 8 percent in after-hours trading Wednesday and is down about 11 percent over five days.",
+   "Huang had admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly considers a Chinese spy."
   ],
-  "context": "Huang co-founded Nvidia and built it into one of the world's most valuable companies on demand for AI chips. On Sunday he admitted an extramarital relationship with a woman U.S. intelligence is said to consider a Chinese spy, and Nvidia hired outside counsel to investigate. The company has no obvious successor or announced succession plan.",
-  "whatsNext": "Watch for whether Kress stays interim or a permanent CEO is named, and for the outcome of the Wachtell, Lipton investigation into the first relationship.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years, during which it became one of the world's most valuable companies by designing chips that power the AI boom. The scandal began with his admitted relationship with an alleged spy, and Nvidia had hired Wachtell, Lipton, Rosen & Katz to investigate. The company had no obvious successor or succession plan.",
+  "whatsNext": "Watch who Nvidia names as permanent CEO, since Bloomberg reports it is working with an outside firm to identify candidates, and how long Kress stays interim.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, and that CFO Colette Kress has been appointed interim CEO. Reuters reports the resignation took effect immediately. Huang co-founded the company and had led it for 33 years.",
-    "The resignation followed a Wall Street Journal report on Wednesday that Nvidia's board was preparing to dismiss him, possibly at a meeting that night. The report came after the New York Times reported that Huang had a second alleged extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to him.",
-    "According to the Times, citing two unnamed sources, Huang and Powell, who are both married to other people, were allegedly captured together at a hotel in San Jose during the GTC developer conference in March. The Times said it has not seen the video. An unnamed source told CNBC that rumors about the two had circulated at Nvidia for some time.",
-    "Nvidia's stock fell more than 7 percent in after-hours trading on Wednesday, according to The Verge, and about 8 percent according to TechCrunch, which said the shares were down about 11 percent over five days."
+    "Nvidia announced Thursday morning that co-founder Jensen Huang has resigned as CEO, effective immediately. Chief financial officer Colette Kress has been appointed interim chief executive. The announcement followed reports on Wednesday that the board was preparing to dismiss him and could meet as soon as Wednesday night.",
+    "The Wall Street Journal reported the board's plans after The New York Times reported a second alleged extramarital affair. The Times says the affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
+    "Days earlier, on Sunday, Huang admitted to an affair with Alice Huang, a Megaspeed executive whom US intelligence reportedly believes to be a Chinese spy. Nvidia said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. Nvidia did not immediately respond to The Verge's request for comment on the second report."
    ],
    "whyItMatters": [
-    "Nvidia designs the chips that power the AI boom and is one of the most valuable companies in the world. Huang is closely identified with it, and TechCrunch notes he delegates very little and has said he has about 60 direct reports. The company also has not had an obvious successor or a succession plan.",
-    "The sequence moved quickly. On Sunday, Huang and Nvidia confirmed a relationship with Alice Huang, a Megaspeed executive whom U.S. intelligence is said to consider a Chinese spy. Nvidia retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to investigate. The Verge noted that the new reports suggested the board would not wait for those results.",
-    "Bloomberg reported that Nvidia was working with an outside firm to identify possible replacements. Elon Musk posted on X late Wednesday that hiring Huang 'would be an honor.' Whether that signals anything beyond a public remark is not addressed in the coverage."
+    "Huang has led Nvidia for 33 years, and the company has grown into one of the most valuable in the world as its chips power the AI boom. Nvidia's shares fell more than 7 percent in after-hours trading Wednesday, by The Verge's count, and about 8 percent by TechCrunch's, on top of an 11 percent decline over the past five days.",
+    "Succession is a clear risk. TechCrunch notes that Huang delegates very little and has said he has about 60 direct reports, and that the company had no obvious successor or succession plan. Bloomberg reported that Nvidia was working with an outside firm to identify possible replacements. The board's move also suggests it did not intend to wait for the results of the outside investigation, The Verge noted.",
+    "Elon Musk, whom TechCrunch identifies as CEO of SpaceXSI, posted on X late Wednesday that hiring Huang would be an honor. Nothing in the coverage indicates that Huang has any plans to take another role."
    ],
    "whatToWatch": [
-    "The main open question is whether Kress remains in the role on an interim basis or the board names a permanent successor, and how long that search takes given the lack of a stated succession plan.",
-    "Also unresolved are the findings of the Wachtell investigation, and whether Nvidia's share price recovers after the after-hours drop. Nvidia had not commented on the Times report at the time of The Verge's initial story."
+    "The central question is whether Kress remains interim for a short period or whether the board moves quickly to name a permanent chief executive. Coverage does not give a timeline.",
+    "Also open are the outcome of the Wachtell investigation, which Nvidia commissioned before the resignation, and whether further details emerge about the allegations involving Powell, which the Times has reported without having seen the video."
    ],
    "pullQuote": {
-    "text": "would be an honor.",
-    "by": "Elon Musk, on X"
+    "text": "Nvidia’s board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
+    "by": "The Verge"
    }
   }
  },
