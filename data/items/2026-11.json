@@ -10963,7 +10963,7 @@
   ],
   "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
   "imageCheckedAt": "2026-11-13T13:13:16.516Z",
-  "storyId": "d096a8a420fb"
+  "storyId": "6e7f4ca7daf1"
  },
  {
   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
@@ -11475,6 +11475,230 @@
    "Jensen Huang"
   ],
   "imageCheckedAt": "2026-11-13T22:42:59.078Z",
-  "storyId": "d096a8a420fb"
+  "storyId": "6e7f4ca7daf1"
+ },
+ {
+  "url": "https://claude.com/resources/articles/claude-meetings",
+  "title": "Claude Meetings",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T22:39:15.000Z",
+  "score": 102,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50491097",
+  "id": "21ab7432dba4",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Claude has a page for a feature called Claude Meetings on claude.com. No details are available beyond the title.",
+  "whyItMatters": "It suggests Anthropic is extending Claude into meeting workflows, competing with other AI note-taking and assistant tools.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Anthropic",
+   "Claude"
+  ],
+  "storyId": "21ab7432dba4"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.16217",
+  "title": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-11T19:00:00.000Z",
+  "snippet": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer hinges on two complementary criteria: (i) world preservation, retaining prescribed 4D kinematics and camera paths; and (ii) visual realization, persistently binding text-specified target attributes over time. To evaluate this capability, we introduce WorldDraft, a benchmark of 432 strictly paired t…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.16217.png",
+  "id": "284da35216fb",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "WorldDraft is a new benchmark of 432 paired tasks testing whether video models can act as generative renderers for worlds built by coding agents. It measures world preservation (keeping 4D kinematics and camera paths) and visual realization (binding text-specified attributes over time).",
+  "whyItMatters": "It frames a possible split where coding agents build the scene and video models only render it, which could make video generation more controllable.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "WorldDraft"
+  ],
+  "storyId": "284da35216fb"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+  "title": "Amazon has a plan to index the world’s online shopping data",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-13T23:49:11.000Z",
+  "snippet": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they're searching for a product sold elsewhere. The same goes for AI agents - if Amazon has the largest stockpile of shopping data, AI agents may rely on its index of products over …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "43a8bca0b077",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Amazon plans a \"World Product Graph,\" a database of every product sold online, including items it doesn't sell, per Reuters. It aims to keep shoppers and AI agents using Amazon's index for product research instead of Reddit or Google.",
+  "whyItMatters": "If AI shopping agents rely on Amazon's index, Amazon could gain control over how products are discovered.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "World Product Graph",
+   "Reuters"
+  ],
+  "storyId": "43a8bca0b077"
+ },
+ {
+  "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+  "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T02:21:36.000Z",
+  "score": 203,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50492993",
+  "id": "7039aca8dbba",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "An Nvidia director sold nearly $1B of stock weeks before the scandal involving Jensen Huang became public.",
+  "whyItMatters": "The timing adds scrutiny to Nvidia's governance during the leadership crisis.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-14T12:17:26.582Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+  "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T19:24:47.000Z",
+  "score": 135,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50488464",
+  "id": "79d48ebc633b",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Perplexity published a write-up on Decider v1.3, covering its training, evaluation and use cases. Few details are available beyond the title.",
+  "whyItMatters": "It offers a look at how Perplexity builds its own models or routing components, though details are thin.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Perplexity",
+   "Decider v1.3"
+  ],
+  "storyId": "f2963506946a"
+ },
+ {
+  "url": "https://claude.com/resources/articles/projects-redesigned",
+  "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T00:28:11.000Z",
+  "score": 90,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50492141",
+  "id": "a9dc79e6aa5b",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Anthropic upgraded Claude Code Projects so they can run parallel AI workers.",
+  "whyItMatters": "Parallel agents in Claude Code could speed up larger coding tasks for developers.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Claude Code"
+  ],
+  "image": "https://claude.com/resources/articles/projects-redesigned/opengraph-image/og",
+  "imageCheckedAt": "2026-11-14T12:17:26.557Z",
+  "storyId": "a9dc79e6aa5b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+  "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-13T22:43:00.000Z",
+  "snippet": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+  "id": "ad639fbc6552",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "With Jensen Huang no longer leading Nvidia, VCs and founders expect smaller checks and lower valuations from the company, which invested tens of billions in AI startups under him.",
+  "whyItMatters": "Nvidia has been a major funder of the AI startup ecosystem, so a pullback could tighten funding for AI companies.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-14T12:17:26.361Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T02:52:59.000Z",
+  "score": 676,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50493251",
+  "id": "b26717d449a4",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Allegations claim Nvidia engineered GPU scarcity by funding AI startups that then bought its GPUs.",
+  "whyItMatters": "If true, it would raise questions about circular financing and how real AI compute demand is.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia"
+  ],
+  "image": "https://www.techpowerup.com/img/ooCln2q3jkKNGHen.jpg",
+  "imageCheckedAt": "2026-11-14T12:17:26.508Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+  "title": "[AINews] The No AI Slop Manifesto",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-14T08:31:02.000Z",
+  "snippet": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2f3fa101-2d0b-426b-9e3f-12181ec8d947/image.png?t=1794644828",
+  "id": "be54405e42bc",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "The Latent Space newsletter reports that speakers at the AI Engineer conference on November 13, 2026 are uniting around a \"No AI Slop\" manifesto to fight low-quality AI output.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "Latent Space",
+   "AI Engineer"
+  ],
+  "storyId": "cf03ad891612"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+  "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-14T12:00:00.000Z",
+  "snippet": "Nvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty Images On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that shimmered in the stadium's lights. Few are cheering for Jensen Huang now. He has left Nvidia after seemingly enabling two chip smuggling scandals and allege…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c46863c30810",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Jensen Huang has left Nvidia after allegedly enabling two chip smuggling scandals, and The Verge uses his exit to examine the decline of the showman founder-CEO.",
+  "whyItMatters": "Nvidia's leadership change could affect the company that supplies most AI compute.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/shield",
+  "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-13T08:00:00.000Z",
+  "snippet": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+  "id": "d1318183fe17",
+  "fetchedAt": "2026-11-14T12:17:13.966Z",
+  "enrichedAt": "2026-11-14T12:17:26.249Z",
+  "summary": "Shield uses OpenAI models to power Forge agents that navigate legacy portals, so IT technicians can hand off routine work and focus on issues needing judgment.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Shield",
+   "OpenAI",
+   "Forge"
+  ],
+  "storyId": "d1318183fe17"
  }
 ]

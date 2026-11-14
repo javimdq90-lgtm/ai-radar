@@ -1204,6 +1204,46 @@
    }
   }
  },
+ "6e7f4ca7daf1": {
+  "storyId": "6e7f4ca7daf1",
+  "itemIds": [
+   "6e7f4ca7daf1",
+   "d096a8a420fb",
+   "f17748102e2c"
+  ],
+  "writtenAt": "2026-11-14T12:17:41.296Z",
+  "headline": "Analysis links Chinese AI models to export-banned Nvidia Blackwell chips",
+  "dek": "Unemployment Labs says six models from DeepSeek, Moonshot, MiniMax and Ant Group released since April 2026 carry Blackwell fingerprints, as Nvidia faces questions over smuggling and chip tracking.",
+  "keyPoints": [
+   "Unemployment Labs says six models released since April 2026 by DeepSeek, Moonshot AI, MiniMax and Ant Group match Blackwell hardware; earlier models match Nvidia's older Hopper generation.",
+   "The researchers confirmed matches on physical Blackwell chips for DeepSeek-V4-Flash and Kimi K3. They say the findings do not show where chips were located or whether export controls were broken.",
+   "Rep. Bill Foster says Nvidia privately told him chip tracking under the Chip Security Act is feasible, though an industry group called it 'potentially infeasible.' Nvidia did not respond to MIT Technology Review.",
+   "Epoch AI estimates about two million advanced chips entered China in 2024 and 2025 through schemes hiding their destination; 275,000 went to Malaysia."
+  ],
+  "context": "The US bans Blackwell exports to China, while the Trump administration allows H200 sales under a tariff arrangement. Officials including White House adviser Michael Kratsios had alleged Moonshot used banned chips, but without published technical evidence. Scrutiny of Nvidia has grown since CEO Jensen Huang left the company over his relationship with Alice Huang, who runs Megaspeed, a firm under investigation for smuggling.",
+  "whatsNext": "Chip-security bills are under consideration for the Senate's National Defense Authorization Act, and Foster says he plans stricter licensing legislation in the new year.",
+  "article": {
+   "whatHappened": [
+    "Unemployment Labs, a nonprofit research group led by former OpenAI researcher Will DePue, published an analysis claiming that leading Chinese AI models were built with Nvidia Blackwell GPUs, which the US bars from export to China. It examined models from DeepSeek, Moonshot AI, MiniMax and Ant Group.",
+    "The method relies on published model weights. Before training, weights receive initial values from a pseudorandom generator called Philox, and the pattern of those values depends on how many processing units the GPU has. The researchers say six models released since April 2026 match Blackwell, while earlier models from the same companies match the older Hopper generation.",
+    "For DeepSeek-V4-Flash and Kimi K3, the group says it confirmed the match on physical Blackwell chips. It says the fingerprint shows how the weights were created and supports, without proving, that Blackwell also did the training. Specially configured AMD hardware is the only alternative it identified, and it considers that very unlikely for most of the models.",
+    "The group also offers rough estimates of how many GPUs were used, but says it is not confident in them. It revised the figures on November 12, 2026, after its first version gave 2,000 to 3,000 GPUs for the largest runs. The group now estimates about 8,000 to 9,000 for the two largest, citing less efficient real-world Blackwell training."
+   ],
+   "whyItMatters": [
+    "The finding adds technical evidence to claims US officials and press reports had made without publishing proof. TechCrunch notes that White House technology adviser Michael Kratsios said earlier this year that Moonshot had used banned Nvidia chips, citing US intelligence sources. Epoch AI estimates about two million advanced chips entered China in 2024 and 2025 through schemes designed to hide their destination.",
+    "The analysis does not establish a legal violation. The researchers say they cannot tell where the chips were or how access was obtained, and TechCrunch notes the chips could sit in offshore data centers, such as in Malaysia, which is a common route for Chinese firms. That gap is the one export-control hawks want closed, by regulating who uses chips rather than only who owns them or where they sit.",
+    "The timing is awkward for Nvidia. Jensen Huang left the company after admitting an affair with Alice Huang, whose company Megaspeed is under investigation. MIT Technology Review reports that Nvidia privately told Rep. Bill Foster that location tracking is technically possible, even as the Semiconductor Industry Association, of which Nvidia is a member, called the mandates in the Chip Security Act 'new, untested, and potentially infeasible.'"
+   ],
+   "whatToWatch": [
+    "Three chip-security bills, including the Chip Security Act, are being considered for the Senate's National Defense Authorization Act. The act would require location verification through inspections, company attestations or ping-based mechanisms. Foster says he will introduce stricter legislation in the new year requiring a license to be verified before an advanced GPU can connect.",
+    "Open questions include whether investigators confirm smuggling and whether Nvidia leadership knew of it. Reports also say Commerce Secretary Howard Lutnick could lose his job over how his investigators handled suspicious chip buyers."
+   ],
+   "pullQuote": {
+    "text": "Governments and media have found insignificant diversion of controlled US products—a drop in the bucket compared to the ocean of domestic compute China already has.",
+    "by": "Nvidia"
+   }
+  }
+ },
  "745c37586581": {
   "storyId": "745c37586581",
   "itemIds": [
@@ -2507,46 +2547,6 @@
    }
   }
  },
- "d096a8a420fb": {
-  "storyId": "d096a8a420fb",
-  "itemIds": [
-   "d096a8a420fb",
-   "f17748102e2c"
-  ],
-  "writtenAt": "2026-11-13T22:43:35.882Z",
-  "headline": "Researchers say Chinese frontier AI models were built on export-banned Nvidia Blackwell chips",
-  "dek": "Unemployment Labs says weight fingerprints in six DeepSeek, Moonshot, MiniMax and Ant Group models released since April 2026 match Blackwell GPUs, though the analysis does not show where the chips sat or whether laws were broken.",
-  "keyPoints": [
-   "Unemployment Labs, led by ex-OpenAI researcher Will DePue, found Blackwell-matching numerical patterns in six models from DeepSeek, Moonshot AI, MiniMax and Ant Group released since April 2026.",
-   "Earlier models from the same labs match Nvidia's older Hopper generation. For DeepSeek-V4-Flash and Kimi K3, the match was also confirmed on physical Blackwell chips.",
-   "The researchers say the findings do not establish where the chips were located, how access was obtained, or whether export controls were violated; offshore data centers remain possible.",
-   "Epoch AI estimates about two million advanced chips entered China in 2024 and 2025 through schemes hiding their destination, and 275,000 Nvidia accelerators went to Malaysia.",
-   "TechCrunch reports Nvidia CEO Jensen Huang left this week after admitting an affair with Alice Huang of Megaspeed, a firm implicated in smuggling chips to China."
-  ],
-  "context": "The U.S. bans Blackwell exports to China, while the Trump administration permits the weaker H200 under a tariff arrangement. Officials such as White House adviser Michael Kratsios had alleged that Moonshot used banned chips, but without published technical evidence. The new analysis offers such evidence and sharpens the debate over controlling who uses chips, not just where they are installed.",
-  "whatsNext": "Watch whether U.S. investigators confirm smuggling at Megaspeed and whether Nvidia faces liability, as well as the reported pressure on Commerce Secretary Howard Lutnick.",
-  "article": {
-   "whatHappened": [
-    "A new forensic analysis from the nonprofit Unemployment Labs finds that leading Chinese open-weight AI models carry traces of training on Nvidia's Blackwell GPUs, which the U.S. bars from export to China. The group says six models from DeepSeek, Moonshot AI, MiniMax and Ant Group, all released since April 2026, contain numerical patterns that match Blackwell hardware. Earlier models from the same companies match the older Hopper generation.",
-    "The method relies only on the models' published weights. Before training, weights need initial values, which PyTorch generates with a pseudorandom algorithm called Philox, split across parallel GPU threads. Because the number of threads depends on how many processing units a chip has, the initial values reveal the hardware configuration that created them. The researchers say they recovered those traces and, for DeepSeek-V4-Flash and Kimi K3, reproduced the match on physical Blackwell chips.",
-    "The authors are explicit about limits. The fingerprint shows how the weights were created and supports, without proving, that Blackwell also did the training. Specially configured AMD hardware is the only alternative they identified; they excluded it for DeepSeek-V4-Flash and call it very unlikely for the rest. They also say the work does not establish where the chips were, how access was obtained, or whether export controls were violated.",
-    "The group also offered estimates of cluster size, but says it is not confident in them. They depend on assumed GPU efficiency, token counts and run lengths that no lab has published. A revision dated November 12, 2026 replaced earlier figures of 2,000 to 3,000 GPUs for the largest runs with about 8,000 to 9,000, after concluding the first version assumed unrealistically efficient hardware use."
-   ],
-   "whyItMatters": [
-    "Export controls aim to keep the most powerful chips out of Chinese labs' hands. U.S. officials and press reports had already alleged that DeepSeek and Moonshot used Blackwell chips, but without technical evidence. This analysis is the first public, reproducible test of that claim, though it stops short of proving a violation.",
-    "TechCrunch notes that the chips may have been in offshore data centers, a common route for Chinese firms to access compute, and Epoch AI estimates 275,000 Nvidia accelerators were imported to Malaysia in 2024 and 2025. Current rules do not clearly bar that, which is why China hawks want stronger controls on who uses chips, not only who owns them or where they sit.",
-    "For Nvidia the stakes are corporate as well as political. TechCrunch reports that CEO Jensen Huang left after admitting a relationship with Alice Huang, an executive of Megaspeed, which is under U.S. and Singaporean investigation. U.S. companies have limited duties to track customers' use of controlled chips, but liability could grow if investigators confirm smuggling and that Huang knew."
-   ],
-   "whatToWatch": [
-    "The main open questions are where the Blackwell chips were located and how they were obtained. The U.S. and Singaporean investigations into Megaspeed may answer that, and Bloomberg has reported a company linked to Alice Huang was involved in smuggling chips to a Shanghai data center.",
-    "TechCrunch also reports that Commerce Secretary Howard Lutnick could lose his job over claims that his investigators missed suspicious buyers and were too close to Nvidia. Any change in licensing policy or enforcement would be the next concrete signal."
-   ],
-   "pullQuote": {
-    "text": "If we care about the U.S. tech edge, it doesn’t make any sense to me that you would not allow Chinese companies to access chips in mainland China or Hong Kong and Macau",
-    "by": "Sam Bresnick, Georgetown Center for Security and Emerging Technology"
-   }
-  }
- },
  "d1b19037538a": {
   "storyId": "d1b19037538a",
   "itemIds": [
@@ -2765,38 +2765,43 @@
    "69b43a95305b",
    "e00ed907e42f",
    "5d09d1e98e76",
-   "56623f1d9c94"
+   "56623f1d9c94",
+   "ad639fbc6552",
+   "7039aca8dbba",
+   "b26717d449a4",
+   "c46863c30810"
   ],
-  "writtenAt": "2026-11-13T22:43:52.332Z",
+  "writtenAt": "2026-11-14T12:18:04.006Z",
   "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-  "dek": "Nvidia announced Huang's immediate resignation after 33 years as CEO, hours after reports that its board was preparing to dismiss him over two alleged affairs; CFO Colette Kress takes over on an interim basis.",
+  "dek": "Nvidia announced Huang's immediate resignation after reports its board was preparing to dismiss him over a second alleged affair, days after he admitted a separate relationship with an alleged Chinese spy.",
   "keyPoints": [
-   "Nvidia announced Thursday that Jensen Huang resigned as CEO, with immediate effect, and that CFO Colette Kress is interim CEO, according to The Verge and Reuters.",
-   "The Wall Street Journal reported Wednesday that the board could meet that night to decide Huang's future, before he resigned.",
-   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's VP of health care, who reports to him. Nvidia has not commented on that report.",
-   "Nvidia shares fell about 7 to 8 percent in after-hours trading Wednesday and were down about 11 percent over five days, per TechCrunch.",
-   "Bloomberg reports Nvidia was working with an outside firm to identify possible CEO candidates; the company had no obvious successor."
+   "Nvidia announced Thursday that Jensen Huang has resigned as CEO, and that CFO Colette Kress is interim CEO. Reuters reports the resignation took effect immediately.",
+   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future. Huang had led Nvidia for 33 years.",
+   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to him. The Times has not seen the alleged video.",
+   "Nvidia shares fell more than 7 percent (The Verge) to about 8 percent (TechCrunch) in after-hours trading Wednesday, and are down about 11% over five days.",
+   "Bloomberg reports Nvidia was working with an outside firm to identify possible successors. Elon Musk posted that hiring Huang 'would be an honor.'"
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, through its rise to become one of the world's most valuable companies on demand for AI chips. The scandal began Sunday, when he admitted an affair with a woman U.S. intelligence is said to consider a Chinese spy. The company has been known for centralized leadership, which makes any abrupt succession consequential for investors and customers.",
-  "whatsNext": "Watch for how the board proceeds with a permanent CEO search, and for the findings of the Wachtell, Lipton investigation that the company retained.",
+  "context": "Huang co-founded Nvidia and built it into one of the world's most valuable companies on demand for AI chips. On Sunday he admitted an extramarital relationship with a woman U.S. intelligence is said to consider a Chinese spy, and Nvidia hired outside counsel to investigate. The company has no obvious successor or announced succession plan.",
+  "whatsNext": "Watch for whether Kress stays interim or a permanent CEO is named, and for the outcome of the Wachtell, Lipton investigation into the first relationship.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, effective immediately. The company said CFO Colette Kress has been appointed interim CEO. Reuters also reported the resignation. Huang, a co-founder, had led the company for 33 years.",
-    "The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss him and could meet as soon as that night. The trigger was a New York Times report of a second alleged extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia did not immediately respond to The Verge's request for comment on the report.",
-    "According to two unnamed sources cited by the Times, Huang and Powell, who are both married to other people, were allegedly captured together at a San Jose hotel during Nvidia's GTC developer conference in March. The Times said it has not seen the video. An unnamed source told CNBC that rumors about the pair had circulated at Nvidia for some time."
+    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, and that CFO Colette Kress has been appointed interim CEO. Reuters reports the resignation took effect immediately. Huang co-founded the company and had led it for 33 years.",
+    "The resignation followed a Wall Street Journal report on Wednesday that Nvidia's board was preparing to dismiss him, possibly at a meeting that night. The report came after the New York Times reported that Huang had a second alleged extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to him.",
+    "According to the Times, citing two unnamed sources, Huang and Powell, who are both married to other people, were allegedly captured together at a hotel in San Jose during the GTC developer conference in March. The Times said it has not seen the video. An unnamed source told CNBC that rumors about the two had circulated at Nvidia for some time.",
+    "Nvidia's stock fell more than 7 percent in after-hours trading on Wednesday, according to The Verge, and about 8 percent according to TechCrunch, which said the shares were down about 11 percent over five days."
    ],
    "whyItMatters": [
-    "The reports came days after Huang and Nvidia confirmed an extramarital relationship with Alice Huang, a Megaspeed executive described as an alleged spy. TechCrunch says the woman is purported by U.S. intelligence to be a Chinese spy. Nvidia said it had retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The board's reported move suggested it would not wait for those results.",
-    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading on Wednesday, TechCrunch put the drop at about 8 percent, and the stock was down about 11 percent over five days. Nvidia designs the chips that power the AI boom, so leadership instability at the company carries weight well beyond its own shareholders.",
-    "Succession is a further complication. TechCrunch notes that Huang delegates very little and has said he has about 60 direct reports, and that Nvidia had no obvious successor or succession plan. Bloomberg reports the company was working with an outside firm to identify candidates. Elon Musk, who leads SpaceXSI, posted on X late Wednesday that hiring Huang would be an honor, though nothing in the coverage indicates any approach."
+    "Nvidia designs the chips that power the AI boom and is one of the most valuable companies in the world. Huang is closely identified with it, and TechCrunch notes he delegates very little and has said he has about 60 direct reports. The company also has not had an obvious successor or a succession plan.",
+    "The sequence moved quickly. On Sunday, Huang and Nvidia confirmed a relationship with Alice Huang, a Megaspeed executive whom U.S. intelligence is said to consider a Chinese spy. Nvidia retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to investigate. The Verge noted that the new reports suggested the board would not wait for those results.",
+    "Bloomberg reported that Nvidia was working with an outside firm to identify possible replacements. Elon Musk posted on X late Wednesday that hiring Huang 'would be an honor.' Whether that signals anything beyond a public remark is not addressed in the coverage."
    ],
    "whatToWatch": [
-    "The main open question is who becomes permanent CEO and how long Kress stays in the interim role. The outcome of the outside search, and whether the board looks internally or externally, will shape how investors read the transition.",
-    "The law firm's investigation also remains unresolved, and Nvidia has not publicly addressed the Powell allegations. Further reporting on the video, the national security questions around the first relationship and any effect on Nvidia's China business could follow."
+    "The main open question is whether Kress remains in the role on an interim basis or the board names a permanent successor, and how long that search takes given the lack of a stated succession plan.",
+    "Also unresolved are the findings of the Wachtell investigation, and whether Nvidia's share price recovers after the after-hours drop. Nvidia had not commented on the Times report at the time of The Verge's initial story."
    ],
    "pullQuote": {
     "text": "would be an honor.",
-    "by": "Elon Musk, SpaceXSI CEO, on hiring Huang (posted on X)"
+    "by": "Elon Musk, on X"
    }
   }
  },
@@ -3013,37 +3018,38 @@
    "3229de0d9192",
    "cce714811b51",
    "adb66fa1efb1",
-   "e10b6b9196df"
+   "e10b6b9196df",
+   "79d48ebc633b"
   ],
-  "writtenAt": "2026-11-12T13:51:39.444Z",
-  "headline": "Google launches Gemini Decision 1 and API for single-pass decisions at $0.10 per 1M tokens",
-  "dek": "Google's Gemini Decisions API scores up to 1,000 yes/no, choice and rubric questions per request in 150-250 ms, with no output-token charges and multimodal inputs up to 256K tokens.",
+  "writtenAt": "2026-11-14T12:17:52.948Z",
+  "headline": "Google launches Gemini Decision 1 and Decisions API for single-pass multimodal decisions",
+  "dek": "Google's Gemini Decision 1 scores up to 1,000 yes/no, choice and rubric questions per request in 150-250 ms at $0.10 per 1M input tokens, with no output tokens billed.",
   "keyPoints": [
-   "Gemini Decision 1 (gemini-decision-1) scores candidate options in one forward pass instead of generating text, returning probabilities and a 0-1 confidence score per answer.",
-   "Pricing is $0.10 per 1M input tokens and $0 for output; Google says it is nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API.",
-   "One request takes text, images, audio, video or PDFs up to 256K tokens plus up to 1,000 questions, at 150-250 ms end-to-end latency, per Google.",
-   "Artificial Analysis, as summarized by Latent Space, gives it 66 on its Decision Index, tying Jev 1.14 and trailing Drex Max v1.1 and GLiDE v1.2 by 7 points.",
+   "Gemini Decision 1 (gemini-decision-1) scores options in one forward pass instead of generating text, with a 0-1 confidence score on every answer, via the Decisions API in Google AI Studio.",
+   "Inputs can be text, images, audio, video and PDFs up to 256K tokens, with up to 1,000 questions per request. End-to-end latency is 150-250 ms.",
+   "Pricing is $0.10 per 1M input tokens and $0 for output. Google says this is nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API.",
+   "Artificial Analysis, per Latent Space, scores it 66 on its Decision Index, tied with Jev 1.14 and 7 points behind Drex Max v1.1; it is slower than Jev (211 ms vs 92 ms).",
    "Integrations are rolling out across OpenRouter, LangChain, Vercel, LiteLLM and others; Google Cloud support is coming soon."
   ],
-  "context": "TypeSafe AI's Jev, released in September, kicked off interest in fast 'System One' models that return structured choices and probabilities instead of generated text. Hugging Face has begun calling the category 'decision models'. Google's entry puts a large lab into a market so far led by smaller specialists.",
-  "whatsNext": "Watch for Gemini Decision 1 support in Gemini in Google Cloud, which Google says is coming soon, and for further independent benchmarks.",
+  "context": "Decision or 'System One' models return structured choices and probabilities rather than generated text. TypeSafe AI's Jev kicked off the category in September, and Perplexity has since released its own Decider models, which it says were inspired by Jev. Google's entry brings a major lab's pricing and multimodal inputs to a category that had been led by smaller players.",
+  "whatsNext": "Watch for Gemini Decision 1 support in Google Cloud, which Google says is coming soon, and for further independent benchmarks against Jev and Perplexity's Decider.",
   "article": {
    "whatHappened": [
-    "Google has launched the Gemini Decisions API, a new endpoint powered by a model called Gemini Decision 1 (gemini-decision-1). It is available through the Gemini API in Google AI Studio. Rather than writing answer text token by token, the model scores a fixed set of candidate options in a single forward pass and returns probabilities and confidence scores.",
-    "A single request can include one multimodal input, spanning text, images, audio, video and PDFs up to 256K tokens, along with up to 1,000 independent questions. Questions can be yes/no, multiple choice or rubric scores. Each answer carries a confidence score from 0 to 1, so code can send ambiguous cases to a fallback or human reviewer. Google says end-to-end latency is 150-250 ms.",
-    "Google prices the model at $0.10 per 1M input tokens, with nothing billed for output, and offers a no-cost API tier for prototyping. The shared input is billed once per request, and each question adds only its own instruction and criteria tokens. Google says the combination is nearly 5x cheaper than Gemini 3.5 Flash-Lite with the Interactions API across a shared benchmark suite, and that Decision 1 leads that suite with the lowest calibration error.",
-    "Latent Space reported that Sundar Pichai and Logan Kilpatrick announced the model at the AI Engineer event, and that it began as an internal Google DeepMind prototype, shipping about six weeks later. Google lists integrations rolling out across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI, Pipecat, LiveKit and OpenCode."
+    "Google has introduced the Gemini Decisions API, a new endpoint powered by a model called Gemini Decision 1 (gemini-decision-1). It is available through the Gemini API in Google AI Studio. Latent Space reported that Sundar Pichai and Logan Kilpatrick announced it at the AI Engineer Code event.",
+    "The model is built for closed-set decisions such as tool selection, policy checks, model routing and context grading. Rather than generating answer text token by token, it scores candidate options in a single forward pass and returns probabilities and confidence scores from 0 to 1. Developers can pass one multimodal input of up to 256K tokens, covering text, images, audio, video and PDFs, with up to 1,000 independent questions in yes/no, multiple-choice and rubric-scoring formats.",
+    "Google lists end-to-end latency of 150-250 ms and a price of $0.10 per 1M input tokens, with no output-token, thinking-token, transcription or OCR charges. Shared input is billed once per request. Google says the combination is nearly 5x cheaper across its benchmark suite than Gemini 3.5 Flash-Lite with the Interactions API. A no-cost tier is available for prototyping."
    ],
    "whyItMatters": [
-    "Decision models are a newer category aimed at routing, policy checks, grading and tool selection, jobs where a developer already knows the allowed answers. TypeSafe AI's Jev started the trend less than two months ago, and Hugging Face has now published guidance on the approach. Google's launch signals that a major lab sees the category as a product line, not a niche.",
-    "Independent results are more mixed than Google's own. Per Latent Space's summary, Artificial Analysis scores Decision 1 at 66 on its Decision Index, tied with Elephant 9B and Jev 1.14 and 7 points behind Drex Max v1.1 and GLiDE v1.2. It leads two sub-benchmarks but answers every question correctly on only 33% of documents on AA-Paperclip, against 63% for Drex Max.",
-    "Cost and speed also differ from Google's framing. Artificial Analysis puts Decision 1 at $345 per 1M tasks versus $103 for Drex Max and $156 for Jev, with average time per task of 211 ms against 92 ms for Jev. Google's own tests, relayed by a commentator, show it beating Jev 1.14 on 5 of 7 shared benchmarks."
+    "Google says Gemini Decision 1 leads its benchmark suite on agent routing, reasoning, ranking and multimodal understanding, with the lowest calibration error. Independent figures cited by Latent Space are more mixed. Artificial Analysis gives it 66 on its Decision Index, level with Jev 1.14 and 7 points behind Drex Max v1.1 and GLiDE v1.2. It leads two sub-benchmarks but answers all questions correctly on only 33% of documents on AA-Paperclip, against 63% for Drex Max.",
+    "Cost and speed also look less clear-cut outside Google's own comparison. Artificial Analysis puts Decision 1 at $345 per 1M tasks versus $156 for Jev and $103 for Drex Max, and 211 ms average time per task versus 92 ms for Jev. Jev's list price is $0.042 per 1M input tokens, per Latent Space.",
+    "The launch fits a wider shift toward pairing fast decision models with large reasoning models. At the same event, Cloudflare described an agent design where decision models handle tool selection and log extraction while a large model handles only diagnosis, cutting six LLM calls to one in its demo."
    ],
    "whatToWatch": [
-    "Google says support in Gemini in Google Cloud is coming soon, which would matter for enterprise buyers. Also watch whether independent evaluations, including the new MMDM benchmark for decision models, confirm Google's calibration claims or the more mixed Artificial Analysis picture."
+    "Google says integrations are rolling out across OpenRouter, LangChain, Vercel, LiteLLM, Pydantic AI, Pipecat, LiveKit and OpenCode, with Gemini in Google Cloud support coming soon, without giving a date.",
+    "The open question is how the model fares in third-party testing, where early results show trade-offs against Jev and Drex Max on accuracy, cost and latency."
    ],
    "pullQuote": {
-    "text": "Evaluate up to 1,000 yes/no, choice, and rubric-scoring questions in a fast, single pass across text, images, audio, video, and PDFs.",
+    "text": "Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency",
     "by": "Google"
    }
   }
