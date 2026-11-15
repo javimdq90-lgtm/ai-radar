@@ -602,45 +602,6 @@
    }
   }
  },
- "421acab06078": {
-  "storyId": "421acab06078",
-  "itemIds": [
-   "421acab06078",
-   "a8983c3740ba",
-   "70093601d146",
-   "02ae3f5fc0dc",
-   "558d7c6880ac"
-  ],
-  "writtenAt": "2026-10-16T14:26:15.845Z",
-  "headline": "OpenAI engineer charged with bugging executive conference room at San Francisco HQ",
-  "dek": "Federal prosecutors say Abdulrahman Alfozan, 35, hid an encrypted recorder behind a TV in a restricted OpenAI room; he was arrested Friday and faces up to five years in prison.",
-  "keyPoints": [
-   "Prosecutors charged Abdulrahman Alfozan, a Saudi national and OpenAI engineer since July 2025, with using a device to intercept oral communications. He was arrested Friday and remains in custody.",
-   "OpenAI found the device Sept. 30, plugged into a TV's USB port and wrapped in toilet paper. Its contents were encrypted, and it was likely installed around Sept. 28.",
-   "The device was a Seeed XIAO ESP32-S3 Sense, a $23.99 development board. A second similar device was found in an unattended bag Oct. 5, prosecutors say.",
-   "Prosecutors cite chatbot prompts from an account tied to Alfozan's spouse about building and encrypting a recorder, including the device's MAC address.",
-   "If convicted, Alfozan faces up to five years in prison and a $250,000 fine. OpenAI fired him Friday, timed with the FBI arrest."
-  ],
-  "context": "The case comes as the US government treats frontier AI labs as national security assets, and FBI Director Kash Patel cited a Trump memo on maintaining America's AI advantage. OpenAI is also in separate trade secrets litigation with Apple, where each side accuses the other of improperly obtaining confidential information.",
-  "whatsNext": "Alfozan remains in custody after his initial court appearance Tuesday, and it is still unclear who the recordings were meant for.",
-  "article": {
-   "whatHappened": [
-    "Federal prosecutors say an OpenAI engineer hid an audio recording device in an executive conference room at the company's San Francisco headquarters. Abdulrahman Alfozan, 35, a Saudi national and legal permanent resident since 2020, was arrested Friday and charged with using or attempting to use a device to intercept oral communications. He made his initial appearance in federal court Tuesday and remains in custody.",
-    "According to the complaint, OpenAI personnel found the device Sept. 30, plugged into a USB port behind a television and concealed in toilet paper. OpenAI determined it was installed around Sept. 28 and that its contents were encrypted. Surveillance footage shows Alfozan near the room on multiple dates, though prosecutors say he was not authorized to enter it. Ars Technica reported he was seen outside on 10 days in September.",
-    "Prosecutors say that on Oct. 5 Alfozan appeared to look behind the television and left a bag unattended in a printer room. Security found his wallet, ID and a second similar recording device inside. When he retrieved the bag the next day the device was gone, and he did not mention it when listing what he said was stolen.",
-    "Court documents identify the device as a Seeed XIAO ESP32-S3 Sense, a thumb-sized board with a microphone and microSD storage that Amazon sells for $23.99. An FBI affidavit says it was customized to obfuscate stored data. OpenAI says it used its own models to analyze forensic images of the device's storage."
-   ],
-   "whyItMatters": [
-    "Prosecutors say the room hosted discussions of proprietary research, product plans and government engagements. They also cite prompts from a chatbot account tied to Alfozan's spouse, submitted Sept. 24 to 30, asking how to build a continuous audio recorder and encrypt the SD card. Another set of queries, made through a productivity tool, asked about meeting rooms and leadership calendars.",
-    "The case fits a broader push by US officials to frame the protection of AI research as a national security matter. U.S. Attorney Craig Missakian said, in his words, that it is a matter of national security, and the FBI says protecting AI innovation is among its highest counterintelligence priorities. Ars Technica noted that officials appear inclined to make an example of the case, though that is its assessment, not an official statement.",
-    "OpenAI says it coordinated Alfozan's firing with the FBI and gradually restricted his access between Sept. 30 and the arrest. It also says it has evidence he intended to place other recording devices in sensitive spaces. Those claims come from the company and the complaint, and have not been tested in court."
-   ],
-   "whatToWatch": [
-    "It remains unclear who the recordings were intended for. Ars Technica suggests that may emerge as the case proceeds, but no motive or recipient has been stated in the coverage.",
-    "Alfozan faces up to five years in prison and a $250,000 fine, followed by three years of supervised release, if convicted. The National Security, Cyber & Special Prosecutions Section of the Northern District of California is handling the case."
-   ]
-  }
- },
  "42ec3b43220b": {
   "storyId": "42ec3b43220b",
   "itemIds": [
@@ -955,47 +916,6 @@
    "pullQuote": {
     "text": "Today's announcement is an early step in bringing businesses more deeply into ChatGPT.",
     "by": "OpenAI"
-   }
-  }
- },
- "61514929f532": {
-  "storyId": "61514929f532",
-  "itemIds": [
-   "61514929f532",
-   "247e23899cea",
-   "c11b8b011c28",
-   "021013f45386"
-  ],
-  "writtenAt": "2026-10-16T14:26:30.123Z",
-  "headline": "Character.AI files for Chapter 11 and seeks sale, with Disney as lead bidder at $20M",
-  "dek": "Character.AI filed for Chapter 11 on Monday to run a court-supervised sale, with Disney offering $20 million as lead bidder; 40 state attorneys general have asked the court to require protections for user data.",
-  "keyPoints": [
-   "Character.AI filed voluntary Chapter 11 to run a court-supervised sale, expected to finish by late November or early December 2026. The platform and paid subscriptions keep running for now.",
-   "Disney is lead bidder, offering $20 million for certain undisclosed assets and a nonexclusive perpetual license to unspecified IP, plus transition support from former Character.AI staff it has hired.",
-   "The filing lists estimated liabilities of $50 million to $100 million. Character.AI says the platform will be wound down if no suitable bid emerges.",
-   "Forty bipartisan state attorneys general, led by New York's Letitia James, filed a notice of interest seeking age checks, crisis safeguards and data deletion from any buyer.",
-   "CEO Colin Adams says the AGs' filing 'is not an accurate portrayal of the safety of our platform.'"
-  ],
-  "context": "Character.AI was one of the first breakout startups of the generative AI boom, but has faced lawsuits over chatbot safety, including one over a 14-year-old's suicide that it settled. In 2024 Google paid over $2 billion to hire much of its talent, including co-founders Noam Shazeer and Daniel De Freitas. Disney sent a cease-and-desist letter in September 2025 over unauthorized Disney character bots.",
-  "whatsNext": "Watch for competing bids and how the bankruptcy judge responds to the state AGs' request for user-data protections, with the sale targeted to close by late November or early December 2026.",
-  "article": {
-   "whatHappened": [
-    "Character.AI, the chatbot roleplay startup, filed for voluntary Chapter 11 bankruptcy protection in the US on Monday to facilitate a court-supervised sale of all or substantially all of its assets. In a blog post, the company cited 'significant legal, regulatory, and operational headwinds' and said its board concluded a sale offered the best chance to maximize value for stakeholders.",
-    "Disney is the lead bidder, which sets a baseline for competing offers. It would pay $20 million for certain undisclosed assets and a nonexclusive perpetual license to unspecified intellectual property, and would provide transition support using former Character.AI employees it has hired. Disney also expects a number of the company's technical staff to join it. The bankruptcy filing lists estimated liabilities of $50 million to $100 million.",
-    "Character.AI says the platform remains online, subscriptions stay active and billing is unchanged for now, and it will notify subscribers in advance if paid features change. It expects the sale to be completed by the end of November or perhaps early December 2026. If no bid allows continued operation, it says, the platform will be wound down."
-   ],
-   "whyItMatters": [
-    "The Disney link is unusual. Disney criticized Character.AI publicly in September 2025, accusing it of hosting infringing chatbots that were harmful to children, and Character.AI then removed Disney-owned characters. Disney has since hired Karandeep Anand, Character.AI's former CEO, as its first chief technology officer. Ars Technica reports Disney has been looking for ways into AI after its OpenAI partnership fell through following Sora's shutdown.",
-    "The deal also resembles the acquihire pattern in which a larger company takes a startup's talent and leaves the original company struggling. Character.AI survived one such deal in 2024, when Google hired away much of its team.",
-    "The larger question is user data. Forty bipartisan state attorneys general filed a notice of interest saying any sale must address the sensitive nature of users' conversations, the large number of minors and risks from specific product features. Several states had been investigating since 2024 and had not reached an agreement before the filing. Ars notes the privacy policy allows chat logs to be transferred in an asset sale, and Character.AI declined to say whether sensitive data might be sold."
-   ],
-   "whatToWatch": [
-    "The states want the court to require any buyer to adopt effective age assurance, limits on how minors use the chatbots, crisis safeguards and user data deletion. Whether the judge imposes such conditions, and how rival bidders respond, will shape the sale.",
-    "Two states, Kentucky and Pennsylvania, are also suing the company over alleged harms. Ars suggests the platform's safety liabilities could make some buyers wary of taking it over, though that is the outlet's assessment rather than an established outcome."
-   ],
-   "pullQuote": {
-    "text": "This company collected some of the most private thoughts children have ever shared, and now those conversations could be sold off to the highest bidder",
-    "by": "Letitia James, New York Attorney General"
    }
   }
  },
@@ -1835,55 +1755,6 @@
    ]
   }
  },
- "a2c304623a61": {
-  "storyId": "a2c304623a61",
-  "itemIds": [
-   "a2c304623a61",
-   "66cb1e68848f",
-   "2bad0427cfe4",
-   "316153953adf",
-   "8b0463614a7b",
-   "d1f8258ec212",
-   "1609f5d4ca73",
-   "25432b6b093a",
-   "2c1c2c493e6e",
-   "3744c8a0ebde",
-   "3d3011b3b2f6"
-  ],
-  "writtenAt": "2026-10-16T19:59:53.609Z",
-  "headline": "Google makes Gemini 4 Argon generally available, with paid-tier limits and $2/$10 API pricing",
-  "dek": "Gemini 4 Argon is live in the API, the Gemini app and Antigravity, but mainly for paying users; introductory $2/$10 per million-token pricing doubles after November 30.",
-  "keyPoints": [
-   "Argon is available via API in AI Studio and the Gemini platform, to AI Ultra and Pro subscribers in the Gemini app and AI Mode, and to Ultra subscribers only in Antigravity.",
-   "Introductory API pricing is $2 per million input tokens and $10 per million output tokens, with cached input 95% off; Ars Technica and Latent Space report it doubles after November 30.",
-   "Google says Argon ranks #1 on the Vals Index; Artificial Analysis puts it level with GPT-6 Astra at $1.99 per task, versus $3.26 for Astra.",
-   "Google says Argon raised agentic code submissions by more than 35% and cut rollbacks by nearly a third; Latent Space notes these are internal claims, not controlled measurements.",
-   "Google is offering 10,000 scientists the top Antigravity usage tier free for six months and is expanding the Fairwind cyber-defense program to hundreds more partners."
-  ],
-  "context": "Google previewed Argon a few weeks ago and said it needed to move cautiously because of potential misuse. Its general release comes as Meta, with Muse Wonder, joins the frontier-model race with its own coding and agent claims. Price and access tiers now matter as much as benchmark rank, since agentic coding consumes a lot of compute.",
-  "whatsNext": "Watch what happens to Argon's API price after November 30, and whether Google extends Antigravity access beyond Ultra subscribers, which it has declined to clarify.",
-  "article": {
-   "whatHappened": [
-    "Google made Gemini 4 Argon generally available, releasing it to developers, enterprises, scientists and consumers. It is offered through the API in AI Studio and the Gemini platform, to AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search, and to AI Ultra subscribers only in Google Antigravity.",
-    "Ars Technica reports that free users do not get the model, and that Pro subscribers ($20 a month) cannot use it in Antigravity or AI Studio. Google has declined to say when or whether those tiers will get access, and says it is keeping Gemini 3.1 Pro available for now.",
-    "API pricing is $2 per million input tokens and $10 per million output tokens, with cached input tokens discounted 95%. Ars Technica and Latent Space, citing Artificial Analysis, say this is introductory and rises to $4 and $20 after November 30.",
-    "Google says Argon is strongest at multi-step work in coding, finance, legal, cybersecurity and science, and that it ranks first on the Vals Index. It says teams using Argon in Antigravity increased agentic code submissions by more than 35% and cut code rollbacks by nearly a third."
-   ],
-   "whyItMatters": [
-    "Independent results broadly support Google's positioning. Latent Space says benchmarks such as CursorBench largely confirm the company's claims, with Cursor reporting 52.8%, on par with Opus 5.5. Artificial Analysis places Argon level with GPT-6 Astra on its Intelligence Index at $1.99 per task, about 60% of Astra's cost, and reports a 15% hallucination rate on AA-Omniscience, the lowest among models scoring at least 45. Latent Space cautions that this metric is not an overall error rate.",
-    "The picture is not uniformly first place. Arena ranks Argon fifth on its agent leaderboard, behind Opus 5.5, GPT-6.1 Sol, Fable 5.1 and GPT-6 Astra. Meta's Muse Wonder Full, released the same week, scores 56 on Artificial Analysis's index against Opus 5.5's 58, but costs more per task, so Google's pitch rests heavily on price.",
-    "The tiering suggests Google is rationing compute for agentic coding. The doubled price after November 30 also means developers face a cost increase if they build workflows now."
-   ],
-   "whatToWatch": [
-    "The November 30 price change is the clearest date. Developers comparing cost per task against Astra or Muse should use the post-introductory rates, since the current $1.99 figure reflects the discount.",
-    "Google has also not said when lower subscription tiers will reach Argon in Antigravity. Its cyber-defense access through Fairwind and the free scientist program, both application-based, will show how widely the model's most sensitive capabilities spread."
-   ],
-   "pullQuote": {
-    "text": "Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
-    "by": "Google"
-   }
-  }
- },
  "a2f907c053da": {
   "storyId": "a2f907c053da",
   "itemIds": [
@@ -2719,38 +2590,42 @@
    "2a2bfff1121f",
    "9a736294c460",
    "85985435b8f3",
-   "cdf34d438f12"
+   "cdf34d438f12",
+   "6fdb9cf64c8f",
+   "024802442c5a",
+   "1a811a22b701",
+   "0ae485d0fe26"
   ],
-  "writtenAt": "2026-11-15T12:50:26.301Z",
-  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-  "dek": "Nvidia announced Huang's resignation Thursday after reports its board was preparing to dismiss him over two alleged affairs, one with an alleged Chinese spy; its shares fell about 7-8% after hours.",
+  "writtenAt": "2026-11-15T21:53:40.369Z",
+  "headline": "Nvidia's Jensen Huang resigns as CEO; CFO Colette Kress named interim chief",
+  "dek": "Huang stepped down after reports the board was preparing to fire him over a second alleged affair, days after he admitted a relationship with a woman alleged to be a Chinese spy; Nvidia shares fell.",
   "keyPoints": [
-   "Nvidia announced Jensen Huang's resignation as CEO on Thursday morning, naming CFO Colette Kress interim CEO, according to The Verge. Reuters reports it took effect immediately.",
-   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future, after a New York Times report of a second alleged affair.",
-   "The Times says the second affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times has not seen the alleged video.",
-   "Nvidia stock fell more than 7% (The Verge) to about 8% (TechCrunch) in after-hours trading Wednesday, and was down about 11% over five days.",
-   "Bloomberg reports Nvidia is working with an outside firm to identify possible CEO candidates; TechCrunch says the company had no obvious successor or succession plan."
+   "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, with CFO Colette Kress appointed interim CEO, per The Verge's update.",
+   "The WSJ reported the board could meet as soon as Wednesday night to decide Huang's future; Nvidia did not immediately comment to The Verge.",
+   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times says it has not seen the alleged video.",
+   "Nvidia stock fell more than 7% to about 8% in after-hours trading Wednesday, and was down about 11% over five days, TechCrunch reports.",
+   "Huang had admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom U.S. intelligence reportedly considers a Chinese spy."
   ],
-  "context": "Huang co-founded Nvidia and led it for 33 years as it became one of the world's most valuable companies on demand for AI chips. The departure follows a scandal that began when he admitted an extramarital relationship with a woman US intelligence reportedly believes to be a Chinese spy. Nvidia's centrality to AI hardware makes a leadership change at this scale significant for the whole industry.",
-  "whatsNext": "Watch whether Kress stays interim or the board names a permanent CEO, and what the Wachtell-led investigation finds.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years as it became one of the world's most valuable companies on demand for AI chips. The company had no obvious successor or announced succession plan, and Huang has said he has about 60 direct reports. The scandal began with his admission of a relationship with a woman alleged to be a Chinese spy.",
+  "whatsNext": "Watch who the board names as permanent CEO, given Bloomberg's report that Nvidia is working with an outside firm to identify candidates, and what the outside investigation by Wachtell, Lipton finds.",
   "article": {
    "whatHappened": [
-    "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, and that CFO Colette Kress has been appointed interim CEO, according to The Verge. Reuters reports the resignation took effect immediately. Huang co-founded the company and had led it for 33 years.",
-    "The resignation followed reports Wednesday that the board was preparing to dismiss him. The Wall Street Journal reported the board would meet as soon as Wednesday night. The move came after The New York Times reported a second alleged affair, this time with an executive who reports to Huang.",
-    "According to the Times, the executive is Kimberly Powell, Nvidia's vice president of health care. Two unnamed sources told the paper that she and Huang, who are both married to other people, were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
-    "Nvidia shares fell more than 7% in after-hours trading Wednesday, per The Verge, and about 8% per TechCrunch. TechCrunch notes the stock was down about 11% over the previous five days."
+    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, and that CFO Colette Kress has been appointed interim CEO. The announcement followed reports from the Wall Street Journal that the board was preparing to dismiss him, possibly at a meeting as soon as Wednesday night. Reuters reported the resignation as effective immediately.",
+    "The trigger was a New York Times report on Wednesday of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the two were captured together at a hotel in San Jose during the GTC developer conference in March. The Times says it has not seen the video. Both are married to other people.",
+    "The report came days after Huang confirmed on Sunday an extramarital relationship with Alice Huang, a Megaspeed executive whom U.S. intelligence reportedly believes to be a Chinese spy. Nvidia said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The Verge noted that the reported board move suggested Nvidia would not wait for its results.",
+    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading on Wednesday, by The Verge's count, and about 8 percent by TechCrunch's. TechCrunch reports the stock was down about 11 percent over the previous five days. Elon Musk posted on X late Wednesday that hiring Huang would be an honor."
    ],
    "whyItMatters": [
-    "The scandal began Sunday, when Huang admitted to an extramarital relationship with a woman US intelligence reportedly believes to be a Chinese spy. The Verge identifies her as Megaspeed executive Alice Huang. Nvidia said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The reported dismissal suggested the board would not wait for those results.",
-    "The leadership gap is large. TechCrunch notes Huang delegates very little and has said he has about 60 direct reports, and that Nvidia has had no obvious successor or succession plan. Bloomberg reports the company is working with an outside firm to identify candidates. Nvidia designs the chips that power much of the AI boom, so a leadership vacuum affects customers and investors well beyond the company."
+    "Nvidia designs the chips that power the AI boom, and Huang has run it since he co-founded it 33 years ago. His departure removes the public face and central decision-maker of one of the most valuable companies in the world, and TechCrunch notes the company had no obvious successor or succession plan.",
+    "The management structure adds to the challenge. TechCrunch reports Huang delegates very little and has said he has about 60 direct reports, so an interim CEO inherits an unusually centralized organization. Bloomberg reports Nvidia is working with an outside firm to identify possible permanent replacements.",
+    "The episode also mixes corporate governance with national security questions, given the alleged link between the first relationship and Chinese intelligence. The coverage does not detail what, if anything, was disclosed to the woman or what the investigation has found, so the scope of that concern remains unclear."
    ],
    "whatToWatch": [
-    "The open questions are whether Kress remains in the role for long and whether the board names a permanent CEO from inside or outside the company. The outcome of the Wachtell investigation is also unresolved.",
-    "Elon Musk posted on X that hiring Huang \"would be an honor,\" according to TechCrunch. There is no indication in the coverage of what Huang plans to do next."
+    "The board's choice of a permanent CEO, and how long Kress stays in the interim role, will be the first signal of Nvidia's direction after Huang. The results of the Wachtell, Lipton investigation are another open item, as is any further reporting on the Powell allegations."
    ],
    "pullQuote": {
-    "text": "Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years",
-    "by": "TechCrunch"
+    "text": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
+    "by": "The Verge"
    }
   }
  },
@@ -2917,46 +2792,6 @@
    "pullQuote": {
     "text": "The fact that they handpick the group is a disaster",
     "by": "Andreas Karch, physics professor at the University of Texas at Austin"
-   }
-  }
- },
- "f1c8e20f7598": {
-  "storyId": "f1c8e20f7598",
-  "itemIds": [
-   "f1c8e20f7598",
-   "1f63379af540",
-   "877cbcbdbb3b",
-   "6388b3d480b1"
-  ],
-  "writtenAt": "2026-10-16T14:26:02.856Z",
-  "headline": "YouTube Music adds 'Made with AI' labels to songs as Deezer readies an AI filter",
-  "dek": "YouTube Music began rolling out labels on Oct. 14 for tracks made or altered with generative AI, while Deezer said it will add a toggle to hide AI music by year's end.",
-  "keyPoints": [
-   "YouTube Music is rolling out a 'Made with AI' label on the player page for tracks 'altered or fully generated' with AI; the main YouTube app follows later.",
-   "Partners can disclose AI use as Fully Gen AI, Partly Gen AI or No Gen AI. Without disclosure, YouTube says it may use 'other signals', including its own detection tools.",
-   "The label does not make a track ineligible for monetization, according to TechCrunch. There is no option to block labeled tracks, Ars Technica notes.",
-   "Deezer says it will launch a toggle by the end of the year that removes AI-generated tracks, albums and related artists from search results.",
-   "Deezer reported in July that over 50% of daily uploads were AI-generated, around 90,000 tracks per day; a survey found about 45% of its users wanted a way to remove AI music."
-  ],
-  "context": "Streaming services are splitting between disclosure and restriction as AI-generated uploads grow. Bandcamp has banned AI music, Tidal withholds monetization from it, and Spotify tags AI tracks and says it won't recommend 'AI personas'. Apple Music is reportedly preparing its own AI tags.",
-  "whatsNext": "Watch for the label's arrival in the main YouTube app, Deezer's filter launching before the end of the year, and Apple Music's reported AI labels.",
-  "article": {
-   "whatHappened": [
-    "YouTube began rolling out a 'Made with AI' label in YouTube Music on Oct. 14. It applies to tracks that were 'altered or fully generated' using AI, including cases such as using a generative model to create the composition and vocals. The label appears on the player page, and tapping it opens a menu with more detail about AI's role. Labels will extend to the main YouTube app later.",
-    "Partners uploading music can declare AI use under three designations: Fully Gen AI, Partly Gen AI or No Gen AI, according to TechCrunch's reading of YouTube's help page. Tracks that only use pitch correction such as Auto-Tune fall under No Gen AI. Disclosure is optional. If a partner does not disclose, YouTube says it may use 'other signals', and it says it is working with music partners and using its own detection tools.",
-    "Ars Technica reports that Google could also rely on SynthID watermarks for tracks made with Google's AI, and on C2PA metadata used by many other AI music tools. Separately, Deezer said it is building a toggle that hides AI-generated tracks, albums and related artists in search results, due before the end of the year."
-   ],
-   "whyItMatters": [
-    "The two announcements show the range of responses to AI music. YouTube is choosing disclosure over restriction: TechCrunch notes AI involvement alone does not make a track ineligible for monetization, and YouTube itself offers AI music tools such as Dream Track. Deezer is letting users opt out entirely. Its CEO, Alexis Lanternier, cited user demand, and Deezer pointed to a survey in which about 45% of customers wanted AI music removed.",
-    "Ars Technica raises limits on labeling. Many AI tools leave no identifying mark, so a missing label does not prove a track is human-made. And since listeners often are not looking at a screen, a label is easy to miss. There is also no way to block labeled tracks from playlists, which is the gap Deezer's toggle targets.",
-    "The scale explains the urgency. Deezer said AI tracks were 10% of daily uploads when it added detection tools last year and more than 50% by July, which puts pressure on larger services to act."
-   ],
-   "whatToWatch": [
-    "Key questions are how accurate YouTube's detection proves when creators do not disclose, and whether the company adds user controls beyond labels. Deezer's toggle is expected before year-end, and Variety reported that Apple Music plans to label AI tracks in the same period."
-   ],
-   "pullQuote": {
-    "text": "We’ve seen clear user demand for the ability to filter out AI-generated music",
-    "by": "Alexis Lanternier, Deezer CEO"
    }
   }
  },
