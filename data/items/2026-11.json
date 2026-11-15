@@ -10045,7 +10045,7 @@
    "Chip Security Act"
   ],
   "imageCheckedAt": "2026-11-12T22:47:00.256Z",
-  "storyId": "6e7f4ca7daf1"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
@@ -10963,7 +10963,7 @@
   ],
   "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
   "imageCheckedAt": "2026-11-13T13:13:16.516Z",
-  "storyId": "6e7f4ca7daf1"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
@@ -11475,7 +11475,7 @@
    "Jensen Huang"
   ],
   "imageCheckedAt": "2026-11-13T22:42:59.078Z",
-  "storyId": "6e7f4ca7daf1"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://claude.com/resources/articles/claude-meetings",
@@ -11599,7 +11599,7 @@
   ],
   "image": "https://claude.com/resources/articles/projects-redesigned/opengraph-image/og",
   "imageCheckedAt": "2026-11-14T12:17:26.557Z",
-  "storyId": "a9dc79e6aa5b"
+  "storyId": "1bd099ba94a3"
  },
  {
   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
@@ -11860,5 +11860,122 @@
    "Siri"
   ],
   "storyId": "b08cefd9996d"
+ },
+ {
+  "url": "https://github.com/paul-nameless/agweb",
+  "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T14:08:12.000Z",
+  "score": 102,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50497147",
+  "id": "3f060b226b66",
+  "fetchedAt": "2026-11-15T12:50:05.622Z",
+  "enrichedAt": "2026-11-15T12:50:12.979Z",
+  "summary": "Agweb is a new open-source browser built for AI agents, designed to stay out of the way of agent workflows.",
+  "whyItMatters": "Agent-oriented browsers could simplify web automation for builders compared with adapting human-focused browsers.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Agweb"
+  ],
+  "storyId": "3f060b226b66"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50494696",
+  "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T06:56:42.000Z",
+  "score": 85,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50494696",
+  "id": "4d0c29e8f59a",
+  "fetchedAt": "2026-11-15T12:50:05.622Z",
+  "enrichedAt": "2026-11-15T12:50:12.979Z",
+  "summary": "A forum thread asks which concrete, practical AI skills are most worth learning independently.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "4d0c29e8f59a"
+ },
+ {
+  "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+  "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-14T22:26:30.000Z",
+  "score": 427,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50501631",
+  "id": "85985435b8f3",
+  "fetchedAt": "2026-11-15T12:50:05.622Z",
+  "enrichedAt": "2026-11-15T12:50:12.979Z",
+  "summary": "A report claims Nvidia deliberately kept GPU prices high through circular financing deals. Details beyond the headline are not provided.",
+  "whyItMatters": "If accurate, it raises questions about how GPU pricing and AI-industry financing are propped up, affecting compute costs.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-15T12:50:13.073Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+  "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-14T21:41:22.000Z",
+  "snippet": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
+  "id": "9a736294c460",
+  "fetchedAt": "2026-11-15T12:50:05.622Z",
+  "enrichedAt": "2026-11-15T12:50:12.979Z",
+  "summary": "Elon Musk and other tech executives signed a petition urging Nvidia to reinstate Jensen Huang, which had over 115,000 signatures by Saturday afternoon. This follows Huang stepping down as CEO.",
+  "whyItMatters": "Leadership upheaval at the dominant AI chip supplier could affect GPU supply, pricing and strategy for everyone building on Nvidia hardware.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "Elon Musk"
+  ],
+  "imageCheckedAt": "2026-11-15T12:50:13.031Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
+  "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-13T13:45:06.000Z",
+  "score": 80,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50483391",
+  "id": "a7075b765536",
+  "fetchedAt": "2026-11-15T12:50:05.622Z",
+  "enrichedAt": "2026-11-15T12:50:12.979Z",
+  "summary": "A YouTube video titled \"The Downfall of Jensen Huang: Nvidia's Greed and Corruption\" criticizes Nvidia and its CEO. No further details are given.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+  "title": "Where was Nvidia’s security team?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-15T00:08:07.000Z",
+  "snippet": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024",
+  "id": "cdf34d438f12",
+  "fetchedAt": "2026-11-15T12:50:05.622Z",
+  "enrichedAt": "2026-11-15T12:50:12.979Z",
+  "summary": "Nvidia's security chief quietly left in August, and CEO Jensen Huang has since stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China. A former intelligence officer says such leaks are hard for corporate security teams to catch.",
+  "whyItMatters": "It ties Nvidia's leadership crisis to chip export-control concerns, which could shape policy and supply of AI hardware.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-15T12:50:13.033Z",
+  "storyId": "ddaec7e99048"
  }
 ]

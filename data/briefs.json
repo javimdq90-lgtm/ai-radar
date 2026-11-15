@@ -1204,46 +1204,6 @@
    }
   }
  },
- "6e7f4ca7daf1": {
-  "storyId": "6e7f4ca7daf1",
-  "itemIds": [
-   "6e7f4ca7daf1",
-   "d096a8a420fb",
-   "f17748102e2c"
-  ],
-  "writtenAt": "2026-11-14T12:17:41.296Z",
-  "headline": "Analysis links Chinese AI models to export-banned Nvidia Blackwell chips",
-  "dek": "Unemployment Labs says six models from DeepSeek, Moonshot, MiniMax and Ant Group released since April 2026 carry Blackwell fingerprints, as Nvidia faces questions over smuggling and chip tracking.",
-  "keyPoints": [
-   "Unemployment Labs says six models released since April 2026 by DeepSeek, Moonshot AI, MiniMax and Ant Group match Blackwell hardware; earlier models match Nvidia's older Hopper generation.",
-   "The researchers confirmed matches on physical Blackwell chips for DeepSeek-V4-Flash and Kimi K3. They say the findings do not show where chips were located or whether export controls were broken.",
-   "Rep. Bill Foster says Nvidia privately told him chip tracking under the Chip Security Act is feasible, though an industry group called it 'potentially infeasible.' Nvidia did not respond to MIT Technology Review.",
-   "Epoch AI estimates about two million advanced chips entered China in 2024 and 2025 through schemes hiding their destination; 275,000 went to Malaysia."
-  ],
-  "context": "The US bans Blackwell exports to China, while the Trump administration allows H200 sales under a tariff arrangement. Officials including White House adviser Michael Kratsios had alleged Moonshot used banned chips, but without published technical evidence. Scrutiny of Nvidia has grown since CEO Jensen Huang left the company over his relationship with Alice Huang, who runs Megaspeed, a firm under investigation for smuggling.",
-  "whatsNext": "Chip-security bills are under consideration for the Senate's National Defense Authorization Act, and Foster says he plans stricter licensing legislation in the new year.",
-  "article": {
-   "whatHappened": [
-    "Unemployment Labs, a nonprofit research group led by former OpenAI researcher Will DePue, published an analysis claiming that leading Chinese AI models were built with Nvidia Blackwell GPUs, which the US bars from export to China. It examined models from DeepSeek, Moonshot AI, MiniMax and Ant Group.",
-    "The method relies on published model weights. Before training, weights receive initial values from a pseudorandom generator called Philox, and the pattern of those values depends on how many processing units the GPU has. The researchers say six models released since April 2026 match Blackwell, while earlier models from the same companies match the older Hopper generation.",
-    "For DeepSeek-V4-Flash and Kimi K3, the group says it confirmed the match on physical Blackwell chips. It says the fingerprint shows how the weights were created and supports, without proving, that Blackwell also did the training. Specially configured AMD hardware is the only alternative it identified, and it considers that very unlikely for most of the models.",
-    "The group also offers rough estimates of how many GPUs were used, but says it is not confident in them. It revised the figures on November 12, 2026, after its first version gave 2,000 to 3,000 GPUs for the largest runs. The group now estimates about 8,000 to 9,000 for the two largest, citing less efficient real-world Blackwell training."
-   ],
-   "whyItMatters": [
-    "The finding adds technical evidence to claims US officials and press reports had made without publishing proof. TechCrunch notes that White House technology adviser Michael Kratsios said earlier this year that Moonshot had used banned Nvidia chips, citing US intelligence sources. Epoch AI estimates about two million advanced chips entered China in 2024 and 2025 through schemes designed to hide their destination.",
-    "The analysis does not establish a legal violation. The researchers say they cannot tell where the chips were or how access was obtained, and TechCrunch notes the chips could sit in offshore data centers, such as in Malaysia, which is a common route for Chinese firms. That gap is the one export-control hawks want closed, by regulating who uses chips rather than only who owns them or where they sit.",
-    "The timing is awkward for Nvidia. Jensen Huang left the company after admitting an affair with Alice Huang, whose company Megaspeed is under investigation. MIT Technology Review reports that Nvidia privately told Rep. Bill Foster that location tracking is technically possible, even as the Semiconductor Industry Association, of which Nvidia is a member, called the mandates in the Chip Security Act 'new, untested, and potentially infeasible.'"
-   ],
-   "whatToWatch": [
-    "Three chip-security bills, including the Chip Security Act, are being considered for the Senate's National Defense Authorization Act. The act would require location verification through inspections, company attestations or ping-based mechanisms. Foster says he will introduce stricter legislation in the new year requiring a license to be verified before an advanced GPU can connect.",
-    "Open questions include whether investigators confirm smuggling and whether Nvidia leadership knew of it. Reports also say Commerce Secretary Howard Lutnick could lose his job over how his investigators handled suspicious chip buyers."
-   ],
-   "pullQuote": {
-    "text": "Governments and media have found insignificant diversion of controlled US products—a drop in the bucket compared to the ocean of domestic compute China already has.",
-    "by": "Nvidia"
-   }
-  }
- },
  "755eea7f3c8e": {
   "storyId": "755eea7f3c8e",
   "itemIds": [
@@ -2737,53 +2697,60 @@
    "0a3a3741b20c",
    "3903c89c61e5",
    "c0e992001b85",
+   "6e7f4ca7daf1",
    "92467d3f16d5",
    "ef98f01e800c",
+   "d096a8a420fb",
    "4e2810e47ea3",
    "d3d3421ae28d",
    "12f357dd3921",
    "f41c719b0c12",
    "69b43a95305b",
    "e00ed907e42f",
+   "a7075b765536",
    "5d09d1e98e76",
    "56623f1d9c94",
+   "f17748102e2c",
    "ad639fbc6552",
    "7039aca8dbba",
    "b26717d449a4",
    "c46863c30810",
    "812c54fee2cd",
-   "2a2bfff1121f"
+   "2a2bfff1121f",
+   "9a736294c460",
+   "85985435b8f3",
+   "cdf34d438f12"
   ],
-  "writtenAt": "2026-11-14T21:34:47.855Z",
-  "headline": "Nvidia's Jensen Huang resigns as CEO as board weighed removal; CFO Kress named interim",
-  "dek": "Huang resigned with immediate effect after a second alleged affair was reported; CFO Colette Kress is interim CEO, and Nvidia shares fell more than 7 percent after hours.",
+  "writtenAt": "2026-11-15T12:50:26.301Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Huang's resignation Thursday after reports its board was preparing to dismiss him over two alleged affairs, one with an alleged Chinese spy; its shares fell about 7-8% after hours.",
   "keyPoints": [
-   "Nvidia announced Huang's resignation Thursday morning; CFO Colette Kress is appointed interim CEO, according to The Verge and Reuters.",
-   "WSJ reported the board would meet as soon as Wednesday night to decide Huang's future after a New York Times report of a second alleged affair.",
-   "The Times alleges the affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times has not seen the video it cites.",
-   "Nvidia stock fell more than 7 to about 8 percent in after-hours trading Wednesday and is down about 11 percent over five days.",
-   "Huang had admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly considers a Chinese spy."
+   "Nvidia announced Jensen Huang's resignation as CEO on Thursday morning, naming CFO Colette Kress interim CEO, according to The Verge. Reuters reports it took effect immediately.",
+   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future, after a New York Times report of a second alleged affair.",
+   "The Times says the second affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times has not seen the alleged video.",
+   "Nvidia stock fell more than 7% (The Verge) to about 8% (TechCrunch) in after-hours trading Wednesday, and was down about 11% over five days.",
+   "Bloomberg reports Nvidia is working with an outside firm to identify possible CEO candidates; TechCrunch says the company had no obvious successor or succession plan."
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, during which it became one of the world's most valuable companies by designing chips that power the AI boom. The scandal began with his admitted relationship with an alleged spy, and Nvidia had hired Wachtell, Lipton, Rosen & Katz to investigate. The company had no obvious successor or succession plan.",
-  "whatsNext": "Watch who Nvidia names as permanent CEO, since Bloomberg reports it is working with an outside firm to identify candidates, and how long Kress stays interim.",
+  "context": "Huang co-founded Nvidia and led it for 33 years as it became one of the world's most valuable companies on demand for AI chips. The departure follows a scandal that began when he admitted an extramarital relationship with a woman US intelligence reportedly believes to be a Chinese spy. Nvidia's centrality to AI hardware makes a leadership change at this scale significant for the whole industry.",
+  "whatsNext": "Watch whether Kress stays interim or the board names a permanent CEO, and what the Wachtell-led investigation finds.",
   "article": {
    "whatHappened": [
-    "Nvidia announced Thursday morning that co-founder Jensen Huang has resigned as CEO, effective immediately. Chief financial officer Colette Kress has been appointed interim chief executive. The announcement followed reports on Wednesday that the board was preparing to dismiss him and could meet as soon as Wednesday night.",
-    "The Wall Street Journal reported the board's plans after The New York Times reported a second alleged extramarital affair. The Times says the affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
-    "Days earlier, on Sunday, Huang admitted to an affair with Alice Huang, a Megaspeed executive whom US intelligence reportedly believes to be a Chinese spy. Nvidia said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. Nvidia did not immediately respond to The Verge's request for comment on the second report."
+    "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, and that CFO Colette Kress has been appointed interim CEO, according to The Verge. Reuters reports the resignation took effect immediately. Huang co-founded the company and had led it for 33 years.",
+    "The resignation followed reports Wednesday that the board was preparing to dismiss him. The Wall Street Journal reported the board would meet as soon as Wednesday night. The move came after The New York Times reported a second alleged affair, this time with an executive who reports to Huang.",
+    "According to the Times, the executive is Kimberly Powell, Nvidia's vice president of health care. Two unnamed sources told the paper that she and Huang, who are both married to other people, were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
+    "Nvidia shares fell more than 7% in after-hours trading Wednesday, per The Verge, and about 8% per TechCrunch. TechCrunch notes the stock was down about 11% over the previous five days."
    ],
    "whyItMatters": [
-    "Huang has led Nvidia for 33 years, and the company has grown into one of the most valuable in the world as its chips power the AI boom. Nvidia's shares fell more than 7 percent in after-hours trading Wednesday, by The Verge's count, and about 8 percent by TechCrunch's, on top of an 11 percent decline over the past five days.",
-    "Succession is a clear risk. TechCrunch notes that Huang delegates very little and has said he has about 60 direct reports, and that the company had no obvious successor or succession plan. Bloomberg reported that Nvidia was working with an outside firm to identify possible replacements. The board's move also suggests it did not intend to wait for the results of the outside investigation, The Verge noted.",
-    "Elon Musk, whom TechCrunch identifies as CEO of SpaceXSI, posted on X late Wednesday that hiring Huang would be an honor. Nothing in the coverage indicates that Huang has any plans to take another role."
+    "The scandal began Sunday, when Huang admitted to an extramarital relationship with a woman US intelligence reportedly believes to be a Chinese spy. The Verge identifies her as Megaspeed executive Alice Huang. Nvidia said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The reported dismissal suggested the board would not wait for those results.",
+    "The leadership gap is large. TechCrunch notes Huang delegates very little and has said he has about 60 direct reports, and that Nvidia has had no obvious successor or succession plan. Bloomberg reports the company is working with an outside firm to identify candidates. Nvidia designs the chips that power much of the AI boom, so a leadership vacuum affects customers and investors well beyond the company."
    ],
    "whatToWatch": [
-    "The central question is whether Kress remains interim for a short period or whether the board moves quickly to name a permanent chief executive. Coverage does not give a timeline.",
-    "Also open are the outcome of the Wachtell investigation, which Nvidia commissioned before the resignation, and whether further details emerge about the allegations involving Powell, which the Times has reported without having seen the video."
+    "The open questions are whether Kress remains in the role for long and whether the board names a permanent CEO from inside or outside the company. The outcome of the Wachtell investigation is also unresolved.",
+    "Elon Musk posted on X that hiring Huang \"would be an honor,\" according to TechCrunch. There is no indication in the coverage of what Huang plans to do next."
    ],
    "pullQuote": {
-    "text": "Nvidia’s board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
-    "by": "The Verge"
+    "text": "Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years",
+    "by": "TechCrunch"
    }
   }
  },
