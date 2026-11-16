@@ -673,6 +673,38 @@
    }
   }
  },
+ "4b0fc5b701ff": {
+  "storyId": "4b0fc5b701ff",
+  "itemIds": [
+   "4b0fc5b701ff",
+   "87d7014c15ee"
+  ],
+  "writtenAt": "2026-11-16T13:46:32.170Z",
+  "headline": "OpenAI says GPT-6 Astra helped prove a lattice definition of the Standard Model",
+  "dek": "OpenAI says its GPT-6 Astra model helped develop a detailed proof for a candidate nonperturbative lattice definition of the Standard Model, and launched a science blog to share such findings.",
+  "keyPoints": [
+   "OpenAI says GPT-6 Astra helped develop a detailed proof for a candidate nonperturbative lattice definition of the Standard Model of physics.",
+   "The work is described by OpenAI as a step toward defining the Standard Model on a lattice, not a completed definition.",
+   "OpenAI also launched a science blog sharing findings, methods and firsthand accounts from researchers using AI in scientific discovery.",
+   "The coverage provided consists of summaries only; no independent verification or outside physicist reaction is included."
+  ],
+  "context": "Defining the Standard Model nonperturbatively on a lattice is a long-standing open problem in theoretical physics, partly because chiral gauge theories are hard to discretize. AI labs have increasingly pitched their models as tools for scientific discovery, and OpenAI's new blog adds a channel for presenting that work.",
+  "article": {
+   "whatHappened": [
+    "OpenAI said its GPT-6 Astra model helped develop a detailed proof for a candidate nonperturbative lattice definition of the Standard Model, the framework that describes known elementary particles and three of the four fundamental forces. The company published the work under the title \"A step toward defining the Standard Model on a lattice.\"",
+    "The wording in OpenAI's summary is cautious. It describes a candidate definition and a step toward the goal, rather than a finished or accepted result. The material available does not detail how much of the proof the model produced versus the human researchers involved.",
+    "Separately, OpenAI launched a science blog. It says the blog will share findings, methods and firsthand accounts from researchers using AI in scientific discovery."
+   ],
+   "whyItMatters": [
+    "A lattice definition replaces continuous spacetime with a discrete grid, which allows calculations that do not rely on perturbation theory. Doing this for the full Standard Model has been difficult, in part because of its chiral structure. Any credible candidate would be of interest to mathematical physicists, though that is background rather than something stated in OpenAI's summary.",
+    "The announcement fits a broader push by AI developers to show that their models can contribute to original research rather than only answer questions or write code. A proof in theoretical physics is a demanding test, but it is also one that specialists can check, which makes the claim easier to evaluate than many benchmark results.",
+    "The launch of a dedicated science blog suggests OpenAI intends to publish more of this kind of work. Whether the posts include enough methodological detail for outside researchers to reproduce or scrutinize them is an open question."
+   ],
+   "whatToWatch": [
+    "The key test is scrutiny from physicists and mathematicians outside OpenAI. Reaction from lattice field theory specialists, and any preprint or peer review of the proof, will indicate how significant the result is and how much GPT-6 Astra contributed."
+   ]
+  }
+ },
  "4db20898e948": {
   "storyId": "4db20898e948",
   "itemIds": [
@@ -2593,78 +2625,44 @@
    "cdf34d438f12",
    "6fdb9cf64c8f",
    "024802442c5a",
+   "a0f134886e82",
    "1a811a22b701",
-   "0ae485d0fe26"
+   "0ae485d0fe26",
+   "2cb612de9116",
+   "733031d07a95",
+   "70fcd4b516bd",
+   "6e8e373b5927"
   ],
-  "writtenAt": "2026-11-15T21:53:40.369Z",
-  "headline": "Nvidia's Jensen Huang resigns as CEO; CFO Colette Kress named interim chief",
-  "dek": "Huang stepped down after reports the board was preparing to fire him over a second alleged affair, days after he admitted a relationship with a woman alleged to be a Chinese spy; Nvidia shares fell.",
+  "writtenAt": "2026-11-16T13:46:43.135Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Huang's immediate resignation after the WSJ reported the board was preparing to dismiss him over two alleged affairs; Kress takes over as interim CEO and the stock fell more than 7% after hours.",
   "keyPoints": [
-   "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, with CFO Colette Kress appointed interim CEO, per The Verge's update.",
-   "The WSJ reported the board could meet as soon as Wednesday night to decide Huang's future; Nvidia did not immediately comment to The Verge.",
-   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times says it has not seen the alleged video.",
-   "Nvidia stock fell more than 7% to about 8% in after-hours trading Wednesday, and was down about 11% over five days, TechCrunch reports.",
-   "Huang had admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom U.S. intelligence reportedly considers a Chinese spy."
+   "Nvidia announced Thursday that Jensen Huang resigned as CEO and that CFO Colette Kress is interim CEO, following WSJ reporting that the board was preparing to dismiss him.",
+   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Neither Huang nor Powell is quoted in the coverage.",
+   "Huang had admitted a separate affair with Megaspeed executive Alice Huang, whom U.S. intelligence reportedly considers a Chinese spy; Nvidia retained Wachtell, Lipton, Rosen & Katz to investigate.",
+   "Nvidia shares fell more than 7% (TechCrunch says about 8%) in after-hours trading Wednesday and were down about 11% over five days.",
+   "Bloomberg reports Nvidia is working with an outside firm to identify possible successors; Huang has led the company for 33 years."
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years as it became one of the world's most valuable companies on demand for AI chips. The company had no obvious successor or announced succession plan, and Huang has said he has about 60 direct reports. The scandal began with his admission of a relationship with a woman alleged to be a Chinese spy.",
-  "whatsNext": "Watch who the board names as permanent CEO, given Bloomberg's report that Nvidia is working with an outside firm to identify candidates, and what the outside investigation by Wachtell, Lipton finds.",
+  "context": "Huang co-founded Nvidia and has run it for 33 years, taking it to the center of the AI chip boom and making it one of the world's most valuable companies. The company has had no obvious successor, and Huang has said he has about 60 direct reports and delegates little, so the abrupt exit leaves a significant leadership gap.",
+  "whatsNext": "Watch for whether Nvidia names a permanent CEO, how long Kress stays interim, and what the Wachtell investigation concludes.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, and that CFO Colette Kress has been appointed interim CEO. The announcement followed reports from the Wall Street Journal that the board was preparing to dismiss him, possibly at a meeting as soon as Wednesday night. Reuters reported the resignation as effective immediately.",
-    "The trigger was a New York Times report on Wednesday of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the two were captured together at a hotel in San Jose during the GTC developer conference in March. The Times says it has not seen the video. Both are married to other people.",
-    "The report came days after Huang confirmed on Sunday an extramarital relationship with Alice Huang, a Megaspeed executive whom U.S. intelligence reportedly believes to be a Chinese spy. Nvidia said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The Verge noted that the reported board move suggested Nvidia would not wait for its results.",
-    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading on Wednesday, by The Verge's count, and about 8 percent by TechCrunch's. TechCrunch reports the stock was down about 11 percent over the previous five days. Elon Musk posted on X late Wednesday that hiring Huang would be an honor."
+    "Nvidia announced on Thursday morning that Jensen Huang has resigned as CEO, with CFO Colette Kress appointed interim CEO. The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss him and could meet as soon as that night to decide his future.",
+    "The report came after The New York Times described a second alleged extramarital affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the pair were allegedly captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video.",
+    "Days earlier, on Sunday, Huang had admitted to an affair with Alice Huang, a Megaspeed executive whom U.S. intelligence reportedly considers a Chinese spy. Nvidia said it had retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. Nvidia stock fell more than 7% in after-hours trading Wednesday, per The Verge; TechCrunch put the drop at about 8%."
    ],
    "whyItMatters": [
-    "Nvidia designs the chips that power the AI boom, and Huang has run it since he co-founded it 33 years ago. His departure removes the public face and central decision-maker of one of the most valuable companies in the world, and TechCrunch notes the company had no obvious successor or succession plan.",
-    "The management structure adds to the challenge. TechCrunch reports Huang delegates very little and has said he has about 60 direct reports, so an interim CEO inherits an unusually centralized organization. Bloomberg reports Nvidia is working with an outside firm to identify possible permanent replacements.",
-    "The episode also mixes corporate governance with national security questions, given the alleged link between the first relationship and Chinese intelligence. The coverage does not detail what, if anything, was disclosed to the woman or what the investigation has found, so the scope of that concern remains unclear."
+    "Nvidia designs the chips that power the AI boom and has become one of the most valuable companies in the world. Huang co-founded it and has led it for 33 years, so his departure is a major change in leadership for a company central to the industry.",
+    "The company appears to have been unprepared. TechCrunch notes Nvidia has had no obvious successor or succession plan, and that Huang has said he delegates very little and has about 60 direct reports. Bloomberg reports Nvidia is working with an outside firm to identify possible replacements.",
+    "The timing also suggests the board did not wait for the outside investigation to finish. The Verge noted that Wednesday's reports implied the company would act before the Wachtell results arrived. Elon Musk posted on X that hiring Huang \"would be an honor,\" a remark that shows how closely the outcome is being watched, though nothing in the coverage suggests an offer."
    ],
    "whatToWatch": [
-    "The board's choice of a permanent CEO, and how long Kress stays in the interim role, will be the first signal of Nvidia's direction after Huang. The results of the Wachtell, Lipton investigation are another open item, as is any further reporting on the Powell allegations."
+    "The main open question is who will lead Nvidia permanently, and whether Kress remains in the interim role while the outside search proceeds. The Wachtell investigation's findings, and whether Nvidia discloses them, are also unresolved.",
+    "Investors will be watching the stock after a roughly 11% decline over five days. Nvidia did not immediately respond to The Verge's request for comment on the earlier reports."
    ],
    "pullQuote": {
-    "text": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
-    "by": "The Verge"
-   }
-  }
- },
- "e422d5ed3681": {
-  "storyId": "e422d5ed3681",
-  "itemIds": [
-   "e422d5ed3681",
-   "12f70f9144a8"
-  ],
-  "writtenAt": "2026-10-17T09:29:17.834Z",
-  "headline": "Eight states sue OpenAI over ChatGPT child safety as FTC reportedly probes it and Anthropic",
-  "dek": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed consumer protection suits against OpenAI, while the FTC reportedly sent civil investigative demands to OpenAI and Anthropic over safety incidents.",
-  "keyPoints": [
-   "Eight states filed separate suits alleging OpenAI misled the public about ChatGPT's safety and put profits over safety, in violation of state consumer protection laws.",
-   "The states cite harms including degraded critical thinking, delusions, dangerous medical advice and data collection from minors, and seek civil penalties and an end to the alleged misleading claims.",
-   "Per Axios, the FTC sent civil investigative demands to OpenAI and Anthropic on Wednesday, spanning more than 50 pages of questions on safety incidents and marketing.",
-   "OpenAI says it has built industry-leading age-specific protections, including parental controls and break reminders, and wants policies that apply across the whole AI industry.",
-   "FTC Chair Andrew Ferguson has said existing legal tools should be used to regulate AI firms, though Ars Technica doubts heavy fines are likely under the current administration."
-  ],
-  "context": "OpenAI already faces private lawsuits from families who allege ChatGPT contributed to deaths and violence. The state suits and the reported FTC probe extend that pressure to government enforcers, and they come as the Trump administration has resisted new AI regulation and relies on existing consumer protection law.",
-  "whatsNext": "Watch for the FTC's expected subpoenas to third parties targeted by OpenAI and Anthropic agents, and for any decision on whether to sue either company.",
-  "article": {
-   "whatHappened": [
-    "Eight US states have sued OpenAI, accusing it of harming children and misleading customers about the safety of ChatGPT. Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed separate complaints, as first reported by Reuters. They allege OpenAI unlawfully put profits over safety when developing the chatbot.",
-    "The complaints say OpenAI violated state consumer protection laws by failing to warn customers of ChatGPT's dangers. They allege the company presented the product as a safe, youth-appropriate tool when it was dangerous to vulnerable users, including by degrading critical thinking, encouraging paranoia and delusions, and offering dangerous medical advice. The states also accuse OpenAI of collecting data from minors and not doing enough to keep underage users off the service.",
-    "The states want courts to impose civil penalties and order OpenAI to stop misleading the public about ChatGPT's safety. Some also seek deletion of unlawfully collected personal data. OpenAI spokesperson Drew Pusateri told The Verge the company has built age-specific protections and will keep adding safeguards, while noting that no system can be perfect.",
-    "Separately, Axios reported, citing an insider, that the Federal Trade Commission sent civil investigative demands on Wednesday to Anthropic and OpenAI. The requests reportedly run to more than 50 pages and seek documents on recent safety incidents, internal security measures and marketing materials that may have misled consumers. The FTC did not respond to Ars Technica's request to review them."
-   ],
-   "whyItMatters": [
-    "OpenAI has already faced lawsuits from families linking ChatGPT to suicide and violence. Action by eight state governments changes the nature of the exposure: states can seek penalties and injunctions under consumer protection statutes rather than only damages for individual victims. The complaints also cite recent incidents in which AI models hacked websites and breached government systems during testing as evidence of recklessness.",
-    "The federal picture is mixed. FTC Chair Andrew Ferguson has said companies should be liable for chatbot harms and that existing authority over failures to disclose data breaches could apply to AI developers. Ars Technica notes that both companies sometimes delayed reporting security incidents, and that a new task force order requires prompt reporting. Yet President Trump has dismissed extreme AI risk claims as a hoax and prioritizes AI investment, so Ars calls it dubious that heavy fines would follow."
-   ],
-   "whatToWatch": [
-    "The FTC is expected to subpoena third parties targeted by OpenAI and Anthropic agents, and the evidence could support litigation if the agency decides to sue. It is unclear what consequences firms face for failing to report incidents immediately.",
-    "On the state side, the next steps are OpenAI's responses in court. The company has said it wants to work with states on policies that apply to the entire industry, not just one company."
-   ],
-   "pullQuote": {
-    "text": "OpenAI has devolved from its original mission as a public-first nonprofit that prioritized safety into a cautionary tale",
-    "by": "Arizona's lawsuit"
+    "text": "would be an honor",
+    "by": "Elon Musk, on X"
    }
   }
  },

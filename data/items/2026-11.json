@@ -12114,5 +12114,277 @@
   "importance": 1,
   "entities": [],
   "storyId": "de1b04aef218"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+  "title": "Apple launches new app to study how people use AI for health",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-16T01:30:00.000Z",
+  "snippet": "Apple's new app for a study will answer everyday medical questions",
+  "id": "09862cd7036c",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "Apple released an app for a study on how people use AI for health, which answers everyday medical questions.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Apple"
+  ],
+  "storyId": "327577bff892"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+  "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-15T21:56:35.000Z",
+  "snippet": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+  "id": "2cb612de9116",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "TechCrunch examines whether Nvidia's trouble around Jensen Huang's leadership poses risks to the broader AI industry, which depends heavily on Nvidia.",
+  "whyItMatters": "Concentration of AI compute in one company makes its leadership turmoil a systemic risk.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-16T13:46:20.339Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+  "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-16T01:26:56.000Z",
+  "snippet": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical information from sources like The New England Journal of Medicine. Participants will use a new iOS app to ask medical questions and then rate the responses based on criteria including accuracy, detail, and relevance. The app is now avai…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "327577bff892",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "Apple launched the Apple Health AI Usage Study with OpenEvidence, using an iOS app where participants ask medical questions and rate AI answers for accuracy, detail, and relevance.",
+  "whyItMatters": "It signals Apple is evaluating conversational AI health tools, possibly ahead of its own offerings.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Apple",
+   "OpenEvidence"
+  ],
+  "storyId": "327577bff892"
+ },
+ {
+  "url": "https://www.hntrends.com/2026/november.html",
+  "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-16T01:31:30.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50512950",
+  "id": "3b862515bade",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "HN \"Who is Hiring?\" postings remain near 12-year lows, while AI is reported to reach half of all jobs.",
+  "whyItMatters": "It is a rough signal of how AI may be affecting tech hiring.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [],
+  "storyId": "3b862515bade"
+ },
+ {
+  "url": "https://openai.com/index/our-new-blog-for-science",
+  "title": "Our new blog for science",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-15T22:00:00.000Z",
+  "snippet": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+  "id": "4b0fc5b701ff",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "OpenAI launched a science blog sharing findings, methods, and firsthand accounts from researchers using AI in scientific discovery.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "4b0fc5b701ff"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+  "title": "The Nvidia scandal isn’t slowing down",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-16T13:00:00.000Z",
+  "snippet": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading AI CEOs to essentially bow at Huang's feet as they vie for more compute ahead of their much-hyped IPOs. Nvidia also has a varied investment portfolio of up-and-coming AI companies from neoclouds to infrastructure firms, worth nearly $100 billion, and Huang has President Donald Tr…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "6e8e373b5927",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "The Verge reports the Nvidia scandal involving CEO Jensen Huang continues, noting his outsized influence over AI via chips and a roughly $100B investment portfolio.",
+  "whyItMatters": "Huang's position affects compute access and funding across AI companies.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+  "title": "What's Next for Nvidia?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-15T23:55:55.000Z",
+  "score": 331,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50512235",
+  "id": "70fcd4b516bd",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "Steve Blank offers an analysis of what lies ahead for Nvidia amid its leadership turmoil.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "Steve Blank"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+  "title": "Jensen Huang might return to Nvidia as CEO",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-15T23:24:53.000Z",
+  "score": 171,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50511982",
+  "id": "733031d07a95",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "Reuters reports Jensen Huang might return as Nvidia CEO.",
+  "whyItMatters": "Nvidia's leadership matters to AI chip supply and industry direction.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-16T13:46:20.363Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+  "title": "A step toward defining the Standard Model on a lattice",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-15T22:00:01.000Z",
+  "snippet": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+  "id": "87d7014c15ee",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "OpenAI says GPT-6 Astra helped develop a detailed proof for a candidate nonperturbative lattice definition of the Standard Model in physics.",
+  "whyItMatters": "It is a claimed example of a frontier model contributing to serious theoretical physics, and it names a new model, GPT-6 Astra.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "GPT-6 Astra"
+  ],
+  "imageCheckedAt": "2026-11-16T13:46:20.294Z",
+  "storyId": "4b0fc5b701ff"
+ },
+ {
+  "url": "https://openai.com/index/lvmh-media-division-partnership",
+  "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-16T09:00:00.000Z",
+  "snippet": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+  "id": "91e58e2ea930",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "LVMH's Media Division and OpenAI announced a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+  "whyItMatters": "It adds to OpenAI's publisher deals as a distribution channel for media content.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "LVMH",
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "imageCheckedAt": "2026-11-16T13:46:20.289Z",
+  "storyId": "91e58e2ea930"
+ },
+ {
+  "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+  "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-15T19:31:11.000Z",
+  "score": 126,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50509883",
+  "id": "a0f134886e82",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "The Financial Times reports Jensen Huang has discussed a comeback as Nvidia CEO with allies, implying he has stepped away from the role.",
+  "whyItMatters": "Nvidia's leadership is central to AI compute supply, so a CEO change affects the whole industry.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-16T13:46:20.562Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://openai.com/index/the-kings-trust-and-openai",
+  "title": "The King’s Trust and OpenAI launch £1m partnership",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-16T00:00:00.000Z",
+  "snippet": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+  "id": "e3915f7e4cf0",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "The King's Trust and OpenAI launched a £1m partnership to help up to 25,000 young people in the UK build practical AI skills for work.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "The King's Trust"
+  ],
+  "storyId": "e3915f7e4cf0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+  "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-15T23:30:00.000Z",
+  "snippet": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+  "id": "fc91828979fb",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "Indian chip startup Bharat Semi raised a $24M seed round for AI-enabled sensor technology and says it has design wins including General Atomics.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Bharat Semi",
+   "General Atomics"
+  ],
+  "storyId": "fc91828979fb"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+  "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-16T12:30:00.000Z",
+  "snippet": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/dreamteam-co-founders.jpg?resize=1200,800",
+  "id": "fcbaf2152a3d",
+  "fetchedAt": "2026-11-16T13:46:07.235Z",
+  "enrichedAt": "2026-11-16T13:46:20.253Z",
+  "summary": "Freshworks alumni's startup Dreamteam raised $53M for an AI-native CRM to rival Salesforce and HubSpot, with 100+ customers in 13 countries.",
+  "whyItMatters": "It shows continued investor appetite for AI-native challengers to incumbent SaaS.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Dreamteam",
+   "Salesforce",
+   "HubSpot"
+  ],
+  "imageCheckedAt": "2026-11-16T13:46:20.333Z",
+  "storyId": "fcbaf2152a3d"
  }
 ]
