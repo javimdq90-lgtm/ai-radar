@@ -1,0 +1,230 @@
+{
+ "number": 14,
+ "date": "2026-11-16T15:35:21.604Z",
+ "subject": "ChatGPT Wallet lets OpenAI's Dots agents buy things for you",
+ "preview": "Plus OpenAI disbands its robotics team and says GPT-6 Astra helped with a Standard Model proof.",
+ "intro": "Agents moved a step closer to your credit card over the past few days, and OpenAI spent them reorganizing around a single model. Outside that, it was mostly funding rounds and small tools.",
+ "sections": [
+  {
+   "heading": "Agents go shopping",
+   "stories": [
+    {
+     "storyId": "5bf4951adbe9",
+     "headline": "OpenAI launches ChatGPT Wallet so Dots agents can make purchases for US Pro users",
+     "body": "OpenAI is rolling out ChatGPT Wallet to a limited group of US Pro subscribers, letting its Dots agents complete purchases. Users must be 18 or older with a US billing address and an eligible Amex, Chase, Mastercard or Visa card. Each purchase needs a Face ID or fingerprint check after the user reviews the items, total and card. A payment token stands in for the card number, so neither the agent nor the merchant sees it, OpenAI says.",
+     "why": "Payments are the missing piece for agents that shop, and for now a human approves every purchase. Spending limits and pre-approved categories are planned, which is where it gets properly autonomous."
+    },
+    {
+     "storyId": "43a8bca0b077",
+     "headline": "Amazon plans a World Product Graph covering everything sold online",
+     "body": "Per Reuters, Amazon plans a World Product Graph, a database of every product sold online, including items it doesn't sell. The aim is to keep shoppers and AI agents using Amazon's index for product research rather than Reddit or Google. Separately, Amazon has blocked Meta's Muse agents from its retail site, so access to retailers remains a real barrier for agent shopping.",
+     "why": "If agents lean on Amazon's index to decide what to buy, Amazon shapes product discovery even for items sold elsewhere."
+    }
+   ]
+  },
+  {
+   "heading": "OpenAI's other moves",
+   "stories": [
+    {
+     "storyId": "4a36f6adfa9f",
+     "headline": "OpenAI disbands its stand-alone robotics team, saying GPT-6 Astra can run robots directly",
+     "body": "OpenAI confirmed to Fortune that it disbanded its stand-alone robotics team. Researchers now report to Chief Research Officer Mark Chen, and applied robotics and hardware staff report to President Greg Brockman. OpenAI says general models, GPT-6 Astra included, can be applied to robotics directly. In an Nvidia study, an Astra-powered agent scored 74.8% on a simulated manipulation benchmark, against 51.0% for the best specialized robotics models. OpenAI says it is still building a humanoid.",
+     "why": "It is a direct bet against purpose-built robot brains, the premise robotics startups have raised billions on. The Nvidia result is one simulated benchmark, so treat it as a claim to watch."
+    },
+    {
+     "storyId": "4b0fc5b701ff",
+     "headline": "OpenAI says GPT-6 Astra helped prove a lattice definition of the Standard Model",
+     "body": "OpenAI says GPT-6 Astra helped develop a detailed proof for a candidate nonperturbative lattice definition of the Standard Model. OpenAI frames it as a step toward defining the Standard Model on a lattice, not a finished definition. The problem is long-standing, partly because chiral gauge theories are hard to discretize. OpenAI also launched a science blog for findings, methods and researcher accounts. So far there is only OpenAI's own account, with no outside physicist reaction.",
+     "why": "If it holds up, it is a notable case of a model contributing to real theoretical physics. Until independent physicists weigh in, it remains a lab's claim."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "38741df50e34",
+   "text": "LangChain hit a $3B valuation and claims 7,000 customers for LangSmith, its model-agnostic agent management platform."
+  },
+  {
+   "storyId": "fcbaf2152a3d",
+   "text": "Dreamteam, started by Freshworks alumni, raised $53M for an AI-native CRM aimed at Salesforce and HubSpot, with 100+ customers in 13 countries."
+  },
+  {
+   "storyId": "327577bff892",
+   "text": "Apple launched a health AI usage study with OpenEvidence; participants ask medical questions in an iOS app and rate the AI answers."
+  },
+  {
+   "storyId": "91e58e2ea930",
+   "text": "LVMH's Media Division and OpenAI announced a partnership to support journalism with AI and make its publications more accessible through ChatGPT."
+  },
+  {
+   "storyId": "e3915f7e4cf0",
+   "text": "The King's Trust and OpenAI launched a £1m partnership to help up to 25,000 young people in the UK build practical AI skills."
+  },
+  {
+   "storyId": "a1e895b935bb",
+   "text": "AI has reportedly been used to decipher Gödel's notebooks, said to contain hundreds of proved theorems."
+  },
+  {
+   "storyId": "025a6c711bf8",
+   "text": "ElevenLabs launched ElevenAI, a meeting note-taking and dictation app for teams and enterprises."
+  },
+  {
+   "storyId": "8f2daa11c505",
+   "text": "Nvidia details serving GLM-5.3 at 607.8 tokens per second across two DGX stations with vLLM."
+  },
+  {
+   "storyId": "ad8b3d5bdfd0",
+   "text": "A developer posted DeepSeek V3 in roughly 200 lines of pure JAX on GitHub, a compact reference for studying the architecture."
+  },
+  {
+   "storyId": "950ac38f23f2",
+   "text": "Sebastian Raschka explains how modern LLMs encode token order with positional embeddings, if you want the background."
+  }
+ ],
+ "links": {
+  "5bf4951adbe9": [
+   {
+    "title": "Introducing ChatGPT Wallet",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "source": "OpenAI"
+   },
+   {
+    "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+    "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+    "source": "The Verge"
+   }
+  ],
+  "43a8bca0b077": [
+   {
+    "title": "Amazon has a plan to index the world’s online shopping data",
+    "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+    "source": "The Verge"
+   }
+  ],
+  "4a36f6adfa9f": [
+   {
+    "title": "OpenAI disbands its robotics team as its general models start running robots",
+    "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "source": "fortune.com"
+   },
+   {
+    "title": "OpenAI disbands its robotics team as its general models start running robots",
+    "url": "https://news.ycombinator.com/item?id=50487184",
+    "source": "HN discussion"
+   }
+  ],
+  "4b0fc5b701ff": [
+   {
+    "title": "Our new blog for science",
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "source": "OpenAI"
+   },
+   {
+    "title": "A step toward defining the Standard Model on a lattice",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "source": "OpenAI"
+   }
+  ],
+  "38741df50e34": [
+   {
+    "title": "AI agent startup LangChain hits $3B valuation",
+    "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+    "source": "TechCrunch"
+   }
+  ],
+  "fcbaf2152a3d": [
+   {
+    "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+    "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+    "source": "TechCrunch"
+   }
+  ],
+  "327577bff892": [
+   {
+    "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+    "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+    "source": "The Verge"
+   },
+   {
+    "title": "Apple launches new app to study how people use AI for health",
+    "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+    "source": "TechCrunch"
+   }
+  ],
+  "91e58e2ea930": [
+   {
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "url": "https://openai.com/index/lvmh-media-division-partnership",
+    "source": "OpenAI"
+   }
+  ],
+  "e3915f7e4cf0": [
+   {
+    "title": "The King’s Trust and OpenAI launch £1m partnership",
+    "url": "https://openai.com/index/the-kings-trust-and-openai",
+    "source": "OpenAI"
+   }
+  ],
+  "a1e895b935bb": [
+   {
+    "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+    "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+    "source": "theguardian.com"
+   },
+   {
+    "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+    "url": "https://news.ycombinator.com/item?id=50486748",
+    "source": "HN discussion"
+   }
+  ],
+  "025a6c711bf8": [
+   {
+    "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+    "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+    "source": "TechCrunch"
+   }
+  ],
+  "8f2daa11c505": [
+   {
+    "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+    "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+    "source": "developer.nvidia.com"
+   },
+   {
+    "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+    "url": "https://news.ycombinator.com/item?id=50497155",
+    "source": "HN discussion"
+   }
+  ],
+  "ad8b3d5bdfd0": [
+   {
+    "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+    "source": "github.com"
+   },
+   {
+    "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+    "url": "https://news.ycombinator.com/item?id=50497589",
+    "source": "HN discussion"
+   }
+  ],
+  "950ac38f23f2": [
+   {
+    "title": "Understanding Positional Embeddings in Modern LLMs",
+    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "source": "magazine.sebastianraschka.com"
+   },
+   {
+    "title": "Understanding Positional Embeddings in Modern LLMs",
+    "url": "https://news.ycombinator.com/item?id=50506376",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
