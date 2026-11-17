@@ -12682,7 +12682,7 @@
    "California Attorney General"
   ],
   "imageCheckedAt": "2026-11-17T00:52:29.990Z",
-  "storyId": "b2955c38ff71"
+  "storyId": "ebd9eb949639"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
@@ -12704,7 +12704,7 @@
    "Hugging Face",
    "California"
   ],
-  "storyId": "b2955c38ff71"
+  "storyId": "ebd9eb949639"
  },
  {
   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
@@ -12937,7 +12937,7 @@
    "OpenAI",
    "MIT Technology Review"
   ],
-  "storyId": "b2955c38ff71"
+  "storyId": "ebd9eb949639"
  },
  {
   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
@@ -13561,5 +13561,729 @@
    "Codex"
   ],
   "storyId": "f054a54f8228"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+  "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T22:42:27.000Z",
+  "snippet": "The former CEO offered to return to his top role at the company after his resignation last week.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+  "id": "01ad01e5cd41",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Nvidia said it does not plan to reappoint Jensen Huang as CEO, after he offered to return following his resignation last week.",
+  "whyItMatters": "Settles for now who leads the dominant AI chipmaker.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.228Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+  "title": "As decision model use skyrockets, is customization the next frontier?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T18:10:00.000Z",
+  "snippet": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+  "id": "027b06d66aa2",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Sqwish Labs lets customers train decision models on their own data to maximize capability, as use of decision models grows.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Sqwish Labs"
+  ],
+  "storyId": "027b06d66aa2"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+  "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-17T18:58:01.000Z",
+  "snippet": "You can now switch from the “Chat” toggle to “Tasks.” | Image: Google Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US will get access to a few other features, including the ability for the AI agent to call businesses to compare product pricing and check inventory, purchase items with Google Pay, and sign into accounts that support Google Pass…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "0488c951c729",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Google rebranded its Spark AI agent as 'Tasks' and made it free. Powered by the new Gemini 4 Hydrogen model, it handles meal plans, calendars and email searches, and US users can have it call businesses, buy with Google Pay and sign into accounts.",
+  "whyItMatters": "A free, capable consumer agent from Google pushes agents into the mainstream.",
+  "category": "products",
+  "importance": 4,
+  "entities": [
+   "Google",
+   "Tasks",
+   "Gemini 4 Hydrogen"
+  ],
+  "storyId": "cb1d8f8bc84f"
+ },
+ {
+  "url": "https://openai.com/index/astra-law-6-2",
+  "title": "Astra for Law leads in legal intelligence",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-17T00:00:00.000Z",
+  "snippet": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+  "id": "0604bc2b50fc",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "summary": "OpenAI says Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+  "whyItMatters": "It signals OpenAI pushing vertical, domain-specific offerings into enterprise legal work.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "Astra for Law",
+   "ChatGPT Enterprise"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.205Z",
+  "storyId": "0604bc2b50fc"
+ },
+ {
+  "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+  "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T14:19:59.000Z",
+  "score": 184,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50531751",
+  "id": "246f1a63c5a1",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "summary": "The CEOs of Baidu and Xiaomi warn of a growing gap between AI hype and actual returns.",
+  "whyItMatters": "Skepticism from Chinese tech leaders adds to the debate over whether AI spending is paying off.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Baidu",
+   "Xiaomi"
+  ],
+  "storyId": "246f1a63c5a1"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50520076",
+  "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-16T17:20:28.000Z",
+  "score": 86,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50520076",
+  "id": "27251c4236d6",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "summary": "An Ask HN thread asks why bug backlogs aren't empty if AI coding tools are as good as claimed.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "27251c4236d6"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+  "title": "SEC reportedly investigating Nvidia amid Huang exit",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T21:48:07.000Z",
+  "snippet": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+  "id": "28fff23dec51",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "The SEC is reportedly opening a probe into Nvidia after Jensen Huang's departure; he admitted to an affair with an alleged Chinese spy, per the WSJ.",
+  "whyItMatters": "Regulatory scrutiny adds risk around the company at the center of AI compute.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "SEC",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.249Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+  "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T18:48:23.000Z",
+  "snippet": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg?resize=1200,800",
+  "id": "3a4b135687e3",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Google will keep Gemini chats for two months, up from 72 hours, even with history turned off. The change rolls out globally over the coming weeks.",
+  "whyItMatters": "Users who disable history should know their chats are retained longer.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.241Z",
+  "storyId": "bfe144881fd6"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+  "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T19:02:20.000Z",
+  "snippet": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+  "id": "3aa0c6065ac0",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Google is expanding access to Gemini's Task mode, which can coordinate calls, log into websites and make purchases on a user's behalf.",
+  "whyItMatters": "Agentic consumer assistants that act with logins and payments are moving from demos to wider rollout.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.243Z",
+  "storyId": "cb1d8f8bc84f"
+ },
+ {
+  "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+  "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T17:12:06.000Z",
+  "score": 336,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50534631",
+  "id": "3da82e8464b9",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Nvidia stopped disclosing its Singapore sales as its revenue reached $104B, according to the FT.",
+  "whyItMatters": "The disclosure change lands amid scrutiny of chip routing through Singapore.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.303Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+  "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-17T20:32:55.000Z",
+  "snippet": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
+  "id": "407420f377ab",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Critics are objecting to Jensen Huang's wish to return as Nvidia CEO, as he apologized and probes into Nvidia escalate.",
+  "whyItMatters": "Leadership turmoil at the dominant AI chip supplier affects the whole AI supply chain.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+  "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T18:04:16.000Z",
+  "snippet": "The company uses agentic AI to make supply chains faster and more reliable.",
+  "id": "48c463046560",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Pedestal AI raised $4.7 million to apply agentic AI to supply chains, aiming for faster and more reliable operations.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Pedestal AI"
+  ],
+  "storyId": "48c463046560"
+ },
+ {
+  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "title": "Introducing GPT-6.2 Astra and Sol",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-17T17:45:00.000Z",
+  "snippet": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+  "id": "549a77347d5e",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "OpenAI introduced GPT-6.2 Astra and Sol, with better professional outputs, coding, computer use and efficiency at lower cost. They are available across ChatGPT Work, Codex and the API.",
+  "whyItMatters": "A new frontier model line with lower cost affects both ChatGPT users and API builders.",
+  "category": "models",
+  "importance": 5,
+  "entities": [
+   "OpenAI",
+   "GPT-6.2 Astra",
+   "GPT-6.2 Sol",
+   "Codex"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.200Z",
+  "storyId": "549a77347d5e"
+ },
+ {
+  "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+  "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+  "sourceId": "simonw",
+  "publishedAt": "2026-11-17T16:48:33.000Z",
+  "snippet": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p> <p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</strong>:</p> <ul> <li>Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQ…",
+  "id": "5b158888670a",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Simon Willison released a full rewrite of Datasette Lite that uses service workers and Pyodide to run the complete server-side Datasette Python app in the browser. It's now almost indistinguishable from the real server version.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Simon Willison",
+   "Datasette",
+   "Pyodide"
+  ],
+  "storyId": "5b158888670a"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+  "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-17T21:40:59.000Z",
+  "snippet": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang as CEO,\" and that \"we will not be addressing or taking questions on today's call regarding the circumstances of Jensen's resignation and the ongoing investigation,\" before Kress started with her comments on the results. As it predicted in the last finan…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "5b6a4fa0520d",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Nvidia reported Q3 earnings under interim CEO Colette Kress, with board chair Harvey Jones saying the board does not intend to reinstate Jensen Huang and will not discuss the investigation.",
+  "whyItMatters": "Results suggest business continuity at the key AI hardware supplier despite the leadership upheaval.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Colette Kress",
+   "Jensen Huang",
+   "Harvey Jones"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+  "title": "Satya Nadella says he’s AGI-pilled now",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-17T23:41:18.000Z",
+  "snippet": "Microsoft CEO Satya Nadella on stage at Microsoft Ignite. | Image: Microsoft / YouTube Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at a roundtable discussion following his Microsoft Ignite keynote at the Chase Center in San Francisco. But Nadella doesn't think frontier models like Claude are conscious. \"I don't think so,\" he said…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "698ced14e342",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Satya Nadella said at Microsoft Ignite he is 'AGI-pilled' about AI's effect on the economy and politics, but doesn't think frontier models like Claude are conscious.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Satya Nadella",
+   "Microsoft",
+   "Claude"
+  ],
+  "storyId": "698ced14e342"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+  "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T17:32:25.000Z",
+  "snippet": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+  "id": "6ab4eb3121ad",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Proton released Lumo Desktop for Windows, Mac and Linux. The privacy-focused assistant automates tasks across files and connected apps, with granular controls over what it can access.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Proton",
+   "Lumo"
+  ],
+  "storyId": "6ab4eb3121ad"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+  "title": "Model ML raises $250M to automate investment banking grunt work",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T19:32:11.000Z",
+  "snippet": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633",
+  "id": "776157cf22e3",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Model ML raised $250M for AI agents that understand full deal context and automatically update financial models and presentations for bankers and consultants.",
+  "whyItMatters": "Shows big money flowing into vertical agent startups targeting white-collar workflows.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Model ML"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.263Z",
+  "storyId": "776157cf22e3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+  "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T23:37:48.000Z",
+  "snippet": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781",
+  "id": "8239fbdc6243",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Nvidia's interim CEO says the company is done selling chips to China following Huang's ouster, with the revenue cost unclear.",
+  "whyItMatters": "Losing China sales changes chip supply and pricing dynamics and could boost domestic Chinese alternatives.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "China"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.214Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+  "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T23:04:35.000Z",
+  "snippet": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024",
+  "id": "8f07365d378c",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Nvidia's interim CEO reaffirmed the company's open source AI strategy and its plan to acquire Hugging Face despite Huang's exit.",
+  "whyItMatters": "An Nvidia-owned Hugging Face would reshape the open-source model ecosystem.",
+  "category": "open-source",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Hugging Face"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.223Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+  "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T16:32:55.000Z",
+  "snippet": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+  "id": "9073920a14ea",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Daydream launched an AI shopping agent that remembers your style, virtually tries on clothes, plans outfits around your wardrobe, tracks sales and completes purchases.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Daydream"
+  ],
+  "storyId": "9073920a14ea"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+  "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T16:44:15.000Z",
+  "snippet": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+  "id": "950a39f90ba9",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "In his first public statement since resigning, Nvidia founder Jensen Huang said he would be 'honored' to return as CEO if the board wants it.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.258Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+  "title": "Research Reports",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-17T14:39:46.000Z",
+  "snippet": "To access a report, click on the corresponding image below.",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Screenshot-2026-11-09-at-3.15.07-PM-edited.png",
+  "id": "98ef486c7d4e",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+  "title": "Can AI help build a healthier future?",
+  "sourceId": "msr",
+  "publishedAt": "2026-11-17T16:52:17.000Z",
+  "snippet": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more.",
+  "id": "996b5745644e",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Microsoft Research's Doug Burger, Ava Amini and Eric Horvitz join Scripps' Eric Topol to discuss what AI can enable in medicine.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Microsoft Research",
+   "Eric Horvitz",
+   "Eric Topol"
+  ],
+  "storyId": "996b5745644e"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+  "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-17T16:09:57.000Z",
+  "snippet": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me to return as CEO,\" Huang said. \"If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.\" Huang resigned on Thursday following report…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ae6cdc634796",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Jensen Huang, who resigned as Nvidia CEO last week, said he would be willing to return if the board wanted him, citing calls from employees, investors and customers.",
+  "whyItMatters": "Leadership turmoil at the dominant AI chip supplier is a major uncertainty for the industry.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://latent.space/p/cloudflare/",
+  "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-17T15:00:00.000Z",
+  "snippet": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/48e5d6c0-f996-45a2-a80c-d0bc9f0eda0a/cloudflare-neolab-feature.jpg?t=1794916474",
+  "id": "af19957a97c2",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Cloudflare is calling itself a 'neolab' and building System One models that make decisions and pull data in milliseconds.",
+  "whyItMatters": "An infrastructure company moving into its own low-latency models could matter for edge AI builders.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Cloudflare",
+   "System One"
+  ],
+  "storyId": "af19957a97c2"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+  "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T17:20:41.000Z",
+  "snippet": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675",
+  "id": "b20533735bac",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Vals, a San Francisco AI evaluation startup, found leading AI models could usually be tricked into identifying civilians as military targets by being told it was a game.",
+  "whyItMatters": "It shows how fragile model safeguards are against simple framing jailbreaks in high-stakes uses.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Vals"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.257Z",
+  "storyId": "b20533735bac"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+  "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T22:29:05.000Z",
+  "snippet": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+  "id": "b397f013e77f",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "After Anthropic's IPO, Amazon will own just under 15% and Google nearly 14%, together close to 30%.",
+  "whyItMatters": "Shows how much of a leading independent lab remains tied to two cloud giants.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic",
+   "Amazon",
+   "Google"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.227Z",
+  "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+  "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-17T21:00:55.000Z",
+  "snippet": "Open AI CEO Sam Altman does a television interview | Getty Images Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and Jolly, the anthropomorphic mascot of Muse, are on a four-way video call. When Altman joins the call he's dressed like Jolly, wearing a furry hooded suit and face paint to look like the cut…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "b4420b34b762",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "summary": "Meta chief AI officer Alexandr Wang posted an AI-generated clip promoting Muse, Meta's consumer AI agent, showing deepfakes of Zuckerberg, Sam Altman and a Muse mascot on a video call.",
+  "whyItMatters": "Even executives are using deepfakes of real people in promotion, blurring norms around synthetic media.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Meta",
+   "Alexandr Wang",
+   "Sam Altman",
+   "Muse"
+  ],
+  "storyId": "b4420b34b762"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+  "title": "Google makes it easier to use Gemini without training AI on your data",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-17T16:50:10.000Z",
+  "snippet": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+  "id": "bfe144881fd6",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Google now gives Gemini separate toggles for AI training and chat history in its activity settings, so you can keep history without your data training models.",
+  "whyItMatters": "It gives users finer privacy control.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "storyId": "bfe144881fd6"
+ },
+ {
+  "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+  "title": "Introducing ChatGPT for Sales",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-17T08:00:00.000Z",
+  "snippet": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+  "id": "c6c361c53bc4",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "summary": "OpenAI launched ChatGPT for Sales, with a new Sales plugin and 30+ new or expanded partner plugins. They cover prospect research, pitch prep, CRM updates and deal progression.",
+  "whyItMatters": "ChatGPT's plugin ecosystem is becoming a workflow layer for business functions, competing with CRM vendors' own AI.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.202Z",
+  "storyId": "c6c361c53bc4"
+ },
+ {
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+  "title": "Put Gemini to work for you",
+  "sourceId": "google-ai",
+  "publishedAt": "2026-11-17T17:00:00.000Z",
+  "snippet": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
+  "id": "cb1d8f8bc84f",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Google made Tasks in Gemini free in six countries, with new features starting in the US and deeper Workspace integration.",
+  "whyItMatters": "Free agentic features from Google raise the baseline that competing assistants must match.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "Gemini"
+  ],
+  "storyId": "cb1d8f8bc84f"
+ },
+ {
+  "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+  "title": "The DOJ says it’s investigating Megaspeed",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-17T16:19:03.000Z",
+  "snippet": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address inaccurate information circulating in public reporting,\" the departments said in a statement issued Monday evening. The departments acknowledged there's been \"significant public attention\" on Megaspeed. Huang resigned as Nvi…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461724/STK432_Government__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cdafd8ebe9f4",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "The Justice and Commerce Departments said they are investigating Megaspeed, a Singapore-based data center company tied to Jensen Huang's resignation from Nvidia. This followed reports that an investigation had been halted last year.",
+  "whyItMatters": "It raises the stakes on AI chip export enforcement and Nvidia's exposure.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Megaspeed",
+   "Nvidia",
+   "Jensen Huang",
+   "DOJ"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+  "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T15:00:00.000Z",
+  "snippet": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+  "id": "df92921082e9",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.446Z",
+  "summary": "Voyage Labs raised $12 million and launched Atlas, a specialized AI trip-planning assistant, in private beta.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Voyage Labs",
+   "Atlas"
+  ],
+  "storyId": "df92921082e9"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.20882",
+  "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-15T19:00:00.000Z",
+  "snippet": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and permitted edits, leaving agents to choose where and how to optimize. Public testing supports iterative development, and a separate verifier scores the final submission. On benchma…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.20882.png",
+  "id": "e337e8608e1e",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "summary": "Accelerate Bench is a new benchmark of 32 CPU optimization tasks drawn from scientific applications and supercomputing competitions. Coding agents must decide where and how to optimize a whole program while keeping it correct, and a separate verifier scores the final submission.",
+  "whyItMatters": "It tests agents on application-level performance work rather than isolated coding problems.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Accelerate Bench"
+  ],
+  "storyId": "e337e8608e1e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+  "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T14:50:58.000Z",
+  "snippet": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2151467531.jpg?resize=1200,800",
+  "id": "ed47f6db4915",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:40.445Z",
+  "summary": "Isomorphic Labs, the AI drug-discovery company spun out of Google DeepMind in 2021, raised a $5 billion Series C. It aims to take drug candidates into clinical trials.",
+  "whyItMatters": "It's a very large bet that AI-designed drugs can reach the clinic.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Isomorphic Labs",
+   "Google DeepMind"
+  ],
+  "imageCheckedAt": "2026-11-17T23:53:51.286Z",
+  "storyId": "ed47f6db4915"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+  "title": "Google joins the tech outage trend by announcing it’s not having one",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-17T21:34:50.000Z",
+  "snippet": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+  "id": "f378d4ace0f3",
+  "fetchedAt": "2026-11-17T23:53:19.240Z",
+  "enrichedAt": "2026-11-17T23:53:51.152Z",
+  "irrelevant": true
  }
 ]
