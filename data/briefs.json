@@ -37,6 +37,48 @@
    }
   }
  },
+ "0604bc2b50fc": {
+  "storyId": "0604bc2b50fc",
+  "itemIds": [
+   "0604bc2b50fc",
+   "549a77347d5e",
+   "7c37480e5f49"
+  ],
+  "writtenAt": "2026-11-18T14:14:20.942Z",
+  "headline": "OpenAI releases GPT-6.2 Astra and Sol, cutting cost per task but drawing mixed reviews",
+  "dek": "OpenAI's GPT-6.2 Astra and cheaper Sol are rolling out in ChatGPT Work, Codex and the API; Artificial Analysis ranks Astra second behind Anthropic's Fable 5.2, and early reviews are split.",
+  "keyPoints": [
+   "Astra API pricing is $8 per million input tokens and $40 output; Sol keeps its predecessor's $2 and $10. Both have 1M context and a 128K output limit.",
+   "Artificial Analysis scores Astra 62 on its Intelligence Index, behind Anthropic's Fable 5.2 at 65. Sol ties September's Astra at about 15% of the cost per task.",
+   "OpenAI rated Astra High for AI Self-Improvement in its system card, a first for one of its externally released models.",
+   "Astra for Law, an Enterprise configuration with a legal search index, scored 20.8% on Harvey LAB-AA versus 15.0% for base Astra. OpenAI says Enterprise customers can request access.",
+   "Reviews are split: Matt Shumer called the models \"essentially unusable\", while Pietro Schirano attributed many early problems to the harness."
+  ],
+  "context": "OpenAI and Anthropic trade the top spots on frontier benchmarks, and cost per task has become a main point of competition alongside raw capability. Latent Space notes the launch lands two days before Anthropic's expected first trading day, which it expects to dominate the week's news.",
+  "whatsNext": "Watch how developers' verdicts settle once harness issues are sorted out, and how the launch fares against Anthropic's expected first trading day.",
+  "article": {
+   "whatHappened": [
+    "OpenAI has introduced GPT-6.2 Astra and GPT-6.2 Sol, saying the models improve professional outputs, coding, computer use and efficiency at lower cost. They are rolling out in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users, and to developers through the API as gpt-6.2-astra and gpt-6.2-sol.",
+    "Astra costs $8 per million input tokens, $0.40 for cached input and $40 for output. Sol keeps its predecessor's pricing of $2, $0.10 and $10. Both models have a 1M-token context window and a 128K output limit.",
+    "OpenAI also released Astra for Law, an Enterprise configuration that adds a legal search index. OpenAI says it ranked first in a launch evaluation spanning 24 areas of law, and that every ChatGPT Enterprise customer can now request access. Artificial Analysis measured it at 20.8% on Harvey LAB-AA, against 15.0% for base Astra.",
+    "OpenAI reports that on Agents' Last Exam 1.1, Astra at xhigh gained 5.2 points over GPT-6 Astra at max, at less than a third of the cost per task. It also reports a 5.5-point lead over Fable 5.2 at about 5% of the cost on that test."
+   ],
+   "whyItMatters": [
+    "Independent results put Astra close to the top but not first. Artificial Analysis gives it 62 on its Intelligence Index, behind Anthropic's Fable 5.2 at 65. Latent Space concludes that Anthropic still has the best model, while OpenAI has the most efficient ones in terms of intelligence per dollar. Sol ties September's Astra at about 15% of the cost per task.",
+    "Results on long-running and agentic work are stronger. Mercor's OpenWorldEngineer puts Astra at 67.2%, against 54.6% for Fable 5.2 and 44.2% for GPT-6 Astra. Epoch verified seven FrontierMath Erdős solutions in Lean out of 68 problems, against a previous best of three.",
+    "Reception has been rougher than the benchmarks suggest. Latent Space describes strongly negative influencer feedback and says some of the criticism is valid, citing noticeable and bizarre reinforcement-learning artefacts, though it still uses the models to automate its work. Matt Shumer said his Opus and Fable agents rejected much of Astra's subagent work, while Pietro Schirano blamed many early issues on the harness.",
+    "The safety rating is also notable. OpenAI rated Astra High for AI Self-Improvement, a first for one of its externally released models, per its system card."
+   ],
+   "whatToWatch": [
+    "The open question is whether the negative reviews reflect model flaws or tooling and harness problems, as Schirano suggests. Further third-party testing over the coming weeks should clarify that.",
+    "Anthropic's expected first trading day, two days after the launch, is likely to draw most of the attention. Latent Space expects it to be the headline of the week."
+   ],
+   "pullQuote": {
+    "text": "Net net, Anthropic still owns the world’s best model, but OpenAI owns the world’s most efficient models in terms of intelligence per $.",
+    "by": "Latent Space"
+   }
+  }
+ },
  "0947affcb4cc": {
   "storyId": "0947affcb4cc",
   "itemIds": [
@@ -871,35 +913,6 @@
     "text": "To be honest, I don't want to create another middleman,",
     "by": "Scott Kirby, United CEO"
    }
-  }
- },
- "549a77347d5e": {
-  "storyId": "549a77347d5e",
-  "itemIds": [
-   "549a77347d5e"
-  ],
-  "writtenAt": "2026-11-17T23:54:00.809Z",
-  "headline": "OpenAI releases GPT-6.2 Astra and Sol across ChatGPT Work, Codex and API",
-  "dek": "OpenAI introduced two GPT-6.2 models, Astra and Sol, saying they improve professional outputs, coding, computer use and efficiency at lower cost, and are available in ChatGPT Work, Codex and the API.",
-  "keyPoints": [
-   "OpenAI introduced two models, GPT-6.2 Astra and GPT-6.2 Sol.",
-   "OpenAI says they offer better professional outputs, coding and computer use.",
-   "The company says they are more efficient and cost less.",
-   "Both are available in ChatGPT Work, Codex and the API."
-  ],
-  "context": "OpenAI has released successive GPT versions that it positions around coding, agentic computer use and professional work, competing with Anthropic and Google on those tasks. Efficiency and lower cost matter because they affect how widely developers and businesses can deploy such models.",
-  "article": {
-   "whatHappened": [
-    "OpenAI has introduced GPT-6.2 Astra and GPT-6.2 Sol, two models in its GPT-6.2 line. The company says they improve on earlier models in professional outputs, coding and computer use, while being more efficient and costing less to run.",
-    "The models are available across ChatGPT Work, Codex and the API, according to OpenAI's announcement. The coverage provided is a short summary and does not include benchmark figures, pricing details or an explanation of how Astra and Sol differ from each other."
-   ],
-   "whyItMatters": [
-    "The areas OpenAI highlights, professional outputs, coding and computer use, are where the major AI labs are competing most directly for business customers. Availability in ChatGPT Work, Codex and the API means the models reach both end users and developers at once.",
-    "The claim of lower cost alongside better performance is notable if it holds up, since price and efficiency often determine which model teams adopt for large-scale use. The material provided gives no figures, so the size of any gain is unclear."
-   ],
-   "whatToWatch": [
-    "Readers should look for OpenAI's detailed documentation, including pricing, benchmark results and the intended roles of Astra and Sol, as well as independent testing that checks the company's claims about coding and computer use."
-   ]
   }
  },
  "5888c276693c": {
@@ -2262,6 +2275,45 @@
    ]
   }
  },
+ "bccee91cf811": {
+  "storyId": "bccee91cf811",
+  "itemIds": [
+   "bccee91cf811"
+  ],
+  "writtenAt": "2026-11-18T14:14:09.178Z",
+  "headline": "Microsoft makes Word, Excel and PowerPoint generally available inside Copilot at Ignite",
+  "dek": "At Ignite, Satya Nadella called Copilot \"the new OS for work\" and announced Office apps inside it, plus Autopilot agents, Microsoft IQ and Agent 365 analytics, with Autopilot pricing still unannounced.",
+  "keyPoints": [
+   "Word, Excel and PowerPoint are now generally available inside Copilot; files created there stay editable in the standalone Office apps, Microsoft says.",
+   "Copilot Autopilot is a cloud-based agent that users delegate ongoing responsibilities to. It will bill through Copilot Credits, but final pricing has not been announced.",
+   "Microsoft IQ, which houses the Work IQ context layer drawing on emails, meetings, chats and files, is also generally available.",
+   "Each Autopilot agent gets a unique ID; admins can restrict or block it, activity is logged, and it can ask for human approval.",
+   "Microsoft's AI Transparency Initiative has 40-plus partners, including Adobe and MasterCard, to develop open AI governance and security standards."
+  ],
+  "context": "Microsoft first announced the Copilot redesign in September, and Ignite moves parts of it to general availability. The pitch shifts Office from the main application to a component an agent calls on, putting Microsoft in competition with other vendors building enterprise agent platforms. The trust and governance features are meant to answer the main objection to delegating work to autonomous software.",
+  "whatsNext": "Watch for final Autopilot pricing under Copilot Credits and for personal Autopilot agents being brought into Copilot Workspaces, which Microsoft says is coming soon.",
+  "article": {
+   "whatHappened": [
+    "Opening the Ignite keynote on Tuesday, Microsoft CEO Satya Nadella announced the general availability of Word, Excel and PowerPoint inside Copilot, which he called \"the new OS for work.\" Users can create documents, spreadsheets and presentations directly in Copilot, and the resulting files remain editable in the standalone Office applications.",
+    "Microsoft's model has agents driving the work, with applications acting as components of it. The agents are backed by an organizational knowledge layer that draws on emails, meetings, calendars, chats and files. Microsoft IQ, also generally available, houses Work IQ, a context layer that helps agents understand a company's communications, relationships and ongoing work.",
+    "Copilot Autopilot is described by Microsoft as a \"persistent, proactive agent for personal productivity.\" It is a cloud-based autonomous agent that users can authorize to work across services such as email and calendars and to handle responsibilities rather than single tasks. It will use usage-based billing through Copilot Credits; final pricing has not been announced.",
+    "Copilot Workspaces, a collaborative environment, is currently available through Microsoft's Frontier early-access program. Microsoft says users will soon be able to bring personal Autopilot agents into Workspaces. Nadella said AI interactions have mostly been single-player until now."
+   ],
+   "whyItMatters": [
+    "Nadella spent much of the keynote on trust, and conceded that alignment and a mechanistic understanding of models remain elusive. His conclusion was that you can't trust the technology by definition, and that the answer is an \"architectural imperative to separate the supply of intelligence\" from the authority granted to it. In practice, Microsoft's approach is to constrain what agents may do rather than to make them trustworthy.",
+    "The controls are concrete: each Autopilot agent has a unique ID, administrators can restrict permissions or block it, all activity is logged for human review, and the agent can ask for approval before certain actions. Agent 365, Microsoft's control plane for agents, is being expanded with a Business Analytics feature that shows token spend against the value of work performed. Microsoft acknowledged that its estimates of assisted work hours come from a model, not direct measurement.",
+    "The trade-off falls on customers. Businesses must decide through their own IT review whether to give autonomous agents access to internal documents and messaging data, and they are being asked to rely on Microsoft's own safeguards. Ars Technica notes those safeguards have yet to be shown effective against mistakes, rogue actions or data exposure."
+   ],
+   "whatToWatch": [
+    "The open pricing question is the most immediate: Autopilot will be billed through Copilot Credits, and Microsoft has not said what that will cost ahead of general availability.",
+    "Also worth watching is whether the AI Transparency Initiative, with more than 40 partners, produces published standards, and how enterprises respond to the autonomy and data-access decisions the new agents require."
+   ],
+   "pullQuote": {
+    "text": "Workspaces makes it a truly multiplayer experience, where people and agents drive towards a common goal, with shared context.",
+    "by": "Satya Nadella, Microsoft CEO"
+   }
+  }
+ },
  "bf5aaab63512": {
   "storyId": "bf5aaab63512",
   "itemIds": [
@@ -2836,38 +2888,42 @@
    "28fff23dec51",
    "01ad01e5cd41",
    "8f07365d378c",
-   "8239fbdc6243"
+   "8239fbdc6243",
+   "9f7286d0bf41",
+   "bc1083d540d9",
+   "5e888bac8f86",
+   "bfaa144bfebb"
   ],
-  "writtenAt": "2026-11-17T23:54:53.957Z",
-  "headline": "Nvidia CEO Jensen Huang resigns after reports board was preparing to fire him",
-  "dek": "Jensen Huang quit as Nvidia CEO on Thursday, hours after the WSJ said the board would meet to remove him; CFO Colette Kress is interim chief and the stock fell about 8% after hours.",
+  "writtenAt": "2026-11-18T14:14:33.368Z",
+  "headline": "Nvidia's board moves to remove Jensen Huang; he resigns as CEO next morning",
+  "dek": "After the WSJ reported the board would meet as soon as Wednesday night, Nvidia announced Huang's resignation Thursday and named CFO Colette Kress interim CEO; the stock fell about 7-8% after hours.",
   "keyPoints": [
-   "Nvidia announced Jensen Huang's resignation Thursday morning; CFO Colette Kress is interim CEO. Reuters reported the resignation took effect immediately.",
-   "The WSJ reported Wednesday that the board would meet as soon as that night to decide Huang's future, after the NYT reported a second alleged affair.",
-   "The NYT says the second affair was with Kimberly Powell, VP of health care, who reports to Huang. Two unnamed sources say they were captured together at a San Jose hotel in March.",
-   "Huang admitted Sunday to an affair with Alice Huang, a Megaspeed executive alleged to be a Chinese spy. Nvidia stock fell about 8% after hours.",
-   "Bloomberg reports Nvidia was working with an outside firm to identify possible successors; the company had no obvious succession plan."
+   "The WSJ reported Nvidia's board was preparing to dismiss CEO Jensen Huang, meeting as soon as Wednesday night. Nvidia announced his resignation Thursday morning, with CFO Colette Kress as interim CEO.",
+   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. It came days after he admitted a separate affair with an alleged Chinese spy.",
+   "Nvidia stock fell more than 7 percent (TechCrunch says about 8%) in after-hours trading Wednesday, and is down about 11% over five days, according to TechCrunch.",
+   "Bloomberg reports Nvidia is working with an outside firm to identify possible CEO successors; the company reportedly has no obvious successor or succession plan.",
+   "Elon Musk posted on X that hiring Huang \"would be an honor.\""
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, taking it to the center of the AI chip boom and making it one of the world's most valuable companies. He is known for delegating little and has said he has about 60 direct reports, which makes a sudden leadership change unusually consequential for the company.",
-  "whatsNext": "Watch for how Nvidia's board handles the CEO search under interim chief Colette Kress, and for the outcome of the law firm investigation and the reported SEC inquiry.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years as it became one of the world's most valuable companies on demand for AI chips. The company had hired the law firm Wachtell, Lipton, Rosen & Katz to investigate the first affair, but the board reportedly chose not to wait for the results.",
+  "whatsNext": "Watch who the board names as a permanent CEO, and how the company handles the Wachtell investigation and its succession search.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that CEO Jensen Huang had resigned, with CFO Colette Kress appointed interim CEO. Reuters reported the resignation was effective immediately. The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss Huang and could meet as soon as that night.",
-    "The Journal's report came after The New York Times reported a second alleged extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that Huang and Powell, both married to other people, were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video.",
-    "The reports landed days after Huang admitted to an affair with Alice Huang, a Megaspeed executive whom U.S. intelligence is said to consider a Chinese spy. Nvidia shares fell about 8% in after-hours trading Wednesday and were down about 11% over five days, according to TechCrunch."
+    "Nvidia's board was preparing to dismiss CEO Jensen Huang, The Wall Street Journal reported Wednesday, saying directors would meet as soon as that night to decide his future. On Thursday morning, Nvidia announced that Huang had resigned and that CFO Colette Kress had been appointed interim CEO.",
+    "The reports followed a New York Times story that Huang had a second alleged extramarital affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to him. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
+    "The Times report came days after Huang admitted to a separate affair with Alice Huang, a Megaspeed executive whom U.S. intelligence reportedly considers a Chinese spy. Nvidia stock fell more than 7 percent in after-hours trading Wednesday, TechCrunch put the drop at about 8%, and the shares are down about 11% over five days."
    ],
    "whyItMatters": [
-    "Nvidia designs the chips that power much of the AI boom, and Huang has run it since its founding. TechCrunch notes he delegates little and the company had no obvious successor or succession plan. Bloomberg reported Nvidia was already working with an outside firm to find candidates.",
-    "The sequence also suggests the board chose not to wait for the findings of its own inquiry. Nvidia said it had retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle the matter. The Verge reports the SEC has reportedly opened an investigation into Nvidia, though details were not available in the coverage provided.",
-    "Rumors of a relationship between Huang and Powell had circulated inside Nvidia for some time, an unnamed source told CNBC. Elon Musk posted on X that hiring Huang would be an honor, a signal of the interest he may draw elsewhere."
+    "Huang has led Nvidia for 33 years, and the company designs the chips that power the AI boom. TechCrunch notes he delegates very little, has said he has about 60 direct reports, and that Nvidia has not had an obvious successor or a succession plan.",
+    "Bloomberg reports the company is working with an outside firm to identify possible replacements. Elon Musk, meanwhile, posted on X that hiring Huang \"would be an honor.\"",
+    "The board's apparent decision not to wait is notable. Nvidia had said it retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to investigate the first matter, but the reported move suggests it would act before that work concluded, as The Verge observes. The second alleged relationship involves a direct report, which may have added to the board's concerns, though the coverage does not say what drove the decision."
    ],
    "whatToWatch": [
-    "Key questions are how long Kress stays in the interim role and who the board names as a permanent CEO. Nvidia has also said, per The Verge, that it does not intend to reinstate Huang.",
-    "The law firm's findings and any SEC action could add further detail about what the company knew and when."
+    "The main open questions are who becomes permanent CEO and how long Kress stays in the interim role, given the lack of a clear successor.",
+    "It is also unclear what the Wachtell investigation will find and whether Nvidia will comment on the Times's allegations about Powell. Nvidia did not immediately respond to The Verge's request for comment."
    ],
    "pullQuote": {
-    "text": "would be an honor",
-    "by": "Elon Musk, on hiring Huang, in a post on X"
+    "text": "would be an honor.",
+    "by": "Elon Musk, on hiring Huang"
    }
   }
  },

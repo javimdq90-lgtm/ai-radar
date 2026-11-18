@@ -13819,7 +13819,7 @@
    "Codex"
   ],
   "imageCheckedAt": "2026-11-17T23:53:51.200Z",
-  "storyId": "549a77347d5e"
+  "storyId": "0604bc2b50fc"
  },
  {
   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
@@ -14285,5 +14285,621 @@
   "fetchedAt": "2026-11-17T23:53:19.240Z",
   "enrichedAt": "2026-11-17T23:53:51.152Z",
   "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.21392",
+  "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-15T19:00:00.000Z",
+  "snippet": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but returning frames to the planner still accumulates visual information in its reasoning context. Delegating perception reduces this burden, yet sparse sampling can miss decisive details, and per-frame descriptions can preserve context growth. We introduce VideoNexus, a training-free fra…",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21392.png",
+  "id": "0355b130fa7b",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "VideoNexus is a training-free framework for long-video understanding that delegates perception so frames don't accumulate in the planner's reasoning context.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "VideoNexus"
+  ],
+  "storyId": "0355b130fa7b"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+  "title": "This smell startup says its AI nose is as good as a human’s",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-18T10:20:30.000Z",
+  "snippet": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840",
+  "id": "03692ec60cac",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "AI startup Osmo claims its AI nose matches a human's, trained on data from about 30 human sniffers' odor notes cross-referenced with chemical analysis.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Osmo"
+  ],
+  "storyId": "03692ec60cac"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.21479",
+  "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-15T19:00:00.000Z",
+  "snippet": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, a hand-controlled video world model that unifies precise interaction modeling with efficient streaming generation. We curate 100K interaction clips spanning diverse real and synthetic environments an…",
+  "score": 21,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21479.png",
+  "id": "33ad5a542f93",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "LynnReal-Hand is a hand-controlled interactive video world model trained on 100K real and synthetic interaction clips, designed for efficient streaming generation of object interactions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "LynnReal-Hand"
+  ],
+  "storyId": "33ad5a542f93"
+ },
+ {
+  "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+  "title": "Cerebras Disaggregated Inference",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T00:56:23.000Z",
+  "score": 94,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50540472",
+  "id": "3c17f9a2318e",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Cerebras describes its disaggregated inference approach.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Cerebras"
+  ],
+  "storyId": "3c17f9a2318e"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50536468",
+  "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T19:01:43.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50536468",
+  "id": "3e72391ba79d",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "StarSling (YC P25) launched self-improving CI aimed at repositories with high volumes of agent-written code.",
+  "whyItMatters": "Agent-generated commits are straining CI pipelines, and tooling is emerging to address it.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "StarSling",
+   "Y Combinator"
+  ],
+  "storyId": "3e72391ba79d"
+ },
+ {
+  "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+  "title": "Why is Gemini 4 Carbon taking so long?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T04:14:04.000Z",
+  "score": 185,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50541790",
+  "id": "3ede266c56e2",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "A post questions why Gemini 4 Carbon is taking so long to release.",
+  "category": "models",
+  "importance": 1,
+  "entities": [
+   "Gemini 4 Carbon",
+   "Google"
+  ],
+  "storyId": "3ede266c56e2"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+  "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-18T11:30:00.000Z",
+  "snippet": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/humyn-labs-co-founders_164602.jpg?resize=1200,800",
+  "id": "55dde3921be9",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:53.748Z",
+  "summary": "India's Humyn Labs, founded in February, raised $47M to supply data to US robotics companies, with about 90% of revenue from the US. It competes with startups like Mecka AI and XDOF.",
+  "whyItMatters": "Training data for robotics is becoming a funded niche as the physical AI race grows.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Humyn Labs",
+   "Mecka AI",
+   "XDOF"
+  ],
+  "imageCheckedAt": "2026-11-18T14:13:53.948Z",
+  "storyId": "55dde3921be9"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+  "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-18T13:00:00.000Z",
+  "snippet": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024",
+  "id": "5e888bac8f86",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:53.748Z",
+  "summary": "Nvidia interim CEO Colette Kress said that if Nvidia backstops a neocloud's data center loan, it is only on the hook if the neocloud has independent financing and the facility gets built with Nvidia gear installed.",
+  "whyItMatters": "It sets limits on Nvidia's exposure to circular financing concerns around AI infrastructure buildouts.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Colette Kress"
+  ],
+  "imageCheckedAt": "2026-11-18T14:13:53.950Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.21099",
+  "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-15T19:00:00.000Z",
+  "snippet": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be returned in a form the model can reason about. Therefore, we present ForceHarness, a harness that lets frozen models use force without demonstrations or finetuning. After calibrat…",
+  "score": 37,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21099.png",
+  "id": "5ed8080e8d3e",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "ForceHarness is a harness that lets API-only frozen multimodal models use contact-force feedback for robot manipulation without demonstrations or finetuning. It closes the force loop beneath the model and converts raw force streams into a form the model can reason about.",
+  "whyItMatters": "It shows a route to contact-rich robot tasks with off-the-shelf frontier models rather than custom training.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ForceHarness"
+  ],
+  "storyId": "5ed8080e8d3e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.22055",
+  "title": "Weight-Space Programming Doesn't Need Transformers",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-16T19:00:00.000Z",
+  "snippet": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves. When free to design, all three compile plain-text f…",
+  "score": 40,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22055.png",
+  "id": "62671662bfc5",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "A paper tests three frontier LLMs writing neural network weights by hand, without gradient training, and finds that when free to design architectures they abandon the Transformer, compiling plain-text formats instead.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "62671662bfc5"
+ },
+ {
+  "url": "https://revscope.co/blog/search-seo-geo-2026/",
+  "title": "Google's AI answers reducing search traffic by 40%",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T00:17:58.000Z",
+  "score": 555,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50540178",
+  "id": "695d1f9a1cf6",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "A report claims Google's AI answers are reducing search traffic by 40%.",
+  "whyItMatters": "If accurate, it signals large changes for publishers and search-dependent businesses.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Google"
+  ],
+  "imageCheckedAt": "2026-11-18T14:13:53.943Z",
+  "storyId": "695d1f9a1cf6"
+ },
+ {
+  "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+  "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-18T00:00:00.000Z",
+  "snippet": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+  "id": "6cab9c8cd383",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Le Groupe Figaro and OpenAI partnered to show Le Figaro journalism in ChatGPT via summaries and excerpts with links to original stories.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Le Groupe Figaro",
+   "ChatGPT"
+  ],
+  "storyId": "6cab9c8cd383"
+ },
+ {
+  "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+  "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T21:16:12.000Z",
+  "score": 246,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50538303",
+  "id": "6e090bb95c89",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Harvard researchers find AI coding agents have shifted the bottleneck in software development to code review.",
+  "whyItMatters": "Teams adopting agents should plan for review capacity, not just generation speed.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Harvard"
+  ],
+  "image": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
+  "imageCheckedAt": "2026-11-18T14:13:53.920Z",
+  "storyId": "6e090bb95c89"
+ },
+ {
+  "url": "https://energy-based-reasoners.github.io/",
+  "title": "Energy-Based Reasoners: 385x more efficient inference",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T09:29:32.000Z",
+  "score": 174,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50543989",
+  "id": "6fc8c039af46",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Energy-Based Reasoners claims 385x more efficient inference.",
+  "whyItMatters": "If it holds up, it could cut reasoning costs substantially, though claims need validation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Energy-Based Reasoners"
+  ],
+  "storyId": "6fc8c039af46"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.23226",
+  "title": "FastFrames: Video Generation at Interactive Latency",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-16T19:00:00.000Z",
+  "snippet": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half …",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23226.png",
+  "id": "71047f93c532",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "FastFrames is a family of autoregressive video diffusion models reaching interactive latency, after profiling found VAE decoding and KV cache updates consume over half of inference time.",
+  "whyItMatters": "Real-time generated video and interactive world models get closer to practical use.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "FastFrames"
+  ],
+  "storyId": "71047f93c532"
+ },
+ {
+  "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+  "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-18T10:19:04.000Z",
+  "snippet": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/38ecd72a-69fc-402f-ab81-15ac4b07bf8c/image.png?t=1794996495",
+  "id": "7c37480e5f49",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "OpenAI's GPT-6.2 Astra, the second-ranked frontier model, is cheaper by 20%-600% and reviews are mixed; GPT-6.2 Sol is likely the main workhorse.",
+  "whyItMatters": "Lower costs change model choice for builders, though testers disagree on Astra's quality.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "GPT-6.2 Astra",
+   "GPT-6.2 Sol"
+  ],
+  "storyId": "0604bc2b50fc"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+  "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-18T12:00:00.000Z",
+  "snippet": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+  "id": "82df8b109823",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:53.748Z",
+  "summary": "Felicis led a $7.5M round in Unsiloed AI, a seven-person startup that makes enterprise documents usable by AI agents. It enters a crowded document-processing market.",
+  "whyItMatters": "Document parsing remains a key bottleneck for enterprise agents, and investors keep funding it.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Unsiloed AI",
+   "Felicis"
+  ],
+  "storyId": "82df8b109823"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.23143",
+  "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-16T19:00:00.000Z",
+  "snippet": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given a monocular video and initial 2D TCP queries, the tracker directly recovers metric TCP poses in SE(3) and gripper states alongside scene geometry and camera parameters. The generator samples local fe…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23143.png",
+  "id": "9dbb7a6ae9fe",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "TCP4D is a unified model that tracks tool-center-point poses and gripper states from monocular robot video and generates future TCP trajectories.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TCP4D"
+  ],
+  "storyId": "9dbb7a6ae9fe"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+  "title": "Nvidia promises that revenue will keep soaring — for now",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-18T00:16:50.000Z",
+  "snippet": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776",
+  "id": "9f7286d0bf41",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Nvidia projected continued record revenue despite turmoil following the departure of founder and CEO Jensen Huang, described as disgraced.",
+  "whyItMatters": "Leadership upheaval at the main AI chip supplier matters for the compute supply chain.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-18T14:13:53.953Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+  "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T19:08:45.000Z",
+  "score": 97,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50536565",
+  "id": "a6c7c2ca104f",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Anthropic paid a firm run by Rubio's former chief of staff $740k to lobby his National Security Council, according to the report.",
+  "whyItMatters": "It shows how AI labs are investing in Washington influence on national security policy.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Rubio"
+  ],
+  "image": "https://cms.zerohedge.com/sites/default/files/styles/16_9_max_700/public/2026-11/Blue-tie%20speaker%20in%20sharp%20focus.png?h=06268292&itok=WghwqoNQ",
+  "imageCheckedAt": "2026-11-18T14:13:53.957Z",
+  "storyId": "a6c7c2ca104f"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.22115",
+  "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-16T19:00:00.000Z",
+  "snippet": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperPa…",
+  "score": 146,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22115.png",
+  "id": "b5c8370aae01",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "China Telecom's TeleChat lineage advances to Xing 4, a series of LLMs trained on Ascend chips with MindSpore, with a report covering sparse activation, attention design, speculative decoding and agentic post-training.",
+  "whyItMatters": "It is a data point on frontier-style agentic models built entirely on domestic Chinese hardware and software stacks.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Xing 4",
+   "TeleChat",
+   "Ascend",
+   "MindSpore"
+  ],
+  "storyId": "b5c8370aae01"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.22275",
+  "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-16T19:00:00.000Z",
+  "snippet": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a multi-agent post-training framework that adapts a humanoid foundation tracking model to physically coupled interactions between humanoids, enabling coordinated decentralized control from local observat…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22275.png",
+  "id": "b71151d25d0e",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Heave-Ho is a decentralized framework for long-horizon collaboration among multiple humanoids, adapting a humanoid foundation tracking model to physically coupled interactions.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Heave-Ho"
+  ],
+  "storyId": "b71151d25d0e"
+ },
+ {
+  "url": "https://newsletter.posthog.com/p/decision-models",
+  "title": "Not Everything Needs an LLM",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T18:16:18.000Z",
+  "score": 167,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50535740",
+  "id": "b8930a9a56df",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "PostHog's newsletter argues that not every problem needs an LLM.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "PostHog"
+  ],
+  "storyId": "b8930a9a56df"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+  "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-18T01:44:21.000Z",
+  "snippet": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771",
+  "id": "bc1083d540d9",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "The value of Nvidia's private startup investments has nearly tripled in nine months to $65B, but Huang's exit puts future deals in doubt.",
+  "whyItMatters": "Nvidia's investments shape which AI startups get funded and compute access.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "imageCheckedAt": "2026-11-18T14:13:53.955Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+  "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-18T00:27:29.000Z",
+  "snippet": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception.png",
+  "id": "bccee91cf811",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Microsoft says Copilot is the new OS for work: Word, Excel and PowerPoint now run inside Copilot, with always-on agents coming next.",
+  "whyItMatters": "It marks a strategic shift of Office toward an agent-centric interface.",
+  "category": "products",
+  "importance": 4,
+  "entities": [
+   "Microsoft",
+   "Copilot",
+   "Office"
+  ],
+  "storyId": "bccee91cf811"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+  "title": "Suno now lets you make AI videos for your AI music",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-18T11:16:53.000Z",
+  "snippet": "Here are some of the examples that Suno provided to show what Visuals is capable of. | Image: Suno Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be used as thumbnails and album artwork. Visuals is available on web, iOS, and Android. The exact layout differs across Suno's desktop and mobile interfaces, but users will find a new Visuals tab under Cr…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/suno-ai-visuals.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "bdaac6f563ec",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:53.748Z",
+  "summary": "Suno has launched \"Visuals\", a feature that turns its AI songs into video clips that lipsync to lyrics and generates images for thumbnails and album art. It's available on web, iOS and Android.",
+  "whyItMatters": "Suno is expanding from music into full audiovisual content creation, moving into territory held by video generation tools.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Suno"
+  ],
+  "storyId": "bdaac6f563ec"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+  "title": "Nvidia isn’t selling any more AI chips to China",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-18T13:01:05.000Z",
+  "snippet": "Nvidia has stopped sending its advanced AI chips to China, despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, fought for the right to ship its powerful Hopper architecture H200 chips to China. \"Our guidance ⁠does not have any licensed Hopper data center products included, and we are no longer shipping ​licenced Hopper data center products to China,\" Kress said. She did not explain why N…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "bfaa144bfebb",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:53.748Z",
+  "summary": "Nvidia says it is no longer shipping licensed Hopper (H200) data center chips to China, despite White House approval in December, and its guidance includes none. Interim CEO Colette Kress made the statement on the earnings call without explaining why.",
+  "whyItMatters": "It effectively closes a major market for Nvidia and affects the availability of compute for Chinese AI developers.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Colette Kress",
+   "Jensen Huang",
+   "China"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+  "title": "Claude was trained on protein sequences at scale",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T03:47:43.000Z",
+  "score": 107,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50541619",
+  "id": "d021019fd830",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "A report says Claude was trained on protein sequences at scale.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "storyId": "d021019fd830"
+ },
+ {
+  "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+  "title": "Will Wright’s next game uses AI to map your memories",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-18T14:00:00.000Z",
+  "snippet": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. \"We want to take your autobiography and turn it into a toy world,\" he tells The Verge. The MyMems website describes the mobile game as a \"social simulation\" with worlds \"built from your memories and the people who shaped you.\" You can add \"memories\" to your game, like speaking a sho…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Grand-Canyon-Family-Portrait.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "d414dc9f436f",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:53.748Z",
+  "summary": "Will Wright, creator of SimCity and The Sims, is building MyMems, an AI-driven mobile social simulation that turns players' autobiographical memories into a toy world populated by people who shaped them.",
+  "whyItMatters": "A well-known game designer is applying generative AI to a personal, memory-based game concept.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Will Wright",
+   "MyMems"
+  ],
+  "storyId": "d414dc9f436f"
+ },
+ {
+  "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+  "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T01:45:11.000Z",
+  "score": 86,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50540836",
+  "id": "d4aa84cab004",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "Bank CEOs and the NSA told Congress that AI-driven patches are behind outages.",
+  "whyItMatters": "It highlights operational risk from automated AI patching in critical infrastructure.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "NSA",
+   "Congress"
+  ],
+  "image": "https://static.washingtonsun.com/dims4/default/ee03c91/2147483647/strip/true/crop/6000x3375+0+312/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk2-prod-aji.s3.us-east-1.amazonaws.com%2Fbrightspot%2F72%2F1c%2Fe92cb7384504a4cb82d3dea569ac%2Fap25064000941559.jpg",
+  "imageCheckedAt": "2026-11-18T14:13:54.421Z",
+  "storyId": "d4aa84cab004"
+ },
+ {
+  "url": "https://nicolasbouliane.com/blog/death-by-ai",
+  "title": "AI is killing All About Berlin",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T06:47:26.000Z",
+  "score": 561,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50542705",
+  "id": "f1feb2e4bb48",
+  "fetchedAt": "2026-11-18T14:13:27.087Z",
+  "enrichedAt": "2026-11-18T14:13:46.647Z",
+  "summary": "A writer argues AI is killing All About Berlin, a local site.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "All About Berlin"
+  ],
+  "storyId": "f1feb2e4bb48"
  }
 ]
