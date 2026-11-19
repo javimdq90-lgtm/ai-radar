@@ -1710,49 +1710,6 @@
    }
   }
  },
- "9dbc0d55ff91": {
-  "storyId": "9dbc0d55ff91",
-  "itemIds": [
-   "9dbc0d55ff91",
-   "8a1ba0c934b0",
-   "84cd8d44e982",
-   "2f990e26e9ae",
-   "2e553dc45565"
-  ],
-  "writtenAt": "2026-10-20T20:41:23.842Z",
-  "headline": "Google open-sources TorchTPU a day after Amazon releases TorchNeuron for PyTorch",
-  "dek": "Google released TorchTPU, a native PyTorch backend for its TPUs, a day after Amazon launched TorchNeuron for Trainium; both let PyTorch apps leave Nvidia GPUs with minimal code changes.",
-  "keyPoints": [
-   "Google open-sourced TorchTPU on Tuesday; developers can move PyTorch apps to TPUs and Google Cloud with a configuration change and no rewrite, TechCrunch reports.",
-   "Amazon released TorchNeuron on Monday for Trainium, and says it is contributing upstream PyTorch changes to remove code tied to specific chips.",
-   "Hugging Face says 89% of the top 100 text-generation architectures run on TorchNeuron out of the box, versus 46% with Optimum Neuron v0.4.5.",
-   "Hugging Face reports 96.5% of the Transformers tests that run on TPU pass under TorchTPU, with 34 issues reported so far.",
-   "Google says it worked with Meta, Hugging Face, Inferact and RadixArk, and launched a TPU agent suite to help developers migrate."
-  ],
-  "context": "PyTorch, created at Meta in 2016 and run by the Linux Foundation since 2022, was built largely around Nvidia GPUs and its CUDA software, which helped make Nvidia the default hardware for AI apps. Google and Amazon have long sold their own chips, TPUs and Trainium, but running PyTorch on them meant extra work such as PyTorch/XLA. Native backends aim to remove that software barrier.",
-  "whatsNext": "Watch whether developers actually move workloads off Nvidia, and whether Amazon's upstream changes to make PyTorch more hardware-agnostic are accepted into the main project.",
-  "article": {
-   "whatHappened": [
-    "Google announced on Tuesday that TorchTPU, a native PyTorch backend for its Tensor Processing Units, is available as an open-source project. According to TechCrunch, it lets existing PyTorch apps run on TPUs, and therefore on Google Cloud, with a simple configuration change and no rewriting. The GitHub project is licensed under Apache 2.0 and lists version 0.2.0 on PyPI.",
-    "The announcement followed Amazon's release on Monday of TorchNeuron, which does the same for its Trainium chip and AWS. Amazon says PyTorch apps can run on Trainium by changing one line of configuration. It also says it is contributing code upstream to PyTorch to remove ties to specific chips, so the framework is more hardware-agnostic by default.",
-    "Google says it worked with Meta, Hugging Face, Inferact (maker of vLLM), RadixArk (maker of SGLang) and others so TorchTPU works with popular AI tools. It also launched a TPU agent suite to help developers migrate and fix errors, and updated LiteRT, its tool for running AI on phones, laptops and embedded devices, to work better with PyTorch apps.",
-    "Hugging Face published posts on both backends. It says Transformers, Diffusers and Kernels run natively on TPU, with device_map set to tpu. For Trainium, it says 89% of the top 100 text-generation architectures are supported, against 46% with the older Optimum Neuron library. Its post lists TorchNeuron as a public beta from Oct. 20, 2026."
-   ],
-   "whyItMatters": [
-    "Nvidia's advantage has rested partly on software. TechCrunch notes that Nvidia spent years making CUDA work smoothly with PyTorch, which Amazon says underlies about 85% of AI apps, so most apps default to Nvidia GPUs. PyTorch users could already port to AMD GPUs and Apple chips with a configuration change; Google and Amazon now offer the same for their own silicon.",
-    "The pitch from both companies is also about cloud lock-in. AWS argues Trainium gives startups a full cloud and one chip for both training and inference, and says it is a better choice than neoclouds tied to Nvidia hardware. It cites Deepgram, which it says processes 70% more audio per dollar on Trainium. These are Amazon's claims and were not independently verified in the coverage.",
-    "TechCrunch cautions that developers will not necessarily abandon Nvidia en masse just because moving is easier. It also asks whether decoupling PyTorch from Nvidia will give developers more choice and lower costs, as Amazon promises, or simply more configuration headaches."
-   ],
-   "whatToWatch": [
-    "The main open question is adoption: whether startups move production workloads to TPUs or Trainium, and whether the economics hold up outside vendor examples.",
-    "Also worth following is Amazon's upstream work in PyTorch, and how quickly Google and Hugging Face close the remaining gaps. Hugging Face says TPU test failures are being tracked as issues on the TorchTPU repo, and it is working toward a nightly TPU CI."
-   ],
-   "pullQuote": {
-    "text": "The real story is removing the lock-in that kept developers from having a real choice at all.",
-    "by": "Colin Brace, VP of Technology Software at AWS Annapurna Labs"
-   }
-  }
- },
  "9fa731b0ef6c": {
   "storyId": "9fa731b0ef6c",
   "itemIds": [
@@ -2116,37 +2073,85 @@
    "b397f013e77f",
    "b7121aa76176",
    "25c96fa5a216",
-   "c554d88a231d"
+   "c554d88a231d",
+   "824e87dcfa8e",
+   "3e5d1a7c85bc",
+   "1a26151f6749",
+   "e71232150b49",
+   "bab1a902faa1",
+   "e22812a5ccc9"
   ],
-  "writtenAt": "2026-11-19T14:31:18.962Z",
-  "headline": "Anthropic prices IPO at $83 a share, raising $81.3 billion in largest listing ever",
-  "dek": "Anthropic sold 980 million shares at $83, above its $70 to $78 range, for a roughly $1.5 trillion valuation; trading on Nasdaq as ANT starts November 19.",
+  "writtenAt": "2026-11-19T23:38:37.941Z",
+  "headline": "Anthropic prices record $81.3 billion IPO at $83 and opens at $111.50 on Nasdaq",
+  "dek": "Anthropic sold 980 million shares at $83, above its range, valuing it near $1.5 trillion, and began trading as ANT on Nov. 19 at $111.50, the largest IPO by proceeds.",
   "keyPoints": [
-   "Anthropic priced 980 million Class A shares at $83, above the $70-$78 range; TechCrunch reports proceeds of $81.3 billion, topping SpaceX's $75 billion record.",
-   "Anthropic sold 956,351,354 shares itself and selling stockholders sold 23,648,646. Underwriters hold a 30-day option on up to 147 million more shares.",
-   "Shares begin trading on Nasdaq on November 19, 2026 under 'ANT'; the offering is expected to close November 20.",
-   "Amazon will hold 14.7% and Google 13.7% after the IPO, mostly in non-voting shares. Amazon could reach 23.8% by converting all its notes.",
-   "Tech firms including Google and Nvidia, at $10 billion each, agreed to buy $26 billion of non-voting stock in a private placement."
+   "Anthropic priced 980 million Class A shares at $83, above the $70 to $78 range; 956.4 million were sold by the company and 23.6 million by selling stockholders.",
+   "The offering raised $81.3 billion, according to TechCrunch, surpassing SpaceX's $75 billion record. Valuation is about $1.5 trillion fully diluted, versus $965 billion in May.",
+   "ANT opened on Nasdaq at $111.50. Underwriters hold a 30-day option on 147 million more shares; the offering is expected to close Nov. 20.",
+   "Amazon will own 14.7% and Google 13.7%. Seven tech firms are buying $26 billion of non-voting stock privately, with Google and Nvidia at $10 billion each.",
+   "The S-1 shows an $80.7 billion net loss in the first half, mostly an accounting charge, on $16.3 billion revenue."
   ],
-  "context": "Anthropic was valued at $965 billion in May, when it raised $65 billion privately, and reportedly sought $2 trillion earlier. The listing sets a benchmark for other AI labs, including rival OpenAI, which has not announced IPO plans. Its governance structure, with a Long-Term Benefit Trust and founder voting control, is now under public-market scrutiny.",
-  "whatsNext": "Watch the first day of trading on Nasdaq on November 19 and the offering's expected close on November 20.",
+  "context": "Anthropic was founded by former OpenAI executives and has positioned itself as the safety-focused lab. Its last private round in May valued it at $965 billion, and it reportedly once targeted $2 trillion. Its listing sets a benchmark for OpenAI and other private AI labs.",
+  "whatsNext": "Watch whether underwriters exercise the 147 million-share option within 30 days, and how ANT trades after the Nov. 20 close.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share, according to the company's announcement. The offering covers 980 million Class A shares, of which Anthropic is selling 956,351,354 and selling stockholders 23,648,646. Anthropic receives no proceeds from the latter. Shares are expected to start trading on the Nasdaq Global Select Market on November 19, 2026, under the symbol ANT.",
-    "TechCrunch reports the price was above the initial range of $70 to $78, and that the share count rose from 825 million planned. It puts proceeds at $81.3 billion, which would surpass SpaceX's $75 billion and make this the largest IPO by proceeds. At the IPO price, the company is valued at about $1.5 trillion fully diluted.",
-    "Alongside the IPO, a group of tech companies including AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners agreed to buy $26 billion of non-voting shares in a private placement. Google and Nvidia each committed $10 billion. Underwriters also hold a 30-day option on up to 147 million additional shares."
+    "Anthropic priced its initial public offering at $83 per share on Nov. 18, above the initial range of $70 to $78, and began trading on the Nasdaq under the ticker ANT on Nov. 19. The Verge reports shares opened at $111.50. The $83 price values the company at about $1.5 trillion fully diluted.",
+    "The offering covers 980 million Class A shares, up from 825 million initially planned, according to TechCrunch. Anthropic sold 956,351,354 of them and selling stockholders sold 23,648,646. Proceeds of $81.3 billion exceed SpaceX's $75 billion record. Underwriters have a 30-day option on up to 147 million more shares, and the offering is expected to close on Nov. 20.",
+    "Alongside the IPO, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners agreed to buy $26 billion of non-voting shares in a private placement. Google and Nvidia each committed $10 billion. TechCrunch reports Amazon will hold 14.7% and Google 13.7%, nearly 30% combined. Each of the seven co-founders sold nearly 3.4 million shares, about $282 million apiece, per the S-1.",
+    "The S-1 reports an $80.7 billion net loss in the first half of the year, most of it from an accounting charge that The Verge says does not reflect the business, against $16.3 billion in revenue."
    ],
    "whyItMatters": [
-    "The $1.5 trillion valuation is well above the $965 billion set in May, though below the $2 trillion the company reportedly targeted months ago. TechCrunch says a strong debut would signal that investors still back AI adoption despite recent volatility, and that the result should shape expectations for private AI firms such as OpenAI.",
-    "Ownership is concentrated among strategic partners. Amazon will hold 14.7% and Google 13.7%, both mostly in non-voting shares. Amazon converted only part of its promissory notes, which carry conversion prices of about $2.09 or $5.05 per share; converting all would give it 23.8%. Anthropic has also committed to spend more than $100 billion on AWS over the next decade.",
-    "The Verge argues the listing tests Anthropic's safety-focused reputation. The company is a Public Benefit Corporation, and its Long-Term Benefit Trust and founders hold controlling voting rights, insulating leadership from shareholder pressure. Critics quoted by the outlet say the trust's powers are limited, with one governance expert questioning whether its members have enough AI expertise."
+    "The valuation is well above May's $965 billion private round, though below the $2 trillion Anthropic was reportedly seeking earlier. TechCrunch frames the debut as a test of investor appetite for AI amid recent volatility, and a guide for private rivals such as OpenAI, which has not announced IPO plans.",
+    "Amazon's position shows the scale of its early bet. It converted part of its promissory notes, with conversion prices of about $2.09 or $5.05 per share, and kept billions more unconverted. Converting everything would put it at 23.8%. Anthropic has also committed to spend more than $100 billion on AWS over a decade.",
+    "The Verge's Hayden Field argues the listing strains Anthropic's safety-first image. Founders and the Long-Term Benefit Trust hold controlling voting rights, insulating leadership from shareholders but also removing typical checks. Governance expert Ann Lipton questions whether the trustees have the AI expertise to use their powers. Amodei said Anthropic will pace AI training and deployment and will not bend to business or political pressure."
    ],
    "whatToWatch": [
-    "The first trading day will show whether demand holds at $83, given reported market jitters tied to the departure of Nvidia CEO Jensen Huang. The offering is due to close November 20, subject to customary conditions."
+    "Near-term markers are the Nov. 20 close, any use of the underwriters' option, and how the stock holds after its opening jump.",
+    "The longer test is whether the governance structure and Amodei's safety pledge hold under public-market pressure. The S-1 also warns of risks including self-preserving behaviors in AI models."
    ],
    "pullQuote": {
-    "text": "Anthropic has priced its long-awaited IPO at $83 per share",
-    "by": "TechCrunch"
+    "text": "We will not bend to either business nor political pressure.",
+    "by": "Dario Amodei, Anthropic CEO"
+   }
+  }
+ },
+ "b4420b34b762": {
+  "storyId": "b4420b34b762",
+  "itemIds": [
+   "b4420b34b762",
+   "0cefd4c68688",
+   "d9d2fba47fd3"
+  ],
+  "writtenAt": "2026-11-19T23:38:49.761Z",
+  "headline": "Meta staff warned Muse AI agent may leak private data, Reuters reports",
+  "dek": "Internal Meta chats seen by Reuters show employees flagging Muse, the company's consumer AI agent, for apparent cross-account leaks and bank balances; Meta calls them isolated hallucinations caused by a bug that is now fixed.",
+  "keyPoints": [
+   "Reuters reviewed internal Meta posts in which staff said Muse seemed to mix up conversations across accounts and surface bank balances, orders and messages that were not theirs.",
+   "One staffer reported a message citing Capital One and Charles Schwab balances; Reuters says it could not establish whether the data was real or invented.",
+   "Meta spokesperson Daniel Roberts called the cases 'isolated incidents' and hallucinations; Meta's David Singleton said a bug caused them, was not a security or privacy issue, and is fixed.",
+   "Inc. reporter Jason Aten said Muse synced 187k lines from his Messages database with Full Disk Access off; Meta says access was likely enabled.",
+   "Muse launched in September and has more than 10 million downloads, per TechCrunch."
+  ],
+  "context": "Muse is Meta's consumer AI agent, launched in September and promoted heavily by chief AI officer Alexandr Wang. It enters a crowded agent race against OpenAI and others, where products that act on a user's behalf need broad access to personal data. Reports of unexpected data access test whether users will trust such agents.",
+  "whatsNext": "Watch for whether Meta answers Reuters' unanswered questions on how common and persistent the issues were, and whether regulators or users press for independent verification of the fix.",
+  "article": {
+   "whatHappened": [
+    "Reuters has reported that Meta employees raised internal alarms about Muse, the company's consumer AI agent, while testing it. According to the posts, staff said Muse appeared to access encrypted private messages users did not expect it to review, might be mixing up conversations between accounts, and could be sharing sensitive information.",
+    "Examples included unprompted pings about money laundering, a coffee table pickup that 'doesn't seem to be yours,' and childcare requests and product orders staffers never made. One employee chatting about fishing received a message giving two bank balances. Another said Muse reminded her to reply to her sister on Signal, which she had not connected to it, calling it 'an extreme privacy violation.'",
+    "One staffer said Muse switched their dog's insurance to a plan costing $888 a month instead of $200. Reuters said it could not establish whether Muse was giving users other people's financial data or inventing it.",
+    "Meta spokesperson Daniel Roberts called the cases 'isolated incidents' and said the agent appeared to be hallucinating in response to built-in prompts pushing it to engage users between sessions. Meta also said employees test different versions of Muse than the public, and that testing exists to surface such problems."
+   ],
+   "whyItMatters": [
+    "The episode follows public complaints in September. Inc. reporter Jason Aten said Muse synced 187k lines from his Messages database although he had turned Full Disk Access off. Meta's David Singleton said an update telling Muse how to ask for confirmation before acting was applied to every message, and was delivered in a way the model was not trained to expect. He said this caused hallucinations, was not a security or privacy issue, and has been fixed.",
+    "The two accounts do not fully line up. Meta describes hallucination, but Reuters says it cannot tell fabricated balances from real ones, and Meta declined to say how widespread or persistent the problems were. Aten also disputed Meta's explanation of his case. Agents that act across a user's apps and messages carry higher privacy stakes than chatbots, so even invented financial details erode trust.",
+    "Muse's growth raises the stakes. TechCrunch reports more than 10 million downloads since the September launch, making it one of the fastest-growing apps on record."
+   ],
+   "whatToWatch": [
+    "Key open questions are how often the behavior occurred, whether it persisted after the fix, and whether any real user data was exposed. Meta has not answered Reuters on prevalence, and there is no independent verification of the fix in the coverage."
+   ],
+   "pullQuote": {
+    "text": "This seems like an extreme privacy violation. I definitely did not grant it access to other apps, or recall being asked about this",
+    "by": "Meta employee, quoted by TechCrunch from Reuters"
    }
   }
  },
@@ -2266,6 +2271,45 @@
    "pullQuote": {
     "text": "Workspaces makes it a truly multiplayer experience, where people and agents drive towards a common goal, with shared context.",
     "by": "Satya Nadella, Microsoft CEO"
+   }
+  }
+ },
+ "be373132dcb8": {
+  "storyId": "be373132dcb8",
+  "itemIds": [
+   "be373132dcb8"
+  ],
+  "writtenAt": "2026-11-19T23:38:26.021Z",
+  "headline": "Anthropic says Claude solved two open problems in black hole physics",
+  "dek": "Anthropic reports Claude completed a 20-year-old calculation showing an abrupt black hole phase transition persists in a quantum regime, and found the exact limit of the simplest bootstrap technique; preprints are published.",
+  "keyPoints": [
+   "Anthropic says Claude completed a calculation set out in 2003 and never solved, showing the black hole phase transition remains abrupt where spacetime has no definite shape.",
+   "Claude reportedly did this by running a small research group of copies of itself, working out nearly every piece independently and checking against known results.",
+   "The second result is the exact limit on the simplest version of a bootstrap technique used to test candidate quantum gravity theories, in a two-space-dimension model universe.",
+   "Anthropic says Claude Fable 5.2 spotted a pattern in numerical results that physicists missed, then borrowed a method from elsewhere in math and physics.",
+   "Anthropic says neither result describes our universe directly or has practical applications; two preprints have been posted."
+  ],
+  "context": "Hawking and Page showed in 1983 that heating a theoretical universe triggers an abrupt switch from a gas of particles to a black hole, but their calculation relies on general relativity. Holographic duality lets physicists attack the regime where that fails from the quantum side. AI systems solving open research problems is a growing claim among labs, and this one comes with preprints that physicists can check.",
+  "whatsNext": "Watch for independent physicists' assessment of the two preprints, which will test whether the results hold up.",
+  "article": {
+   "whatHappened": [
+    "Anthropic says its Claude model has solved two open problems in theoretical physics, both concerning black holes and the search for a theory of quantum gravity. The company published a post explaining the findings in plain terms and in technical detail, along with two preprints.",
+    "The first problem concerns a phase transition. In 1983, Stephen Hawking and Don Page showed that heating a theoretical universe makes it switch abruptly from a gas of particles to a black hole. Their method fails when the universe shrinks toward the scale where spacetime becomes blurry. A 1999 finding showed a transition exists in that regime, but not whether it was abrupt or smooth. A 2003 group set out the calculation to settle it, but it was never completed.",
+    "Anthropic says Claude completed it by running a small research group of copies of itself, which worked out almost every piece independently and checked the math against known results. The result is that the transition is abrupt. Anthropic says this suggests black hole formation is built into the underlying quantum theory, not just a feature of relativity.",
+    "The second problem involves a simplified universe with two dimensions of space. Since 2009, physicists have used a technique called bootstrapping to set a ceiling on how heavy the lightest black hole could be, ruling out theories that break it. Numerical results hinted at the best possible ceiling, but the best proven one was well short of it. Anthropic says Claude Fable 5.2 noticed a pattern in those numbers that physicists had missed, borrowed a method from elsewhere in math and physics, and calculated the precise ceiling for the simplest version of the technique, proving it could not be lowered."
+   ],
+   "whyItMatters": [
+    "General relativity and quantum mechanics are both highly successful but mathematically incompatible, and reconciling them is one of physics' biggest goals. Black holes are a natural testing ground because both frameworks matter there. Holographic duality lets researchers turn hard gravity questions into quantum ones, which is the route both results take.",
+    "Anthropic is careful about the scope. It says neither result describes our own universe directly, and neither has practical applications. The bootstrap result does not identify the correct theory of quantum gravity, though Anthropic says it may point physicists in the right direction.",
+    "The more notable claim may be about method. Anthropic describes an AI system choosing from a list of candidate problems, working on them with multiple agents that read each other's progress, and producing a calculation that the field had left unfinished for two decades. Whether that holds up depends on scrutiny of the preprints, which the coverage does not yet include."
+   ],
+   "whatToWatch": [
+    "The main open question is outside verification. The coverage is Anthropic's own account, so reactions from physicists who work on holographic duality and bootstrap methods will show how significant the results are.",
+    "The post also describes how the work began: Anthropic researcher Hongbin Chen asked Claude for a list of open problems, and Claude returned 22 candidates, each assigned to separate agents. How many of those produced results is a detail worth looking for in the full post."
+   ],
+   "pullQuote": {
+    "text": "Neither result describes our own universe directly, and neither has practical applications, but both contribute to a long-running theoretical effort",
+    "by": "Anthropic"
    }
   }
  },
@@ -2848,40 +2892,37 @@
    "246fea28a789",
    "54bca3b9a46d",
    "0e23395eb734",
-   "74ced3375481"
+   "74ced3375481",
+   "2fc737ddb995",
+   "6d268a6234bb"
   ],
-  "writtenAt": "2026-11-18T23:27:46.555Z",
+  "writtenAt": "2026-11-19T23:39:01.672Z",
   "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-  "dek": "Nvidia announced Thursday that Huang, co-founder and CEO for 33 years, resigned after reports of a second alleged affair, this one with an executive who reports to him. CFO Colette Kress takes over on an interim basis.",
+  "dek": "Nvidia announced Thursday that Huang resigned after reports of a second alleged affair, with an executive, days after he admitted a separate affair; Colette Kress is interim CEO and the stock fell over 7%.",
   "keyPoints": [
-   "Nvidia announced Huang's resignation Thursday morning, naming CFO Colette Kress interim CEO, after the WSJ reported the board was preparing to dismiss him.",
-   "The New York Times reported a second alleged affair, with VP of health care Kimberly Powell, days after Huang admitted a relationship with Megaspeed executive Alice Huang, alleged to be a Chinese spy.",
-   "Nvidia shares fell about 7 to 8 percent in after-hours trading Wednesday and were down about 11 percent over five days, per TechCrunch.",
-   "Nvidia has no clear succession plan, and Bloomberg reports it is working with an outside firm to identify possible CEO candidates.",
-   "Elon Musk said hiring Huang 'would be an honor' and compared his exit to kicking Michael Jordan off a winning team."
+   "Nvidia announced Huang's resignation Thursday morning, saying CFO Colette Kress has been appointed interim CEO. Reuters reports it took effect immediately.",
+   "The Wall Street Journal reported the board was preparing to dismiss Huang. The New York Times reported a second alleged affair, with Kimberly Powell, VP of health care.",
+   "Huang admitted Sunday to an affair with Alice Huang, a Megaspeed executive described as a purported Chinese spy by U.S. intelligence, per TechCrunch and The Verge.",
+   "Nvidia stock fell more than 7% to about 8% in after-hours trading Wednesday, and was down about 11% over five days, TechCrunch reports.",
+   "Nvidia reportedly has no clear succession plan and is working with an outside firm on candidates, per Bloomberg via TechCrunch. Elon Musk said hiring Huang 'would be an honor.'"
   ],
-  "context": "Huang co-founded Nvidia and built it into one of the world's most valuable companies on demand for AI chips. He is known for running the company with little delegation, so his abrupt exit leaves a gap at the center of the AI hardware supply chain. The case also raises questions about oversight at a company whose business is entangled with US-China export policy.",
-  "whatsNext": "Watch for who the board names as permanent CEO, and for the results of the Wachtell, Lipton investigation into the first alleged relationship.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years, through its rise as the main supplier of chips for the AI boom. The company is among the world's most valuable, and Huang has been closely identified with it and known for delegating little. His departure over a personal scandal with national security overtones is a sudden leadership break at a company central to AI infrastructure.",
+  "whatsNext": "Watch for how the board handles the CEO search, with Kress serving as interim, and whether the Wachtell-led investigation reports findings.",
   "article": {
    "whatHappened": [
-    "Nvidia said Thursday morning that Jensen Huang has resigned as chief executive, with CFO Colette Kress appointed interim CEO. Reuters reported the resignation as effective immediately. The announcement came hours after The Wall Street Journal reported that Nvidia's board was preparing to dismiss Huang and could meet as soon as Wednesday night to decide his future.",
-    "The Journal's report followed a New York Times story that Huang had a second extramarital affair, allegedly with Kimberly Powell, Nvidia's vice president of health care, who reports to him. Two unnamed sources told the Times that Huang and Powell, both married to other people, were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video.",
-    "The reports came days after Huang admitted, on Sunday, to an extramarital relationship with Alice Huang, a Megaspeed executive whom US intelligence reportedly considers a Chinese spy. Nvidia retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to investigate. The Verge notes the board's move suggests it did not wait for those results.",
-    "Nvidia shares fell about 7 to 8 percent in after-hours trading Wednesday, according to The Verge and TechCrunch, and were down about 11 percent over the previous five days."
+    "Nvidia announced Thursday morning that Jensen Huang has resigned as chief executive, and that CFO Colette Kress has been appointed interim CEO. Reuters reports the resignation took effect immediately. The announcement followed reports on Wednesday that the board was preparing to dismiss him and could meet as soon as that night.",
+    "The Wall Street Journal first reported the board's plans. They came after The New York Times reported that Huang had a second alleged extramarital affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to him. Two unnamed sources told the Times the pair were allegedly captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
+    "The reports came days after Huang admitted, on Sunday, to an affair with Alice Huang, a Megaspeed executive whom U.S. intelligence is described as believing to be a Chinese spy. Nvidia said it had retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. Nvidia stock fell more than 7 percent in after-hours trading Wednesday, according to The Verge; TechCrunch put the drop at about 8 percent."
    ],
    "whyItMatters": [
-    "Huang has led Nvidia for 33 years, and the company has become central to the AI boom by designing the chips that power it. According to TechCrunch, he delegates little, has said he has about 60 direct reports, and the company has had no obvious successor or succession plan. Bloomberg reports Nvidia is working with an outside firm to identify candidates.",
-    "The allegations also carry a governance dimension. The second alleged relationship involves a direct report, and the first involves an executive at a company the coverage describes as tied to alleged Chinese espionage. An unnamed source told CNBC that rumors about Huang and Powell had circulated at Nvidia for some time. Wired reported that Huang hired a crisis communications firm last year; that firm's founder has advised powerful men facing public scrutiny.",
-    "Reaction was quick. Elon Musk said on X that hiring Huang 'would be an honor.' Whether Huang takes another leadership role is unknown, and the coverage offers no indication of his plans."
+    "Huang has run Nvidia for 33 years, and the company designs the chips that power much of the AI industry. TechCrunch notes he has said he has about 60 direct reports and delegates very little, and that Nvidia has not had an obvious successor or a succession plan. Bloomberg reports the company is working with an outside firm to identify candidates.",
+    "The Verge notes the board appears to have acted without waiting for the results of the outside investigation it had commissioned. That suggests the board concluded the second allegation, involving a direct report, could not be handled through the existing process. This is an inference from the sequence of events, not something Nvidia has said.",
+    "The stock had already fallen about 11 percent over five days, per TechCrunch. Investors and customers will be watching how stable the company's strategy and product roadmap remain under an interim chief financial officer turned CEO."
    ],
    "whatToWatch": [
-    "The main open question is succession: whether Kress remains interim for long, and whether the board turns to an outsider. The Verge flagged one speculative name, Arm's CEO, but the coverage gives no confirmation that any candidate has been approached.",
-    "Also watch the outcome of the law-firm investigation, any further disclosures about the allegations involving Powell, and how Nvidia's stock trades when markets react to the formal resignation."
-   ],
-   "pullQuote": {
-    "text": "It’s like kicking Michael Jordan off your team when you’re on a winning streak.",
-    "by": "Elon Musk"
-   }
+    "Key questions are whether Kress remains interim for long, who the board selects as a permanent successor, and whether it names an outside candidate. Nvidia did not immediately comment to The Verge on the earlier reports.",
+    "Also open are what the Wachtell investigation finds and what happens to Powell's role. Elon Musk posted on X that hiring Huang 'would be an honor,' but no next position for Huang has been announced."
+   ]
   }
  },
  "e874f1181e68": {
