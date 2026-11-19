@@ -15003,7 +15003,7 @@
    "Anthropic",
    "Dario Amodei"
   ],
-  "storyId": "11e4ac4d1092"
+  "storyId": "ebd9eb949639"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
@@ -15284,7 +15284,7 @@
    "Citi"
   ],
   "imageCheckedAt": "2026-11-18T23:26:36.494Z",
-  "storyId": "6ae82bdc3864"
+  "storyId": "d4aa84cab004"
  },
  {
   "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
@@ -15674,5 +15674,391 @@
    "AWS"
   ],
   "storyId": "f8ba41dfccb1"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.24654",
+  "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "snippet": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model, CurvDelta constructs a low-curvature space in which parameter updates leave the preservation loss nearly invariant. We make its construction practical for LLMs through Kronecker-factored approximate cu…",
+  "score": 20,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24654.png",
+  "id": "05ddd2e6c108",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "CurvDelta constrains LLM adaptation updates to a low-curvature space, using Kronecker-factored curvature approximations, so fine-tuning or unlearning leaves general capabilities mostly intact.",
+  "whyItMatters": "It targets catastrophic forgetting in fine-tuning, a practical concern for builders adapting models.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CurvDelta"
+  ],
+  "storyId": "05ddd2e6c108"
+ },
+ {
+  "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+  "title": "AI will not make you rich (2025)",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-19T01:51:28.000Z",
+  "score": 104,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50555093",
+  "id": "07bd5650afd3",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "An essay from 2025 argues AI will not make you rich.",
+  "category": "business",
+  "importance": 1,
+  "entities": [],
+  "storyId": "07bd5650afd3"
+ },
+ {
+  "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "title": "Anthropic prices initial public offering",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T23:30:09.000Z",
+  "score": 322,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50553843",
+  "id": "25c96fa5a216",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Anthropic has priced its initial public offering, per its own announcement.",
+  "whyItMatters": "The first major frontier-lab IPO sets a precedent for how public markets value AI labs.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+  "imageCheckedAt": "2026-11-19T14:30:52.449Z",
+  "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+  "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-18T23:45:00.000Z",
+  "snippet": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773699.jpg?resize=857,1200",
+  "id": "2cf389d7c377",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Satya Nadella said much critical infrastructure is 'unpatchable' amid fears of AI-driven cyberattacks, while downplaying the recent Outlook outage and noting AI brings both opportunities and security challenges.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Satya Nadella",
+   "Microsoft"
+  ],
+  "imageCheckedAt": "2026-11-19T14:30:52.390Z",
+  "storyId": "698ced14e342"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+  "title": "Canva adds an AI ‘off’ button",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-19T12:30:00.000Z",
+  "snippet": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered feature on Canva, however. That includes Canva's background remover and its Magic Grab tool, which lets you select an object in an image and move it somewhere else. Canva says these tools will stay on because they \"make everyday tasks faster without generating anything new.\" T…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25355957/STK263_CANVA_D.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "347bf623eecf",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Canva now lets users turn off its generative AI features such as Magic Expand and chatbot image generation, though tools like background remover and Magic Grab stay on.",
+  "whyItMatters": "Opt-out controls are becoming a product expectation.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Canva"
+  ],
+  "storyId": "347bf623eecf"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.24869",
+  "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "snippet": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that restored worlds follow the established rules. The latter requires accurately realizing rule-induced ch…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24869.png",
+  "id": "35abad2cd0b4",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "WorldRuler is an interactive world model that follows user-defined game rules, preserving rules across save/load and realizing rule-induced changes visually.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "WorldRuler"
+  ],
+  "storyId": "35abad2cd0b4"
+ },
+ {
+  "url": "https://www.gdmunion.co.uk",
+  "title": "DeepMind Employees Are Unionising",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-19T09:28:56.000Z",
+  "score": 91,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50557885",
+  "id": "488834721fb0",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "DeepMind employees are unionising.",
+  "whyItMatters": "Labour organising inside a top lab could shape AI workplace and safety norms.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Google DeepMind"
+  ],
+  "imageCheckedAt": "2026-11-19T14:30:52.364Z",
+  "storyId": "488834721fb0"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.23068",
+  "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-16T19:00:00.000Z",
+  "snippet": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods fail to propose better artifacts, but because noisy evaluations cannot reliably identify them. Across seven evolution methods and six models (over 10M LLM calls), we find support for the hypothesis at…",
+  "score": 28,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23068.png",
+  "id": "694c53c6c734",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "A paper proposes the Resolution Hypothesis: agent evolution loops (proposing prompts, skills, memories and keeping higher scorers) stall because noisy evaluations can't reliably identify improvements. Tested across seven methods and six models with over 10M LLM calls.",
+  "whyItMatters": "If you build self-improving agents, investing in less noisy evaluation may matter more than better proposers.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "694c53c6c734"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+  "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-19T13:00:00.000Z",
+  "snippet": "Siri Recap can be turned on or off manually from the wrist. Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can remember better and, hopefully, stay more present. The main difference is that Amazon's Bee takes a maximalist (and frankly reality-bending) approach, whereas Apple is going for a more minimalist, privacy-first take. Both, however, require explicit …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "7cd396eaf07a",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "A review compares Apple's Siri Recap on Apple Watch Ultra 4 and Amazon's Bee Frontier, both wearables that listen ambiently and summarize conversations; Apple is minimalist and privacy-first, Amazon maximalist.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Apple",
+   "Amazon",
+   "Siri Recap",
+   "Bee Frontier"
+  ],
+  "storyId": "7cd396eaf07a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.24154",
+  "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "snippet": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that co-develops game environments and players to collect diverse and verifiable gameplay experience at scale. In the Game2Player loop, a Builder agent adapts existing web games, exposes their internal st…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24154.png",
+  "id": "7fc09e03d574",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Game2Player is a framework where a Builder agent adapts existing web games and exposes their state to collect diverse, verifiable gameplay data at scale for training visual agents.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Game2Player"
+  ],
+  "storyId": "7fc09e03d574"
+ },
+ {
+  "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+  "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-19T00:29:45.000Z",
+  "score": 240,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50554374",
+  "id": "9491587c1875",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Gemini 4 Neon appears to be a competitor to Anthropic's Opus 5.5, per early commentary.",
+  "whyItMatters": "It signals Google's mid-tier model pressing on Anthropic's top tier.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Gemini 4 Neon",
+   "Google",
+   "Opus 5.5"
+  ],
+  "imageCheckedAt": "2026-11-19T14:30:52.474Z",
+  "storyId": "b2c084a41275"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+  "title": "Superhuman pushes its Go assistant everywhere",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-19T14:00:00.000Z",
+  "snippet": "Superhuman is making Go its central agent and making it available in Docs and Mail",
+  "id": "97ccf1ecd5ed",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Superhuman is making its Go assistant its central agent and bringing it to Docs and Mail.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Superhuman",
+   "Go"
+  ],
+  "storyId": "97ccf1ecd5ed"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.24789",
+  "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "snippet": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabi…",
+  "score": 22,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24789.png",
+  "id": "ab298121176b",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "HINT-WAM is a hindsight-informed post-training method for world action models in robot manipulation, addressing shortcomings of offline supervised fine-tuning on expert trajectories.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "HINT-WAM"
+  ],
+  "storyId": "ab298121176b"
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/sumitomo-life",
+  "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-18T08:00:00.000Z",
+  "snippet": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+  "id": "b527b6f0ddce",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Sumitomo Life uses ChatGPT Enterprise for insurer research, proposal prep and drafting investment-analysis code, with early executive usage driving adoption.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "Sumitomo Life",
+   "ChatGPT Enterprise"
+  ],
+  "storyId": "b527b6f0ddce"
+ },
+ {
+  "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+  "title": "LLM assisted reverse engineering",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-18T22:29:13.000Z",
+  "score": 275,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50553225",
+  "id": "ba05f6db61a4",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "A write-up on using LLMs to assist with reverse engineering.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [],
+  "storyId": "ba05f6db61a4"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+  "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-19T14:25:37.000Z",
+  "snippet": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety more than other labs; its founders had left executive research positions at OpenAI. As the AI race has accelerated, though, its executives have emphasized that Anthropic can only fulfill this mission by coming in first place, requiring lots of money and compute. Unsurprisin…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c554d88a231d",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Anthropic's IPO raised $81.3 billion, the largest ever, beating SpaceX. The piece argues its safety-first reputation is now under pressure from the need for money and compute.",
+  "whyItMatters": "It sets a precedent for other AI lab listings.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+  "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-19T00:42:56.000Z",
+  "snippet": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Microsoft-Satya-Nadella.jpg?resize=1200,800",
+  "id": "c8a4b2ac137e",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Satya Nadella explained he offered buyouts to 60,000 Microsoft employees in October instead of another mass layoff, with AI as the underlying reason, though not in the obvious way.",
+  "whyItMatters": "It shows how AI is reshaping workforce strategy at big tech.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Satya Nadella",
+   "Microsoft"
+  ],
+  "imageCheckedAt": "2026-11-19T14:30:52.403Z",
+  "storyId": "698ced14e342"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.24738",
+  "title": "Jeveration: System One Models Now Generate",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "snippet": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predict…",
+  "score": 57,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24738.png",
+  "id": "eba1ef6c1e98",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Jeveration shows that 'System One' decision models like Jev can generate images in a single parallel forward pass, built on a frozen vision-language model with a shared random state to keep outputs coherent.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Jev"
+  ],
+  "storyId": "af19957a97c2"
+ },
+ {
+  "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+  "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-19T00:57:20.000Z",
+  "score": 104,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50554641",
+  "id": "ef341bf9e56e",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Black high school students are suing after an AI system mistook a Doritos bag for a gun.",
+  "whyItMatters": "It's a test case for liability over AI weapon-detection false positives.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [],
+  "image": "https://www.lawyerscommittee.org/wp-content/uploads/2026/09/Press-Statements-Blue-980x653-1.webp",
+  "imageCheckedAt": "2026-11-19T14:30:52.400Z",
+  "storyId": "ef341bf9e56e"
+ },
+ {
+  "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+  "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-19T07:07:43.000Z",
+  "snippet": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/6ba7e411-386b-45b6-b64e-592072c52abf/image.png?t=1795071522",
+  "id": "f0a746966ded",
+  "fetchedAt": "2026-11-19T14:30:31.314Z",
+  "enrichedAt": "2026-11-19T14:30:52.249Z",
+  "summary": "Google's Gemini 4 Neon, its middle-tier model, scores 61 on the Intelligence Index, positioned against Anthropic's Opus and Sol; Anthropic also priced its IPO at $83.",
+  "whyItMatters": "Google's mid-tier now contends with rivals' top models.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Gemini 4 Neon",
+   "Google DeepMind",
+   "Anthropic"
+  ],
+  "storyId": "b2c084a41275"
  }
 ]
