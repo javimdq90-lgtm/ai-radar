@@ -16316,7 +16316,7 @@
    "AI Mode",
    "Robby Stein"
   ],
-  "storyId": "7716f12c064d"
+  "storyId": "61a25aea7188"
  },
  {
   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
@@ -16547,7 +16547,7 @@
    "OpenAI",
    "Codex"
   ],
-  "storyId": "cb99e2baa62e"
+  "storyId": "a2fb00344062"
  },
  {
   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
@@ -16607,7 +16607,7 @@
    "OpenAI",
    "Codex"
   ],
-  "storyId": "e29ac258c013"
+  "storyId": "a2fb00344062"
  },
  {
   "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
@@ -16684,5 +16684,490 @@
    "WebRTC"
   ],
   "storyId": "e8e0a324c29d"
+ },
+ {
+  "url": "https://architectlabs.com/blog/frostbite",
+  "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T10:01:41.000Z",
+  "score": 291,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50572503",
+  "id": "000028228240",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Frostbite is a new CPU architecture reportedly discovered, designed and verified by AI.",
+  "whyItMatters": "If real, it shows AI doing end-to-end chip design work.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Frostbite"
+  ],
+  "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+  "imageCheckedAt": "2026-11-20T14:08:37.017Z",
+  "storyId": "000028228240"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26409",
+  "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning. The models are trained on a large-scale …",
+  "score": 36,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26409.png",
+  "id": "0cdac5c6e4a6",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "WeMM-Video is a family of open Chinese-English omni-modal models (2B, 4B, 9B, 35B-A3B) handling text, image, audio and video, with both a fast instruct mode and a thinking mode.",
+  "whyItMatters": "Offers open-weight options for audio-visual video understanding at several sizes.",
+  "category": "open-source",
+  "importance": 3,
+  "entities": [
+   "WeMM-Video"
+  ],
+  "storyId": "0cdac5c6e4a6"
+ },
+ {
+  "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+  "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-20T07:12:24.000Z",
+  "snippet": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/fa96cf86-1eeb-4a71-b823-1f70fc69815f/image.png?t=1795158325",
+  "id": "1177dfbd92c1",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Anthropic completed the largest IPO in history at a $1.5T valuation; ANT priced at $83, opened at $111.50 and closed at $97.17. Google also opened Genie 4 to developers.",
+  "whyItMatters": "Shows market appetite for frontier labs and gives developers access to Google's Genie 4 world model.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Anthropic",
+   "Google",
+   "Genie 4"
+  ],
+  "storyId": "1177dfbd92c1"
+ },
+ {
+  "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+  "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-20T00:00:00.000Z",
+  "image": "https://huggingface.co/blog/assets/harness-adapters-at-scale/thumbnail.png",
+  "id": "211fbe8009a4",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Hugging Face introduced harness adapters, which adapt a chosen model to an agent harness to improve performance and cost.",
+  "whyItMatters": "Could help builders get better results from the same model inside their agent setup.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Hugging Face"
+  ],
+  "imageCheckedAt": "2026-11-20T14:08:37.036Z",
+  "storyId": "211fbe8009a4"
+ },
+ {
+  "url": "https://latent.space/p/linear-scaling/",
+  "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-19T23:58:21.000Z",
+  "snippet": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+  "image": "https://i.ytimg.com/vi/x0VSm6IjcDQ/maxresdefault.jpg",
+  "id": "222a3317cded",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Linear COO Cristina Cordova discusses scaling go-to-market to $100M ARR, with over 50% of tickets written by agents and selling without SDRs or FDEs.",
+  "whyItMatters": "A concrete example of agent-heavy operations in a fast-growing software company.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Linear",
+   "Cristina Cordova"
+  ],
+  "storyId": "222a3317cded"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26414",
+  "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves effective navigation with zero navigation-domain SFT of the VLM brain. Rather than teaching the brain to predict geometric goals, we equip it with a semantic tool-calling interface for conveying movement…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26414.png",
+  "id": "279185ff611e",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "ZeroVLN performs vision-language navigation without any navigation-domain supervised fine-tuning of the VLM, using a semantic tool-calling interface to convey movement.",
+  "whyItMatters": "Avoids degrading the base VLM's general visual abilities.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ZeroVLN"
+  ],
+  "storyId": "279185ff611e"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+  "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-19T18:47:16.000Z",
+  "score": 110,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50564366",
+  "id": "2b5c9a768212",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Jacob Coxon and Robin Hanson debate whether governments should slow frontier AI development.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "Robin Hanson",
+   "Jacob Coxon"
+  ],
+  "storyId": "2b5c9a768212"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+  "title": "Apple may be developing its own AI agent that runs your Mac",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T00:56:01.000Z",
+  "snippet": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+  "id": "2ed09bbf2a0c",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Apple appears to be developing its own AI agent that controls a Mac, to compete with agents from Meta, Anthropic and OpenAI.",
+  "whyItMatters": "Apple entering OS-level agents would shape how agents reach mainstream desktop users.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Apple",
+   "Meta",
+   "Anthropic",
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-20T14:08:36.994Z",
+  "storyId": "b24c1081da70"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26107",
+  "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretrained vision language model can be directly extended into a unified model with extensive parameter sharing. Specifically, HiUni reuses the same language-aligned ViT and dense Transformer backbone for…",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26107.png",
+  "id": "3b627af7791c",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "HiUni extends a pretrained vision-language model into a unified understanding-and-generation model by sharing the same ViT and dense Transformer backbone across both tasks.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "HiUni"
+  ],
+  "storyId": "3b627af7791c"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+  "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T00:43:50.000Z",
+  "snippet": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
+  "id": "4aacf31011a3",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each received about $280 million, nearly $2B in total, while the company raised nearly $105 billion.",
+  "whyItMatters": "Marks the record-setting scale of capital flowing to a frontier lab.",
+  "category": "business",
+  "importance": 5,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-20T14:08:36.991Z",
+  "storyId": "4aacf31011a3"
+ },
+ {
+  "url": "https://openai.com/business/learn/deploying-daybreak-red",
+  "title": "Deploying Daybreak Red",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-19T00:00:00.000Z",
+  "snippet": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+  "id": "4b08ec50268e",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "OpenAI published a reference architecture for supervised security investigations with Daybreak Red, covering safety controls, setup and monitoring.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Daybreak Red"
+  ],
+  "storyId": "a2fb00344062"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26444",
+  "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnost…",
+  "score": 44,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26444.png",
+  "id": "63dbb81e2a2d",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Mind2Act World is a diagnostic benchmark for robotic manipulation that separates history-based reasoning, physical execution, and their composition to show where failures originate.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Mind2Act World"
+  ],
+  "storyId": "63dbb81e2a2d"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26380",
+  "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the wearer's overall activity with timed steps whose narration adapts to varying perceptual demands and marks key moments at specific timestamps. We develop a coarse-to-fine annotation…",
+  "score": 22,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26380.png",
+  "id": "77e0a0e89a0e",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "EgoCaptioner is a framework for fine-grained egocentric video captioning that pairs a video-level overview with timed step narrations, aimed at fixing missed actions and wrong ordering in MLLMs.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "EgoCaptioner"
+  ],
+  "storyId": "77e0a0e89a0e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+  "title": "Six AI-powered gadgets that could make your home office smarter",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T14:00:00.000Z",
+  "snippet": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+  "id": "912ce9389b49",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "A roundup lists six AI-powered gadgets for home offices, from notetakers to webcams.",
+  "category": "products",
+  "importance": 1,
+  "entities": [],
+  "storyId": "912ce9389b49"
+ },
+ {
+  "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+  "title": "What Comes After AGI?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T02:44:13.000Z",
+  "score": 102,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50569519",
+  "id": "93201ff2693e",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "DeepMind's institute publishes a piece titled 'What Comes After AGI?'",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Google DeepMind"
+  ],
+  "storyId": "93201ff2693e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26629",
+  "title": "Posterior Matching Distillation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26629.png",
+  "id": "a3bdd56a3a31",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Posterior Matching Distillation is a diffusion distillation method using mode-covering posterior sampling to keep sample diversity, unlike reverse-KL approaches, while supporting any-step generation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Posterior Matching Distillation"
+  ],
+  "storyId": "a3bdd56a3a31"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.25387",
+  "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same? CAPTCHAs offer a natural test, since humans solve them through this very loop, clicking and dragging on the screen and adjusting after each result. Yet existing CAPTCHA benchmarks are largely solved and rarely spatial, while spatial benchmarks rarely require action. We therefore present TuringSpace, a synthetic web environment of 125 interactive CAPTCHAs that span five spati…",
+  "score": 21,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25387.png",
+  "id": "b76cb2dfc7fd",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "TuringSpace is a synthetic web environment of 125 interactive CAPTCHAs across spatial categories, testing whether multimodal LLMs can infer 3D layout and act on it.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "TuringSpace"
+  ],
+  "storyId": "b76cb2dfc7fd"
+ },
+ {
+  "url": "https://www.bxfoundry.com/chatgpt_snes/",
+  "title": "ChatGPT for SNES",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T00:25:59.000Z",
+  "score": 106,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50568548",
+  "id": "d6421e349b9b",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "A project brings ChatGPT to the SNES, the Super Nintendo console.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "ChatGPT",
+   "SNES"
+  ],
+  "storyId": "d6421e349b9b"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.24408",
+  "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "snippet": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a scene reconstructed from its own frames or a camera trajectory aligned to the command path with a free scale. Such references can absorb gradual scene deformation and changes in pace and route length, so these errors can pass undetected. We therefore introduce StrideWorld, a benchm…",
+  "score": 15,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24408.png",
+  "id": "d6624a4f03c3",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "StrideWorld is a new benchmark for interactive video world models that tests scene rigidity and action consistency without references fitted to the video under test, which can hide gradual deformation and pacing errors.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "StrideWorld"
+  ],
+  "storyId": "d6624a4f03c3"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26603",
+  "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces depth maps that are metrically accurate, sharp, and temporally consistent all at once, outperforming pr…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26603.png",
+  "id": "db4bd6cbca20",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Depth Pro 2 is a single network estimating metric depth for images and video at native resolution, claiming sharp boundaries and temporal consistency together.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Depth Pro 2"
+  ],
+  "storyId": "db4bd6cbca20"
+ },
+ {
+  "url": "https://notesbylex.com/weight-space-programming-1990s",
+  "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-17T22:11:46.000Z",
+  "score": 109,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50538977",
+  "id": "e40d9b875049",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "A post describes Weight-Space Programming, an approach that builds neural networks by directly setting weights, in the manner of 1990s researchers.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "e40d9b875049"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26590",
+  "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare…",
+  "score": 28,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
+  "id": "eb4d2df7b718",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Researchers introduce MC-Lens, a multimodal Jacobian lens, to test whether vision-language models show global-workspace-like selective access and integration of concepts.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "MC-Lens"
+  ],
+  "storyId": "eb4d2df7b718"
+ },
+ {
+  "url": "https://git-aarvin.github.io/mei/",
+  "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-19T23:35:35.000Z",
+  "score": 356,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50568130",
+  "id": "ed33061e28b0",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Gemini 4 Neon is reported as the new top-ranked model on the Models Engineering Index.",
+  "whyItMatters": "Signals a new leader on a third-party ranking, though the index's credibility is unclear.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Gemini 4 Neon",
+   "Google"
+  ],
+  "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
+  "imageCheckedAt": "2026-11-20T14:08:36.976Z",
+  "storyId": "b2c084a41275"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26595",
+  "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve …",
+  "score": 29,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26595.png",
+  "id": "f6990214f0b6",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Coda-DaVinci studies Code2Video, where agent-written 3D proxies guide video generation, finding coarse proxies favor natural motion while medium-grained ones favor consistency; physics simulation and aligned prompts help further.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Coda-DaVinci",
+   "Code2Video"
+  ],
+  "storyId": "f6990214f0b6"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+  "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-20T12:30:47.000Z",
+  "snippet": "Signal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president Meredith Whittaker said in a blog post, while urging OS providers to make it easier fo…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "ff3559dcabff",
+  "fetchedAt": "2026-11-20T14:08:18.314Z",
+  "enrichedAt": "2026-11-20T14:08:36.949Z",
+  "summary": "Signal is restricting screenshots on Android and iOS to stop OS-level AI agents such as Gemini and Siri from reading users' messages; president Meredith Whittaker says these agents undermine Signal's ability to guarantee privacy.",
+  "whyItMatters": "Highlights a growing privacy conflict between app developers and OS-integrated agents.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Signal",
+   "Meredith Whittaker",
+   "Gemini",
+   "Siri"
+  ],
+  "storyId": "ff3559dcabff"
  }
 ]
