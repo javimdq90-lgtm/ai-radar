@@ -16745,7 +16745,7 @@
    "Google",
    "Genie 4"
   ],
-  "storyId": "1177dfbd92c1"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
@@ -16885,7 +16885,7 @@
    "Anthropic"
   ],
   "imageCheckedAt": "2026-11-20T14:08:36.991Z",
-  "storyId": "4aacf31011a3"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://openai.com/business/learn/deploying-daybreak-red",
@@ -17169,5 +17169,471 @@
    "Siri"
   ],
   "storyId": "ff3559dcabff"
+ },
+ {
+  "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+  "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-20T18:50:19.000Z",
+  "snippet": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a press conference Friday following his summit with China President Xi Jinping and Russia President Vladimir Putin. \"They allowed that to happen with chips and everything else, and it was very destructive to our country. It's where we started going behind.\" Should the US allow d…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "08b074f7bce0",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Trump promised a 'tremendous tax' on companies building AI data centers outside the US, after a summit with Xi Jinping and Putin, while US localities restrict new data center applications.",
+  "whyItMatters": "Could reshape where AI infrastructure is built and its costs.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Donald Trump"
+  ],
+  "storyId": "08b074f7bce0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+  "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T19:32:08.000Z",
+  "snippet": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750",
+  "id": "321bf9e3c390",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "An AI-driven claimed solution to the 167-year-old Riemann hypothesis has surfaced, alongside a competing human-produced solution; mathematicians are reacting with astonishment.",
+  "whyItMatters": "Adds context and a complicating human claim to the Claude-assisted proof story.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "Riemann hypothesis"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:20.949Z",
+  "storyId": "f1b7c64ada91"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26073",
+  "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators. However, in many large-scale annotation settings, items are annotated by different subsets of annotators. We therefore propose the Alternative Annotator Test with Resampled Annotations (AltRA-Test), a statistical test that does not require that all items are annotat…",
+  "score": 20,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26073.png",
+  "id": "399e786b295d",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Researchers propose AltRA-Test, a statistical test for deciding whether an LLM judge can replace human annotators when items are labeled by different subsets of annotators. It extends the earlier Alt-Test, which required the same annotators for every item.",
+  "whyItMatters": "Gives teams using LLM-as-judge a more rigorous way to justify replacing human graders in large-scale annotation setups.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "AltRA-Test",
+   "Alt-Test"
+  ],
+  "storyId": "399e786b295d"
+ },
+ {
+  "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+  "title": "Vibecoding an inference chip",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T18:15:16.000Z",
+  "score": 95,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50579297",
+  "id": "3e30621eb1a8",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "A developer describes vibecoding an inference chip design with AI assistance.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [],
+  "storyId": "3e30621eb1a8"
+ },
+ {
+  "url": "https://openai.com/index/combatting-adversarial-distillation",
+  "title": "Combatting adversarial distillation",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-20T10:00:00.000Z",
+  "snippet": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+  "id": "3ea993db7e3c",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "OpenAI outlines a layered defense against adversarial distillation, combining model training, safeguards, detection and enforcement to stop capability extraction from its models.",
+  "whyItMatters": "Signals tighter API controls against rivals training on model outputs, which may affect legitimate API users too.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:21.049Z",
+  "storyId": "3ea993db7e3c"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+  "title": "Google rolls out new search homepage with AI chat history and no search button",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-20T21:58:29.000Z",
+  "snippet": "Google search is making it even easier to access AI tools on the search page.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
+  "id": "4d6c192ff862",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Google is rolling out a new search homepage with AI chat history and no search button, making AI tools easier to reach.",
+  "whyItMatters": "Signals Google pushing AI chat to the center of search.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Google"
+  ],
+  "storyId": "61a25aea7188"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+  "title": "The most misunderstood graph in AI just got a major update",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-20T18:15:15.000Z",
+  "snippet": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600",
+  "id": "583b7a1c7413",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "METR updated its time horizon plot, finding some AI capabilities still improve exponentially but models are weaker on judgment-heavy tasks than on coding.",
+  "whyItMatters": "A key benchmark for tracking agent progress now shows uneven gains beyond coding.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "METR"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:20.979Z",
+  "storyId": "583b7a1c7413"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+  "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T19:53:41.000Z",
+  "snippet": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+  "id": "59fa562eab8a",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher.",
+  "whyItMatters": "Reflects AI talent and money moving toward energy for compute.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Daniel Ek",
+   "Europa Fusion"
+  ],
+  "storyId": "59fa562eab8a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26268",
+  "title": "Accelerating Mixture of Block Attention via Dynamic Routing, KV-Centric Execution and Runtime Pipelining",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Mixture of Block Attention (MoBA) reduces long-context computation by selecting key-value (KV) blocks for each query. FlashMoBA implements MoBA efficiently but retains a fixed Top-k budget and query-centric schedule. Fixed Top-k applies one budget across different score distributions and couples routing to task granularity; query-range ownership fragments K/V reuse when several ranges select the same column. We present LightningMoBA, which co-designs selection and execution through dynamic routing, KV-centric ownership, and runtime pipelining. Dynamic routing thresholds MoBA's per-query block…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26268.png",
+  "id": "5e93d3e105c8",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "LightningMoBA speeds up Mixture of Block Attention for long contexts, using dynamic per-query routing instead of a fixed Top-k, KV-centric execution and runtime pipelining. It is pitched as an improvement over FlashMoBA.",
+  "whyItMatters": "Could cut long-context inference cost for models using block-sparse attention.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "LightningMoBA",
+   "MoBA",
+   "FlashMoBA"
+  ],
+  "storyId": "5e93d3e105c8"
+ },
+ {
+  "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+  "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-20T20:59:08.000Z",
+  "snippet": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
+  "id": "6e086317ffb3",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "A researcher planted 2 million canary secrets in prompts and found they surfaced in the AI supply chain, showing data submitted to AI services does not stay private.",
+  "whyItMatters": "Builders should assume prompt data may leak downstream.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "storyId": "6e086317ffb3"
+ },
+ {
+  "url": "https://huggingface.co/blog/inkling2mini",
+  "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-20T00:00:00.000Z",
+  "id": "80d31a6dee29",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Hugging Face announces Inkling 2 Mini, a model pitched for strong performance on local setups. No further details were provided.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Inkling 2 Mini"
+  ],
+  "storyId": "80d31a6dee29"
+ },
+ {
+  "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+  "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T16:59:27.000Z",
+  "score": 232,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50577901",
+  "id": "83f2b5d135af",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Google workers are urging the company not to punish schools that decline to adopt AI.",
+  "whyItMatters": "Shows internal pushback over AI in education.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Google"
+  ],
+  "storyId": "14c609265d0e"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+  "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-20T21:47:10.000Z",
+  "snippet": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-1152x648.jpg",
+  "id": "8bc8fed2fbe6",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Meta is re-evaluating its 2030 net-zero goal amid record emissions from AI data centers.",
+  "whyItMatters": "Shows AI buildout straining climate commitments at big tech.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Meta"
+  ],
+  "storyId": "8bc8fed2fbe6"
+ },
+ {
+  "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+  "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T17:44:01.000Z",
+  "score": 170,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50578794",
+  "id": "99527486f11f",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Anthropic shares fell after its IPO as the Nasdaq erased its 2026 gains.",
+  "whyItMatters": "A weak debut for a leading AI lab could chill AI investment sentiment.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic",
+   "Nasdaq"
+  ],
+  "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261120-new-york-stock-exchange-ew-513p-abd1ef.jpg",
+  "imageCheckedAt": "2026-11-20T23:10:21.440Z",
+  "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://arxiv.org/abs/2611.21885",
+  "title": "Language Models Can Rewrite Their Own Weights",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T16:29:06.000Z",
+  "score": 312,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50577265",
+  "id": "9fe3e937f57a",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "An arXiv paper titled 'Language Models Can Rewrite Their Own Weights' explores models modifying their own parameters. No details beyond the title were available.",
+  "whyItMatters": "Self-modifying models would be notable for capability and safety research.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+  "imageCheckedAt": "2026-11-20T23:10:20.862Z",
+  "storyId": "9fe3e937f57a"
+ },
+ {
+  "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+  "title": "Nvidia accounting under SEC investigation, sources say",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T20:22:41.000Z",
+  "score": 167,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50581438",
+  "id": "c69438672bb7",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Nvidia's accounting is under SEC investigation, according to sources.",
+  "whyItMatters": "A probe into the dominant AI chipmaker adds risk to the AI hardware market.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "SEC"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:21.114Z",
+  "storyId": "c69438672bb7"
+ },
+ {
+  "url": "https://latent.space/p/formal-verification/",
+  "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-20T21:18:41.000Z",
+  "snippet": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886",
+  "id": "c989db0d32fd",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "AI and the Lean proof assistant are helping automate formal verification of software, once specialist work, as a way to counter low-quality AI-generated code.",
+  "whyItMatters": "Formal verification could become a practical guard for AI-written code.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Lean"
+  ],
+  "storyId": "c989db0d32fd"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+  "title": "The week everything fell apart",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-20T14:06:59.000Z",
+  "snippet": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On this episode of The Vergecast, Nilay and David go through the week's many calamities, and try to explain both what happened in each case - which was generally much milder than the conspiracy theories would have you believe - and why all these small issues might still add up to …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_VST_111926_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cef6939d7b31",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/hebbia",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-20T00:00:00.000Z",
+  "snippet": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&h=900&fit=fill",
+  "id": "d15c45643214",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Hebbia's prerelease tests of OpenAI's GPT-6 Astra for financial research found gains in source coverage, citation relevance and presentation quality.",
+  "whyItMatters": "An early customer signal of GPT-6 Astra's performance on real-world analyst work.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Hebbia",
+   "OpenAI",
+   "GPT-6 Astra"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:20.975Z",
+  "storyId": "d15c45643214"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+  "title": "Chips can survive the space environment — can their financing?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T17:40:01.000Z",
+  "snippet": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+  "id": "e43240c9ae66",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Lenders are wary of financing chips launched into orbit on SpaceX rockets because the collateral would leave Earth, complicating financing for space data centers.",
+  "whyItMatters": "Financing hurdles could limit orbital AI compute plans.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "SpaceX"
+  ],
+  "storyId": "e43240c9ae66"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+  "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-20T14:55:44.000Z",
+  "snippet": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+  "id": "f0e77c900b9f",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Nvidia reported healthy earnings while dealing with fallout from ousting CEO Jensen Huang, and said it will stop selling H200 chips in China.",
+  "whyItMatters": "Leadership turmoil and the China exit affect the AI chip supply landscape.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "H200"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:20.953Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+  "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-20T16:34:13.000Z",
+  "snippet": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval already unleashed by OpenAI's previous, often inelegant forays into the field. Alpöge's solution has yet to be verified independently. Anthropic has not commented or involve…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f1b7c64ada91",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Anthropic mathematician Levent Alpöge claims to have proved the Riemann hypothesis with help from Claude. The proof has not been independently verified and Anthropic has not commented.",
+  "whyItMatters": "If verified, it would be a landmark AI-assisted mathematical result.",
+  "category": "research",
+  "importance": 5,
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "Levent Alpöge"
+  ],
+  "storyId": "f1b7c64ada91"
+ },
+ {
+  "url": "https://openai.com/index/introducing-medchembench",
+  "title": "Can AI help scientists identify promising drug candidates?",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-20T00:00:00.000Z",
+  "snippet": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+  "id": "f4784c304003",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "OpenAI describes MedChemBench, a benchmark testing how well AI models interpret molecular structures, reason from experimental evidence and select compounds in early drug discovery.",
+  "whyItMatters": "A new domain benchmark for measuring AI's usefulness in drug discovery.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "MedChemBench"
+  ],
+  "imageCheckedAt": "2026-11-20T23:10:20.910Z",
+  "storyId": "f4784c304003"
+ },
+ {
+  "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+  "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T13:29:59.000Z",
+  "score": 188,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50574383",
+  "id": "fda5004e845f",
+  "fetchedAt": "2026-11-20T23:09:59.159Z",
+  "enrichedAt": "2026-11-20T23:10:20.698Z",
+  "summary": "Global stock markets slumped as Anthropic's record IPO failed to halt an AI-driven sell-off.",
+  "whyItMatters": "Market reaction to the biggest AI IPO shapes funding sentiment across the sector.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
+  "imageCheckedAt": "2026-11-20T23:10:20.947Z",
+  "storyId": "b397f013e77f"
  }
 ]

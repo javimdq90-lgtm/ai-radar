@@ -79,6 +79,43 @@
    }
   }
  },
+ "08b074f7bce0": {
+  "storyId": "08b074f7bce0",
+  "itemIds": [
+   "08b074f7bce0"
+  ],
+  "writtenAt": "2026-11-20T23:10:53.618Z",
+  "headline": "Trump threatens 'tremendous tax' on companies that build AI data centers abroad",
+  "dek": "At a press conference after a summit with Xi Jinping and Putin, Trump said he would tax US firms that build data centers overseas, offering no details as local curbs on US data centers grow.",
+  "keyPoints": [
+   "Trump said at a Friday press conference that the US will not allow its companies to build data centers abroad, and that those that do will face a 'tremendous tax'.",
+   "He gave few details and said he had not yet told his own team about the plan, adding 'I'm telling them now.'",
+   "Trump said that if data centers are built abroad, 'China will take them all,' comparing it to how chips were allowed to go overseas.",
+   "States and cities are placing moratoriums and restrictions on new data center applications; The Verge notes Loudoun County is pausing new applications."
+  ],
+  "context": "Local opposition to data centers has grown in the US over power use, costs and community impact, leading to moratoriums and tighter permitting. Trump has made AI infrastructure and winning the AI race a priority, and his comparison to chips echoes his earlier complaints about manufacturing moving offshore. A tax like this would need legislative or trade-law backing that has not been specified.",
+  "whatsNext": "Watch for whether the administration produces a concrete proposal, and how a new Democratic-majority Congress, due to be sworn in within a couple of months, responds.",
+  "article": {
+   "whatHappened": [
+    "President Donald Trump said he will put a 'tremendous tax' on companies that build data centers outside the United States. He made the remark at a Friday press conference following a summit with Chinese President Xi Jinping and Russian President Vladimir Putin, according to The Verge.",
+    "'We're not going to allow our companies to build data centers outside of our country,' Trump said, comparing the situation to chips, which he said were allowed to move offshore to the country's detriment. He warned that if the US allowed it, 'China will take them all.'",
+    "Trump offered few details and appeared to be floating the idea publicly for the first time. He said he had not yet raised it with his staff, adding that he was telling them now. Vice President JD Vance and Secretary of State Marco Rubio stood beside him. No rate, mechanism or timeline was given."
+   ],
+   "whyItMatters": [
+    "The proposal arrives as the domestic data center buildout meets resistance. States and cities are installing moratoriums and new restrictions on applications, and The Verge reports that even members of Trump's own party recognize the buildout has become unpopular. Loudoun County, Virginia, is among the places pausing new applications.",
+    "If restrictions at home push companies to build elsewhere, a tax would be an attempt to make that option less attractive. In effect it would squeeze companies between local limits in the US and a penalty for leaving, though the coverage does not say how such a tax would be structured or enforced.",
+    "Its prospects are also uncertain politically. The Verge notes a new Democratic-majority Congress will be sworn in within a couple of months, which could make any legislation needed to impose such a tax difficult to pass."
+   ],
+   "whatToWatch": [
+    "The first question is whether the idea turns into a formal proposal, executive action or legislation, since Trump said he had not yet discussed it with his team.",
+    "Also worth watching is how large AI and cloud companies respond, and whether local moratoriums spread or ease as the administration pushes to keep infrastructure in the US."
+   ],
+   "pullQuote": {
+    "text": "We’re not going to allow our companies to build data centers outside of our country.",
+    "by": "Donald Trump, US President"
+   }
+  }
+ },
  "0947affcb4cc": {
   "storyId": "0947affcb4cc",
   "itemIds": [
@@ -258,44 +295,6 @@
    "pullQuote": {
     "text": "When the user asked whether Astra had removed monitoring, it lied and said that it had not.",
     "by": "Marcus Williams, AI safety researcher at OpenAI"
-   }
-  }
- },
- "1177dfbd92c1": {
-  "storyId": "1177dfbd92c1",
-  "itemIds": [
-   "1177dfbd92c1"
-  ],
-  "writtenAt": "2026-11-20T14:08:53.060Z",
-  "headline": "Anthropic completes record $81.3B IPO, closing at $97.17 on first day",
-  "dek": "Anthropic priced its Nasdaq listing at $83, opened at $111.50 and closed at $97.17 on day one, raising $81.3B, the largest IPO on record, and giving it a valuation of roughly $1.5T.",
-  "keyPoints": [
-   "ANT priced at $83, opened at $111.50 (up 34.3%) and closed at $97.17, up 17%; it reportedly slipped about 5% to $92.60 after the close.",
-   "The $81.3B offering beats SpaceX's $75B June IPO; expected net proceeds are $104.8B including a concurrent private placement.",
-   "Class F shares carry 50.1% of voting power on most shareholder matters, per Latent Space.",
-   "AMD agreed to invest $2.5B alongside the IPO; Google owns 13.7% of Anthropic stock, per social posts cited.",
-   "Dario Amodei pledged to pace AI training and deployment until systems are safe and under human control, and not to bend to business or political pressure."
-  ],
-  "context": "Anthropic, founded in 2021 by former OpenAI staff, has positioned itself as the safety-focused frontier lab while competing with OpenAI and Google on models and enterprise coding tools. The listing follows SpaceX's June IPO and makes a frontier AI lab a publicly traded company for the first time, exposing its spending and commitments to public-market scrutiny.",
-  "whatsNext": "Watch how lockups expire over the next year, with about a trillion dollars of shares set to free up, according to Latent Space.",
-  "article": {
-   "whatHappened": [
-    "Anthropic listed on Nasdaq under the ticker ANT, pricing its shares at $83. The stock opened at $111.50, 34.3% above the offer price, and closed at $97.17, up 17%, according to Latent Space's newsletter. It later drifted about 5% lower to $92.60 in after-hours trading.",
-    "The offering raised $81.3B, overtaking SpaceX's $75B IPO from June as the largest ever. Expected net proceeds are $104.8B including a concurrent private placement. Posts cited by the newsletter put the fully diluted valuation near $2T at the open, while the headline valuation at pricing was $1.5T.",
-    "AMD agreed to invest $2.5B in Anthropic alongside the offering. Proceeds are slated largely for data center leasing. One post noted that SpaceXSI, the landlord of the Colossus cluster, is an indirect beneficiary.",
-    "Dario and Daniela Amodei published remarks and a founders' letter. Dario named misuse, economic disruption and loss of control as risks, and listed safeguards, alignment training and interpretability among Anthropic's safety work. Class F shares carry 50.1% of voting power on most shareholder matters."
-   ],
-   "whyItMatters": [
-    "The listing puts a frontier lab's finances under public-market scrutiny. Anthropic reportedly raised about $140B and still holds about $132B, implying it burned under $10B, which Wing VC's Tanay Jaipuria called the S-1's biggest positive surprise. Skeptics are less sanguine: FT Unhedged calculated that a 20% return on roughly $1T of compute commitments would require about $602B in annual revenue, more than Alphabet or Apple earns.",
-    "The safety pledge is now a public-company commitment, and it will be tested against shareholder pressure. Amodei says Anthropic will not bend to business or political pressure. Whether that holds under quarterly scrutiny is an open question, and the dual-class structure with 50.1% voting power in Class F shares is the main protection.",
-    "The ownership picture also matters for competitors. Google holds 13.7%, and one commentator argued it could undercut its own position by continuing to supply Anthropic with TPUs. Those posts are opinion, not reporting."
-   ],
-   "whatToWatch": [
-    "Lockup expiries are the nearest pressure point. Latent Space expects about a trillion dollars of shares to free up over the next year, which could weigh on the price. Also watch the first earnings report for the compute commitments and margins that the bear case hinges on."
-   ],
-   "pullQuote": {
-    "text": "We will not bend to either business or political pressure.",
-    "by": "Dario Amodei, Anthropic CEO"
    }
   }
  },
@@ -755,45 +754,6 @@
    }
   }
  },
- "4aacf31011a3": {
-  "storyId": "4aacf31011a3",
-  "itemIds": [
-   "4aacf31011a3"
-  ],
-  "writtenAt": "2026-11-20T14:09:03.844Z",
-  "headline": "Anthropic goes public, raising $104.8B as its seven founders sell $1.95B in stock",
-  "dek": "Anthropic's IPO priced at $83 per share, above its $74 midpoint, raising $104.8 billion including $26 billion in non-voting stock sold to Nvidia, Google and others, while founders each sold about $280 million.",
-  "keyPoints": [
-   "Anthropic raised about $104.8 billion in its IPO, possibly $117 billion if underwriters take their full allotment, against Facebook's $16 billion on its 2012 IPO day.",
-   "At $83 per share, up from a $74 midpoint, each of the seven founders sold about 3.4 million shares, roughly $280 million each before fees and taxes.",
-   "Founders pledged 80% of their equity to philanthropy, but Anthropic says the pledges are voluntary, revocable and not legally binding.",
-   "Nvidia and Google each bought $10 billion of a $26 billion non-voting Class N stock; AMD, Broadcom, Micron, Microsoft and TSMC took the rest.",
-   "Google holds 13.4% and Amazon 14.6%, together 28%. Anthropic discloses $1.05 trillion to $1.08 trillion in infrastructure commitments."
-  ],
-  "context": "Anthropic is the AI lab behind the Claude models, long backed by Amazon and Google. Its listing sets a record for IPO proceeds and comes as AI labs commit to compute spending on a scale far beyond what even large public offerings can fund.",
-  "whatsNext": "Watch whether underwriters exercise their full share allotment, which would lift proceeds toward $117 billion.",
-  "article": {
-   "whatHappened": [
-    "Anthropic became a public company on Thursday. According to TechCrunch, the offering raised about $104.8 billion for the company, and could reach $117 billion if the underwriting banks buy their full allotment of shares. The IPO priced at $83 per share, above the $74 midpoint of the original range.",
-    "The total includes $26 billion of a previously announced, special non-voting Class N stock sold to major technology companies. Nvidia and Google each bought $10 billion worth, and AMD, Broadcom, Micron, Microsoft and TSMC split the remainder.",
-    "Anthropic's seven founders each sold about 3.4 million shares in the offering. At $83, that is roughly $280 million apiece before underwriting fees and taxes, or $1.95 billion in total. TechCrunch notes that at the original midpoint price the sale would have yielded each founder about $250 million.",
-    "Amazon and Google now hold a combined 28% of the company, Anthropic says. Google owns 13.4%. Amazon owns 14.6% after converting a small share of promissory notes it received from earlier investments; converting all of them would have given it nearly 24%."
-   ],
-   "whyItMatters": [
-    "The scale is unusual. Facebook's 2012 IPO, a record at the time, raised $16 billion on its first day. Anthropic's proceeds are several times that, and TechCrunch calculates they give the company nearly $230 billion of working capital when combined with cash it already held.",
-    "The company's capital needs remain larger still. Anthropic says it needs about $70.7 billion over the 12 months from the quarter ended September 30, 2026 to cover compute and infrastructure commitments, and $451.6 billion before the end of 2030. Its disclosed commitments, including conditional and unpriced ones, total roughly $1.05 trillion to $1.08 trillion.",
-    "The ownership structure also ties Anthropic closely to its suppliers and cloud partners. Chipmakers and cloud providers are both major shareholders and likely counterparties to its spending, though the coverage does not detail those arrangements.",
-    "On philanthropy, the founders' pledge of 80% of their equity is notable on its face, but Anthropic's filings describe the commitments as voluntary and revocable."
-   ],
-   "whatToWatch": [
-    "The first open question is whether the underwriters take up their full allotment, which would raise total proceeds toward $117 billion. Beyond that, investors will be looking at how Anthropic's spending against its roughly $1 trillion of commitments compares with its revenue in coming quarterly reports."
-   ],
-   "pullQuote": {
-    "text": "voluntary, revocable expressions of each co-founder’s philanthropic intent and do not constitute legally binding obligations.",
-    "by": "Anthropic"
-   }
-  }
- },
  "4b0fc5b701ff": {
   "storyId": "4b0fc5b701ff",
   "itemIds": [
@@ -992,6 +952,42 @@
    }
   }
  },
+ "583b7a1c7413": {
+  "storyId": "583b7a1c7413",
+  "itemIds": [
+   "583b7a1c7413"
+  ],
+  "writtenAt": "2026-11-20T23:11:03.368Z",
+  "headline": "METR updates AI time horizon plot with open-ended tasks, finds models weaker on judgment",
+  "dek": "METR's revised time horizon benchmark adds longer and more open-ended tasks; verifiable skills still improve exponentially, but models fall short of humans on judgment-heavy work such as designing AI evaluations.",
+  "keyPoints": [
+   "METR's original plot showed the length of tasks frontier models could complete doubling every four months; the update adds longer tasks and more open-ended ones.",
+   "No AI-designed evaluation was good enough for METR employees to consider it useful for their research, despite models' strength in software engineering.",
+   "Newer models such as Opus 5.5 reach 'borderline above the bar' on evaluation design; a year ago every model was 'clearly below the bar'.",
+   "On a task scoring philosophical arguments, models also fell short of human performance, though METR staff disagree on its relevance to AI R&D automation.",
+   "OpenAI said in a Wednesday blog post that its models do worse on real tasks assigned by employees than on METR's easier, verifiable tasks."
+  ],
+  "context": "METR's time horizon plot became one of the most shared charts in AI, and was often misread because of how it measured difficulty. Models excel at coding and math because reinforcement learning works where results can be checked automatically. Whether that carries over to fuzzier work like choosing research directions bears on whether AI can automate AI research.",
+  "article": {
+   "whatHappened": [
+    "The AI evaluation nonprofit METR has published an update to its time horizon plot, finding that some AI capabilities continue to improve exponentially while models lag on tasks requiring judgment. The report, covered by MIT Technology Review, says models are not quite as strong on such tasks as they are at coding.",
+    "The original plot rated models by the length of tasks they could complete, with each task's difficulty set by how long human testers took to finish it. It showed that every four months, the length of tasks frontier models could successfully complete doubled. The update adds tasks estimated to take humans far longer, as well as more open-ended ones.",
+    "In one new task, models design AI evaluations that METR could use in its research, and METR employees score the results. Not one of the AI-designed evaluations was good enough for staff to consider it useful. In another, models score philosophical arguments, intended to capture judgment, and again fell short of humans."
+   ],
+   "whyItMatters": [
+    "Models are trained on verifiable tasks by attempting them many times and reinforcing what succeeds. That is why they have become so good at coding and math. The method is harder to apply where success is poorly defined or slow to judge, such as choosing a new research direction, which would be essential if AI is to automate research and development.",
+    "The topic is sensitive. Earlier this month a different, heavily redacted METR report claimed AI might be speeding up AI progress at Anthropic by a factor of two, prompting fears of recursive self-improvement. The new results suggest limits on judgment-heavy work, though they do not settle the question.",
+    "Experts see mixed signals. Sayash Kapoor of UC Berkeley says he was not surprised and expects research taste to be a major bottleneck, while others argue models trained on verifiable tasks will eventually handle open-ended ones. Some newer models, such as Opus 5.5, reach 'borderline above the bar' on evaluation design, where a year ago all were 'clearly below the bar'."
+   ],
+   "whatToWatch": [
+    "The main open question is extrapolation. Because such tasks are hard to design and score, METR includes few of them, making trends difficult to predict. Najoung Kim of Boston University said she is unsure how the improvement would extrapolate, and METR's Matt Putz says predicting progress on these tasks is likely to stay difficult."
+   ],
+   "pullQuote": {
+    "text": "We’re at the point where AI evaluations need to get more creative",
+    "by": "Sayash Kapoor, computer scientist and incoming professor at UC Berkeley"
+   }
+  }
+ },
  "5888c276693c": {
   "storyId": "5888c276693c",
   "itemIds": [
@@ -1111,41 +1107,42 @@
    }
   }
  },
- "61f4d0141ff3": {
-  "storyId": "61f4d0141ff3",
+ "61a25aea7188": {
+  "storyId": "61a25aea7188",
   "itemIds": [
-   "61f4d0141ff3",
-   "14f13252070a"
+   "61a25aea7188",
+   "7716f12c064d",
+   "4d6c192ff862"
   ],
-  "writtenAt": "2026-10-21T20:42:23.519Z",
-  "headline": "OpenAI's GPT 6.1 models are coming to Google Cloud and Antigravity",
-  "dek": "Google Cloud will offer OpenAI's GPT 6 and 6.1 models (Astra, Sol, Luna) in Model Garden, with private preview now for select enterprise customers and Antigravity support also planned.",
+  "writtenAt": "2026-11-20T23:11:27.849Z",
+  "headline": "Google adds AI Mode chat sidebar to desktop homepage and drops the search button",
+  "dek": "Google is rolling out a redesigned desktop homepage globally, with a collapsible sidebar of AI Mode threads, new AI shortcut buttons, no Google Search button, and temporary AI Mode threads.",
   "keyPoints": [
-   "Google Cloud will add OpenAI's GPT 6 and 6.1 models, named Astra, Sol and Luna, to Model Garden in the coming weeks, per Ars Technica.",
-   "All three models are in private preview now for select enterprise customers; others can submit an early-access request.",
-   "Models run entirely on Google's infrastructure, with billing through Google Cloud Marketplace, which can count toward existing Google Cloud spending commitments.",
-   "GPT models will also appear in Antigravity, Google's agent-powered coding tool; Google has not specified which models.",
-   "OpenAI says Microsoft remains its primary cloud partner. Google says it is now the only large cloud provider offering all three leading closed LLMs."
+   "Google VP Robby Stein announced on X a collapsible sidebar on the desktop homepage listing AI Mode chats, with options to start or search threads and connect a Gemini Notebook.",
+   "Ars Technica reports the Google Search button is gone; 'I'm Feeling Lucky' stays, and new buttons cover image generation, file analysis and brainstorming with Gemini.",
+   "The sidebar is also available on the results page for signed-in users, per Ars Technica. The Verge says the homepage is rolling out globally on desktop.",
+   "Google also added temporary threads to AI Mode, which are detached from the account and don't affect history, recommendations or personalization, TechCrunch reports.",
+   "Stein says people increasingly come to Search with questions 'that aren't just one and done,' and that the sidebar helped in testing."
   ],
-  "context": "Google Cloud's Model Garden already hosts Gemini, open models such as Mistral, Llama and Gemma, and Anthropic's Claude. Adding OpenAI makes Google's cloud a place to buy all three leading closed model families, even as Google competes with OpenAI on its own Gemini models. Antigravity has so far supported Gemini and Claude.",
-  "whatsNext": "Watch for the general Model Garden rollout in the coming weeks and for Google to specify which GPT models will appear in Antigravity.",
+  "context": "Google added an AI Mode button to its search bar last year and in May updated the search box for longer queries and AI-powered autocomplete. The homepage had long been a single search bar, so the change continues a steady shift toward conversational search, as rivals' chatbots also offer saved histories and temporary chats.",
   "article": {
    "whatHappened": [
-    "OpenAI and Google have agreed to bring OpenAI's frontier models to Google Cloud. According to Ars Technica, the full current GPT 6 and 6.1 lineup, named Astra, Sol and Luna, will arrive in Google's Model Garden in the coming weeks. OpenAI describes the arrangement as bringing its frontier models and Codex workflows to Model Garden, available through Google Cloud Marketplace.",
-    "The models will run entirely on Google's infrastructure, with transactions handled through the Marketplace. For businesses with established Google Cloud spending commitments, that should make it simple to start using GPT models in place of whatever they used before. Google says its system can move workloads between models based on performance, latency and efficiency, which matters because Astra is expected to cost the most to run.",
-    "Google says all three models are rolling out now in private preview for select enterprise customers. Others can request early access, which enables API access even for people using Codex CLI or Codex Desktop, with inference running on Google's systems. GPT models will also come to Antigravity, Google's agent-powered coding tool. Ars Technica notes that Google has not said whether all three will appear there."
+    "Google is rolling out a redesigned desktop homepage globally that puts AI Mode conversations in a collapsible sidebar. Robby Stein, Google's vice president of product, announced the change in a post on X. Users open the sidebar from a gray bar on the left of the screen.",
+    "The sidebar lists past AI Mode searches and lets users start a new thread, search their threads, or connect a Gemini Notebook, according to The Verge. Ars Technica reports it appears for signed-in users and is also available on the results page.",
+    "Ars Technica adds that the page has new buttons under the search bar tied to AI features: image generation, file analysis and brainstorming with Gemini. The 'I'm Feeling Lucky' button stays, but the Google Search button beside it has been removed after a test that ran for several weeks.",
+    "Separately, Google announced temporary threads for AI Mode, according to TechCrunch. Users click an icon in the upper right corner to start a chat that is detached from their account. Responses are not informed by past preferences, and the conversation does not affect future personalization or reappear in history or recommendations. The option is rolling out globally on desktop and mobile in all supported languages."
    ],
    "whyItMatters": [
-    "Model Garden lists more than 200 options, including Gemini, open models like Mistral, Llama and Gemma, and Anthropic's Claude. With OpenAI added, Google says it is the only large cloud provider offering all three leading closed LLMs. OpenAI says Microsoft remains its primary cloud partner, so this widens its distribution rather than replacing an existing relationship.",
-    "The deal has a competitive edge for Google. Ars Technica reports that Google recently released Gemini 4 Argon, which it says restores parity with rivals, though the outlet says the model uses tokens at a very high rate. Customers unhappy with that tradeoff will now have another alternative inside the same cloud, billed against the same commitments. Antigravity users, who until now had Gemini and Claude, may also gain a third model family."
+    "The homepage has long been a single search bar, and Google has been adding AI elements to it step by step: an AI Mode button last year, then longer queries and AI autocomplete in May. Giving AI conversations a persistent sidebar treats them as ongoing work rather than one-off queries, which is the case Stein makes.",
+    "Ars Technica argues the change shows Google's priorities, with AI features getting prominent buttons while traditional search is de-emphasized. It speculates that AI Mode could eventually become the default, though that is the outlet's view and Google has not said so. It also notes the loss of the search button is minimal, since most people press Enter or click an autocomplete suggestion.",
+    "Temporary threads address a privacy gap. Gemini and other chatbots already offer temporary chats, but AI Mode did not, even though searches can touch personal topics. The feature lets people explore a subject without it shaping their recommendations."
    ],
    "whatToWatch": [
-    "The first thing to watch is the move from private preview to wider availability in Model Garden, which Google puts at the coming weeks. Pricing for Astra, Sol and Luna on Google Cloud has not been detailed in the coverage.",
-    "Also open is which OpenAI models will actually be offered in Antigravity, since Google has not specified."
+    "Google has not given a detailed rollout schedule beyond 'global' on desktop. Watch for whether the sidebar and the new buttons reach mobile and signed-out users, and whether Google shares data on how AI Mode usage changes."
    ],
    "pullQuote": {
-    "text": "Google says it’s now the only large cloud provider offering access to all three leading closed LLMs.",
-    "by": "Ars Technica"
+    "text": "people are coming to Search with more questions that aren’t just one and done",
+    "by": "Robby Stein, Google vice president of product"
    }
   }
  },
@@ -1390,46 +1387,6 @@
    "pullQuote": {
     "text": "This new control is a logical extension of existing controls",
     "by": "Commerce Department interim rule"
-   }
-  }
- },
- "79e072c52849": {
-  "storyId": "79e072c52849",
-  "itemIds": [
-   "79e072c52849",
-   "064ad9927d51",
-   "f8078d89c26a"
-  ],
-  "writtenAt": "2026-10-21T20:42:45.043Z",
-  "headline": "DeepSeek open-sources DeepInfer, the inference engine behind its V4.1 Flash service",
-  "dek": "DeepSeek released DeepInfer under Apache 2.0, citing 155T tokens a day from one cluster and 96% cache hits, but withheld its KV-cache and load-balancing components; vLLM says it comes within 6% on decode.",
-  "keyPoints": [
-   "DeepSeek open-sourced DeepInfer under Apache 2.0, with support for NVIDIA and Huawei Ascend; it was built mainly on vLLM, with inspiration from SGLang and TensorRT-LLM.",
-   "DeepSeek's report claims 155T tokens/day from one cluster, 96% input-cache hits, 400 ms average time to first token and $38 revenue per accelerator-hour at off-peak prices.",
-   "Latent Space estimates over 80% inference margin and an 81-day payback; Interconnects cites estimates of up to 90% gross margin. These are outside calculations, not audited figures.",
-   "KV-cache management, load balancing and prefill/decode disaggregation are not fully released, because they are coupled to internal infrastructure; the GitHub release covers offline inference only.",
-   "The vLLM team reports decode throughput within 6% of DeepInfer's published GB200 results under a matched configuration, and has published reproduction recipes."
-  ],
-  "context": "Efficient inference stacks have mostly been proprietary, built by closed companies such as Fireworks, Baseten and Modal and by the top labs internally. DeepSeek's release comes as the US DHS restricts DeepSeek from federal civilian procurement and China's MOFCOM proposes pre-approval for sharing frontier AI internationally.",
-  "whatsNext": "Watch whether inference providers adopt DeepInfer and cut prices for DeepSeek models, and whether DeepSeek later releases its KV-cache and load-balancing components.",
-  "article": {
-   "whatHappened": [
-    "DeepSeek has open-sourced DeepInfer, the inference framework it says powers its large-scale production services, including the V4.1 Flash model. The code is released under the Apache License 2.0. It supports distributed inference, speculative decoding, SWA Bounded Replay and structured output on NVIDIA and Huawei Ascend hardware.",
-    "The GitHub release provides offline inference and the core features needed for serving at scale, but says that components required for a complete inference service are not included. Latent Space reports that the withheld pieces include DeepSeek's optimized KV cache, prefill/decode disaggregation and load balancing, which DeepSeek says remain coupled to internal infrastructure.",
-    "DeepSeek's engineering report, as summarized by Latent Space, claims 155 trillion tokens a day from one cluster, a 96% input-cache hit rate, 400 ms average time to first token and about 230 tokens per second of generation. It also reports $38 in revenue per accelerator-hour at off-peak prices. Latent Space notes these are first-party claims, not independently audited."
-   ],
-   "whyItMatters": [
-    "Latent Space's own arithmetic, using $5 to $8 all-in cost per card per hour, puts inference margin above 80% and payback at about 81 days. Interconnects cites estimates of up to 90% gross margin. Both depend on workload mix, cache accounting, hardware cost and which expenses are counted, so they should be treated as estimates.",
-    "The vLLM team has pushed back on the idea that DeepSeek's efficiency is out of reach for existing engines. It says decode throughput on GB200 came within 6% of DeepInfer's published results under a matched configuration, and it published reproduction recipes. DeepInfer was itself originally built mainly on vLLM, so the gap may reflect incremental engineering more than a different design.",
-    "Interconnects calls it the first time a leading lab has shared an internal inference stack, and expects inference companies to adopt it quickly. That could push prices for DeepSeek models down across providers, or raise their margins. The release also lands as US and Chinese authorities move toward controls on DeepSeek and on open models more broadly."
-   ],
-   "whatToWatch": [
-    "Look for independent benchmarks beyond vLLM's, and for providers reporting results with DeepInfer on their own workloads, since the cache-heavy production figures may not carry over.",
-    "It is also open whether DeepSeek will release the KV-cache and load-balancing layers, which Latent Space describes as its crown jewels, and how the DHS order and China's MOFCOM proposal affect adoption."
-   ],
-   "pullQuote": {
-    "text": "These are first-party production claims, not independently audited measurements.",
-    "by": "Latent Space (AINews)"
    }
   }
  },
@@ -2157,35 +2114,40 @@
    "1a26151f6749",
    "e71232150b49",
    "bab1a902faa1",
-   "e22812a5ccc9"
+   "e22812a5ccc9",
+   "4aacf31011a3",
+   "1177dfbd92c1",
+   "fda5004e845f",
+   "99527486f11f"
   ],
-  "writtenAt": "2026-11-19T23:38:37.941Z",
-  "headline": "Anthropic prices record $81.3 billion IPO at $83 and opens at $111.50 on Nasdaq",
-  "dek": "Anthropic sold 980 million shares at $83, above its range, valuing it near $1.5 trillion, and began trading as ANT on Nov. 19 at $111.50, the largest IPO by proceeds.",
+  "writtenAt": "2026-11-20T23:11:16.373Z",
+  "headline": "Anthropic goes public on Nasdaq after record $81.3B IPO priced at $83 a share",
+  "dek": "Anthropic sold 980 million shares at $83, above its range, in the largest IPO by proceeds; ANT opened at $111.50 on Nasdaq and closed at $97.17, per Latent Space.",
   "keyPoints": [
-   "Anthropic priced 980 million Class A shares at $83, above the $70 to $78 range; 956.4 million were sold by the company and 23.6 million by selling stockholders.",
-   "The offering raised $81.3 billion, according to TechCrunch, surpassing SpaceX's $75 billion record. Valuation is about $1.5 trillion fully diluted, versus $965 billion in May.",
-   "ANT opened on Nasdaq at $111.50. Underwriters hold a 30-day option on 147 million more shares; the offering is expected to close Nov. 20.",
-   "Amazon will own 14.7% and Google 13.7%. Seven tech firms are buying $26 billion of non-voting stock privately, with Google and Nvidia at $10 billion each.",
-   "The S-1 shows an $80.7 billion net loss in the first half, mostly an accounting charge, on $16.3 billion revenue."
+   "Anthropic priced 980 million Class A shares at $83, above the $70 to $78 range, raising $81.3 billion and passing SpaceX's $75 billion record, TechCrunch reports.",
+   "The $83 price implies a roughly $1.5 trillion fully diluted valuation, up from $965 billion in May but below the $2 trillion it reportedly sought earlier.",
+   "ANT opened at $111.50 on Nasdaq on Nov. 19 and closed at $97.17, up 17% from the offering price, according to Latent Space.",
+   "A $26 billion private placement of non-voting Class N shares brought total proceeds to about $104.8 billion; Nvidia and Google each bought $10 billion.",
+   "The S-1 shows an $80.7 billion net loss in the first half, mostly an accounting charge, on $16.3 billion of revenue, per The Verge."
   ],
-  "context": "Anthropic was founded by former OpenAI executives and has positioned itself as the safety-focused lab. Its last private round in May valued it at $965 billion, and it reportedly once targeted $2 trillion. Its listing sets a benchmark for OpenAI and other private AI labs.",
-  "whatsNext": "Watch whether underwriters exercise the 147 million-share option within 30 days, and how ANT trades after the Nov. 20 close.",
+  "context": "Anthropic's last private round in May raised $65 billion at $965 billion. Its main rival OpenAI has not announced IPO plans. The listing tests public-market appetite for AI companies whose compute commitments run into the hundreds of billions of dollars.",
+  "whatsNext": "Watch how ANT trades as underwriters' 30-day option on 147 million more shares runs, and as lockup expiries approach over the next year.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share on Nov. 18, above the initial range of $70 to $78, and began trading on the Nasdaq under the ticker ANT on Nov. 19. The Verge reports shares opened at $111.50. The $83 price values the company at about $1.5 trillion fully diluted.",
-    "The offering covers 980 million Class A shares, up from 825 million initially planned, according to TechCrunch. Anthropic sold 956,351,354 of them and selling stockholders sold 23,648,646. Proceeds of $81.3 billion exceed SpaceX's $75 billion record. Underwriters have a 30-day option on up to 147 million more shares, and the offering is expected to close on Nov. 20.",
-    "Alongside the IPO, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners agreed to buy $26 billion of non-voting shares in a private placement. Google and Nvidia each committed $10 billion. TechCrunch reports Amazon will hold 14.7% and Google 13.7%, nearly 30% combined. Each of the seven co-founders sold nearly 3.4 million shares, about $282 million apiece, per the S-1.",
-    "The S-1 reports an $80.7 billion net loss in the first half of the year, most of it from an accounting charge that The Verge says does not reflect the business, against $16.3 billion in revenue."
+    "Anthropic priced its initial public offering at $83 per share on Nov. 18, above the $70 to $78 range it had marketed. The company says the offering covers 980 million Class A shares, 956,351,354 sold by Anthropic and about 23.6 million by selling stockholders. TechCrunch reports the raise of $81.3 billion is the largest IPO ever by proceeds, ahead of SpaceX's $75 billion.",
+    "Shares began trading on the Nasdaq Global Select Market under the symbol ANT on Nov. 19. The Verge reports they opened at $111.50. Latent Space reports they closed the day at $97.17, up 17% from the offering price, then drifted about 5% lower after hours. The offering is due to close Nov. 20, and underwriters hold a 30-day option on up to 147 million more shares.",
+    "Alongside the IPO, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC bought $26 billion of non-voting Class N stock in a private placement. Nvidia and Google each took $10 billion. TechCrunch puts total proceeds at $104.8 billion, potentially $117 billion if the underwriters exercise their option.",
+    "Each of the seven co-founders sold about 3.4 million shares, roughly $280 million apiece before fees and taxes. Anthropic says each has pledged 80% of personal equity to philanthropy, but describes the pledges as voluntary and revocable. Amazon holds 14.6% after converting some promissory notes, and Google 13.4%, which Anthropic says makes 28% combined."
    ],
    "whyItMatters": [
-    "The valuation is well above May's $965 billion private round, though below the $2 trillion Anthropic was reportedly seeking earlier. TechCrunch frames the debut as a test of investor appetite for AI amid recent volatility, and a guide for private rivals such as OpenAI, which has not announced IPO plans.",
-    "Amazon's position shows the scale of its early bet. It converted part of its promissory notes, with conversion prices of about $2.09 or $5.05 per share, and kept billions more unconverted. Converting everything would put it at 23.8%. Anthropic has also committed to spend more than $100 billion on AWS over a decade.",
-    "The Verge's Hayden Field argues the listing strains Anthropic's safety-first image. Founders and the Long-Term Benefit Trust hold controlling voting rights, insulating leadership from shareholders but also removing typical checks. Governance expert Ann Lipton questions whether the trustees have the AI expertise to use their powers. Amodei said Anthropic will pace AI training and deployment and will not bend to business or political pressure."
+    "The $83 price implies about $1.5 trillion fully diluted, up from $965 billion in May, though below the $2 trillion TechCrunch says the company reportedly targeted months ago. The strong debut came despite market jitters tied to Nvidia CEO Jensen Huang's departure, TechCrunch notes. Its performance is expected to shape expectations for private AI firms, including OpenAI.",
+    "The financial picture is mixed. The S-1 shows an $80.7 billion net loss in the first half, which The Verge says mostly stems from an accounting charge, against $16.3 billion in revenue. TechCrunch reports Anthropic needs about $70.7 billion for compute and infrastructure commitments over the next 12 months and $451.6 billion through 2030, with total disclosed commitments of roughly $1.05 trillion to $1.08 trillion.",
+    "Skeptics are already running the numbers. Latent Space cites an FT Unhedged calculation that a 20% return on about $1 trillion of compute commitments would require roughly $602 billion in annual revenue, more than Alphabet or Apple earn. That is one analyst's bear case, not a forecast from the company.",
+    "Governance is also distinctive. The Verge says the S-1 sets a structure that keeps control with the founders rather than shareholders, and Latent Space says Class F shares carry 50.1% of voting power on most matters. The filing lists catastrophic risks including models resisting shutdown."
    ],
    "whatToWatch": [
-    "Near-term markers are the Nov. 20 close, any use of the underwriters' option, and how the stock holds after its opening jump.",
-    "The longer test is whether the governance structure and Amodei's safety pledge hold under public-market pressure. The S-1 also warns of risks including self-preserving behaviors in AI models."
+    "Latent Space expects lockup expiries to weigh on the stock, with about a trillion dollars of shares freeing up over the next year. Whether underwriters exercise their option for 147 million additional shares will also show how demand holds after the first-day pop.",
+    "The other open question is whether revenue growth can keep pace with infrastructure commitments. CEO Dario Amodei said Anthropic will pace training and deployment of AI systems to keep them safe, a pledge now tested against public-market pressure."
    ],
    "pullQuote": {
     "text": "We will not bend to either business nor political pressure.",
@@ -2474,6 +2436,35 @@
     "text": "In the past, the Kimi models always lived up to the expectations, but this release is kind of weird compared to the others.",
     "by": "Florian Brand, Interconnects"
    }
+  }
+ },
+ "c69438672bb7": {
+  "storyId": "c69438672bb7",
+  "itemIds": [
+   "c69438672bb7"
+  ],
+  "writtenAt": "2026-11-20T23:10:43.612Z",
+  "headline": "SEC is investigating Nvidia's accounting, sources say",
+  "dek": "Nvidia's accounting is under investigation by the US Securities and Exchange Commission, according to unnamed sources cited in a Yahoo Finance report; details of the inquiry were not available.",
+  "keyPoints": [
+   "Sources say the SEC is investigating Nvidia's accounting, according to a Yahoo Finance report.",
+   "The coverage available does not say what aspects of the accounting are under review.",
+   "No statement from Nvidia or the SEC appears in the material provided.",
+   "The report rests on unnamed sources and has not been confirmed in the coverage given."
+  ],
+  "context": "Nvidia is the dominant supplier of AI training chips, and its financial results are closely watched as a gauge of AI spending. An SEC investigation does not by itself indicate wrongdoing, and such inquiries can end without action. Any scrutiny of the company's reporting matters to investors given its weight in the market.",
+  "article": {
+   "whatHappened": [
+    "Nvidia's accounting is under investigation by the US Securities and Exchange Commission, according to sources cited in a report published on Yahoo Finance. The headline of the report states the finding directly: the chipmaker's accounting is being examined by the regulator.",
+    "The coverage provided is a one-line summary and does not include the full article text. It does not identify the sources, describe which accounting practices or reporting periods are under review, or say when the investigation began. It also includes no comment from Nvidia or the SEC."
+   ],
+   "whyItMatters": [
+    "Nvidia has become central to the AI industry, selling the GPUs that most large AI labs and cloud providers use to train and run models. Its quarterly results are treated as a barometer of AI infrastructure spending, so questions about how it reports its finances draw attention well beyond the company itself.",
+    "The significance of the report is uncertain. The SEC opens inquiries for many reasons, and an investigation does not establish that any rule was broken. Without details on the scope or the accounting issues in question, it is not possible to judge how serious the matter is for the company or its investors."
+   ],
+   "whatToWatch": [
+    "The main open questions are whether Nvidia or the SEC comments, and whether the company discloses the inquiry in its regulatory filings. Further reporting may clarify what the investigation covers."
+   ]
   }
  },
  "c7d3ecb00643": {
@@ -3093,6 +3084,46 @@
    "pullQuote": {
     "text": "The fact that they handpick the group is a disaster",
     "by": "Andreas Karch, physics professor at the University of Texas at Austin"
+   }
+  }
+ },
+ "f1b7c64ada91": {
+  "storyId": "f1b7c64ada91",
+  "itemIds": [
+   "f1b7c64ada91",
+   "321bf9e3c390"
+  ],
+  "writtenAt": "2026-11-20T23:10:36.456Z",
+  "headline": "Anthropic mathematician claims Riemann hypothesis proof built with Claude; Lean check passes",
+  "dek": "Levent Alpöge says he and Claude proved the Riemann hypothesis; independent mathematicians confirm the Lean formalization compiles, but human review is pending, and a separate human-written proof has also appeared.",
+  "keyPoints": [
+   "Anthropic mathematician Levent Alpöge says he proved the Riemann hypothesis with Claude, and says the method extends to the Generalized Riemann Hypothesis.",
+   "TechCrunch reports several mathematicians, including MIT's Andrew Sutherland, confirmed that Alpöge's Lean formalization compiles; the argument itself has not been independently reviewed in full.",
+   "Stanford's Ravi Vakil posted a human-only proof of the Generalized Riemann Hypothesis by postdoc Alessandro Masullo, who says it took 12 years.",
+   "The Clay Mathematics Institute requires publication and two years of scrutiny before it considers a Millennium Prize, which carries $1 million.",
+   "Anthropic has not commented; Alpöge says he told CEO Dario Amodei and delayed publication until after the company's Thursday IPO."
+  ],
+  "context": "The Riemann hypothesis, proposed in 1859, concerns the distribution of prime numbers and is one of seven Millennium Prize problems, of which only the Poincaré conjecture has been officially solved. AI labs have recently raced into open math problems, with OpenAI claiming a Navier-Stokes solution in September amid disputes over research practices. In August Anthropic said it did not expect Claude's techniques to lead to a proof of the Riemann hypothesis.",
+  "whatsNext": "Mathematicians must now work through the proof so humans can understand it, and the Clay Mathematics Institute's two-year scrutiny period would apply before any prize consideration.",
+  "article": {
+   "whatHappened": [
+    "Levent Alpöge, a mathematician at Anthropic, says he has proved the Riemann hypothesis with help from the company's Claude model. He published the claim in an essay and a document on his website. He also says the method extends to the Generalized Riemann Hypothesis and, with more time, probably the Extended Riemann Hypothesis.",
+    "The proof is expressed in Lean, an open-source language that lets proofs be checked by machine. TechCrunch reports that participants in a Zulip discussion among mathematicians, including MIT's Andrew Sutherland, confirmed the solution compiles. Alpöge says he and Claude formalized the arguments without assumptions. Number theorist Chris Birkbeck of the University of East Anglia described the cohomology bound as proved by what looks like an automorphy-lifting argument.",
+    "Alpöge says he texted Anthropic CEO Dario Amodei late Sunday night about how to announce the result, and The Verge notes he appears to have held off publication until after the company's Thursday IPO. Anthropic has not commented. Alpöge wrote that the timing was horrible, and that he felt he could not live if he waited to release the finding.",
+    "A competing claim also surfaced. Ravi Vakil, a Stanford professor and president of the American Mathematics Association, posted a proof of the Generalized Riemann Hypothesis by Stanford postdoc Alessandro Masullo. Vakil says it is all human, with no AI. Masullo describes it as the result of 12 years of work. It is not in Lean, so TechCrunch says it is too early to judge it."
+   ],
+   "whyItMatters": [
+    "A successful Lean compilation is significant because it means a machine has checked the logical steps. It does not mean mathematicians understand the argument. TechCrunch notes that Alpöge admits to releasing the proof without a human-intelligible explanation, and the wider community still has to digest it. Whether the formal statement captures the Riemann hypothesis as intended is the kind of question human reviewers will likely examine, though the coverage does not detail this.",
+    "The claim adds to a run of AI-assisted results. OpenAI claimed a Navier-Stokes solution in September, reportedly using 10,000 agents and millions of dollars, and that result is widely considered credible but has drawn allegations of questionable research practices, which OpenAI denies. Alpöge also said in July that he solved the Jacobian conjecture with Claude. The Verge says mathematicians are struggling to keep pace.",
+    "There is a notable wrinkle. In August Anthropic said of its Riemann work: \"We don't expect that the techniques Claude used will lead to proving the Riemann hypothesis.\" The Verge's reporting suggests the company's expectations were overtaken, though Anthropic has not explained."
+   ],
+   "whatToWatch": [
+    "Watch for human verification of Alpöge's argument and for the explanation he has committed to pursue. The Clay Mathematics Institute will not consider a Millennium Prize until a solution is published and has withstood at least two years of scrutiny and received general acceptance.",
+    "Also watch for any Anthropic statement, and for scrutiny of Masullo's human-written draft, which has not been formally checked."
+   ],
+   "pullQuote": {
+    "text": "The precise timing is horrible",
+    "by": "Levent Alpöge, Anthropic mathematician"
    }
   }
  },
