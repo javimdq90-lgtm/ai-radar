@@ -1,0 +1,269 @@
+{
+ "number": 16,
+ "date": "2026-11-20T15:21:06.106Z",
+ "subject": "Anthropic's IPO raises a record $81.3B and closes up 17%",
+ "preview": "Plus Gemini 4 Neon's pricing, and Signal locking its screenshots against AI agents.",
+ "intro": "Anthropic going public dominated the stretch, but the more telling thread is agents moving into the operating system, with Google, Apple and Signal each reacting from a different side. Google also kept up its fast model cadence.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "1177dfbd92c1",
+     "headline": "Anthropic goes public at $83 a share and closes day one at $97.17",
+     "body": "Anthropic priced its Nasdaq IPO at $83, opened at $111.50 and closed the first day at $97.17, up 17%. The $81.3B offering is the largest on record, ahead of SpaceX's $75B in June, and proceeds reach about $104.8B with a concurrent private placement. Seven founders sold roughly $280M each; their pledge to give away 80% of equity is voluntary and not legally binding. Anthropic discloses $1.05T to $1.08T in infrastructure commitments.",
+     "why": "A frontier lab's compute commitments and safety pledges now face public-market scrutiny, though Class F shares keep 50.1% of the vote on most matters."
+    }
+   ]
+  },
+  {
+   "heading": "Models",
+   "stories": [
+    {
+     "storyId": "b2c084a41275",
+     "headline": "Google launches Gemini 4 Neon, a mid-tier model at $3/$15 per million tokens",
+     "body": "Gemini 4 Neon scores 61 on the Artificial Analysis Intelligence Index at xhigh thinking, which Google says ranks third overall. It has a 1M-token context window and costs $3 per million input tokens, $0.15 cached, and $15 per million output tokens. It's rolling out in AI Studio, the Gemini API, Antigravity and the Gemini app for Pro and Ultra users. Latent Space counts four Gemini 4 models in about seven weeks; Argon is retired.",
+     "why": "Google is releasing models faster than most teams can evaluate them. The $3/$15 pricing is the number to check against whatever you use as your default."
+    },
+    {
+     "storyId": "50e3ea47cbae",
+     "headline": "Genie 4 brings editable, audio-equipped worlds to Google AI Ultra subscribers",
+     "body": "Genie 4 lets users type prompts mid-session to change weather, add characters or redirect action, with native audio that adapts to the scene. A new Project Genie agent builds worlds from conversation, and a community gallery lets people publish and remix them. Ultra subscribers get it now; AI Pro members can join a waitlist. Output carries SynthID watermarks, and Google lists camera latency, physical interactions and scene permanence as open problems.",
+     "why": "World models are moving from demo to something people can edit and share, though Google's own list of unsolved problems says it's still early."
+    }
+   ]
+  },
+  {
+   "heading": "Research worth reading",
+   "stories": [
+    {
+     "storyId": "be373132dcb8",
+     "headline": "Anthropic says Claude solved two open problems in black hole physics",
+     "body": "Anthropic reports that Claude completed a calculation set out in 2003, showing an abrupt black hole phase transition persists where spacetime has no definite shape. It also found the exact limit of the simplest bootstrap technique, in a two-space-dimension model universe. Anthropic says Claude worked as a small group of copies of itself and that Claude Fable 5.2 spotted a pattern physicists had missed. Two preprints are posted; Anthropic says neither result has practical applications.",
+     "why": "Preprints mean physicists can check the claim rather than take a lab's word. If it holds, it's a concrete case of AI contributing to open research."
+    }
+   ]
+  },
+  {
+   "heading": "Agents and privacy",
+   "stories": [
+    {
+     "storyId": "ff3559dcabff",
+     "headline": "Signal blocks screenshots on iOS and Android to keep AI agents out",
+     "body": "Signal now restricts in-app screenshots on iOS 27 and Android, which it says should stop Siri, Gemini and other assistants from reading chats on screen. Users can turn screenshots back on, though president Meredith Whittaker warns that exposes their messages and their contacts' to AI agents. She calls the fix incomplete, since agents could still reach app data through the filesystem, and it can't be applied on macOS.",
+     "why": "App developers have few tools to limit what OS-level agents can see. That pressure on end-to-end encryption will grow as every platform ships an agent."
+    },
+    {
+     "storyId": "b24c1081da70",
+     "headline": "Apple is hiring an engineer to lead its own AI agent",
+     "body": "Apple is hiring an engineer to lead an agentic AI assistant that can browse the web, work across apps, write code and call services, according to a job listing Bloomberg spotted. It would compete with Meta's Muse, OpenAI's Dots, Anthropic's Duet and Google's Tasks. A job listing signals intent, not a launch date.",
+     "why": "If Apple ships an agent, it reaches iPhone users at scale and sets the rules for how apps interact with it."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "6d6821f501bb",
+   "text": "Google's Gemini app for Mac gains an agent that can organize files, fill out forms and run multistep workflows."
+  },
+  {
+   "storyId": "8a78f7986a82",
+   "text": "Meta reportedly plans a $300 price for the Muse Charm, its small-screen gadget for its Muse agent, due in December."
+  },
+  {
+   "storyId": "ef341bf9e56e",
+   "text": "Black high school students are suing after an AI gun detector flagged a Doritos bag; the suit says over 99% of alerts were false."
+  },
+  {
+   "storyId": "14c609265d0e",
+   "text": "New York, Los Angeles and Chicago school districts are weighing alternatives to Google Search, since next year schools can't disable Gemini without losing Search."
+  },
+  {
+   "storyId": "b00f82b6db94",
+   "text": "Google put Tool Retrieval in preview in the Gemini API, letting agents reach hundreds of tools while using fewer tokens."
+  },
+  {
+   "storyId": "880dd6c194cf",
+   "text": "ChatGPT's Live Dictation transcribes as you speak, rolling out on all plans across web, desktop, iOS and Android."
+  },
+  {
+   "storyId": "6687f7be62c3",
+   "text": "OpenAI describes its Performance Factory, Codex-powered workflows that automatically find and fix performance problems in ChatGPT."
+  },
+  {
+   "storyId": "488834721fb0",
+   "text": "DeepMind employees are unionising, according to the group's site."
+  }
+ ],
+ "links": {
+  "1177dfbd92c1": [
+   {
+    "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+    "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+    "source": "Latent Space"
+   }
+  ],
+  "b2c084a41275": [
+   {
+    "title": "Gemini 4 Neon",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "source": "blog.google"
+   },
+   {
+    "title": "Gemini 4 Neon",
+    "url": "https://news.ycombinator.com/item?id=50552424",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Introducing Gemini 4 Neon",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "source": "Google DeepMind"
+   },
+   {
+    "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+    "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+    "source": "micjm.com"
+   },
+   {
+    "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+    "url": "https://news.ycombinator.com/item?id=50554374",
+    "source": "HN discussion"
+   },
+   {
+    "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+    "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+    "source": "Latent Space"
+   },
+   {
+    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+    "url": "https://git-aarvin.github.io/mei/",
+    "source": "git-aarvin.github.io"
+   },
+   {
+    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+    "url": "https://news.ycombinator.com/item?id=50568130",
+    "source": "HN discussion"
+   }
+  ],
+  "50e3ea47cbae": [
+   {
+    "title": "Genie 4 is now available",
+    "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "source": "Google DeepMind"
+   }
+  ],
+  "be373132dcb8": [
+   {
+    "title": "Claude solves two open problems in the physics of black holes",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "source": "anthropic.com"
+   },
+   {
+    "title": "Claude solves two open problems in the physics of black holes",
+    "url": "https://news.ycombinator.com/item?id=50563148",
+    "source": "HN discussion"
+   }
+  ],
+  "ff3559dcabff": [
+   {
+    "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+    "source": "The Verge"
+   }
+  ],
+  "b24c1081da70": [
+   {
+    "title": "Apple is hiring engineers to build its own AI agent",
+    "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+    "source": "The Verge"
+   },
+   {
+    "title": "Apple may be developing its own AI agent that runs your Mac",
+    "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+    "source": "TechCrunch"
+   }
+  ],
+  "6d6821f501bb": [
+   {
+    "title": "Google gives Gemini the ability to use your Mac for you",
+    "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Gemini on Mac can now use your computer",
+    "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+    "source": "The Verge"
+   }
+  ],
+  "8a78f7986a82": [
+   {
+    "title": "Meta’s Muse Charm might cost $300",
+    "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta’s new Muse Charm device may cost $300",
+    "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+    "source": "TechCrunch"
+   }
+  ],
+  "ef341bf9e56e": [
+   {
+    "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+    "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+    "source": "lawyerscommittee.org"
+   },
+   {
+    "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+    "url": "https://news.ycombinator.com/item?id=50554641",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+    "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+    "source": "Ars Technica"
+   }
+  ],
+  "14c609265d0e": [
+   {
+    "title": "The nation’s largest school districts consider ditching Google Search",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+    "source": "The Verge"
+   }
+  ],
+  "b00f82b6db94": [
+   {
+    "title": "Introducing Tool Retrieval in the Gemini API",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "source": "Google AI"
+   }
+  ],
+  "880dd6c194cf": [
+   {
+    "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+    "source": "The Verge"
+   }
+  ],
+  "6687f7be62c3": [
+   {
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "source": "OpenAI"
+   }
+  ],
+  "488834721fb0": [
+   {
+    "title": "DeepMind Employees Are Unionising",
+    "url": "https://www.gdmunion.co.uk",
+    "source": "gdmunion.co.uk"
+   },
+   {
+    "title": "DeepMind Employees Are Unionising",
+    "url": "https://news.ycombinator.com/item?id=50557885",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
