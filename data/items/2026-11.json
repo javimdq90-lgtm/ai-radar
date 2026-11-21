@@ -15170,7 +15170,7 @@
    "Genie 4"
   ],
   "imageCheckedAt": "2026-11-18T23:26:36.873Z",
-  "storyId": "50e3ea47cbae"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://openai.com/index/inside-the-codex-sandbox",
@@ -15482,7 +15482,7 @@
   ],
   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
   "imageCheckedAt": "2026-11-18T23:26:36.613Z",
-  "storyId": "b2c084a41275"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
@@ -15540,7 +15540,7 @@
    "Gemini 4 Neon"
   ],
   "imageCheckedAt": "2026-11-18T23:26:36.789Z",
-  "storyId": "b2c084a41275"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
@@ -15888,7 +15888,7 @@
    "Opus 5.5"
   ],
   "imageCheckedAt": "2026-11-19T14:30:52.474Z",
-  "storyId": "b2c084a41275"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
@@ -16059,7 +16059,7 @@
    "Google DeepMind",
    "Anthropic"
   ],
-  "storyId": "b2c084a41275"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
@@ -17126,7 +17126,7 @@
   ],
   "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
   "imageCheckedAt": "2026-11-20T14:08:36.976Z",
-  "storyId": "b2c084a41275"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://huggingface.co/papers/2611.26595",
@@ -17168,7 +17168,7 @@
    "Gemini",
    "Siri"
   ],
-  "storyId": "ff3559dcabff"
+  "storyId": "c4ca83ba5741"
  },
  {
   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
@@ -17635,5 +17635,121 @@
   "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
   "imageCheckedAt": "2026-11-20T23:10:20.947Z",
   "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+  "title": "[AINews] Riemann Hypothesis proved...twice independently",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-21T05:02:13.000Z",
+  "snippet": "November 20 2026 —",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/46cbd562-7369-4863-b0a8-00306043d65a/image.png?t=1795236179",
+  "id": "2b32d4b379bc",
+  "fetchedAt": "2026-11-21T13:33:42.700Z",
+  "enrichedAt": "2026-11-21T13:33:51.559Z",
+  "summary": "Latent Space's AINews newsletter for November 20, 2026 headlines claims that the Riemann Hypothesis was proved twice independently.",
+  "whyItMatters": "If AI systems were involved, it would be a landmark for AI in mathematics, but the snippet gives no details, so verify before trusting.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Latent Space"
+  ],
+  "storyId": "f1b7c64ada91"
+ },
+ {
+  "url": "http://ricapar.net/ClawDOS/",
+  "title": "ClawDOS – An AI coding agent for DOS",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-21T05:38:01.000Z",
+  "score": 109,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50586292",
+  "id": "56c8c69722c8",
+  "fetchedAt": "2026-11-21T13:33:42.700Z",
+  "enrichedAt": "2026-11-21T13:33:51.559Z",
+  "summary": "ClawDOS is a hobby project that brings an AI coding agent to DOS.",
+  "category": "open-source",
+  "importance": 1,
+  "entities": [
+   "ClawDOS"
+  ],
+  "storyId": "56c8c69722c8"
+ },
+ {
+  "url": "https://a90.com/experiments/same-advice/",
+  "title": "AI is giving everyone the same advice",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T16:58:05.000Z",
+  "score": 96,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50577872",
+  "id": "9d9e2c9f2c65",
+  "fetchedAt": "2026-11-21T13:33:42.700Z",
+  "enrichedAt": "2026-11-21T13:33:51.559Z",
+  "summary": "An essay argues that AI tools are giving everyone the same homogenized advice.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "9d9e2c9f2c65"
+ },
+ {
+  "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+  "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T20:22:41.000Z",
+  "score": 292,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50581438",
+  "id": "a4a5f143094b",
+  "fetchedAt": "2026-11-21T13:33:42.700Z",
+  "enrichedAt": "2026-11-21T13:33:51.559Z",
+  "summary": "The US SEC's probe of Nvidia is examining potential accounting issues, according to sources cited by MarketScreener.",
+  "whyItMatters": "Scrutiny of the dominant AI chip supplier's books could affect market confidence in AI infrastructure spending.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "SEC"
+  ],
+  "image": "https://cdn.zonebourse.com/static/resize/0/0//images/reuters/2026-11/2026-11-12T193015Z_1_LYNXNPEMAB24H_RTROPTP_4_USA-STOCKS.JPG",
+  "imageCheckedAt": "2026-11-21T13:33:52.004Z",
+  "storyId": "c69438672bb7"
+ },
+ {
+  "url": "https://signal.org/blog/protecting-your-privacy/",
+  "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-20T09:42:16.000Z",
+  "score": 556,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50572348",
+  "id": "c4ca83ba5741",
+  "fetchedAt": "2026-11-21T13:33:42.700Z",
+  "enrichedAt": "2026-11-21T13:33:51.559Z",
+  "summary": "Signal argues for restricting AI agents in mobile operating systems so they cannot capture data from apps such as private messaging.",
+  "whyItMatters": "OS-level agent access to screen content is a privacy flashpoint that could shape the permissions and APIs agent builders get on mobile.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Signal"
+  ],
+  "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png",
+  "imageCheckedAt": "2026-11-21T13:33:51.649Z",
+  "storyId": "c4ca83ba5741"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.26627",
+  "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "snippet": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately simple parameterization: a fixed set of steering vectors added to the block outputs of the frozen base…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26627.png",
+  "id": "f138e148bb7c",
+  "fetchedAt": "2026-11-21T13:33:42.700Z",
+  "enrichedAt": "2026-11-21T13:33:51.558Z",
+  "summary": "A paper finds that RL post-training gains in diffusion transformers (better text rendering, composition, visual quality) can largely be reproduced by adding a fixed, input-independent set of steering vectors to the block outputs of the frozen base model.",
+  "whyItMatters": "It suggests RL tuning of image models mostly shifts activations globally, which could enable cheaper, lighter alternatives to full RL fine-tuning.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Diffusion Transformers"
+  ],
+  "storyId": "f138e148bb7c"
  }
 ]
