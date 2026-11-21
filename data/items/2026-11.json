@@ -17478,7 +17478,7 @@
    "SEC"
   ],
   "imageCheckedAt": "2026-11-20T23:10:21.114Z",
-  "storyId": "c69438672bb7"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://latent.space/p/formal-verification/",
@@ -17709,7 +17709,7 @@
   ],
   "image": "https://cdn.zonebourse.com/static/resize/0/0//images/reuters/2026-11/2026-11-12T193015Z_1_LYNXNPEMAB24H_RTROPTP_4_USA-STOCKS.JPG",
   "imageCheckedAt": "2026-11-21T13:33:52.004Z",
-  "storyId": "c69438672bb7"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://signal.org/blog/protecting-your-privacy/",
@@ -17751,5 +17751,133 @@
    "Diffusion Transformers"
   ],
   "storyId": "f138e148bb7c"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+  "title": "The UN fails to agree on rules regulating ‘killer robots’",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-21T20:03:37.000Z",
+  "snippet": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the International Committee of the Red Cross, the guardian of the Geneva Conventions, said it was urgent for legally binding rules to be drafted within a year. That call was backed by the U.N. secretary-general and by Pope Leo. The compr…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "2cb10b95a79b",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "summary": "UN diplomats in Geneva failed to agree on rules for autonomous weapons, only agreeing to \"start discussing options\" after a week of talks. The Red Cross, the UN secretary-general and Pope Leo had urged legally binding rules within a year.",
+  "whyItMatters": "Binding international limits on AI-enabled weapons remain distant, leaving development largely unregulated.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "United Nations",
+   "Red Cross",
+   "Pope Leo"
+  ],
+  "storyId": "2cb10b95a79b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  "title": "Here are the top AI agents that can live in your text messages",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-21T17:00:00.000Z",
+  "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+  "id": "6ccebafcdf30",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "summary": "TechCrunch compiled a list of notable AI agents that work through text messages, ranging from general assistants to ones for families, travel and work.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "TechCrunch"
+  ],
+  "storyId": "6ccebafcdf30"
+ },
+ {
+  "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+  "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-21T14:00:00.000Z",
+  "snippet": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching its public beta on Saturday on the web and through a new app for iOS and Android. \"Our cofounders have had many people come up to them and say, 'Hey, I run a mahjong night on Wednesdays' or 'I go to this local bar in Chicago with like five peop…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/classic-games-home-page-trimmed.jpeg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "769adf524e57",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+  "title": "A tale of two Nvidias",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-21T21:07:42.000Z",
+  "snippet": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+  "id": "a1abc1ba2744",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "summary": "Nvidia's latest earnings report is presented as a contrast to tech executives loudly calling for Jensen Huang's return, giving two different pictures of the company.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+  "title": "Can Anthropic afford to put safety first?",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-21T15:00:00.000Z",
+  "snippet": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. The real story is what happens now — and whether Anthropic can continue to thread the needle of caring about and investing in AI safety while also being a public company beholden to shareholders. Oh, a…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "a2b0b71c8120",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "summary": "Anthropic went public on the Nasdaq last Thursday, becoming one of the most valuable companies in the world. The Verge's Hayden Field discusses whether it can keep prioritizing AI safety while answering to shareholders.",
+  "whyItMatters": "Public-market pressure could change how a leading model provider balances safety commitments against growth and product decisions.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic",
+   "Claude",
+   "Hayden Field"
+  ],
+  "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+  "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-21T16:00:00.000Z",
+  "snippet": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+  "id": "dffab27fe8d5",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "summary": "An actor has licensed his face to a microdrama startup for AI-generated use, following a trend already popular in China. Experts question the long-term consequences if Hollywood follows.",
+  "whyItMatters": "Likeness licensing deals are an early test of how consent, pay and control will work for AI-generated performances.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "microdrama startup",
+   "Hollywood"
+  ],
+  "storyId": "dffab27fe8d5"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+  "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-21T21:37:10.000Z",
+  "snippet": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800",
+  "id": "f3487ac9886e",
+  "fetchedAt": "2026-11-21T22:13:55.372Z",
+  "enrichedAt": "2026-11-21T22:14:03.254Z",
+  "summary": "Signal is limiting screenshots in its Android and iOS apps, citing AI surveillance as an \"existential threat\".",
+  "whyItMatters": "It shows how AI-driven screen-reading and surveillance features are pushing privacy apps to restrict device capabilities.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Signal"
+  ],
+  "imageCheckedAt": "2026-11-21T22:14:03.293Z",
+  "storyId": "c4ca83ba5741"
  }
 ]

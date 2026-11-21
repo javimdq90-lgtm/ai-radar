@@ -259,45 +259,6 @@
    }
   }
  },
- "15efdecd25aa": {
-  "storyId": "15efdecd25aa",
-  "itemIds": [
-   "15efdecd25aa",
-   "f7403dc55170"
-  ],
-  "writtenAt": "2026-10-22T20:37:32.202Z",
-  "headline": "Meta to create non-voting share class to fund AI spending, acquisitions and pay",
-  "dek": "Meta will distribute a new class of non-voting stock to existing shareholders by dividend, with trading starting in 2027, to fund AI, acquisitions and employee compensation while keeping founder control.",
-  "keyPoints": [
-   "Meta announced with Q3 earnings that it will create a non-voting capital stock class, distributed to existing shareholders through a stock dividend; trading begins in 2027.",
-   "CFO Susan Li says the shares are for capital raising, employee compensation, acquisitions and general corporate purposes, preserving Class A and B voting power.",
-   "Meta expects 2026 capital expenditures of $135 billion to $145 billion, up from a prior range of $130 billion to $145 billion, per The Verge.",
-   "Q3 revenue was $64 billion, up 26%, while costs and expenses rose 68%, according to TechCrunch.",
-   "Mark Zuckerberg says more than 10 million people in the US and Canada have set up Muse personal agents."
-  ],
-  "context": "Meta has spent heavily on AI infrastructure, talent and models, and its capital spending guidance keeps climbing. Its dual-class structure leaves voting control with existing Class A and B holders, so a non-voting class lets it raise or spend equity without diluting that control. Semafor reported the plan before the earnings call.",
-  "whatsNext": "Watch for the dividend distribution details and the start of trading in the new shares in 2027, plus the youth-related trials Meta says are scheduled in the US in coming months.",
-  "article": {
-   "whatHappened": [
-    "Meta said alongside its third-quarter earnings on Wednesday that it will create a new class of non-voting capital stock. The shares will be distributed to all existing shareholders through a stock dividend, with trading starting in 2027. Semafor reported the plan earlier in the day, and Meta confirmed it on its earnings call.",
-    "Chief financial officer Susan Li said the company created the class to have a publicly traded non-voting stock usable for capital raising, employee compensation, acquisitions and other general corporate purposes, while preserving the voting power of existing Class A and B shareholders. She said it will also help maintain Meta's founder-led structure.",
-    "The announcement came with strong results. Meta reported $64 billion in revenue, up 26% from a year earlier and ahead of Wall Street expectations, according to TechCrunch. Costs and expenses rose 68%. Meta now expects 2026 capital expenditures of $135 billion to $145 billion, up from an earlier range of $130 billion to $145 billion. It also expects Reality Labs losses to shrink to between $18 billion and $19 billion."
-   ],
-   "whyItMatters": [
-    "The scale of Meta's AI spending is the stated reason for the move. Its press release said the investment required to compete amid the AI transformation is significant. A share class that can be sold or used as currency gives the company another way to pay for data centers, acquisitions and the talent it has recruited from rivals, without handing over votes.",
-    "The product side offers the justification Meta wants investors to see. Zuckerberg said more than 10 million people in the US and Canada have set up Muse personal agents in a month and a half, and that the app has been number one in the App Store almost every day. He said Muse has clear product-market fit and the company is entering a more operational phase focused on scaling it.",
-    "There are complications. The Verge reported privacy concerns, including a YouTuber's claim that the agent gave his address to a stranger, and a paused conversation-sharing feature after chats appeared publicly on the web. Li also flagged scrutiny of youth-related issues and trials coming in the US."
-   ],
-   "whatToWatch": [
-    "The coverage gives no dividend ratio or exact date beyond 2027 trading, so the mechanics of distribution and how the shares are priced remain open. How investors value non-voting stock from a founder-controlled company will matter once it trades.",
-    "Also watch whether capital expenditure guidance keeps rising and how the youth-related trials Li mentioned play out in the coming months."
-   ],
-   "pullQuote": {
-    "text": "create a new class of non-voting capital stock, which will be distributed to all existing shareholders through a stock dividend.",
-    "by": "Susan Li, Meta chief financial officer"
-   }
-  }
- },
  "169aca9d9c2a": {
   "storyId": "169aca9d9c2a",
   "itemIds": [
@@ -1273,45 +1234,6 @@
    }
   }
  },
- "7bc6770bad95": {
-  "storyId": "7bc6770bad95",
-  "itemIds": [
-   "7bc6770bad95",
-   "d26ae9b2d9ce"
-  ],
-  "writtenAt": "2026-10-22T20:36:58.904Z",
-  "headline": "Microsoft's AI diagnostic system beats doctors on test cases in Science study",
-  "dek": "Microsoft AI says its multi-agent MAI-DxO system scored 83% on New England Journal of Medicine cases versus 36% for generalist physicians, though testing used only past cases and gains over base models were modest.",
-  "keyPoints": [
-   "On NEJM cases, Microsoft's system scored about 83%, versus roughly 36% for generalist physicians with references and 22% without them, according to the Science paper.",
-   "On Beth Israel emergency department cases it scored 80% against an average of 47% for physicians; TechCrunch notes complex cases are usually handled by specialists, who weren't compared.",
-   "TechCrunch reports much of the gain comes from stronger underlying models; with GPT-5.5, the system lifted complex-case accuracy from 72% to nearly 87% but showed no emergency gains.",
-   "Microsoft plans real-world testing with Beth Israel Deaconess, which Dominic King says should start within a couple of months. No timeline or commercial plan was given.",
-   "Suleyman says Microsoft is training a healthcare foundation model with the Mayo Clinic, with release planned next year."
-  ],
-  "context": "Microsoft AI, led by DeepMind co-founder Mustafa Suleyman, is pursuing what it calls medical superintelligence. It joins Google and OpenAI in claiming AI can match or beat doctors on diagnosis. Google has a parallel real-world study of its AMIE system, also with Beth Israel, published in The Lancet.",
-  "whatsNext": "Watch for the Beth Israel Deaconess clinical evaluation, which Microsoft says should begin within a couple of months, and for the Mayo Clinic-trained healthcare model planned for next year.",
-  "article": {
-   "whatHappened": [
-    "Microsoft AI says its diagnostic system can diagnose conditions up to four times more accurately than human doctors in tests on medical scenarios. The findings were published Thursday in Science. The system, called MAI-DxO or the Diagnostic Orchestrator, uses multiple AI agents that act like a panel of doctors: they question a patient, order tests and debate a diagnosis.",
-    "On cases drawn from hundreds of New England Journal of Medicine reports, the system reached about 83% accuracy. Generalist physicians using references scored roughly 36%, and those without references 22%. On emergency department cases from Beth Israel Deaconess Medical Center in Boston, it scored 80% against an average of 47% for physicians. It also tended to reach diagnoses at lower estimated cost.",
-    "Microsoft compiled the cases into its own benchmark, SDBench, which it plans to open-source. The system was tested with models from several companies, including OpenAI, Google, Anthropic, Meta and DeepSeek, with its best results coming from OpenAI's GPT-5 and GPT-5.5."
-   ],
-   "whyItMatters": [
-    "The headline comparison comes with caveats. TechCrunch notes that cases this complex are usually handled by specialists or physician teams, who were not part of the comparison. The system has only been tested on past cases, and Suleyman himself says it needs clinical validation, calling real-world use a leap.",
-    "TechCrunch's reading of the study's data is that most of the improvement comes from stronger underlying models. GPT-5 alone scored 78.9% on complex cases; the orchestrator cut cost by about $3,000 per case but added only about four points of accuracy. With GPT-5.5, it raised complex-case accuracy from 72% to nearly 87%, but emergency cases stayed near 85% either way. It helped most with weaker models, such as Gemini 2.5 Flash, which rose from 46.4% to nearly 69%.",
-    "The paper also does not test newer models, though the researchers say improvements in model capability do not necessarily diminish the benefits of multiple agents working together. The work shows Microsoft building its own health AI stack as competitors publish similar claims."
-   ],
-   "whatToWatch": [
-    "Microsoft will begin testing with Beth Israel Deaconess in hospital settings. Patients will receive standard care, and those who consent will also interact with the system, with its recommendations compared against human doctors'. Dominic King says this should get underway in the next couple of months, though neither he nor Suleyman committed to a firm timeline.",
-    "Commercialization is possible, but Microsoft has not said when or how. King stressed the high regulatory and compliance requirements in medicine. Suleyman says a healthcare foundation model trained with the Mayo Clinic is planned for release next year."
-   ],
-   "pullQuote": {
-    "text": "It needs clinical validation,",
-    "by": "Mustafa Suleyman, Microsoft AI CEO"
-   }
-  }
- },
  "7da1b2b4758f": {
   "storyId": "7da1b2b4758f",
   "itemIds": [
@@ -1964,35 +1886,37 @@
    "4aacf31011a3",
    "1177dfbd92c1",
    "fda5004e845f",
-   "99527486f11f"
+   "99527486f11f",
+   "a2b0b71c8120"
   ],
-  "writtenAt": "2026-11-21T13:34:40.506Z",
-  "headline": "Anthropic goes public on Nasdaq after record $81.3 billion IPO priced at $83 a share",
-  "dek": "Anthropic priced 980 million shares at $83, above its $70-$78 range, raising $81.3 billion, then opened at $111.50 on Nasdaq as \"ANT\" and, per Latent Space, closed at $97.17.",
+  "writtenAt": "2026-11-21T22:14:28.922Z",
+  "headline": "Anthropic goes public at $83 a share, raising $81.3B in largest IPO ever",
+  "dek": "Anthropic priced 980 million shares at $83, above its range, valuing it near $1.5 trillion; ANT opened at $111.50 on Nasdaq on November 19 and closed at $97.17, per Latent Space.",
   "keyPoints": [
-   "Anthropic priced 980 million Class A shares at $83, above the $70-$78 range, raising $81.3 billion, a record IPO that tops SpaceX's $75 billion, per TechCrunch.",
-   "Including a $26 billion private placement of non-voting shares, TechCrunch reports Anthropic raised about $104.8 billion. Nvidia and Google each bought $10 billion.",
-   "ANT opened at $111.50 on Nov. 19 and, per Latent Space, closed at $97.17, up 17% from the offer price. The IPO price implied roughly $1.5 trillion fully diluted.",
-   "The S-1 shows an $80.7 billion net loss in the first half, mostly from an accounting charge, on $16.3 billion revenue, per The Verge.",
-   "Anthropic's seven co-founders each sold about 3.4 million shares for roughly $280 million, and have pledged 80% of their equity to philanthropy in non-binding commitments, per TechCrunch."
+   "Anthropic sold 980 million Class A shares at $83, above the $70-$78 range, raising $81.3 billion and passing SpaceX's $75 billion IPO record, TechCrunch reports.",
+   "ANT opened at $111.50 on Nasdaq and closed at $97.17, up 17% from the offering price, according to The Verge and Latent Space.",
+   "With a $26 billion private placement of non-voting shares, Anthropic raised about $104.8 billion; Nvidia and Google each bought $10 billion, TechCrunch says.",
+   "Amazon holds 14.6% and Google 13.4% after the IPO. Anthropic has disclosed roughly $1.05 trillion to $1.08 trillion in infrastructure commitments, TechCrunch reports.",
+   "The seven co-founders each sold about 3.4 million shares, roughly $280 million apiece, and pledged 80% of their equity to philanthropy, though the pledges are revocable."
   ],
-  "context": "Anthropic's last private round in May raised $65 billion at $965 billion, and it was reportedly aiming for about $2 trillion earlier. The listing is a test of public-market appetite for AI labs and a reference point for rival OpenAI, which has not announced IPO plans.",
-  "whatsNext": "The offering is expected to close Nov. 20, and underwriters have a 30-day option to buy up to 147 million additional shares.",
+  "context": "The listing follows a May private round that valued Anthropic at $965 billion, and falls short of the $2 trillion it was reportedly aiming for earlier. It is the largest IPO by proceeds, ahead of SpaceX's June offering, and is expected to set a benchmark for private AI companies such as OpenAI, which has not announced IPO plans.",
+  "whatsNext": "Underwriters hold a 30-day option on up to 147 million more shares, and lockup expiries over the coming year could weigh on the stock, Latent Space notes.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share, above the initial range of $70 to $78, and began trading on the Nasdaq Global Select Market on Nov. 19 under the ticker \"ANT.\" The offering covers 980 million Class A shares, up from 825 million initially planned, according to TechCrunch. Of those, 956.4 million are sold by Anthropic and about 23.6 million by selling stockholders, per the company's announcement.",
-    "The offering raised $81.3 billion, surpassing SpaceX's $75 billion IPO from June as the largest ever by proceeds. At the offer price Anthropic is valued at roughly $1.5 trillion fully diluted. The stock opened at $111.50, per The Verge. Latent Space reports it closed at $97.17, up 17% from the offer price, and slipped about 5% after the close.",
-    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N shares in a private placement. TechCrunch reports Nvidia and Google each bought $10 billion, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. That brings expected net proceeds to about $104.8 billion, or up to $117 billion if underwriters exercise their full option.",
-    "Ownership is concentrated among strategic partners. TechCrunch says Google holds 13.4% and Amazon 14.6%, together 28%, per Anthropic. Amazon converted only part of its promissory notes; full conversion would have given it nearly 24%. The seven co-founders each sold about 3.4 million shares, roughly $280 million apiece before fees and taxes."
+    "Anthropic priced its initial public offering at $83 per share on November 18, above the initial range of $70 to $78, and began trading on the Nasdaq Global Select Market on November 19 under the ticker ANT. The offering totaled 980 million Class A shares, up from 825 million initially planned, according to TechCrunch.",
+    "Of those shares, 956,351,354 were sold by Anthropic and 23,648,646 by selling stockholders, per the company's announcement. The $81.3 billion raised surpasses SpaceX's $75 billion IPO from June. Underwriters have a 30-day option to buy up to 147 million additional shares, and the offering was expected to close on November 20.",
+    "The stock opened at $111.50, 34% above the offering price, The Verge and Latent Space report. Latent Space says it closed at $97.17, up 17%, and drifted lower in after-hours trading. At the IPO price, Anthropic is valued at about $1.5 trillion fully diluted.",
+    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N shares in a private placement. TechCrunch says Nvidia and Google each bought $10 billion, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. Including that placement, the company raised about $104.8 billion."
    ],
    "whyItMatters": [
-    "The debut gives a public-market price to the company at the center of the AI buildout. The $1.5 trillion valuation is well above the $965 billion from May, though below the roughly $2 trillion it was reportedly seeking earlier. TechCrunch notes a strong debut signals investor optimism about AI adoption despite recent volatility in AI stocks, and the result is expected to shape expectations for private AI companies including OpenAI.",
-    "The financial picture is mixed. The S-1 shows an $80.7 billion net loss in the first half, which The Verge says mostly reflects an accounting charge that does not reflect the business, against $16.3 billion in revenue. TechCrunch reports Anthropic needs about $70.7 billion for compute and infrastructure commitments in the next 12 months and $451.6 billion by the end of 2030, with total disclosed commitments of roughly $1.05 trillion to $1.08 trillion.",
-    "Governance is also a factor. The Verge says the structure keeps control with the founders rather than shareholders, and Latent Space reports their Class F shares carry 50.1% of voting power on most matters. The S-1 lists risks including models that \"may behave in unintended, misaligned, or autonomous ways.\" Amodei said at the listing that Anthropic would pace training and deployment as needed to keep systems safe."
+    "The valuation is well above the $965 billion from the May private round but below the $2 trillion Anthropic was reportedly seeking months ago. How the stock trades will likely shape expectations for other private AI companies, including rival OpenAI, which has not announced an IPO.",
+    "The size of the raise sits against even larger spending needs. TechCrunch reports that Anthropic needs about $70.7 billion in the next 12 months for compute and infrastructure commitments and $451.6 billion before the end of 2030, with total disclosed commitments of roughly $1.05 trillion to $1.08 trillion. Financial Times Unhedged, as cited by Latent Space, calculated that a 20% return on about $1 trillion of compute commitments would require roughly $602 billion in annual revenue.",
+    "The S-1 showed an $80.7 billion net loss in the first half, most of it from an accounting charge that The Verge says does not reflect the business, against $16.3 billion in revenue. It also lists risks such as AI models resisting shutdown. Governance keeps control with the founders: Latent Space says their Class F shares carry 50.1% of voting power on most matters.",
+    "Amazon and Google now hold a combined 28% stake, according to the company. The seven co-founders each received about $280 million before fees and taxes, and have pledged 80% of their equity to philanthropy, though Anthropic describes the pledges as voluntary and revocable."
    ],
    "whatToWatch": [
-    "The offering is expected to close on Nov. 20, subject to customary conditions. Underwriters hold a 30-day option on up to 147 million more shares, which would lift proceeds if exercised.",
-    "Watch how the stock trades after the opening pop, and when lockups expire. Latent Space expects expiries to weigh on the price over the next year. Whether OpenAI responds with IPO plans is open; it has announced none."
+    "Watch how the shares trade after the opening-day pop, and whether underwriters exercise their option for up to 147 million more shares. Latent Space expects lockup expiries to pressure the stock as shares become tradable over the next year.",
+    "Also watch whether Anthropic can fund its compute commitments and whether OpenAI announces its own listing plans."
    ],
    "pullQuote": {
     "text": "We will not bend to either business nor political pressure.",
@@ -2287,77 +2211,40 @@
   "storyId": "c4ca83ba5741",
   "itemIds": [
    "c4ca83ba5741",
-   "ff3559dcabff"
+   "ff3559dcabff",
+   "f3487ac9886e"
   ],
-  "writtenAt": "2026-11-21T13:34:28.392Z",
+  "writtenAt": "2026-11-21T22:14:17.532Z",
   "headline": "Signal blocks screenshots on iOS 27 and Android to keep OS-level AI agents out",
-  "dek": "Signal will restrict screenshots on iOS 27 and Android to stop Siri AI and Gemini from reading chats, and says OS makers give developers no proper tools to opt out.",
+  "dek": "Signal is restricting screenshots on iOS 27 and Android so Gemini and Siri AI cannot read messages on screen, and is calling on Apple, Google and Microsoft to give developers proper controls.",
   "keyPoints": [
-   "Signal blocks screenshots on iOS 27 and, on Android, blocks capture where it detects an AI assistant reading the screen; users can turn the protection off in settings.",
-   "President Meredith Whittaker says OS-level agents undermine Signal's ability to independently guarantee privacy and call this an existential threat to privacy at the application layer.",
-   "Signal calls its fix incomplete: agents could still reach data through the device filesystem. It cannot apply the protection on macOS.",
-   "Signal wants Apple, Google and Microsoft to supply simple technical tools and accurate documentation, and flags third-party agents such as Meta's Muse that use accessibility permissions.",
-   "Signal says it did something similar last year, using screenshot blocking to stop Microsoft's Recall from capturing Signal chats on Windows 11."
+   "Signal now blocks screenshots on iOS 27 and, on Android, blocks capture when it detects an AI assistant, to stop agents such as Gemini and Siri AI reading chats.",
+   "Users can turn the protection off in settings, but president Meredith Whittaker says that may expose their and their contacts' content to AI agents and break Signal's privacy guarantees.",
+   "Signal calls its fix \"incomplete\": it does not stop agents retrieving data through the device filesystem, and it cannot be applied on macOS.",
+   "Signal wants Apple, Google and Microsoft to provide technical tools and accurate documentation, and says third-party agents like Meta's Muse use accessibility settings as a \"skeleton key\".",
+   "Signal says it is \"cautiously optimistic\" that Google and Apple are engaging with it, and hopes to share more soon."
   ],
-  "context": "Microsoft's Recall feature, which snapshots the screen, drew privacy criticism, and Signal blocked it on Windows 11 last year. Google and Apple are now building similar agentic features, such as Gemini Intelligence and Siri's Onscreen Awareness, into Android and iOS. The dispute tests whether app developers can keep end-to-end encrypted content out of AI systems that read the screen.",
-  "whatsNext": "Signal says it is in talks with Google and Apple and hopes to have more to share soon, but no dates or commitments have been announced.",
+  "context": "Signal used screenshot blocking last year to stop Microsoft's Recall from storing images of Signal chats on Windows 11. Google and Apple are now building agentic features, such as Gemini Intelligence and Siri's Onscreen Awareness, deep into their operating systems. Signal argues these features undermine the app-level privacy guarantees that its open source code and verified encryption protocol are meant to provide.",
+  "whatsNext": "Signal says it hopes to share more soon from its talks with Apple and Google about standardized ways for AI agents to interact with privacy-sensitive apps.",
   "article": {
    "whatHappened": [
-    "Signal is restricting screenshots in its mobile apps to stop AI agents built into operating systems from reading users' messages. The change covers iOS 27, where screenshots are blocked in the app, and Android, where Signal blocks capture when it detects an AI assistant trying to read the screen. Signal says this should keep Siri AI, Gemini and other Android assistants from seeing on-screen content.",
-    "Users who want to take screenshots can disable the protection in Signal's settings. Signal president Meredith Whittaker warns that doing so will potentially expose a user's and their contacts' Signal content to these AI agents and break the app's privacy guarantees. Signal describes its remedy as incomplete, because agents could still get at data already on a device through the filesystem.",
-    "Signal says the agents work by scanning what is on screen, then making that data available to local databases or remote servers used by the AI system. Once captured, Signal says, the data is outside its control, which puts every participant in a conversation at risk. The company says it spent months on forensic investigation of Android and iOS to learn how these agents access app data."
+    "Signal is restricting screenshots in its mobile apps to keep AI agents built into operating systems from reading users' messages. The change covers iOS 27 and Android, where the aim is to stop Apple's Siri AI, Google's Gemini and other Android assistants from capturing on-screen content.",
+    "On iOS 27, Signal prevents screenshots in the app. On Android, it blocks capture when it can detect an AI assistant trying to read the screen. Users who want screenshots back can disable the protection in Signal's settings, though president Meredith Whittaker warns that doing so will potentially expose their and their contacts' content to AI agents.",
+    "In a blog post, Whittaker said OS-level agents work by scanning what is on screen, and that captured data is then made available to whatever local database or remote server the agent uses. Signal says this is outside its control once the data has been taken, and that it affects every participant in a conversation.",
+    "Signal concedes the fix is incomplete. Blocking screenshots does not stop agents from retrieving content already on a device through the filesystem, and Signal says it cannot apply the protection on macOS because the platform offers no way to do so without drastic compromises to the core user experience."
    ],
    "whyItMatters": [
-    "Signal's privacy claim rests on open source code and a formally verified encryption protocol. Its argument is that none of that helps if the operating system captures decrypted content from the screen. Signal frames this as a threat to the whole app ecosystem, saying Android, iOS and Windows are the environments in which every third-party app has to operate.",
-    "The company says the platforms do not give developers an easy way to restrict AI access without drastic compromises to the core user experience. That is also why it cannot yet offer the protection on macOS. Screenshot blocking is a blunt workaround rather than a designed control, and Signal says it is uncertain how agents actually access application data because documentation is lacking.",
-    "Signal also points to third-party agents, naming Meta's Muse, that use accessibility permissions granted during setup. It says those settings were meant to help people use apps, not to act as a skeleton key for AI agents. This suggests the issue extends beyond the platform owners' own assistants."
+    "The move follows Signal's use of screenshot blocking last year against Microsoft's Recall on Windows 11. What has changed is that Google and Apple, which supply the two dominant mobile platforms, are now adding agentic features such as Gemini Intelligence and Siri's Onscreen Awareness. Signal describes the three major operating systems as the environment in which apps must operate, and says AI integrations are making it hostile to privacy.",
+    "Signal's complaint is as much about tooling as about the AI itself. It says it has spent months on forensic investigation of Android and iOS because documentation of how agents access app data is lacking. It wants Apple, Google and Microsoft to give developers simple tools and accurate documentation to restrict agent access to sensitive data.",
+    "The post also points beyond the platform makers. Signal says third-party agents, including Meta's Muse, can use accessibility permissions that users are encouraged to grant during setup as a \"skeleton key\" into app data. Those permissions were designed to help people use apps, not to serve AI agents."
    ],
    "whatToWatch": [
-    "Signal says it is cautiously optimistic about talks with Google and Apple on how their systems should interface with privacy-sensitive apps, and hopes to announce more soon. Whether either company publishes developer controls or documentation is the open question; neither has responded in the coverage provided.",
-    "Also unresolved is whether Signal can extend protection to macOS, which it says it cannot do without such tools."
+    "Signal says it is \"cautiously optimistic\" that Google and Apple are engaging with it on how their systems should interface with privacy-sensitive apps, and hopes to share more soon. Whether either company responds with developer-facing controls or documentation is the open question.",
+    "Also unresolved is whether other privacy-focused apps adopt similar restrictions, and whether Signal's protections hold against agents that use accessibility permissions or filesystem access rather than screen capture."
    ],
    "pullQuote": {
-    "text": "it is a serious problem that Signal – and application developers beyond – lack robust tools to prevent AI agents from undermining application-level privacy",
+    "text": "We all need to recognize that the current integration of AI agents into the operating system, without these common-sense remedies, represents an existential threat to privacy at the application layer",
     "by": "Meredith Whittaker, Signal president"
-   }
-  }
- },
- "c69438672bb7": {
-  "storyId": "c69438672bb7",
-  "itemIds": [
-   "c69438672bb7",
-   "a4a5f143094b"
-  ],
-  "writtenAt": "2026-11-21T13:34:16.925Z",
-  "headline": "SEC is probing Nvidia's accounting practices, Reuters reports, citing two sources",
-  "dek": "Two people briefed on the matter told Reuters that SEC enforcement staff are examining potential accounting issues at Nvidia, which is already facing export-control and antitrust scrutiny and a steep share price fall.",
-  "keyPoints": [
-   "Reuters, citing two people briefed on the matter, says SEC enforcement staff are scrutinizing potential accounting issues at Nvidia. The SEC declined to comment.",
-   "The Wall Street Journal reported Tuesday that the SEC was probing Nvidia but could not determine the focus. Reuters says it is the first to report the accounting angle.",
-   "Reuters could not establish when the inquiry opened or which accounting issues are at stake, and notes that many investigations close without enforcement action.",
-   "The probe follows revelations about ousted CEO Jensen Huang's relationships, including with Alice Huang, whom US authorities suspect is a Chinese spy; China denies this. Nvidia shares have fallen more than a third.",
-   "The Justice Department is also reviewing Nvidia's $12.9-billion Hugging Face acquisition and running a broader antitrust investigation, Reuters reported last month."
-  ],
-  "context": "Nvidia supplies the chips at the center of the AI boom, so legal and governance problems at the company affect the wider industry. The crisis began with reports about Jensen Huang's relationships, and US authorities have been investigating Megaspeed, a Singapore-based Nvidia customer, since 2024 over possible export-control violations. The SEC inquiry adds a securities-regulation front to the export-control and antitrust scrutiny.",
-  "whatsNext": "Watch for any comment from Nvidia or the SEC on the probe's scope, and for further disclosures about what accounting issues are under examination.",
-  "article": {
-   "whatHappened": [
-    "The US Securities and Exchange Commission is investigating Nvidia's accounting practices, according to two people briefed on the matter who spoke to Reuters on condition of anonymity. They said SEC enforcement staff are scrutinizing potential accounting issues at the chip company. An SEC spokesperson declined to comment, and Nvidia did not immediately respond to requests for comment.",
-    "The Wall Street Journal reported on Tuesday that the SEC was probing Nvidia, but said it could not ascertain what the investigation focused on. Reuters says it is reporting the accounting focus for the first time. It could not determine when the SEC opened its inquiry or exactly which accounting issues are being examined.",
-    "Reuters stressed that investigations are not evidence of wrongdoing and that many close without resulting in enforcement action. The report appeared as Nvidia shares were down 14.01% on the day, according to the MarketScreener page carrying it."
-   ],
-   "whyItMatters": [
-    "The probe lands amid a broader crisis at Nvidia. Investors are still reacting to revelations about ousted CEO Jensen Huang's extramarital relationships, including with Alice Huang, whom US authorities suspect is a Chinese spy. China has denied she is a spy. Jensen Huang admitted to an affair in a November 8 statement, without naming her. Reuters says the crisis has sent Nvidia shares down by more than a third.",
-    "Alice Huang led Singapore-based Megaspeed, historically a large Nvidia customer, according to people familiar with the matter. The US Justice and Commerce departments said this week they have investigated Megaspeed since 2024 over possible export-control violations tied to alleged shipments of Nvidia AI chips to China. Megaspeed says Alice Huang left in August 2025 and that it conducted lawful business.",
-    "Nvidia faces other legal exposure as well. Reuters reported last month that the Justice Department is reviewing Nvidia's $12.9-billion deal to buy Hugging Face, alongside a broader antitrust investigation into its acquisitions and practices. An accounting inquiry adds a separate regulatory track, though its substance remains unclear."
-   ],
-   "whatToWatch": [
-    "The main open questions are what accounting issues the SEC is examining and when the inquiry began. Neither the agency nor Nvidia has commented publicly, so any statement or company filing addressing the probe would be the next concrete signal.",
-    "Also worth watching are developments in the Megaspeed export-control investigation and the Justice Department's review of the Hugging Face deal, which are proceeding separately."
-   ],
-   "pullQuote": {
-    "text": "Investigations are not evidence of wrongdoing and many close without resulting in enforcement action.",
-    "by": "Reuters"
    }
   }
  },
@@ -2507,86 +2394,6 @@
    "pullQuote": {
     "text": "We submitted a ~100-page full report on our assessment to Anthropic. For the public version, Anthropic redacted a majority of the evidence we found most informative",
     "by": "METR"
-   }
-  }
- },
- "d1b19037538a": {
-  "storyId": "d1b19037538a",
-  "itemIds": [
-   "d1b19037538a"
-  ],
-  "writtenAt": "2026-10-22T20:37:09.233Z",
-  "headline": "Microsoft says China-aligned hackers used AI agents to breach about 2,250 ConnectWise customers",
-  "dek": "Microsoft says a China state-aligned group stole credentials from ConnectWise's cloud backup service, then used the ARTEX AI framework to hit around 2,250 organizations at nearly 3,000 sign-in attempts per minute.",
-  "keyPoints": [
-   "Microsoft attributes the ConnectWise breach to China state-aligned hackers who broke into its cloud backup service and stole application credentials used to link ConnectWise with customers.",
-   "The credentials let attackers sign in to customers' Microsoft-hosted environments as authorized users and reach emails and other files.",
-   "Microsoft says AI agents drove attacks on about 2,250 organizations at almost 3,000 attempted sign-ins per minute, leaving defenders 'little time to detect and respond.'",
-   "The tool named is ARTEX, an open source AI framework for stress-testing cyber defenses, also used in a recent compromise of South Korea's financial systems.",
-   "ConnectWise has paused access to its cloud backup system, is investigating, and said as of Thursday it was working to restore the service."
-  ],
-  "context": "ConnectWise makes IT management and remote access software used by service providers, so a breach there can reach many downstream customers at once. The reported use of AI agents to automate intrusions at scale fits growing concern that attackers can use such tools to speed up credential-based attacks. TechCrunch frames this as another bad week for cybersecurity.",
-  "whatsNext": "Watch for ConnectWise's investigation findings and the restoration of its cloud backup service, which the company said it was working on as of Thursday.",
-  "article": {
-   "whatHappened": [
-    "Chinese state-aligned hackers have spied on thousands more companies after breaching ConnectWise, the IT management and remote access provider, according to security researchers at Microsoft. TechCrunch reported the findings, which describe a breach of ConnectWise's cloud backup service and the theft of credentials tied to it.",
-    "Microsoft says the stolen application credentials are used to establish data links between ConnectWise and corporate customers who rely on the service to back up company data. With them, the hackers could log in to a customer's Microsoft-hosted environment as if they were an authorized user, and access emails and other files.",
-    "Microsoft says the attackers used AI agents to break into around 2,250 organizations at a rate of almost 3,000 attempted sign-ins per minute. The company said this speed gives defenders 'little time to detect and respond.' The speed was attributed to ARTEX, an open source AI framework that works with AI models to stress-test cyber defenses.",
-    "ConnectWise said it has paused access to its cloud backup system and is investigating the breach. As of Thursday, the company said it was working on restoring the service."
-   ],
-   "whyItMatters": [
-    "The incident combines two concerns: supply-chain risk and AI-assisted speed. ConnectWise sits between service providers and their customers, so a single compromise of stored credentials gave attackers a route into thousands of separate environments without needing to breach each one directly.",
-    "The reported use of ARTEX is notable because it is an open source framework intended for stress-testing defenses. According to the coverage, the same software was used in a recent compromise of South Korea's financial systems, many of which had weak security and lacked multi-factor authentication. That suggests the tooling is being reused across campaigns, though the coverage does not give further detail on how the attacks were run.",
-    "The rate Microsoft cites, almost 3,000 attempted sign-ins per minute, would be hard for manual review to follow. If accurate, it argues for faster automated detection and for controls such as multi-factor authentication, though the coverage does not say whether those would have stopped this particular attack."
-   ],
-   "whatToWatch": [
-    "The main open items are ConnectWise's investigation and the restoration of its cloud backup service. The coverage does not give a timeline, nor does it say how many of the roughly 2,250 targeted organizations had data accessed.",
-    "It is also unclear whether ConnectWise or Microsoft will publish further technical detail, such as how the credentials were stolen, or whether other agencies or vendors will confirm the attribution to a China-aligned group."
-   ],
-   "pullQuote": {
-    "text": "little time to detect and respond.",
-    "by": "Microsoft"
-   }
-  }
- },
- "d2321eb5a0cf": {
-  "storyId": "d2321eb5a0cf",
-  "itemIds": [
-   "d2321eb5a0cf",
-   "3309b6ce15f4",
-   "2bef5e155399"
-  ],
-  "writtenAt": "2026-10-22T20:37:52.737Z",
-  "headline": "US orders federal civilian agencies to remove DeepSeek AI from their systems",
-  "dek": "DHS bars purchases of DeepSeek products and third-party services built on its technology, citing data-access risks under Chinese law; Bloomberg then reported the company raised about $15 billion.",
-  "keyPoints": [
-   "DHS ordered federal civilian agencies to stop buying DeepSeek products and remove them from IT systems, with exceptions available on request.",
-   "The order also covers third-party products and services built on DeepSeek technology, not just DeepSeek's own app.",
-   "DHS warns sensitive data from US government users could be accessible to Chinese authorities under Chinese law.",
-   "China's Foreign Ministry spokesperson Mao Ning said Beijing opposes 'overstretching the concept of national security and politicizing technology and trade issues.'",
-   "Bloomberg reports DeepSeek raised about $15 billion (100 billion yuan) two days later; CATL and Tencent are among potential investors."
-  ],
-  "context": "DeepSeek drew global attention in January 2025 when its open-weight R1 reasoning model triggered a sell-off in Nvidia shares. A law passed in December 2025 already restricted its use in intelligence national security systems, and OpenAI and Anthropic have separately alleged DeepSeek attempted to distill their models. The new order extends restrictions to the civilian side of government.",
-  "whatsNext": "Watch how agencies handle exception requests and how far the ban reaches into third-party software built on DeepSeek models.",
-  "article": {
-   "whatHappened": [
-    "The US has ordered federal civilian agencies to stop purchasing products and services from Chinese AI startup DeepSeek and to remove them from government IT systems, according to the Department of Homeland Security. The department cited national security concerns tied to the company's operations in China. Agencies can request exceptions.",
-    "The order goes beyond DeepSeek's own product. It also covers third-party products and services built using DeepSeek technology. DHS raised concerns about the company's handling of user data, warning that sensitive information from US government users could potentially be accessible to Chinese authorities under Chinese law, the order said.",
-    "China pushed back. Foreign Ministry spokesperson Mao Ning said Beijing opposes overstretching the concept of national security and politicizing technology and trade issues, and said China would safeguard the rights of Chinese enterprises.",
-    "Two days after the order, Bloomberg reported that DeepSeek had raised about $15 billion, roughly 100 billion yuan, one of the largest funding rounds in China. Potential investors include battery maker CATL and Tencent. DeepSeek did not immediately respond to TechCrunch's request for comment."
-   ],
-   "whyItMatters": [
-    "The order widens earlier limits. A law passed in December 2025 targeted DeepSeek's use in intelligence agencies' national security systems; the new directive reaches civilian agencies, covering both new purchases and existing systems. Because it also names third-party services built on DeepSeek technology, it could affect vendors that embed the company's open-weight models.",
-    "The dispute runs alongside allegations about model distillation. A September report accused DeepSeek and five other Chinese AI companies, including Alibaba and Moonshot AI, of using large-scale distillation to extract information from American AI systems. OpenAI told lawmakers it had seen suspected distillation attempts by DeepSeek, and Anthropic said it had identified unauthorized attempts to collect outputs from Claude.",
-    "The funding report suggests the restrictions have not slowed investor interest at home. It follows a June round of more than $7 billion at a $50 billion valuation, and Bloomberg says DeepSeek is increasing spending on infrastructure and open models for domestic and international markets. Founder Liang Wenfeng retains an estimated 81.6% stake in the Chinese operating entity, according to WireScreen."
-   ],
-   "whatToWatch": [
-    "The practical test is enforcement: how many exceptions agencies request, and how they identify third-party products that rely on DeepSeek technology.",
-    "On the Chinese side, Bloomberg reported last week that Beijing is considering export restrictions on 23 AI-related technologies, including chip designs and certain advanced models. DeepSeek has also been linked to a possible IPO in China as early as next year."
-   ],
-   "pullQuote": {
-    "text": "We will resolutely safeguard the legitimate rights and interests of Chinese enterprises",
-    "by": "Mao Ning, Chinese Foreign Ministry spokesperson"
    }
   }
  },
@@ -2783,38 +2590,41 @@
    "74ced3375481",
    "2fc737ddb995",
    "6d268a6234bb",
-   "f0e77c900b9f"
+   "f0e77c900b9f",
+   "c69438672bb7",
+   "a4a5f143094b",
+   "a1abc1ba2744"
   ],
-  "writtenAt": "2026-11-21T13:34:52.173Z",
-  "headline": "Nvidia's Jensen Huang resigns as CEO; CFO Colette Kress named interim chief",
-  "dek": "Huang stepped down after reports the board was preparing to fire him over a second alleged affair, days after he admitted a separate relationship with an alleged Chinese spy; Nvidia shares fell about 7-8% after hours.",
+  "writtenAt": "2026-11-21T22:14:39.879Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Huang's immediate resignation Thursday after reports its board was preparing to dismiss him over a second alleged affair; CFO Colette Kress steps in as interim CEO and the stock fell 7-8% after hours.",
   "keyPoints": [
-   "Nvidia announced Thursday that Huang resigned as CEO and that CFO Colette Kress is interim CEO, after the Wall Street Journal reported the board was preparing to dismiss him.",
-   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia has not commented on that report.",
-   "Huang admitted on Sunday to an affair with Megaspeed executive Alice Huang, a woman U.S. intelligence reportedly considers a Chinese spy.",
-   "Nvidia stock fell about 7-8% in after-hours trading Wednesday and was down about 11% over five days, per TechCrunch.",
-   "Bloomberg reports Nvidia was working with an outside firm to identify possible successors; the company reportedly had no clear succession plan."
+   "Nvidia announced Huang's resignation Thursday morning; CFO Colette Kress is interim CEO. Reuters reports the resignation took effect immediately.",
+   "The WSJ reported the board could meet as soon as Wednesday night to decide Huang's future, after he had led the company for 33 years.",
+   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia did not comment to The Verge.",
+   "Huang admitted Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence is said to consider a Chinese spy. Nvidia shares fell 7-8% after hours Wednesday.",
+   "Bloomberg reports Nvidia is working with an outside firm to identify possible successors; the company has no obvious successor or succession plan."
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, taking it to the center of the AI chip boom and making it one of the world's most valuable companies. He is known for delegating little and has said he has about 60 direct reports, so his sudden exit leaves an unusual leadership gap.",
-  "whatsNext": "Watch who the board names as permanent CEO and the results of the Wachtell, Lipton, Rosen & Katz investigation, with Kress serving as interim CEO in the meantime.",
+  "context": "Nvidia designs the chips behind the AI boom and is among the world's most valuable companies, and Huang co-founded it and has run it for 33 years. The scandal began days earlier with his admission of a separate relationship, and the company had hired Wachtell, Lipton, Rosen & Katz to run an investigation. Huang's departure leaves a vacuum at a company that depends heavily on him personally.",
+  "whatsNext": "Watch how Kress performs as interim CEO and whether Nvidia names a permanent successor, as the Wachtell-led investigation continues.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that Jensen Huang has resigned as CEO, and that chief financial officer Colette Kress has been appointed interim CEO. The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss Huang and could meet as soon as Wednesday night to decide his future.",
-    "The Journal's report came after The New York Times reported that Huang had a second extramarital affair, allegedly with Kimberly Powell, Nvidia's vice president of health care, who reports to him. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
-    "The reports came days after Huang admitted, on Sunday, to an affair with Alice Huang, a Megaspeed executive alleged by U.S. intelligence to be a Chinese spy. Nvidia said it had retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. Nvidia did not immediately respond to The Verge's request for comment."
+    "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, and that CFO Colette Kress has been appointed interim chief executive. Reuters reports the resignation took effect immediately. The announcement came hours after the Wall Street Journal reported that the board was preparing to dismiss Huang, possibly at a meeting as soon as Wednesday night.",
+    "The trigger was a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video. Nvidia did not respond to The Verge's request for comment.",
+    "The report followed Huang's Sunday admission of an affair with Alice Huang, a Megaspeed executive described as a woman purported by US intelligence to be a Chinese spy. Nvidia shares fell roughly 7 to 8 percent in after-hours trading Wednesday and were down about 11 percent over five days, according to TechCrunch."
    ],
    "whyItMatters": [
-    "Nvidia designs the chips that power the AI boom, and Huang has run it for 33 years. Shares fell roughly 7 to 8 percent in after-hours trading on Wednesday, and TechCrunch reports the stock was down about 11 percent over five days. Later Verge headlines point to further pressure, including an SEC look at accounting practices reported by Reuters, but the material here does not detail those.",
-    "Succession is a particular concern. TechCrunch notes that Huang delegates very little, with about 60 direct reports by his own account, and that Nvidia had no obvious successor or succession plan. Bloomberg reported the company was working with an outside firm to identify possible replacements, which suggests the board had been weighing a change before the resignation.",
-    "The board appears to have acted without waiting for the law firm's investigation to conclude, according to The Verge. Elon Musk, meanwhile, posted on X that hiring Huang \"would be an honor,\" though there is no indication Huang has any such plans."
+    "Huang co-founded Nvidia and has led it for 33 years while it became one of the most valuable companies in the world on demand for AI chips. TechCrunch notes that he delegates very little, has said he has about 60 direct reports, and that the company has had no obvious successor or succession plan.",
+    "Bloomberg reports Nvidia has been working with an outside firm to identify possible replacements. Kress, as CFO, is an interim answer rather than a stated long-term one. Elon Musk posted on X late Wednesday that hiring Huang would be an honor, though nothing in the coverage indicates Huang has any next role in mind.",
+    "The board's apparent decision to act before the outside investigation finished is notable. Nvidia had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle the matter, but the Verge noted that the reported dismissal suggested the board would not wait for those results."
    ],
    "whatToWatch": [
-    "The main open question is who becomes permanent CEO, and whether Kress is a candidate or a placeholder while the outside search proceeds.",
-    "Also to watch are the findings of the Wachtell investigation, any comment from Nvidia on the Powell allegations, and how customers and investors respond as the stock reopens."
+    "Key questions are who leads Nvidia permanently and how long the interim arrangement lasts, along with how markets react once trading resumes.",
+    "Also open is what the Wachtell-led investigation finds, and whether the Powell allegations, which Nvidia has not publicly addressed in the coverage, lead to further action."
    ],
    "pullQuote": {
     "text": "would be an honor",
-    "by": "Elon Musk, SpaceXSI CEO"
+    "by": "Elon Musk, on hiring Jensen Huang"
    }
   }
  },
