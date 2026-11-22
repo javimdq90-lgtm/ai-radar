@@ -990,43 +990,6 @@
    }
   }
  },
- "6372ebaa66c8": {
-  "storyId": "6372ebaa66c8",
-  "itemIds": [
-   "6372ebaa66c8"
-  ],
-  "writtenAt": "2026-10-23T10:11:41.663Z",
-  "headline": "OpenAI reportedly seeks up to $30B at $1.25T valuation in round led by Coatue and UAE investors",
-  "dek": "Sources told CNBC the round would value OpenAI at $1.25 trillion pre-money, above the $852 billion set in March, with terms still under negotiation and an IPO filed confidentially in June.",
-  "keyPoints": [
-   "CNBC, citing sources, reports OpenAI is raising up to $30 billion at a $1.25 trillion pre-money valuation, led by Coatue and investors in the UAE.",
-   "Bloomberg reported a month earlier a $30 billion raise at $1.4 trillion; both outlets say terms are still being negotiated and could change.",
-   "The UAE funding could be paired with a deal to give OpenAI more computing capacity from the UAE, per CNBC. OpenAI declined comment.",
-   "OpenAI's last raise in March valued it at $852 billion post-money, and it filed confidentially for an IPO in June.",
-   "Anthropic raised $65 billion at $965 billion in May and is reportedly seeking $1.5 to $2 trillion in an IPO, CNBC reports."
-  ],
-  "context": "OpenAI and Anthropic have both raised very large private rounds this year and both filed confidential IPO paperwork in June. A valuation above $1 trillion would make OpenAI the most valuable private company on record and set a high bar for its public listing, and for Anthropic's.",
-  "whatsNext": "Watch for final terms of the round, and for Anthropic's public S-1 filing, which TechCrunch says rumors suggest could come any day.",
-  "article": {
-   "whatHappened": [
-    "OpenAI is reportedly working on a new private funding round of up to $30 billion at a $1.25 trillion pre-money valuation, according to sources who spoke to CNBC. The round would be led by Coatue and investors in the United Arab Emirates. OpenAI declined to comment on the report.",
-    "The figure follows an earlier Bloomberg report, from about a month ago, that OpenAI was seeking $30 billion at a $1.4 trillion valuation. Both outlets say terms are still being negotiated, so the size and valuation could change. CNBC adds that the UAE funding could be coupled with an agreement to secure more computing capacity for OpenAI from the UAE."
-   ],
-   "whyItMatters": [
-    "A valuation above $1 trillion would make OpenAI the most valuable private company ever. It would also be a large step up from March, when its last raise valued the ChatGPT maker at $852 billion post-money. OpenAI filed confidential paperwork for an IPO in June, and a higher private mark raises the bar for its eventual public debut.",
-    "The number also bears on Anthropic, whose IPO many observers believe is closer to materializing. Anthropic raised $65 billion at a $965 billion valuation in May, widely seen then as its last major round before going public, and it also filed confidentially in June. CNBC reports Anthropic is seeking a $1.5 to $2 trillion valuation for its debut.",
-    "The report is notable because OpenAI appears to be raising more private money rather than moving straight to an IPO, as TechCrunch frames it. The reported UAE link to computing capacity also shows how funding and infrastructure deals are increasingly tied together, though the details are not public."
-   ],
-   "whatToWatch": [
-    "The main open question is the final terms: the two reports differ by $150 billion on valuation, and both outlets caution that numbers could shift before a deal closes.",
-    "Also worth tracking is Anthropic's public S-1 filing, which would reveal financials for one of the two companies and give a first look at how public-market investors might price them."
-   ],
-   "pullQuote": {
-    "text": "Terms are still being negotiated, both outlets report, so they could ultimately change.",
-    "by": "TechCrunch"
-   }
-  }
- },
  "65e05126788d": {
   "storyId": "65e05126788d",
   "itemIds": [

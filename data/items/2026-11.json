@@ -16408,7 +16408,7 @@
    "Muse Charm",
    "Mark Zuckerberg"
   ],
-  "storyId": "8a78f7986a82"
+  "storyId": "b4420b34b762"
  },
  {
   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
@@ -16626,7 +16626,7 @@
    "Muse Charm",
    "The Information"
   ],
-  "storyId": "8a78f7986a82"
+  "storyId": "b4420b34b762"
  },
  {
   "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
@@ -17879,5 +17879,125 @@
   ],
   "imageCheckedAt": "2026-11-21T22:14:03.293Z",
   "storyId": "c4ca83ba5741"
+ },
+ {
+  "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+  "title": "The vibe-coding revolution is coming to all the gadgets",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-22T13:00:00.000Z",
+  "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not that large language models opened up some wholly new capability. For as long as there have been gadgets, a few users have been hacking, modding, jailbreaking, and tweaking them to their liking. What is new is that it's easy now. People all over the world are discovering that they can…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "0c81fa30a9f6",
+  "fetchedAt": "2026-11-22T13:26:54.139Z",
+  "enrichedAt": "2026-11-22T13:27:01.105Z",
+  "summary": "The Verge's Stepback newsletter argues that AI-assisted coding is making it easy for ordinary users to hack, mod and customize gadgets, extending a long tradition of tinkering.",
+  "whyItMatters": "Lower barriers to modding devices could shift how consumer hardware and software get customized.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "The Verge",
+   "David Pierce"
+  ],
+  "storyId": "0c81fa30a9f6"
+ },
+ {
+  "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+  "title": "Data Processing Incidents on Inference Providers",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T02:14:14.000Z",
+  "score": 190,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50595554",
+  "id": "381628060ea9",
+  "fetchedAt": "2026-11-22T13:26:54.139Z",
+  "enrichedAt": "2026-11-22T13:27:01.105Z",
+  "summary": "OpenRouter reports data processing incidents among inference providers routed through its platform, concerning how providers handled user data.",
+  "whyItMatters": "Builders using third-party inference providers should check data retention and privacy guarantees rather than assume them.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "OpenRouter"
+  ],
+  "image": "https://openrouter.ai/og.png",
+  "imageCheckedAt": "2026-11-22T13:27:01.179Z",
+  "storyId": "6e086317ffb3"
+ },
+ {
+  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T08:57:34.000Z",
+  "score": 249,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
+  "id": "38c61351fe0d",
+  "fetchedAt": "2026-11-22T13:26:54.139Z",
+  "enrichedAt": "2026-11-22T13:27:01.105Z",
+  "summary": "An analysis by Better Data Center Project claims 87% of the power for Anthropic's data center build-out will come from gas and 11% from coal by 2028.",
+  "whyItMatters": "Highlights the climate and energy footprint behind frontier AI compute expansion.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Anthropic",
+   "Better Data Center Project"
+  ],
+  "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
+  "imageCheckedAt": "2026-11-22T13:27:01.169Z",
+  "storyId": "38c61351fe0d"
+ },
+ {
+  "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+  "title": "The Mythology of Conscious AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T02:10:02.000Z",
+  "score": 89,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50595537",
+  "id": "528d6924cf9a",
+  "fetchedAt": "2026-11-22T13:26:54.139Z",
+  "enrichedAt": "2026-11-22T13:27:01.105Z",
+  "summary": "A Noema essay critiques the narrative that AI systems are or could become conscious, treating it as a modern myth.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Noema"
+  ],
+  "storyId": "528d6924cf9a"
+ },
+ {
+  "url": "https://www.pandex.io",
+  "title": "Pandex – Official European Law for AI Agents, over MCP",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-21T20:47:41.000Z",
+  "score": 109,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50593481",
+  "id": "b77be25502fd",
+  "fetchedAt": "2026-11-22T13:26:54.139Z",
+  "enrichedAt": "2026-11-22T13:27:01.105Z",
+  "summary": "Pandex is a service that exposes European law to AI agents through an MCP (Model Context Protocol) server.",
+  "whyItMatters": "Gives agent builders a ready way to ground legal answers in official EU texts, though coverage and accuracy are unverified.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Pandex",
+   "MCP"
+  ],
+  "storyId": "b77be25502fd"
+ },
+ {
+  "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+  "title": "AI Supply Chain Security: What Canary Tokens Found",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T05:11:43.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50596511",
+  "id": "ce0bcf2918b4",
+  "fetchedAt": "2026-11-22T13:26:54.139Z",
+  "enrichedAt": "2026-11-22T13:27:01.105Z",
+  "summary": "Dragos describes what canary tokens revealed when used to probe AI supply chain security, such as exposure of credentials via AI tooling and packages.",
+  "whyItMatters": "Shows concrete leakage risks in the AI dependency chain that builders should guard against.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Dragos"
+  ],
+  "storyId": "6e086317ffb3"
  }
 ]
