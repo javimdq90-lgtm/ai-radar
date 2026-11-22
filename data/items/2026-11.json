@@ -17416,7 +17416,7 @@
   "entities": [
    "Meta"
   ],
-  "storyId": "8bc8fed2fbe6"
+  "storyId": "08b074f7bce0"
  },
  {
   "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
@@ -17941,7 +17941,7 @@
   ],
   "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
   "imageCheckedAt": "2026-11-22T13:27:01.169Z",
-  "storyId": "38c61351fe0d"
+  "storyId": "08b074f7bce0"
  },
  {
   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
@@ -17999,5 +17999,136 @@
    "Dragos"
   ],
   "storyId": "6e086317ffb3"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+  "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-22T21:14:07.000Z",
+  "snippet": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+  "id": "05744626c0d6",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "OpenAI's chief scientist says that setting a speed limit on AI development requires first agreeing on how to measure that speed.",
+  "whyItMatters": "Any workable governance of AI pace depends on shared capability metrics, which don't yet exist.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-22T22:31:12.927Z",
+  "storyId": "de5cd1a6d51d"
+ },
+ {
+  "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+  "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-22T17:25:20.000Z",
+  "snippet": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno's site. Creator Edmund McMillen took to X to apologize and claimed he \"had no idea\" the in-game GTA parody used generative AI music. Adding to the drama, Valve requires developers to disclose how and when they use generative AI in the develop…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "10b966779bbd",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "The Binding of Isaac: Repentance Plus was review-bombed on Steam after players found Suno-generated AI music in its GTA-parody section. Creator Edmund McMillen apologized, saying he had no idea, and the music was removed.",
+  "whyItMatters": "It shows the strong player backlash against undisclosed generative AI in games, and the disclosure pressure from Valve's rules.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Edmund McMillen",
+   "Suno",
+   "Valve",
+   "The Binding of Isaac"
+  ],
+  "storyId": "10b966779bbd"
+ },
+ {
+  "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+  "title": "AI is becoming a disaster for the climate",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T12:19:46.000Z",
+  "score": 94,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50598961",
+  "id": "315e82c2f910",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "Blood in the Machine argues that AI's growing energy and resource demands are becoming a serious climate problem.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Blood in the Machine"
+  ],
+  "storyId": "08b074f7bce0"
+ },
+ {
+  "url": "https://github.com/gulivan/worker755",
+  "title": "Show HN: I built a game where you are an LLM's subagent",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T13:56:58.000Z",
+  "score": 250,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50599762",
+  "id": "3c4f4993adca",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "A developer released a game on GitHub in which the player acts as an LLM's subagent, flipping the usual human-directs-AI relationship.",
+  "category": "open-source",
+  "importance": 1,
+  "entities": [],
+  "storyId": "3c4f4993adca"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.14068",
+  "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T09:18:36.000Z",
+  "score": 89,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50597743",
+  "id": "77bc9c5c53f0",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "An arXiv paper evaluates whether LLMs judge men more harshly than women when moral framing in interpersonal conflicts is gender-asymmetric.",
+  "whyItMatters": "It points to possible gender bias in LLM moral judgments, relevant for anyone deploying them in advice or moderation settings.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "77bc9c5c53f0"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+  "title": "Why data centers are at the center of the Big Tech backlash",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-22T18:08:43.000Z",
+  "snippet": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+  "id": "bed82431ae1f",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "Journalist Paris Marx discusses his new book \"Hyperscale,\" which examines why data centers have become a focal point of backlash against Big Tech.",
+  "whyItMatters": "Local opposition to data centers is becoming a real constraint on AI infrastructure buildout.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Paris Marx"
+  ],
+  "storyId": "08b074f7bce0"
+ },
+ {
+  "url": "https://openai.com/index/perplexity-and-intelligence",
+  "title": "Perplexity and Intelligence",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-22T00:00:00.000Z",
+  "snippet": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+  "id": "de5cd1a6d51d",
+  "fetchedAt": "2026-11-22T22:31:04.297Z",
+  "enrichedAt": "2026-11-22T22:31:12.844Z",
+  "summary": "OpenAI published a piece on how perplexity measures progress in AI models, arguing it could give developers a shared way to evaluate emerging capabilities.",
+  "whyItMatters": "A common yardstick for capability would make model comparisons and any agreed limits on development more tractable.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "OpenAI"
+  ],
+  "imageCheckedAt": "2026-11-22T22:31:13.025Z",
+  "storyId": "de5cd1a6d51d"
  }
 ]

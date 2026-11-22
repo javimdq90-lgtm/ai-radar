@@ -82,33 +82,38 @@
  "08b074f7bce0": {
   "storyId": "08b074f7bce0",
   "itemIds": [
-   "08b074f7bce0"
+   "08b074f7bce0",
+   "8bc8fed2fbe6",
+   "38c61351fe0d",
+   "315e82c2f910",
+   "bed82431ae1f"
   ],
-  "writtenAt": "2026-11-20T23:10:53.618Z",
-  "headline": "Trump threatens 'tremendous tax' on companies that build AI data centers abroad",
-  "dek": "At a press conference after a summit with Xi Jinping and Putin, Trump said he would tax US firms that build data centers overseas, offering no details as local curbs on US data centers grow.",
+  "writtenAt": "2026-11-22T22:31:27.842Z",
+  "headline": "Trump threatens 'tremendous tax' on US firms that build AI data centers abroad",
+  "dek": "At a Friday press conference after a summit with Xi and Putin, Trump floated the tax with few details, as states and localities restrict new data center applications and a Democratic Congress arrives.",
   "keyPoints": [
-   "Trump said at a Friday press conference that the US will not allow its companies to build data centers abroad, and that those that do will face a 'tremendous tax'.",
-   "He gave few details and said he had not yet told his own team about the plan, adding 'I'm telling them now.'",
-   "Trump said that if data centers are built abroad, 'China will take them all,' comparing it to how chips were allowed to go overseas.",
-   "States and cities are placing moratoriums and restrictions on new data center applications; The Verge notes Loudoun County is pausing new applications."
+   "Trump said the US will not allow companies to build data centers abroad and would impose a 'tremendous tax' on those that do, giving no rate, mechanism or timeline.",
+   "He said he had not yet told his own staff, adding: 'I'm telling them now.' The Verge reports it appears to be the first public mention.",
+   "Meta's 2026 sustainability report says total emissions rose from 15.6 million to over 21.7 million tonnes CO2e, and the company is re-evaluating its 2030 net-zero goal.",
+   "Better Data Center Project estimates 87% of Anthropic's US data center power will come from gas and 11% from coal in 2028.",
+   "A Harvard-led study in Nature Sustainability put emissions of 403 large US data centers at 25.7 million tonnes a year."
   ],
-  "context": "Local opposition to data centers has grown in the US over power use, costs and community impact, leading to moratoriums and tighter permitting. Trump has made AI infrastructure and winning the AI race a priority, and his comparison to chips echoes his earlier complaints about manufacturing moving offshore. A tax like this would need legislative or trade-law backing that has not been specified.",
-  "whatsNext": "Watch for whether the administration produces a concrete proposal, and how a new Democratic-majority Congress, due to be sworn in within a couple of months, responds.",
+  "context": "Data centers have become a political flashpoint, with states and cities adding moratoriums and restrictions, and coverage links the backlash to the recent midterm results. Trump's comparison to chips echoes long-running arguments over offshoring US technology manufacturing. Rising emissions from AI infrastructure, now documented by Meta, researchers and advocacy groups, add to the pressure on the buildout.",
+  "whatsNext": "Watch for any formal proposal or executive action defining the tax, and how a new Democratic-majority Congress, sworn in within a couple of months, responds.",
   "article": {
    "whatHappened": [
-    "President Donald Trump said he will put a 'tremendous tax' on companies that build data centers outside the United States. He made the remark at a Friday press conference following a summit with Chinese President Xi Jinping and Russian President Vladimir Putin, according to The Verge.",
-    "'We're not going to allow our companies to build data centers outside of our country,' Trump said, comparing the situation to chips, which he said were allowed to move offshore to the country's detriment. He warned that if the US allowed it, 'China will take them all.'",
-    "Trump offered few details and appeared to be floating the idea publicly for the first time. He said he had not yet raised it with his staff, adding that he was telling them now. Vice President JD Vance and Secretary of State Marco Rubio stood beside him. No rate, mechanism or timeline was given."
+    "President Donald Trump said Friday that the US will put a 'tremendous tax' on companies that build AI data centers outside the country. He spoke at a press conference following a summit with Chinese President Xi Jinping and Russian President Vladimir Putin, according to The Verge.",
+    "Trump offered no details on the rate, how it would be applied or which companies would be covered. He said he had not raised the idea with his own officials, even though several were present, including Vice President JD Vance and Secretary of State Marco Rubio.",
+    "Trump compared the issue to past offshoring, saying 'They allowed that to happen with chips and everything else, and it was very destructive to our country.' He warned that if the US allowed data centers abroad, 'China will take them all.' He also urged communities to make data center operators pay them rather than shut projects down."
    ],
    "whyItMatters": [
-    "The proposal arrives as the domestic data center buildout meets resistance. States and cities are installing moratoriums and new restrictions on applications, and The Verge reports that even members of Trump's own party recognize the buildout has become unpopular. Loudoun County, Virginia, is among the places pausing new applications.",
-    "If restrictions at home push companies to build elsewhere, a tax would be an attempt to make that option less attractive. In effect it would squeeze companies between local limits in the US and a penalty for leaving, though the coverage does not say how such a tax would be structured or enforced.",
-    "Its prospects are also uncertain politically. The Verge notes a new Democratic-majority Congress will be sworn in within a couple of months, which could make any legislation needed to impose such a tax difficult to pass."
+    "The proposal arrives as policymakers across the US are placing new restrictions on data center applications. The Verge notes that Loudoun County is pausing new applications, and that even some Republicans recognize the buildout has become unpopular. If restrictions make domestic sites harder to secure, companies may look overseas, and Trump's threat appears aimed at making that option less attractive.",
+    "The politics are tangled. A new Democratic-majority Congress takes office within a couple of months, which The Verge says could make a tax difficult to deliver. Separately, TechCrunch reports that data center backlash appears to have motivated part of the blue wave in the midterms.",
+    "The environmental record is also under scrutiny. Meta's sustainability report shows total emissions up nearly 40 percent in a year, and an advocacy analysis estimates Anthropic's planned US sites will rely mostly on gas. Whether sites are built at home or abroad, the energy question is likely to remain central to the debate."
    ],
    "whatToWatch": [
-    "The first question is whether the idea turns into a formal proposal, executive action or legislation, since Trump said he had not yet discussed it with his team.",
-    "Also worth watching is how large AI and cloud companies respond, and whether local moratoriums spread or ease as the administration pushes to keep infrastructure in the US."
+    "The key open question is whether Trump's remarks become a concrete policy, such as an executive order or legislative proposal, and what would count as building a data center outside the US.",
+    "Also watch how local moratoriums and permitting fights develop, and how companies respond to pressure on both siting and emissions."
    ],
    "pullQuote": {
     "text": "We’re not going to allow our companies to build data centers outside of our country.",
@@ -1313,45 +1318,6 @@
    "pullQuote": {
     "text": "Using AI to help build more capable AI could also pose a considerable safety risk, particularly if it sharply accelerates the pace of progress.",
     "by": "Anthropic, in its S-1A filing"
-   }
-  }
- },
- "8b3dcb15f7a3": {
-  "storyId": "8b3dcb15f7a3",
-  "itemIds": [
-   "8b3dcb15f7a3",
-   "c777cca0670d",
-   "8db2bf743b5d"
-  ],
-  "writtenAt": "2026-10-23T20:31:17.874Z",
-  "headline": "Judge rules EPA cannot dismiss NAACP pollution suit against SpaceXAI's Memphis data center",
-  "dek": "US District Judge Debra Brown held that nothing in the Clean Air Act lets the EPA unilaterally dismiss a citizen suit over unpermitted gas turbines at Musk's Colossus data center in Memphis.",
-  "keyPoints": [
-   "Judge Debra Brown ruled Tuesday that \"nothing\" in the Clean Air Act lets the EPA Administrator unilaterally dismiss a citizen suit; the NAACP's case against SpaceXAI continues.",
-   "The NAACP seeks an injunction requiring best available pollution controls on the turbines and penalties of up to $124,426 per day per violation.",
-   "A Houston Advanced Research Center report says planned Texas data centers on the expected grid mix could triple power-sector soot and raise NOx 136 percent within five years.",
-   "Berget AI says a typical request emits 3.2 g CO2 in Texas versus 0.4 g in Sweden, a difference of 8.5 times."
-  ],
-  "context": "Colossus, built by xAI (now SpaceXAI after a merger), drew attention when unpermitted gas turbines were found powering it. Such turbines are an increasingly common way for AI firms to get capacity running quickly. The ruling comes as data center electricity demand grows and the Trump administration pushes rapid AI buildout through its AI Action Plan.",
-  "whatsNext": "The NAACP's Clean Air Act case against SpaceXAI now proceeds, with Earthjustice vowing to keep pressing it.",
-  "article": {
-   "whatHappened": [
-    "A federal judge has rejected the Trump administration's attempt to end a pollution lawsuit against Elon Musk's SpaceXAI. US District Judge Debra Brown ruled Tuesday that \"nothing\" in the Clean Air Act allows the EPA Administrator to \"unilaterally dismiss a citizen suit.\" The case over the Colossus data center in Memphis, Tennessee, will therefore continue.",
-    "The NAACP sued after unpermitted gas turbines were found powering Colossus. It wants an injunction requiring xAI, now known as SpaceXAI following a merger, to use the best available pollution control technology, plus penalties of up to $124,426 per day per violation. The group argues the turbines risk raising pollution in nearby neighborhoods that are predominantly Black.",
-    "The administration intervened, arguing the EPA could dismiss such suits whenever the president decides against enforcement, and that allowing them would not serve the public interest given the push to bring data centers online quickly. Brown called this an \"extraordinary position\" with no grounding in federal law. She said the Act's one relevant exception applies when the EPA is itself suing or acting to require compliance, which is not the case here because the administration has no intention of suing SpaceXAI."
-   ],
-   "whyItMatters": [
-    "Brown reasoned that the Clean Air Act also lets citizens sue the EPA Administrator for failing to enforce it. \"Evidently, Congress contemplated that citizen suits may not always align with the EPA's judgment,\" she wrote. She also noted that Congress considered, and did not adopt, a 1990 amendment that would have let the EPA take over citizen suits.",
-    "Brown's order suggested the administration's reading would have given it power to block any data center pollution suit, and to defend other interests against Clean Air Act claims too. Earthjustice, which supports the NAACP, monitors data center disputes nationwide. Ars Technica notes the Colossus case was the first to expose the industry's use of unpermitted gas turbines, so the ruling may matter beyond Memphis.",
-    "The stakes are growing. A Houston Advanced Research Center report says that if all planned Texas data centers ran on the anticipated grid mix, power-sector soot would more than triple and NOx would rise 136 percent in five years. The outcome depends heavily on whether developers use onsite renewables or gas engines."
-   ],
-   "whatToWatch": [
-    "The case returns to the merits, where the NAACP must still show the turbines violated the Clean Air Act. The coverage does not say whether the administration will appeal the ruling.",
-    "Earthjustice's Laura Thoms said the group will \"continue the fight to hold xAI accountable.\" Other data center disputes involving unpermitted turbines may test similar arguments."
-   ],
-   "pullQuote": {
-    "text": "Evidently, Congress contemplated that citizen suits may not always align with the EPA’s judgment",
-    "by": "Judge Debra Brown"
    }
   }
  },
@@ -2588,51 +2554,6 @@
    "pullQuote": {
     "text": "would be an honor",
     "by": "Elon Musk, on hiring Jensen Huang"
-   }
-  }
- },
- "e874f1181e68": {
-  "storyId": "e874f1181e68",
-  "itemIds": [
-   "e874f1181e68",
-   "3c203c9854b8",
-   "3e7a8c91741b",
-   "d4d8a21bd997",
-   "90e877c10910",
-   "a054bcdb2791",
-   "c744e4ea5afb",
-   "47740c8fb238"
-  ],
-  "writtenAt": "2026-10-23T20:31:30.568Z",
-  "headline": "Meta removes AI-training scraping clause from commercial terms after publisher backlash",
-  "dek": "Meta deleted language letting it use content from business accounts' linked websites to train AI, a day after Nieman Lab reported it, saying its crawling practices have not changed.",
-  "keyPoints": [
-   "Meta's commercial terms, due October 30, let it crawl domains tied to business accounts and use content to 'train' its products; the clause was removed October 17.",
-   "Meta spokesperson Daniel Roberts says there is 'no change to how Meta uses web crawlers' and that robots.txt preferences still apply.",
-   "Cornell's James Grimmelmann told Nieman Lab the terms were permission to train AI on any content from publishers' sites, possibly in competition with them.",
-   "Andy Stone, Meta's communications VP, said the aim was pulling product information from third-party sites for ad recommendations, not scraping news sites.",
-   "Ars Technica found the 'test credentials' language was new to the commercial terms, which experts said could allow paywall bypass."
-  ],
-  "context": "Meta has signed AI licensing deals with outlets including CNN, Fox News, USA Today and People Inc., while news organizations and AI companies fight over whether training without a license is fair use. Meta won a high-profile copyright case last year, but other suits against AI firms, including Meta, continue. Meta recently launched a Meta One subscription that charges businesses to post links.",
-  "whatsNext": "Watch whether publishers and legal experts judge the revised commercial terms, which take effect October 30, to be free of the broader crawling and training permissions.",
-  "article": {
-   "whatHappened": [
-    "Meta has removed language from its commercial terms that experts said could let it scrape websites linked to business accounts and use the content to train AI. The Verge reported the change on October 17, a day after Nieman Lab flagged the clause and the terms drew criticism from legal experts and publishers.",
-    "The deleted sentence said Meta may use any content from such domains, web pages or URLs to 'provide, develop, improve, research, train, and maintain the integrity of' its products and services. The terms, due to take effect October 30, apply to business accounts across Facebook, Instagram, WhatsApp and Messenger. They also authorized automated crawlers and 'test credentials' to access linked content, and said businesses that disagreed could stop using Meta's products for commercial purposes.",
-    "Meta first called the change a consolidation of its commercial and self-serve ad terms. Spokesperson Daniel Roberts said any suggestion that crawling had changed was false. After the removal, Roberts said the crawling terms 'only applied to our ads and business products,' that Meta has clarified this in the terms themselves, and that the updates do not supersede robots.txt preferences."
-   ],
-   "whyItMatters": [
-    "For publishers, the stakes were licensing leverage. Nieman Lab noted that virtually every news organization has at least one Meta business account. Matt Topic, an attorney at Loevy & Loevy, said the provision would give Meta access to material that would likely cost many millions of dollars in a licensing market. Three legal experts told Nieman Lab it was unclear whether a court would enforce the terms, but they could be used to argue Meta may scrape news sites.",
-    "Ars Technica added that the 'streamlining' claim looked weaker on inspection. It found 'test credentials' absent from Meta's existing commercial terms, product catalog terms and ad creative generative AI terms. Meta pointed it to a seller agreement that uses similar wording but is limited to e-commerce listings. Legal experts also raised the antitrust concept of tying, since Meta had begun charging for links it could crawl for free.",
-    "The episode lands as Meta faces separate copyright litigation over AI training data. Ars Technica reports a magistrate judge has ordered Meta to identify executives who authorized downloading books from shadow libraries. That case is distinct, but it shows how closely courts are examining how Meta sources training data."
-   ],
-   "whatToWatch": [
-    "The revised terms are due to take effect October 30. Publishers and lawyers will likely check whether the final text leaves any broader crawling or training rights, and whether the 'test credentials' language remains.",
-    "Meta says robots.txt remains the way for content owners to signal preferences. Whether courts treat such signals as binding is still open, and pending fair use cases could shape that."
-   ],
-   "pullQuote": {
-    "text": "We’ve heard you and want to clarify: the crawling terms we consolidated only applied to our ads and business products, and we’ve clarified that in the terms themselves.",
-    "by": "Daniel Roberts, Meta spokesperson"
    }
   }
  },
