@@ -1,0 +1,251 @@
+{
+ "number": 17,
+ "date": "2026-11-23T17:57:56.004Z",
+ "subject": "A Claude-assisted Riemann hypothesis proof, and a rival one",
+ "preview": "Trump threatens a tax on overseas data centers, and Sierra's valuation doubles to $30B.",
+ "intro": "One mathematical claim took most of the attention, but the steadier stories were about what AI costs to build and who gets to build it. The benchmark that tracks model progress also got a more skeptical update.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "f1b7c64ada91",
+     "headline": "Anthropic's Levent Alpöge says he and Claude proved the Riemann hypothesis",
+     "body": "Alpöge says he and Claude proved the Riemann hypothesis and its generalized form, publishing Lean code on his website rather than a paper. TechCrunch reports MIT's Andrew Sutherland and others confirmed the Lean proof compiles, and Latent Space says Elliot Glazer puts the chance of a Lean bug well under 1%. Independent checks continue. The same day, Stanford postdoc Alessandro Masullo released a roughly 940-page human-written draft of the generalized version after 12 years of work. Anthropic has not commented.",
+     "why": "A Lean proof can be checked by machine, which sets it apart from earlier AI claims. Even so, the Clay Institute's two-year scrutiny rule means no prize decision soon."
+    }
+   ]
+  },
+  {
+   "heading": "Money and policy",
+   "stories": [
+    {
+     "storyId": "08b074f7bce0",
+     "headline": "Trump threatens a 'tremendous tax' on US firms that build AI data centers abroad",
+     "body": "At a Friday press conference after a summit with Xi and Putin, Trump said the US won't allow companies to build data centers abroad and would tax those that do. He gave no rate, mechanism or timeline, and said he hadn't yet told his staff: 'I'm telling them now.' The Verge says it appears to be the first public mention. It lands as states and localities restrict new data center applications.",
+     "why": "There's nothing concrete to plan around yet. It does add federal pressure to a buildout already facing local resistance and growing scrutiny of its emissions."
+    },
+    {
+     "storyId": "169eafdcd04a",
+     "headline": "Sierra raises $1.75B at a $30B valuation, double its value six months ago",
+     "body": "Bret Taylor's customer service AI startup closed a Series F led by Greenoaks and Lightspeed, with Benchmark, Sequoia, GV and Tiger Global also in. The previous round, less than six months ago, valued it at $15 billion. Sierra says it serves almost 50% of the Fortune 50, including BNY, HSBC, Wells Fargo and JPMorganChase, and last month said run-rate revenue had doubled to $400 million in five months. The money goes to agents for servicing and more enterprise sales staff.",
+     "why": "Customer service is one of the clearest places enterprises are paying for AI agents, and investors are pricing that in fast."
+    },
+    {
+     "storyId": "2cb10b95a79b",
+     "headline": "UN talks on 'killer robots' end without agreed rules",
+     "body": "After a week of talks in Geneva, UN diplomats failed to agree on rules for autonomous weapons and settled on agreeing to 'start discussing options'. The Red Cross, the UN secretary-general and Pope Leo had all urged legally binding rules within a year. No such deadline or text came out of the week.",
+     "why": "Binding international limits on AI-enabled weapons look distant, so development continues with little formal constraint."
+    }
+   ]
+  },
+  {
+   "heading": "Research worth reading",
+   "stories": [
+    {
+     "storyId": "583b7a1c7413",
+     "headline": "METR's updated time horizon plot finds models weaker on judgment-heavy work",
+     "body": "METR's original plot showed the length of tasks frontier models could finish doubling every four months. The update adds longer, more open-ended tasks. Verifiable skills still improve quickly, but no AI-designed evaluation was good enough for METR staff to find useful in their research. Newer models like Opus 5.5 reach 'borderline above the bar' on evaluation design, where a year ago every model was 'clearly below the bar'. OpenAI also said its models do worse on real employee tasks than on METR's easier ones.",
+     "why": "Whether gains on checkable tasks carry over to fuzzier work, like choosing research directions, bears on how soon AI can automate AI research."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "5094532b4e2e",
+   "text": "Z.ai released GLM-5.4, which it calls its first loop transformer and says is built for coding. No benchmarks or pricing yet."
+  },
+  {
+   "storyId": "3a8ea930f30c",
+   "text": "Walmart's Sparky assistant now lets Meta's Muse agent find and buy Black Friday deals through an Agent Gateway, without sharing purchase history."
+  },
+  {
+   "storyId": "6e086317ffb3",
+   "text": "A researcher planted 2 million canary secrets in prompts and found they surfaced in the AI supply chain, a reminder that submitted data may not stay private."
+  },
+  {
+   "storyId": "10b966779bbd",
+   "text": "Binding of Isaac: Repentance Plus was review-bombed over Suno-generated music; creator Edmund McMillen apologized, said he didn't know, and the music was removed."
+  },
+  {
+   "storyId": "de5cd1a6d51d",
+   "text": "OpenAI published a piece on perplexity as a measure of model progress, arguing it could give developers a shared way to evaluate capabilities."
+  },
+  {
+   "storyId": "c989db0d32fd",
+   "text": "Latent Space looks at AI and the Lean proof assistant automating formal verification of software, as a counter to low-quality AI-generated code."
+  },
+  {
+   "storyId": "4b4d8e1532ef",
+   "text": "After FAA, Outlook and JPMorgan Chase outages, DNI Jay Clayton says more major tech outages are coming."
+  },
+  {
+   "storyId": "e43240c9ae66",
+   "text": "Lenders are wary of financing chips launched on SpaceX rockets because the collateral leaves Earth, complicating financing for space data centers."
+  }
+ ],
+ "links": {
+  "f1b7c64ada91": [
+   {
+    "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+    "source": "The Verge"
+   },
+   {
+    "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+    "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "[AINews] Riemann Hypothesis proved...twice independently",
+    "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+    "source": "Latent Space"
+   }
+  ],
+  "08b074f7bce0": [
+   {
+    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "source": "The Verge"
+   },
+   {
+    "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+    "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "source": "betterdatacenterproject.com"
+   },
+   {
+    "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+    "url": "https://news.ycombinator.com/item?id=50597612",
+    "source": "HN discussion"
+   },
+   {
+    "title": "AI is becoming a disaster for the climate",
+    "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+    "source": "bloodinthemachine.com"
+   },
+   {
+    "title": "AI is becoming a disaster for the climate",
+    "url": "https://news.ycombinator.com/item?id=50598961",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Why data centers are at the center of the Big Tech backlash",
+    "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+    "source": "TechCrunch"
+   }
+  ],
+  "169eafdcd04a": [
+   {
+    "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+    "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+    "source": "TechCrunch"
+   }
+  ],
+  "2cb10b95a79b": [
+   {
+    "title": "The UN fails to agree on rules regulating ‘killer robots’",
+    "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "source": "The Verge"
+   }
+  ],
+  "583b7a1c7413": [
+   {
+    "title": "The most misunderstood graph in AI just got a major update",
+    "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+    "source": "MIT Technology Review"
+   }
+  ],
+  "5094532b4e2e": [
+   {
+    "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+    "url": "https://z.ai/blog/glm-5.4",
+    "source": "z.ai"
+   },
+   {
+    "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+    "url": "https://news.ycombinator.com/item?id=50609685",
+    "source": "HN discussion"
+   }
+  ],
+  "3a8ea930f30c": [
+   {
+    "title": "Meta Muse can do your Black Friday shopping at Walmart",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+    "source": "The Verge"
+   }
+  ],
+  "6e086317ffb3": [
+   {
+    "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+    "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+    "source": "Ars Technica"
+   },
+   {
+    "title": "Data Processing Incidents on Inference Providers",
+    "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "source": "openrouter.ai"
+   },
+   {
+    "title": "Data Processing Incidents on Inference Providers",
+    "url": "https://news.ycombinator.com/item?id=50595554",
+    "source": "HN discussion"
+   },
+   {
+    "title": "AI Supply Chain Security: What Canary Tokens Found",
+    "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+    "source": "dragos.com"
+   },
+   {
+    "title": "AI Supply Chain Security: What Canary Tokens Found",
+    "url": "https://news.ycombinator.com/item?id=50596511",
+    "source": "HN discussion"
+   }
+  ],
+  "10b966779bbd": [
+   {
+    "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+    "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+    "source": "The Verge"
+   }
+  ],
+  "de5cd1a6d51d": [
+   {
+    "title": "Perplexity and Intelligence",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "source": "OpenAI"
+   },
+   {
+    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+    "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+    "source": "TechCrunch"
+   }
+  ],
+  "c989db0d32fd": [
+   {
+    "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+    "url": "https://latent.space/p/formal-verification/",
+    "source": "Latent Space"
+   }
+  ],
+  "4b4d8e1532ef": [
+   {
+    "title": "We haven’t seen the last of the major tech outages",
+    "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+    "source": "The Verge"
+   }
+  ],
+  "e43240c9ae66": [
+   {
+    "title": "Chips can survive the space environment — can their financing?",
+    "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+    "source": "TechCrunch"
+   }
+  ]
+ }
+}
