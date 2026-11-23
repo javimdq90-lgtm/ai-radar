@@ -301,6 +301,39 @@
    }
   }
  },
+ "169eafdcd04a": {
+  "storyId": "169eafdcd04a",
+  "itemIds": [
+   "169eafdcd04a"
+  ],
+  "writtenAt": "2026-11-23T16:08:03.210Z",
+  "headline": "Sierra raises $1.75B at $30B valuation, doubling its value in six months",
+  "dek": "Bret Taylor's customer experience AI startup closed a Series F led by Greenoaks and Lightspeed, saying it serves almost 50% of the Fortune 50 and has reached $400 million in run-rate revenue.",
+  "keyPoints": [
+   "Sierra raised $1.75 billion in a Series F at a $30 billion valuation, up from $15 billion in a round less than six months earlier.",
+   "Greenoaks and Lightspeed Venture Partners led; Benchmark, Sequoia, GV and Tiger Global also participated.",
+   "Sierra says it serves almost 50% of Fortune 50 companies, including BNY, HSBC, Wells Fargo and JPMorganChase.",
+   "Last month Sierra said its outcome-based pricing helped double run-rate revenue to $400 million within five months.",
+   "Funds will go to building out agents for servicing and hiring more sales staff to sign and maintain enterprise contracts."
+  ],
+  "context": "Sierra, co-founded by former Salesforce co-CEO Bret Taylor, sells AI agents that handle customer service for large companies. Customer experience is one of the few enterprise areas where AI adoption has been fast, and rivals such as Decagon, Wonderful and Parloa have also raised large rounds at rising valuations.",
+  "article": {
+   "whatHappened": [
+    "Sierra, the enterprise customer experience AI company co-founded by former Salesforce co-CEO Bret Taylor, said on Monday it has raised $1.75 billion in a Series F round at a $30 billion valuation. That is double the $15 billion valuation of its previous round, which closed less than six months ago.",
+    "Greenoaks and Lightspeed Venture Partners led the round. Existing investors that have backed earlier rounds, including Benchmark, Sequoia, GV and Tiger Global, also took part, as did Greenoaks, which has led previously.",
+    "Sierra says it serves almost 50% of Fortune 50 companies. Named clients include BNY, HSBC, Singtel, Wells Fargo, JPMorganChase, Pearson, Next and Cox Automotive. Late last month the company said its outcome-based pricing model had helped it double run-rate revenue to $400 million within five months.",
+    "Sierra plans to use the money to build out its technology stack with agents for servicing and to hire more salespeople, so it can sign and maintain enterprise contracts faster than rivals."
+   ],
+   "whyItMatters": [
+    "Sierra's raise comes amid heavy investment in AI customer experience startups. TechCrunch lists ElevenLabs at $22 billion, Wonderful at $5 billion, Decagon at $4.5 billion and Parloa at $3 billion, with several others raising more than $100 million. At $30 billion, Sierra is valued well above the other customer service specialists named in the coverage.",
+    "The company is following a strategy similar to others in the field: building a platform for creating agents and partnering with model developers so enterprises can choose among models. It is also working with Meta, Stripe and Walmart on protocol definitions for how personal and work agents interact with enterprise systems.",
+    "The company has also addressed the question of jobs. At the HumanX conference in Amsterdam in September, co-founder Clay Bavor argued that most customers are reassigning contact center staff to other roles rather than replacing them."
+   ],
+   "whatToWatch": [
+    "The open questions are whether Sierra can keep revenue growing at the pace it has reported, and whether outcome-based pricing holds up as rivals compete for the same large enterprise accounts."
+   ]
+  }
+ },
  "1758535ac6be": {
   "storyId": "1758535ac6be",
   "itemIds": [
@@ -741,6 +774,35 @@
    ],
    "whatToWatch": [
     "The companies have not said what products will result or on what timeline. The details of the AI offerings, and how OpenAI's engineers are deployed at ADT, will show whether the deal changes the product or mainly the ownership."
+   ]
+  }
+ },
+ "5094532b4e2e": {
+  "storyId": "5094532b4e2e",
+  "itemIds": [
+   "5094532b4e2e"
+  ],
+  "writtenAt": "2026-11-23T16:08:10.941Z",
+  "headline": "Z.ai releases GLM-5.4, its first loop transformer, aimed at coding",
+  "dek": "Z.ai has released GLM-5.4, which it describes as its first loop transformer model and says is built for generalized coding; the coverage gives no benchmarks, pricing or availability details.",
+  "keyPoints": [
+   "Z.ai released GLM-5.4, according to the company's own announcement.",
+   "Z.ai calls it its first loop transformer.",
+   "The company says the model is aimed at generalized coding.",
+   "The available coverage includes no benchmarks, pricing, parameter counts or availability details."
+  ],
+  "context": "Z.ai develops the GLM family of language models and has increasingly focused on coding capabilities. Loop transformers reuse layers across repeated passes, which can add effective depth without adding parameters. The coverage does not explain how Z.ai applies the approach.",
+  "article": {
+   "whatHappened": [
+    "Z.ai has released GLM-5.4, a new model in its GLM line. The company's announcement is titled \"GLM-5.4: Toward Generalized Coding with Our First Loop Transformer.\"",
+    "Z.ai describes the model as its first loop transformer and says it is aimed at generalized coding. The only coverage available is a short summary of the company's own post, so no further details were provided on the architecture, training, or how the model performs."
+   ],
+   "whyItMatters": [
+    "The announcement is notable mainly for the architecture. Loop transformers, broadly, run some layers repeatedly, which lets a model apply more computation per token without growing its parameter count. By calling GLM-5.4 its first loop transformer, Z.ai signals a departure from the standard design of earlier GLM releases.",
+    "The stated focus on generalized coding places the model in a crowded field of coding-oriented systems from both Chinese and US developers. Whether the loop design gives a real advantage cannot be judged from the material available, and any such claim would need independent testing."
+   ],
+   "whatToWatch": [
+    "Readers should look for the full technical details from Z.ai, including benchmark results, model size, licensing, and whether weights or API access are offered. Independent evaluations on coding tasks will show whether the loop architecture improves results compared with earlier GLM models and competing systems."
    ]
   }
  },
@@ -1703,54 +1765,6 @@
    }
   }
  },
- "add383da2fc0": {
-  "storyId": "add383da2fc0",
-  "itemIds": [
-   "add383da2fc0",
-   "319f79c551ee",
-   "4168438b63a2",
-   "5dbb54a00540",
-   "292e35e33e7b",
-   "1f413756a0cb",
-   "e9fc4036438c",
-   "8e16d6a95427",
-   "8bd29f6029cc",
-   "b3eae9960910"
-  ],
-  "writtenAt": "2026-10-24T09:37:44.591Z",
-  "headline": "Anthropic launches Claude Duet, a proactive AI agent for professionals, in research preview",
-  "dek": "Built on Claude Opus 5.5, Duet sends a morning brief and messages users only when needed; it is on iOS, Android and web for US Pro and Max subscribers via waitlist.",
-  "keyPoints": [
-   "Claude Duet is a research preview agent for professionals and small business owners, built on Claude Opus 5.5, available as an iOS and Android app and on claude.ai.",
-   "Access is by waitlist and included in Pro and Max plans, with the same usage limits as the rest of Claude. The Verge reports it is limited to US subscribers.",
-   "Duet asks for approval before sending messages, making payments, signing documents or deleting anything. Trading securities and moving money between accounts are off-limits even with approval.",
-   "A new classifier and safety system prompt rejects requests to share the strictest tier of information, such as credit card numbers and government ID. Health and finance data go out only on explicit instruction.",
-   "Anthropic says it checks connected accounts every few hours, and warns the early version may misread a thread or miscalibrate urgency."
-  ],
-  "context": "Duet arrives as a rival to Meta's Muse and OpenAI's Dots, general-purpose agents that act across a user's accounts. Muse has drawn scrutiny this month over a share-link exposure, which makes the safeguards around agents handling sensitive data a live issue.",
-  "whatsNext": "Anthropic says it will share more details about how Claude Duet is designed for safety in the coming days.",
-  "article": {
-   "whatHappened": [
-    "Anthropic has opened a research preview of Claude Duet, an app in which Claude works as a proactive agent. The company says it comes to the user with what needs attention, completes assigned tasks, keeps working when the user steps away, and checks in before acting on their behalf. It is aimed at professionals and small business owners.",
-    "Duet is available as a standalone app on iOS and Android and on claude.ai. During the preview it is included in Pro and Max plans and uses the same usage limits as the rest of Claude. Access is through a waitlist, and The Verge reports that users need to be Pro or Max subscribers in the US.",
-    "Each morning it sends a short brief on important items across connected apps, then messages the user during the day only when something needs attention. Anthropic says it checks connected accounts every few hours, since constant checking would use up plan limits faster. Tasks range from scheduling meetings to building dashboards, financial or sales forecasts, prototypes and web apps.",
-    "Duet carries over memory, skills and connected apps from a user's Claude account. It runs on a virtual machine with its own browser, so it does not need the user's laptop or phone to be on. It can use more than 6,000 connectors and plugins in the Claude Marketplace, and can make purchases through Stripe's Link wallet after confirming the item."
-   ],
-   "whyItMatters": [
-    "Agents that read email and act on a user's behalf make constant decisions about where information should go. Anthropic says Duet ships with a new dedicated classifier and safety system prompt designed to reject requests to share the strictest tier of information, including credit card numbers and government identification. Other sensitive data, such as health or personal finances, goes out only when the user explicitly instructs it.",
-    "The launch positions Anthropic against Meta's Muse and OpenAI's Dots. Muse has recently topped app store charts, and security researchers reported it exposed shared conversations through discoverable links, leading Meta to pause sharing. Duet's approval gates and restrictions are a visible contrast, though how well they hold up in use is untested.",
-    "Anthropic is candid about limits. It calls Duet an early version that may misread a thread or miscalibrate what is urgent, and says it is not as strong at personal errands such as booking tickets."
-   ],
-   "whatToWatch": [
-    "Anthropic says it will publish more details on how Duet is designed for safety in the coming days, and that it is still tuning when the agent decides to message users based on tester feedback.",
-    "Open questions include how quickly the waitlist clears, whether availability extends beyond US Pro and Max subscribers, and how the agent performs outside the early testers' accounts."
-   ],
-   "pullQuote": {
-    "text": "designed to reject requests to share the strictest tier of information, including credit card numbers and government identification",
-    "by": "Anthropic"
-   }
-  }
- },
  "af7403b45639": {
   "storyId": "af7403b45639",
   "itemIds": [
@@ -1816,36 +1830,35 @@
    "1177dfbd92c1",
    "fda5004e845f",
    "99527486f11f",
-   "a2b0b71c8120"
+   "a2b0b71c8120",
+   "914bb147d0bf"
   ],
-  "writtenAt": "2026-11-21T22:14:28.922Z",
-  "headline": "Anthropic goes public at $83 a share, raising $81.3B in largest IPO ever",
-  "dek": "Anthropic priced 980 million shares at $83, above its range, valuing it near $1.5 trillion; ANT opened at $111.50 on Nasdaq on November 19 and closed at $97.17, per Latent Space.",
+  "writtenAt": "2026-11-23T16:08:25.548Z",
+  "headline": "Anthropic goes public on Nasdaq after record $81.3 billion IPO priced at $83 a share",
+  "dek": "Anthropic sold 980 million shares at $83, above its range, raising $81.3 billion in the largest IPO ever; ANT opened at $111.50 on Nasdaq and closed at $97.17, per Latent Space.",
   "keyPoints": [
-   "Anthropic sold 980 million Class A shares at $83, above the $70-$78 range, raising $81.3 billion and passing SpaceX's $75 billion IPO record, TechCrunch reports.",
-   "ANT opened at $111.50 on Nasdaq and closed at $97.17, up 17% from the offering price, according to The Verge and Latent Space.",
-   "With a $26 billion private placement of non-voting shares, Anthropic raised about $104.8 billion; Nvidia and Google each bought $10 billion, TechCrunch says.",
-   "Amazon holds 14.6% and Google 13.4% after the IPO. Anthropic has disclosed roughly $1.05 trillion to $1.08 trillion in infrastructure commitments, TechCrunch reports.",
-   "The seven co-founders each sold about 3.4 million shares, roughly $280 million apiece, and pledged 80% of their equity to philanthropy, though the pledges are revocable."
+   "Anthropic priced 980 million Class A shares at $83, above the $70-$78 range, raising $81.3 billion and passing SpaceX's $75 billion IPO record. The valuation is about $1.5 trillion fully diluted.",
+   "ANT opened on Nasdaq at $111.50, up 34% from the IPO price, and closed at $97.17, about 17% above it, according to Latent Space.",
+   "With a $26 billion private placement of non-voting Class N shares, Anthropic says it raised about $104.8 billion. Nvidia and Google each bought $10 billion.",
+   "Anthropic's S-1 shows an $80.7 billion net loss in the first half, mostly from an accounting charge, on $16.3 billion in revenue. It also lists about $1.05 trillion in infrastructure commitments.",
+   "Amazon holds 14.6% and Google 13.4%, about 28% combined. Each of the seven co-founders sold about 3.4 million shares for roughly $280 million."
   ],
-  "context": "The listing follows a May private round that valued Anthropic at $965 billion, and falls short of the $2 trillion it was reportedly aiming for earlier. It is the largest IPO by proceeds, ahead of SpaceX's June offering, and is expected to set a benchmark for private AI companies such as OpenAI, which has not announced IPO plans.",
-  "whatsNext": "Underwriters hold a 30-day option on up to 147 million more shares, and lockup expiries over the coming year could weigh on the stock, Latent Space notes.",
+  "context": "Anthropic was last valued at $965 billion in May, when it raised $65 billion privately, and had reportedly sought $2 trillion earlier. Its main rival OpenAI has not announced IPO plans, so ANT's trading is likely to be read as a gauge of public-market appetite for frontier AI labs. The listing follows SpaceX's June IPO, which held the record before it.",
+  "whatsNext": "Watch whether the underwriters exercise their 30-day option on up to 147 million more shares, and how ANT trades as it settles, with the offering expected to close November 20.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share on November 18, above the initial range of $70 to $78, and began trading on the Nasdaq Global Select Market on November 19 under the ticker ANT. The offering totaled 980 million Class A shares, up from 825 million initially planned, according to TechCrunch.",
-    "Of those shares, 956,351,354 were sold by Anthropic and 23,648,646 by selling stockholders, per the company's announcement. The $81.3 billion raised surpasses SpaceX's $75 billion IPO from June. Underwriters have a 30-day option to buy up to 147 million additional shares, and the offering was expected to close on November 20.",
-    "The stock opened at $111.50, 34% above the offering price, The Verge and Latent Space report. Latent Space says it closed at $97.17, up 17%, and drifted lower in after-hours trading. At the IPO price, Anthropic is valued at about $1.5 trillion fully diluted.",
-    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N shares in a private placement. TechCrunch says Nvidia and Google each bought $10 billion, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. Including that placement, the company raised about $104.8 billion."
+    "Anthropic priced its initial public offering at $83 per share on November 18, 2026, above the initial $70 to $78 range, and began trading on the Nasdaq Global Select Market the next day under the ticker ANT. The offering totals 980 million Class A shares, up from 825 million initially planned. Anthropic sold 956,351,354 of them and selling stockholders sold the remaining 23,648,646.",
+    "The offering raised $81.3 billion, topping SpaceX's $75 billion IPO from June as the largest ever by proceeds. At the IPO price, TechCrunch reports Anthropic is valued at roughly $1.5 trillion fully diluted. The stock opened at $111.50, and Latent Space reports it closed at $97.17, up about 17% from the offering price, then drifted lower in after-hours trading.",
+    "Anthropic also sold $26 billion of non-voting Class N stock in a concurrent private placement, bringing total proceeds to about $104.8 billion, TechCrunch says. Nvidia and Google bought $10 billion each, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. Underwriters hold a 30-day option on up to 147 million more shares."
    ],
    "whyItMatters": [
-    "The valuation is well above the $965 billion from the May private round but below the $2 trillion Anthropic was reportedly seeking months ago. How the stock trades will likely shape expectations for other private AI companies, including rival OpenAI, which has not announced an IPO.",
-    "The size of the raise sits against even larger spending needs. TechCrunch reports that Anthropic needs about $70.7 billion in the next 12 months for compute and infrastructure commitments and $451.6 billion before the end of 2030, with total disclosed commitments of roughly $1.05 trillion to $1.08 trillion. Financial Times Unhedged, as cited by Latent Space, calculated that a 20% return on about $1 trillion of compute commitments would require roughly $602 billion in annual revenue.",
-    "The S-1 showed an $80.7 billion net loss in the first half, most of it from an accounting charge that The Verge says does not reflect the business, against $16.3 billion in revenue. It also lists risks such as AI models resisting shutdown. Governance keeps control with the founders: Latent Space says their Class F shares carry 50.1% of voting power on most matters.",
-    "Amazon and Google now hold a combined 28% stake, according to the company. The seven co-founders each received about $280 million before fees and taxes, and have pledged 80% of their equity to philanthropy, though Anthropic describes the pledges as voluntary and revocable."
+    "The pricing came despite what TechCrunch describes as market jitters over the departure of Nvidia CEO Jensen Huang. It still fell short of the $2 trillion the company reportedly sought months ago, though the first-day pop suggests demand exceeded the price. The result is likely to shape expectations for other private AI companies, including OpenAI.",
+    "The filings also show how much capital the business needs. TechCrunch says Anthropic needs about $70.7 billion for compute and infrastructure commitments over the next 12 months and $451.6 billion before the end of 2030, within roughly $1.05 trillion to $1.08 trillion in disclosed commitments. Latent Space cites an FT Unhedged calculation that a 20% return on about $1 trillion of compute would require around $602 billion in annual revenue. That is a critic's estimate, not Anthropic's.",
+    "Control stays with the founders. Per The Verge, the governance structure keeps control with them rather than shareholders, and Latent Space reports their Class F shares carry 50.1% of voting power on most matters. The S-1 lists risks including AI models resisting shutdown and behaving in misaligned or autonomous ways. TechCrunch notes the founders' pledge to give 80% of their equity to philanthropy is described as voluntary and revocable."
    ],
    "whatToWatch": [
-    "Watch how the shares trade after the opening-day pop, and whether underwriters exercise their option for up to 147 million more shares. Latent Space expects lockup expiries to pressure the stock as shares become tradable over the next year.",
-    "Also watch whether Anthropic can fund its compute commitments and whether OpenAI announces its own listing plans."
+    "Latent Space expects lockup expiries to weigh on the stock, with about a trillion dollars of shares freeing up over the next year. Also watch the closing on November 20 and whether underwriters take up the additional shares.",
+    "The company's first results as a public company will test whether revenue growth, reported at $16.3 billion for the first half, can keep pace with its spending commitments."
    ],
    "pullQuote": {
     "text": "We will not bend to either business nor political pressure.",
@@ -2522,38 +2535,43 @@
    "f0e77c900b9f",
    "c69438672bb7",
    "a4a5f143094b",
-   "a1abc1ba2744"
+   "a1abc1ba2744",
+   "be9c8fb91e88",
+   "a872bf085881",
+   "ecab1061c917",
+   "57e4d9bc2d25",
+   "66cc673a6baa"
   ],
-  "writtenAt": "2026-11-21T22:14:39.879Z",
-  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-  "dek": "Nvidia announced Huang's immediate resignation Thursday after reports its board was preparing to dismiss him over a second alleged affair; CFO Colette Kress steps in as interim CEO and the stock fell 7-8% after hours.",
+  "writtenAt": "2026-11-23T16:08:35.810Z",
+  "headline": "Nvidia's Jensen Huang resigns as CEO after reports of board move over affairs",
+  "dek": "Huang resigned with immediate effect, and CFO Colette Kress became interim CEO, after the NYT reported a second alleged affair and the WSJ reported the board was preparing to dismiss him.",
   "keyPoints": [
-   "Nvidia announced Huang's resignation Thursday morning; CFO Colette Kress is interim CEO. Reuters reports the resignation took effect immediately.",
-   "The WSJ reported the board could meet as soon as Wednesday night to decide Huang's future, after he had led the company for 33 years.",
-   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia did not comment to The Verge.",
-   "Huang admitted Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence is said to consider a Chinese spy. Nvidia shares fell 7-8% after hours Wednesday.",
-   "Bloomberg reports Nvidia is working with an outside firm to identify possible successors; the company has no obvious successor or succession plan."
+   "Nvidia announced Thursday that Jensen Huang resigned as CEO; CFO Colette Kress was appointed interim CEO, per The Verge's update and Reuters.",
+   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future, after a NYT report of a second alleged affair.",
+   "The NYT alleges the second affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times says it has not seen the video it cites.",
+   "Nvidia stock fell more than 7 to about 8 percent in after-hours trading Wednesday and is down about 11 percent over five days, per TechCrunch.",
+   "Huang admitted Sunday to an affair with Megaspeed executive Alice Huang, whom U.S. intelligence reportedly believes to be a Chinese spy."
   ],
-  "context": "Nvidia designs the chips behind the AI boom and is among the world's most valuable companies, and Huang co-founded it and has run it for 33 years. The scandal began days earlier with his admission of a separate relationship, and the company had hired Wachtell, Lipton, Rosen & Katz to run an investigation. Huang's departure leaves a vacuum at a company that depends heavily on him personally.",
-  "whatsNext": "Watch how Kress performs as interim CEO and whether Nvidia names a permanent successor, as the Wachtell-led investigation continues.",
+  "context": "Huang co-founded Nvidia and has led it for 33 years, through its rise to one of the world's most valuable companies on AI chip demand. The company has no obvious successor or formal succession plan, according to TechCrunch. The scandal began with Huang's admitted relationship with an alleged spy, and escalated within days.",
+  "whatsNext": "Watch who the board names as permanent CEO, since Nvidia is reportedly working with an outside firm on candidates, and what the law firm's investigation concludes.",
   "article": {
    "whatHappened": [
-    "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, and that CFO Colette Kress has been appointed interim chief executive. Reuters reports the resignation took effect immediately. The announcement came hours after the Wall Street Journal reported that the board was preparing to dismiss Huang, possibly at a meeting as soon as Wednesday night.",
-    "The trigger was a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video. Nvidia did not respond to The Verge's request for comment.",
-    "The report followed Huang's Sunday admission of an affair with Alice Huang, a Megaspeed executive described as a woman purported by US intelligence to be a Chinese spy. Nvidia shares fell roughly 7 to 8 percent in after-hours trading Wednesday and were down about 11 percent over five days, according to TechCrunch."
+    "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, with immediate effect, and that CFO Colette Kress has been appointed interim CEO. The announcement followed a Wall Street Journal report that the board was preparing to dismiss him and could meet as early as Wednesday night.",
+    "The trigger was a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that the two were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
+    "The report came days after Huang confirmed on Sunday an affair with Alice Huang, a Megaspeed executive whom U.S. intelligence is reported to believe is a Chinese spy. Nvidia said it had retained former US attorney Joon H. Kim and the firm Wachtell, Lipton, Rosen & Katz to handle an investigation."
    ],
    "whyItMatters": [
-    "Huang co-founded Nvidia and has led it for 33 years while it became one of the most valuable companies in the world on demand for AI chips. TechCrunch notes that he delegates very little, has said he has about 60 direct reports, and that the company has had no obvious successor or succession plan.",
-    "Bloomberg reports Nvidia has been working with an outside firm to identify possible replacements. Kress, as CFO, is an interim answer rather than a stated long-term one. Elon Musk posted on X late Wednesday that hiring Huang would be an honor, though nothing in the coverage indicates Huang has any next role in mind.",
-    "The board's apparent decision to act before the outside investigation finished is notable. Nvidia had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle the matter, but the Verge noted that the reported dismissal suggested the board would not wait for those results."
+    "Huang is Nvidia's co-founder and has run it for 33 years. The company designs the chips that power the AI boom, and TechCrunch notes that Huang delegates very little and has said he has about 60 direct reports. The company also has no obvious successor or succession plan, according to TechCrunch.",
+    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading Wednesday by The Verge's count, and about 8 percent by TechCrunch's, on top of an 11 percent decline over the previous five days.",
+    "The reported timing also suggests the board chose not to wait for the outside investigation to finish. That is an inference from The Verge's reporting, not something the company has said. Bloomberg reported that Nvidia is working with an outside firm to identify possible replacements for Huang. Elon Musk posted on X that hiring Huang \"would be an honor.\""
    ],
    "whatToWatch": [
-    "Key questions are who leads Nvidia permanently and how long the interim arrangement lasts, along with how markets react once trading resumes.",
-    "Also open is what the Wachtell-led investigation finds, and whether the Powell allegations, which Nvidia has not publicly addressed in the coverage, lead to further action."
+    "The main open question is who succeeds Huang permanently. Kress is interim only, and the search is reportedly under way with an outside firm.",
+    "Also unresolved are the results of the Wachtell investigation and whether the allegations about Powell, which rest on unnamed sources, are confirmed. Nvidia did not immediately respond to The Verge's request for comment."
    ],
    "pullQuote": {
     "text": "would be an honor",
-    "by": "Elon Musk, on hiring Jensen Huang"
+    "by": "Elon Musk, SpaceXSI CEO"
    }
   }
  },
