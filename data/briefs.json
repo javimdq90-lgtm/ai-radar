@@ -1057,6 +1057,43 @@
    }
   }
  },
+ "62898b4a825e": {
+  "storyId": "62898b4a825e",
+  "itemIds": [
+   "62898b4a825e",
+   "972640f78a70"
+  ],
+  "writtenAt": "2026-11-24T03:23:10.935Z",
+  "headline": "Oregon and Virginia sue SpaceX over Grok's sexualized deepfakes and CSAM",
+  "dek": "Attorneys general Dan Rayfield and Jay Jones filed separate consumer protection suits Monday, alleging SpaceX, owner of X and xAI, ignored industry safeguards and falsely promoted Grok's safety; both seek damages.",
+  "keyPoints": [
+   "Oregon AG Dan Rayfield and Virginia AG Jay Jones filed separate, similar suits Monday, reportedly the first states to sue SpaceX over Grok. Both allege consumer protection violations and seek financial damages.",
+   "The complaints centre on Grok Imagine. They allege it permits non-consensual intimate imagery and child sexual abuse material, and that the safeguards were weak, sparsely enforced and easily circumvented.",
+   "The states allege the X Safety team responsible for Grok red-teaming was cut to two or three people, and that Grok has advised users how to get around its moderation.",
+   "X Safety says people who made such material violated its terms and circumvented safeguards, and that classifiers screen every prompt and check every output.",
+   "Virginia's complaint calls the weak safeguards 'not a failure but a feature,' saying Musk saw 'a market opportunity for more profits.'"
+  ],
+  "context": "Grok Imagine added a 'spicy' mode in August 2025, and in January 2026 Grok gained an image-editing feature that flooded X with non-consensual sexualized deepfakes of adults and minors. xAI restricted some capabilities and put others behind a paywall, but The Verge's testing found the changes did little. SpaceX has since absorbed xAI, so it is now the defendant.",
+  "article": {
+   "whatHappened": [
+    "Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones filed separate but similar lawsuits against SpaceX on Monday. They accuse it of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of X and Grok's AI features. Ars Technica reports they are the first states to sue SpaceX over Grok. Both suits seek financial damages.",
+    "The complaints focus on Grok Imagine, which lets Grok and X users generate images and videos. The states allege it has let users routinely create and circulate non-consensual intimate imagery, sexualized images and child sexual abuse material. Virginia's complaint says Musk willfully ignored growing concerns about AI-generated sexualized deepfakes and 'saw a market opportunity for more profits.'",
+    "The states also make specific allegations about safety practices. They say the X Safety team responsible for Grok red-teaming was reduced to two or three members, that the company will not publicly name the officers responsible for safety governance, and that Grok sometimes advised users how to circumvent its moderation. A Virginia probe found moderation 'inconsistent and ineffective.'",
+    "X Safety disputes the characterization. It says those who generated this material deliberately violated its Terms of Service and worked to circumvent safeguards, that it tightened protections when misuse surfaced, and that classifiers screen every prompt before an image is generated and check every output after. It says it notifies law enforcement."
+   ],
+   "whyItMatters": [
+    "The suits turn a long-running controversy into state-level legal action. After Grok's 'spicy' mode in August 2025 and the January 2026 image-editing feature, xAI added restrictions and a paywall. The states argue none of this worked; Ars Technica reports that New York City Council speaker Julie Menin showed SpaceX in October that attempts to digitally undress her photo still worked for free users.",
+    "The legal theory rests on consumer protection law rather than content rules alone. The states say xAI and X told consumers they were protected while the tool permitted abuse. They also cite Elon Musk's January statement that Grok only generated nudity of imaginary adults, which they say conflicts with edits made to real, identifiable people. If courts accept that framing, the case turns on what the companies said about safety, not only on what the model produced."
+   ],
+   "whatToWatch": [
+    "The coverage gives no court dates or schedules. Watch whether other state attorneys general file similar suits, and how SpaceX responds in court to the allegation that its public safety statements were misleading."
+   ],
+   "pullQuote": {
+    "text": "Companies that deploy powerful tools don’t get to ignore consumer safety and call it innovation.",
+    "by": "Jay Jones, Virginia Attorney General"
+   }
+  }
+ },
  "65e05126788d": {
   "storyId": "65e05126788d",
   "itemIds": [
@@ -1537,6 +1574,45 @@
    "pullQuote": {
     "text": "It’s worth noting that the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode.",
     "by": "Philipp Schindler, Google chief business officer"
+   }
+  }
+ },
+ "9d5c4f64f5c7": {
+  "storyId": "9d5c4f64f5c7",
+  "itemIds": [
+   "9d5c4f64f5c7",
+   "43b498f2b7e3"
+  ],
+  "writtenAt": "2026-11-24T03:22:59.981Z",
+  "headline": "Anthropic launches Claude Ship, with AI agents that fix and approve pull requests",
+  "dek": "Anthropic's Claude Ship adds two beta agents, PR Steward and Claude Approvals, to fix failing checks and approve routine code changes; it is available to Team and Enterprise customers on GitHub.",
+  "keyPoints": [
+   "Claude Ship bundles Code Review, generally available since October, with two new beta agents: PR Steward and Claude Approvals.",
+   "PR Steward handles failing CI checks, merge conflicts and review feedback, and comments after each push on what it changed and how to roll it back.",
+   "Claude Approvals can approve routine changes under a natural-language policy the team writes as a file in the repository, if the organization allows it.",
+   "Available now to Claude Team and Enterprise customers for GitHub repositories; Anthropic suggests starting in observe-only mode on one repository with monthly spending limits.",
+   "Anthropic says Claude writes most of the code on its own Claude Code team, and it wanted the steps after the pull request to move as fast."
+  ],
+  "context": "Anthropic announced Code Review in March and made it generally available in October, and AI coding tools from various vendors already offer review features. Claude Ship goes further by letting an AI agent hold approval authority, as agent-written code creates a growing review bottleneck.",
+  "whatsNext": "Watch how teams use the beta approval agent after observe-only trials, and whether Anthropic widens support beyond GitHub or the Team and Enterprise plans.",
+  "article": {
+   "whatHappened": [
+    "Anthropic on Monday launched Claude Ship, a set of tools for software teams that lets Claude review, fix and approve pull requests. The product combines Code Review, which has been generally available since October, with two new agents that entered beta the same day: PR Steward and Claude Approvals.",
+    "PR Steward, in Anthropic's words, \"jumps in on failing CI checks, merge conflicts, and review feedback\" from Code Review, other review tools or team members. After every push it comments on what it changed and how to roll the change back if needed.",
+    "Claude Approvals can approve routine changes if an organization's policy allows it. The team writes the approval policy in natural language as a file in the repository. It can draw on signals such as Code Review findings or the team's own classifiers.",
+    "Claude Ship is rolling out to Claude Team and Enterprise customers and works with repositories on GitHub. Because the agents are in beta, Anthropic suggests running approvals in observe-only mode first, starting with a single repository and setting monthly spending limits. Teams also choose where it runs, which review setting to use (Quick, Standard or Deep) and which changes get escalated to a human."
+   ],
+   "whyItMatters": [
+    "Automated code review is not new, and TechCrunch notes that AI coding tools already offered it. The more notable piece is Claude Approvals, which delegates approval authority to an agent under policies set by the development team. That moves AI from suggesting changes to deciding when they are ready to merge.",
+    "The launch responds to a problem AI has helped create. As coding agents generate more code, reviewing and approving it becomes the constraint. Anthropic's blog post frames it this way: most teams want a person to approve every change, but many developers now build with agents, and on the Claude Code team Claude writes most of the code."
+   ],
+   "whatToWatch": [
+    "The beta label and Anthropic's own advice to begin in observe-only mode suggest the company expects cautious adoption. How teams write their approval policies, and which categories of change they treat as routine, will show how much authority they are willing to hand over.",
+    "Availability is currently limited to Team and Enterprise plans and to GitHub repositories. The coverage does not say when the agents might leave beta or reach other platforms or plans."
+   ],
+   "pullQuote": {
+    "text": "On the Claude Code team, Claude writes most of our code, and we wanted everything after the PR to move that fast too.",
+    "by": "Anthropic"
    }
   }
  },
@@ -2536,42 +2612,54 @@
    "c69438672bb7",
    "a4a5f143094b",
    "a1abc1ba2744",
+   "354bf133bd07",
    "be9c8fb91e88",
    "a872bf085881",
    "ecab1061c917",
    "57e4d9bc2d25",
-   "66cc673a6baa"
+   "66cc673a6baa",
+   "cce907208d41",
+   "ea91e3604351",
+   "5dc55a044437",
+   "4fee0c0f2148",
+   "e63c50b367bc",
+   "0908ebe9dc86",
+   "1457613dc9f1",
+   "7bdc82557174",
+   "b7175444dd03",
+   "537965d7de45",
+   "012a59ac5286"
   ],
-  "writtenAt": "2026-11-23T16:08:35.810Z",
-  "headline": "Nvidia's Jensen Huang resigns as CEO after reports of board move over affairs",
-  "dek": "Huang resigned with immediate effect, and CFO Colette Kress became interim CEO, after the NYT reported a second alleged affair and the WSJ reported the board was preparing to dismiss him.",
+  "writtenAt": "2026-11-24T03:23:35.806Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Thursday that Huang had resigned after reports of a second alleged affair, this time with an executive who reports to him, days after he admitted to a relationship with an alleged Chinese spy.",
   "keyPoints": [
-   "Nvidia announced Thursday that Jensen Huang resigned as CEO; CFO Colette Kress was appointed interim CEO, per The Verge's update and Reuters.",
-   "The WSJ reported the board would meet as soon as Wednesday night to decide Huang's future, after a NYT report of a second alleged affair.",
-   "The NYT alleges the second affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times says it has not seen the video it cites.",
-   "Nvidia stock fell more than 7 to about 8 percent in after-hours trading Wednesday and is down about 11 percent over five days, per TechCrunch.",
-   "Huang admitted Sunday to an affair with Megaspeed executive Alice Huang, whom U.S. intelligence reportedly believes to be a Chinese spy."
+   "Nvidia announced Huang's resignation Thursday morning and appointed CFO Colette Kress interim CEO; Reuters reports the resignation took effect immediately.",
+   "The Wall Street Journal reported Wednesday that the board was preparing to dismiss Huang, who has led Nvidia for 33 years, and could meet that night.",
+   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care. The Times says it has not seen video of the pair.",
+   "Nvidia stock fell more than 7% to about 8% in after-hours trading Wednesday and was down about 11% over five days, per The Verge and TechCrunch.",
+   "Bloomberg reports Nvidia was working with an outside firm to identify possible CEO candidates. Elon Musk posted that hiring Huang 'would be an honor.'"
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, through its rise to one of the world's most valuable companies on AI chip demand. The company has no obvious successor or formal succession plan, according to TechCrunch. The scandal began with Huang's admitted relationship with an alleged spy, and escalated within days.",
-  "whatsNext": "Watch who the board names as permanent CEO, since Nvidia is reportedly working with an outside firm on candidates, and what the law firm's investigation concludes.",
+  "context": "Nvidia designs the chips that power the AI boom and is among the world's most valuable companies, with Huang as its co-founder and public face. He confirmed over the weekend a relationship with Alice Huang, a Megaspeed executive described as an alleged spy, and the company hired outside counsel to investigate. The company reportedly had no obvious successor or succession plan.",
+  "whatsNext": "Watch for how the board handles the CEO search under interim chief Colette Kress, and for the findings of the Wachtell, Lipton investigation.",
   "article": {
    "whatHappened": [
-    "Nvidia announced Thursday morning that Jensen Huang has resigned as CEO, with immediate effect, and that CFO Colette Kress has been appointed interim CEO. The announcement followed a Wall Street Journal report that the board was preparing to dismiss him and could meet as early as Wednesday night.",
-    "The trigger was a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that the two were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video.",
-    "The report came days after Huang confirmed on Sunday an affair with Alice Huang, a Megaspeed executive whom U.S. intelligence is reported to believe is a Chinese spy. Nvidia said it had retained former US attorney Joon H. Kim and the firm Wachtell, Lipton, Rosen & Katz to handle an investigation."
+    "Nvidia announced on Thursday morning that Jensen Huang had resigned as chief executive and that CFO Colette Kress had been appointed interim CEO. Reuters reported the resignation was effective immediately. The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss Huang, who has led the company for 33 years, at a meeting that could be held as soon as that night.",
+    "The Journal's report came after The New York Times reported a second alleged extramarital affair. According to the Times, Huang's partner was Kimberly Powell, Nvidia's vice president of health care, who reports to him. Two unnamed sources told the Times that the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video.",
+    "The reports arrived days after Huang admitted to an affair with a woman whom U.S. intelligence is said to consider a Chinese spy. Nvidia and Huang confirmed a relationship with Alice Huang, an executive at Megaspeed. Nvidia said it retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle the matter."
    ],
    "whyItMatters": [
-    "Huang is Nvidia's co-founder and has run it for 33 years. The company designs the chips that power the AI boom, and TechCrunch notes that Huang delegates very little and has said he has about 60 direct reports. The company also has no obvious successor or succession plan, according to TechCrunch.",
-    "Markets reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading Wednesday by The Verge's count, and about 8 percent by TechCrunch's, on top of an 11 percent decline over the previous five days.",
-    "The reported timing also suggests the board chose not to wait for the outside investigation to finish. That is an inference from The Verge's reporting, not something the company has said. Bloomberg reported that Nvidia is working with an outside firm to identify possible replacements for Huang. Elon Musk posted on X that hiring Huang \"would be an honor.\""
+    "Few companies are as closely tied to one person as Nvidia is to Huang. TechCrunch notes that he delegates very little, has said he has about 60 direct reports, and that the company has had no obvious successor or succession plan. Bloomberg reports Nvidia was working with an outside firm to find potential replacements, which suggests the board was preparing for a change before it was announced.",
+    "The market reacted quickly. Nvidia shares fell more than 7 percent in after-hours trading Wednesday according to The Verge, and about 8 percent according to TechCrunch, which adds that the stock was down roughly 11 percent over five days. The board also appears to have acted without waiting for the law firm's investigation to finish, The Verge notes, which points to how serious it judged the second allegation, one involving a subordinate.",
+    "Rivals and admirers moved fast as well. Elon Musk posted on X late Wednesday that hiring Huang would be an honor. That is a signal of how valuable Huang's reputation remains in the industry, though Musk's post says nothing about Huang's plans."
    ],
    "whatToWatch": [
-    "The main open question is who succeeds Huang permanently. Kress is interim only, and the search is reportedly under way with an outside firm.",
-    "Also unresolved are the results of the Wachtell investigation and whether the allegations about Powell, which rest on unnamed sources, are confirmed. Nvidia did not immediately respond to The Verge's request for comment."
+    "The immediate questions are who leads Nvidia permanently and how long Colette Kress remains interim CEO. The coverage does not say when a successor might be named, only that an outside firm was reportedly involved in the search.",
+    "The Wachtell, Lipton review of the Megaspeed relationship is another open item. Related links on The Verge's page indicate Huang later returned as CEO, but the coverage provided does not explain how or why, so that outcome is not covered here."
    ],
    "pullQuote": {
-    "text": "would be an honor",
-    "by": "Elon Musk, SpaceXSI CEO"
+    "text": "would be an honor.",
+    "by": "Elon Musk"
    }
   }
  },
@@ -2853,6 +2941,43 @@
    "pullQuote": {
     "text": "We are very excited by this result, but there is a long distance to go before we are able to scale this to all the software of the world, and we want to do that",
     "by": "Swarat Chaudhuri, DeepMind research scientist"
+   }
+  }
+ },
+ "f955d48edeaa": {
+  "storyId": "f955d48edeaa",
+  "itemIds": [
+   "f955d48edeaa"
+  ],
+  "writtenAt": "2026-11-24T03:23:19.453Z",
+  "headline": "Amazon to acquire Decart's AI optimization tech and team in reported $7.5B deal",
+  "dek": "Amazon will buy the Decart Optimization Stack and Decart's founders and researchers, reportedly for $7.5 billion, as it prepares to sell its Trainium chips to outside customers.",
+  "keyPoints": [
+   "Bloomberg reports Amazon is paying $7.5 billion for the Israeli startup Decart; Amazon's own blog post confirms the acquisition but the coverage does not give a price.",
+   "Amazon gets the technology behind the Decart Optimization Stack (DOS), plus Decart's founding team and its AI researchers and engineers.",
+   "DOS is software that helps AI models run efficiently on Nvidia, Amazon and Google hardware.",
+   "Amazon has used Trainium chips only in its own data centers so far and is preparing to sell them to customers as a competitor to Nvidia."
+  ],
+  "context": "Nvidia's chips and its CUDA software ecosystem have long been the default for AI workloads, which makes switching to rival silicon costly for customers. Amazon, Google and others have built custom chips, but software tooling that makes them easy to use is a key hurdle. Decart is also known for real-time world models and AI video generation.",
+  "whatsNext": "Watch for Amazon to begin selling Trainium chips to outside customers and for details on how DOS is integrated; neither Amazon nor Decart has commented beyond the blog post.",
+  "article": {
+   "whatHappened": [
+    "Amazon has agreed to acquire a large part of Decart, an Israeli AI startup, in a deal Bloomberg reports at $7.5 billion. TechCrunch, which relayed the figure, noted that Amazon and Decart did not immediately respond to requests for comment.",
+    "According to Amazon's blog post, the company will take over the technology behind the Decart Optimization Stack, known as DOS, along with Decart's founding team and its group of AI researchers and engineers.",
+    "DOS is software that helps AI models run efficiently on hardware from Nvidia, Amazon and Google. Decart is also known for interactive real-time world models, most recently Oasis 3, and for AI video-generation tools."
+   ],
+   "whyItMatters": [
+    "The deal arrives as Amazon prepares to start selling its Trainium chips to customers. So far the company has used them in its own data centers. Selling them externally would put Amazon in more direct competition with Nvidia, whose hardware TechCrunch describes as the gold standard so far.",
+    "Decart's optimization software could make it easier for customers to run their workloads on Amazon chips instead of Nvidia's. That is a plausible reading of the deal's logic rather than something Amazon has detailed, but Peter DeSantis, Amazon's SVP overseeing foundational AI models and custom silicon, framed the purchase around chip efficiency, saying more efficient compute means better training, reinforcement learning and inference at lower cost.",
+    "The reported price is also notable for a startup whose standout asset, by TechCrunch's account, is optimization software rather than its consumer-facing models."
+   ],
+   "whatToWatch": [
+    "Key open questions are how Amazon will fold DOS into its Trainium offering, and whether DOS will continue to support Nvidia and Google hardware, which it does today.",
+    "Amazon has not said when Trainium sales to outside customers will begin, and the reported price has not been confirmed by either company in the coverage provided."
+   ],
+   "pullQuote": {
+    "text": "Every leap forward in AI starts with getting more out of every chip",
+    "by": "Peter DeSantis, Amazon SVP of foundational AI models, custom silicon, quantum computing"
    }
   }
  },
