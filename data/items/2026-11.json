@@ -19327,7 +19327,7 @@
    "Nvidia",
    "Kadoa"
   ],
-  "storyId": "d5db552c0933"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://huggingface.co/papers/2611.30898",
@@ -19424,5 +19424,694 @@
    "Cairn"
   ],
   "storyId": "fb7a1ad02384"
+ },
+ {
+  "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+  "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T17:10:45.000Z",
+  "score": 199,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50631210",
+  "id": "002bc4ff2409",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Max Tegmark claims Anthropic staff openly talk about 'taking over the world'.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "Max Tegmark",
+   "Anthropic"
+  ],
+  "storyId": "002bc4ff2409"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+  "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T17:00:00.000Z",
+  "snippet": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
+  "id": "03938f50d224",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Meta is integrating its Muse AI assistant directly into Instagram DMs, removing the need to switch to the Muse app.",
+  "whyItMatters": "Puts Meta's assistant in front of Instagram's huge user base.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Meta",
+   "Muse",
+   "Instagram"
+  ],
+  "imageCheckedAt": "2026-11-25T01:28:15.590Z",
+  "storyId": "03938f50d224"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+  "title": "What's going on with the Riemann hypothesis?",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-24T20:34:53.000Z",
+  "snippet": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-1152x648.jpeg",
+  "id": "1479a2d5f115",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "A new AI-assisted proof of the Riemann hypothesis appears to hold up, though mathematicians are unsure what it implies.",
+  "whyItMatters": "If it holds, it is a landmark example of AI contributing to major mathematics.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "Riemann hypothesis"
+  ],
+  "storyId": "1479a2d5f115"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+  "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-24T16:34:13.000Z",
+  "id": "16565a3f5dc0",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Hugging Face post on a sim-to-real workflow for obstacle avoidance on the Microduck robot using Isaac Lab and Newton.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Isaac Lab",
+   "Newton",
+   "Microduck"
+  ],
+  "storyId": "16565a3f5dc0"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-24T16:09:23.000Z",
+  "snippet": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh Haner, write that the use of these features \"can result in metadata identifying photographs as AI-generated.\" Adobe has spent the past few years filling Photoshop and other apps in its creative suite with a trove of AI-powered tools. The November update cited by the NYT's email adds several n…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "19f2f984a80d",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "The New York Times has told freelance photographers not to use the newest Photoshop because its AI features may act in non-obvious ways and add metadata marking photos as AI-generated.",
+  "whyItMatters": "Newsrooms are wary of AI creeping into creative tools, creating provenance headaches.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "The New York Times",
+   "Adobe",
+   "Photoshop"
+  ],
+  "storyId": "19f2f984a80d"
+ },
+ {
+  "url": "https://simonwillison.net/2026/Nov/21/muru/",
+  "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-22T09:57:01.000Z",
+  "score": 80,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50597959",
+  "id": "21bd1d482ae2",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Muru is a Rust-based server for running Python web apps, built with AI assistance by Graham Dumpleton, the creator of mod_wsgi.",
+  "whyItMatters": "A notable example of an experienced infrastructure developer using AI to build a serious systems tool.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Muru",
+   "Graham Dumpleton",
+   "mod_wsgi"
+  ],
+  "storyId": "21bd1d482ae2"
+ },
+ {
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-24T13:00:00.000Z",
+  "snippet": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+  "id": "3c6728c1bfd1",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "OpenAI says GPT-6 models can design protein structures and sequences using reasoning and code, with lab tests showing binding evidence across five targets.",
+  "whyItMatters": "Suggests general-purpose frontier models are gaining real scientific design capability without specialized tooling.",
+  "category": "research",
+  "importance": 4,
+  "entities": [
+   "OpenAI",
+   "GPT-6"
+  ],
+  "imageCheckedAt": "2026-11-25T01:28:15.737Z",
+  "storyId": "3c6728c1bfd1"
+ },
+ {
+  "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+  "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-24T18:15:00.000Z",
+  "snippet": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it feel more like slop than the sort of polished film you'd expect from the director of sleek productions like Fight Club and The Social Network. Following a number of Cliff Booth critics screenings that took place last week ahead of the film's premiere …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&strip=all&crop=20.001873779297,0,79.998126220703,100",
+  "id": "428631f9a070",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Viewers at early screenings of David Fincher's The Further Mis-Adventures of Cliff Booth allege generative AI use, citing uncanny, inconsistent visuals.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "David Fincher",
+   "Brad Pitt"
+  ],
+  "storyId": "428631f9a070"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+  "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T21:19:52.000Z",
+  "snippet": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+  "id": "4d83f53e63e2",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "Startup Maple raised $5.3M to build AI products on an encrypted architecture that prevents even the company from accessing users' private data.",
+  "whyItMatters": "Privacy-preserving AI architectures are a growing option for builders handling sensitive data.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Maple"
+  ],
+  "storyId": "4d83f53e63e2"
+ },
+ {
+  "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+  "title": "Three LLM inflection points in twelve months",
+  "sourceId": "simonw",
+  "publishedAt": "2026-11-24T23:02:07.000Z",
+  "snippet": "<p>I gave a keynote at the <a href=\"https://ai.engineer/code/2026\">AI Engineer Code Summit</a> a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.</p> <p>Here's <a href=\"https://www.youtube.com/watch?v=9RKrSF9d2SE\">the video</a> of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.</p> <p><lite-youtube videoid=\"9RKrSF9d2SE\" js-api=\"js-api\" title=\"2026 in LLMs — Simon Willison\" playlabel=\"Play: 2026 in LLMs — Si…",
+  "image": "https://img.youtube.com/vi/9RKrSF9d2SE/maxresdefault.jpg",
+  "id": "6ff348e652c9",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "Simon Willison argues from his AI Engineer Code Summit keynote that LLMs and coding agents have hit three significant inflection points in the past twelve months.",
+  "whyItMatters": "A respected practitioner's framing of how coding agents have actually progressed is useful for builders.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Simon Willison"
+  ],
+  "imageCheckedAt": "2026-11-25T01:28:15.557Z",
+  "storyId": "6ff348e652c9"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+  "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T16:10:00.000Z",
+  "snippet": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+  "id": "70f3d3a63449",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "A Crusoe investor argues solar and batteries are the obvious way to power next-generation AI data centers needing tens of gigawatts yearly.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Crusoe"
+  ],
+  "storyId": "70f3d3a63449"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+  "title": "Even the best AI agents struggle with everyday life",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T21:33:29.000Z",
+  "snippet": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
+  "id": "71615ee1ebfd",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "A new benchmark finds that even the most advanced AI models struggle to complete everyday personal-assistant tasks reliably and safely, sometimes creating new problems.",
+  "whyItMatters": "It is a reality check on deploying agents for real-world tasks.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "imageCheckedAt": "2026-11-25T01:28:15.592Z",
+  "storyId": "71615ee1ebfd"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+  "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T21:48:27.000Z",
+  "snippet": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+  "id": "72fd424c711a",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "At an all-hands, Jensen Huang apologized to Nvidia staff, thanked the White House, said he is in therapy and expressed gratitude for a second chance to lead.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-24T00:00:00.000Z",
+  "id": "7a6462e387eb",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "OpenAI case study describing how iFood scales coding agents across 15,000 repositories.",
+  "whyItMatters": "Shows what large-scale coding agent deployment looks like in practice.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "iFood"
+  ],
+  "storyId": "7a6462e387eb"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+  "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T16:46:00.000Z",
+  "snippet": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+  "id": "85ad47dc9b77",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Tidal will ban and remove millions of fully AI-generated tracks while still accepting AI-assisted songs.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Tidal"
+  ],
+  "storyId": "e213ef04a870"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+  "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-24T20:02:03.000Z",
+  "snippet": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang reportedly called claims that President Donald Trump was directly involved in his reinstatement - an idea publicly promoted by Trump himself - \"completely untrue.\" He added, \"Don't think for a second politics played a role in the company. We are the most …",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2300373989.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "9134491ec669",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "Jensen Huang reportedly apologized to Nvidia staff in his first all-hands since returning as CEO, and called claims that Trump got him rehired \"completely untrue\".",
+  "whyItMatters": "Leadership turmoil at the dominant AI chip supplier affects the whole AI supply chain.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "Donald Trump"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+  "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T18:30:42.000Z",
+  "snippet": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+  "id": "9824edc2f485",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Anthropic's shares have fallen below its IPO price after going public.",
+  "whyItMatters": "A post-IPO slump at a leading lab could pressure valuations and funding for AI startups.",
+  "category": "business",
+  "importance": 4,
+  "entities": [
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-25T01:28:15.571Z",
+  "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+  "title": "Clay helps sales teams win with Codex and ChatGPT",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-24T00:00:00.000Z",
+  "snippet": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+  "id": "99b93f3e1098",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "OpenAI case study: Clay uses ChatGPT and Codex integrations, with GPT-6 models handling reasoning, to help sales teams research deals and build go-to-market plays.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Clay",
+   "OpenAI",
+   "Codex",
+   "GPT-6"
+  ],
+  "storyId": "99b93f3e1098"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.30207",
+  "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-22T19:00:00.000Z",
+  "snippet": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data, focusing on the correctness of its reward labels. We audit SWE-Gym with two LLM families, and a suspected error counts only if execution reproduces it. We find that unsolved often means mislabelled: 74% of the tasks that a 9B base model never solves have a test that rejects correct fixes (a false negative), versus 20% of those it sometimes solves. We repair or remove such tas…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30207.png",
+  "id": "a1bab071a14f",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "An audit of SWE-Gym finds 74% of tasks a 9B base model never solves have tests that reject correct fixes, versus 20% of tasks it sometimes solves. The authors repair or remove such tasks to improve RL training data.",
+  "whyItMatters": "Mislabelled reward tests can quietly undermine RL training of coding agents, so data auditing matters.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "SWE-Gym"
+  ],
+  "storyId": "a1bab071a14f"
+ },
+ {
+  "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+  "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T16:08:29.000Z",
+  "score": 115,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50630245",
+  "id": "b06fe44e5c27",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "The U.S. Commerce Department put an export ban on Megaspeed, a former Nvidia partner.",
+  "whyItMatters": "Export enforcement continues to tighten around AI chip supply chains.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Megaspeed",
+   "Nvidia",
+   "U.S. Commerce Department"
+  ],
+  "imageCheckedAt": "2026-11-25T01:28:15.620Z",
+  "storyId": "b06fe44e5c27"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+  "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T21:32:38.000Z",
+  "snippet": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200",
+  "id": "b1e5839c1dc5",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta's AI agent.",
+  "whyItMatters": "It is a concrete example of retailers distributing commerce through third-party AI agents.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Walmart",
+   "Meta",
+   "Muse"
+  ],
+  "imageCheckedAt": "2026-11-25T01:28:15.566Z",
+  "storyId": "3a8ea930f30c"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+  "title": "Jensen Huang deepfakes are the hot new AI slop",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-24T16:30:00.000Z",
+  "snippet": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he had an affair with, sparking congressional investigations and his resignation from the chipmaking company he cofounded - appears. She puts her hand on his shoulder and he wraps his arm around her waist as they begin dancing together. The video's caption reads \"Honey Trap Final Bo…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jensen_huang_AI_deepfakes.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "b6222c5bc341",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Deepfake videos of Jensen Huang, including one with nearly 6 million Instagram views, are spreading as the latest AI slop trend, depicting a fictional scandal and resignation.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+  "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T16:02:37.000Z",
+  "snippet": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+  "id": "bbaf6332f2bf",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Pinterest will let parents limit the AI-generated content their teens see in feeds, rather than restricting chatbot access.",
+  "whyItMatters": "Platforms are starting to treat AI content filtering as a youth-safety control.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Pinterest"
+  ],
+  "storyId": "bbaf6332f2bf"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50630809",
+  "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T16:45:44.000Z",
+  "score": 222,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50630809",
+  "id": "bbef1e94d167",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "A developer says Anthropic accuses their company of distilling its models and asks how to prove otherwise.",
+  "whyItMatters": "Highlights how opaque distillation enforcement is for API users.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "bbef1e94d167"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+  "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T22:27:52.000Z",
+  "snippet": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+  "id": "bc426bbbebd7",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "Jensen Huang still holds that a succession plan creates unnecessary hierarchy, even after Nvidia spent two weeks without its founder.",
+  "whyItMatters": "Key-person risk at Nvidia matters to anyone dependent on its GPUs.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+  "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-24T18:47:57.000Z",
+  "snippet": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg",
+  "id": "cb6f8525252b",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+  "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T18:55:12.000Z",
+  "score": 85,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50632756",
+  "id": "d2963dce727b",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "A GitHub post claims OpenAI solved the VP vs VNP complexity problem before Anthropic did. No details or verification are given in the snippet.",
+  "whyItMatters": "If real, it would be a notable theory result, but the claim is unverified and the source is thin.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "storyId": "d2963dce727b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+  "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T00:12:02.000Z",
+  "snippet": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+  "id": "d6a3974a1a3c",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:15.500Z",
+  "summary": "Yale's Jeffrey Sonnenfeld warns that Jensen Huang's White House-backed return as Nvidia CEO could be a mistake, exposing directors to personal liability from lawsuits and questioning Nvidia's chips reaching US adversaries.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang",
+   "Jeffrey Sonnenfeld"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+  "title": "Tidal bans AI-generated music",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T16:12:38.000Z",
+  "score": 317,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50630309",
+  "id": "e213ef04a870",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Tidal is banning AI-generated music.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Tidal"
+  ],
+  "storyId": "e213ef04a870"
+ },
+ {
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+  "title": "How Gemini is changing the game for Golden State's organization and fans.",
+  "sourceId": "google-ai",
+  "publishedAt": "2026-11-24T16:00:00.000Z",
+  "snippet": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp",
+  "id": "e2544bc1aeb2",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Google Gemini partners with the Golden State Warriors, Valkyries and Chase Center to power fan experiences and business operations.",
+  "category": "business",
+  "importance": 1,
+  "entities": [
+   "Google",
+   "Gemini",
+   "Golden State Warriors"
+  ],
+  "storyId": "e2544bc1aeb2"
+ },
+ {
+  "url": "https://claude.com/resources/articles/introducing-claude-ship",
+  "title": "Claude Ship",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-23T20:14:18.000Z",
+  "score": 87,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50618513",
+  "id": "e277391e1ad3",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Claude has a page titled 'Claude Ship' on claude.com; no further details are available.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "storyId": "9d5c4f64f5c7"
+ },
+ {
+  "url": "https://openai.com/business/customer-stories/intentful-dots",
+  "title": "How Intentful uses dots to make more time for growth",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-24T00:00:00.000Z",
+  "snippet": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+  "id": "ec442b764e04",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "OpenAI case study: Intentful's Marina Petrova uses an AI 'dot' called Aria to research websites, build proposals, flag messages and resolve issues proactively.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "OpenAI",
+   "Intentful"
+  ],
+  "storyId": "ec442b764e04"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+  "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-24T18:02:59.000Z",
+  "snippet": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+  "id": "ef2ea07a8f96",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "The UK's cyber agency warns AI hacking tools mostly exploit simple security flaws, urging stronger foundational security.",
+  "whyItMatters": "AI raises the cost of neglecting basic security hygiene.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "UK National Cyber Security Centre"
+  ],
+  "storyId": "ef2ea07a8f96"
+ },
+ {
+  "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+  "title": "Tidal will start banning AI-generated music next month",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-24T17:17:09.000Z",
+  "snippet": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 percent AI-generated. In a post on X, Andersen says Tidal needed to take a more \"drastic\" measure, as AI music made up 43 percent of the tracks distributed to the platform in the last 90 days. \"We believe this will resonate with both artists and listen…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "f0a03c4829a1",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Tidal will ban AI-generated music on December 9, deleting about 29 million songs and rejecting 80,000-85,000 tracks per day. AI music was 43% of tracks delivered in the last 90 days.",
+  "whyItMatters": "A major streamer taking a hard line shows the scale of AI music flooding platforms.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Tidal",
+   "Robert Andersen"
+  ],
+  "storyId": "e213ef04a870"
+ },
+ {
+  "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+  "title": "Searching for distant planets with Astra",
+  "sourceId": "openai",
+  "publishedAt": "2026-11-24T11:00:00.000Z",
+  "snippet": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+  "id": "f3aa9260f109",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Two amateur astronomers used Codex and Astra to find potential exoplanets in public NASA Kepler and TESS data.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "OpenAI",
+   "Codex",
+   "Astra",
+   "NASA"
+  ],
+  "storyId": "f3aa9260f109"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+  "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-24T17:34:34.000Z",
+  "snippet": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg",
+  "id": "fdd5f51e8faf",
+  "fetchedAt": "2026-11-25T01:27:46.201Z",
+  "enrichedAt": "2026-11-25T01:28:05.157Z",
+  "summary": "Tidal announced a ban on AI-generated music, deleting 27 million tracks that make up 6.3% of its catalog.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Tidal"
+  ],
+  "storyId": "e213ef04a870"
  }
 ]

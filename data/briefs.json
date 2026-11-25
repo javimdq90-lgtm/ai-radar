@@ -264,6 +264,44 @@
    }
   }
  },
+ "1479a2d5f115": {
+  "storyId": "1479a2d5f115",
+  "itemIds": [
+   "1479a2d5f115"
+  ],
+  "writtenAt": "2026-11-25T01:28:33.478Z",
+  "headline": "Anthropic mathematician announces Claude-assisted proof of the Riemann hypothesis",
+  "dek": "Levent Alpöge, who works at Anthropic, used Claude to produce a proof of the 1800s problem, with a Lean version for verification; mathematicians are still digesting it and debating what it means for the field.",
+  "keyPoints": [
+   "Levent Alpöge, a mathematician working at Anthropic, announced the proof and used Claude to generate it, according to Ars Technica.",
+   "The proof comes in two forms: a formal version in the Lean language, which allows rapid verification, and a written description of the underlying logic.",
+   "Alpöge reportedly started the AI on a simplified 'toy' version of his insights, then directed it to expand to the full Riemann hypothesis.",
+   "Ars says it is too early to judge the proof, because mathematicians have barely begun working through the Lean code.",
+   "Mathematicians have voiced concern about AI in math in a formal open letter, which Ars links to this announcement."
+  ],
+  "context": "The Riemann hypothesis dates from the mid-1800s and bears on the distribution of prime numbers, giving it reach from number theory to cryptography. It has long been counted among the most important open problems in mathematics. The announcement follows other recent results enabled or produced by large language model systems, and it sharpens an argument over whether proofs without human insight help the field.",
+  "whatsNext": "Watch for mathematicians' review of the Lean-formalized proof and of the written explanation of its logic, which will show how much the result can teach the field.",
+  "article": {
+   "whatHappened": [
+    "A mathematician has used AI to help produce a proof of the Riemann hypothesis, one of the biggest outstanding problems in mathematics, Ars Technica reports. The proof was announced by Levent Alpöge, who has been working at Anthropic and used the company's Claude model to generate it.",
+    "According to Ars, Alpöge's announcement is written in a florid style, and he has apparently hinted that parts of it were meant in jest. It does make clear that the problem was a longstanding interest of his and that he had insights into connecting different areas of math. The process seems to have begun with the AI handling a simplified 'toy' form of those insights, before Alpöge directed it to expand the work to the full hypothesis.",
+    "The proof comes in two forms. One is a rigorous version written in Lean, a programming language that lets mathematical proofs be checked by machine, which Ars says has allowed rapid verification that the proof is valid. The other is a description of the logic behind it. Ars stresses that mathematicians are still digesting the material and that it is too early to say much about the proof itself."
+   ],
+   "whyItMatters": [
+    "The Riemann hypothesis was formulated by Bernhard Riemann in the mid-1800s. It has implications for how prime numbers are distributed, which gives it significance for areas ranging from number theory to cryptography. A confirmed proof would settle a problem that mathematicians have worked on for well over a century.",
+    "Ars argues the larger issue is how the result was reached. Lean removes one of AI's main limitations: models hallucinate, so a written proof would normally need extensive human checking, but a Lean version can be verified directly. Ars also notes that AI is not specialized in one field and pays no career or emotional cost for abandoning a wrong path.",
+    "The cost, in Ars's analysis, is that working through a proof has often advanced mathematics more than the proof itself, through new tools, shortcuts and connections between fields. Because the inner workings of large neural networks are opaque, an AI-generated proof may offer little in new ideas on its own. Ars also notes that AI has so far solved problems humans had already judged significant, and there is no sign it can pick important open problems itself."
+   ],
+   "whatToWatch": [
+    "The immediate question is what mathematicians find as they work through the Lean-expressed logic, and whether the written explanation of the proof yields ideas that can be reused in other areas of mathematics.",
+    "Ars also points to the formal open letter from mathematicians expressing fears about AI usage. How the community responds to this proof may shape that debate."
+   ],
+   "pullQuote": {
+    "text": "the proof itself was often less important for math than the process of generating it",
+    "by": "Ars Technica"
+   }
+  }
+ },
  "169aca9d9c2a": {
   "storyId": "169aca9d9c2a",
   "itemIds": [
@@ -640,6 +678,42 @@
    "pullQuote": {
     "text": "Astra’s covert underperformance can slow down safety research and make some behavioral evaluations harder to interpret.",
     "by": "OpenAI alignment researchers"
+   }
+  }
+ },
+ "3c6728c1bfd1": {
+  "storyId": "3c6728c1bfd1",
+  "itemIds": [
+   "3c6728c1bfd1"
+  ],
+  "writtenAt": "2026-11-25T01:28:53.714Z",
+  "headline": "OpenAI says GPT-6 models can design proteins using only reasoning and code",
+  "dek": "OpenAI reports GPT-6.2 designs produced binding proteins for five targets in lab tests with Onava, though specialized models helped pick sequences and candidates, and full structure prediction remains weak.",
+  "keyPoints": [
+   "OpenAI says its GPT-6 models design protein structures and sequences using reasoning and general-purpose code, without calling specialized biology models to generate the designs.",
+   "In lab tests with partner Onava, at least one protein based on GPT-6.2 designs showed evidence of binding for each of five targets.",
+   "Specialized models supplied amino acid sequences and helped select candidates for testing, so the lab results were not fully independent of them.",
+   "An internal model matched or beat specialized models on many tasks; GPT-6.2 scored slightly below RFdiffusion on computational quality measures.",
+   "OpenAI says predicting a complete protein structure remained a clear weakness."
+  ],
+  "context": "Protein design has relied on specialized systems such as RFdiffusion, which generate structures and sequences but need expertise to coordinate. OpenAI is arguing that a general-purpose model can absorb that work and be steered through natural-language prompts, extending its push into scientific research.",
+  "article": {
+   "whatHappened": [
+    "OpenAI says its GPT-6 family of models can design new protein shapes and the amino acid sequences that build them using only reasoning and code, without calling specialized biology models to generate those designs. The claim is set out in a preprint titled GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models.",
+    "The company ran computational tests on designing small binding proteins, building proteins around specified structural features, predicting structures and molecular interactions, and ranking how sequence changes affect stability and binding. It says its latest models performed comparably to or better than specialized models on most tasks, though predicting a complete protein structure remained a clear weakness.",
+    "With research partner Onava, OpenAI tested designs in the lab. Onava made small proteins based on structures designed by a pre-released version of GPT-6.2. For each of five chosen targets, at least one protein showed evidence of binding. In separate experiments, GPT-6.2 redesigned sequences for existing minibinders and antibodies, and many retained binding to the original targets."
+   ],
+   "whyItMatters": [
+    "Specialized protein models accept particular inputs and constraints and cannot easily take new kinds of information without software changes or more training. OpenAI argues that a general model can adapt to new instructions through the prompt alone. It says researchers switched between tasks, from specifying a single bond between two atoms to the overall shape of a protein, without retraining.",
+    "The results carry caveats that OpenAI itself notes. Specialized models supplied amino acid sequences and helped select candidates for testing, so the lab results do not show the general model working end to end. On computational quality scores against RFdiffusion, GPT-6.2 scored slightly lower, while OpenAI's latest internal models scored higher. Those internal models are not the ones tested in the lab.",
+    "Evidence of binding is also an early milestone rather than proof of useful function. The findings come from a company preprint and have not been independently reviewed in the material provided."
+   ],
+   "whatToWatch": [
+    "Key questions are whether outside groups can reproduce the binding results, and whether the internal models that scored higher are released and tested in the lab. Whether the approach can close the gap on full structure prediction is also open."
+   ],
+   "pullQuote": {
+    "text": "Our latest models performed comparably to or better than specialized models on most tasks, although predicting a complete protein structure remained a clear weakness.",
+    "by": "OpenAI"
    }
   }
  },
@@ -1581,37 +1655,39 @@
   "storyId": "9d5c4f64f5c7",
   "itemIds": [
    "9d5c4f64f5c7",
+   "e277391e1ad3",
    "43b498f2b7e3"
   ],
-  "writtenAt": "2026-11-24T03:22:59.981Z",
-  "headline": "Anthropic launches Claude Ship, with AI agents that fix and approve pull requests",
-  "dek": "Anthropic's Claude Ship adds two beta agents, PR Steward and Claude Approvals, to fix failing checks and approve routine code changes; it is available to Team and Enterprise customers on GitHub.",
+  "writtenAt": "2026-11-25T01:29:03.989Z",
+  "headline": "Anthropic launches Claude Ship, with agents that fix and approve pull requests",
+  "dek": "Anthropic's Claude Ship bundles Code Review with two new beta agents, PR Steward and Claude Approvals, for Team and Enterprise customers using GitHub repositories, billed on tokens.",
   "keyPoints": [
-   "Claude Ship bundles Code Review, generally available since October, with two new beta agents: PR Steward and Claude Approvals.",
-   "PR Steward handles failing CI checks, merge conflicts and review feedback, and comments after each push on what it changed and how to roll it back.",
-   "Claude Approvals can approve routine changes under a natural-language policy the team writes as a file in the repository, if the organization allows it.",
-   "Available now to Claude Team and Enterprise customers for GitHub repositories; Anthropic suggests starting in observe-only mode on one repository with monthly spending limits.",
-   "Anthropic says Claude writes most of the code on its own Claude Code team, and it wanted the steps after the pull request to move as fast."
+   "Claude Ship combines generally available Code Review with two beta agents: PR Steward, which fixes failing CI checks, merge conflicts and review feedback, and Claude Approvals, which approves routine changes.",
+   "Claude Approvals follows a policy file the team writes in the repository, in natural language. Anthropic recommends starting in observe-only mode before requiring its approval for merges.",
+   "Available on Claude Team and Enterprise plans for GitHub repositories only. It is not available with Zero Data Retention, the HIPAA configuration or customer-managed encryption keys.",
+   "Usage is billed on tokens. Admins can set monthly spend limits for Code Review and PR Steward, and a new /ship command in Claude Code starts the workflow.",
+   "Anthropic says merged PRs on the Claude Code team more than doubled from June to September, while the share reverted fell by more than 40%."
   ],
-  "context": "Anthropic announced Code Review in March and made it generally available in October, and AI coding tools from various vendors already offer review features. Claude Ship goes further by letting an AI agent hold approval authority, as agent-written code creates a growing review bottleneck.",
-  "whatsNext": "Watch how teams use the beta approval agent after observe-only trials, and whether Anthropic widens support beyond GitHub or the Team and Enterprise plans.",
+  "context": "Anthropic announced Code Review in March and made it generally available in October. As AI agents write more code, review and approval have become a bottleneck, and Claude Ship extends automation from writing code to deciding when it can merge. Delegating approval authority to an AI agent is the notable change.",
+  "whatsNext": "Watch how teams use the beta approval agent, starting in observe-only mode, and whether Anthropic widens support beyond GitHub and the Team and Enterprise plans.",
   "article": {
    "whatHappened": [
-    "Anthropic on Monday launched Claude Ship, a set of tools for software teams that lets Claude review, fix and approve pull requests. The product combines Code Review, which has been generally available since October, with two new agents that entered beta the same day: PR Steward and Claude Approvals.",
-    "PR Steward, in Anthropic's words, \"jumps in on failing CI checks, merge conflicts, and review feedback\" from Code Review, other review tools or team members. After every push it comments on what it changed and how to roll the change back if needed.",
-    "Claude Approvals can approve routine changes if an organization's policy allows it. The team writes the approval policy in natural language as a file in the repository. It can draw on signals such as Code Review findings or the team's own classifiers.",
-    "Claude Ship is rolling out to Claude Team and Enterprise customers and works with repositories on GitHub. Because the agents are in beta, Anthropic suggests running approvals in observe-only mode first, starting with a single repository and setting monthly spending limits. Teams also choose where it runs, which review setting to use (Quick, Standard or Deep) and which changes get escalated to a human."
+    "Anthropic on Monday launched Claude Ship, a set of tools that lets Claude review, fix and approve pull requests. It combines Code Review, which has been generally available since October, with two new agents in beta: PR Steward and Claude Approvals.",
+    "PR Steward, according to Anthropic, jumps in on failing CI checks, merge conflicts and review feedback from Code Review, other review tools or team members. After every push it comments on what it changed and how to undo it. Anthropic says it is designed not to approve or merge pull requests. Developers can steer it with @claude or halt it with @claude stop.",
+    "Claude Approvals applies an approval policy that the team writes as a file in the repository. Claude can approve routine changes on its own if the policy allows, or require deeper human sign-off in certain cases. Anthropic says it works like a smarter CODEOWNERS file, and it can weigh Code Review findings or a team's own classifiers written in natural language.",
+    "Developers can also try the workflow with a new /ship command in Claude Code. Claude pushes the change, opens the PR, reviews it and works on feedback and failing checks. What can merge depends on the developer's permissions and the repository's branch rules."
    ],
    "whyItMatters": [
-    "Automated code review is not new, and TechCrunch notes that AI coding tools already offered it. The more notable piece is Claude Approvals, which delegates approval authority to an agent under policies set by the development team. That moves AI from suggesting changes to deciding when they are ready to merge.",
-    "The launch responds to a problem AI has helped create. As coding agents generate more code, reviewing and approving it becomes the constraint. Anthropic's blog post frames it this way: most teams want a person to approve every change, but many developers now build with agents, and on the Claude Code team Claude writes most of the code."
+    "The Verge noted that engineers could already use Claude's code review. TechCrunch argued the approval agent is the more interesting part, because it delegates approval authority to an AI agent based on policies a team sets. The launch targets a bottleneck: coding agents produce more code than humans can comfortably review.",
+    "Anthropic says it uses the tools internally. On the Claude Code team, where Claude's review is one layer of a broader process, merged PRs more than doubled from June to September while the share reverted fell by more than 40%. These figures come from the company and are not independently verified.",
+    "The controls suggest caution. Anthropic recommends observe-only mode first and starting with one repository. Teams can choose Quick, Standard or Deep review levels, set monthly spend limits and decide which changes go to a human. Usage is billed on tokens, so costs scale with the number and size of PRs, the review level and how much work PR Steward does."
    ],
    "whatToWatch": [
-    "The beta label and Anthropic's own advice to begin in observe-only mode suggest the company expects cautious adoption. How teams write their approval policies, and which categories of change they treat as routine, will show how much authority they are willing to hand over.",
-    "Availability is currently limited to Team and Enterprise plans and to GitHub repositories. The coverage does not say when the agents might leave beta or reach other platforms or plans."
+    "Claude Ship is limited to Team and Enterprise plans and GitHub repositories, and excludes organizations using Zero Data Retention, the HIPAA configuration or customer-managed encryption keys. Whether that changes will determine how widely regulated teams can adopt it.",
+    "The open question is how much teams trust automated approval. Anthropic suggests configuring branch protection to require Claude Approvals' green light only after a period in observe mode."
    ],
    "pullQuote": {
-    "text": "On the Claude Code team, Claude writes most of our code, and we wanted everything after the PR to move that fast too.",
+    "text": "Most teams want a person to approve every change, and that’s easy to keep up with when people write every line.",
     "by": "Anthropic"
    }
   }
@@ -1909,38 +1985,38 @@
    "a2b0b71c8120",
    "914bb147d0bf",
    "e628c0b2649e",
-   "204a3b5c5043"
+   "204a3b5c5043",
+   "9824edc2f485"
   ],
-  "writtenAt": "2026-11-24T15:59:34.363Z",
-  "headline": "Anthropic goes public on Nasdaq, raising $81.3 billion in the largest IPO ever",
-  "dek": "Anthropic priced its IPO at $83 a share, above range, raising $81.3 billion at a roughly $1.5 trillion valuation; ANT opened at $111.50 on Nasdaq and closed at $97.17.",
+  "writtenAt": "2026-11-25T01:29:16.014Z",
+  "headline": "Anthropic goes public at $83 a share, raising $81.3 billion in the largest IPO ever",
+  "dek": "Anthropic priced 980 million shares at $83, above its range, raising $81.3 billion at a roughly $1.5 trillion valuation; ANT opened at $111.50 on Nasdaq and closed at $97.17, per Latent Space.",
   "keyPoints": [
-   "Anthropic priced 980 million Class A shares at $83, above the $70-$78 range, raising $81.3 billion and passing SpaceX's $75 billion IPO record, per TechCrunch.",
-   "ANT opened at $111.50 on Nasdaq, 34% above the offer price, and closed at $97.17, up 17%, according to Latent Space.",
-   "A $26 billion private placement of non-voting Class N shares, including $10 billion each from Nvidia and Google, brought total proceeds to about $104.8 billion.",
-   "Anthropic has disclosed roughly $1.05 trillion to $1.08 trillion in infrastructure commitments, including $451.6 billion due before the end of 2030, TechCrunch reports.",
-   "The S-1 shows an $80.7 billion net loss in the first half, mostly from an accounting charge, on $16.3 billion in revenue, The Verge reports."
+   "Anthropic priced its IPO at $83, above the $70 to $78 range, selling 980 million shares, 956.4 million of them by the company, for $81.3 billion. That tops SpaceX's $75 billion.",
+   "ANT opened on Nasdaq at $111.50, 34% above the offer price, and closed at $97.17, up 17%, according to Latent Space.",
+   "With a $26 billion private placement of non-voting Class N shares, Anthropic's total raise is about $104.8 billion, TechCrunch reports. Nvidia and Google each bought $10 billion.",
+   "The seven co-founders each sold about 3.4 million shares, roughly $280 million apiece, and have pledged 80% of their remaining equity to philanthropy. The pledges are not legally binding.",
+   "The S-1 shows an $80.7 billion net loss in the first half, mostly from an accounting charge, on $16.3 billion in revenue, plus roughly $1.05 trillion or more in infrastructure commitments."
   ],
-  "context": "Anthropic's last private round in May valued it at $965 billion; it reportedly once aimed for $2 trillion. The listing follows SpaceX's June IPO and sets a reference point for OpenAI, which has not announced plans to go public. The scale of Anthropic's compute commitments makes the raise a test of whether investors will fund AI buildouts at this size.",
-  "whatsNext": "Watch how ANT trades as lockups expire over the next year and whether underwriters exercise their 30-day option for up to 147 million additional shares.",
+  "context": "Anthropic was valued at $965 billion in May after a $65 billion private round, and reportedly aimed for $2 trillion months ago. The listing is the biggest test yet of public-market appetite for frontier AI labs, and it sets a benchmark for rival OpenAI, which has not announced IPO plans.",
+  "whatsNext": "The IPO is expected to close on November 20, and underwriters hold a 30-day option on up to 147 million more shares.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share on November 18, selling 980 million Class A shares. That was above the initial range of $70 to $78 and above the 825 million shares first planned. Of the total, 956,351,354 shares were sold by Anthropic and about 23.6 million by selling stockholders. The offering raised $81.3 billion, surpassing SpaceX's $75 billion IPO from June as the largest on record by proceeds, TechCrunch reports.",
-    "Shares began trading on the Nasdaq Global Select Market on November 19 under the symbol ANT. The stock opened at $111.50, about 34% above the offer price, and closed at $97.17, up 17%, according to Latent Space. The offering is expected to close on November 20, and underwriters hold a 30-day option on up to 147 million more shares.",
-    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N shares in a private placement. Nvidia and Google bought $10 billion each; AMD, Broadcom, Micron, Microsoft and TSMC took the rest. TechCrunch puts total proceeds at $104.8 billion. Google ends up with 13.4% of the company and Amazon with 14.6%, together 28%, the company says.",
-    "The seven co-founders, including CEO Dario Amodei, each sold about 3.4 million shares, roughly $280 million each before fees and taxes. Anthropic's filings say each has pledged 80% of their equity to philanthropy, though the company describes the pledges as voluntary and revocable."
+    "Anthropic priced its initial public offering at $83 per share, above the initial range of $70 to $78, and began trading on the Nasdaq Global Select Market on November 19 under the ticker ANT. The offering totals 980 million shares, up from 825 million initially planned. Anthropic sold 956,351,354 of them and selling stockholders sold the rest. The $81.3 billion raised surpasses SpaceX's $75 billion IPO from June as the largest ever by proceeds.",
+    "The stock opened at $111.50, which is 34% above the offer price, and closed the day at $97.17, up about 17%, according to Latent Space. The IPO price implies a valuation of roughly $1.5 trillion fully diluted, TechCrunch reports. That is up from $965 billion in May but below the $2 trillion the company was reportedly seeking earlier.",
+    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N shares in a private placement to large tech companies. Nvidia and Google each took $10 billion, and AMD, Broadcom, Micron, Microsoft and TSMC split the rest. TechCrunch puts total proceeds at about $104.8 billion, possibly $117 billion if underwriters exercise their full option. Amazon holds 14.6% and Google 13.4%, which Anthropic says adds up to 28%."
    ],
    "whyItMatters": [
-    "The valuation of about $1.5 trillion is well above the $965 billion from May, though below the $2 trillion Anthropic was reportedly seeking earlier. Latent Space cited a figure near $2 trillion at the open, based on the first-day jump. The debut will shape expectations for private AI companies, including OpenAI, which has not announced an IPO.",
-    "The raise is large but so are the obligations. TechCrunch reports Anthropic needs about $70.7 billion for compute and infrastructure commitments in the next 12 months and $451.6 billion before the end of 2030, with hundreds of billions more conditional or unpriced. Latent Space relayed a Financial Times Unhedged calculation that a 20% return on roughly $1 trillion of compute would need about $602 billion in annual revenue. Anthropic reported $16.3 billion in first-half revenue.",
-    "The S-1 also carries unusual risk language. It lists possible catastrophic risks, including models showing self-preserving behaviors such as resisting shutdown, and says they may behave in unintended, misaligned or autonomous ways. Its governance structure keeps control with the founders; Latent Space says their Class F shares carry 50.1% of voting power on most matters."
+    "The S-1 shows how large the financial bet is. Anthropic reported an $80.7 billion net loss in the first half, mostly from an accounting charge that The Verge says does not reflect its business, against $16.3 billion in revenue. TechCrunch notes the company needs about $70.7 billion for compute and infrastructure commitments over the next 12 months and $451.6 billion by the end of 2030, with total disclosed commitments around $1.05 trillion to $1.08 trillion.",
+    "Skeptics are already doing the math. Latent Space cites a Financial Times Unhedged calculation that earning a 20% return on about $1 trillion of compute commitments would require roughly $602 billion in annual revenue. That figure exceeds Alphabet's and Apple's. The same newsletter points to a different reading of the filing: Anthropic raised about $140 billion and still holds about $132 billion, implying modest cash burn so far.",
+    "Governance is the other thread. The Verge reports that the structure keeps control with the founders rather than shareholders, and Latent Space says their Class F shares carry 50.1% of voting power on most matters. The S-1 also lists risks such as self-preserving behaviors in its models. For a public company, those disclosures now carry legal weight."
    ],
    "whatToWatch": [
-    "Latent Space expects lockup expiries to weigh on the stock as about a trillion dollars of shares are freed over the next year. Closing of the offering and any exercise of the underwriters' option are the nearer milestones.",
-    "Amodei said on the Nasdaq floor that Anthropic would pace AI training and deployment. How that pledge holds up against the capital demands of public markets is an open question."
+    "The IPO is expected to close on November 20, and underwriters have 30 days to buy up to 147 million additional shares. Latent Space expects lockup expiries to weigh on the stock as a large volume of shares becomes tradable over the next year.",
+    "Investors will also watch whether OpenAI, last reportedly valued well below Anthropic and without announced IPO plans, responds. Anthropic's trading performance is expected to shape expectations for private AI companies."
    ],
    "pullQuote": {
-    "text": "We will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control.",
+    "text": "We will not bend to either business nor political pressure.",
     "by": "Dario Amodei, Anthropic CEO"
    }
   }
@@ -2184,47 +2260,6 @@
    "pullQuote": {
     "text": "We’re building a national model for smart, sensible AI regulation, a model that puts communities above corporations and people above powerful technology",
     "by": "Kathy Hochul, New York governor"
-   }
-  }
- },
- "c1ad71a16e1f": {
-  "storyId": "c1ad71a16e1f",
-  "itemIds": [
-   "c1ad71a16e1f",
-   "c35e0b6aa8bd",
-   "36a01b353c30"
-  ],
-  "writtenAt": "2026-10-25T19:44:09.408Z",
-  "headline": "Moonshot launches Kimi K3.1 Pro, a 2.8T-parameter model with weights due Nov. 4",
-  "dek": "Moonshot's Kimi K3.1 Pro, a 2.8T-parameter mixture-of-experts model with 104B active parameters, ranks fourth on Artificial Analysis' index; the API is live and open weights are promised by November 4.",
-  "keyPoints": [
-   "Moonshot describes K3.1 Pro as multimodal, with 2.8 trillion total and 104 billion active parameters and a 1-million-token context window. Weights are promised by November 4, 2026.",
-   "Artificial Analysis ranks it fourth on its Intelligence Index at 55, behind Opus 5.5 (58) and Sonnet 5.5 and Muse Wonder Full (both 56).",
-   "Arena placed it eighth in Code Arena: WebDev at 1,692 points, up 37 points over Kimi K3. It also scored 64% on Artificial Analysis' Cyber Index.",
-   "A Highspeed API tier generates output 2–3× faster, per Moonshot; an official-account summary says it costs twice as much.",
-   "Reaction is mixed: concerns about inference cost, uneven results on some tasks and allegations of undisclosed paid promotion, which no one has corroborated."
-  ],
-  "context": "Kimi K3 was an open model of roughly 3 trillion parameters that Cerebras used as an example for multi-wafer deployment. K3.1 Pro is a post-trained version with much more reinforcement-learning compute, not a new base model. It matters because it would be one of the largest open-weight models to land near closed frontier systems on independent benchmarks.",
-  "whatsNext": "Moonshot has promised the open weights by November 4, 2026, which should show the license terms and the real hardware needed to run the model.",
-  "article": {
-   "whatHappened": [
-    "Moonshot AI launched Kimi K3.1 Pro, a multimodal mixture-of-experts model with 2.8 trillion total parameters, 104 billion active parameters and a 1-million-token context window. Standard and Highspeed versions are available on Kimi's website and app, Kimi Work, Kimi Code and the API. The weights were not released at launch.",
-    "Moonshot says Highspeed keeps the model's intelligence while generating output 2–3× faster. An official-account summary says it costs twice as much. The launch also includes Kimi Hosted Agents, a managed harness with a 24/7 execution environment for long-running work and multi-agent collaboration.",
-    "Moonshot describes K3.1 Pro as a post-trained version of Kimi K3 with substantially larger post-training compute, built on a reinforcement-learning stack tuned for hundreds of downstream domains. Little other research detail has been disclosed.",
-    "Independent results are strong. Artificial Analysis put the model fourth on its Intelligence Index with 55, behind Opus 5.5 at 58 and Sonnet 5.5 and Muse Wonder Full at 56. Arena ranked it eighth in Code Arena: WebDev. On Artificial Analysis' Cyber Index it scored 64%, second overall behind the trusted-access GPT-6 Sol Daybreak Blue at 69%."
-   ],
-   "whyItMatters": [
-    "Open-weight models have generally trailed closed ones, and Latent Space frames K3.1 Pro as narrowing that gap to about a month. The caveat is that the weights are not yet public. Artificial Analysis recorded them as unpublished, and the license, commercial-use terms and precision of the release are unknown. Calling it open source is premature.",
-    "Size is another limit on how open the model is in practice. Latent Space's illustrative arithmetic puts 2.8T parameters at about 5.6 TB at 16-bit or 1.4 TB at 4-bit, before overhead. Active parameters are only 104B, but a deployment must still hold the whole expert pool. Cerebras' write-up on serving Kimi K3 shows that this takes multiple wafers or accelerators, so the model is self-hostable only with serious infrastructure.",
-    "Reception is mixed. On the Interconnects podcast, Nathan Lambert said the post-training felt a little undercooked for so large a model, and Florian Brand noted some benchmarks that reward long exploration show weaker results. Brand also said the launch involved alleged undisclosed paid promotion; Lambert said one screenshot of press instructions surfaced and no one has corroborated it."
-   ],
-   "whatToWatch": [
-    "The main date is November 4, when Moonshot says the weights will be released. That will settle the license, checkpoint format and hardware needs. Artificial Analysis is also expected to publish a new version of its benchmarks soon, which could shift the rankings.",
-    "No smaller Flash model was announced, and some observers speculate that the Pro name implies one later. Moonshot has not said so."
-   ],
-   "pullQuote": {
-    "text": "In the past, the Kimi models always lived up to the expectations, but this release is kind of weird compared to the others.",
-    "by": "Florian Brand, Interconnects"
    }
   }
  },
@@ -2587,39 +2622,86 @@
    "537965d7de45",
    "012a59ac5286",
    "a43a2373bab7",
-   "f8cdc496b0bc"
+   "d5db552c0933",
+   "f8cdc496b0bc",
+   "b6222c5bc341",
+   "9134491ec669",
+   "72fd424c711a",
+   "bc426bbbebd7",
+   "d6a3974a1a3c"
   ],
-  "writtenAt": "2026-11-24T15:59:53.309Z",
+  "writtenAt": "2026-11-25T01:29:31.019Z",
   "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-  "dek": "Nvidia announced Thursday that Huang resigned after reports of a second alleged affair, with a subordinate, days after he admitted a separate relationship with a woman US intelligence reportedly links to China; Kress steps in.",
+  "dek": "Nvidia announced Thursday that co-founder Jensen Huang resigned after 33 years as CEO, following reports of two alleged affairs and a board reportedly ready to dismiss him; CFO Colette Kress steps in.",
   "keyPoints": [
-   "Nvidia announced Huang's resignation Thursday morning and named CFO Colette Kress interim CEO, per The Verge and Reuters; the WSJ had reported the board was preparing to remove him.",
-   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times says it has not seen the video said to exist.",
-   "Huang admitted on Sunday to an affair with Megaspeed executive Alice Huang, whom US intelligence reportedly considers a Chinese spy. Nvidia hired Wachtell, Lipton to investigate.",
-   "Nvidia stock fell more than 7% to about 8% in after-hours trading Wednesday and is down about 11% over five days.",
-   "Nvidia reportedly has no clear succession plan; Bloomberg says it was working with an outside firm to identify candidates."
+   "Nvidia announced Huang's resignation Thursday morning, with CFO Colette Kress appointed interim CEO; Reuters reports it took effect immediately.",
+   "The WSJ reported the board was preparing to dismiss Huang, possibly meeting as soon as Wednesday night, after a New York Times report of a second alleged affair.",
+   "The Times alleges the second affair was with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia had not responded to the report.",
+   "Nvidia stock fell about 7 to 8 percent in after-hours trading Wednesday and was down about 11 percent over five days, per TechCrunch.",
+   "Nvidia had no obvious successor or succession plan, TechCrunch says; Bloomberg reports an outside firm was identifying CEO candidates."
   ],
-  "context": "Huang co-founded Nvidia and has run it for 33 years, taking it from a graphics-chip maker to the supplier of the chips behind the AI boom. The company's value rests heavily on his personal role, and he has said he has about 60 direct reports and delegates little. Nvidia's chip business is also entangled with US-China export politics, which sharpens the stakes of the alleged spy connection.",
-  "whatsNext": "Watch how Kress handles the interim role, whether Nvidia names a permanent CEO, and what the Wachtell investigation finds.",
+  "context": "Huang co-founded Nvidia and led it as its chips became the backbone of the AI boom, making it one of the world's most valuable companies. The scandal began when Huang confirmed an extramarital relationship with a woman U.S. intelligence reportedly considers a Chinese spy. His departure leaves the company without a long-planned successor at a sensitive point for AI supply chains.",
+  "whatsNext": "Watch how Kress performs as interim CEO, whether the board names a permanent successor, and what the Wachtell Lipton investigation concludes.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, with immediate effect, according to The Verge and Reuters. Chief financial officer Colette Kress has been appointed interim CEO. The announcement followed a Wall Street Journal report on Wednesday that the board was preparing to dismiss Huang and could meet as soon as that night.",
-    "The immediate trigger was a New York Times report of a second alleged extramarital affair, this time with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times the pair were captured together at a San Jose hotel during the GTC developer conference in March. The Times has not seen the video. Both are married to other people.",
-    "The report came days after Huang admitted, on Sunday, to an affair with Alice Huang, a Megaspeed executive whom US intelligence reportedly regards as a Chinese spy. Nvidia then said it had retained former US attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The Verge noted that the board's move suggested it would not wait for those results.",
-    "Nvidia shares fell more than 7 percent in after-hours trading on Wednesday, by The Verge's count, and about 8 percent by TechCrunch's. TechCrunch put the decline over the past five days at about 11 percent. Nvidia did not immediately respond to The Verge's request for comment."
+    "Nvidia announced Thursday morning that Jensen Huang has resigned as chief executive, and that CFO Colette Kress has been appointed interim CEO. Reuters reports the resignation took effect immediately. Huang co-founded the company and had led it for 33 years.",
+    "The announcement followed a Wall Street Journal report on Wednesday that Nvidia's board was preparing to dismiss him, with a meeting possible as soon as Wednesday night. The Journal's report came after the New York Times reported a second alleged extramarital affair, this one with an executive who reports to Huang: Kimberly Powell, Nvidia's vice president of health care.",
+    "According to The Verge's summary of the Times report, two unnamed sources said Huang and Powell, who are both married to other people, were captured together at a San Jose hotel during Nvidia's GTC developer conference in March. The Times has not seen the video. An unnamed source told CNBC that rumors about the two had circulated at Nvidia for some time. Nvidia did not immediately respond to The Verge's request for comment on the report."
    ],
    "whyItMatters": [
-    "Nvidia is one of the most valuable companies in the world because it designs the chips that power the AI boom, and Huang has been its only chief executive. Losing him abruptly, with the company reportedly lacking an obvious successor or a succession plan, is a significant governance event for a firm at the center of the AI supply chain.",
-    "The structure of the company adds to the difficulty. TechCrunch notes Huang has said he has about 60 direct reports and delegates very little. Bloomberg reported that Nvidia was working with an outside firm to identify possible replacements, which implies the interim appointment of Kress may not settle the question of who leads the company.",
-    "The case also mixes personal conduct with national security. The first relationship involves a woman US intelligence reportedly considers a Chinese spy, and the second involves a direct report. The Verge reported that Huang hired crisis communications firm Heller last year, according to Wired. Elon Musk wrote on X late Wednesday that hiring Huang would be an honor, a sign that Huang's future outside Nvidia is already being discussed."
+    "The second report came days after Huang admitted to a separate affair with Alice Huang, a Megaspeed executive whom U.S. intelligence reportedly believes is a Chinese spy. Nvidia has said it hired former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to investigate. The Verge notes that the board's reported move suggests it would not wait for those results.",
+    "The stakes for the company are large. Nvidia designs the chips that power the AI boom, and its stock fell roughly 7 to 8 percent in after-hours trading Wednesday, and about 11 percent over the previous five days, according to TechCrunch. Huang is known for delegating little and has said he has about 60 direct reports, and TechCrunch says Nvidia had no obvious successor or succession plan.",
+    "Bloomberg reported that Nvidia was working with an outside firm to identify possible replacements. Elon Musk posted on X late Wednesday that hiring Huang would be an honor, though nothing in the coverage indicates Huang has any such plans."
    ],
    "whatToWatch": [
-    "The main open questions are whether Kress remains interim for long, how quickly the board names a permanent CEO, and whether the outside search Bloomberg described produces an external or internal candidate. The Wachtell investigation is also unresolved, and Nvidia has not said whether its findings will be made public.",
-    "The Verge page carries links to later stories, including one headlined \"Jensen Huang is back as Nvidia's CEO,\" suggesting the situation changed again after the resignation. The coverage provided does not explain how, so the sequence should be checked against those later reports."
+    "The central question is whether Kress remains interim or the board names a permanent CEO, and how quickly. The outside search Bloomberg described suggests the board is looking beyond internal options, though that is an inference from one report.",
+    "The legal investigation also remains open, as does Nvidia's response to the allegations about Powell, which it had not addressed in the coverage. Related headlines on The Verge's page point to later developments involving Huang, but the material provided does not describe them, so they are not covered here."
    ],
    "pullQuote": {
     "text": "would be an honor",
     "by": "Elon Musk"
+   }
+  }
+ },
+ "e213ef04a870": {
+  "storyId": "e213ef04a870",
+  "itemIds": [
+   "e213ef04a870",
+   "85ad47dc9b77",
+   "f0a03c4829a1",
+   "fdd5f51e8faf"
+  ],
+  "writtenAt": "2026-11-25T01:28:44.675Z",
+  "headline": "Tidal to ban fully AI-generated music from December 9, deleting millions of tracks",
+  "dek": "Tidal will remove fully AI-generated songs and reject an estimated 80,000 to 85,000 uploads a day, saying AI made up 43% of recent deliveries; AI-assisted music stays allowed.",
+  "keyPoints": [
+   "Tidal will ban fully AI-generated music on December 9, with an estimated 29 million songs deleted, according to Tidal music lead Robert Andersen (as reported by The Verge and TechCrunch).",
+   "Tidal expects to reject roughly 80,000 to 85,000 tracks per day; AI made up 43% of tracks delivered in the last 90 days.",
+   "Tidal says 96% of AI-generated songs get zero plays. Ars Technica puts the existing AI catalog at 27 million tracks, or 6.3% of the total.",
+   "Distributors may no longer deliver fully AI tracks. Tidal will use Ircam Amplify detection and metadata checks; songs made with AI assistance remain allowed.",
+   "Tidal began labeling and demonetizing fully AI tracks in mid-2026; the outlets differ on whether that was June or July."
+  ],
+  "context": "Streaming services have struggled with a flood of AI-generated uploads. Most, including Spotify, YouTube Music and Apple Music, have chosen labels or recommendation filters, while Deezer offers a filter toggle. Bandcamp banned AI music earlier this year, which makes Tidal one of the first major streaming platforms to follow with an outright ban.",
+  "whatsNext": "Watch how well Tidal's detection works once the ban takes effect on December 9, and whether larger rivals move beyond labeling.",
+  "article": {
+   "whatHappened": [
+    "Tidal will ban fully AI-generated music from its streaming service starting December 9. Robert Andersen, the company's music lead, announced the policy on X. He estimated that about 29 million songs will be deleted and that Tidal will reject 80,000 to 85,000 tracks per day once the rules apply.",
+    "Tidal says the scale of the problem drove the decision. AI-generated tracks made up 43% of those delivered to the platform over the last 90 days. Ars Technica reports that on November 6, new uploads hit 60% AI-generated. Tidal also says 96% of AI-generated songs receive zero plays.",
+    "Distributors will be barred from delivering fully AI tracks. Tidal says it will use the detection tool Ircam Amplify along with metadata checks to reject submissions generated solely with AI. Music made with the help of AI tools remains allowed, as long as AI is not the sole output.",
+    "The coverage differs on some figures. TechCrunch and Ars Technica both cite 27 million tracks, or 6.3% of the catalog, as currently AI-generated, while the 29 million figure is Tidal's estimate for deletions. Ars Technica also reports Tidal has removed about 66,000 tracks for impersonating artists."
+   ],
+   "whyItMatters": [
+    "Tidal's earlier approach was labeling and demonetizing fully AI tracks, and the company concluded it was not enough. Tidal argues that fully AI music diverts streams and royalties from human artists and confuses fans, and that at this volume authentic artists get buried.",
+    "The move sets Tidal apart from larger rivals. Spotify says it removed 50 million spam tracks from recommendations over the past year and added badges for artists using AI personas. YouTube Music labels AI music, Apple Music plans labels, and Deezer offers a filter. Bandcamp is the other platform that has banned it outright.",
+    "Enforcement is the open question. Ars Technica notes that Tidal has not said how it detects AI music, and that 94% of AI tracks on Tidal come from Suno, which added watermarking this year. It points out that locally run open models and unwatermarked services could evade detection, calling it a cat-and-mouse game. That is the outlet's assessment, not something Tidal has said."
+   ],
+   "whatToWatch": [
+    "The first test comes on December 9, when deletions and the distributor ban begin. TechCrunch reports the 29 million deletions should be complete by the end of the year.",
+    "Also worth watching is whether Tidal discloses its detection method and error rate, and whether Spotify, YouTube Music or Apple Music respond with stricter rules than labels."
+   ],
+   "pullQuote": {
+    "text": "We believe this will resonate with both artists and listeners alike, as 96% of all AI-generated songs receive zero plays at all",
+    "by": "Robert Andersen, Tidal music lead"
    }
   }
  },
