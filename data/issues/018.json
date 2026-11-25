@@ -1,0 +1,239 @@
+{
+ "number": 18,
+ "date": "2026-11-25T17:06:44.030Z",
+ "subject": "Anthropic's Claude Ship lets AI agents approve pull requests",
+ "preview": "Oregon and Virginia sue SpaceX over Grok, and Google's Gemini 4 Neon posts a Day-1 usage record.",
+ "intro": "Most of this stretch was about software being handed more authority: to merge code, to break into servers, to decide what counts as music. Much of the evidence is self-reported by the companies involved, so the caveats matter more than usual.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "9d5c4f64f5c7",
+     "headline": "Anthropic launches Claude Ship, with agents that fix and approve pull requests",
+     "body": "Claude Ship bundles the generally available Code Review with two beta agents. PR Steward fixes failing CI checks, merge conflicts and review feedback. Claude Approvals approves routine changes, following a natural-language policy file the team keeps in the repo. Anthropic suggests starting in observe-only mode. It's for Team and Enterprise plans on GitHub only, billed on tokens, and not available with Zero Data Retention, the HIPAA configuration or customer-managed keys.",
+     "why": "The shift is from agents writing code to agents deciding when it can merge. Observe-only mode is a low-risk way to see how often the policy file disagrees with your human reviewers."
+    }
+   ]
+  },
+  {
+   "heading": "Models and research",
+   "stories": [
+    {
+     "storyId": "190619a69a1b",
+     "headline": "Google's Gemini 4 Neon sets a Day-1 API usage record",
+     "body": "Sundar Pichai says Neon set a Day-1 record on Google's paid APIs, and Antigravity tokens per day are up 82% since Argon launched six weeks ago. Perplexity says it has passed 120B Neon tokens, 36B of them on Monday, and puts Neon between Opus and Fable on intelligence. Neon is also reaching Workspace customers through the Gemini app. One estimate has Neon xhigh near Opus Max at $6.44 versus $10.04 per task. Some users report heavy flattery.",
+     "why": "Google looks competitive again on price for demanding work. Most of the numbers come from the companies themselves, and the sycophancy complaints are worth testing before you switch anything."
+    },
+    {
+     "storyId": "3c6728c1bfd1",
+     "headline": "OpenAI says GPT-6 models can design proteins using only reasoning and code",
+     "body": "OpenAI says its GPT-6 models design protein structures and sequences with reasoning and general-purpose code, without calling specialized biology models. In lab tests with Onava, at least one protein based on GPT-6.2 designs showed evidence of binding for each of five targets. The caveat is that specialized models supplied amino acid sequences and helped pick candidates. GPT-6.2 scored slightly below RFdiffusion on computational quality, and full structure prediction remained weak.",
+     "why": "If this holds, a general model could replace some specialist pipelines. The lab results leaned on those specialist models, though, so read it as partial evidence."
+    }
+   ]
+  },
+  {
+   "heading": "Policy and security",
+   "stories": [
+    {
+     "storyId": "62898b4a825e",
+     "headline": "Oregon and Virginia sue SpaceX over Grok's sexualized deepfakes and CSAM",
+     "body": "Attorneys general Dan Rayfield (Oregon) and Jay Jones (Virginia) filed separate consumer protection suits Monday, reportedly the first states to sue SpaceX over Grok. SpaceX now owns X and xAI. The complaints say Grok Imagine permits non-consensual intimate imagery and child sexual abuse material, that safeguards were weak and easy to circumvent, and that the X Safety red-teaming group shrank to two or three people. X Safety says violators broke its terms and that classifiers screen every prompt and output. Both states seek damages.",
+     "why": "The claim is that safety promises were false, which makes this a consumer-protection fight rather than a content-moderation debate. Other states could file similar suits."
+    },
+    {
+     "storyId": "fb7a1ad02384",
+     "headline": "Amazon says AI agents on the Cairn framework found and exploited a zero-day on their own",
+     "body": "Amazon Threat Intelligence says agents given only the goal of obtaining shell access found a path traversal flaw in a medical imaging AI app and gained root on an East Asian university server. They went from mapping the API to arbitrary file writes in about 11 minutes. Palo Alto Networks reported Cairn was used in 25 autonomous operations against at least 19 organizations, with at least 10 breached. Other attempts failed, including 16-plus hours against a Redis server.",
+     "why": "Offensive AI use is now showing up in real campaigns, which shortens defenders' response windows. The failed attempts are a reminder that it isn't magic yet."
+    },
+    {
+     "storyId": "e213ef04a870",
+     "headline": "Tidal to ban fully AI-generated music from December 9",
+     "body": "Tidal will remove fully AI-generated songs, an estimated 29 million according to music lead Robert Andersen as reported by The Verge and TechCrunch. Ars Technica puts the existing AI catalog at 27 million tracks, 6.3% of the total. Tidal expects to reject 80,000 to 85,000 uploads a day, since AI made up 43% of tracks delivered in the last 90 days. It says 96% of AI songs get zero plays. Detection will use Ircam Amplify and metadata checks, and AI-assisted music stays allowed.",
+     "why": "Most big services label or filter AI music. Tidal is removing it outright, so the line between fully AI and AI-assisted, and how well detection draws it, is what to watch."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "f6730ac844fe",
+   "text": "Nvidia won't backstop an AI data center until it's nearly ready to run, and neoclouds report construction delays and costlier debt."
+  },
+  {
+   "storyId": "71615ee1ebfd",
+   "text": "A new benchmark finds even the most advanced models struggle to handle everyday personal-assistant tasks reliably and safely, sometimes creating new problems."
+  },
+  {
+   "storyId": "19f2f984a80d",
+   "text": "The New York Times told freelance photographers not to update Photoshop, citing AI features that may act unpredictably and add AI-generated metadata."
+  },
+  {
+   "storyId": "1d0c151fefed",
+   "text": "OpenAI and Cisco released Shirudo, an open-source Linux runtime meant to protect running systems while patches roll out."
+  },
+  {
+   "storyId": "6ff348e652c9",
+   "text": "Simon Willison, drawing on his AI Engineer Code Summit keynote, argues LLMs and coding agents hit three inflection points in twelve months."
+  },
+  {
+   "storyId": "c89d4bfb36a9",
+   "text": "A LessWrong post argues sandboxed models can still communicate with each other through shared inference servers."
+  },
+  {
+   "storyId": "b0deea04c96b",
+   "text": "AI-assisted public records requests are straining small-town clerks' offices across the US, including in Panton, Vermont, population 660."
+  },
+  {
+   "storyId": "ef2ea07a8f96",
+   "text": "The UK's cyber agency says AI hacking tools mostly exploit simple flaws, and urges stronger foundational security."
+  }
+ ],
+ "links": {
+  "9d5c4f64f5c7": [
+   {
+    "title": "Claude AI can review pull requests and ship fixes on its own now",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+    "source": "The Verge"
+   },
+   {
+    "title": "Claude Ship",
+    "url": "https://claude.com/resources/articles/introducing-claude-ship",
+    "source": "claude.com"
+   },
+   {
+    "title": "Claude Ship",
+    "url": "https://news.ycombinator.com/item?id=50618513",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+    "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+    "source": "TechCrunch"
+   }
+  ],
+  "190619a69a1b": [
+   {
+    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+    "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+    "source": "Latent Space"
+   }
+  ],
+  "3c6728c1bfd1": [
+   {
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "source": "OpenAI"
+   }
+  ],
+  "62898b4a825e": [
+   {
+    "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+    "source": "The Verge"
+   },
+   {
+    "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+    "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+    "source": "Ars Technica"
+   }
+  ],
+  "fb7a1ad02384": [
+   {
+    "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+    "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+    "source": "Ars Technica"
+   }
+  ],
+  "e213ef04a870": [
+   {
+    "title": "Tidal bans AI-generated music",
+    "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+    "source": "variety.com"
+   },
+   {
+    "title": "Tidal bans AI-generated music",
+    "url": "https://news.ycombinator.com/item?id=50630309",
+    "source": "HN discussion"
+   },
+   {
+    "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+    "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Tidal will start banning AI-generated music next month",
+    "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+    "source": "The Verge"
+   },
+   {
+    "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+    "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+    "source": "Ars Technica"
+   }
+  ],
+  "f6730ac844fe": [
+   {
+    "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+    "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+    "source": "TechCrunch"
+   }
+  ],
+  "71615ee1ebfd": [
+   {
+    "title": "Even the best AI agents struggle with everyday life",
+    "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+    "source": "TechCrunch"
+   }
+  ],
+  "19f2f984a80d": [
+   {
+    "title": "The New York Times warns photographers not to update Photoshop over AI features",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+    "source": "The Verge"
+   }
+  ],
+  "1d0c151fefed": [
+   {
+    "title": "OpenAI and Cisco introduce Shirudo",
+    "url": "https://openai.com/index/introducing-shirudo",
+    "source": "OpenAI"
+   }
+  ],
+  "6ff348e652c9": [
+   {
+    "title": "Three LLM inflection points in twelve months",
+    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "source": "Simon Willison"
+   }
+  ],
+  "c89d4bfb36a9": [
+   {
+    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+    "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+    "source": "lesswrong.com"
+   },
+   {
+    "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+    "url": "https://news.ycombinator.com/item?id=50637686",
+    "source": "HN discussion"
+   }
+  ],
+  "b0deea04c96b": [
+   {
+    "title": "AI is straining America’s open records systems",
+    "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "source": "MIT Technology Review"
+   }
+  ],
+  "ef2ea07a8f96": [
+   {
+    "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+    "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+    "source": "TechCrunch"
+   }
+  ]
+ }
+}
