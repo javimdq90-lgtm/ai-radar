@@ -19464,7 +19464,7 @@
    "Instagram"
   ],
   "imageCheckedAt": "2026-11-25T01:28:15.590Z",
-  "storyId": "03938f50d224"
+  "storyId": "3a8ea930f30c"
  },
  {
   "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
@@ -19483,7 +19483,7 @@
   "entities": [
    "Riemann hypothesis"
   ],
-  "storyId": "1479a2d5f115"
+  "storyId": "d8eff3477af0"
  },
  {
   "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
@@ -19813,7 +19813,7 @@
    "U.S. Commerce Department"
   ],
   "imageCheckedAt": "2026-11-25T01:28:15.620Z",
-  "storyId": "b06fe44e5c27"
+  "storyId": "ddaec7e99048"
  },
  {
   "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
@@ -19942,7 +19942,7 @@
    "OpenAI",
    "Anthropic"
   ],
-  "storyId": "d2963dce727b"
+  "storyId": "d8eff3477af0"
  },
  {
   "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
@@ -20113,5 +20113,573 @@
    "Tidal"
   ],
   "storyId": "e213ef04a870"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.32183",
+  "title": "ThinkMorph-SSL: Scaling Interleaved Multimodal Reasoning with Pretext Tasks",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "People reason with pictures as well as words. Interleaved multimodal reasoning gives models a similar way to solve problems by creating intermediate images and using them to guide further reasoning. Training models with this ability usually relies on task-specific demonstrations, which are difficult to collect. We introduce ThinkMorph-SSL, a two-stage training recipe that uses images themselves as a source of supervision. The first stage, pretext reasoning, converts visual pretext tasks, such as image colorization and denoising, into instruction-free interleaved traces. Models describe a corr…",
+  "score": 21,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32183.png",
+  "id": "00b1dbe5a0c2",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "ThinkMorph-SSL is a two-stage training recipe for interleaved multimodal reasoning that uses visual pretext tasks like colorization and denoising as supervision instead of task-specific demonstrations.",
+  "whyItMatters": "It could reduce the need for costly demonstration data for image-based reasoning.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ThinkMorph-SSL"
+  ],
+  "storyId": "00b1dbe5a0c2"
+ },
+ {
+  "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+  "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-25T04:29:07.000Z",
+  "snippet": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+  "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png",
+  "id": "190619a69a1b",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Google DeepMind's Gemini 4 Neon reportedly beats Astra and Fable on LiveBench and cuts runtime on Theo's TS Rust benchmark by 48.6%. The newsletter frames it as GDM's full return as a frontier lab.",
+  "whyItMatters": "A new frontier model from Google changes the competitive picture for builders choosing models.",
+  "category": "models",
+  "importance": 4,
+  "entities": [
+   "Google DeepMind",
+   "Gemini 4 Neon",
+   "LiveBench"
+  ],
+  "imageCheckedAt": "2026-11-25T15:45:34.998Z",
+  "storyId": "190619a69a1b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+  "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T14:10:18.000Z",
+  "snippet": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+  "id": "28175a595e60",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:34.695Z",
+  "summary": "Amazon and Meta are reportedly negotiating a deal to end Amazon's two-month block on Meta's Muse AI shopping agent.",
+  "whyItMatters": "It shows how large platforms are gatekeeping AI agents and may set precedent for agent access to e-commerce sites.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Amazon",
+   "Meta",
+   "Muse"
+  ],
+  "imageCheckedAt": "2026-11-25T15:45:34.744Z",
+  "storyId": "3a8ea930f30c"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.33010",
+  "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on RoboDojo that preserves task objectives, success criteria, and policy checkpoints while comparing a mirror-free baseline with single-mirror, dual-mirror, and mirrored-tabletop conditions. Across five policies spanning Vision-Language-Action models, World Action Models, and agen…",
+  "score": 28,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33010.png",
+  "id": "5bdf8def5044",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "RoboDojo-Mirror benchmark shows that placing mirrors in a scene breaks robot manipulation policies, including VLA models, world action models and agentic systems tested across five policies.",
+  "whyItMatters": "It exposes how brittle embodied policies are to simple visual distractions.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "RoboDojo-Mirror"
+  ],
+  "storyId": "5bdf8def5044"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.31358",
+  "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-22T19:00:00.000Z",
+  "snippet": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to visual feedback across images, vector graphics, webpages, and documents. A Nemotron-native harness coordinates planning and raster candidate selection, with targeted repair for ed…",
+  "score": 75,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31358.png",
+  "id": "5f2128d111ed",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "NVIDIA introduced Nemotron-Labs-VisualCreation, an agentic framework that represents raster images as discrete visual tokens and structured artifacts (vector graphics, webpages, documents) as programs. A shared render-and-feedback loop connects the two.",
+  "whyItMatters": "It shows a way to combine image generation with precise layout and text control.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "NVIDIA",
+   "Nemotron-Labs-VisualCreation"
+  ],
+  "storyId": "5f2128d111ed"
+ },
+ {
+  "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+  "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T04:03:33.000Z",
+  "score": 199,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50638320",
+  "id": "5f305d13d7da",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "A user reports Gemini refused to provide the lyrics to Twinkle Twinkle Little Star, a public domain song.",
+  "whyItMatters": "An example of over-cautious copyright guardrails.",
+  "category": "products",
+  "importance": 1,
+  "entities": [
+   "Gemini",
+   "Google"
+  ],
+  "storyId": "5f305d13d7da"
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=50634426",
+  "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T20:44:15.000Z",
+  "score": 96,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50634426",
+  "id": "6014a04f08fa",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Versine, a YC F26 startup, launched an MCP server that lets AI agents send and receive money.",
+  "whyItMatters": "Agent payments are an emerging infrastructure layer, though this is an early startup.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Versine",
+   "Y Combinator",
+   "MCP"
+  ],
+  "storyId": "6014a04f08fa"
+ },
+ {
+  "url": "https://gpu-demo-gallery.pages.dev/",
+  "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T04:31:48.000Z",
+  "score": 250,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50638503",
+  "id": "65185b2b6e7e",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "irrelevant": true
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.32736",
+  "title": "Qwen-Image-HD: Autoregressive Diffusion for High Definition Image Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "Fine-tuning a generator on a complete high-resolution canvas requires long image sequences and substantial computation, yet local regions can still exhibit unnatural repetitive stripes when training resources are limited. We introduce Qwen-Image-HD, which adapts Qwen-Image 2.0 to high-resolution synthesis through local training and blockwise autoregressive generation. Each prediction covers a target tile at 1K scale, conditioned on high-resolution upper and left neighbors and a compressed historical thumbnail. These conditions provide adjacent fine-scale structures and an overview of the scen…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32736.png",
+  "id": "6ab67ac03b40",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Qwen-Image-HD adapts Qwen-Image 2.0 to high-resolution generation via local training and blockwise autoregressive tile generation. Each 1K tile is conditioned on high-res neighbors and a compressed thumbnail of the scene.",
+  "whyItMatters": "It offers a cheaper route to high-resolution output without training on full canvases.",
+  "category": "models",
+  "importance": 3,
+  "entities": [
+   "Qwen-Image-HD",
+   "Qwen-Image 2.0",
+   "Alibaba"
+  ],
+  "storyId": "6ab67ac03b40"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.30634",
+  "title": "Rewirable Circuits in Transformers with Loom Attention",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-22T19:00:00.000Z",
+  "snippet": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-stream architecture that splits control and content between the vector and matrix streams. Across model …",
+  "score": 83,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30634.png",
+  "id": "6d4a47c2eb45",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Loom attention lets a Transformer rewire its circuits at every token by mixing vertical attention over earlier heads' outputs with ordinary attention over tokens. The resulting LoomFormer uses a second, matrix-valued residual stream built on gated linear attention.",
+  "whyItMatters": "An architecture idea worth watching, but it is unproven at scale.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "LoomFormer"
+  ],
+  "storyId": "6d4a47c2eb45"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.30962",
+  "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-22T19:00:00.000Z",
+  "snippet": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout evidence. It disentangles three objectives: benchmark evolution expands evaluation scope through cohort-calibrated difficulty and coverage growth; diagnostic evolution increases resolutio…",
+  "score": 42,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.30962.png",
+  "id": "84084d872d88",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "CUA-SEE is a closed-loop evaluation environment for computer-use agents that co-evolves tasks and executable verifiers from rollout evidence. It aims to avoid the fixed difficulty ceilings of static benchmarks.",
+  "whyItMatters": "Static benchmarks saturate quickly, so evolving evals matter for judging agents.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "CUA-SEE"
+  ],
+  "storyId": "84084d872d88"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.32649",
+  "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations. We present ICLWorld, an online benchmark that evaluates the ICL of agents from digital to physical worlds, covering computer use and robot use, together with UIverse, a unified harness th…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32649.png",
+  "id": "853993777f31",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "ICLWorld is an online benchmark of in-context learning for agents across computer use and robot use, with a unified harness called UIverse. It avoids offline, text-only and contamination-prone setups.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ICLWorld",
+   "UIverse"
+  ],
+  "storyId": "853993777f31"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.32554",
+  "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context. Pretrained 3D experts provide spatially grounded region proposals, while 2D experts provide semantic cues for identifying object parts. The challenge is to integrate these complementary capabilities into a framework that can both produce meaningful part segmentations and progressively refine them. We present PartAgent, a training-free agentic framework for 3D part segmentation built upon two complementary modules: (i) Structural-Semantic Expert Integration combine…",
+  "score": 32,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32554.png",
+  "id": "91c690722323",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "PartAgent is a training-free agentic framework for 3D part segmentation. It combines 3D experts' region proposals with 2D semantic cues and refines results in a closed loop.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "PartAgent"
+  ],
+  "storyId": "91c690722323"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.31205",
+  "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-22T19:00:00.000Z",
+  "snippet": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso and chassis, enabling asynchronous reasoning and execution. However, different robot components often have physical dependencies that require coordination. To address this challenge, ACAP introduces a…",
+  "score": 60,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.31205.png",
+  "id": "95b9273cc849",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "ACAP organizes a robot as a team of persistent asynchronous coding agents, each controlling a part such as an arm with its gripper or the torso and chassis. A coordination mechanism handles physical dependencies between components.",
+  "whyItMatters": "It could cut latency in LLM-driven robot control.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ACAP"
+  ],
+  "storyId": "95b9273cc849"
+ },
+ {
+  "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
+  "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T19:40:43.000Z",
+  "score": 87,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50633424",
+  "id": "9b60f3c3da87",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "A write-up of lessons from porting a Cayley graph solver from CUDA and Jax to TorchTPU.",
+  "whyItMatters": "Practical notes for people targeting TPUs from PyTorch.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "TorchTPU",
+   "CUDA",
+   "JAX"
+  ],
+  "storyId": "9b60f3c3da87"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+  "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T13:00:00.000Z",
+  "snippet": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249127237.jpg?resize=1200,800",
+  "id": "9edbb62c9bcf",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:34.695Z",
+  "summary": "Nvidia CEO Jensen Huang still faces questions from Congress and Nvidia's board over his romantic relationship with an alleged chip smuggler tied to Megaspeed.",
+  "whyItMatters": "Export-control enforcement and governance questions at Nvidia could affect chip supply and scrutiny of AI hardware flows to China.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Jensen Huang",
+   "Nvidia",
+   "Megaspeed"
+  ],
+  "imageCheckedAt": "2026-11-25T15:45:34.748Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+  "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T00:54:49.000Z",
+  "score": 339,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50637056",
+  "id": "a58808d0bc10",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "PenGPT is a generative transformer that produces handwriting and sketches.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "PenGPT"
+  ],
+  "storyId": "a58808d0bc10"
+ },
+ {
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+  "title": "Has vibe coding made open source the new normal for synths?",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-25T13:00:00.000Z",
+  "snippet": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last several weeks, as it's become clear that no piece of music gear is safe from Claude and a subreddit full of curious tinkerers, companies have begun making more and more of their devices open source. The biggest name to decide \"if you can't beat 'em, join 'em\" is inMusic, the parent company of Akai, M…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/vibe_coding_synths_.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "a9ba02207a16",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Vibe-coding agents like Claude and tools such as Reverse Engineer Anything are letting tinkerers reverse engineer music gear, pushing companies including inMusic (Akai) to open source devices. Roland has stayed silent.",
+  "whyItMatters": "A concrete case of AI coding agents changing how hardware makers handle openness.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "inMusic",
+   "Akai",
+   "Claude",
+   "Roland"
+  ],
+  "storyId": "a9ba02207a16"
+ },
+ {
+  "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+  "title": "AI is straining America’s open records systems",
+  "sourceId": "mit-tr",
+  "publishedAt": "2026-11-25T10:00:00.000Z",
+  "snippet": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/loc-sales2a.jpg?resize=1200,600",
+  "id": "b0deea04c96b",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "AI-generated and AI-assisted public records requests are straining small-town clerks' offices across the US, as in Panton, Vermont, population 660.",
+  "whyItMatters": "It shows a real-world burden on public institutions from automated requests.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [],
+  "imageCheckedAt": "2026-11-25T15:45:34.767Z",
+  "storyId": "b0deea04c96b"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+  "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-25T14:12:33.000Z",
+  "snippet": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, Amazon is concerned that it could lose advertising revenue by allowing Muse on its site, since it depends on actual humans seeing ads across its online marketplace. It's also reportedly worried about the quality of the product search results that Muse wil…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+  "id": "c4937692d5d7",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:34.695Z",
+  "summary": "Per Fortune, Amazon has held talks about letting Meta's Muse AI agent shop on its marketplace, with discussions centered on which products Muse recommends and the impact on Amazon's ad revenue. Amazon is worried about lost ad revenue, since ads depend on humans seeing them, and about the quality of Muse's search results.",
+  "whyItMatters": "Agentic shopping threatens the ad-driven model of marketplaces, so access terms will shape how AI agents can operate on the web.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Amazon",
+   "Meta",
+   "Muse",
+   "Fortune"
+  ],
+  "storyId": "3a8ea930f30c"
+ },
+ {
+  "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+  "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T02:34:21.000Z",
+  "score": 358,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50637686",
+  "id": "c89d4bfb36a9",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "A LessWrong post argues that sandboxed models can still communicate with each other through shared inference servers.",
+  "whyItMatters": "It points to a possible side channel that undermines isolation assumptions in AI safety setups.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [],
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2",
+  "imageCheckedAt": "2026-11-25T15:45:34.915Z",
+  "storyId": "c89d4bfb36a9"
+ },
+ {
+  "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+  "title": "An Indic Voice Agent with CUGA",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-25T10:22:09.000Z",
+  "id": "d0a3a7f662b5",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Hugging Face published a guide to building an Indic-language voice agent with CUGA.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "CUGA"
+  ],
+  "storyId": "d0a3a7f662b5"
+ },
+ {
+  "url": "https://www.proofatlas.ai/open-problems/",
+  "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T03:01:36.000Z",
+  "score": 84,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50637871",
+  "id": "dc30af1becdb",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "ProofAtlas published a ranking of top open mathematics problems ordered by LLM-assessed importance.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "ProofAtlas"
+  ],
+  "storyId": "dc30af1becdb"
+ },
+ {
+  "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
+  "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T09:39:50.000Z",
+  "score": 81,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50625888",
+  "id": "e0ad3efb80c2",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "An essay argues that Jevons paradox won't rescue AI economics: cheaper tokens driving more usage may not generate enough revenue to pay for massive capex.",
+  "whyItMatters": "It questions the financial sustainability of AI infrastructure spending.",
+  "category": "business",
+  "importance": 2,
+  "entities": [],
+  "storyId": "e0ad3efb80c2"
+ },
+ {
+  "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+  "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T03:28:06.000Z",
+  "score": 113,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50638070",
+  "id": "ebaf1c30665d",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "A developer served Qwen on AWS Lambda as an experiment and found it cost far more than it earned, about 80x negative profit.",
+  "whyItMatters": "A cautionary data point on serverless for LLM inference.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "Qwen",
+   "AWS Lambda"
+  ],
+  "storyId": "ebaf1c30665d"
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+  "title": "AI may soon change what it means to be a theoretical physicist",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-25T12:00:28.000Z",
+  "snippet": "Frontier AI is already solving problems that once took top physicists a full day.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/physics-and-ai-1152x648.jpg",
+  "id": "f5bb5e8a9ad3",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Ars Technica reports that frontier AI is already solving problems that once took top physicists a full day, and may change what being a theoretical physicist means.",
+  "whyItMatters": "It signals AI reaching into expert scientific work.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "storyId": "f5bb5e8a9ad3"
+ },
+ {
+  "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+  "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T15:41:43.000Z",
+  "snippet": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Anita-Verma-Lallian-2.jpg?w=1024",
+  "id": "f6730ac844fe",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:34.695Z",
+  "summary": "Nvidia won't backstop an AI data center until it's nearly ready to run, while neoclouds report construction delays and costlier debt. Developers are being told that land, power and a finished building matter more than a pitch deck.",
+  "whyItMatters": "Tighter financing and build delays could constrain GPU cloud capacity and raise compute costs for builders.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "neoclouds",
+   "Anita Verma-Lallian"
+  ],
+  "imageCheckedAt": "2026-11-25T15:45:34.743Z",
+  "storyId": "f6730ac844fe"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.32884",
+  "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot teach the agent when to commit, because a lucky guess receives the same reward as an answer backed by evidence. During training, however, the simulator can compute the exact posterior over the answer at every step and tell whether the evidence is already enough. We propose Reinfo…",
+  "score": 79,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.32884.png",
+  "id": "f717d7d51a9f",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Researchers find that long-horizon AI agents often commit to an answer while their stated belief still lists several candidates. They propose reinforcement learning with verifiable beliefs, using the simulator's exact posterior to reward agents for acting only when evidence suffices.",
+  "whyItMatters": "It targets premature answering, a common agent failure mode.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "f717d7d51a9f"
+ },
+ {
+  "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+  "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T03:47:42.000Z",
+  "score": 186,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50638220",
+  "id": "fa8097569f7c",
+  "fetchedAt": "2026-11-25T15:45:06.080Z",
+  "enrichedAt": "2026-11-25T15:45:28.861Z",
+  "summary": "Marginalia Search's developer posts a wide-ranging update touching money, C++, Rust and AI.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "Marginalia Search"
+  ],
+  "storyId": "fa8097569f7c"
  }
 ]
