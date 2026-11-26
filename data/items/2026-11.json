@@ -18540,7 +18540,7 @@
    "Anthropic"
   ],
   "imageCheckedAt": "2026-11-24T03:22:47.133Z",
-  "storyId": "1ee9f5994a81"
+  "storyId": "b397f013e77f"
  },
  {
   "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
@@ -20681,5 +20681,359 @@
    "Marginalia Search"
   ],
   "storyId": "fa8097569f7c"
+ },
+ {
+  "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+  "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-25T17:44:51.000Z",
+  "snippet": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency has granted for a full \"constellation\" of AI satellites. The FCC's approval requires SpaceX to deploy at least one satellite by 2033, and meet the 1 million satellite milestone by 2040. The FCC also deferred SpaceX's request to dispose of satellites located abov…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "1343f7f3b435",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "The FCC authorized SpaceX to deploy up to 1 million AI-chip satellites under its 'Starmind' initiative, with one satellite required by 2033 and the full constellation by 2040. It is the first approval of a full AI satellite constellation.",
+  "whyItMatters": "Orbital data centers move from concept to regulatory approval, though the timelines are long.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "SpaceX",
+   "FCC",
+   "Starmind",
+   "Elon Musk"
+  ],
+  "storyId": "1343f7f3b435"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+  "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T19:44:24.000Z",
+  "snippet": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+  "id": "372ac8913322",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "Anthropic CEO Dario Amodei called rivals' accusations that he favors surrendering human control to AI 'absurd', as leading labs increasingly automate their own research and model development.",
+  "whyItMatters": "Highlights the growing debate over recursive AI R&D automation and human oversight.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Dario Amodei",
+   "Anthropic"
+  ],
+  "imageCheckedAt": "2026-11-26T01:02:33.301Z",
+  "storyId": "372ac8913322"
+ },
+ {
+  "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+  "title": "Where scientists draw the line on AI agents",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-25T18:52:55.000Z",
+  "id": "37b5c9ba9326",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "A Hugging Face post explores where scientists draw the line on using AI agents in research.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "37b5c9ba9326"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+  "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T20:03:27.000Z",
+  "snippet": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+  "id": "4c44ce30146b",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "OpenAI is merging ChatGPT's Chat and Work experiences under a single usage meter, so heavy users may hit limits sooner.",
+  "whyItMatters": "Changes effective usage limits for power users and signals consolidation of ChatGPT's product surface.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "ChatGPT"
+  ],
+  "imageCheckedAt": "2026-11-26T01:02:33.298Z",
+  "storyId": "4c44ce30146b"
+ },
+ {
+  "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+  "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+  "sourceId": "ars",
+  "publishedAt": "2026-11-25T16:47:14.000Z",
+  "snippet": "Militaries have many reasons to target data centers and the cloud in wartime.",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
+  "id": "7b7cb44d5be8",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "An Ars Technica live event recap argues militaries have many reasons to target data centers and the cloud in wartime, so such attacks will continue.",
+  "whyItMatters": "AI compute infrastructure is increasingly a geopolitical and physical-security concern.",
+  "category": "policy",
+  "importance": 2,
+  "entities": [
+   "Ars Technica"
+  ],
+  "storyId": "7b7cb44d5be8"
+ },
+ {
+  "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+  "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-25T21:51:26.000Z",
+  "snippet": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come to market. First spotted by Patentlyze, the patent - which was filed last May and published last week - describes how My Channel would use a person's demographic data and viewing history to create its own prompts that would then be fed into a…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&strip=all&crop=2.859375,3.7218027238494,93.788122558594,91.658221639303",
+  "id": "7bb959aaf52e",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "A Google patent filing called My Channel describes feeds of personalized AI-generated videos and ads built from user data. The patent was rejected, but Google could appeal or resubmit.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google"
+  ],
+  "storyId": "7bb959aaf52e"
+ },
+ {
+  "url": "https://www.anthropic.com/research/working-with-ai",
+  "title": "Working with AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T21:07:38.000Z",
+  "score": 88,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50634734",
+  "id": "86a92119212e",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "Anthropic published a piece titled 'Working with AI' on how people collaborate with AI; no details were provided in the snippet.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Anthropic"
+  ],
+  "storyId": "86a92119212e"
+ },
+ {
+  "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+  "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-24T06:22:36.000Z",
+  "score": 219,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50624446",
+  "id": "8ee50572f79b",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "A developer used LLMs to port the Rockbox open-source firmware to an undocumented $9 AliExpress 'YP3' MP3 player, reverse-engineering hardware with no documentation.",
+  "whyItMatters": "A concrete example of LLMs helping with low-level embedded reverse engineering that was previously impractical for hobbyists.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Rockbox",
+   "YP3"
+  ],
+  "storyId": "8ee50572f79b"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+  "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T17:35:58.000Z",
+  "snippet": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+  "id": "92419877312e",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "State attorneys general are challenging Character.AI's bankruptcy sale plan, which includes private chat data from over 21 million U.S. accounts, 2.1 million of them minors.",
+  "whyItMatters": "Sets a test case for whether user chat data can be sold as an asset in AI company bankruptcies.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "Character.AI"
+  ],
+  "imageCheckedAt": "2026-11-26T01:02:33.281Z",
+  "storyId": "92419877312e"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+  "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T18:11:46.000Z",
+  "snippet": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
+  "id": "c2211ba4f6cd",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "New York banned AI chatbot toys for five years, following Common Sense Media research that found safety failures including inappropriate content and emotional development risks.",
+  "whyItMatters": "Signals state-level regulation of AI products aimed at children that other states may copy.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "New York",
+   "Common Sense Media"
+  ],
+  "imageCheckedAt": "2026-11-26T01:02:33.300Z",
+  "storyId": "c2211ba4f6cd"
+ },
+ {
+  "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+  "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-25T22:23:41.000Z",
+  "snippet": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9012dd90-9472-4478-9577-604433c3a9e1/ai-math-2026.png?t=1795644634",
+  "id": "c7c801f91e25",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "Latent Space's AINews roundup says AI math results are arriving faster than they can be read, from Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+  "whyItMatters": "Indicates AI-driven mathematical discovery is accelerating past human verification capacity.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Latent Space"
+  ],
+  "storyId": "c7c801f91e25"
+ },
+ {
+  "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+  "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-25T22:28:01.000Z",
+  "snippet": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
+  "image": "https://i.ytimg.com/vi/Qe9d9dWyED0/maxresdefault.jpg",
+  "id": "c7e5de5fee49",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "OpenAI's Thariq Shihipar argued at AI Engineer CODE that AI makes software cheap to produce in volume while leaving time to polish one thing, demoing live edits to a fighting game.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Thariq Shihipar",
+   "OpenAI"
+  ],
+  "storyId": "c7e5de5fee49"
+ },
+ {
+  "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-25T00:00:00.000Z",
+  "id": "d8d6777ecf09",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "A Hugging Face post details optimizing inference speed for the Inkling 2 Mini model on a single RTX PRO 6000 GPU.",
+  "whyItMatters": "Practical tuning notes for running a model efficiently on a single workstation GPU.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "Inkling 2 Mini",
+   "Nvidia"
+  ],
+  "storyId": "d8d6777ecf09"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+  "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T19:54:57.000Z",
+  "snippet": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+  "id": "e7d7a2ca3b37",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "TechCrunch reports Nvidia CEO Jensen Huang broke the company's code of conduct, which may have lasting consequences among employees.",
+  "whyItMatters": "Governance at the leading AI chip supplier matters to the whole ecosystem.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Nvidia",
+   "Jensen Huang"
+  ],
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "sourceId": "deepmind",
+  "publishedAt": "2026-11-24T13:07:53.000Z",
+  "snippet": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+  "image": "https://lh3.googleusercontent.com/CtAfS_JWygw2R9cuDNty3xd0S4WFRzVew1vtNDiPaN1ZOGa88hCwTiCLxtgCtpSFER2t3jFO-moRkPnQYPjXziNgMvKHVc0wkOkzBTdGRoOYL3Ld=w528-h297-n-nu-rw-lo",
+  "id": "f14a6f6dfd19",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "Google DeepMind released Mass Spec Skills for its Antigravity agent platform, letting scientists interpret tandem mass spectra to identify molecules.",
+  "whyItMatters": "Shows Antigravity's skills mechanism being extended into domain-specific scientific workflows.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Google DeepMind",
+   "Google Antigravity"
+  ],
+  "storyId": "f14a6f6dfd19"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+  "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-25T22:44:32.000Z",
+  "snippet": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+  "id": "f27e0de9d097",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "S&P is considering downgrading Nvidia's credit rating to AA- over governance and 'key man' risks.",
+  "whyItMatters": "Even Nvidia's financial standing is being questioned over leadership concentration.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Nvidia",
+   "S&P"
+  ],
+  "imageCheckedAt": "2026-11-26T01:02:33.296Z",
+  "storyId": "ddaec7e99048"
+ },
+ {
+  "url": "https://github.com/lsernau/grh-lean",
+  "title": "Much shorter version of GRH Lean verification from Anthropic",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T21:48:10.000Z",
+  "score": 237,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
+  "id": "f63f4cad1468",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "A much shorter Lean formal verification of the GRH result, building on Anthropic's version, was published on GitHub.",
+  "whyItMatters": "Suggests AI-generated formal proofs are being rapidly refined by humans.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Anthropic",
+   "Lean"
+  ],
+  "storyId": "d8eff3477af0"
+ },
+ {
+  "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+  "title": "Nothing offers a full look at its AI earbuds and charging case",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-25T16:00:59.000Z",
+  "snippet": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you can use to record your own voice. There's also a new \"Record\" button that can record and transcribe your conversations. In a post on X, Nothing CEO Carl Pei says the button will allow you to record calls through the earbuds, and meetings through the case as a \"first st…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "fec44873dc65",
+  "fetchedAt": "2026-11-26T01:02:15.123Z",
+  "enrichedAt": "2026-11-26T01:02:33.233Z",
+  "summary": "Nothing detailed its Ear Note AI earbuds, releasing December 8th; the buds record calls and the mic-equipped case records, transcribes and summarizes conversations via a new Record button.",
+  "whyItMatters": "Another consumer AI recording wearable entering a crowded category.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Nothing",
+   "Carl Pei",
+   "Ear Note"
+  ],
+  "storyId": "932119e2ecf9"
  }
 ]

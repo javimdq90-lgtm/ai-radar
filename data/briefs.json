@@ -334,38 +334,6 @@
    ]
   }
  },
- "1758535ac6be": {
-  "storyId": "1758535ac6be",
-  "itemIds": [
-   "1758535ac6be"
-  ],
-  "writtenAt": "2026-10-26T21:40:56.187Z",
-  "headline": "OpenAI introduces GPT-6.1 Terra, a model it says brings computer use to everyone",
-  "dek": "OpenAI announced GPT-6.1 Terra, which it describes as bringing fast and capable computer use to everyone; the only coverage so far is the company's own announcement, with no details on pricing or rollout.",
-  "keyPoints": [
-   "OpenAI introduced a model called GPT-6.1 Terra.",
-   "OpenAI says the model brings fast and capable computer use to everyone.",
-   "The available coverage is a one-line summary from OpenAI; it gives no benchmarks, pricing, or availability details."
-  ],
-  "context": "Computer use, where a model operates software by viewing a screen and issuing clicks and keystrokes, has been a focus for several AI labs since Anthropic introduced it in 2024, and OpenAI has since offered its own agent products. The claim that it is available to everyone, if borne out, would signal a move from limited previews to broad access.",
-  "article": {
-   "whatHappened": [
-    "OpenAI has introduced GPT-6.1 Terra, a new model. In its announcement, titled \"Introducing GPT-6.1 Terra,\" the company says the model brings fast and capable computer use to everyone.",
-    "The coverage available so far consists only of that short description from OpenAI. It does not specify how the model works, which products or plans will include it, what it costs, or how its performance compares with earlier OpenAI models or with rivals."
-   ],
-   "whyItMatters": [
-    "Computer use refers to a model's ability to operate software the way a person would, by reading a screen and acting on it. Several AI developers have pursued the capability, and speed and reliability have been the main limits on how useful it is in practice. OpenAI's description emphasizes both qualities, saying the model is fast and capable.",
-    "The phrase \"to everyone\" suggests broad availability, though the material provided does not say whether that means free users, paid subscribers, or developers using an API. Until OpenAI publishes those details, it is unclear how widely the feature will actually reach, and the performance claims remain unverified by outside testing."
-   ],
-   "whatToWatch": [
-    "Readers should look for OpenAI's full announcement and any accompanying documentation covering availability, pricing, safety measures for agents that act on a user's computer, and benchmark results. Independent evaluations of the model's computer-use accuracy and speed will be the test of the company's claims."
-   ],
-   "pullQuote": {
-    "text": "brings fast and capable computer use to everyone",
-    "by": "OpenAI"
-   }
-  }
- },
  "190619a69a1b": {
   "storyId": "190619a69a1b",
   "itemIds": [
@@ -1984,36 +1952,38 @@
    "99527486f11f",
    "a2b0b71c8120",
    "914bb147d0bf",
+   "1ee9f5994a81",
    "e628c0b2649e",
    "204a3b5c5043",
    "9824edc2f485"
   ],
-  "writtenAt": "2026-11-25T01:29:16.014Z",
-  "headline": "Anthropic goes public at $83 a share, raising $81.3 billion in the largest IPO ever",
-  "dek": "Anthropic priced 980 million shares at $83, above its range, raising $81.3 billion at a roughly $1.5 trillion valuation; ANT opened at $111.50 on Nasdaq and closed at $97.17, per Latent Space.",
+  "writtenAt": "2026-11-26T01:03:02.733Z",
+  "headline": "Anthropic goes public on Nasdaq after record $81.3 billion IPO priced at $83",
+  "dek": "Anthropic priced 980 million shares at $83, above its $70–$78 range, raising $81.3 billion; ANT opened at $111.50 on Nasdaq on November 19 and closed at $97.17, per Latent Space.",
   "keyPoints": [
-   "Anthropic priced its IPO at $83, above the $70 to $78 range, selling 980 million shares, 956.4 million of them by the company, for $81.3 billion. That tops SpaceX's $75 billion.",
-   "ANT opened on Nasdaq at $111.50, 34% above the offer price, and closed at $97.17, up 17%, according to Latent Space.",
-   "With a $26 billion private placement of non-voting Class N shares, Anthropic's total raise is about $104.8 billion, TechCrunch reports. Nvidia and Google each bought $10 billion.",
-   "The seven co-founders each sold about 3.4 million shares, roughly $280 million apiece, and have pledged 80% of their remaining equity to philanthropy. The pledges are not legally binding.",
-   "The S-1 shows an $80.7 billion net loss in the first half, mostly from an accounting charge, on $16.3 billion in revenue, plus roughly $1.05 trillion or more in infrastructure commitments."
+   "Anthropic priced its IPO at $83 a share, above the $70–$78 range, selling 980 million shares for $81.3 billion, topping SpaceX's $75 billion record, TechCrunch reports.",
+   "ANT opened at $111.50, up 34% from the IPO price, and closed at $97.17, according to The Verge and Latent Space.",
+   "A $26 billion private placement of non-voting Class N shares to Nvidia, Google, AMD, Broadcom, Micron, Microsoft and TSMC lifts total proceeds to about $104.8 billion.",
+   "The S-1 shows an $80.7 billion first-half net loss, mostly an accounting charge, on $16.3 billion in revenue, and about $1.05 trillion in infrastructure commitments.",
+   "Amazon holds 14.6% and Google 13.4%; each of the seven co-founders sold about 3.4 million shares, roughly $280 million apiece."
   ],
-  "context": "Anthropic was valued at $965 billion in May after a $65 billion private round, and reportedly aimed for $2 trillion months ago. The listing is the biggest test yet of public-market appetite for frontier AI labs, and it sets a benchmark for rival OpenAI, which has not announced IPO plans.",
-  "whatsNext": "The IPO is expected to close on November 20, and underwriters hold a 30-day option on up to 147 million more shares.",
+  "context": "Anthropic last raised privately in May, at a $965 billion valuation, and was reportedly aiming for $2 trillion at one point. Its listing follows SpaceX's June IPO and is expected to set a benchmark for private AI companies such as OpenAI, which has not announced IPO plans.",
+  "whatsNext": "Watch how ANT trades after its first day, the 30-day underwriter option for up to 147 million more shares, and lockup expiries over the next year.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share, above the initial range of $70 to $78, and began trading on the Nasdaq Global Select Market on November 19 under the ticker ANT. The offering totals 980 million shares, up from 825 million initially planned. Anthropic sold 956,351,354 of them and selling stockholders sold the rest. The $81.3 billion raised surpasses SpaceX's $75 billion IPO from June as the largest ever by proceeds.",
-    "The stock opened at $111.50, which is 34% above the offer price, and closed the day at $97.17, up about 17%, according to Latent Space. The IPO price implies a valuation of roughly $1.5 trillion fully diluted, TechCrunch reports. That is up from $965 billion in May but below the $2 trillion the company was reportedly seeking earlier.",
-    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N shares in a private placement to large tech companies. Nvidia and Google each took $10 billion, and AMD, Broadcom, Micron, Microsoft and TSMC split the rest. TechCrunch puts total proceeds at about $104.8 billion, possibly $117 billion if underwriters exercise their full option. Amazon holds 14.6% and Google 13.4%, which Anthropic says adds up to 28%."
+    "Anthropic priced its initial public offering at $83 per share on November 18, above an initial range of $70 to $78. The company's announcement says the offering totals 980 million Class A shares: 956.4 million sold by Anthropic and about 23.6 million by selling stockholders. TechCrunch puts proceeds at $81.3 billion, making it the largest IPO ever by amount raised and surpassing SpaceX's $75 billion.",
+    "Shares began trading on the Nasdaq Global Select Market on November 19 under the ticker ANT. The Verge reports they opened at $111.50. Latent Space reports the stock closed at $97.17, up 17% from the offering price, and drifted lower in after-hours trading. The offering is expected to close on November 20, and underwriters hold a 30-day option on up to 147 million more shares.",
+    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N stock in a private placement. TechCrunch says Nvidia and Google each bought $10 billion, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. Counting that, Anthropic raised about $104.8 billion, or up to $117 billion if the underwriters exercise their option.",
+    "At $83, TechCrunch values Anthropic at about $1.5 trillion fully diluted, up from $965 billion in May but below a reported $2 trillion target. Each of the seven co-founders, including CEO Dario Amodei, sold about 3.4 million shares, roughly $280 million apiece before fees and taxes."
    ],
    "whyItMatters": [
-    "The S-1 shows how large the financial bet is. Anthropic reported an $80.7 billion net loss in the first half, mostly from an accounting charge that The Verge says does not reflect its business, against $16.3 billion in revenue. TechCrunch notes the company needs about $70.7 billion for compute and infrastructure commitments over the next 12 months and $451.6 billion by the end of 2030, with total disclosed commitments around $1.05 trillion to $1.08 trillion.",
-    "Skeptics are already doing the math. Latent Space cites a Financial Times Unhedged calculation that earning a 20% return on about $1 trillion of compute commitments would require roughly $602 billion in annual revenue. That figure exceeds Alphabet's and Apple's. The same newsletter points to a different reading of the filing: Anthropic raised about $140 billion and still holds about $132 billion, implying modest cash burn so far.",
-    "Governance is the other thread. The Verge reports that the structure keeps control with the founders rather than shareholders, and Latent Space says their Class F shares carry 50.1% of voting power on most matters. The S-1 also lists risks such as self-preserving behaviors in its models. For a public company, those disclosures now carry legal weight."
+    "The listing is a test of investor appetite for AI. TechCrunch notes it came despite market jitters after Nvidia CEO Jensen Huang's departure, and that Anthropic's performance is expected to shape expectations for private AI companies, including rival OpenAI.",
+    "The S-1 shows the scale of the bet. Anthropic reported an $80.7 billion net loss in the first half, mostly from an accounting charge that The Verge says does not reflect the business, against $16.3 billion in revenue. TechCrunch reports it needs about $70.7 billion for compute commitments in the next 12 months and $451.6 billion by the end of 2030, with total infrastructure commitments of roughly $1.05 to $1.08 trillion. Skeptics cited by Latent Space, including FT Unhedged, argue that earning a 20% return on that spending would require about $602 billion in annual revenue.",
+    "Control and safety are part of the pitch. The Verge says the governance structure keeps control with the founders rather than shareholders, and Latent Space says their Class F shares carry 50.1% of voting power on most matters. The filing also lists catastrophic risks, including models resisting shutdown. Amazon and Google together hold 28%, per the company."
    ],
    "whatToWatch": [
-    "The IPO is expected to close on November 20, and underwriters have 30 days to buy up to 147 million additional shares. Latent Space expects lockup expiries to weigh on the stock as a large volume of shares becomes tradable over the next year.",
-    "Investors will also watch whether OpenAI, last reportedly valued well below Anthropic and without announced IPO plans, responds. Anthropic's trading performance is expected to shape expectations for private AI companies."
+    "Trading will show whether the first-day gain holds. Latent Space expects lockup expiries to weigh on the stock as about a trillion dollars of shares become tradable over the next year. The underwriters' 30-day option on additional shares could raise proceeds further.",
+    "Another question is whether OpenAI follows with its own listing plans. It has announced none, according to TechCrunch."
    ],
    "pullQuote": {
     "text": "We will not bend to either business nor political pressure.",
@@ -2494,38 +2464,40 @@
   "itemIds": [
    "d8eff3477af0",
    "d2963dce727b",
-   "1479a2d5f115"
+   "1479a2d5f115",
+   "f63f4cad1468"
   ],
-  "writtenAt": "2026-11-25T15:45:58.644Z",
-  "headline": "AI-assisted proof of the Riemann hypothesis appears to hold up, Ars Technica reports",
-  "dek": "Anthropic-based mathematician Levent Alpöge used Claude to produce a Lean-verified proof of the Riemann hypothesis; mathematicians are still digesting it and unsure what it means for the field.",
+  "writtenAt": "2026-11-26T01:02:48.135Z",
+  "headline": "Anthropic mathematician posts Claude-assisted Lean proof of the Riemann hypothesis",
+  "dek": "Levent Alpöge, who works at Anthropic, says he used Claude to prove the Riemann hypothesis. A Lean formalization passed machine checks, but no mathematician has yet read it through.",
   "keyPoints": [
-   "Levent Alpöge, who works at Anthropic, announced a proof of the Riemann hypothesis generated with Claude, according to Ars Technica.",
-   "The proof comes in two forms: a Lean formalization that allows rapid verification, and a description of the underlying logic.",
-   "Ars says it is too early to judge the proof, as mathematicians have barely begun working through the Lean version.",
-   "A GitHub repository separately claims OpenAI proved a VP vs VNP separation, with a Lean proof; the coverage gives no independent verification.",
-   "A separate project, pequalnp.com, says it is using a swarm of AI agents to attempt P vs. NP."
+   "Levent Alpöge, a mathematician working at Anthropic, announced a Claude-assisted proof of the Riemann hypothesis, per Ars Technica; its significance for mathematics is still being assessed.",
+   "The proof comes in two forms: a Lean formalization that allows rapid verification, and a written description of the underlying logic.",
+   "A GitHub repository from Anthropic colleagues covers the Riemann and Generalized Riemann Hypotheses in about 76,000 lines of Lean, down from a 300,000-line version.",
+   "The repository says the proof has passed only machine checks: no mathematician has read it through, and no paper accompanies it.",
+   "Separate GitHub and web projects claim an OpenAI VP vs VNP result and an AI agent swarm attacking P vs. NP; neither is verified in the coverage."
   ],
-  "context": "The Riemann hypothesis, formulated in the mid-1800s, bears on the distribution of prime numbers and is widely seen as one of mathematics' most important open problems. AI systems have recently produced other significant math results, and Lean has made checking AI-generated proofs far easier. Mathematicians have raised concerns in an open letter that proofs without human insight may add little to the field.",
-  "whatsNext": "Mathematicians will keep working through the Lean formalization and the written logic to judge what the proof reveals beyond its validity.",
+  "context": "The Riemann hypothesis, posed by Bernhard Riemann in the mid-1800s, concerns the distribution of prime numbers and has stood as one of mathematics' most important open problems. LLM-based systems have recently contributed to several major mathematical results, and mathematicians have voiced concern about this in an open letter. The Lean language lets proofs be checked by machine, which removes much of the hallucination risk.",
+  "whatsNext": "Watch for mathematicians' own reading of the Lean code and Alpöge's written argument, which will determine whether the proof offers new ideas beyond its machine-checked validity.",
   "article": {
    "whatHappened": [
-    "Ars Technica reports that a mathematician has used AI to help prove the Riemann hypothesis, one of the biggest unsolved problems in mathematics. The proof was announced by Levent Alpöge, who has been working at Anthropic and used Anthropic's Claude to generate it. Ars says the proof appears to hold up.",
-    "According to Ars, Alpöge had a longstanding interest in the problem and had insights about connecting different areas of math. The process seems to have started with the AI handling a simplified toy version of those insights, then being directed to expand the results to the full hypothesis. His announcement is written in a florid style, and Ars says he has hinted that parts were meant in jest.",
-    "The proof exists in two forms. One is a rigorous version written in the Lean programming language, which allows fast verification that the proof is valid. The other is a description of the logic behind it. Ars notes that mathematicians have barely begun sifting through the Lean version, so little can yet be said about the proof itself."
+    "Levent Alpöge, a mathematician working at Anthropic, has announced a proof of the Riemann hypothesis produced with the help of Anthropic's Claude model. Ars Technica reports that the announcement is written in a florid style and that Alpöge has apparently hinted some of it was meant in jest. The proof's significance is still being digested.",
+    "According to Ars Technica, the process began with Claude working on a simplified toy version of Alpöge's insights about connecting different areas of mathematics. He then directed it to expand the findings to the full scope of the hypothesis. The proof comes in two forms: a Lean formalization, which allows fast verification, and a description of the logic behind it.",
+    "A GitHub repository from an Anthropic employee, working with colleagues and Claude, offers a shorter Lean version. It proves the Riemann hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions using only standard axioms. The readable edition runs to about 300,000 lines; a compact edition covering the same five theorems is about 76,000 lines.",
+    "The repository is blunt about the status of the work: it has passed machine checks only, no mathematician has read it through, and no paper comes with it. A build takes one to two hours on 12 cores with 24 GB of memory."
    ],
    "whyItMatters": [
-    "The Riemann hypothesis dates from the mid-1800s and has implications for the distribution of prime numbers, giving it significance from number theory to cryptography. Ars says the result follows other major math breakthroughs enabled or entirely produced by large language model systems, leaving the field in a state of upset.",
-    "Ars argues that Lean removed a major obstacle. AI models hallucinate, so a written proof would normally need extensive human validation. Asking the model to emit Lean code makes verification straightforward. The article also says AI has so far solved problems humans already considered significant, with no sign it can identify important open problems on its own.",
-    "The worry for mathematicians, as Ars frames it, is that proofs often matter less than the process of finding them, which produces new tools and connections. Neural networks are opaque, and their explanations of their own reasoning may be invented, so an AI-generated proof may offer few new ideas by itself. Mathematicians have voiced these fears in a formal open letter.",
-    "Other material in the coverage points to similar efforts. A GitHub repository claims OpenAI proved a separation of the complexity classes VP and VNP, including a Lean proof, and a project on pequalnp.com says it is using a swarm of AI agents on P vs. NP. Neither claim is independently verified in the material provided."
+    "The Riemann hypothesis has implications for the distribution of prime numbers, giving it significance from number theory to cryptography. A valid proof would settle a problem open for more than 150 years, and it follows other major results enabled or fully produced by language-model systems.",
+    "Ars Technica argues the Lean formalization removes a key obstacle, since verification no longer depends on humans checking AI output prone to hallucination. The harder question is what mathematics gains. Often the process of building a proof, which produces new tools and connections, matters more than the result, and AI models cannot reliably explain their own reasoning.",
+    "Ars notes that AI has so far solved problems humans already deemed important, with no sign it can pick significant open problems itself. Other claims circulating, including a GitHub post asserting an OpenAI VP vs VNP separation and an agent-swarm effort on P vs. NP, come without independent verification in the material available."
    ],
    "whatToWatch": [
-    "The main open question is whether the Lean-verified proof can be turned into human-understandable ideas. Mathematicians are only starting to go through it, and the written account of its logic may determine whether the field gains more than a validated result."
+    "The main open question is whether mathematicians reading the Lean code and Alpöge's account can extract new ideas from it. Ars Technica says they have barely begun sifting through the logic as expressed in Lean.",
+    "Also worth watching is whether a human-readable paper appears, since the repository states none exists, and how the mathematics community responds given its open letter on AI."
    ],
    "pullQuote": {
-    "text": "the proof itself was often less important for math than the process of generating it.",
-    "by": "Ars Technica"
+    "text": "No mathematician has read it through, and no paper comes with it.",
+    "by": "Anthropic GitHub repository README"
    }
   }
  },
@@ -2670,38 +2642,41 @@
    "72fd424c711a",
    "bc426bbbebd7",
    "d6a3974a1a3c",
-   "9edbb62c9bcf"
+   "9edbb62c9bcf",
+   "e7d7a2ca3b37",
+   "f27e0de9d097"
   ],
-  "writtenAt": "2026-11-25T15:46:10.226Z",
-  "headline": "Nvidia's Jensen Huang resigns as CEO; CFO Colette Kress named interim chief",
-  "dek": "Huang stepped down with immediate effect after reports that the board was preparing to fire him over a second alleged affair, days after he admitted a separate relationship with an alleged Chinese spy.",
+  "writtenAt": "2026-11-26T01:03:13.731Z",
+  "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+  "dek": "Nvidia announced Huang's resignation Thursday after reports that its board was preparing to dismiss him over two alleged affairs, including one with an executive who reports to him; CFO Colette Kress is interim CEO.",
   "keyPoints": [
-   "Nvidia announced Huang's resignation Thursday morning and named CFO Colette Kress interim CEO, after the WSJ reported the board could meet as soon as Wednesday night to decide his future.",
-   "The NYT reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. The Times says it has not seen the alleged video.",
-   "Huang admitted on Sunday to an affair with a woman U.S. intelligence reportedly believes is a Chinese spy; The Verge names her as Megaspeed executive Alice Huang.",
-   "Nvidia stock fell about 8% in after-hours trading Wednesday and is down about 11% over five days, per TechCrunch.",
-   "Nvidia reportedly had no obvious successor; Bloomberg says it was working with an outside firm to identify CEO candidates."
+   "Nvidia announced Huang's resignation on Thursday morning, naming CFO Colette Kress interim CEO. Reuters reports it took effect immediately.",
+   "The Wall Street Journal reported the board would meet as soon as Wednesday night to decide Huang's future, after 33 years leading the company.",
+   "The New York Times reported a second alleged affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times they were captured together at a San Jose hotel.",
+   "Huang had admitted on Sunday to a relationship with Megaspeed executive Alice Huang, described as a woman U.S. intelligence purports to be a Chinese spy.",
+   "Nvidia stock fell 7% to 8% in after-hours trading Wednesday and is down about 11% over five days, according to the coverage."
   ],
-  "context": "Huang co-founded Nvidia and has led it for 33 years, taking it to the center of the AI chip boom and making it one of the world's most valuable companies. He is known for delegating little, with about 60 direct reports by his own account. The abrupt exit of a founder-CEO with no announced succession plan raises questions about leadership at a company that supplies much of the AI industry.",
-  "whatsNext": "Watch whether Kress stays interim CEO or Nvidia names a permanent successor, and what the Wachtell Lipton investigation into the matter finds.",
+  "context": "Nvidia designs the chips that power the AI boom and is one of the world's most valuable companies, and Huang co-founded it and has led it throughout. The company has reportedly had no obvious successor or succession plan, and Huang has said he has about 60 direct reports, which makes the leadership change unusually consequential.",
+  "whatsNext": "Watch who the board names permanent CEO, since Bloomberg reports Nvidia is working with an outside firm to identify candidates, and what the Wachtell-led investigation finds.",
   "article": {
    "whatHappened": [
-    "Nvidia announced on Thursday morning that Jensen Huang has resigned as chief executive, effective immediately. The company said CFO Colette Kress has been appointed interim CEO. The announcement came hours after the Wall Street Journal reported that the board was preparing to dismiss Huang and could meet as soon as Wednesday night.",
-    "The board's reported move followed a New York Times report of a second alleged extramarital affair, this one with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Two unnamed sources told the Times that Huang and Powell, who are both married to other people, were captured together at a San Jose hotel during the GTC developer conference in March. The Times said it has not seen the video.",
-    "The reports came days after Huang admitted on Sunday to an affair with a woman U.S. intelligence reportedly believes is a Chinese spy. The Verge identifies her as Alice Huang, a Megaspeed executive. Nvidia stock fell more than 7 percent in after-hours trading on Wednesday, according to The Verge, and about 8 percent according to TechCrunch."
+    "Nvidia announced on Thursday morning that Jensen Huang has resigned as CEO, and that CFO Colette Kress has been appointed interim CEO. Reuters reports the resignation took effect immediately. The announcement followed reports on Wednesday that the board was preparing to dismiss him.",
+    "The Wall Street Journal reported that the board would meet as soon as Wednesday night to decide Huang's future. The New York Times separately reported a second alleged extramarital affair, with Kimberly Powell, Nvidia's vice president of health care, who reports to Huang. Nvidia did not immediately respond to The Verge's request for comment.",
+    "According to the Times, two unnamed sources said Huang and Powell, who are both married to other people, were captured together at a San Jose hotel during Nvidia's GTC developer conference in March. The Times said it has not seen the video. An unnamed source told CNBC that rumors about the pair had circulated at Nvidia for some time.",
+    "Nvidia's stock fell more than 7 percent in after-hours trading Wednesday, according to The Verge, and about 8 percent according to TechCrunch, which adds that it is down about 11 percent over five days."
    ],
    "whyItMatters": [
-    "Huang has run Nvidia for 33 years, and the company designs the chips that power much of the AI boom. TechCrunch reports that Nvidia had no obvious successor or succession plan, and that Huang has said he has about 60 direct reports and delegates very little. Bloomberg reported that the company was working with an outside firm to identify possible replacements, which suggests the board was planning for a change before it was announced.",
-    "The timing also suggests the board chose not to wait for the results of its own inquiry. Nvidia has said it retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle the matter after the weekend's disclosures. The Verge notes that the reported plan to act suggests the board would not wait for those results.",
-    "Elon Musk, identified by TechCrunch as CEO of SpaceXSI, posted on X late Wednesday that hiring Huang \"would be an honor.\" That is a public comment, not a reported job offer."
+    "The reports came days after Huang confirmed a relationship with Alice Huang, an executive at Megaspeed, whom U.S. intelligence is said to consider a Chinese spy. Nvidia has said it retained former U.S. attorney Joon H. Kim and his firm, Wachtell, Lipton, Rosen & Katz, to handle an investigation. The Verge notes that the board's reported move suggests it would not wait for those results.",
+    "The departure of a founder who has run the company for 33 years is a significant risk for a business central to AI infrastructure. TechCrunch notes that Huang delegates very little, has said he has about 60 direct reports, and that Nvidia has had no obvious successor or succession plan. Bloomberg reports the company is working with an outside firm to identify possible replacements.",
+    "Elon Musk posted on X late Wednesday that hiring Huang would be an honor, according to TechCrunch."
    ],
    "whatToWatch": [
-    "The main open questions are how long Kress remains interim CEO and who the board picks as a permanent successor, including whether it chooses an outside candidate. Investors will also watch whether the stock, down about 11 percent over five days, steadies under new leadership.",
-    "The outcome of the Wachtell Lipton investigation and any further disclosures about the Powell allegations are also unresolved. Nvidia did not immediately respond to The Verge's request for comment on the Times report."
+    "The main open question is whether Kress remains interim or the board names a permanent CEO, and how quickly. Bloomberg's report of an outside search suggests a candidate review is already under way.",
+    "The Wachtell-led investigation is also unresolved. Neither the Times' account of the alleged hotel video nor the claims about Alice Huang have been independently verified in the coverage, and Nvidia has not commented on the Powell allegation in the material available."
    ],
    "pullQuote": {
-    "text": "would be an honor",
-    "by": "Elon Musk, CEO of SpaceXSI"
+    "text": "Nvidia’s board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
+    "by": "The Verge"
    }
   }
  },
