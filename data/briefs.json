@@ -1503,6 +1503,45 @@
    }
   }
  },
+ "92419877312e": {
+  "storyId": "92419877312e",
+  "itemIds": [
+   "92419877312e",
+   "d73563559186"
+  ],
+  "writtenAt": "2026-11-26T15:26:53.429Z",
+  "headline": "42 state AGs move to block Character.AI's sale of user chat histories",
+  "dek": "A bipartisan group of 42 attorneys general is opposing the bankruptcy auction of chats from over 21 million US accounts, 2.1 million of them minors, with bidding set for December 1.",
+  "keyPoints": [
+   "42 state attorneys general are intervening in Character.AI's Chapter 11 case to stop the sale of chat histories from more than 21 million US accounts, including over 2.1 million minors.",
+   "The only disclosed bidder, Smirks and Pangs Acquisition LLC, was formed in Delaware on November 13, 2026, and was picked as base bid the next day; the auction is set for December 1.",
+   "The AGs say buyers need not honor Character.AI's privacy policy, users cannot delete their data, and the data could be resold without disclosure.",
+   "California AG Rob Bonta says the company promised consumers their data would not be sold and that doing so is illegal under federal and California law.",
+   "Chatbot laws in California, Colorado, New York and Connecticut take effect January 1, 2027, and the sale could trigger further violations, the AGs say."
+  ],
+  "context": "Character.AI filed for Chapter 11 in October after years of lawsuits over child safety, including one involving a 14-year-old's suicide, and pressure from Disney. Its co-founders Noam Shazeer and Daniel De Freitas had earlier returned to Google under a non-exclusive license deal. Disney is separately buying assets and hiring staff, a deal state AGs also opposed.",
+  "whatsNext": "The bankruptcy court must decide on the sale, with the auction scheduled for December 1 and the AGs asking the court to reject it.",
+  "article": {
+   "whatHappened": [
+    "A coalition of 42 state attorneys general is trying to stop Character.AI from selling user data as part of its Chapter 11 bankruptcy. In near-identical press releases, the AGs say the company plans to auction the private chat histories of more than 21 million US accounts, over 2.1 million of them registered to minors.",
+    "According to TechCrunch, the sale would also include other personal data such as IP addresses. The AGs say Character.AI previously told consumers their personal information would not be sold. Character.AI has said in a blog post that user information would remain protected under its privacy policy.",
+    "Only one bidder has been disclosed: Smirks and Pangs Acquisition LLC, a Delaware company set up on November 13, 2026. California Attorney General Rob Bonta noted that Character.AI chose it as the base bid the following day, with the auction scheduled for December 1. The buyer's plans for the chats are unclear, and The Verge notes the company has no listed parent or investors."
+   ],
+   "whyItMatters": [
+    "The AGs' central objection is the absence of safeguards. They say the buyer would not have to honor Character.AI's privacy policy, users would have no way to delete their data, and there would be no limit on what the buyer does with it, including reselling it without disclosure. They also claim Character.AI has given the court less information about safety and legal issues than it gave bidders.",
+    "The case follows the Disney transaction, in which Disney bought assets, including a proposed $20 million licensing deal for intellectual property but not user chats, and hired CEO Karandeep Anand and much of the staff. A similar but not identical group of AGs opposed that deal, which has not received final court approval.",
+    "Timing adds pressure. Chatbot laws in California, Colorado, New York and Connecticut take effect January 1, 2027, and the AGs say a completed sale could trigger further violations. Connecticut AG William Tong framed the objection as an attempt to use bankruptcy to escape liability and consumer protections."
+   ],
+   "whatToWatch": [
+    "The bankruptcy court's handling of the AGs' objections is the next step, ahead of the December 1 auction. It is unclear whether other bidders will emerge or whether the sale could be restructured with privacy protections.",
+    "The Disney deal also still awaits final court approval."
+   ],
+   "pullQuote": {
+    "text": "bankruptcy should not be used to sidestep these consumer protections",
+    "by": "Rob Bonta, California Attorney General"
+   }
+  }
+ },
  "99d632aaa416": {
   "storyId": "99d632aaa416",
   "itemIds": [
@@ -2465,38 +2504,38 @@
    "d8eff3477af0",
    "d2963dce727b",
    "1479a2d5f115",
-   "f63f4cad1468"
+   "f63f4cad1468",
+   "c7c801f91e25"
   ],
-  "writtenAt": "2026-11-26T01:02:48.135Z",
-  "headline": "Anthropic mathematician posts Claude-assisted Lean proof of the Riemann hypothesis",
-  "dek": "Levent Alpöge, who works at Anthropic, says he used Claude to prove the Riemann hypothesis. A Lean formalization passed machine checks, but no mathematician has yet read it through.",
+  "writtenAt": "2026-11-26T15:27:04.990Z",
+  "headline": "AI-assisted Riemann hypothesis proof appears to pass Lean checks, but no mathematician has read it",
+  "dek": "Levent Alpöge, who works at Anthropic, used Claude to produce a Lean-verified proof of the Riemann hypothesis; machine checks pass, while mathematicians are still digesting it and a wave of other AI math claims lands.",
   "keyPoints": [
-   "Levent Alpöge, a mathematician working at Anthropic, announced a Claude-assisted proof of the Riemann hypothesis, per Ars Technica; its significance for mathematics is still being assessed.",
-   "The proof comes in two forms: a Lean formalization that allows rapid verification, and a written description of the underlying logic.",
-   "A GitHub repository from Anthropic colleagues covers the Riemann and Generalized Riemann Hypotheses in about 76,000 lines of Lean, down from a 300,000-line version.",
-   "The repository says the proof has passed only machine checks: no mathematician has read it through, and no paper accompanies it.",
-   "Separate GitHub and web projects claim an OpenAI VP vs VNP result and an AI agent swarm attacking P vs. NP; neither is verified in the coverage."
+   "Levent Alpöge, working at Anthropic, announced a proof of the Riemann hypothesis generated with Claude, released in a Lean-verified form and as a description of the logic.",
+   "An Anthropic GitHub repo offers shorter Lean versions, about 300,000 lines readable and 76,000 compact, also covering the generalized hypothesis for Dirichlet L-functions.",
+   "The repo says the proof has passed machine checks only: no mathematician has read it through, and no paper comes with it.",
+   "Ars Technica says mathematicians are still digesting the proof and have barely started working through the Lean logic.",
+   "Other claims are arriving at once, including VP ≠ VNP proofs from OpenAI and Anthropic and an OpenAI claim that the matrix multiplication exponent is exactly 9/4."
   ],
-  "context": "The Riemann hypothesis, posed by Bernhard Riemann in the mid-1800s, concerns the distribution of prime numbers and has stood as one of mathematics' most important open problems. LLM-based systems have recently contributed to several major mathematical results, and mathematicians have voiced concern about this in an open letter. The Lean language lets proofs be checked by machine, which removes much of the hallucination risk.",
-  "whatsNext": "Watch for mathematicians' own reading of the Lean code and Alpöge's written argument, which will determine whether the proof offers new ideas beyond its machine-checked validity.",
+  "context": "The Riemann hypothesis, posed by Bernhard Riemann in the 1850s, concerns the distribution of prime numbers and is widely seen as one of the most important open problems in mathematics. Lean lets proofs be checked by machine, which removes much of the burden of verifying AI output. Mathematicians have worried, including in an open letter, that proofs without human reasoning add little understanding.",
+  "whatsNext": "Watch for human mathematicians' reading of the Lean proof and for a written explanation of its logic, since none yet accompanies it.",
   "article": {
    "whatHappened": [
-    "Levent Alpöge, a mathematician working at Anthropic, has announced a proof of the Riemann hypothesis produced with the help of Anthropic's Claude model. Ars Technica reports that the announcement is written in a florid style and that Alpöge has apparently hinted some of it was meant in jest. The proof's significance is still being digested.",
-    "According to Ars Technica, the process began with Claude working on a simplified toy version of Alpöge's insights about connecting different areas of mathematics. He then directed it to expand the findings to the full scope of the hypothesis. The proof comes in two forms: a Lean formalization, which allows fast verification, and a description of the logic behind it.",
-    "A GitHub repository from an Anthropic employee, working with colleagues and Claude, offers a shorter Lean version. It proves the Riemann hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions using only standard axioms. The readable edition runs to about 300,000 lines; a compact edition covering the same five theorems is about 76,000 lines.",
-    "The repository is blunt about the status of the work: it has passed machine checks only, no mathematician has read it through, and no paper comes with it. A build takes one to two hours on 12 cores with 24 GB of memory."
+    "Levent Alpöge, a mathematician working at Anthropic, announced a proof of the Riemann hypothesis generated with the company's Claude model. Ars Technica reports that the proof comes in two forms: a rigorous description in the Lean programming language, which allows rapid verification, and a description of the underlying logic.",
+    "An Anthropic repository on GitHub carries a Lean 4 proof of the Riemann hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions. It is built on Mathlib and uses only three standard axioms. A readable edition runs to about 300,000 lines, and a compact edition of the same five theorems to about 76,000.",
+    "The repository states the limits plainly: the proof has passed machine checks only, no mathematician has read it through, and no paper comes with it. Ars Technica says the process appears to have started with Claude handling a simplified toy form of Alpöge's insights, then expanding it to the full hypothesis."
    ],
    "whyItMatters": [
-    "The Riemann hypothesis has implications for the distribution of prime numbers, giving it significance from number theory to cryptography. A valid proof would settle a problem open for more than 150 years, and it follows other major results enabled or fully produced by language-model systems.",
-    "Ars Technica argues the Lean formalization removes a key obstacle, since verification no longer depends on humans checking AI output prone to hallucination. The harder question is what mathematics gains. Often the process of building a proof, which produces new tools and connections, matters more than the result, and AI models cannot reliably explain their own reasoning.",
-    "Ars notes that AI has so far solved problems humans already deemed important, with no sign it can pick significant open problems itself. Other claims circulating, including a GitHub post asserting an OpenAI VP vs VNP separation and an agent-swarm effort on P vs. NP, come without independent verification in the material available."
+    "The Riemann hypothesis has implications for the distribution of primes, giving it significance from number theory to cryptography. If the Lean proof holds, one of mathematics' best-known open problems would be settled with heavy AI involvement, following other results enabled or produced by language-model systems.",
+    "Ars Technica argues the harder question is what mathematics gains. Historically the process of building a proof, with new tools and links between fields, mattered as much as the result. AI systems are opaque, and asking one to explain its reasoning may produce plausible but invented accounts, so a verified proof may offer little new insight on its own.",
+    "The result arrives amid a surge. Latent Space's roundup lists VP ≠ VNP proofs from OpenAI and Anthropic, an OpenAI claim that the matrix multiplication exponent is exactly 9/4, and Google papers on unnamed Gemini 4 models. Many are unreviewed; the roundup notes OpenAI's log records three October withdrawals after a sign error. It also reports that a Claude-generated analysis argues RSA and ECC are unaffected, and calls a rumor of polynomial-time factoring unverified."
    ],
    "whatToWatch": [
-    "The main open question is whether mathematicians reading the Lean code and Alpöge's account can extract new ideas from it. Ars Technica says they have barely begun sifting through the logic as expressed in Lean.",
-    "Also worth watching is whether a human-readable paper appears, since the repository states none exists, and how the mathematics community responds given its open letter on AI."
+    "The main open question is human comprehension: whether mathematicians can extract the ideas behind the Lean proof, and whether a written account follows. Ars Technica says experts have barely started going through the logic.",
+    "Also watch whether the other claimed results survive review, given the pace at which they are appearing and the retractions already logged."
    ],
    "pullQuote": {
-    "text": "No mathematician has read it through, and no paper comes with it.",
+    "text": "The proof has passed machine checks only, listed in each folder's README. No mathematician has read it through, and no paper comes with it.",
     "by": "Anthropic GitHub repository README"
    }
   }

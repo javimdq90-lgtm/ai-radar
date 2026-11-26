@@ -20895,7 +20895,7 @@
   "entities": [
    "Latent Space"
   ],
-  "storyId": "c7c801f91e25"
+  "storyId": "d8eff3477af0"
  },
  {
   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
@@ -21035,5 +21035,414 @@
    "Ear Note"
   ],
   "storyId": "932119e2ecf9"
+ },
+ {
+  "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-26T11:37:17.000Z",
+  "id": "02a088434703",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Hugging Face introduces a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware.",
+  "whyItMatters": "It helps people choose AMD hardware for local LLM inference.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "llama.cpp",
+   "AMD",
+   "Hugging Face"
+  ],
+  "storyId": "02a088434703"
+ },
+ {
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T03:36:58.000Z",
+  "score": 387,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
+  "id": "244a3e8cb4f1",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "OpenAI reportedly reduced GPT-6.2 usage allowances, so Astra hits limits 40% faster and Sol 25% faster.",
+  "whyItMatters": "Tighter limits raise effective costs and affect planning for anyone relying on these models.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "OpenAI",
+   "GPT-6.2",
+   "Astra",
+   "Sol"
+  ],
+  "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
+  "imageCheckedAt": "2026-11-26T15:26:42.190Z",
+  "storyId": "4c44ce30146b"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34811",
+  "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT) module reads RGB features through asymmetric attention, allowing its objective to shape the visual representation used for control. The module is used only during training and removed at inference, preserving FastWAM's RGB-to-action architecture. We evaluate four controlled obs…",
+  "score": 22,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34811.png",
+  "id": "284a8b8a895b",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "HOG-WAM adds future Histograms of Oriented Gradients as training-time structural supervision to world-action models via an auxiliary diffusion transformer, improving robustness to visual corruption. The module is removed at inference, keeping FastWAM's architecture.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "HOG-WAM",
+   "FastWAM"
+  ],
+  "storyId": "284a8b8a895b"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34128",
+  "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable pipeline that directly recovers continuous, high-fidelity 3D surfaces from unposed images by seamlessly integrating pointmap- and ray-based representations. Our approach first extracts explicit geometric priors using a pre-trained pointmap model. A query-view-centric selection module then identifies geometrically relev…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34128.png",
+  "id": "28e902f8909f",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "FoundSurface is a feedforward pipeline that combines pointmap and ray-based representations to reconstruct continuous, high-fidelity 3D surfaces from unposed images.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "FoundSurface"
+  ],
+  "storyId": "28e902f8909f"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.33579",
+  "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a simulation pipeline that turns human manipulation data into train-ready, physically executable arm-hand trajectories. DexEngine first places each clip's hand-object motion where the arms can reach it, finds an arm motion that follows the human hands, and then corrects the motion in physics simulation with…",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33579.png",
+  "id": "4b0509310e9e",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "DexEngine is a simulation pipeline that converts human hand-object demonstrations into physically executable whole-robot arm-hand trajectories at scale for training robot policies.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "DexEngine"
+  ],
+  "storyId": "4b0509310e9e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34575",
+  "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activate…",
+  "score": 82,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34575.png",
+  "id": "6717576b9778",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Sage-Med-Preview is a 35B-parameter medical multimodal model with 3B active parameters. The authors find existing medical MLLMs trail frontier general models, and that scaling size mainly improves text rather than visual perception.",
+  "whyItMatters": "It suggests domain-specific medical models still lack visual capability and that reasoning modes don't fix it.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "Sage-Med"
+  ],
+  "storyId": "6717576b9778"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34420",
+  "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted between a pretrained vision encoder and the language model that injects the inductive bias of local cross-page context into visual representations. For each page, DocSEAM forms a local triplet with its …",
+  "score": 26,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34420.png",
+  "id": "6e19181ac964",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "DocSEAM is a lightweight module between a vision encoder and language model that injects cross-page context into page representations, addressing the isolated per-page encoding in multi-page document VLMs.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "DocSEAM"
+  ],
+  "storyId": "6e19181ac964"
+ },
+ {
+  "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+  "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T09:44:23.000Z",
+  "score": 89,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50653477",
+  "id": "6f6a6b07f17a",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Google will make AI agents use its MCP servers, and the Gmail one can't send email, according to a techstackups piece.",
+  "whyItMatters": "It shows the practical limits of Google's official MCP integrations for agent builders.",
+  "category": "tools",
+  "importance": 3,
+  "entities": [
+   "Google",
+   "MCP",
+   "Gmail"
+  ],
+  "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg",
+  "imageCheckedAt": "2026-11-26T15:26:42.254Z",
+  "storyId": "6f6a6b07f17a"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34347",
+  "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal streaming benchmark that formulates social embodied intelligence as a time-anchored chain of Attention, Intention, Reaction, and Interaction (A-I-R-I). AIRIS contains 8,000 expert-curated questions grounded i…",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34347.png",
+  "id": "787fa9717241",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "AIRIS is a streaming benchmark of 8,000 expert-curated questions testing social embodied intelligence in egocentric video through an Attention, Intention, Reaction, Interaction chain.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "AIRIS"
+  ],
+  "storyId": "787fa9717241"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34941",
+  "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural changes and no new videos, using only individual images. Our key idea is to let the video editor role-p…",
+  "score": 39,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34941.png",
+  "id": "79b8f2711699",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Image-to-Video Transfer (I2VT) improves pretrained video editors and extends them to new tasks using only an image editor and individual images, with no paired videos or architecture changes.",
+  "whyItMatters": "It sidesteps the shortage of paired video editing data that holds video editors back.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "I2VT"
+  ],
+  "storyId": "79b8f2711699"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34923",
+  "title": "Mixture-of-Loops Transformer",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embedding…",
+  "score": 56,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34923.png",
+  "id": "7fc61acd4d15",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Mixture-of-Loops Transformer (MoLT) uses keys and values as memory for selective reuse across loops and depths, aiming to improve the expressivity-efficiency tradeoff of looped transformers.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "MoLT"
+  ],
+  "storyId": "7fc61acd4d15"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34466",
+  "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context. We call this interaction paradigm Ego Use. However, first-person observations are limited by the wearer's viewpoint and may provide incomplete or ambiguous evidence of ongoing ac…",
+  "score": 17,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34466.png",
+  "id": "87a1cf2bb495",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "EgoUseBench benchmarks computer-use agents on tasks grounded in first-person views from wearables like smart glasses, where a user's physical surroundings provide context for digital tasks.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "EgoUseBench"
+  ],
+  "storyId": "87a1cf2bb495"
+ },
+ {
+  "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+  "title": "Bare Metal Qwen",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-25T22:15:34.000Z",
+  "score": 197,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50648365",
+  "id": "a1356d98cece",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Bare Metal Qwen is a GitHub project for running Qwen models on bare metal.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Qwen"
+  ],
+  "storyId": "a1356d98cece"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.33457",
+  "title": "Playfulness as Feedback for Agentic Game Development",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-23T19:00:00.000Z",
+  "snippet": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich gameplay that supports exploration and progression. How agents can improve these aspects of playfulness remains underexplored. In our work, we propose Play2Evolve, a recursive game development framework with three stages: Initialization, Refinement, and Evolution. Using playfulness as feedback, agents pl…",
+  "score": 18,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.33457.png",
+  "id": "a556368df1d2",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.633Z",
+  "summary": "Play2Evolve is a recursive framework in which coding agents build games through Initialization, Refinement and Evolution stages, using 'playfulness' (reliable core functions, appealing visuals, rich gameplay) as feedback.",
+  "whyItMatters": "It targets the gap between a game that merely runs and one that is fun to play, a weakness of current coding agents.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Play2Evolve"
+  ],
+  "storyId": "a556368df1d2"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34907",
+  "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow. We present Agentic LongLive, an asynchronous agentic memory for long video generation. A memory agent on separate GPUs reads only the prompts revealed so far, never the generated video, and kee…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34907.png",
+  "id": "b75cf0f82f29",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Agentic LongLive uses an asynchronous memory agent on separate GPUs that reads only prompts revealed so far to keep characters and scenes consistent in real-time, long interactive video generation.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Agentic LongLive"
+  ],
+  "storyId": "b75cf0f82f29"
+ },
+ {
+  "url": "https://huggingface.co/blog/training-swarms",
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-26T00:00:00.000Z",
+  "id": "c01600d41603",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "A Hugging Face post covers how to build, train and evaluate multi-agent systems.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [
+   "Hugging Face"
+  ],
+  "storyId": "c01600d41603"
+ },
+ {
+  "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-26T05:05:36.000Z",
+  "id": "d3aa48daa62d",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Hugging Face post on building on Nemotron 3.5 Parse, covering open data, fine-tuning and faster inference.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Nemotron 3.5 Parse",
+   "NVIDIA",
+   "Hugging Face"
+  ],
+  "storyId": "d3aa48daa62d"
+ },
+ {
+  "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+  "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-26T09:54:40.000Z",
+  "snippet": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges, including from Disney. Disney ended up buying s…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "d73563559186",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "42 state attorneys general are trying to stop Character.AI from auctioning chat histories of over 21 million US accounts, including 2.1 million minors, during its Chapter 11 bankruptcy.",
+  "whyItMatters": "It could set a precedent for what happens to user conversation data when an AI company fails.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Character.AI",
+   "state attorneys general",
+   "Disney"
+  ],
+  "storyId": "92419877312e"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34849",
+  "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its writt…",
+  "score": 100,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34849.png",
+  "id": "de55fe526105",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "Real2SimLab is a unified platform for evaluating real-to-simulation transfer, where coding agents write simulation programs from video. It replaces the N-by-M integrations needed to test methods across benchmarks that each define their own inputs and scoring.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Real2SimLab"
+  ],
+  "storyId": "de55fe526105"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34237",
+  "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render …",
+  "score": 54,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34237.png",
+  "id": "e44c65cf42c4",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "VibeVideoAgent gives coding agents perceptual feedback when generating videos from code, catching issues like overlapping labels, misaimed cameras and audio drift that raise no runtime errors, without bloating the agent's context.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "VibeVideoAgent"
+  ],
+  "storyId": "e44c65cf42c4"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34929",
+  "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-conditioned matting capabilities can be acquired even from a pure text-to-image model without paired im…",
+  "score": 16,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34929.png",
+  "id": "f102f2570abb",
+  "fetchedAt": "2026-11-26T15:26:25.248Z",
+  "enrichedAt": "2026-11-26T15:26:41.634Z",
+  "summary": "PixelMatte adapts pretrained pixel-space diffusion transformers for high-fidelity image matting, avoiding the VAE reconstruction loss of latent diffusion approaches, and works even from a pure text-to-image model.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "PixelMatte"
+  ],
+  "storyId": "f102f2570abb"
  }
 ]
