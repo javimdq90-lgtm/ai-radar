@@ -1382,48 +1382,6 @@
    }
   }
  },
- "7de7788a86fe": {
-  "storyId": "7de7788a86fe",
-  "itemIds": [
-   "7de7788a86fe",
-   "a44b4d5034e5",
-   "5ef94984dce4",
-   "a30b4228516c"
-  ],
-  "writtenAt": "2026-10-27T21:23:34.781Z",
-  "headline": "Google DeepMind unveils Genie 4 world model with audio and real-time prompt edits",
-  "dek": "Genie 4 adds audio, more realistic physics and people, and mid-simulation prompt edits, with scenes lasting about two minutes; it is a research preview for trusted testers, with Ultra subscribers next.",
-  "keyPoints": [
-   "Genie 4 keeps scenes consistent for about two minutes, double Genie 3's one minute, and adds native audio including music, ambient sound and interactive dialogue.",
-   "Gemini 3.8 Flash acts as a guiding agent that breaks down goals and checks each output frame, according to Ars Technica and TechCrunch.",
-   "Access is a research preview for trusted testers now; Google AI Ultra subscribers in Project Genie and Gemini API early partners follow in coming weeks, per TechCrunch.",
-   "AI Ultra plans start at $100 per month, Ars Technica reports; developer pricing has not been announced and a waitlist is open.",
-   "Google says details and objects can drift over longer simulations, and audio accuracy and in-world text legibility are unsolved."
-  ],
-  "context": "Genie 3, released as a research preview a little over a year ago, rattled gaming stocks, and it never expanded beyond the limited Project Genie web experience. World models have since become a focus for AI labs, with Runway shipping GWM Worlds 2 and deals such as AMD's pending acquisition of Fei-Fei Li's World Labs. Google pitches them as a route to robot training and, longer term, AGI.",
-  "whatsNext": "Google says Genie 4 will reach Google AI Ultra subscribers in Project Genie and early Gemini API and AI Studio partners in the coming weeks, with no firm timeline for wider access or developer pricing.",
-  "article": {
-   "whatHappened": [
-    "Google DeepMind announced Genie 4, the latest version of its world model, which generates interactive environments from text prompts frame by frame in real time. It launched as a research preview for trusted testers. Google says the model has more realistic worlds, lets users change a scene with a natural-language prompt mid-simulation, generates audio, and uses Gemini 3.8 Flash in its simulations.",
-    "Experiences now run about two minutes, up from one minute with Genie 3. Users can change the weather or camera angle, or add people and objects, while the simulation runs. Google says physics such as aerodynamics and collisions are better, and that people move and respond to their surroundings more naturally.",
-    "Genie 4 is DeepMind's first world model with native audio. TechCrunch reports it produces music, ambient noise and interactive dialogue that matches the scene. Gemini works as a director, planning steps and checking frames while Genie draws the visuals. In a Gemini Robotics experiment, a Gemini 4 Argon model split tasks into steps that Genie 4 simulated live.",
-    "On availability, TechCrunch reports the model will reach Google AI Ultra subscribers in Project Genie and early-access partners of the Gemini API and Google AI Studio in the coming weeks. Ars Technica says Ultra plans start at $100 per month and developer pricing is not yet available. A waitlist is open for Project Genie."
-   ],
-   "whyItMatters": [
-    "Google positions Genie 4 for pre-visualization in film, game prototyping and robot training. Diego Rivas, a DeepMind engineer, told reporters that real-time generation matters most for ideation and storyboarding. The robotics experiment points to testing scenarios in simulation before running them in the real world, though it remains an experiment.",
-    "The release arrives as the field crowds and consolidates. TechCrunch notes Runway's GWM Worlds 2, AMD's pending acquisition of World Labs, Amazon's reported talks to buy Decart, and Rivian's purchase of Third Dimension for self-driving simulation. Genie 3 never moved beyond the limited Project Genie web experience, so the gap between demos and a product remains the question for Genie 4.",
-    "The limits are significant. Google says details and objects can drift as simulations run longer, and Ars Technica notes worlds forget how they began after a couple of minutes. The team has not worked out how to guarantee accurate audio or legible in-world text. Reviewers, including The Verge's Jay Peters, have not been able to try it."
-   ],
-   "whatToWatch": [
-    "Watch for the Project Genie rollout to Ultra subscribers and the opening of Gemini API access, both promised within weeks. Pricing for developers and whether AI Pro and AI Plus tiers get access are open questions.",
-    "Rivas said it is not yet clear what the end-to-end product experience will be, and that using Gemini Omni to turn prototypes into creative assets is still a way off."
-   ],
-   "pullQuote": {
-    "text": "What we’ll increasingly see in the future are these hybrid world models, where you have a combination of Gemini writing code and text, and Genie ingesting that in real time",
-    "by": "Tejas Kulkarni, research director at Google"
-   }
-  }
- },
  "855688c450b2": {
   "storyId": "855688c450b2",
   "itemIds": [
@@ -1994,35 +1952,37 @@
    "1ee9f5994a81",
    "e628c0b2649e",
    "204a3b5c5043",
-   "9824edc2f485"
+   "9824edc2f485",
+   "ec74e9ba2187"
   ],
-  "writtenAt": "2026-11-26T01:03:02.733Z",
-  "headline": "Anthropic goes public on Nasdaq after record $81.3 billion IPO priced at $83",
-  "dek": "Anthropic priced 980 million shares at $83, above its $70–$78 range, raising $81.3 billion; ANT opened at $111.50 on Nasdaq on November 19 and closed at $97.17, per Latent Space.",
+  "writtenAt": "2026-11-27T01:03:27.614Z",
+  "headline": "Anthropic raises $81.3B in record IPO, opens at $111.50 on Nasdaq",
+  "dek": "Anthropic priced its IPO at $83 a share, above the range, raising $81.3 billion at a roughly $1.5 trillion valuation, then opened at $111.50 and closed at $97.17 on its first day.",
   "keyPoints": [
-   "Anthropic priced its IPO at $83 a share, above the $70–$78 range, selling 980 million shares for $81.3 billion, topping SpaceX's $75 billion record, TechCrunch reports.",
-   "ANT opened at $111.50, up 34% from the IPO price, and closed at $97.17, according to The Verge and Latent Space.",
-   "A $26 billion private placement of non-voting Class N shares to Nvidia, Google, AMD, Broadcom, Micron, Microsoft and TSMC lifts total proceeds to about $104.8 billion.",
-   "The S-1 shows an $80.7 billion first-half net loss, mostly an accounting charge, on $16.3 billion in revenue, and about $1.05 trillion in infrastructure commitments.",
-   "Amazon holds 14.6% and Google 13.4%; each of the seven co-founders sold about 3.4 million shares, roughly $280 million apiece."
+   "Anthropic priced 980 million shares at $83, above the $70 to $78 range, raising $81.3 billion and passing SpaceX's $75 billion record for the largest IPO by proceeds.",
+   "Shares trade on Nasdaq as ANT. They opened at $111.50 on November 19, and Latent Space reports a close of $97.17, up 17% from the offering price.",
+   "A concurrent $26 billion private placement of non-voting Class N shares brought total proceeds to $104.8 billion, with Nvidia and Google each buying $10 billion, TechCrunch reports.",
+   "The S-1 shows an $80.7 billion net loss in the first half of 2026, mostly an accounting charge, on $16.3 billion in revenue, per The Verge.",
+   "Anthropic discloses about $1.05 trillion to $1.08 trillion in infrastructure commitments, including $451.6 billion due before the end of 2030, TechCrunch reports."
   ],
-  "context": "Anthropic last raised privately in May, at a $965 billion valuation, and was reportedly aiming for $2 trillion at one point. Its listing follows SpaceX's June IPO and is expected to set a benchmark for private AI companies such as OpenAI, which has not announced IPO plans.",
-  "whatsNext": "Watch how ANT trades after its first day, the 30-day underwriter option for up to 147 million more shares, and lockup expiries over the next year.",
+  "context": "Anthropic's last private round in May valued it at $965 billion after a $65 billion raise, and it reportedly once aimed for $2 trillion. The listing comes after SpaceX's June IPO and sets a reference point for private AI companies such as OpenAI, which has not announced IPO plans.",
+  "whatsNext": "Watch how ANT trades after its first day and whether underwriters exercise their 30-day option on up to 147 million more shares; the offering is due to close November 20.",
   "article": {
    "whatHappened": [
-    "Anthropic priced its initial public offering at $83 per share on November 18, above an initial range of $70 to $78. The company's announcement says the offering totals 980 million Class A shares: 956.4 million sold by Anthropic and about 23.6 million by selling stockholders. TechCrunch puts proceeds at $81.3 billion, making it the largest IPO ever by amount raised and surpassing SpaceX's $75 billion.",
-    "Shares began trading on the Nasdaq Global Select Market on November 19 under the ticker ANT. The Verge reports they opened at $111.50. Latent Space reports the stock closed at $97.17, up 17% from the offering price, and drifted lower in after-hours trading. The offering is expected to close on November 20, and underwriters hold a 30-day option on up to 147 million more shares.",
-    "Alongside the IPO, Anthropic sold $26 billion of non-voting Class N stock in a private placement. TechCrunch says Nvidia and Google each bought $10 billion, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. Counting that, Anthropic raised about $104.8 billion, or up to $117 billion if the underwriters exercise their option.",
-    "At $83, TechCrunch values Anthropic at about $1.5 trillion fully diluted, up from $965 billion in May but below a reported $2 trillion target. Each of the seven co-founders, including CEO Dario Amodei, sold about 3.4 million shares, roughly $280 million apiece before fees and taxes."
+    "Anthropic priced its initial public offering at $83 a share on November 18, above the $70 to $78 range it first marketed. The company says the offering covers 980 million Class A shares, of which 956,351,354 are sold by Anthropic and 23,648,646 by selling stockholders. The shares were upsized from 825 million originally planned, according to TechCrunch.",
+    "The offering raised $81.3 billion, which TechCrunch says surpasses SpaceX's $75 billion IPO from June as the largest ever by proceeds. At the IPO price Anthropic is valued at about $1.5 trillion fully diluted. Trading began on Nasdaq under the ticker ANT on November 19, opening at $111.50, according to The Verge. Latent Space reports the stock closed at $97.17.",
+    "A separate $26 billion private placement of non-voting Class N shares ran alongside the offering. TechCrunch reports Nvidia and Google each bought $10 billion, with AMD, Broadcom, Micron, Microsoft and TSMC taking the rest. Counting that placement, Anthropic's proceeds were $104.8 billion, and could reach $117 billion if the underwriters buy their full allotment.",
+    "Anthropic's seven co-founders, including CEO Dario Amodei, each sold about 3.4 million shares, roughly $280 million apiece before fees and taxes. The company says each has pledged 80% of personal equity to philanthropy, though it describes the pledges as voluntary, revocable and not legally binding."
    ],
    "whyItMatters": [
-    "The listing is a test of investor appetite for AI. TechCrunch notes it came despite market jitters after Nvidia CEO Jensen Huang's departure, and that Anthropic's performance is expected to shape expectations for private AI companies, including rival OpenAI.",
-    "The S-1 shows the scale of the bet. Anthropic reported an $80.7 billion net loss in the first half, mostly from an accounting charge that The Verge says does not reflect the business, against $16.3 billion in revenue. TechCrunch reports it needs about $70.7 billion for compute commitments in the next 12 months and $451.6 billion by the end of 2030, with total infrastructure commitments of roughly $1.05 to $1.08 trillion. Skeptics cited by Latent Space, including FT Unhedged, argue that earning a 20% return on that spending would require about $602 billion in annual revenue.",
-    "Control and safety are part of the pitch. The Verge says the governance structure keeps control with the founders rather than shareholders, and Latent Space says their Class F shares carry 50.1% of voting power on most matters. The filing also lists catastrophic risks, including models resisting shutdown. Amazon and Google together hold 28%, per the company."
+    "The IPO is a test of investor appetite for AI companies after recent volatility in AI-linked stocks. TechCrunch notes that a strong debut could shape expectations for private AI companies, including rival OpenAI. The $1.5 trillion valuation is well above the $965 billion from May, though below the $2 trillion the company was reportedly seeking earlier.",
+    "The financial picture is mixed. The S-1 shows an $80.7 billion net loss for the first half, which The Verge says mostly stems from an accounting charge, against $16.3 billion in revenue. TechCrunch calculates that Anthropic now has nearly $230 billion of working capital, yet needs $70.7 billion for compute commitments over the next 12 months and $451.6 billion by the end of 2030.",
+    "Ownership is concentrated among strategic partners. Google holds 13.4% and Amazon 14.6% per TechCrunch, a combined 28% by the company's own account. Control rests with the founders rather than shareholders, according to The Verge, and Latent Space reports their Class F shares carry 50.1% of voting power on most matters.",
+    "Safety commitments feature in the debut. Amodei said Anthropic will pace training and deployment of AI systems. The S-1 also lists risks including models that resist shutdown and may behave in misaligned or autonomous ways."
    ],
    "whatToWatch": [
-    "Trading will show whether the first-day gain holds. Latent Space expects lockup expiries to weigh on the stock as about a trillion dollars of shares become tradable over the next year. The underwriters' 30-day option on additional shares could raise proceeds further.",
-    "Another question is whether OpenAI follows with its own listing plans. It has announced none, according to TechCrunch."
+    "The offering is expected to close on November 20, and underwriters have a 30-day option to buy up to 147 million additional shares. Latent Space notes shares were already drifting lower after the close on day one, and it expects lockup expiries to weigh on the price as large blocks of stock become tradable over the next year.",
+    "The longer-term question is whether revenue can support the roughly $1 trillion in infrastructure commitments. Latent Space cites an FT Unhedged calculation that a 20% return on those commitments would require about $602 billion a year in revenue, a bear case the company has not addressed in the coverage."
    ],
    "pullQuote": {
     "text": "We will not bend to either business nor political pressure.",
@@ -2342,6 +2302,43 @@
    ]
   }
  },
+ "c881f1e71110": {
+  "storyId": "c881f1e71110",
+  "itemIds": [
+   "c881f1e71110"
+  ],
+  "writtenAt": "2026-11-27T01:03:02.163Z",
+  "headline": "Nvidia pauses server shipments to four Southeast Asian countries, WSJ reports",
+  "dek": "Nvidia has told partners including Dell and Super Micro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks compliance with U.S. export rules, the Wall Street Journal reports.",
+  "keyPoints": [
+   "Nvidia told manufacturing partners, including Dell and Super Micro, to pause server shipments to Malaysia, Singapore, Thailand and Indonesia, per a WSJ report.",
+   "The pause has no stated end date; Nvidia is assessing whether regional partners meet U.S. export requirements.",
+   "Chinese firms have reportedly accessed Nvidia chips remotely through data centers in these countries, a loophole the Commerce Department closed earlier this month.",
+   "The Institute for Progress estimates remote data centers supply about 24% of China's AI computing power, according to the Journal."
+  ],
+  "context": "The U.S. has restricted exports of advanced AI chips to China since 2022, but Chinese companies have looked for indirect routes, including renting computing power in third countries. Southeast Asia has become a major data center hub, which makes it a focus of enforcement efforts.",
+  "whatsNext": "Watch for whether Nvidia sets a timeline for resuming shipments and how regional partners respond to its compliance review.",
+  "article": {
+   "whatHappened": [
+    "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia, according to a Wall Street Journal report summarized by TechCrunch. The partners affected include Dell and Super Micro.",
+    "The pause is for an unspecified period. Nvidia is using the time to assess whether its regional partners are meeting U.S. export requirements, the Journal reports.",
+    "The report does not say how many shipments are affected or when Nvidia expects to resume them."
+   ],
+   "whyItMatters": [
+    "The four countries were chosen because Chinese companies have been tapping Nvidia chips remotely from data centers there. The U.S. Commerce Department closed that loophole earlier this month, reportedly grudgingly, according to the coverage.",
+    "The scale of the issue is significant. The think tank Institute for Progress estimates that remote data centers like these supply about 24% of China's AI computing power, the Journal notes.",
+    "The move suggests Nvidia is acting on its own to tighten oversight of its supply chain as the U.S. pushes to keep AI chips out of China. TechCrunch describes Nvidia as under pressure to do things differently."
+   ],
+   "whatToWatch": [
+    "The main open question is how long the pause lasts and what criteria Nvidia will use to judge whether partners are compliant. The coverage does not say.",
+    "It is also unclear how the pause will affect data center operators in the four countries, or whether Nvidia will extend similar reviews to other regions."
+   ],
+   "pullQuote": {
+    "text": "Nvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.",
+    "by": "TechCrunch"
+   }
+  }
+ },
  "ca130899e453": {
   "storyId": "ca130899e453",
   "itemIds": [
@@ -2504,39 +2501,41 @@
    "d8eff3477af0",
    "d2963dce727b",
    "1479a2d5f115",
+   "f5bb5e8a9ad3",
    "f63f4cad1468",
    "c7c801f91e25"
   ],
-  "writtenAt": "2026-11-26T15:27:04.990Z",
-  "headline": "AI-assisted Riemann hypothesis proof appears to pass Lean checks, but no mathematician has read it",
-  "dek": "Levent Alpöge, who works at Anthropic, used Claude to produce a Lean-verified proof of the Riemann hypothesis; machine checks pass, while mathematicians are still digesting it and a wave of other AI math claims lands.",
+  "writtenAt": "2026-11-27T01:03:15.084Z",
+  "headline": "AI-assisted proof of the Riemann hypothesis appears to hold up as math results pile up",
+  "dek": "Levent Alpöge, working at Anthropic, used Claude to produce a Lean-verified proof of the Riemann hypothesis, as OpenAI and others posted claimed results on VP vs VNP and matrix multiplication.",
   "keyPoints": [
-   "Levent Alpöge, working at Anthropic, announced a proof of the Riemann hypothesis generated with Claude, released in a Lean-verified form and as a description of the logic.",
-   "An Anthropic GitHub repo offers shorter Lean versions, about 300,000 lines readable and 76,000 compact, also covering the generalized hypothesis for Dirichlet L-functions.",
-   "The repo says the proof has passed machine checks only: no mathematician has read it through, and no paper comes with it.",
-   "Ars Technica says mathematicians are still digesting the proof and have barely started working through the Lean logic.",
-   "Other claims are arriving at once, including VP ≠ VNP proofs from OpenAI and Anthropic and an OpenAI claim that the matrix multiplication exponent is exactly 9/4."
+   "Levent Alpöge, who works at Anthropic, announced a proof of the Riemann hypothesis generated with Claude; Ars Technica says it comes in a Lean-verified form and a written account of the logic.",
+   "Mathematicians are still digesting the proof; Ars says it is too early to say much about its content or implications.",
+   "Latent Space reports OpenAI papers claiming the matrix multiplication exponent ω is exactly 9/4, and VP ≠ VNP proofs from both OpenAI and Anthropic.",
+   "Latent Space says OpenHuman agents used the Lean RH proof to prove 17 further results in three days; this is a claim relayed from social media.",
+   "Theoretical physicist Suvrat Raju's benchmark was saturated by GPT-6 Astra, which solved nearly 90 percent of problems at under $3 each on average."
   ],
-  "context": "The Riemann hypothesis, posed by Bernhard Riemann in the 1850s, concerns the distribution of prime numbers and is widely seen as one of the most important open problems in mathematics. Lean lets proofs be checked by machine, which removes much of the burden of verifying AI output. Mathematicians have worried, including in an open letter, that proofs without human reasoning add little understanding.",
-  "whatsNext": "Watch for human mathematicians' reading of the Lean proof and for a written explanation of its logic, since none yet accompanies it.",
+  "context": "AI systems have recently moved from solving competition problems to producing results on questions mathematicians have long cared about, including Erdős problems. Lean, a language for machine-checkable proofs, lets such claims be verified without trusting the model's prose. The Riemann hypothesis, formulated in the 1800s, bears on the distribution of primes and is among the field's best-known open problems.",
+  "whatsNext": "Mathematicians are working through the Lean proof and its written logic, and the pending OpenAI and Anthropic complexity-theory claims still await expert review.",
   "article": {
    "whatHappened": [
-    "Levent Alpöge, a mathematician working at Anthropic, announced a proof of the Riemann hypothesis generated with the company's Claude model. Ars Technica reports that the proof comes in two forms: a rigorous description in the Lean programming language, which allows rapid verification, and a description of the underlying logic.",
-    "An Anthropic repository on GitHub carries a Lean 4 proof of the Riemann hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions. It is built on Mathlib and uses only three standard axioms. A readable edition runs to about 300,000 lines, and a compact edition of the same five theorems to about 76,000.",
-    "The repository states the limits plainly: the proof has passed machine checks only, no mathematician has read it through, and no paper comes with it. Ars Technica says the process appears to have started with Claude handling a simplified toy form of Alpöge's insights, then expanding it to the full hypothesis."
+    "A mathematician named Levent Alpöge, who has been working at Anthropic, announced a proof of the Riemann hypothesis generated with the help of Claude. Ars Technica reports that the proof appears to hold up, though mathematicians have barely begun working through it and say little yet about what it implies.",
+    "According to Ars, the process began with Alpöge's own insights about connecting different areas of math. The AI first handled a simplified toy version of those ideas, and he then directed it to expand the findings to the full hypothesis. The proof comes in two forms: a rigorous Lean version that allows rapid verification, and a description of the underlying logic.",
+    "The announcement landed amid a run of other claims. Latent Space's AINews roundup describes an OpenAI paper asserting that the matrix multiplication exponent ω is exactly 9/4, a matching lower bound to an October upper bound, and two proofs of VP ≠ VNP, one from OpenAI and one from Anthropic. It says Google posted six papers produced by an agent harness on unnamed Gemini 4 models.",
+    "Latent Space also relays a claim that OpenHuman's agents used the Lean RH proof to prove 17 further results within three days, including Lindelöf and Erdős #985. These items come from social media posts and are unverified."
    ],
    "whyItMatters": [
-    "The Riemann hypothesis has implications for the distribution of primes, giving it significance from number theory to cryptography. If the Lean proof holds, one of mathematics' best-known open problems would be settled with heavy AI involvement, following other results enabled or produced by language-model systems.",
-    "Ars Technica argues the harder question is what mathematics gains. Historically the process of building a proof, with new tools and links between fields, mattered as much as the result. AI systems are opaque, and asking one to explain its reasoning may produce plausible but invented accounts, so a verified proof may offer little new insight on its own.",
-    "The result arrives amid a surge. Latent Space's roundup lists VP ≠ VNP proofs from OpenAI and Anthropic, an OpenAI claim that the matrix multiplication exponent is exactly 9/4, and Google papers on unnamed Gemini 4 models. Many are unreviewed; the roundup notes OpenAI's log records three October withdrawals after a sign error. It also reports that a Claude-generated analysis argues RSA and ECC are unaffected, and calls a rumor of polynomial-time factoring unverified."
+    "Ars notes that AI has so far solved problems humans already regarded as significant, with no sign it can pick important open problems itself. Lean removes a major bottleneck: instead of extensive human checking of possibly hallucinated arguments, verification becomes straightforward.",
+    "The cost is to understanding. Ars argues that the process of building a proof, which often yields new tools and connections, has frequently mattered more than the proof itself. Because large neural networks are opaque and may invent explanations of their own reasoning, an AI-generated proof offers little new insight on its own. Mathematicians have voiced these fears in an open letter.",
+    "The pace is also a problem. Latent Space counts 64 selected AI-assisted research advances this year, 20 of them in November, and notes that OpenAI's revision log records three October withdrawals after a sign error. Counts of papers can hide how many results are solid, and expert reaction to the ω claim is cautious: Omri Weinstein called it surreal if correct. The same shift is reaching physics, where Suvrat Raju's benchmark was saturated before release."
    ],
    "whatToWatch": [
-    "The main open question is human comprehension: whether mathematicians can extract the ideas behind the Lean proof, and whether a written account follows. Ars Technica says experts have barely started going through the logic.",
-    "Also watch whether the other claimed results survive review, given the pace at which they are appearing and the retractions already logged."
+    "The main open question is whether the written logic of the Riemann proof yields ideas mathematicians can build on, or only a verified statement. Expert review of the Lean code and the explanatory text will show.",
+    "The other claims, including ω = 9/4 and the VP ≠ VNP proofs, still need scrutiny. Unconfirmed rumors about polynomial-time factoring remain unverified, and one Claude-generated analysis argues RSA and ECC are unaffected."
    ],
    "pullQuote": {
-    "text": "The proof has passed machine checks only, listed in each folder's README. No mathematician has read it through, and no paper comes with it.",
-    "by": "Anthropic GitHub repository README"
+    "text": "It’s too early to say much about the proof itself—mathematicians are still in the process of digesting it.",
+    "by": "Ars Technica"
    }
   }
  },
@@ -2843,47 +2842,6 @@
    }
   }
  },
- "f16aefe89a6e": {
-  "storyId": "f16aefe89a6e",
-  "itemIds": [
-   "f16aefe89a6e",
-   "b14ae2720380",
-   "8a93bec2dc7c",
-   "2df56fbd08a3"
-  ],
-  "writtenAt": "2026-10-27T21:24:08.978Z",
-  "headline": "OpenAI claims proofs refuting the Exponential Time Hypothesis and resolving Kakeya",
-  "dek": "OpenAI announced results in math, computer science and physics, including a claimed refutation of the Exponential Time Hypothesis, but researchers and its own math advisers criticized handpicking experts to review them first.",
-  "keyPoints": [
-   "OpenAI says its model proved local smoothing in all dimensions, which would also resolve the Kakeya and Stein restriction conjectures; the math output was released directly.",
-   "OpenAI says its model refuted the Exponential Time Hypothesis; Impagliazzo, Paturi and Williams will lead review, and the write-up and Lean proof are on GitHub.",
-   "The physics result, a claimed existence proof of QCD-type quantum field theories, is unreleased; a group led by David Gross will shepherd it.",
-   "OpenAI's math advisory panel AGMAI said a day earlier that AI firms should not give select people early access, and urged public release of the physics outputs.",
-   "Anthropic says it released its own refutation of the ETH hours after a Anthropic mathematician suggested OpenAI's work built on earlier results."
-  ],
-  "context": "The Exponential Time Hypothesis, proposed in 1999, underpins much of computational complexity theory. OpenAI's announcement comes less than a month after it released hundreds of math manuscripts at once, which mathematicians said overwhelmed them. The dispute over how AI labs should release results has become a running argument with the field.",
-  "whatsNext": "Watch whether OpenAI publishes the physics proof and Lean output as AGMAI demands, and whether the ETH working group and a proposed conference confirm the result.",
-  "article": {
-   "whatHappened": [
-    "OpenAI announced three results in mathematics, computer science and physics, and said it is changing how it releases them after consulting outside experts it calls shepherds. The math result is a proof of Sogge's local smoothing for waves in every spatial dimension at least two. OpenAI says this also yields the Kakeya maximal and dimension conjectures and Stein's spherical restriction estimates across the interior of the conjectured range. The model output was released directly.",
-    "The computer science result claims the Exponential Time Hypothesis is false. According to OpenAI, the paper gives a deterministic algorithm that exactly counts satisfying assignments of fixed-width CNF formulas in subexponential time and polynomial space; the 3-SAT case refutes the hypothesis. A working group led by Russell Impagliazzo, Ramamohan Paturi and Ryan Williams will examine and explain the proof, and at its request the write-up and Lean proof went public on GitHub.",
-    "The physics result is described as a mathematically rigorous existence proof of certain interacting quantum field theories with gauge fields and fermions in four dimensions, including Quantum Chromodynamics. It has not been released. OpenAI says David Gross will lead a group including Michael Douglas, Arthur Jaffe, Igor Klebanov and Nikita Nekrasov to shepherd it. The ETH group also published an open letter asking the community about norms for AI-generated results."
-   ],
-   "whyItMatters": [
-    "The ETH has been widely believed and is cited in many papers. Williams told TechCrunch that if the claim holds, much work built on it must be revisited, and that it calls into question intuitions about how tractable hard NP problems are. He said he asked OpenAI whether cryptographic systems were affected and was told they were reasonably confident there were no breaks. TechCrunch reports Anthropic released its own refutation of the ETH hours after Anthropic mathematician Levent Alpöge suggested OpenAI relied on pre-existing work.",
-    "The release process is itself contested. OpenAI's advisory group, AGMAI, said a day before the announcement that AI companies should not designate people to see output first, citing unequal access, borrowed reputation and biased selection. It recommended release on scholarly repositories with Lean-formalized proofs and funding for those doing the checking. Researchers told The Verge that experts welcomed the smaller batch of three results but objected to restricted early access. Andreas Karch called the handpicked group a disaster.",
-    "Independent verification is still limited. The Verge notes that varying disclosure and the complexity of the work make it hard for researchers to judge the findings fully, though several experts called them significant or major breakthroughs."
-   ],
-   "whatToWatch": [
-    "AGMAI argued that OpenAI says its Lean formalization of the physics work is complete, so there is no scientific reason for further delay, and asked for public release. Whether OpenAI complies, or defers to the Gross group, is the next test.",
-    "On the ETH, the working group's review and a conference OpenAI is asked to fund will indicate whether the algorithm stands and what it means for related results."
-   ],
-   "pullQuote": {
-    "text": "The fact that they handpick the group is a disaster",
-    "by": "Andreas Karch, physics professor at the University of Texas at Austin"
-   }
-  }
- },
  "f1b7c64ada91": {
   "storyId": "f1b7c64ada91",
   "itemIds": [
@@ -2965,43 +2923,6 @@
    "pullQuote": {
     "text": "Gemini Decision 1 scores your candidate options in a single forward pass, returning probabilities and confidence scores in 150-250 ms end-to-end latency",
     "by": "Google"
-   }
-  }
- },
- "f4e0b5373313": {
-  "storyId": "f4e0b5373313",
-  "itemIds": [
-   "f4e0b5373313"
-  ],
-  "writtenAt": "2026-10-27T21:23:56.367Z",
-  "headline": "Apple adds AI assistant built on Apple and OpenAI models to Pages, Keynote and Numbers",
-  "dek": "The assistant rolls out in beta on Apple Intelligence devices running iOS 27, iPadOS 27 or macOS 27, and the apps now support Model Context Protocol for third-party AI agents.",
-  "keyPoints": [
-   "Apple's new assistant for Pages, Keynote and Numbers is built on AI models from Apple and OpenAI and uses a document's context to perform tasks.",
-   "It rolls out in beta to Apple Intelligence-compatible devices running iOS 27, iPadOS 27 or macOS 27 or later.",
-   "The three apps support Model Context Protocol on macOS 27 or later, letting third-party AI agents plug in.",
-   "Pixelmator Pro gets Generate Fill, and Logic Pro gets a Liquid Glass redesign plus an AI assistant that Apple says can set up a vocal track from one prompt.",
-   "Creator Studio updates arrive free for existing subscribers in November; Final Cut Pro gains MotionVFX content and a built-in Content Hub."
-  ],
-  "context": "Apple has been layering Apple Intelligence features into its software, and this extends AI assistants into its productivity and creative apps, where Microsoft and Google already offer chatbots in their office suites. Support for Model Context Protocol, an open standard for connecting AI agents to apps, signals that Apple is opening these apps to outside agents as well.",
-  "whatsNext": "Creator Studio updates are due for existing subscribers in November, while the AI assistant continues its beta rollout.",
-  "article": {
-   "whatHappened": [
-    "Apple is bringing an AI assistant to its Pages, Keynote and Numbers productivity apps. According to The Verge, the assistant is built on AI models from Apple and OpenAI and can understand a document's context to carry out tasks such as designing, animating and refining slides in Keynote.",
-    "Apple says the assistant can draft, restructure and tweak written content in Pages. In Numbers, it can calculate, visualize and organize data, suggest chart types and build custom tables.",
-    "The assistant is rolling out in beta to devices compatible with Apple Intelligence, running iOS 27, iPadOS 27 or macOS 27 or later. On macOS 27 or later, the three apps also support the Model Context Protocol, which allows third-party AI agents to plug into them.",
-    "Other creative apps are getting updates. Pixelmator Pro adds a Generate Fill feature for editing part of an image by describing the change. Logic Pro for Mac and iPad gets a Liquid Glass redesign, an AI assistant for editing projects, and a redesigned Browser on Mac that uses on-device AI to analyze, classify and tag sounds. Final Cut Pro gains MotionVFX templates, graphics, titles and transitions, plus a Content Hub with stock video, photos and backgrounds."
-   ],
-   "whyItMatters": [
-    "The release puts a general-purpose assistant inside apps that many Apple users already own, and it relies partly on OpenAI models alongside Apple's own. The coverage does not say which tasks run on which models or what runs on-device.",
-    "Model Context Protocol support may matter as much as the built-in assistant. It means agents from other companies can work with Pages, Keynote and Numbers on macOS, rather than Apple's assistant being the only way to automate them. How widely that is used is not yet clear."
-   ],
-   "whatToWatch": [
-    "The Creator Studio updates reach existing subscribers for free in November. The assistant is labeled a beta, so its quality and any changes to availability beyond Apple Intelligence-compatible devices are open questions."
-   ],
-   "pullQuote": {
-    "text": "set up a vocal track from a single prompt",
-    "by": "Apple"
    }
   }
  },

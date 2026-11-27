@@ -20622,7 +20622,7 @@
   "category": "research",
   "importance": 3,
   "entities": [],
-  "storyId": "f5bb5e8a9ad3"
+  "storyId": "d8eff3477af0"
  },
  {
   "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
@@ -21444,5 +21444,142 @@
    "PixelMatte"
   ],
   "storyId": "f102f2570abb"
+ },
+ {
+  "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+  "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-26T23:02:48.000Z",
+  "snippet": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+  "image": "https://i.ytimg.com/vi/qjPcaZf_plo/maxresdefault.jpg",
+  "id": "00bb51c293be",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.300Z",
+  "summary": "Latent Space interviews Jeff Barg, Head of AI at Clay, on how the company builds go-to-market agents, including how $1,500 could qualify every company in the world and why customers dislike model selectors.",
+  "whyItMatters": "It offers practical lessons on productizing agents and hiding model choice from users.",
+  "category": "products",
+  "importance": 3,
+  "entities": [
+   "Clay",
+   "Jeff Barg",
+   "Latent Space"
+  ],
+  "storyId": "00bb51c293be"
+ },
+ {
+  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "title": "AI made self-hosting fun again",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T21:47:45.000Z",
+  "score": 256,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50660180",
+  "id": "19dd4641586d",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.300Z",
+  "summary": "A blogger says AI coding assistants have made self-hosting software fun again by lowering the effort of setup and maintenance.",
+  "category": "tools",
+  "importance": 1,
+  "entities": [],
+  "storyId": "19dd4641586d"
+ },
+ {
+  "url": "https://devnull.land/amd-specific-llama-cpp",
+  "title": "AMD-specific fork of llama.cpp",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T17:11:29.000Z",
+  "score": 275,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50657265",
+  "id": "1d45997e4997",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.300Z",
+  "summary": "A developer has published an AMD-specific fork of llama.cpp, tuned for running local LLMs on AMD GPUs.",
+  "whyItMatters": "It may improve local inference performance for builders running AMD hardware instead of Nvidia.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "llama.cpp",
+   "AMD"
+  ],
+  "storyId": "02a088434703"
+ },
+ {
+  "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+  "title": "OpenAI may be in cost control mode",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T07:33:12.000Z",
+  "score": 261,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50652527",
+  "id": "82a13b62ffcb",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.299Z",
+  "summary": "A blog post argues OpenAI may be shifting into cost-control mode, based on signs of tightening spend. No further details are available beyond the title.",
+  "whyItMatters": "If OpenAI is trimming costs, it could affect pricing, rate limits and model availability for API users.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "OpenAI"
+  ],
+  "storyId": "4c44ce30146b"
+ },
+ {
+  "url": "https://diseasescuredbyai.com/",
+  "title": "Tracking Diseases Cured by AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T17:16:41.000Z",
+  "score": 299,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50657307",
+  "id": "c83866a1dbc9",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.300Z",
+  "summary": "A website tracks diseases that have been cured with the help of AI, listing claimed cases in one place.",
+  "whyItMatters": "It offers a concrete, hype-checkable view of AI's real-world medical impact.",
+  "category": "research",
+  "importance": 2,
+  "entities": [],
+  "storyId": "c83866a1dbc9"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+  "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-26T20:03:54.000Z",
+  "snippet": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024",
+  "id": "c881f1e71110",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.300Z",
+  "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens efforts to keep AI chips out of China.",
+  "whyItMatters": "Tighter export enforcement could constrain GPU supply and data center buildouts in Southeast Asia and affect compute availability and pricing.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "Nvidia",
+   "Malaysia",
+   "Singapore",
+   "Thailand",
+   "Indonesia"
+  ],
+  "imageCheckedAt": "2026-11-27T01:02:53.340Z",
+  "storyId": "c881f1e71110"
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+  "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+  "sourceId": "techcrunch",
+  "publishedAt": "2026-11-26T16:00:00.000Z",
+  "snippet": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+  "id": "ec74e9ba2187",
+  "fetchedAt": "2026-11-27T01:02:44.954Z",
+  "enrichedAt": "2026-11-27T01:02:53.300Z",
+  "summary": "TechCrunch argues that efficiency is not a virtue, contrasting Grand Theft Auto VI's huge, painstakingly human-made launch with Anthropic entering the public market on the same day.",
+  "whyItMatters": "Anthropic going public is a major business milestone, though this piece is mostly commentary.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "Anthropic",
+   "Grand Theft Auto VI",
+   "TechCrunch"
+  ],
+  "storyId": "b397f013e77f"
  }
 ]
