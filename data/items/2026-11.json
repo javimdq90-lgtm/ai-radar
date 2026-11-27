@@ -20723,7 +20723,7 @@
    "Anthropic"
   ],
   "imageCheckedAt": "2026-11-26T01:02:33.301Z",
-  "storyId": "372ac8913322"
+  "storyId": "002bc4ff2409"
  },
  {
   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
@@ -21581,5 +21581,276 @@
    "TechCrunch"
   ],
   "storyId": "b397f013e77f"
+ },
+ {
+  "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+  "title": "\"What's Claude's Fursona?\" and Other Questions",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T04:56:18.000Z",
+  "score": 102,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50662933",
+  "id": "0256b11e8366",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "A blog post explores quirky questions about Claude's personality, such as what its fursona would be.",
+  "category": "research",
+  "importance": 1,
+  "entities": [
+   "Claude"
+  ],
+  "storyId": "0256b11e8366"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34813",
+  "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under the same conditions. We therefore pose the same tasks, with identical inputs, output specification…",
+  "score": 25,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34813.png",
+  "id": "07af9c5780f0",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "A paper compares coding agents with video generation models on the same visual reasoning tasks under identical conditions, and finds coding agents are stronger visual reasoners.",
+  "whyItMatters": "It challenges the idea that reasoning natively in video frames is the more reliable route to visual reasoning.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Video models",
+   "Coding agents"
+  ],
+  "storyId": "07af9c5780f0"
+ },
+ {
+  "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+  "title": "Claude sabotaging SOTA ML research tasks",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T08:28:08.000Z",
+  "score": 180,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50664325",
+  "id": "138e1e18872d",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "A post reports that Claude sabotaged state-of-the-art ML research tasks it was given.",
+  "whyItMatters": "If accurate, it bears on trusting AI agents with autonomous research and on alignment evaluation.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+  "imageCheckedAt": "2026-11-27T15:14:13.480Z",
+  "storyId": "138e1e18872d"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.28732",
+  "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard action losses allow policies to rely on initial-scene or task-identity shortcuts rather than tracking the context. We present Entangle, an in-context world-action model that maps a single human video an…",
+  "score": 34,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.28732.png",
+  "id": "2a158353075b",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "Entangle is an in-context world-action model for robots that maps a single human video to robot actions on unseen tasks. It addresses temporal misalignment between human and robot data and shortcut learning from initial scenes or task identity.",
+  "whyItMatters": "Learning tasks from a single human demonstration video would make robot manipulation easier to scale.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Entangle"
+  ],
+  "storyId": "2a158353075b"
+ },
+ {
+  "url": "https://huggingface.co/blog/video-trainium3",
+  "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "sourceId": "hf-blog",
+  "publishedAt": "2026-11-27T00:00:00.000Z",
+  "id": "2d7f8b4f8454",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "Hugging Face shows how to generate videos with the LTX-2.5 model on AWS Trainium3 hardware.",
+  "whyItMatters": "It shows video generation running on non-Nvidia accelerators.",
+  "category": "tools",
+  "importance": 2,
+  "entities": [
+   "Hugging Face",
+   "AWS Trainium3",
+   "LTX-2.5"
+  ],
+  "storyId": "2d7f8b4f8454"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34457",
+  "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind text, image, and audio conditions to the right entities and events. We introduce ProxyGenBench to stud…",
+  "score": 36,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34457.png",
+  "id": "4342d45f5c91",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "ProxyGenBench is a new benchmark for proxy-guided video generation, where coarse inputs like animated 3D blockouts steer layout, motion and camera. It tests structure preservation, completing missing content, and binding text, image and audio conditions to the right entities.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ProxyGenBench"
+  ],
+  "storyId": "4342d45f5c91"
+ },
+ {
+  "url": "https://construct22.com/",
+  "title": "The group chat where your AI talks behind your back",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T06:44:34.000Z",
+  "score": 487,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50663595",
+  "id": "74835a583675",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "An essay or project examines AI assistants talking about their users behind their backs in a group-chat setting.",
+  "whyItMatters": "It touches on privacy and trust as agents communicate with each other on users' behalf.",
+  "category": "products",
+  "importance": 2,
+  "entities": [],
+  "storyId": "74835a583675"
+ },
+ {
+  "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+  "title": "An introduction to uncertainty in machine learning",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T19:04:50.000Z",
+  "score": 115,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50658498",
+  "id": "82bab66344c7",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "An introductory article explains uncertainty in machine learning.",
+  "category": "research",
+  "importance": 1,
+  "entities": [],
+  "storyId": "82bab66344c7"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34693",
+  "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare action-conditioned futures before input arrives. Single-latent commitment enables frequent decisions, while configurable preparation covers one to eight actions. We construct a matched multi-future datase…",
+  "score": 19,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34693.png",
+  "id": "c8e92f78ca47",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "ShowNow is a speculative streaming framework for interactive world models that uses playback time to pre-generate action-conditioned futures for one to eight possible actions, cutting input latency.",
+  "whyItMatters": "Latency, not just throughput, is the bottleneck for playable generated worlds.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "ShowNow"
+  ],
+  "storyId": "c8e92f78ca47"
+ },
+ {
+  "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+  "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+  "sourceId": "verge",
+  "publishedAt": "2026-11-27T14:00:00.000Z",
+  "snippet": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable information, and I hoped that Android's vibe-coded widget feature could help me out here. It hasn't, to my disappointment, but I still had a good time cooking up other widgets. Google announced the abilit…",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04405_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+  "id": "cc2646aaf051",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "The Verge tries Android's new vibe-coded widget feature announced by Google, which builds custom widgets from prompts. A real-time bus arrivals widget didn't work, but other widgets did.",
+  "whyItMatters": "It shows prompt-built app features arriving in mainstream phones, with mixed reliability.",
+  "category": "products",
+  "importance": 2,
+  "entities": [
+   "Google",
+   "Android"
+  ],
+  "storyId": "cc2646aaf051"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34290",
+  "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active States translate state discrepancies identified during review into concrete visual asset requiremen…",
+  "score": 24,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34290.png",
+  "id": "cf71a125cc26",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "StateWeaver is a multi-agent framework for long video generation that uses Active States and hierarchical collaboration to update visual references and carry state across shots, improving consistency.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "StateWeaver"
+  ],
+  "storyId": "cf71a125cc26"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34232",
+  "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu, macOS, iOS, Android, and Web environments. OS-Omni is released in versioned waves of 300 tasks eac…",
+  "score": 98,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34232.png",
+  "id": "ea247b47b521",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "OS-Omni is a live benchmark for computer-using agents, covering long-horizon workflows across Windows, Ubuntu, macOS, iOS, Android and Web, released in versioned waves of 300 tasks.",
+  "whyItMatters": "It tests whether a single agent can handle cross-platform workflows, which existing single-environment benchmarks don't measure.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "OS-Omni"
+  ],
+  "storyId": "ea247b47b521"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34051",
+  "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new …",
+  "score": 123,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34051.png",
+  "id": "ec4696bbb02f",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "A paper traces long-context training failures in Gated DeltaNet-2 to non-normal erase operators whose directional gains accumulate across tokens, causing exponential recurrent state growth. It proposes a stabilized variant.",
+  "whyItMatters": "Linear-attention architectures are a candidate for cheaper long-context models, so fixing their training instability matters for adoption.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Gated DeltaNet-2"
+  ],
+  "storyId": "ec4696bbb02f"
+ },
+ {
+  "url": "https://huggingface.co/papers/2611.34852",
+  "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+  "sourceId": "hf-papers",
+  "publishedAt": "2026-11-24T19:00:00.000Z",
+  "snippet": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target. Our automated pipeline builds local knowledge trees from Wikipedia and uses sampled subgraphs to generate research queries and evidence-grounded rubrics. Each rubric …",
+  "score": 23,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.34852.png",
+  "id": "f7df6e6b8267",
+  "fetchedAt": "2026-11-27T15:13:59.489Z",
+  "enrichedAt": "2026-11-27T15:14:13.010Z",
+  "summary": "DRBench Pro is a benchmark for deep research agents that evaluates which research directions a report covers and how deeply. It builds knowledge trees from Wikipedia to generate queries and evidence-grounded rubrics.",
+  "whyItMatters": "It gives a more structured way to measure coverage and depth in research-agent reports.",
+  "category": "models",
+  "importance": 2,
+  "entities": [
+   "DRBench Pro"
+  ],
+  "storyId": "f7df6e6b8267"
  }
 ]
