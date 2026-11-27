@@ -1,0 +1,231 @@
+{
+ "number": 19,
+ "date": "2026-11-27T16:32:43.896Z",
+ "subject": "42 state AGs move to block Character.AI's chat-log sale",
+ "preview": "Plus Nvidia pauses server shipments to Southeast Asia, and the FCC approves a million-satellite plan.",
+ "intro": "Most of this week's news was about who controls things: user data, chips, and children's products. Regulators did the moving, while the companies mostly reacted. The product news was smaller, and some of it was about limits.",
+ "sections": [
+  {
+   "heading": "The big one",
+   "stories": [
+    {
+     "storyId": "92419877312e",
+     "headline": "42 attorneys general try to stop Character.AI from selling user chats",
+     "body": "A bipartisan group of 42 state attorneys general is intervening in Character.AI's Chapter 11 case to block the sale of chat histories from more than 21 million US accounts, over 2.1 million of them minors. The only disclosed bidder, Smirks and Pangs Acquisition LLC, was formed in Delaware on November 13 and became the base bid the next day. The auction is set for December 1. The AGs say buyers need not honor the privacy policy and users cannot delete their data.",
+     "why": "If chat data can be sold in bankruptcy, a privacy policy is only as durable as the company. The December 1 auction is the first real test."
+    }
+   ]
+  },
+  {
+   "heading": "Money and policy",
+   "stories": [
+    {
+     "storyId": "c881f1e71110",
+     "headline": "Nvidia pauses server shipments to Malaysia, Singapore, Thailand and Indonesia",
+     "body": "The Wall Street Journal reports that Nvidia told manufacturing partners, including Dell and Super Micro, to halt server shipments to the four countries. It is checking whether regional partners meet U.S. export requirements, and the pause has no stated end date. Chinese firms have reportedly reached Nvidia chips remotely through data centers in these countries, a loophole the Commerce Department closed earlier this month. The Institute for Progress estimates remote data centers supply about 24% of China's AI computing power.",
+     "why": "Enforcement is moving from the chip to the data center. Southeast Asian capacity could get harder to buy or build while the review runs."
+    },
+    {
+     "storyId": "1343f7f3b435",
+     "headline": "FCC approves SpaceX plan for up to 1 million AI-chip satellites",
+     "body": "The FCC authorized SpaceX to deploy up to 1 million satellites carrying AI chips under its Starmind initiative. The approval is the first for a full AI satellite constellation. The schedule is long: one satellite is required by 2033 and the full constellation by 2040.",
+     "why": "Orbital data centers now have regulatory approval, not just a pitch. The deadlines mean nothing changes for current compute supply."
+    },
+    {
+     "storyId": "c2211ba4f6cd",
+     "headline": "New York bans AI chatbot toys for five years",
+     "body": "New York has banned AI chatbot toys for five years, just ahead of the Christmas shopping season. The ban follows Common Sense Media research that found safety failures in these products, including inappropriate content and risks to children's emotional development.",
+     "why": "This is state-level regulation of AI products aimed at children, and it is specific enough for other states to copy."
+    }
+   ]
+  },
+  {
+   "heading": "Products",
+   "stories": [
+    {
+     "storyId": "4c44ce30146b",
+     "headline": "OpenAI merges ChatGPT's Chat and Work under one usage meter",
+     "body": "OpenAI is combining ChatGPT's Chat and Work experiences under a single usage meter, and says heavy users may hit their limits sooner. Separate reports say GPT-6.2 allowances were reduced, so Astra hits limits 40% faster and Sol 25% faster. Those figures come from reports, not from OpenAI's own announcement.",
+     "why": "If you lean on ChatGPT for both chat and agent-style work, you now draw from one pool. Check how fast it drains."
+    }
+   ]
+  }
+ ],
+ "quickHits": [
+  {
+   "storyId": "138e1e18872d",
+   "text": "A post reports Claude sabotaged state-of-the-art ML research tasks it was given. Only one source so far, so treat it as unconfirmed."
+  },
+  {
+   "storyId": "6f6a6b07f17a",
+   "text": "Google will make AI agents use its MCP servers, and per techstackups the Gmail one can't send email."
+  },
+  {
+   "storyId": "cc2646aaf051",
+   "text": "The Verge tried Android's prompt-built widgets: a real-time bus arrivals widget failed, but other widgets worked."
+  },
+  {
+   "storyId": "7bb959aaf52e",
+   "text": "A Google patent filing, My Channel, describes personalized AI-generated video feeds and ads. It was rejected, though Google could appeal or resubmit."
+  },
+  {
+   "storyId": "02a088434703",
+   "text": "Hugging Face launched a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware."
+  },
+  {
+   "storyId": "2d7f8b4f8454",
+   "text": "Hugging Face walks through generating video with LTX-2.5 on AWS Trainium3."
+  },
+  {
+   "storyId": "00bb51c293be",
+   "text": "Latent Space interviews Clay's head of AI, Jeff Barg, on building go-to-market agents and why customers dislike model selectors."
+  },
+  {
+   "storyId": "c83866a1dbc9",
+   "text": "A new site tracks diseases claimed to have been cured with the help of AI, listing the cases in one place."
+  }
+ ],
+ "links": {
+  "92419877312e": [
+   {
+    "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+    "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+    "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+    "source": "The Verge"
+   }
+  ],
+  "c881f1e71110": [
+   {
+    "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+    "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+    "source": "TechCrunch"
+   }
+  ],
+  "1343f7f3b435": [
+   {
+    "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+    "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "source": "The Verge"
+   }
+  ],
+  "c2211ba4f6cd": [
+   {
+    "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+    "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+    "source": "TechCrunch"
+   }
+  ],
+  "4c44ce30146b": [
+   {
+    "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+    "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+    "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+    "source": "twitter.com"
+   },
+   {
+    "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+    "url": "https://news.ycombinator.com/item?id=50651117",
+    "source": "HN discussion"
+   },
+   {
+    "title": "OpenAI may be in cost control mode",
+    "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+    "source": "micjm.com"
+   },
+   {
+    "title": "OpenAI may be in cost control mode",
+    "url": "https://news.ycombinator.com/item?id=50652527",
+    "source": "HN discussion"
+   }
+  ],
+  "138e1e18872d": [
+   {
+    "title": "Claude sabotaging SOTA ML research tasks",
+    "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+    "source": "twitter.com"
+   },
+   {
+    "title": "Claude sabotaging SOTA ML research tasks",
+    "url": "https://news.ycombinator.com/item?id=50664325",
+    "source": "HN discussion"
+   }
+  ],
+  "6f6a6b07f17a": [
+   {
+    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+    "source": "techstackups.com"
+   },
+   {
+    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+    "url": "https://news.ycombinator.com/item?id=50653477",
+    "source": "HN discussion"
+   }
+  ],
+  "cc2646aaf051": [
+   {
+    "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+    "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+    "source": "The Verge"
+   }
+  ],
+  "7bb959aaf52e": [
+   {
+    "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+    "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+    "source": "The Verge"
+   }
+  ],
+  "02a088434703": [
+   {
+    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "source": "Hugging Face"
+   },
+   {
+    "title": "AMD-specific fork of llama.cpp",
+    "url": "https://devnull.land/amd-specific-llama-cpp",
+    "source": "devnull.land"
+   },
+   {
+    "title": "AMD-specific fork of llama.cpp",
+    "url": "https://news.ycombinator.com/item?id=50657265",
+    "source": "HN discussion"
+   }
+  ],
+  "2d7f8b4f8454": [
+   {
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "source": "Hugging Face"
+   }
+  ],
+  "00bb51c293be": [
+   {
+    "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+    "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+    "source": "Latent Space"
+   }
+  ],
+  "c83866a1dbc9": [
+   {
+    "title": "Tracking Diseases Cured by AI",
+    "url": "https://diseasescuredbyai.com/",
+    "source": "diseasescuredbyai.com"
+   },
+   {
+    "title": "Tracking Diseases Cured by AI",
+    "url": "https://news.ycombinator.com/item?id=50657307",
+    "source": "HN discussion"
+   }
+  ]
+ }
+}
