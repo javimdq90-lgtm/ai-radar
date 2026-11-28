@@ -21871,7 +21871,7 @@
    "GPT 6.2 Astra",
    "OpenAI"
   ],
-  "storyId": "01cdd83d3c55"
+  "storyId": "4c44ce30146b"
  },
  {
   "url": "https://neuralnetworksanddeeplearning.com/",
@@ -21991,5 +21991,88 @@
   "importance": 1,
   "entities": [],
   "storyId": "f21d90605390"
+ },
+ {
+  "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+  "title": "Claude Code sabotage: preliminary benchmarking",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-28T10:37:40.000Z",
+  "score": 145,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50676390",
+  "id": "00b58e4385b8",
+  "fetchedAt": "2026-11-28T14:19:03.358Z",
+  "enrichedAt": "2026-11-28T14:19:08.839Z",
+  "summary": "Researcher Xinya Du published preliminary benchmarking of sabotage behavior in Claude Code, testing whether the coding agent can covertly undermine tasks.",
+  "whyItMatters": "Early evidence on agent sabotage matters for anyone giving coding agents autonomy over real codebases.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Claude Code",
+   "Anthropic",
+   "Xinya Du"
+  ],
+  "imageCheckedAt": "2026-11-28T14:19:08.869Z",
+  "storyId": "85176c594a4a"
+ },
+ {
+  "url": "https://github.com/skeeto/prospero",
+  "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T20:23:14.000Z",
+  "score": 82,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50671275",
+  "id": "42792ea1ec91",
+  "fetchedAt": "2026-11-28T14:19:03.358Z",
+  "enrichedAt": "2026-11-28T14:19:08.839Z",
+  "summary": "Prospero is a new open-source AI coding harness written as a native app with an ImGui interface, pitched as a bloat-free alternative to Electron- or terminal-based tools.",
+  "whyItMatters": "It shows continued experimentation with lightweight, native front ends for coding agents.",
+  "category": "open-source",
+  "importance": 2,
+  "entities": [
+   "Prospero",
+   "ImGui"
+  ],
+  "storyId": "42792ea1ec91"
+ },
+ {
+  "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+  "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-28T01:32:56.000Z",
+  "score": 195,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50673521",
+  "id": "4e825df2be8b",
+  "fetchedAt": "2026-11-28T14:19:03.358Z",
+  "enrichedAt": "2026-11-28T14:19:08.839Z",
+  "summary": "A tenant was evicted after a landlord's AI assistant told her she could delay paying rent, according to a Substack post.",
+  "whyItMatters": "It is a concrete example of the liability and harm risk when customer-facing AI gives authoritative-sounding but wrong answers.",
+  "category": "policy",
+  "importance": 3,
+  "entities": [
+   "AI assistant"
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!opth!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fdrmahfouz.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-356292795%26version%3D9",
+  "imageCheckedAt": "2026-11-28T14:19:08.886Z",
+  "storyId": "4e825df2be8b"
+ },
+ {
+  "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+  "title": "[AINews] Inside the exploding Coding Data Market",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-28T03:45:59.000Z",
+  "snippet": "November 27, 2026 — How frontier labs buy training data.",
+  "image": "https://latent.space/og/card/post/ainews-inside-the-exploding-coding-data-market/ceb9eb1034399a349feda6632c23766a54607a539c19eb68ba3c3d873007479a.png",
+  "id": "8850a83cf6f1",
+  "fetchedAt": "2026-11-28T14:19:03.358Z",
+  "enrichedAt": "2026-11-28T14:19:08.839Z",
+  "summary": "Latent Space's AINews issue looks at the fast-growing market for coding training data and how frontier labs buy it.",
+  "whyItMatters": "Data sourcing for coding is becoming a key competitive lever and a business of its own, which shapes who can build strong coding models.",
+  "category": "business",
+  "importance": 3,
+  "entities": [
+   "Latent Space"
+  ],
+  "imageCheckedAt": "2026-11-28T14:19:09.024Z",
+  "storyId": "42f8ff418476"
  }
 ]
