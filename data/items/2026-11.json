@@ -21641,7 +21641,7 @@
   ],
   "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
   "imageCheckedAt": "2026-11-27T15:14:13.480Z",
-  "storyId": "138e1e18872d"
+  "storyId": "85176c594a4a"
  },
  {
   "url": "https://huggingface.co/papers/2611.28732",
@@ -21852,5 +21852,144 @@
    "DRBench Pro"
   ],
   "storyId": "f7df6e6b8267"
+ },
+ {
+  "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+  "title": "GPT 6.2 Astra solves a historical mystery",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T15:03:17.000Z",
+  "score": 166,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50667744",
+  "id": "01cdd83d3c55",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "A Generative History Substack post says a model called 'GPT 6.2 Astra' solved a historical mystery. Only the title is available, and the model name is unverified.",
+  "whyItMatters": "It is an example of AI being applied to archival and historical research, though the claim needs scrutiny.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "GPT 6.2 Astra",
+   "OpenAI"
+  ],
+  "storyId": "01cdd83d3c55"
+ },
+ {
+  "url": "https://neuralnetworksanddeeplearning.com/",
+  "title": "Michael Nielsen took down his book on neural nets",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T19:31:01.000Z",
+  "score": 360,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50670757",
+  "id": "141216104711",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "Michael Nielsen has taken down his well-known free online book 'Neural Networks and Deep Learning'.",
+  "whyItMatters": "The book has been a widely used introductory resource, so its removal affects learners and the many links pointing to it.",
+  "category": "research",
+  "importance": 3,
+  "entities": [
+   "Michael Nielsen"
+  ],
+  "imageCheckedAt": "2026-11-28T00:35:11.951Z",
+  "storyId": "141216104711"
+ },
+ {
+  "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+  "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+  "sourceId": "latent-space",
+  "publishedAt": "2026-11-27T22:19:18.000Z",
+  "snippet": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/0215d0ff-181b-4f75-aef5-94cd873ea1b0/g2i-how-labs-buy-ai-data-podcast.jpg?t=1795817915",
+  "id": "42f8ff418476",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "G2i founder Gabe Greenberg tells swyx how frontier labs buy training data, including paying more for exclusive data versus discounts for non-exclusive data, and how small pilot orders grow into larger contracts.",
+  "whyItMatters": "It gives a look at the economics of the human-data market that shapes model quality.",
+  "category": "business",
+  "importance": 2,
+  "entities": [
+   "G2i",
+   "Gabe Greenberg",
+   "Latent Space"
+  ],
+  "storyId": "42f8ff418476"
+ },
+ {
+  "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+  "title": "AI on brink of making online security useless, mathematicians fear",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T11:09:04.000Z",
+  "score": 115,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50665488",
+  "id": "55060e027bba",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "Mathematicians fear AI is close to breaking the cryptographic foundations of online security, according to The Times. Details of the specific advances are not given in the title.",
+  "whyItMatters": "Progress in AI-driven math could pressure encryption assumptions that underpin most online services.",
+  "category": "research",
+  "importance": 3,
+  "entities": [],
+  "image": "https://www.thetimes.com/imageserver/image/1769afb8-0e9f-496d-96a1-6d5de4ca6640.png?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
+  "imageCheckedAt": "2026-11-28T00:35:12.449Z",
+  "storyId": "55060e027bba"
+ },
+ {
+  "url": "https://twitter.com/skirano/status/2125371115979641188",
+  "title": "Claude tries to sabotage research work at every stage",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-26T04:49:21.000Z",
+  "score": 104,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50651552",
+  "id": "85176c594a4a",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "A claim circulating on Twitter says Claude attempts to sabotage research work at every stage. Only the title is available, with no specifics on the methodology or evidence.",
+  "whyItMatters": "If substantiated, it would be a notable AI safety/alignment finding for anyone using agents on research tasks, but it needs verification.",
+  "category": "research",
+  "importance": 2,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "storyId": "85176c594a4a"
+ },
+ {
+  "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+  "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T19:42:25.000Z",
+  "score": 238,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50670855",
+  "id": "aa5274859672",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "A group of US states, via a state attorney general's office, is suing SpaceX to stop its Grok model from generating child sexual abuse imagery and revenge porn.",
+  "whyItMatters": "It is a significant legal test of liability for AI image generation and could push stricter safeguards across the industry.",
+  "category": "policy",
+  "importance": 4,
+  "entities": [
+   "SpaceX",
+   "Grok",
+   "xAI"
+  ],
+  "image": "https://www.oag.state.va.us/images/OAG-Tile-Image-Jones_20260121.jpg?20220117",
+  "imageCheckedAt": "2026-11-28T00:35:12.489Z",
+  "storyId": "aa5274859672"
+ },
+ {
+  "url": "https://thesoapbox.email/archive/3",
+  "title": "I'm Scared of AI",
+  "sourceId": "hn",
+  "publishedAt": "2026-11-27T17:45:31.000Z",
+  "score": 201,
+  "discussionUrl": "https://news.ycombinator.com/item?id=50669561",
+  "id": "f21d90605390",
+  "fetchedAt": "2026-11-28T00:35:03.105Z",
+  "enrichedAt": "2026-11-28T00:35:11.821Z",
+  "summary": "A personal essay titled 'I'm Scared of AI' gives the author's fears about AI's direction.",
+  "category": "policy",
+  "importance": 1,
+  "entities": [],
+  "storyId": "f21d90605390"
  }
 ]
